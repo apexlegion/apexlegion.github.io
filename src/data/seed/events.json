@@ -1,0 +1,96 @@
+[
+  {
+    "type": "event",
+    "slug": "open-source-ai-summit-2026",
+    "name": "Open Source AI Summit 2026",
+    "startDate": "2026-09-15",
+    "endDate": "2026-09-17",
+    "location": "San Francisco, CA",
+    "format": "in-person",
+    "summary": "The flagship conference for open-weights model builders, framework maintainers, and OSS adopters.",
+    "description": "Three days of deep technical talks, hands-on workshops, and community-led unconference sessions. Topics span training, inference, evaluation, safety, and policy for open AI.",
+    "tags": ["conference", "open-source", "llm"],
+    "externalLinks": [
+      { "label": "Conference site", "href": "https://opensourceaisummit.example" },
+      { "label": "Schedule", "href": "https://opensourceaisummit.example/schedule" }
+    ]
+  },
+  {
+    "type": "event",
+    "slug": "neurips-2026",
+    "name": "NeurIPS 2026",
+    "startDate": "2026-12-10",
+    "endDate": "2026-12-16",
+    "location": "Vancouver, Canada",
+    "format": "in-person",
+    "summary": "The premier machine learning research conference.",
+    "description": "Workshops, tutorials, posters, and main-track papers covering the full breadth of ML research. Multiple open-source AI workshops track in parallel.",
+    "tags": ["conference", "research", "academic"],
+    "externalLinks": [{ "label": "Conference site", "href": "https://neurips.cc" }]
+  },
+  {
+    "type": "event",
+    "slug": "llm-inference-meetup-july",
+    "name": "LLM Inference Meetup — July 2026",
+    "startDate": "2026-07-22",
+    "endDate": "2026-07-22",
+    "location": "Online",
+    "format": "virtual",
+    "summary": "Monthly virtual meetup focused on production LLM inference on open models.",
+    "description": "Lightning talks from llama.cpp, vLLM, and SGLang maintainers, followed by an open Q&A. Free to attend.",
+    "tags": ["meetup", "inference", "virtual"],
+    "externalLinks": [{ "label": "RSVP", "href": "https://llminference.example" }]
+  },
+  {
+    "type": "event",
+    "slug": "eurali-conference-2026",
+    "name": "EuraLi Open AI Conference",
+    "startDate": "2026-10-08",
+    "endDate": "2026-10-10",
+    "location": "Berlin, Germany",
+    "format": "hybrid",
+    "summary": "European conference covering open models, regulation, and AI sovereignty.",
+    "description": "Two days of keynotes and panel discussions plus a third hands-on day for builders. Streamed live for remote attendees.",
+    "tags": ["conference", "europe", "policy", "hybrid"],
+    "externalLinks": [{ "label": "Conference site", "href": "https://eurali.example" }]
+  },
+  {
+    "type": "event",
+    "slug": "agent-hackathon-2026",
+    "name": "Open Agents Hackathon 2026",
+    "startDate": "2026-08-22",
+    "endDate": "2026-08-24",
+    "location": "Online",
+    "format": "virtual",
+    "summary": "48-hour global hackathon building production agents on open-source frameworks.",
+    "description": "Form a team of up to four, pick an open agent framework (LangGraph, CrewAI, AutoGen, OpenHands), and ship a working demo. Top projects get featured in our monthly newsletter.",
+    "tags": ["hackathon", "agents", "virtual"],
+    "externalLinks": [{ "label": "Register", "href": "https://openhack.example" }]
+  },
+  {
+    "type": "event",
+    "slug": "mlops-world-toronto",
+    "name": "MLOps World 2026",
+    "startDate": "2026-11-04",
+    "endDate": "2026-11-06",
+    "location": "Toronto, Canada",
+    "format": "in-person",
+    "summary": "The MLOps community's annual gathering, with a strong open-source track.",
+    "description": "Practitioner-focused talks on training pipelines, evaluation infrastructure, and production deployment of open-weight models.",
+    "tags": ["mlops", "production", "conference"],
+    "externalLinks": [{ "label": "Tickets", "href": "https://mlopsworld.example" }]
+  },
+  {
+    "type": "event",
+    "slug": "ai-safety-unconference-2026",
+    "name": "AI Safety Unconference 2026",
+    "startDate": "2026-09-28",
+    "endDate": "2026-09-29",
+    "location": "London, UK",
+    "format": "hybrid",
+    "summary": "Community-run unconference on open, reproducible AI safety research.",
+    "description": "Attendees propose and host sessions on alignment, interpretability, evaluations, and red-teaming for open models. Format inspired by BarCamps.",
+    "tags": ["safety", "unconference", "research"],
+    "externalLinks": [{ "label": "RSVP", "href": "https://aisafetyuc.example" }]
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "type": "project",
+  "slug": "openai-whisper",
+  "name": "whisper",
+  "summary": "Robust Speech Recognition via Large-Scale Weak Supervision",
+  "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+  "tags": [
+    "python"
+  ],
+  "externalLinks": [
+    {
+      "label": "GitHub repository",
+      "href": "https://github.com/openai/whisper"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2022-09-16",
+      "type": "release",
+      "title": "Repository created",
+      "description": "Initial public commit on openai/whisper."
+    },
+    {
+      "date": "2026-04-15",
+      "type": "update",
+      "title": "Latest activity",
+      "description": "Most recent push recorded by the GitHub API."
+    }
+  ],
+  "category": "Frameworks",
+  "repository": "https://github.com/openai/whisper",
+  "license": "MIT",
+  "health": {
+    "recentCommit": 0,
+    "releaseFrequency": 0.5,
+    "popularity": 0,
+    "documentation": 0,
+    "license": 1,
+    "total": 0.175
+  }
+}

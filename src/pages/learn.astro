@@ -1,0 +1,98 @@
+---
+/**
+ * /learn — learning hub that surfaces tutorials and concepts.
+ *
+ * The "Learn" link appears in the global navigation; this page gives it a
+ * dedicated landing surface and funnels visitors into the two primary
+ * learning content types.
+ */
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Section from '@/components/layout/Section.astro';
+import Grid from '@/components/layout/Grid.astro';
+import Breadcrumbs from '@/components/layout/Breadcrumbs.astro';
+import { Card, CardBody, CardFooter, CardHeader } from '@/components/ui/Card';
+import { Badge } from '@/components/ui/Badge';
+import { Tag } from '@/components/ui/Tag';
+import { Button } from '@/components/ui/Button';
+import { getEntitiesByType } from '@/lib/data/entities';
+
+const tutorials = getEntitiesByType('tutorial');
+const concepts = getEntitiesByType('concept');
+---
+
+<SiteShell
+  title="Learn — AI Atlas"
+  description="Tutorials and concepts for every level of AI engineer."
+>
+  <Container class="flex flex-col gap-6 py-10">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Learn' }]} />
+    <header class="flex flex-col gap-2">
+      <Badge variant="tutorial">Learn</Badge>
+      <h1 class="text-text text-h1 font-bold tracking-tight md:text-5xl">Learn Open Source AI</h1>
+      <p class="text-text-muted text-body max-w-prose">
+        Diagram-first tutorials and plain-language concepts, taught at the level that fits you.
+      </p>
+    </header>
+
+    <Section>
+      <div class="flex flex-col gap-4">
+        <div class="flex items-center justify-between">
+          <h2 class="text-text text-h2 font-semibold">Tutorials</h2>
+          <Button as="a" href="/tutorials" variant="ghost" size="sm">Browse all tutorials →</Button>
+        </div>
+        <Grid cols={{ base: 1, md: 2, lg: 3 }} gap={6}>
+          {
+            tutorials.slice(0, 3).map((t) => (
+              <Card variant="interactive" href={`/tutorials/${t.slug}`}>
+                <CardHeader>
+                  <div class="flex flex-wrap items-center gap-2">
+                    <Tag>{t.level}</Tag>
+                    <Tag>{t.format}</Tag>
+                  </div>
+                  <h3 class="text-text text-h3 mt-2 font-semibold">{t.name}</h3>
+                  <span class="text-text-subtle text-tiny mt-1 font-mono">
+                    {t.durationMinutes} min
+                  </span>
+                </CardHeader>
+                <CardBody>{t.summary}</CardBody>
+                <CardFooter>
+                  <Button variant="ghost" size="sm">
+                    Start tutorial →
+                  </Button>
+                </CardFooter>
+              </Card>
+            ))
+          }
+        </Grid>
+      </div>
+    </Section>
+
+    <Section>
+      <div class="flex flex-col gap-4">
+        <div class="flex items-center justify-between">
+          <h2 class="text-text text-h2 font-semibold">Concepts</h2>
+          <Button as="a" href="/concepts" variant="ghost" size="sm">Browse all concepts →</Button>
+        </div>
+        <Grid cols={{ base: 1, md: 2, lg: 3 }} gap={6}>
+          {
+            concepts.slice(0, 3).map((c) => (
+              <Card variant="interactive" href={`/concepts/${c.slug}`}>
+                <CardHeader>
+                  <Tag>{c.level}</Tag>
+                  <h3 class="text-text text-h3 mt-2 font-semibold">{c.name}</h3>
+                </CardHeader>
+                <CardBody>{c.summary}</CardBody>
+                <CardFooter>
+                  <Button variant="ghost" size="sm">
+                    Read concept →
+                  </Button>
+                </CardFooter>
+              </Card>
+            ))
+          }
+        </Grid>
+      </div>
+    </Section>
+  </Container>
+</SiteShell>

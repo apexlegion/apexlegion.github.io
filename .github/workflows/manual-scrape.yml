@@ -1,0 +1,85 @@
+name: Manual Scrape
+
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: 'Data source to scrape'
+        required: true
+        type: choice
+        default: 'all'
+        options:
+          - github
+          - huggingface
+          - all
+
+permissions:
+  contents: write
+
+concurrency:
+  group: manual-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    name: Scrape (${{ inputs.source }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        run: echo "STORE=$(pnpm config get store-dir)" >> "$GITHUB_OUTPUT"
+
+      - name: Cache pnpm store
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE }}
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Run scrape
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: pnpm run scrape:all --source=${{ inputs.source }}
+
+      - name: Validate normalized data
+        run: pnpm run data:validate
+
+      - name: Regenerate indexes
+        run: pnpm run data:index
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore(data): manual scrape (${{ inputs.source }})" \
+              -m "Manual run via workflow_dispatch with source=${{ inputs.source }}." \
+              -m "" \
+              -m "Co-Authored-By: Kimchi <noreply@kimchi.dev>"
+            git push
+          fi

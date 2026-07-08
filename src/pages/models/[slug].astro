@@ -1,0 +1,24 @@
+---
+import EntityDetail from '@/components/entity/EntityDetail.astro';
+import { getEntitiesByType } from '@/lib/data/entities';
+
+export async function getStaticPaths() {
+  return getEntitiesByType('model').map((m) => ({
+    params: { slug: m.slug },
+    props: { entity: m },
+  }));
+}
+
+const { entity } = Astro.props;
+---
+
+<EntityDetail
+  entity={entity}
+  breadcrumbs={[
+    { label: 'Home', href: '/' },
+    { label: 'Models', href: '/models' },
+    { label: entity.name },
+  ]}
+  learnNext={[]}
+  compareHref={`/compare?a=${entity.slug}`}
+/>

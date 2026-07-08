@@ -1,0 +1,86 @@
+[
+  {
+    "type": "model",
+    "slug": "llama-3",
+    "name": "Llama 3",
+    "modality": "Text",
+    "parameters": "8B / 70B",
+    "summary": "Meta's open flagship large language model.",
+    "description": "Llama 3 is Meta's third-generation open LLM. It is released in 8B and 70B parameter sizes with a 128k vocabulary tokenizer, a 128k context window, and improved reasoning and instruction-following performance over Llama 2.",
+    "tags": ["llm", "meta", "open-weights"],
+    "license": "Llama 3 Community License",
+    "publishedBy": "Meta",
+    "externalLinks": [
+      { "label": "Meta AI announcement", "href": "https://ai.meta.com/blog/meta-llama-3/" },
+      { "label": "Hugging Face model card", "href": "https://huggingface.co/meta-llama" }
+    ],
+    "timeline": [
+      {
+        "date": "2024-04-18",
+        "type": "release",
+        "title": "Llama 3 released",
+        "description": "Open weights for 8B and 70B parameter chat and base models."
+      },
+      {
+        "date": "2024-07-23",
+        "type": "update",
+        "title": "Llama 3.1 405B",
+        "description": "Frontier-class open weights released under a permissive license."
+      }
+    ]
+  },
+  {
+    "type": "model",
+    "slug": "mistral-7b",
+    "name": "Mistral 7B",
+    "modality": "Text",
+    "parameters": "7.24B",
+    "summary": "High-quality 7B-parameter open language model.",
+    "description": "Mistral 7B demonstrated that a carefully trained 7B model could outperform the larger Llama 2 13B across reasoning, math, and code benchmarks. It popularized sliding-window attention and grouped-query attention in the open ecosystem.",
+    "tags": ["llm", "mistral", "open-weights"],
+    "license": "Apache-2.0",
+    "publishedBy": "Mistral AI",
+    "externalLinks": [
+      { "label": "Mistral announcement", "href": "https://mistral.ai/news/announcing-mistral-7b/" }
+    ],
+    "timeline": [
+      {
+        "date": "2023-09-27",
+        "type": "release",
+        "title": "Mistral 7B released",
+        "description": "First Mistral open release, Apache 2.0 licensed."
+      },
+      {
+        "date": "2023-12-11",
+        "type": "update",
+        "title": "Mistral 7B v0.2",
+        "description": "Extended vocabulary and improved instruction following."
+      }
+    ]
+  },
+  {
+    "type": "model",
+    "slug": "stable-diffusion-xl",
+    "name": "Stable Diffusion XL",
+    "modality": "Image",
+    "summary": "Two-stage text-to-image model with stunning fidelity.",
+    "description": "Stable Diffusion XL (SDXL) combines a base UNet and a refiner UNet trained at 1024×1024 resolution. It dramatically improves photorealism, prompt adherence, and typography over the SD 1.5 baseline.",
+    "tags": ["image", "diffusion", "stability"],
+    "license": "CreativeML Open RAIL-M",
+    "publishedBy": "Stability AI",
+    "externalLinks": [
+      {
+        "label": "Stability AI announcement",
+        "href": "https://stability.ai/news/stable-diffusion-xl"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2023-07-26",
+        "type": "release",
+        "title": "SDXL 1.0 released",
+        "description": "Base + refiner pipeline, open weights under RAIL-M."
+      }
+    ]
+  }
+]

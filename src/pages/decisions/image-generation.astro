@@ -1,0 +1,25 @@
+---
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Breadcrumbs from '@/components/layout/Breadcrumbs.astro';
+import { getDecisionProfileBySlug } from '@/lib/data/entities';
+import { ImageGenerationDecision } from '@/components/decisions/ImageGenerationDecision';
+
+const profile = getDecisionProfileBySlug('image-generation');
+if (!profile) {
+  throw new Error('Missing decision profile: image-generation');
+}
+---
+
+<SiteShell title={`${profile.name} — AI Atlas`} description={profile.summary}>
+  <Container class="flex flex-col gap-6 py-10">
+    <Breadcrumbs
+      items={[
+        { label: 'Home', href: '/' },
+        { label: 'Decisions', href: '/decisions' },
+        { label: profile.name },
+      ]}
+    />
+    <ImageGenerationDecision client:load profile={profile} />
+  </Container>
+</SiteShell>

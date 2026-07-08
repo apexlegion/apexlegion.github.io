@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-07-08T19:37:03.182Z",
+  "counts": {
+    "project": 5,
+    "model": 5
+  },
+  "items": {
+    "project": [
+      "project/automatic1111-stable-diffusion-webui",
+      "project/comfy-org-comfyui",
+      "project/deepspeedai-deepspeed",
+      "project/openai-whisper",
+      "project/openbmb-minicpm"
+    ],
+    "model": [
+      "model/meta-llama-meta-llama-3-8b",
+      "model/mistralai-mistral-7b-v0-1",
+      "model/openai-whisper-large-v3",
+      "model/sentence-transformers-all-minilm-l6-v2",
+      "model/stabilityai-stable-diffusion-xl-base-1-0"
+    ]
+  }
+}

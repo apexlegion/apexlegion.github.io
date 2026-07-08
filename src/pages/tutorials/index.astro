@@ -1,0 +1,54 @@
+---
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Section from '@/components/layout/Section.astro';
+import Grid from '@/components/layout/Grid.astro';
+import Breadcrumbs from '@/components/layout/Breadcrumbs.astro';
+import { Card, CardBody, CardFooter, CardHeader } from '@/components/ui/Card';
+import { Badge } from '@/components/ui/Badge';
+import { Tag } from '@/components/ui/Tag';
+import { Button } from '@/components/ui/Button';
+import { getEntitiesByType } from '@/lib/data/entities';
+
+const tutorials = getEntitiesByType('tutorial');
+---
+
+<SiteShell title="Tutorials — AI Atlas" description="Visual tutorials for every level.">
+  <Container class="flex flex-col gap-6 py-10">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Tutorials' }]} />
+    <header class="flex flex-col gap-2">
+      <Badge variant="tutorial">Tutorials</Badge>
+      <h1 class="text-text text-h1 font-bold tracking-tight md:text-5xl">Visual tutorials</h1>
+      <p class="text-text-muted text-body max-w-prose">
+        Diagram-first, code-backed learning paths for every level of AI engineer.
+      </p>
+    </header>
+
+    <Section containerSize="wide">
+      <Grid cols={{ base: 1, md: 2, lg: 3 }} gap={6}>
+        {
+          tutorials.map((t) => (
+            <Card variant="interactive" href={`/tutorials/${t.slug}`}>
+              <CardHeader>
+                <div class="flex flex-wrap items-center gap-2">
+                  <Tag>{t.level}</Tag>
+                  <Tag>{t.format}</Tag>
+                </div>
+                <h2 class="text-text text-h3 mt-2 font-semibold">{t.name}</h2>
+                <span class="text-text-subtle text-tiny mt-1 font-mono">
+                  {t.durationMinutes} min
+                </span>
+              </CardHeader>
+              <CardBody>{t.summary}</CardBody>
+              <CardFooter>
+                <Button variant="ghost" size="sm">
+                  Start tutorial →
+                </Button>
+              </CardFooter>
+            </Card>
+          ))
+        }
+      </Grid>
+    </Section>
+  </Container>
+</SiteShell>

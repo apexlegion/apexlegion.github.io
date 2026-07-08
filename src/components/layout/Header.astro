@@ -1,0 +1,56 @@
+---
+/**
+ * Header — sticky top navigation.
+ *
+ * Hosts the GlobalNav and applies a blurred backdrop on scroll via inline
+ * script (zero-JS fallback renders the nav plainly).
+ */
+import GlobalNav from './GlobalNav.astro';
+import { DEFAULT_LOCALE, normalizeLocale, type Locale } from '@/i18n/utils';
+
+export interface Props {
+  links?: { label: string; href: string }[];
+  lang?: string;
+}
+
+const {
+  links = [
+    { label: 'Learn', href: '/learn' },
+    { label: 'Projects', href: '/projects' },
+    { label: 'Models', href: '/models' },
+    { label: 'Glossary', href: '/glossary' },
+    { label: 'Tools', href: '/tools' },
+    { label: 'Playgrounds', href: '/playgrounds' },
+    { label: 'Decisions', href: '/decisions' },
+    { label: 'Compare', href: '/compare' },
+    { label: 'Graph', href: '/graph' },
+    { label: 'News', href: '/news' },
+    { label: 'Dashboard', href: '/dashboard' },
+  ],
+  lang,
+} = Astro.props;
+
+const resolvedLang: Locale = normalizeLocale(lang ?? DEFAULT_LOCALE);
+---
+
+<header
+  id="site-header"
+  class="bg-surface/80 border-border sticky top-0 z-40 border-b backdrop-blur-md"
+>
+  <GlobalNav links={links} lang={resolvedLang} />
+</header>
+
+<script>
+  const header = document.getElementById('site-header');
+  if (header) {
+    const onScroll = () => {
+      if (window.scrollY > 8) {
+        header.classList.add('shadow-md');
+      } else {
+        header.classList.remove('shadow-md');
+      }
+    };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+  }
+</script>

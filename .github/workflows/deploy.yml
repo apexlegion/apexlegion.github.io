@@ -1,0 +1,92 @@
+name: Deploy to GitHub Pages
+
+# Builds the static site and publishes it to GitHub Pages.
+#
+# Triggers:
+#   - push to main            → redeploy whenever code OR scraped data changes.
+#     (The daily data-update / news-expiry workflows commit to main, which
+#      fires this workflow, so the live site refreshes within minutes of new
+#      data landing — satisfying the "updates every 24h, zero backend" goal.)
+#   - workflow_dispatch       → deploy on demand from the Actions tab.
+#
+# Requirements (one-time, in the repo settings):
+#   Settings → Pages → Build and deployment → Source = "GitHub Actions".
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Least-privilege token scoped for Pages deployment.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never run two deploys at once; let an in-flight deploy finish.
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build static site
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        run: echo "STORE=$(pnpm config get store-dir)" >> "$GITHUB_OUTPUT"
+
+      - name: Cache pnpm store
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE }}
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build
+        env:
+          # actions/configure-pages resolves the correct public origin for the
+          # Pages site (custom domain or <owner>.github.io) so canonical URLs,
+          # sitemap.xml, and structured data all point at the live host.
+          PUBLIC_SITE_URL: ${{ steps.pages.outputs.origin }}
+        run: pnpm run build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    name: Publish to Pages
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

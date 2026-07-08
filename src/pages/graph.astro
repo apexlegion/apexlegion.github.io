@@ -1,0 +1,107 @@
+---
+/**
+ * /graph — full-page knowledge graph explorer.
+ *
+ * Loads every entity + relation from the seed data, passes them to the
+ * `GraphExplorer` React island, and reads the initial filter/selection
+ * from URL query params so users land on the exact view they shared.
+ */
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Section from '@/components/layout/Section.astro';
+import Breadcrumbs from '@/components/layout/Breadcrumbs.astro';
+import { Badge } from '@/components/ui/Badge';
+import { GraphExplorer } from '@/components/graph';
+import { getAdjacencyList, getAllNodes, getAllRelations } from '@/lib/data/entities';
+import type { EntityType } from '@/lib/graph/types';
+import { buildReverseAdjacencyList } from '@/lib/graph/build';
+
+// Forward adjacency is what the data layer exposes; build a reverse
+// adjacency once so the sidebar can show incoming edges.
+const forward = getAdjacencyList();
+const reverse = buildReverseAdjacencyList(getAllNodes(), getAllRelations());
+
+// Read initial filter + selection from the URL so a shared link like
+// `/graph?selected=project/llama-cpp&type=project,model` lands on the
+// exact same view.
+const url = Astro.url;
+const selectedParam = url.searchParams.get('selected');
+const typeParam = url.searchParams.get('type');
+
+const initialSelectedId =
+  selectedParam && getAllNodes().some((n) => n.id === selectedParam) ? selectedParam : undefined;
+
+const initialTypes: EntityType[] = typeParam
+  ? typeParam
+      .split(',')
+      .map((value) => value.trim())
+      .filter((value): value is EntityType => value.length > 0)
+  : [];
+
+const nodes = getAllNodes();
+const edges = getAllRelations();
+
+const stats = {
+  nodeCount: nodes.length,
+  edgeCount: edges.length,
+  typeCount: new Set(nodes.map((n) => n.type)).size,
+};
+---
+
+<SiteShell
+  title="Knowledge graph — AI Atlas"
+  description="Explore the connected universe of Open Source AI projects, models, concepts, and tutorials."
+>
+  <Container class="flex flex-col gap-6 py-10">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Knowledge graph' }]} />
+    <header class="flex flex-col gap-3">
+      <Badge variant="concept">Phase 2</Badge>
+      <h1 class="text-text text-h1 font-bold tracking-tight md:text-5xl">
+        Knowledge graph explorer
+      </h1>
+      <p class="text-text-muted text-body max-w-prose">
+        Every project, model, concept, and tutorial in AI Atlas is part of a single connected graph.
+        Filter by type, search to focus a node, then click to expand its neighbourhood.
+      </p>
+      <ul class="text-text-muted text-small flex flex-wrap gap-4" aria-label="Graph statistics">
+        <li><span class="text-text font-mono">{stats.nodeCount}</span> nodes</li>
+        <li><span class="text-text font-mono">{stats.edgeCount}</span> edges</li>
+        <li><span class="text-text font-mono">{stats.typeCount}</span> entity types</li>
+      </ul>
+    </header>
+
+    <Section eyebrow="Explorer" title="Traverse the graph" containerSize="wide">
+      <GraphExplorer
+        client:load
+        nodes={nodes}
+        edges={edges}
+        adjacency={forward}
+        reverseAdjacency={reverse}
+        initialTypes={initialTypes}
+        initialSelectedId={initialSelectedId ?? undefined}
+        availableTypes={['project', 'model', 'concept', 'tutorial', 'paper', 'benchmark']}
+      />
+    </Section>
+
+    <Section
+      eyebrow="Tip"
+      title="Share what you find"
+      description="The explorer's filter and selected node are encoded in the URL — copy it with the Share view button or just copy the address bar."
+      containerSize="wide"
+    >
+      <ul class="text-text-muted text-small flex flex-col gap-2">
+        <li>
+          <span class="text-text font-mono">?selected=project/llama-cpp</span> focuses a specific node.
+        </li>
+        <li>
+          <span class="text-text font-mono">?type=project,model</span> limits the graph to those types.
+        </li>
+        <li>
+          Combine both: <span class="text-text font-mono"
+            >/graph?selected=model/llama-3&amp;type=project,model,concept</span
+          >.
+        </li>
+      </ul>
+    </Section>
+  </Container>
+</SiteShell>

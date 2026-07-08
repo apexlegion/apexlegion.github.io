@@ -1,0 +1,27 @@
+---
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Section from '@/components/layout/Section.astro';
+import Breadcrumbs from '@/components/layout/Breadcrumbs.astro';
+import SavedItemsList from '@/components/collections/SavedItemsList';
+---
+
+<SiteShell
+  title="Dashboard — AI Atlas"
+  description="Your personal AI Atlas dashboard — bookmarks and saved entities live here."
+>
+  <Container class="flex flex-col gap-8 py-10">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Dashboard' }]} />
+    <header class="flex flex-col gap-3">
+      <h1 class="text-text text-h1 font-bold tracking-tight md:text-5xl">Your dashboard</h1>
+      <p class="text-text-muted text-body max-w-prose">
+        Projects, models, and tutorials you have bookmarked. Everything below is stored locally in
+        this browser — there is no account and nothing is sent to a server.
+      </p>
+    </header>
+
+    <Section containerSize="wide">
+      <SavedItemsList client:load />
+    </Section>
+  </Container>
+</SiteShell>

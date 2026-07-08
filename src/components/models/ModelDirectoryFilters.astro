@@ -1,0 +1,149 @@
+---
+/**
+ * Client-side filter/sort controller for the models directory.
+ *
+ * Reads `data-modality` and `data-parameters` attributes from each card and
+ * toggles visibility based on the selected modality filter and sort order.
+ *
+ * Renders nothing of substance — it just wires event handlers.
+ */
+---
+
+<div
+  data-models-filter
+  class="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between"
+>
+  <div role="group" aria-label="Filter by modality" class="flex flex-wrap items-center gap-2">
+    <span class="text-text-subtle text-tiny font-semibold tracking-wide uppercase">Filter</span>
+    <button
+      type="button"
+      data-modality-chip="all"
+      aria-pressed="true"
+      data-active="true"
+      class="border-border-strong bg-surface-elevated text-text data-[active=true]:border-primary-orange data-[active=true]:text-primary-orange text-small focus-visible:ring-primary-orange focus-visible:ring-offset-surface inline-flex h-9 items-center rounded-full border px-3 font-medium transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+    >
+      All
+    </button>
+    <button
+      type="button"
+      data-modality-chip="Text"
+      aria-pressed="false"
+      data-active="false"
+      class="border-border bg-surface-elevated text-text-muted hover:text-text data-[active=true]:border-primary-orange data-[active=true]:text-primary-orange text-small focus-visible:ring-primary-orange focus-visible:ring-offset-surface inline-flex h-9 items-center rounded-full border px-3 font-medium transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+    >
+      Text
+    </button>
+    <button
+      type="button"
+      data-modality-chip="Vision"
+      aria-pressed="false"
+      data-active="false"
+      class="border-border bg-surface-elevated text-text-muted hover:text-text data-[active=true]:border-primary-orange data-[active=true]:text-primary-orange text-small focus-visible:ring-primary-orange focus-visible:ring-offset-surface inline-flex h-9 items-center rounded-full border px-3 font-medium transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+    >
+      Vision
+    </button>
+    <button
+      type="button"
+      data-modality-chip="Audio"
+      aria-pressed="false"
+      data-active="false"
+      class="border-border bg-surface-elevated text-text-muted hover:text-text data-[active=true]:border-primary-orange data-[active=true]:text-primary-orange text-small focus-visible:ring-primary-orange focus-visible:ring-offset-surface inline-flex h-9 items-center rounded-full border px-3 font-medium transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+    >
+      Audio
+    </button>
+    <button
+      type="button"
+      data-modality-chip="Multimodal"
+      aria-pressed="false"
+      data-active="false"
+      class="border-border bg-surface-elevated text-text-muted hover:text-text data-[active=true]:border-primary-orange data-[active=true]:text-primary-orange text-small focus-visible:ring-primary-orange focus-visible:ring-offset-surface inline-flex h-9 items-center rounded-full border px-3 font-medium transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+    >
+      Multimodal
+    </button>
+  </div>
+
+  <label class="flex items-center gap-2">
+    <span class="text-text-subtle text-tiny font-semibold tracking-wide uppercase">Sort</span>
+    <select
+      data-models-sort
+      class="border-border bg-surface-elevated text-text focus-visible:ring-primary-orange focus-visible:ring-offset-surface text-small h-9 rounded-md border px-2 transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+    >
+      <option value="alpha">Alphabetical</option>
+      <option value="params-asc">Parameters (low to high)</option>
+      <option value="params-desc">Parameters (high to low)</option>
+    </select>
+  </label>
+</div>
+
+<p data-models-empty hidden class="text-text-subtle text-small">No models match this filter.</p>
+
+<script>
+  type SortMode = 'alpha' | 'params-asc' | 'params-desc';
+
+  const filterRoot = document.querySelector<HTMLElement>('[data-models-filter]');
+  const sortSelect = document.querySelector<HTMLSelectElement>('[data-models-sort]');
+  const emptyMsg = document.querySelector<HTMLElement>('[data-models-empty]');
+
+  if (filterRoot && sortSelect) {
+    const chips = filterRoot.querySelectorAll<HTMLButtonElement>('[data-modality-chip]');
+    const cards = Array.from(document.querySelectorAll<HTMLElement>('[data-model-card]'));
+
+    const parseParams = (raw: string | null): number => {
+      if (!raw) return Number.POSITIVE_INFINITY;
+      const match = raw.match(/([0-9]+(?:\.[0-9]+)?)\s*([BMK])?/i);
+      if (!match) return Number.POSITIVE_INFINITY;
+      const value = parseFloat(match[1]);
+      const suffix = (match[2] ?? '').toUpperCase();
+      if (suffix === 'K') return value / 1_000_000;
+      if (suffix === 'M') return value / 1_000;
+      if (suffix === 'B') return value;
+      return value;
+    };
+
+    let activeModality = 'all';
+    let sortMode: SortMode = 'alpha';
+
+    const apply = (): void => {
+      let visibleCount = 0;
+      for (const card of cards) {
+        const modality = card.dataset.modality ?? '';
+        const matches =
+          activeModality === 'all' || modality.toLowerCase() === activeModality.toLowerCase();
+        card.hidden = !matches;
+        if (matches) visibleCount += 1;
+      }
+
+      const sorted = [...cards].sort((a, b) => {
+        if (sortMode === 'alpha') {
+          return (a.dataset.name ?? '').localeCompare(b.dataset.name ?? '');
+        }
+        const pa = parseParams(a.dataset.parameters ?? null);
+        const pb = parseParams(b.dataset.parameters ?? null);
+        return sortMode === 'params-asc' ? pa - pb : pb - pa;
+      });
+      const parent = cards[0]?.parentElement;
+      if (parent) {
+        for (const card of sorted) parent.appendChild(card);
+      }
+
+      if (emptyMsg) emptyMsg.hidden = visibleCount > 0;
+    };
+
+    chips.forEach((chip) => {
+      chip.addEventListener('click', () => {
+        activeModality = chip.dataset.modalityChip ?? 'all';
+        chips.forEach((c) => {
+          const isActive = c === chip;
+          c.dataset.active = isActive ? 'true' : 'false';
+          c.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+        });
+        apply();
+      });
+    });
+
+    sortSelect.addEventListener('change', () => {
+      sortMode = (sortSelect.value as SortMode) ?? 'alpha';
+      apply();
+    });
+  }
+</script>

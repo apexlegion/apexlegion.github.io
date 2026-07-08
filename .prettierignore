@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.astro/
+.output/
+.cache/
+coverage/
+playwright-report/
+test-results/
+pnpm-lock.yaml
+.kimchi/docs/

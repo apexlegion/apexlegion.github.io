@@ -1,0 +1,25 @@
+---
+/**
+ * Grid — responsive 12-column grid helper.
+ *
+ * `cols` defaults to { base: 1, md: 2, lg: 3 } for card-style layouts.
+ */
+export interface Props {
+  cols?: { base?: number; sm?: number; md?: number; lg?: number; xl?: number };
+  gap?: 2 | 3 | 4 | 6 | 8;
+  class?: string;
+}
+
+const { cols = { base: 1, md: 2, lg: 3 }, gap = 6, class: className = '' } = Astro.props;
+
+const colClasses: string[] = [];
+if (cols.base) colClasses.push(`grid-cols-${cols.base}`);
+if (cols.sm) colClasses.push(`sm:grid-cols-${cols.sm}`);
+if (cols.md) colClasses.push(`md:grid-cols-${cols.md}`);
+if (cols.lg) colClasses.push(`lg:grid-cols-${cols.lg}`);
+if (cols.xl) colClasses.push(`xl:grid-cols-${cols.xl}`);
+---
+
+<div class:list={['grid', `gap-${gap}`, ...colClasses, className]}>
+  <slot />
+</div>

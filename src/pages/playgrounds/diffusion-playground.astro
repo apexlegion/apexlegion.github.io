@@ -1,0 +1,32 @@
+---
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Breadcrumbs from '@/components/layout/Breadcrumbs.astro';
+import { getPlaygroundBySlug } from '@/lib/data/entities';
+import { DiffusionPlayground } from '@/components/playgrounds/DiffusionPlayground';
+
+const playground = getPlaygroundBySlug('diffusion-playground');
+if (!playground) {
+  throw new Error('Missing playground metadata: diffusion-playground');
+}
+---
+
+<SiteShell title={`${playground.name} — AI Atlas`} description={playground.summary}>
+  <Container class="flex flex-col gap-6 py-10">
+    <Breadcrumbs
+      items={[
+        { label: 'Home', href: '/' },
+        { label: 'Playgrounds', href: '/playgrounds' },
+        { label: playground.name },
+      ]}
+    />
+    <DiffusionPlayground
+      client:load
+      title={playground.name}
+      description={playground.description}
+      difficulty={playground.difficulty}
+      estimatedMinutes={playground.estimatedMinutes}
+      relatedConcepts={playground.relatedConcepts}
+    />
+  </Container>
+</SiteShell>

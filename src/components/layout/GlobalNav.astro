@@ -1,0 +1,106 @@
+---
+/**
+ * GlobalNav — logo, main links, search trigger, theme toggle.
+ *
+ * Renders a full nav on desktop and a hamburger trigger on mobile. The
+ * search button dispatches a `palette:open` custom event consumed by the
+ * CommandPalette island.
+ */
+import { ThemeToggle } from '@/components/ui/ThemeToggle';
+import { LanguageSwitcher } from '@/components/i18n/LanguageSwitcher';
+import { DEFAULT_LOCALE, normalizeLocale, type Locale, getTranslations } from '@/i18n/utils';
+
+export interface Props {
+  links: { label: string; href: string }[];
+  lang?: string;
+}
+
+const { links, lang } = Astro.props;
+const resolvedLang: Locale = normalizeLocale(lang ?? DEFAULT_LOCALE);
+const homeHref = resolvedLang === 'es' ? '/es' : '/';
+const labels = getTranslations(resolvedLang);
+---
+
+<nav
+  aria-label="Global"
+  class="max-w-dashboard mx-auto flex h-16 w-full items-center justify-between gap-4 px-4 md:px-8"
+>
+  <a
+    href={homeHref}
+    class="text-text hover:text-primary-orange inline-flex items-center gap-2 font-bold tracking-tight transition-colors"
+    aria-label="AI Atlas home"
+  >
+    <span
+      aria-hidden="true"
+      class="bg-primary-orange text-text-inverse inline-flex h-8 w-8 items-center justify-center rounded-md font-mono text-sm"
+    >
+      AI
+    </span>
+    <span class="text-body">AI Atlas</span>
+  </a>
+
+  <ul class="hidden items-center gap-1 md:flex" role="list">
+    {
+      links.map((link) => (
+        <li>
+          <a
+            href={link.href}
+            class="text-text-muted hover:text-text text-small hover:bg-surface-elevated focus-visible:ring-primary-orange focus-visible:ring-offset-surface inline-flex h-11 items-center rounded-md px-3 font-medium transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+          >
+            {link.label}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  <div class="flex items-center gap-2">
+    <button
+      type="button"
+      data-palette-trigger
+      aria-label={labels['common.openSearch'] ?? 'Open search (press /)'}
+      class="text-text-muted hover:text-text border-border hover:border-border-strong bg-surface-elevated text-small focus-visible:ring-primary-orange focus-visible:ring-offset-surface inline-flex h-11 items-center gap-2 rounded-md border px-3 transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+    >
+      <span aria-hidden="true">⌕</span>
+      <span class="hidden sm:inline">{labels['nav.search'] ?? 'Search'}</span>
+      <kbd
+        class="bg-surface text-text-subtle text-tiny hidden rounded px-1.5 py-0.5 font-mono sm:inline"
+        >/</kbd
+      >
+    </button>
+    <LanguageSwitcher
+      client:load
+      currentLocale={resolvedLang === 'es' ? 'es' : 'en'}
+      currentPath={Astro.url.pathname}
+      labels={{
+        switcher: labels['language.switcher'],
+        english: labels['language.english'],
+        spanish: labels['language.spanish'],
+      }}
+    />
+    <ThemeToggle client:load />
+    <button
+      type="button"
+      data-mobile-trigger
+      aria-label={labels['common.openMenu'] ?? 'Open menu'}
+      class="text-text-muted hover:text-text hover:bg-surface-elevated focus-visible:ring-primary-orange focus-visible:ring-offset-surface inline-flex h-11 w-11 items-center justify-center rounded-md focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none md:hidden"
+    >
+      <span aria-hidden="true" class="text-xl">☰</span>
+    </button>
+  </div>
+</nav>
+
+<script>
+  const triggers = document.querySelectorAll('[data-palette-trigger]');
+  triggers.forEach((el) => {
+    el.addEventListener('click', () => {
+      window.dispatchEvent(new CustomEvent('palette:open'));
+    });
+  });
+  const mobileTriggers = document.querySelectorAll('[data-mobile-trigger]');
+  mobileTriggers.forEach((el) => {
+    el.addEventListener('click', () => {
+      window.dispatchEvent(new CustomEvent('mobile-menu:open'));
+    });
+  });
+</script>

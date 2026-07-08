@@ -1,0 +1,47 @@
+---
+import EntityDetail from '@/components/entity/EntityDetail.astro';
+import { LevelSwitcher } from '@/components/explain/LevelSwitcher';
+import { LevelContent } from '@/components/levels/LevelContent';
+import { getEntitiesByType } from '@/lib/data/entities';
+import { LEVEL_IDS, type LevelId } from '@/lib';
+
+export async function getStaticPaths() {
+  return getEntitiesByType('concept').map((c) => ({
+    params: { slug: c.slug },
+    props: { entity: c },
+  }));
+}
+
+const { entity } = Astro.props;
+const initialLevel = (LEVEL_IDS as readonly string[]).includes(entity.level)
+  ? (entity.level as LevelId)
+  : ('student' as LevelId);
+const hasLevels = Boolean(entity.levels && Object.keys(entity.levels).length > 0);
+---
+
+<EntityDetail
+  entity={entity}
+  breadcrumbs={[
+    { label: 'Home', href: '/' },
+    { label: 'Concepts', href: '/concepts' },
+    { label: entity.name },
+  ]}
+  learnNext={[]}
+  compareHref={`/compare?a=${entity.slug}`}
+>
+  <div slot="header" class="flex flex-col gap-4">
+    <div class="bg-surface-card border-border rounded-lg border p-4">
+      <LevelSwitcher client:load active={initialLevel} onChange={() => undefined} />
+    </div>
+    {
+      hasLevels ? (
+        <LevelContent
+          client:load
+          levels={entity.levels ?? {}}
+          defaultLevel={initialLevel}
+          entityId={`concept:${entity.slug}`}
+        />
+      ) : null
+    }
+  </div>
+</EntityDetail>

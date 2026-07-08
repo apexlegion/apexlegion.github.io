@@ -1,0 +1,201 @@
+[
+  {
+    "type": "concept",
+    "slug": "transformer",
+    "name": "Transformer",
+    "level": "student",
+    "summary": "Attention-based neural network architecture that powers modern AI.",
+    "description": "The Transformer is a neural network architecture introduced in the 2017 paper 'Attention Is All You Need'. It replaces recurrence and convolution with self-attention, which lets every token attend to every other token in constant path length. Transformers are the backbone of modern language, vision, audio, and multimodal models.",
+    "tags": ["architecture", "deep-learning", "attention"],
+    "externalLinks": [{ "label": "Original paper", "href": "https://arxiv.org/abs/1706.03762" }],
+    "timeline": [
+      {
+        "date": "2017-06-12",
+        "type": "paper",
+        "title": "Attention Is All You Need",
+        "description": "Vaswani et al. introduce the Transformer architecture."
+      },
+      {
+        "date": "2018-10-11",
+        "type": "release",
+        "title": "BERT and GPT-1",
+        "description": "Encoder- and decoder-only Transformers show strong transfer learning."
+      },
+      {
+        "date": "2019-02-14",
+        "type": "release",
+        "title": "GPT-2",
+        "description": "Large decoder-only Transformer demonstrates emergent generation."
+      }
+    ],
+    "levels": {
+      "twelve": {
+        "summary": "Imagine a classroom where every kid can look at every other kid's notebook at once.",
+        "content": "A Transformer is a way for a computer to read a sentence and pay attention to whichever words matter most. Instead of reading one word after another like we do, it looks at all the words together and decides which ones connect. That trick is what lets chatbots, translators, and image tools feel so smart today."
+      },
+      "beginner": {
+        "summary": "A neural network that reads every word at once and learns which words relate to which.",
+        "content": "Older models read text step by step, which made them slow and forgetful. The Transformer, introduced in 2017, lets the model look at every word in a sentence at the same time and score how related each pair is. This 'self-attention' is the core idea behind almost every modern AI you have used, from ChatGPT to image generators."
+      },
+      "student": {
+        "summary": "Self-attention layers stacked on top of feed-forward blocks, trained at scale.",
+        "content": "A Transformer is a stack of identical blocks. Each block runs multi-head self-attention (so every token mixes information with every other token), then a position-wise feed-forward network, with residuals and layer norms in between. Input embeddings are augmented with positional encodings because attention itself is order-agnostic. Training it on lots of text or images yields the foundation models that power modern AI."
+      },
+      "developer": {
+        "summary": "Implement self-attention, masking, and a training loop with PyTorch or JAX.",
+        "content": "At inference you build a causal (or bidirectional) attention mask, project inputs into queries, keys, and values, scale by sqrt(d_k), and softmax. Most production stacks rely on FlashAttention or xFormers for memory-efficient kernels and KV-cache reuse for autoregressive decoding. Libraries like Transformers, llama.cpp, and vLLM give you pre-built blocks so you rarely write attention from scratch."
+      },
+      "researcher": {
+        "summary": "Self-attention as a general-purpose permutation-aware set operator with quadratic cost.",
+        "content": "The Transformer realizes a learnable, content-based associative memory parameterized by softmax(QK^T / sqrt(d_k)) V. Scaling laws (Kaplan et al., Hoffmann et al.) describe how loss decreases with compute, parameters, and data. Open research questions include sub-quadratic attention (linear, sparse, state-space), long-context methods (RoPE scaling, ALiBi), and the gap between pretraining and downstream alignment via RLHF or DPO."
+      },
+      "business": {
+        "summary": "The dominant AI architecture and a strategic dependency for any AI roadmap.",
+        "content": "Transformers power today's flagship products across language, vision, and speech. Picking an inference partner (vLLM, TGI, llama.cpp, Ollama) and a fine-tuning stack (PEFT, TRL, Axolotl) is now a core build-vs-buy decision. License and hosting cost, latency, and the ability to fine-tune on private data are the practical levers for any team shipping AI features."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "retrieval-augmented-generation",
+    "name": "Retrieval Augmented Generation",
+    "level": "developer",
+    "summary": "Combining retrieval with generation for grounded, up-to-date answers.",
+    "description": "Retrieval Augmented Generation (RAG) augments an LLM's prompt with relevant documents fetched at query time from a vector or keyword index. It reduces hallucinations, lets models answer questions about private or recent data, and is the workhorse pattern behind most production AI applications.",
+    "tags": ["rag", "llm", "retrieval"],
+    "externalLinks": [
+      { "label": "Original RAG paper", "href": "https://arxiv.org/abs/2005.11401" }
+    ],
+    "timeline": [
+      {
+        "date": "2020-05-22",
+        "type": "paper",
+        "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP",
+        "description": "Lewis et al. introduce the RAG pattern."
+      },
+      {
+        "date": "2023-05-02",
+        "type": "milestone",
+        "title": "ChatGPT Plugins launch",
+        "description": "Retrieval-augmented tooling becomes a mainstream product pattern."
+      }
+    ],
+    "levels": {
+      "twelve": {
+        "summary": "It's like letting the AI peek at the right book before it answers.",
+        "content": "Imagine asking a really smart friend a question, but before they answer, they get to glance through the library and pick the page that's most helpful. Retrieval-Augmented Generation does exactly that for a chatbot: it finds the most relevant snippets and lets the AI use them to write a better answer."
+      },
+      "beginner": {
+        "summary": "Give an LLM a small folder of relevant facts before you ask it to answer.",
+        "content": "Large language models can only answer from what they learned during training. RAG fixes that by, at question time, looking up relevant chunks from your own documents and slipping them into the prompt. The model then writes an answer grounded in those passages, which makes it far less likely to make things up and lets it talk about private or recent data."
+      },
+      "student": {
+        "summary": "Chunk, embed, index, retrieve, generate — the canonical five-step pipeline.",
+        "content": "A typical RAG pipeline splits your documents into overlapping chunks, embeds each chunk into a vector, and indexes those vectors in a vector database. At query time you embed the user's question, fetch the top-k nearest chunks, optionally re-rank them, and prepend them to the prompt as context. The LLM then generates an answer conditioned on the retrieved evidence, often with citations."
+      },
+      "developer": {
+        "summary": "Wire embeddings, a vector store, a retriever, and citations into your LLM call.",
+        "content": "In practice you choose an embedding model (BGE, E5, OpenAI text-embedding-3), a vector store (Qdrant, pgvector, Milvus, Chroma, LanceDB), and a chunking strategy (sliding window, semantic). Frameworks like LangChain, LlamaIndex, and Haystack give you retrievers, re-rankers, and structured prompts. Always evaluate with retrieval metrics (recall@k, MRR) and answer metrics (faithfulness, citation precision) before shipping."
+      },
+      "researcher": {
+        "summary": "Dense and sparse retrieval, late interaction, and the limits of single-hop RAG.",
+        "content": "RAG inherits the trade-offs of retrieval: lexical (BM25, SPLADE) vs dense (DPR, ColBERT, E5) vs hybrid (Reciprocal Rank Fusion). Late-interaction models like ColBERT trade compute for finer-grained matching. Frontier work targets multi-hop reasoning, agentic RAG where the model plans its own retrievals, and learned rerankers distilled from cross-encoders. Evaluation benchmarks include BEIR, Natural Questions, and the more recent RAGAS suite."
+      },
+      "business": {
+        "summary": "The default architecture for grounding AI in private or fresh data.",
+        "content": "RAG is the pragmatic answer to 'how do we use AI on our own data without fine-tuning?' It avoids the cost and risk of retraining and lets you update knowledge by simply refreshing the index. Watch for retrieval quality as the single biggest determinant of user-perceived accuracy, and budget for embedding pipelines, vector infrastructure, and ongoing evaluation."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "tokenization",
+    "name": "Tokenization",
+    "level": "beginner",
+    "summary": "Splitting text into model-understandable units.",
+    "description": "Tokenization converts raw text into the integer IDs a language model can process. Modern LLMs use subword tokenizers such as BPE, WordPiece, or SentencePiece to balance vocabulary size with coverage of any input string.",
+    "tags": ["nlp", "preprocessing"],
+    "externalLinks": [
+      {
+        "label": "Hugging Face tokenizer course",
+        "href": "https://huggingface.co/learn/nlp-course/chapter2"
+      }
+    ],
+    "timeline": [],
+    "levels": {
+      "twelve": {
+        "summary": "It's chopping a sentence into little pieces the computer can recognize.",
+        "content": "Before an AI can read a sentence, it has to break the words into smaller chunks it has memorized — like tearing a paragraph into LEGO bricks. Each chunk is called a token, and the model only ever sees numbers that stand for those tokens."
+      },
+      "beginner": {
+        "summary": "Convert text into integer IDs using a subword vocabulary.",
+        "content": "Models don't understand letters or words — they understand numbers. Tokenization is the bridge that turns 'hello world' into a list of integers like [101, 7592, 2088]. Modern systems use subword algorithms such as BPE, WordPiece, and SentencePiece so that any text — even rare words or made-up names — can be encoded."
+      },
+      "student": {
+        "summary": "BPE / WordPiece / SentencePiece trade vocabulary size against sequence length.",
+        "content": "Subword tokenizers learn a vocabulary of common chunks from a large corpus. Byte-Pair Encoding (BPE) iteratively merges the most frequent pair of symbols; WordPiece picks merges by likelihood gain; SentencePiece is a language-agnostic implementation that operates on raw bytes. The choice affects how long your sequences are, how much memory the model uses, and how it handles multilingual or domain-specific text."
+      },
+      "developer": {
+        "summary": "Load a fast tokenizer, watch for special tokens, and count tokens for cost.",
+        "content": "Use the `tokenizers` library or `AutoTokenizer.from_pretrained(...)` to get a fast Rust-backed tokenizer. Special tokens like BOS, EOS, PAD, and chat-template tokens matter for instruction-following models. Token counts are the basis of billing for hosted APIs and the budget you keep when chunking for RAG — always log `len(input_ids)` in your pipelines."
+      },
+      "researcher": {
+        "summary": "Tokenization is a learned compression scheme with surprising downstream effects.",
+        "content": "Tokenizer design influences what a model can represent efficiently, biases toward languages seen during training, and interacts with arithmetic reasoning (because digits are tokenized inconsistently). Recent work explores byte-level models, non-Latin script fairness, and tokenizer-free approaches that operate directly on raw bytes or characters. The choice of vocabulary size has measurable effects on cross-entropy and downstream accuracy."
+      },
+      "business": {
+        "summary": "Tokenization drives API cost, latency, and language coverage.",
+        "content": "Every API call is priced per token, so the way text is tokenized directly affects your bill. Applications dealing with non-English text or noisy inputs often pay more per character because their inputs expand into more tokens. When evaluating models, ask vendors about tokenizer behavior on your real workload before locking in."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "quantization",
+    "name": "Quantization",
+    "level": "developer",
+    "summary": "Reducing model precision for faster inference and lower memory use.",
+    "description": "Quantization stores model weights and/or activations at lower numeric precision (e.g. 4-bit or 8-bit integers) than the 16-bit floats they were trained in. It shrinks memory and speeds up inference with a modest quality trade-off, and is the technique that makes local LLM use practical on consumer GPUs.",
+    "tags": ["optimization", "inference"],
+    "externalLinks": [
+      {
+        "label": "GGUF format",
+        "href": "https://github.com/ggerganov/ggml/blob/master/docs/gguf.md"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2023-08-21",
+        "type": "milestone",
+        "title": "llama.cpp GGUF release",
+        "description": "Quantized 4-bit models become trivially runnable on laptops."
+      }
+    ],
+    "levels": {
+      "twelve": {
+        "summary": "It's like compressing a high-quality photo so it fits on your phone.",
+        "content": "Big AI models are made of millions of tiny numbers, and each one takes space. Quantization shrinks those numbers so the model fits in less memory and runs faster. The trick is doing it carefully enough that the AI still gives good answers."
+      },
+      "beginner": {
+        "summary": "Store model weights in lower precision to use less memory and run faster.",
+        "content": "A trained model usually keeps its weights as 16-bit floating point numbers. Quantization converts them to 8-bit, 4-bit, or even 3-bit integers, cutting memory by 2–5x and often making inference faster too. There are different recipes (PTQ, QAT, GPTQ, AWQ, GGUF) with different trade-offs between size, speed, and quality."
+      },
+      "student": {
+        "summary": "Post-training quantization, mixed-precision, and weight-only schemes.",
+        "content": "Post-training quantization (PTQ) rescales weights and activations after training with a small calibration set. Weight-only schemes (GPTQ, AWQ, GGUF Q4/Q5) keep activations in higher precision but pack weights tightly, which is the dominant approach for local LLMs. Mixed-precision and quantization-aware training (QAT) further close the quality gap but require training infrastructure."
+      },
+      "developer": {
+        "summary": "Pick a format (GGUF, GPTQ, AWQ, bitsandbytes) that matches your runtime.",
+        "content": "For local inference, llama.cpp consumes GGUF files with Q2 through Q8 quantizations. vLLM and TGI serve GPTQ/AWQ weights on NVIDIA GPUs. bitsandbytes gives you 4-bit and 8-bit loading inside Transformers with two lines of code. Always benchmark perplexity and your real task metrics before swapping a quantized model into production."
+      },
+      "researcher": {
+        "summary": "Outlier-aware schemes, K-quant, and the accuracy frontier of sub-4-bit LLMs.",
+        "content": "Modern quantization research focuses on the small number of weights that dominate error — AWQ protects salient channels, GPTQ uses second-order information to minimize reconstruction error, and GGUF's K-quants allocate more bits to attention blocks. Sub-4-bit regimes (QuIP#, AQLM) reach near-fp16 quality at 2-bit precision through learned codebooks and Hadamard rotations."
+      },
+      "business": {
+        "summary": "Quantization is what makes running frontier models locally viable.",
+        "content": "A quantized 7B model on a laptop replaces many cloud calls; a quantized 70B on a single workstation replaces most of them. Quantization is the difference between a 24 GB GPU requirement and an 8 GB one, which directly changes hardware budgets. Evaluate quality regressions carefully — for some workloads the savings are free, for others they're not."
+      }
+    }
+  }
+]

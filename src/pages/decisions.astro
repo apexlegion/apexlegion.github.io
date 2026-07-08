@@ -1,0 +1,57 @@
+---
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Section from '@/components/layout/Section.astro';
+import Grid from '@/components/layout/Grid.astro';
+import Breadcrumbs from '@/components/layout/Breadcrumbs.astro';
+import { Card, CardBody, CardFooter, CardHeader } from '@/components/ui/Card';
+import { Badge } from '@/components/ui/Badge';
+import { Tag } from '@/components/ui/Tag';
+import { Button } from '@/components/ui/Button';
+import { getAllDecisionProfiles, getAllScoringProfiles } from '@/lib/data/entities';
+
+const decisions = [...getAllDecisionProfiles(), ...getAllScoringProfiles()]
+  .slice()
+  .sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<SiteShell
+  title="Decision Guides — AI Atlas"
+  description="Answer a few questions and we'll recommend an open-source project or model from the AI Atlas catalog."
+>
+  <Container class="flex flex-col gap-6 py-10">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Decisions' }]} />
+    <header class="flex flex-col gap-2">
+      <Badge variant="concept">Decision guides</Badge>
+      <h1 class="text-text text-h1 font-bold tracking-tight md:text-5xl">Pick the right tool</h1>
+      <p class="text-text-muted text-body max-w-prose">
+        Each guide asks a handful of questions about how you plan to use a tool and recommends an
+        open-source project from the Atlas. No backend — the rules run in your browser.
+      </p>
+    </header>
+
+    <Section containerSize="wide">
+      <Grid cols={{ base: 1, md: 2, lg: 3 }} gap={6}>
+        {
+          decisions.map((d) => (
+            <Card variant="interactive" href={`/decisions/${d.slug}`}>
+              <CardHeader>
+                <div class="flex flex-wrap items-center gap-2">
+                  <Badge variant="concept">Guide</Badge>
+                  <Tag>{d.questions.length} questions</Tag>
+                </div>
+                <h2 class="text-text text-h3 mt-2 font-semibold">{d.name}</h2>
+              </CardHeader>
+              <CardBody>{d.summary}</CardBody>
+              <CardFooter>
+                <Button variant="ghost" size="sm">
+                  Start guide →
+                </Button>
+              </CardFooter>
+            </Card>
+          ))
+        }
+      </Grid>
+    </Section>
+  </Container>
+</SiteShell>

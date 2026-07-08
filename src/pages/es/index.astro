@@ -1,0 +1,370 @@
+---
+/**
+ * Spanish homepage — mirrors src/pages/index.astro with translated labels.
+ *
+ * Every English string on the home page maps to a key in
+ * `src/i18n/translations.json` so the markup stays declarative and easy to
+ * keep in sync with the English source.
+ */
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Section from '@/components/layout/Section.astro';
+import Grid from '@/components/layout/Grid.astro';
+import { Button } from '@/components/ui/Button';
+import { Card, CardBody, CardFooter, CardHeader } from '@/components/ui/Card';
+import { Badge } from '@/components/ui/Badge';
+import { Tag } from '@/components/ui/Tag';
+import { getTranslations } from '@/i18n/utils';
+
+const t = getTranslations('es');
+
+const categories = [
+  {
+    badge: t['nav.projects'] ?? 'Proyectos',
+    title: t['home.featuredTitle'] ?? 'Proyectos Open Source',
+    description: 'Repositorios seleccionados para inferencia, entrenamiento, agentes y más.',
+    href: '/es/projects',
+    cta: t['home.cardCtaArrow'] ?? 'Explorar proyectos →',
+  },
+  {
+    badge: t['nav.models'] ?? 'Modelos',
+    title: t['home.modelsTitle'] ?? 'Modelos abiertos',
+    description: 'LLMs, imagen, audio y modelos multimodales que puedes ejecutar hoy.',
+    href: '/es/models',
+    cta: t['home.cardCtaArrow'] ?? 'Explorar modelos →',
+  },
+  {
+    badge: t['nav.tutorials'] ?? 'Tutoriales',
+    title: t['home.featuredTitle'] ?? 'Tutoriales visuales',
+    description: 'Explicaciones basadas en conceptos, con diagramas para cada nivel.',
+    href: '/es/tutorials',
+    cta: t['home.cardCtaArrow'] ?? 'Explorar tutoriales →',
+  },
+  {
+    badge: t['nav.playgrounds'] ?? 'Playgrounds',
+    title: t['home.featuredTitle'] ?? 'Playgrounds',
+    description: 'Ejecuta modelos reales directamente en tu navegador. Sin instalación.',
+    href: '/es/playgrounds',
+    cta: t['home.cardCtaArrow'] ?? 'Abrir un playground →',
+  },
+  {
+    badge: t['nav.glossary'] ?? 'Glosario',
+    title: t['home.featuredTitle'] ?? 'Glosario de IA',
+    description: 'Definiciones claras para las palabras que ves en papers y documentación.',
+    href: '/es/glossary',
+    cta: t['home.cardCtaArrow'] ?? 'Explorar glosario →',
+  },
+  {
+    badge: t['nav.tools'] ?? 'Herramientas',
+    title: t['home.featuredTitle'] ?? 'Directorio de herramientas',
+    description: 'Comparativas lado a lado de las herramientas que impulsan el IA Open Source.',
+    href: '/es/tools',
+    cta: t['home.cardCtaArrow'] ?? 'Explorar herramientas →',
+  },
+  {
+    badge: t['nav.concepts'] ?? 'Concepto',
+    title: t['home.featuredTitle'] ?? 'Guías de decisión',
+    description: 'Responde algunas preguntas y te recomendaremos un proyecto.',
+    href: '/es/decisions',
+    cta: t['home.cardCtaArrow'] ?? 'Explorar decisiones →',
+  },
+  {
+    badge: t['nav.concepts'] ?? 'Concepto',
+    title: t['home.featuredTitle'] ?? 'Conceptos',
+    description: 'Explicaciones basadas en conceptos de las ideas detrás de la IA moderna.',
+    href: '/es/concepts',
+    cta: t['home.cardCtaArrow'] ?? 'Explorar conceptos →',
+  },
+  {
+    badge: t['nav.projects'] ?? 'Proyecto',
+    title: t['home.featuredTitle'] ?? 'Empleos',
+    description: 'Roles en equipos que publican modelos abiertos y frameworks open source.',
+    href: '/es/jobs',
+    cta: t['home.cardCtaArrow'] ?? 'Explorar empleos →',
+  },
+  {
+    badge: t['nav.projects'] ?? 'Proyecto',
+    title: t['home.featuredTitle'] ?? 'Eventos',
+    description: 'Conferencias, meetups y hackathons para la comunidad de IA Open Source.',
+    href: '/es/events',
+    cta: t['home.cardCtaArrow'] ?? 'Explorar eventos →',
+  },
+  {
+    badge: t['nav.projects'] ?? 'Proyecto',
+    title: t['home.featuredTitle'] ?? 'Noticias',
+    description: 'Lanzamientos, releases y actualizaciones de políticas de todo el universo.',
+    href: '/es/news',
+    cta: t['home.cardCtaArrow'] ?? 'Explorar noticias →',
+  },
+];
+
+const featuredProjects = [
+  {
+    title: 'llama.cpp',
+    tag: 'Inferencia',
+    description: 'Ejecuta modelos LLaMA en hardware de consumo.',
+  },
+  {
+    title: 'Ollama',
+    tag: 'LLM local',
+    description: 'Un comando para ejecutar modelos abiertos en local.',
+  },
+  {
+    title: 'Transformers',
+    tag: 'Framework',
+    description: 'La librería de referencia para ML de última generación.',
+  },
+];
+
+const featuredModels = [
+  {
+    title: 'Llama 3',
+    tag: 'LLM',
+    description: 'El flagship abierto 8B–70B de Meta.',
+  },
+  {
+    title: 'Mistral 7B',
+    tag: 'LLM',
+    description: 'Alta calidad a pequeña escala.',
+  },
+  {
+    title: 'Stable Diffusion XL',
+    tag: 'Imagen',
+    description: 'Texto a imagen con fidelidad impresionante.',
+  },
+];
+
+const news = [
+  { date: '2026-07-04', title: 'Comienza Universe Seed', tag: 'Actualización' },
+  { date: '2026-06-28', title: 'Nuevos playgrounds en camino', tag: 'Playground' },
+  { date: '2026-06-14', title: 'Índice del grafo de conocimiento v0.1 listo', tag: 'Datos' },
+];
+
+const learningPaths = [
+  { title: 'Entiende los Transformers', level: 'Principiante', minutes: 25 },
+  { title: 'Ejecuta tu primer LLM en local', level: 'Desarrollador', minutes: 40 },
+  { title: 'Construye una app RAG', level: 'Desarrollador', minutes: 60 },
+];
+---
+
+<SiteShell
+  title="AI Atlas"
+  description={t['site.tagline'] ??
+    'Aprende. Compara. Construye. Todo el IA Open Source, en un solo lugar.'}
+  lang="es"
+>
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div
+      aria-hidden="true"
+      class="from-primary-orange/20 via-primary-orange/0 absolute inset-x-0 top-0 -z-10 h-[480px] bg-gradient-to-b to-transparent blur-3xl"
+    >
+    </div>
+    <Container class="flex flex-col items-center gap-8 py-20 text-center md:py-28">
+      <Badge variant="project">{t['home.badge'] ?? 'Semilla del Universo · Fase 1'}</Badge>
+      <h1 class="text-text max-w-4xl text-4xl font-bold tracking-tight md:text-6xl">
+        {t['home.titleLine1'] ?? 'Aprende. Compara. Construye.'}
+        <span class="text-primary-orange block"
+          >{t['home.titleLine2'] ?? 'Todo el IA Open Source'}</span
+        >
+        {t['home.titleLine3'] ?? 'en un solo lugar.'}
+      </h1>
+      <p class="text-text-muted text-body max-w-prose md:text-lg">
+        {
+          t['home.subtitle'] ??
+            'La plataforma definitiva de conocimiento sobre IA Open Source — visual primero, accesible para todos, curada por humanos y automatizada por robots.'
+        }
+      </p>
+      <div class="flex w-full max-w-md items-center gap-2">
+        <button
+          type="button"
+          data-palette-trigger
+          class="border-border bg-surface-elevated hover:border-primary-orange text-text-muted hover:text-text text-body focus-visible:ring-primary-orange focus-visible:ring-offset-surface flex h-12 w-full items-center gap-3 rounded-md border px-4 text-left transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+        >
+          <span aria-hidden="true" class="text-lg">⌕</span>
+          <span class="flex-1"
+            >{t['home.searchPlaceholder'] ?? 'Buscar proyectos, modelos, conceptos...'}</span
+          >
+          <kbd class="bg-surface text-text-subtle text-tiny rounded px-1.5 py-0.5 font-mono">/</kbd>
+        </button>
+      </div>
+      <div class="flex flex-wrap items-center justify-center gap-3">
+        <Button size="lg">{t['home.ctaStart'] ?? 'Empezar a explorar'}</Button>
+        <Button size="lg" variant="secondary">{t['home.ctaProjects'] ?? 'Ver proyectos'}</Button>
+      </div>
+    </Container>
+  </section>
+
+  <!-- Categories -->
+  <Section
+    eyebrow={t['home.categoriesEyebrow'] ?? 'Explora'}
+    title={t['home.categoriesTitle'] ?? 'Categorías'}
+    description={t['home.categoriesDescription'] ??
+      'Entra en la esquina del universo que coincide con tu objetivo.'}
+    containerSize="wide"
+  >
+    <Grid cols={{ base: 1, md: 2, lg: 4 }} gap={6} class="lg:[&>*:last-child]:col-span-2">
+      {
+        categories.map((cat) => (
+          <Card variant="interactive">
+            <CardHeader>
+              <Badge variant={cat.badge === t['nav.tutorials'] ? 'tutorial' : 'project'}>
+                {cat.badge}
+              </Badge>
+              <h3 class="text-text text-h3 mt-2 font-semibold">{cat.title}</h3>
+            </CardHeader>
+            <CardBody>{cat.description}</CardBody>
+            <CardFooter>
+              <Button variant="ghost" size="sm">
+                {cat.cta}
+              </Button>
+            </CardFooter>
+          </Card>
+        ))
+      }
+    </Grid>
+  </Section>
+
+  <!-- Featured projects -->
+  <Section
+    eyebrow={t['home.featuredEyebrow'] ?? 'Destacados'}
+    title={t['home.featuredTitle'] ?? 'Proyectos en tendencia'}
+    description={t['home.featuredDescription'] ??
+      'Proyectos seleccionados que merece la pena descubrir esta semana.'}
+    containerSize="wide"
+  >
+    <Grid cols={{ base: 1, md: 3 }} gap={6}>
+      {
+        featuredProjects.map((p) => (
+          <Card variant="interactive">
+            <CardHeader>
+              <Tag>{p.tag}</Tag>
+              <h3 class="text-text text-h3 mt-2 font-semibold">{p.title}</h3>
+            </CardHeader>
+            <CardBody>{p.description}</CardBody>
+            <CardFooter>
+              <Button variant="ghost" size="sm">
+                {t['home.openArrow'] ?? 'Abrir →'}
+              </Button>
+            </CardFooter>
+          </Card>
+        ))
+      }
+    </Grid>
+  </Section>
+
+  <!-- Featured models -->
+  <Section
+    eyebrow={t['home.modelsEyebrow'] ?? 'Modelos'}
+    title={t['home.modelsTitle'] ?? 'Modelos abiertos para probar'}
+    description={t['home.modelsDescription'] ??
+      'Desde LLMs pequeños hasta generadores de imagen — todos con pesos abiertos.'}
+    containerSize="wide"
+  >
+    <Grid cols={{ base: 1, md: 3 }} gap={6}>
+      {
+        featuredModels.map((m) => (
+          <Card variant="interactive">
+            <CardHeader>
+              <Tag>{m.tag}</Tag>
+              <h3 class="text-text text-h3 mt-2 font-semibold">{m.title}</h3>
+            </CardHeader>
+            <CardBody>{m.description}</CardBody>
+            <CardFooter>
+              <Button variant="ghost" size="sm">
+                {t['home.compareArrow'] ?? 'Comparar →'}
+              </Button>
+            </CardFooter>
+          </Card>
+        ))
+      }
+    </Grid>
+  </Section>
+
+  <!-- Latest news -->
+  <Section
+    eyebrow={t['home.newsEyebrow'] ?? 'Novedades'}
+    title={t['home.newsTitle'] ?? 'Últimas noticias'}
+    description={t['home.newsDescription'] ?? 'Actualizaciones del universo del IA Open Source.'}
+    containerSize="wide"
+  >
+    <Grid cols={{ base: 1, md: 3 }} gap={6}>
+      {
+        news.map((n) => (
+          <Card>
+            <CardHeader>
+              <span class="text-text-subtle text-tiny font-mono">{n.date}</span>
+              <h3 class="text-text text-body mt-1 font-semibold">{n.title}</h3>
+            </CardHeader>
+            <CardFooter>
+              <Tag>{n.tag}</Tag>
+            </CardFooter>
+          </Card>
+        ))
+      }
+    </Grid>
+  </Section>
+
+  <!-- Learning paths -->
+  <Section
+    eyebrow={t['home.learningEyebrow'] ?? 'Aprende'}
+    title={t['home.learningTitle'] ?? 'Rutas de aprendizaje populares'}
+    description={t['home.learningDescription'] ??
+      'Secuencias curadas para llevarte de curioso a experto.'}
+    containerSize="wide"
+  >
+    <Grid cols={{ base: 1, md: 3 }} gap={6}>
+      {
+        learningPaths.map((p) => (
+          <Card variant="interactive">
+            <CardHeader>
+              <Badge variant="tutorial">Ruta</Badge>
+              <h3 class="text-text text-h3 mt-2 font-semibold">{p.title}</h3>
+            </CardHeader>
+            <CardBody>
+              <div class="text-text-subtle text-tiny flex gap-3">
+                <span>{p.level}</span>
+                <span>·</span>
+                <span>
+                  {p.minutes} {t['home.minutes'] ?? 'min'}
+                </span>
+              </div>
+            </CardBody>
+            <CardFooter>
+              <Button variant="ghost" size="sm">
+                {t['home.startPath'] ?? 'Comenzar ruta →'}
+              </Button>
+            </CardFooter>
+          </Card>
+        ))
+      }
+    </Grid>
+  </Section>
+
+  <!-- Knowledge graph teaser -->
+  <Section
+    eyebrow={t['home.graphEyebrow'] ?? 'Grafo de conocimiento'}
+    title={t['home.graphTitle'] ?? 'Explora el universo'}
+    description={t['home.graphDescription'] ??
+      'Cada proyecto, modelo, concepto y tutorial está conectado. (Próximamente en la Fase 1, Hito 3.)'}
+    containerSize="wide"
+  >
+    <Card class="flex flex-col items-center gap-4 p-8 text-center">
+      <div
+        aria-hidden="true"
+        class="bg-primary-orange/10 border-border-strong flex h-40 w-full items-center justify-center rounded-md border border-dashed"
+      >
+        <span class="text-text-subtle text-small font-mono"
+          >{t['home.graphPreviewAlt'] ?? 'vista previa del grafo'}</span
+        >
+      </div>
+      <p class="text-text-muted text-small max-w-prose">
+        {
+          t['home.graphBody'] ??
+            'El explorador interactivo del grafo te permite recorrer las conexiones entre proyectos, modelos y conceptos en cualquier dirección.'
+        }
+      </p>
+      <Button variant="secondary">{t['home.graphCta'] ?? 'Conoce el grafo'}</Button>
+    </Card>
+  </Section>
+</SiteShell>

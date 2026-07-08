@@ -1,0 +1,122 @@
+[
+  {
+    "id": "project-llama-cpp",
+    "type": "project",
+    "title": "llama.cpp",
+    "description": "Inference of LLaMA models in pure C/C++",
+    "url": "/projects/llama-cpp",
+    "tags": ["inference", "cpp", "llm"]
+  },
+  {
+    "id": "project-ollama",
+    "type": "project",
+    "title": "Ollama",
+    "description": "Get up and running with large language models locally",
+    "url": "/projects/ollama",
+    "tags": ["inference", "llm", "local"]
+  },
+  {
+    "id": "project-transformers",
+    "type": "project",
+    "title": "Transformers",
+    "description": "State-of-the-art Machine Learning for PyTorch, TensorFlow, and JAX",
+    "url": "/projects/transformers",
+    "tags": ["framework", "training", "nlp"]
+  },
+  {
+    "id": "project-langchain",
+    "type": "project",
+    "title": "LangChain",
+    "description": "Build context-aware reasoning applications",
+    "url": "/projects/langchain",
+    "tags": ["agents", "rag", "framework"]
+  },
+  {
+    "id": "project-stable-diffusion",
+    "type": "project",
+    "title": "Stable Diffusion",
+    "description": "Latent text-to-image diffusion model",
+    "url": "/projects/stable-diffusion",
+    "tags": ["image", "diffusion"]
+  },
+  {
+    "id": "project-whisper",
+    "type": "project",
+    "title": "Whisper",
+    "description": "Robust speech recognition via large-scale weak supervision",
+    "url": "/projects/whisper",
+    "tags": ["audio", "asr"]
+  },
+  {
+    "id": "model-llama-3",
+    "type": "model",
+    "title": "Llama 3",
+    "description": "Meta's open large language model, 8B to 70B parameters",
+    "url": "/models/llama-3",
+    "tags": ["llm", "meta"]
+  },
+  {
+    "id": "model-mistral-7b",
+    "type": "model",
+    "title": "Mistral 7B",
+    "description": "A 7B parameter open-weight language model",
+    "url": "/models/mistral-7b",
+    "tags": ["llm", "mistral"]
+  },
+  {
+    "id": "model-gemma",
+    "type": "model",
+    "title": "Gemma",
+    "description": "Google's lightweight open models",
+    "url": "/models/gemma",
+    "tags": ["llm", "google"]
+  },
+  {
+    "id": "model-stable-diffusion-xl",
+    "type": "model",
+    "title": "Stable Diffusion XL",
+    "description": "Enhanced text-to-image generation",
+    "url": "/models/stable-diffusion-xl",
+    "tags": ["image", "diffusion"]
+  },
+  {
+    "id": "concept-transformer",
+    "type": "concept",
+    "title": "Transformer",
+    "description": "Attention-based neural network architecture",
+    "url": "/concepts/transformer",
+    "tags": ["architecture", "deep-learning"]
+  },
+  {
+    "id": "concept-rag",
+    "type": "concept",
+    "title": "Retrieval Augmented Generation",
+    "description": "Combining retrieval with generation for grounded answers",
+    "url": "/concepts/rag",
+    "tags": ["rag", "llm"]
+  },
+  {
+    "id": "concept-tokenization",
+    "type": "concept",
+    "title": "Tokenization",
+    "description": "Splitting text into model-understandable units",
+    "url": "/concepts/tokenization",
+    "tags": ["nlp", "preprocessing"]
+  },
+  {
+    "id": "concept-fine-tuning",
+    "type": "concept",
+    "title": "Fine-tuning",
+    "description": "Adapting pre-trained models to specific tasks",
+    "url": "/concepts/fine-tuning",
+    "tags": ["training", "llm"]
+  },
+  {
+    "id": "concept-quantization",
+    "type": "concept",
+    "title": "Quantization",
+    "description": "Reducing model precision for faster inference",
+    "url": "/concepts/quantization",
+    "tags": ["optimization", "inference"]
+  }
+]

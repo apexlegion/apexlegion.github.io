@@ -1,0 +1,155 @@
+---
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Section from '@/components/layout/Section.astro';
+import Grid from '@/components/layout/Grid.astro';
+import Breadcrumbs from '@/components/layout/Breadcrumbs.astro';
+import { Card, CardBody, CardFooter, CardHeader } from '@/components/ui/Card';
+import { Badge } from '@/components/ui/Badge';
+import { Tag } from '@/components/ui/Tag';
+import { Button } from '@/components/ui/Button';
+import { getAllEvents } from '@/lib/data/entities';
+import type { EventFormatValue } from '@/lib/schemas/entity';
+
+const events = getAllEvents();
+
+const formatLabels: Record<EventFormatValue, string> = {
+  'in-person': 'In-person',
+  virtual: 'Virtual',
+  hybrid: 'Hybrid',
+};
+
+const formats = Array.from(new Set(events.map((e) => e.format))).sort((a, b) =>
+  formatLabels[a].localeCompare(formatLabels[b]),
+);
+
+function formatDateRange(start: string, end: string): string {
+  const s = new Date(start);
+  const e = new Date(end);
+  if (Number.isNaN(s.getTime()) || Number.isNaN(e.getTime())) return `${start} – ${end}`;
+  const sameDay =
+    s.getFullYear() === e.getFullYear() &&
+    s.getMonth() === e.getMonth() &&
+    s.getDate() === e.getDate();
+  if (sameDay) {
+    return s.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+  }
+  const fmt = (d: Date): string =>
+    d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  return `${fmt(s)} – ${fmt(e)}, ${e.getFullYear()}`;
+}
+---
+
+<SiteShell
+  title="Events — AI Atlas"
+  description="Conferences, meetups, and hackathons for the Open Source AI community. Filter by format."
+>
+  <Container class="flex flex-col gap-6 py-10">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Events' }]} />
+    <header class="flex flex-col gap-2">
+      <Badge variant="project">Events</Badge>
+      <h1 class="text-text text-h1 font-bold tracking-tight md:text-5xl">Open Source AI events</h1>
+      <p class="text-text-muted text-body max-w-prose">
+        Conferences, meetups, and hackathons for builders, researchers, and operators of open AI.
+        Use the chips below to filter by format.
+      </p>
+    </header>
+
+    <Section containerSize="wide">
+      <div
+        class="border-border bg-surface-card flex flex-col gap-3 rounded-lg border p-4"
+        aria-label="Filter by event format"
+      >
+        <span class="text-text-muted text-tiny font-semibold tracking-wide uppercase">
+          Filter by format
+        </span>
+        <div class="flex flex-wrap gap-2" role="list">
+          <button
+            type="button"
+            data-event-filter="all"
+            class="event-chip border-border bg-primary-orange text-text-inverse border-primary-orange text-small inline-flex h-9 items-center rounded-full border px-3 font-medium transition-colors"
+            aria-pressed="true"
+          >
+            All ({events.length})
+          </button>
+          {
+            formats.map((fmt) => (
+              <button
+                type="button"
+                data-event-filter={fmt}
+                class="event-chip border-border bg-surface-elevated hover:border-primary-orange hover:text-primary-orange text-text-muted text-small inline-flex h-9 items-center rounded-full border px-3 font-medium transition-colors"
+                aria-pressed="false"
+              >
+                {formatLabels[fmt]} ({events.filter((e) => e.format === fmt).length})
+              </button>
+            ))
+          }
+        </div>
+      </div>
+
+      <div class="mt-6">
+        {
+          events.length === 0 ? (
+            <Card class="p-8 text-center">
+              <p class="text-text-muted text-body">
+                No upcoming events right now. Check back soon.
+              </p>
+            </Card>
+          ) : (
+            <Grid cols={{ base: 1, md: 2, lg: 3 }} gap={6}>
+              {events.map((e) => (
+                <Card
+                  variant="interactive"
+                  href={`/events/${e.slug}`}
+                  data-event-format={e.format}
+                  class="event-card"
+                >
+                  <CardHeader>
+                    <div class="flex flex-wrap items-center gap-2">
+                      <Tag>{formatLabels[e.format]}</Tag>
+                      <span class="text-text-subtle text-tiny font-mono">{e.location}</span>
+                    </div>
+                    <h2 class="text-text text-h3 mt-2 font-semibold">{e.name}</h2>
+                    <p class="text-text-muted text-tiny font-mono">
+                      {formatDateRange(e.startDate, e.endDate)}
+                    </p>
+                  </CardHeader>
+                  <CardBody>{e.summary}</CardBody>
+                  <CardFooter>
+                    <Button variant="ghost" size="sm">
+                      View →
+                    </Button>
+                  </CardFooter>
+                </Card>
+              ))}
+            </Grid>
+          )
+        }
+      </div>
+    </Section>
+  </Container>
+
+  <script>
+    const chips = document.querySelectorAll<HTMLButtonElement>('[data-event-filter]');
+    const cards = document.querySelectorAll<HTMLElement>('[data-event-format]');
+    chips.forEach((chip) => {
+      chip.addEventListener('click', () => {
+        const target = chip.dataset.eventFilter ?? 'all';
+        chips.forEach((c) => {
+          const isActive = c === chip;
+          c.setAttribute('aria-pressed', String(isActive));
+          c.classList.toggle('bg-primary-orange', isActive);
+          c.classList.toggle('text-text-inverse', isActive);
+          c.classList.toggle('border-primary-orange', isActive);
+          c.classList.toggle('bg-surface-elevated', !isActive);
+          c.classList.toggle('text-text-muted', !isActive);
+        });
+        cards.forEach((card) => {
+          const fmt = card.dataset.eventFormat;
+          const visible = target === 'all' || fmt === target;
+          card.classList.toggle('hidden', !visible);
+        });
+      });
+    });
+  </script>
+</SiteShell>

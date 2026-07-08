@@ -1,0 +1,108 @@
+---
+/**
+ * Footer — site footer with product, resources, and legal columns.
+ *
+ * Pass `lang` to localize footer copy. When `lang === 'es'` the group titles
+ * and copyright/supporting strings come from the Spanish translations and
+ * the link hrefs get the `/es` prefix. Defaults to English.
+ */
+import { DEFAULT_LOCALE, normalizeLocale, type Locale, getTranslations } from '@/i18n/utils';
+
+export interface Props {
+  lang?: string;
+}
+
+const { lang } = Astro.props;
+const resolvedLang: Locale = normalizeLocale(lang ?? DEFAULT_LOCALE);
+const t = getTranslations(resolvedLang);
+const homeHref = resolvedLang === 'es' ? '/es' : '/';
+const prefix = resolvedLang === 'es' ? '/es' : '';
+
+const groups = [
+  {
+    title: t['footer.groups.explore'] ?? 'Explore',
+    links: [
+      { label: t['nav.projects'] ?? 'Projects', href: `${prefix}/projects` },
+      { label: t['nav.models'] ?? 'Models', href: `${prefix}/models` },
+      { label: t['nav.tutorials'] ?? 'Tutorials', href: `${prefix}/tutorials` },
+      { label: t['nav.playgrounds'] ?? 'Playgrounds', href: `${prefix}/playgrounds` },
+    ],
+  },
+  {
+    title: t['footer.groups.learn'] ?? 'Learn',
+    links: [
+      { label: t['nav.concepts'] ?? 'Concepts', href: `${prefix}/concepts` },
+      { label: t['nav.compare'] ?? 'Compare', href: `${prefix}/compare` },
+      { label: t['nav.glossary'] ?? 'Glossary', href: `${prefix}/glossary` },
+      { label: t['footer.links.decisionEngine'] ?? 'Decision Engine', href: `${prefix}/decide` },
+    ],
+  },
+  {
+    title: t['footer.groups.community'] ?? 'Community',
+    links: [
+      { label: t['nav.news'] ?? 'News', href: `${prefix}/news` },
+      { label: t['nav.events'] ?? 'Events', href: `${prefix}/events` },
+      { label: t['nav.jobs'] ?? 'Jobs', href: `${prefix}/jobs` },
+      { label: t['footer.links.about'] ?? 'About', href: `${prefix}/about` },
+    ],
+  },
+];
+
+const year = new Date().getFullYear();
+const copyright = (
+  t['footer.copyright'] ?? '© {year} AI Atlas · An Affiliate Forge product.'
+).replace('{year}', String(year));
+const tagline =
+  t['footer.tagline'] ?? 'Learn. Compare. Build. Everything Open Source AI, in one place.';
+const supporting = t['footer.supporting'] ?? 'Open Source AI knowledge, for everyone.';
+---
+
+<footer class="bg-secondary-black border-border mt-24 border-t">
+  <div class="max-w-dashboard mx-auto w-full px-4 py-12 md:px-8 md:py-16">
+    <div class="grid grid-cols-2 gap-8 md:grid-cols-4">
+      <div class="col-span-2 md:col-span-1">
+        <a
+          href={homeHref}
+          class="text-text hover:text-primary-orange inline-flex items-center gap-2 font-bold transition-colors"
+          aria-label="AI Atlas home"
+        >
+          <span
+            aria-hidden="true"
+            class="bg-primary-orange text-text-inverse inline-flex h-8 w-8 items-center justify-center rounded-md font-mono text-sm"
+          >
+            AI
+          </span>
+          <span>AI Atlas</span>
+        </a>
+        <p class="text-text-muted text-small mt-3">{tagline}</p>
+      </div>
+      {
+        groups.map((group) => (
+          <div>
+            <h3 class="text-text text-small font-semibold tracking-wide uppercase">
+              {group.title}
+            </h3>
+            <ul class="mt-4 flex flex-col gap-2" role="list">
+              {group.links.map((link) => (
+                <li>
+                  <a
+                    href={link.href}
+                    class="text-text-muted hover:text-primary-orange text-small transition-colors"
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
+    </div>
+    <div
+      class="text-text-subtle border-border text-tiny mt-12 flex flex-col items-start justify-between gap-2 border-t pt-6 md:flex-row md:items-center"
+    >
+      <span>{copyright}</span>
+      <span>{supporting}</span>
+    </div>
+  </div>
+</footer>

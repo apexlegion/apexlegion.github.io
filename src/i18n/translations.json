@@ -1,0 +1,180 @@
+{
+  "en": {
+    "site": {
+      "name": "AI Atlas",
+      "tagline": "Learn. Compare. Build. Everything Open Source AI, in One Place."
+    },
+    "nav": {
+      "learn": "Learn",
+      "projects": "Projects",
+      "models": "Models",
+      "glossary": "Glossary",
+      "tools": "Tools",
+      "playgrounds": "Playgrounds",
+      "decisions": "Decisions",
+      "compare": "Compare",
+      "graph": "Graph",
+      "concepts": "Concepts",
+      "tutorials": "Tutorials",
+      "jobs": "Jobs",
+      "events": "Events",
+      "news": "News",
+      "search": "Search",
+      "menu": "Menu",
+      "skipToContent": "Skip to content"
+    },
+    "home": {
+      "badge": "Universe Seed · Phase 1",
+      "titleLine1": "Learn. Compare. Build.",
+      "titleLine2": "Everything Open Source AI",
+      "titleLine3": "in one place.",
+      "subtitle": "The definitive knowledge platform for Open Source AI — visual-first, accessibility-led, curated by humans and automated by robots.",
+      "searchPlaceholder": "Search projects, models, concepts...",
+      "ctaStart": "Start exploring",
+      "ctaProjects": "View projects",
+      "categoriesEyebrow": "Explore",
+      "categoriesTitle": "Categories",
+      "categoriesDescription": "Jump into the corner of the universe that matches your goal.",
+      "featuredEyebrow": "Featured",
+      "featuredTitle": "Trending projects",
+      "featuredDescription": "Hand-picked projects worth your attention this week.",
+      "modelsEyebrow": "Models",
+      "modelsTitle": "Open models to try",
+      "modelsDescription": "From small LLMs to image generators — all open weights.",
+      "newsEyebrow": "Fresh",
+      "newsTitle": "Latest news",
+      "newsDescription": "Updates from the Open Source AI universe.",
+      "learningEyebrow": "Learn",
+      "learningTitle": "Popular learning paths",
+      "learningDescription": "Curated sequences to take you from curious to confident.",
+      "graphEyebrow": "Knowledge graph",
+      "graphTitle": "Explore the universe",
+      "graphDescription": "Every project, model, concept, and tutorial is connected. (Coming in Phase 1 Milestone 3.)",
+      "graphPreviewAlt": "graph preview",
+      "graphBody": "Interactive graph explorer lets you traverse connections between projects, models, and concepts in any direction.",
+      "graphCta": "Learn about the graph",
+      "openArrow": "Open →",
+      "compareArrow": "Compare →",
+      "startPath": "Start path →",
+      "minutes": "min",
+      "cardCtaArrow": "→"
+    },
+    "footer": {
+      "tagline": "Learn. Compare. Build. Everything Open Source AI, in one place.",
+      "copyright": "© {year} AI Atlas · An Affiliate Forge product.",
+      "supporting": "Open Source AI knowledge, for everyone.",
+      "groups": {
+        "explore": "Explore",
+        "learn": "Learn",
+        "community": "Community"
+      },
+      "links": {
+        "tutorials": "Tutorials",
+        "decisionEngine": "Decision Engine",
+        "about": "About"
+      }
+    },
+    "language": {
+      "switcher": "Language",
+      "english": "English",
+      "spanish": "Español",
+      "switchTo": "Switch language",
+      "currentLanguage": "Current language"
+    },
+    "common": {
+      "home": "Home",
+      "close": "Close",
+      "openMenu": "Open menu",
+      "openSearch": "Open search (press /)"
+    }
+  },
+  "es": {
+    "site": {
+      "name": "AI Atlas",
+      "tagline": "Aprende. Compara. Construye. Todo el IA Open Source, en un solo lugar."
+    },
+    "nav": {
+      "learn": "Aprende",
+      "projects": "Proyectos",
+      "models": "Modelos",
+      "glossary": "Glosario",
+      "tools": "Herramientas",
+      "playgrounds": "Playgrounds",
+      "decisions": "Decisiones",
+      "compare": "Comparar",
+      "graph": "Grafo",
+      "concepts": "Conceptos",
+      "tutorials": "Tutoriales",
+      "jobs": "Empleos",
+      "events": "Eventos",
+      "news": "Noticias",
+      "search": "Buscar",
+      "menu": "Menú",
+      "skipToContent": "Saltar al contenido"
+    },
+    "home": {
+      "badge": "Semilla del Universo · Fase 1",
+      "titleLine1": "Aprende. Compara. Construye.",
+      "titleLine2": "Todo el IA Open Source",
+      "titleLine3": "en un solo lugar.",
+      "subtitle": "La plataforma definitiva de conocimiento sobre IA Open Source — visual primero, accesible para todos, curada por humanos y automatizada por robots.",
+      "searchPlaceholder": "Buscar proyectos, modelos, conceptos...",
+      "ctaStart": "Empezar a explorar",
+      "ctaProjects": "Ver proyectos",
+      "categoriesEyebrow": "Explora",
+      "categoriesTitle": "Categorías",
+      "categoriesDescription": "Entra en la esquina del universo que coincide con tu objetivo.",
+      "featuredEyebrow": "Destacados",
+      "featuredTitle": "Proyectos en tendencia",
+      "featuredDescription": "Proyectos seleccionados que merece la pena descubrir esta semana.",
+      "modelsEyebrow": "Modelos",
+      "modelsTitle": "Modelos abiertos para probar",
+      "modelsDescription": "Desde LLMs pequeños hasta generadores de imagen — todos con pesos abiertos.",
+      "newsEyebrow": "Novedades",
+      "newsTitle": "Últimas noticias",
+      "newsDescription": "Actualizaciones del universo del IA Open Source.",
+      "learningEyebrow": "Aprende",
+      "learningTitle": "Rutas de aprendizaje populares",
+      "learningDescription": "Secuencias curadas para llevarte de curioso a experto.",
+      "graphEyebrow": "Grafo de conocimiento",
+      "graphTitle": "Explora el universo",
+      "graphDescription": "Cada proyecto, modelo, concepto y tutorial está conectado. (Próximamente en la Fase 1, Hito 3.)",
+      "graphPreviewAlt": "vista previa del grafo",
+      "graphBody": "El explorador interactivo del grafo te permite recorrer las conexiones entre proyectos, modelos y conceptos en cualquier dirección.",
+      "graphCta": "Conoce el grafo",
+      "openArrow": "Abrir →",
+      "compareArrow": "Comparar →",
+      "startPath": "Comenzar ruta →",
+      "minutes": "min",
+      "cardCtaArrow": "→"
+    },
+    "footer": {
+      "tagline": "Aprende. Compara. Construye. Todo el IA Open Source, en un solo lugar.",
+      "copyright": "© {year} AI Atlas · Un producto de Affiliate Forge.",
+      "supporting": "Conocimiento de IA Open Source, para todos.",
+      "groups": {
+        "explore": "Explora",
+        "learn": "Aprende",
+        "community": "Comunidad"
+      },
+      "links": {
+        "tutorials": "Tutoriales",
+        "decisionEngine": "Motor de decisiones",
+        "about": "Acerca de"
+      }
+    },
+    "language": {
+      "switcher": "Idioma",
+      "english": "English",
+      "spanish": "Español",
+      "switchTo": "Cambiar idioma",
+      "currentLanguage": "Idioma actual"
+    },
+    "common": {
+      "home": "Inicio",
+      "close": "Cerrar",
+      "openMenu": "Abrir menú",
+      "openSearch": "Abrir búsqueda (pulsa /)"
+    }
+  }
+}

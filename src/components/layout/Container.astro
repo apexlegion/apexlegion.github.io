@@ -1,0 +1,27 @@
+---
+/**
+ * Container — content width wrapper.
+ *
+ * Sizes:
+ *   - `content`  : max-width 1280px (default)
+ *   - `wide`     : max-width 1440px (dashboards)
+ *   - `prose`    : max-width 720px (body text)
+ */
+export interface Props {
+  size?: 'content' | 'wide' | 'prose';
+  as?: string;
+  class?: string;
+}
+
+const { size = 'content', as: Tag = 'div', class: className = '' } = Astro.props;
+
+const sizeClass = {
+  content: 'mx-auto w-full max-w-container px-4 md:px-8',
+  wide: 'mx-auto w-full max-w-dashboard px-4 md:px-8',
+  prose: 'mx-auto w-full max-w-prose px-4 md:px-8',
+}[size];
+---
+
+<Tag class:list={[sizeClass, className]}>
+  <slot />
+</Tag>

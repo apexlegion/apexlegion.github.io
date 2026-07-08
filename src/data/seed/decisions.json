@@ -1,0 +1,1516 @@
+[
+  {
+    "slug": "local-llm",
+    "name": "Choose a Local LLM Tool",
+    "summary": "Pick the right local-LLM tool for your hardware and use case.",
+    "description": "Answer a few quick questions about how you plan to use a local LLM and we'll recommend a project from the AI Atlas catalog.",
+    "questions": [
+      {
+        "id": "use-case",
+        "prompt": "What will you mostly use it for?",
+        "helperText": "Different tools shine at different tasks.",
+        "type": "single",
+        "options": [
+          { "value": "chat", "label": "Chatting with a single model" },
+          { "value": "dev", "label": "Embedding a model into an app" },
+          { "value": "experiments", "label": "Running benchmarks / experiments" },
+          { "value": "tinkering", "label": "Just tinkering, no specific goal" }
+        ]
+      },
+      {
+        "id": "hardware",
+        "prompt": "What's your hardware?",
+        "helperText": "We pick tools that fit your machine.",
+        "type": "single",
+        "options": [
+          { "value": "apple-silicon", "label": "Apple Silicon (M1/M2/M3/M4)" },
+          { "value": "nvidia-gpu", "label": "NVIDIA GPU with CUDA" },
+          { "value": "cpu-only", "label": "CPU only, modest RAM" }
+        ]
+      },
+      {
+        "id": "license",
+        "prompt": "Do you have a license preference?",
+        "type": "single",
+        "options": [
+          { "value": "any", "label": "Any open license is fine" },
+          { "value": "permissive", "label": "Permissive (MIT/Apache) preferred" }
+        ]
+      }
+    ],
+    "rules": [
+      {
+        "when": { "all": ["chat", "apple-silicon", "any"] },
+        "recommendations": [
+          {
+            "slug": "ollama",
+            "type": "project",
+            "reason": "Ollama gives you a one-command setup for chatting on Apple Silicon."
+          },
+          {
+            "slug": "llama-cpp",
+            "type": "project",
+            "reason": "llama.cpp is the underlying engine and is rock-solid on Apple Silicon."
+          }
+        ]
+      },
+      {
+        "when": { "all": ["chat", "nvidia-gpu", "any"] },
+        "recommendations": [
+          {
+            "slug": "ollama",
+            "type": "project",
+            "reason": "Ollama automatically picks CUDA when available."
+          },
+          {
+            "slug": "text-generation-webui",
+            "type": "project",
+            "reason": "text-generation-webui exposes more knobs for GPU users."
+          }
+        ]
+      },
+      {
+        "when": { "all": ["chat", "cpu-only", "any"] },
+        "recommendations": [
+          {
+            "slug": "llama-cpp",
+            "type": "project",
+            "reason": "llama.cpp is the most mature CPU-only inference path."
+          },
+          {
+            "slug": "ollama",
+            "type": "project",
+            "reason": "Ollama wraps llama.cpp and ships quantized models tuned for low-RAM machines."
+          }
+        ]
+      },
+      {
+        "when": { "all": ["dev"] },
+        "recommendations": [
+          {
+            "slug": "ollama",
+            "type": "project",
+            "reason": "Ollama's local REST API is the easiest way to embed a model in an app."
+          },
+          {
+            "slug": "llama-cpp",
+            "type": "project",
+            "reason": "Use llama.cpp directly when you need fine-grained control from C/C++ or Python."
+          }
+        ]
+      },
+      {
+        "when": { "all": ["experiments"] },
+        "recommendations": [
+          {
+            "slug": "text-generation-webui",
+            "type": "project",
+            "reason": "text-generation-webui exposes many sampling and evaluation switches."
+          }
+        ]
+      },
+      {
+        "when": { "all": ["tinkering"] },
+        "recommendations": [
+          {
+            "slug": "ollama",
+            "type": "project",
+            "reason": "Ollama is the lowest-friction way to try open models locally."
+          }
+        ]
+      }
+    ],
+    "tags": ["local-llm", "inference", "recommendation"],
+    "externalLinks": []
+  },
+  {
+    "slug": "llm-framework",
+    "name": "Choose an LLM Framework",
+    "summary": "Find an LLM framework that matches your language and integration needs.",
+    "description": "Different frameworks have different trade-offs. Tell us how you want to integrate and we'll suggest one from the catalog.",
+    "questions": [
+      {
+        "id": "language",
+        "prompt": "Which language will you write in?",
+        "type": "single",
+        "options": [
+          { "value": "python", "label": "Python" },
+          { "value": "typescript", "label": "TypeScript / JavaScript" },
+          { "value": "multi", "label": "Multi-language or undecided" }
+        ]
+      },
+      {
+        "id": "integration",
+        "prompt": "How tightly do you need to integrate with model internals?",
+        "type": "single",
+        "options": [
+          { "value": "high-level", "label": "High-level — chains, agents, RAG" },
+          { "value": "low-level", "label": "Low-level — direct model control" }
+        ]
+      },
+      {
+        "id": "license",
+        "prompt": "License preference?",
+        "type": "single",
+        "options": [
+          { "value": "any", "label": "Any open license is fine" },
+          { "value": "permissive", "label": "Permissive (MIT/Apache) preferred" }
+        ]
+      }
+    ],
+    "rules": [
+      {
+        "when": { "all": ["python", "high-level", "any"] },
+        "recommendations": [
+          {
+            "slug": "transformers",
+            "type": "project",
+            "reason": "Transformers is the reference Python framework with the largest model zoo."
+          },
+          {
+            "slug": "langchain",
+            "type": "project",
+            "reason": "LangChain gives you high-level chains, agents, and RAG primitives on top of Python."
+          }
+        ]
+      },
+      {
+        "when": { "all": ["python", "low-level", "any"] },
+        "recommendations": [
+          {
+            "slug": "transformers",
+            "type": "project",
+            "reason": "Transformers gives you direct access to the underlying PyTorch modules."
+          }
+        ]
+      },
+      {
+        "when": { "all": ["typescript", "high-level", "any"] },
+        "recommendations": [
+          {
+            "slug": "langchain",
+            "type": "project",
+            "reason": "LangChain has first-class TypeScript bindings for chains and agents."
+          }
+        ]
+      },
+      {
+        "when": { "all": ["typescript", "low-level", "any"] },
+        "recommendations": [
+          {
+            "slug": "transformers",
+            "type": "project",
+            "reason": "Reach for Transformers via its Python bindings from a TypeScript service when you need raw model control."
+          }
+        ]
+      },
+      {
+        "when": { "all": ["multi", "any"] },
+        "recommendations": [
+          {
+            "slug": "transformers",
+            "type": "project",
+            "reason": "Transformers has the widest language coverage through Python and Hugging Face tooling."
+          },
+          {
+            "slug": "langchain",
+            "type": "project",
+            "reason": "LangChain supports both Python and TypeScript runtimes."
+          }
+        ]
+      }
+    ],
+    "tags": ["framework", "llm", "recommendation"],
+    "externalLinks": []
+  },
+  {
+    "slug": "image-generation",
+    "name": "Choose an Image Generation Model",
+    "summary": "Pick an open image generation model that fits your hardware and license needs.",
+    "description": "Tell us about your use case, hardware, and license comfort, and we'll recommend an image model from the catalog.",
+    "questions": [
+      {
+        "id": "modality",
+        "prompt": "What kind of images do you want?",
+        "type": "single",
+        "options": [
+          { "value": "photorealistic", "label": "Photorealistic / general purpose" },
+          { "value": "artistic", "label": "Artistic / stylized" },
+          { "value": "fast", "label": "Fast drafts — quality is secondary" }
+        ]
+      },
+      {
+        "id": "hardware",
+        "prompt": "What hardware do you have?",
+        "type": "single",
+        "options": [
+          { "value": "consumer-gpu", "label": "Consumer GPU (8–16 GB VRAM)" },
+          { "value": "apple-silicon", "label": "Apple Silicon, 16+ GB unified memory" },
+          { "value": "cpu-only", "label": "CPU only" }
+        ]
+      },
+      {
+        "id": "license",
+        "prompt": "Do you have a license preference?",
+        "type": "single",
+        "options": [
+          { "value": "any", "label": "Any open license is fine" },
+          { "value": "apache", "label": "Apache-2.0 preferred" },
+          { "value": "creative", "label": "CreativeML-style OK" }
+        ]
+      }
+    ],
+    "rules": [
+      {
+        "when": { "all": ["photorealistic", "consumer-gpu", "any"] },
+        "recommendations": [
+          {
+            "slug": "stable-diffusion-xl",
+            "type": "model",
+            "reason": "Stable Diffusion XL produces high-fidelity images on consumer GPUs."
+          }
+        ]
+      },
+      {
+        "when": { "all": ["photorealistic", "apple-silicon", "any"] },
+        "recommendations": [
+          {
+            "slug": "stable-diffusion-xl",
+            "type": "model",
+            "reason": "SDXL runs on Apple Silicon via Diffusers with reasonable performance."
+          }
+        ]
+      },
+      {
+        "when": { "all": ["artistic", "any"] },
+        "recommendations": [
+          {
+            "slug": "stable-diffusion-xl",
+            "type": "model",
+            "reason": "SDXL handles a wide range of styles from photographic to illustrative."
+          }
+        ]
+      },
+      {
+        "when": { "all": ["fast", "any"] },
+        "recommendations": [
+          {
+            "slug": "stable-diffusion-xl",
+            "type": "model",
+            "reason": "SDXL with a few inference steps produces quick drafts; smaller distilled variants exist for even faster iteration."
+          }
+        ]
+      },
+      {
+        "when": { "all": ["any", "any", "apache"] },
+        "recommendations": [
+          {
+            "slug": "stable-diffusion-xl",
+            "type": "model",
+            "reason": "Stable Diffusion XL ships under a permissive open license."
+          }
+        ]
+      }
+    ],
+    "tags": ["image", "generation", "recommendation"],
+    "externalLinks": []
+  },
+  {
+    "slug": "choose-embedding-model",
+    "name": "Choose an Embedding Model",
+    "summary": "Pick an embedding-capable open model for semantic search and RAG.",
+    "description": "Tell us about scale, language coverage, and deployment style and we will score the open embedding backends in the Atlas.",
+    "engine": "scoring",
+    "questions": [
+      {
+        "id": "scale",
+        "prompt": "How large is your corpus?",
+        "helperText": "Larger corpora benefit from higher-throughput serving stacks.",
+        "type": "single",
+        "options": [
+          {
+            "value": "small",
+            "label": "Small (under ~100k vectors)",
+            "scores": {
+              "project:text-embeddings-inference": 2,
+              "project:llama-cpp": 3,
+              "project:transformers": 3,
+              "project:vllm": 1,
+              "model:llama-3": 2,
+              "model:mistral-7b": 2
+            }
+          },
+          {
+            "value": "medium",
+            "label": "Medium (~100k–10M vectors)",
+            "scores": {
+              "project:text-embeddings-inference": 3,
+              "project:llama-cpp": 2,
+              "project:transformers": 2,
+              "project:vllm": 3,
+              "model:llama-3": 2,
+              "model:mistral-7b": 2
+            }
+          },
+          {
+            "value": "large",
+            "label": "Large (10M+ vectors)",
+            "scores": {
+              "project:text-embeddings-inference": 3,
+              "project:llama-cpp": 1,
+              "project:transformers": 2,
+              "project:vllm": 3,
+              "model:llama-3": 1,
+              "model:mistral-7b": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "deployment",
+        "prompt": "Where will you run it?",
+        "type": "single",
+        "options": [
+          {
+            "value": "self-hosted",
+            "label": "Self-hosted on a server",
+            "scores": {
+              "project:text-embeddings-inference": 3,
+              "project:llama-cpp": 2,
+              "project:transformers": 2,
+              "project:vllm": 3,
+              "model:llama-3": 1,
+              "model:mistral-7b": 1
+            }
+          },
+          {
+            "value": "laptop",
+            "label": "On a laptop or workstation",
+            "scores": {
+              "project:text-embeddings-inference": 1,
+              "project:llama-cpp": 3,
+              "project:transformers": 2,
+              "project:vllm": 1,
+              "model:llama-3": 3,
+              "model:mistral-7b": 3
+            }
+          },
+          {
+            "value": "edge",
+            "label": "On edge / constrained hardware",
+            "scores": {
+              "project:text-embeddings-inference": 1,
+              "project:llama-cpp": 3,
+              "project:transformers": 1,
+              "project:vllm": 0,
+              "model:llama-3": 1,
+              "model:mistral-7b": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "priority",
+        "prompt": "What matters most?",
+        "type": "single",
+        "options": [
+          {
+            "value": "throughput",
+            "label": "Throughput and cost per token",
+            "scores": {
+              "project:text-embeddings-inference": 3,
+              "project:llama-cpp": 1,
+              "project:transformers": 1,
+              "project:vllm": 3,
+              "model:llama-3": 0,
+              "model:mistral-7b": 0
+            }
+          },
+          {
+            "value": "quality",
+            "label": "Embedding quality on my domain",
+            "scores": {
+              "project:text-embeddings-inference": 1,
+              "project:llama-cpp": 2,
+              "project:transformers": 3,
+              "project:vllm": 1,
+              "model:llama-3": 2,
+              "model:mistral-7b": 2
+            }
+          },
+          {
+            "value": "privacy",
+            "label": "Stays fully on my machine",
+            "scores": {
+              "project:text-embeddings-inference": 1,
+              "project:llama-cpp": 3,
+              "project:transformers": 2,
+              "project:vllm": 1,
+              "model:llama-3": 3,
+              "model:mistral-7b": 3
+            }
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": "project:text-embeddings-inference",
+        "slug": "text-embeddings-inference",
+        "type": "project",
+        "reason": "TEI is a purpose-built embedding server from Hugging Face tuned for throughput.",
+        "healthScore": 0.85
+      },
+      {
+        "id": "project:llama-cpp",
+        "slug": "llama-cpp",
+        "type": "project",
+        "reason": "llama.cpp runs embedding-capable GGUF models with no GPU required.",
+        "healthScore": 0.9
+      },
+      {
+        "id": "project:transformers",
+        "slug": "transformers",
+        "type": "project",
+        "reason": "Transformers has the largest catalog of embedding models and fine-tuning recipes.",
+        "healthScore": 0.95
+      },
+      {
+        "id": "project:vllm",
+        "slug": "vllm",
+        "type": "project",
+        "reason": "vLLM serves embedding endpoints with PagedAttention for high-throughput serving.",
+        "healthScore": 0.8
+      },
+      {
+        "id": "model:llama-3",
+        "slug": "llama-3",
+        "type": "model",
+        "reason": "Llama 3 can produce embeddings via its API and Ollama's /api/embeddings endpoint.",
+        "healthScore": 0.85
+      },
+      {
+        "id": "model:mistral-7b",
+        "slug": "mistral-7b",
+        "type": "model",
+        "reason": "Mistral 7B exposes an embeddings endpoint in Ollama and vLLM for general-purpose retrieval.",
+        "healthScore": 0.8
+      }
+    ],
+    "tags": ["embeddings", "retrieval", "recommendation"],
+    "externalLinks": []
+  },
+  {
+    "slug": "choose-vector-database",
+    "name": "Choose a Vector Database",
+    "summary": "Pick the right open vector store for your retrieval workload.",
+    "description": "We score the open vector databases in the Atlas based on scale, ops footprint, and integration style.",
+    "engine": "scoring",
+    "questions": [
+      {
+        "id": "scale",
+        "prompt": "How big is your index?",
+        "type": "single",
+        "options": [
+          {
+            "value": "small",
+            "label": "Small (under ~1M vectors)",
+            "scores": {
+              "project:chroma": 3,
+              "project:lancedb": 3,
+              "project:faiss": 2,
+              "project:pgvector": 2,
+              "project:qdrant": 2,
+              "project:milvus": 1,
+              "project:weaviate": 2
+            }
+          },
+          {
+            "value": "medium",
+            "label": "Medium (~1M–100M vectors)",
+            "scores": {
+              "project:chroma": 2,
+              "project:lancedb": 2,
+              "project:faiss": 2,
+              "project:pgvector": 2,
+              "project:qdrant": 3,
+              "project:milvus": 3,
+              "project:weaviate": 3
+            }
+          },
+          {
+            "value": "large",
+            "label": "Large (100M+ vectors)",
+            "scores": {
+              "project:chroma": 1,
+              "project:lancedb": 2,
+              "project:faiss": 2,
+              "project:pgvector": 1,
+              "project:qdrant": 3,
+              "project:milvus": 3,
+              "project:weaviate": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": "ops",
+        "prompt": "How much operations overhead is acceptable?",
+        "type": "single",
+        "options": [
+          {
+            "value": "embedded",
+            "label": "Embedded — no separate service",
+            "scores": {
+              "project:chroma": 3,
+              "project:lancedb": 3,
+              "project:faiss": 3,
+              "project:pgvector": 1,
+              "project:qdrant": 1,
+              "project:milvus": 1,
+              "project:weaviate": 1
+            }
+          },
+          {
+            "value": "managed",
+            "label": "Dedicated service I'm happy to operate",
+            "scores": {
+              "project:chroma": 1,
+              "project:lancedb": 1,
+              "project:faiss": 1,
+              "project:pgvector": 1,
+              "project:qdrant": 3,
+              "project:milvus": 3,
+              "project:weaviate": 3
+            }
+          },
+          {
+            "value": "existing",
+            "label": "I already run Postgres",
+            "scores": {
+              "project:chroma": 0,
+              "project:lancedb": 0,
+              "project:faiss": 0,
+              "project:pgvector": 3,
+              "project:qdrant": 0,
+              "project:milvus": 0,
+              "project:weaviate": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "priority",
+        "prompt": "What matters most?",
+        "type": "single",
+        "options": [
+          {
+            "value": "filtered",
+            "label": "Strong metadata filtering",
+            "scores": {
+              "project:chroma": 2,
+              "project:lancedb": 2,
+              "project:faiss": 1,
+              "project:pgvector": 3,
+              "project:qdrant": 3,
+              "project:milvus": 3,
+              "project:weaviate": 3
+            }
+          },
+          {
+            "value": "speed",
+            "label": "Raw vector search speed",
+            "scores": {
+              "project:chroma": 1,
+              "project:lancedb": 2,
+              "project:faiss": 3,
+              "project:pgvector": 1,
+              "project:qdrant": 3,
+              "project:milvus": 3,
+              "project:weaviate": 2
+            }
+          },
+          {
+            "value": "ease",
+            "label": "Easy to get started",
+            "scores": {
+              "project:chroma": 3,
+              "project:lancedb": 3,
+              "project:faiss": 1,
+              "project:pgvector": 2,
+              "project:qdrant": 2,
+              "project:milvus": 1,
+              "project:weaviate": 2
+            }
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": "project:milvus",
+        "slug": "milvus",
+        "type": "project",
+        "reason": "Milvus is a horizontally scalable vector database built for billion-scale retrieval.",
+        "healthScore": 0.9
+      },
+      {
+        "id": "project:qdrant",
+        "slug": "qdrant",
+        "type": "project",
+        "reason": "Qdrant pairs high-performance vector search with rich payload filtering.",
+        "healthScore": 0.9
+      },
+      {
+        "id": "project:chroma",
+        "slug": "chroma",
+        "type": "project",
+        "reason": "Chroma is an embedded-first vector store that gets you running in a few lines of Python.",
+        "healthScore": 0.85
+      },
+      {
+        "id": "project:weaviate",
+        "slug": "weaviate",
+        "type": "project",
+        "reason": "Weaviate combines vector search with hybrid keyword search and a module ecosystem.",
+        "healthScore": 0.85
+      },
+      {
+        "id": "project:pgvector",
+        "slug": "pgvector",
+        "type": "project",
+        "reason": "pgvector turns your existing Postgres database into a capable vector store.",
+        "healthScore": 0.95
+      },
+      {
+        "id": "project:lancedb",
+        "slug": "lancedb",
+        "type": "project",
+        "reason": "LanceDB is an embedded columnar vector store built on the Lance file format.",
+        "healthScore": 0.8
+      },
+      {
+        "id": "project:faiss",
+        "slug": "faiss",
+        "type": "project",
+        "reason": "Faiss is Meta's reference library for in-memory vector similarity search and clustering.",
+        "healthScore": 0.9
+      }
+    ],
+    "tags": ["vector-database", "retrieval", "recommendation"],
+    "externalLinks": []
+  },
+  {
+    "slug": "choose-agent-framework",
+    "name": "Choose an Agent Framework",
+    "summary": "Pick the agent framework that matches your orchestration style.",
+    "description": "We score the open agent frameworks in the Atlas against your language, complexity, and control preferences.",
+    "engine": "scoring",
+    "questions": [
+      {
+        "id": "language",
+        "prompt": "Which language are you writing in?",
+        "type": "single",
+        "options": [
+          {
+            "value": "python",
+            "label": "Python",
+            "scores": {
+              "project:langchain": 3,
+              "project:langgraph": 3,
+              "project:llama-index": 3,
+              "project:haystack": 3,
+              "project:autogen": 3,
+              "project:crewai": 3
+            }
+          },
+          {
+            "value": "typescript",
+            "label": "TypeScript / JavaScript",
+            "scores": {
+              "project:langchain": 3,
+              "project:langgraph": 3,
+              "project:llama-index": 1,
+              "project:haystack": 1,
+              "project:autogen": 1,
+              "project:crewai": 1
+            }
+          },
+          {
+            "value": "either",
+            "label": "Either, whatever fits best",
+            "scores": {
+              "project:langchain": 2,
+              "project:langgraph": 2,
+              "project:llama-index": 2,
+              "project:haystack": 2,
+              "project:autogen": 2,
+              "project:crewai": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "complexity",
+        "prompt": "What kind of agents are you building?",
+        "type": "single",
+        "options": [
+          {
+            "value": "single",
+            "label": "Single agent with tools",
+            "scores": {
+              "project:langchain": 2,
+              "project:langgraph": 2,
+              "project:llama-index": 2,
+              "project:haystack": 2,
+              "project:autogen": 3,
+              "project:crewai": 3
+            }
+          },
+          {
+            "value": "graph",
+            "label": "Graph / stateful multi-step workflows",
+            "scores": {
+              "project:langchain": 2,
+              "project:langgraph": 3,
+              "project:llama-index": 2,
+              "project:haystack": 2,
+              "project:autogen": 3,
+              "project:crewai": 2
+            }
+          },
+          {
+            "value": "rag",
+            "label": "RAG / data-augmented agents",
+            "scores": {
+              "project:langchain": 3,
+              "project:langgraph": 2,
+              "project:llama-index": 3,
+              "project:haystack": 3,
+              "project:autogen": 1,
+              "project:crewai": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "control",
+        "prompt": "How much low-level control do you want?",
+        "type": "single",
+        "options": [
+          {
+            "value": "high-level",
+            "label": "High-level — batteries included",
+            "scores": {
+              "project:langchain": 3,
+              "project:langgraph": 2,
+              "project:llama-index": 3,
+              "project:haystack": 3,
+              "project:autogen": 3,
+              "project:crewai": 3
+            }
+          },
+          {
+            "value": "low-level",
+            "label": "Low-level — explicit nodes and edges",
+            "scores": {
+              "project:langchain": 1,
+              "project:langgraph": 3,
+              "project:llama-index": 1,
+              "project:haystack": 1,
+              "project:autogen": 2,
+              "project:crewai": 1
+            }
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": "project:langchain",
+        "slug": "langchain",
+        "type": "project",
+        "reason": "LangChain is the broadest open framework for LLM-powered applications in Python and TypeScript.",
+        "healthScore": 0.9
+      },
+      {
+        "id": "project:langgraph",
+        "slug": "langgraph",
+        "type": "project",
+        "reason": "LangGraph models agent workflows as explicit graphs for fine-grained control.",
+        "healthScore": 0.85
+      },
+      {
+        "id": "project:llama-index",
+        "slug": "llama-index",
+        "type": "project",
+        "reason": "LlamaIndex is the leading framework for RAG and data-augmented LLM apps.",
+        "healthScore": 0.85
+      },
+      {
+        "id": "project:haystack",
+        "slug": "haystack",
+        "type": "project",
+        "reason": "Haystack focuses on production-grade pipelines with strong evaluation tooling.",
+        "healthScore": 0.8
+      },
+      {
+        "id": "project:autogen",
+        "slug": "autogen",
+        "type": "project",
+        "reason": "AutoGen is Microsoft's framework for multi-agent conversations with role specialization.",
+        "healthScore": 0.8
+      },
+      {
+        "id": "project:crewai",
+        "slug": "crewai",
+        "type": "project",
+        "reason": "CrewAI orchestrates role-based agent crews with explicit task delegation.",
+        "healthScore": 0.8
+      }
+    ],
+    "tags": ["agents", "framework", "recommendation"],
+    "externalLinks": []
+  },
+  {
+    "slug": "choose-fine-tuning-approach",
+    "name": "Choose a Fine-tuning Approach",
+    "summary": "Pick a fine-tuning toolkit that fits your hardware and adaptation goal.",
+    "description": "We score the open fine-tuning projects in the Atlas against your dataset size, GPU budget, and adaptation strategy.",
+    "engine": "scoring",
+    "questions": [
+      {
+        "id": "method",
+        "prompt": "Which adaptation strategy do you want?",
+        "type": "single",
+        "options": [
+          {
+            "value": "full",
+            "label": "Full fine-tuning",
+            "scores": {
+              "project:axolotl": 3,
+              "project:unsloth": 3,
+              "project:trl": 3,
+              "project:peft": 1,
+              "project:kohya-ss": 2,
+              "project:bitsandbytes": 1
+            }
+          },
+          {
+            "value": "lora",
+            "label": "LoRA / QLoRA",
+            "scores": {
+              "project:axolotl": 3,
+              "project:unsloth": 3,
+              "project:trl": 2,
+              "project:peft": 3,
+              "project:kohya-ss": 3,
+              "project:bitsandbytes": 2
+            }
+          },
+          {
+            "value": "rlhf",
+            "label": "RLHF / preference tuning",
+            "scores": {
+              "project:axolotl": 1,
+              "project:unsloth": 2,
+              "project:trl": 3,
+              "project:peft": 2,
+              "project:kohya-ss": 0,
+              "project:bitsandbytes": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "hardware",
+        "prompt": "What GPU do you have?",
+        "type": "single",
+        "options": [
+          {
+            "value": "consumer",
+            "label": "Single consumer GPU (8–24 GB)",
+            "scores": {
+              "project:axolotl": 2,
+              "project:unsloth": 3,
+              "project:trl": 2,
+              "project:peft": 3,
+              "project:kohya-ss": 3,
+              "project:bitsandbytes": 3
+            }
+          },
+          {
+            "value": "multi",
+            "label": "Multi-GPU workstation",
+            "scores": {
+              "project:axolotl": 3,
+              "project:unsloth": 2,
+              "project:trl": 3,
+              "project:peft": 2,
+              "project:kohya-ss": 2,
+              "project:bitsandbytes": 2
+            }
+          },
+          {
+            "value": "cluster",
+            "label": "Cluster / cloud GPUs",
+            "scores": {
+              "project:axolotl": 3,
+              "project:unsloth": 1,
+              "project:trl": 3,
+              "project:peft": 2,
+              "project:kohya-ss": 1,
+              "project:bitsandbytes": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "stack",
+        "prompt": "Which ecosystem do you already use?",
+        "type": "single",
+        "options": [
+          {
+            "value": "hf",
+            "label": "Hugging Face Transformers",
+            "scores": {
+              "project:axolotl": 3,
+              "project:unsloth": 3,
+              "project:trl": 3,
+              "project:peft": 3,
+              "project:kohya-ss": 2,
+              "project:bitsandbytes": 3
+            }
+          },
+          {
+            "value": "diffusion",
+            "label": "Stable Diffusion / image models",
+            "scores": {
+              "project:axolotl": 1,
+              "project:unsloth": 1,
+              "project:trl": 1,
+              "project:peft": 2,
+              "project:kohya-ss": 3,
+              "project:bitsandbytes": 1
+            }
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": "project:kohya-ss",
+        "slug": "kohya-ss",
+        "type": "project",
+        "reason": "Kohya Scripts is the de-facto GUI and CLI for fine-tuning Stable Diffusion models.",
+        "healthScore": 0.9
+      },
+      {
+        "id": "project:axolotl",
+        "slug": "axolotl",
+        "type": "project",
+        "reason": "Axolotl is a batteries-included fine-tuning framework built on top of Transformers.",
+        "healthScore": 0.85
+      },
+      {
+        "id": "project:unsloth",
+        "slug": "unsloth",
+        "type": "project",
+        "reason": "Unsloth delivers 2x faster LoRA / QLoRA training on a single consumer GPU.",
+        "healthScore": 0.85
+      },
+      {
+        "id": "project:bitsandbytes",
+        "slug": "bitsandbytes",
+        "type": "project",
+        "reason": "bitsandbytes provides 4-bit and 8-bit optimizers that make large-model fine-tuning fit on small GPUs.",
+        "healthScore": 0.9
+      },
+      {
+        "id": "project:peft",
+        "slug": "peft",
+        "type": "project",
+        "reason": "PEFT is the reference library for parameter-efficient fine-tuning methods like LoRA and adapters.",
+        "healthScore": 0.95
+      },
+      {
+        "id": "project:trl",
+        "slug": "trl",
+        "type": "project",
+        "reason": "TRL implements SFT, DPO, PPO, and GRPO for preference-based fine-tuning.",
+        "healthScore": 0.9
+      }
+    ],
+    "tags": ["fine-tuning", "training", "recommendation"],
+    "externalLinks": []
+  },
+  {
+    "slug": "choose-image-dataset",
+    "name": "Choose an Image Generation Pipeline",
+    "summary": "Pick an open image generation pipeline that fits your dataset and workflow.",
+    "description": "We score the open image pipelines in the Atlas against your workflow, control needs, and deployment style.",
+    "engine": "scoring",
+    "questions": [
+      {
+        "id": "workflow",
+        "prompt": "How do you want to drive generation?",
+        "type": "single",
+        "options": [
+          {
+            "value": "cli",
+            "label": "CLI / scripts",
+            "scores": {
+              "project:stable-diffusion-webui": 2,
+              "project:comfyui": 3,
+              "project:invokeai": 2,
+              "project:fooocus": 1
+            }
+          },
+          {
+            "value": "node",
+            "label": "Visual node graph",
+            "scores": {
+              "project:stable-diffusion-webui": 1,
+              "project:comfyui": 3,
+              "project:invokeai": 2,
+              "project:fooocus": 1
+            }
+          },
+          {
+            "value": "app",
+            "label": "Polished desktop app",
+            "scores": {
+              "project:stable-diffusion-webui": 1,
+              "project:comfyui": 1,
+              "project:invokeai": 3,
+              "project:fooocus": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": "control",
+        "prompt": "How much fine-grained control do you need?",
+        "type": "single",
+        "options": [
+          {
+            "value": "simple",
+            "label": "Prompt and go",
+            "scores": {
+              "project:stable-diffusion-webui": 2,
+              "project:comfyui": 1,
+              "project:invokeai": 2,
+              "project:fooocus": 3
+            }
+          },
+          {
+            "value": "advanced",
+            "label": "Schedulers, samplers, regional prompting",
+            "scores": {
+              "project:stable-diffusion-webui": 3,
+              "project:comfyui": 3,
+              "project:invokeai": 2,
+              "project:fooocus": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "extension",
+        "prompt": "Do you want a rich extension ecosystem?",
+        "type": "single",
+        "options": [
+          {
+            "value": "yes",
+            "label": "Yes — large community of extensions",
+            "scores": {
+              "project:stable-diffusion-webui": 3,
+              "project:comfyui": 3,
+              "project:invokeai": 2,
+              "project:fooocus": 1
+            }
+          },
+          {
+            "value": "core",
+            "label": "Core features only",
+            "scores": {
+              "project:stable-diffusion-webui": 1,
+              "project:comfyui": 1,
+              "project:invokeai": 3,
+              "project:fooocus": 3
+            }
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": "project:stable-diffusion-webui",
+        "slug": "stable-diffusion-webui",
+        "type": "project",
+        "reason": "Stable Diffusion WebUI (A1111) is the largest community hub for SD with thousands of extensions.",
+        "healthScore": 0.85
+      },
+      {
+        "id": "project:comfyui",
+        "slug": "comfyui",
+        "type": "project",
+        "reason": "ComfyUI models image pipelines as node graphs and is favored for advanced and reproducible workflows.",
+        "healthScore": 0.9
+      },
+      {
+        "id": "project:invokeai",
+        "slug": "invokeai",
+        "type": "project",
+        "reason": "InvokeAI ships a polished desktop app with a strong focus on usability.",
+        "healthScore": 0.85
+      },
+      {
+        "id": "project:fooocus",
+        "slug": "fooocus",
+        "type": "project",
+        "reason": "Fooocus is a streamlined UI inspired by Midjourney that hides most knobs behind sensible defaults.",
+        "healthScore": 0.75
+      }
+    ],
+    "tags": ["image", "generation", "pipeline", "recommendation"],
+    "externalLinks": []
+  },
+  {
+    "slug": "choose-audio-pipeline",
+    "name": "Choose an Audio / Speech Pipeline",
+    "summary": "Pick the open audio or speech model that fits your language and latency budget.",
+    "description": "We score the open audio projects in the Atlas against your task (ASR vs TTS), language, and deployment constraints.",
+    "engine": "scoring",
+    "questions": [
+      {
+        "id": "task",
+        "prompt": "Which audio task are you solving?",
+        "type": "single",
+        "options": [
+          {
+            "value": "asr",
+            "label": "Speech-to-text (ASR / transcription)",
+            "scores": {
+              "project:whisper-cpp": 3,
+              "project:faster-whisper": 3,
+              "project:cosyvoice": 0,
+              "project:piper-tts": 0,
+              "project:xtts": 0
+            }
+          },
+          {
+            "value": "tts",
+            "label": "Text-to-speech (TTS)",
+            "scores": {
+              "project:whisper-cpp": 0,
+              "project:faster-whisper": 0,
+              "project:cosyvoice": 3,
+              "project:piper-tts": 3,
+              "project:xtts": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": "deployment",
+        "prompt": "Where will it run?",
+        "type": "single",
+        "options": [
+          {
+            "value": "laptop",
+            "label": "On a laptop or workstation",
+            "scores": {
+              "project:whisper-cpp": 3,
+              "project:faster-whisper": 2,
+              "project:cosyvoice": 2,
+              "project:piper-tts": 3,
+              "project:xtts": 2
+            }
+          },
+          {
+            "value": "server",
+            "label": "On a server / cloud GPU",
+            "scores": {
+              "project:whisper-cpp": 2,
+              "project:faster-whisper": 3,
+              "project:cosyvoice": 3,
+              "project:piper-tts": 1,
+              "project:xtts": 3
+            }
+          },
+          {
+            "value": "edge",
+            "label": "On edge / embedded hardware",
+            "scores": {
+              "project:whisper-cpp": 3,
+              "project:faster-whisper": 1,
+              "project:cosyvoice": 0,
+              "project:piper-tts": 3,
+              "project:xtts": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "quality",
+        "prompt": "What matters more?",
+        "type": "single",
+        "options": [
+          {
+            "value": "speed",
+            "label": "Real-time latency",
+            "scores": {
+              "project:whisper-cpp": 2,
+              "project:faster-whisper": 3,
+              "project:cosyvoice": 2,
+              "project:piper-tts": 3,
+              "project:xtts": 1
+            }
+          },
+          {
+            "value": "naturalness",
+            "label": "Natural-sounding voices (TTS) / accuracy (ASR)",
+            "scores": {
+              "project:whisper-cpp": 2,
+              "project:faster-whisper": 3,
+              "project:cosyvoice": 3,
+              "project:piper-tts": 2,
+              "project:xtts": 3
+            }
+          },
+          {
+            "value": "multilingual",
+            "label": "Many languages out of the box",
+            "scores": {
+              "project:whisper-cpp": 3,
+              "project:faster-whisper": 3,
+              "project:cosyvoice": 2,
+              "project:piper-tts": 2,
+              "project:xtts": 3
+            }
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": "project:whisper-cpp",
+        "slug": "whisper-cpp",
+        "type": "project",
+        "reason": "whisper.cpp is the CPU-friendly C++ port of Whisper for low-resource ASR.",
+        "healthScore": 0.9
+      },
+      {
+        "id": "project:faster-whisper",
+        "slug": "faster-whisper",
+        "type": "project",
+        "reason": "faster-whisper is a CTranslate2-backed Whisper implementation optimized for throughput.",
+        "healthScore": 0.9
+      },
+      {
+        "id": "project:cosyvoice",
+        "slug": "cosyvoice",
+        "type": "project",
+        "reason": "CosyVoice is Alibaba's open TTS model with strong multilingual and voice-cloning support.",
+        "healthScore": 0.8
+      },
+      {
+        "id": "project:piper-tts",
+        "slug": "piper-tts",
+        "type": "project",
+        "reason": "Piper is a fast, local neural TTS engine designed for on-device voice synthesis.",
+        "healthScore": 0.85
+      },
+      {
+        "id": "project:xtts",
+        "slug": "xtts",
+        "type": "project",
+        "reason": "XTTS is Coqui's cross-lingual TTS model with zero-shot voice cloning.",
+        "healthScore": 0.8
+      }
+    ],
+    "tags": ["audio", "speech", "asr", "tts", "recommendation"],
+    "externalLinks": []
+  },
+  {
+    "slug": "choose-hardware",
+    "name": "Choose Hardware for Local AI",
+    "summary": "Pick an inference stack that matches your hardware budget.",
+    "description": "We score the open inference projects in the Atlas against your hardware so you can run models locally with the least friction.",
+    "engine": "scoring",
+    "questions": [
+      {
+        "id": "platform",
+        "prompt": "Which platform do you have?",
+        "type": "single",
+        "options": [
+          {
+            "value": "apple",
+            "label": "Apple Silicon (M1/M2/M3/M4)",
+            "scores": {
+              "project:llama-cpp": 3,
+              "project:ollama": 3,
+              "project:mlx": 3,
+              "project:vllm": 1,
+              "project:exllamav2": 1,
+              "project:ktransformers": 1,
+              "project:llamafile": 3,
+              "project:text-generation-inference": 1,
+              "project:localai": 2
+            }
+          },
+          {
+            "value": "nvidia",
+            "label": "NVIDIA GPU with CUDA",
+            "scores": {
+              "project:llama-cpp": 2,
+              "project:ollama": 3,
+              "project:mlx": 0,
+              "project:vllm": 3,
+              "project:exllamav2": 3,
+              "project:ktransformers": 3,
+              "project:llamafile": 2,
+              "project:text-generation-inference": 3,
+              "project:localai": 3
+            }
+          },
+          {
+            "value": "cpu",
+            "label": "CPU only, modest RAM",
+            "scores": {
+              "project:llama-cpp": 3,
+              "project:ollama": 2,
+              "project:mlx": 0,
+              "project:vllm": 0,
+              "project:exllamav2": 0,
+              "project:ktransformers": 1,
+              "project:llamafile": 3,
+              "project:text-generation-inference": 0,
+              "project:localai": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "priority",
+        "prompt": "What matters most?",
+        "type": "single",
+        "options": [
+          {
+            "value": "ease",
+            "label": "Easiest setup — one command",
+            "scores": {
+              "project:llama-cpp": 1,
+              "project:ollama": 3,
+              "project:mlx": 1,
+              "project:vllm": 1,
+              "project:exllamav2": 1,
+              "project:ktransformers": 1,
+              "project:llamafile": 3,
+              "project:text-generation-inference": 1,
+              "project:localai": 2
+            }
+          },
+          {
+            "value": "throughput",
+            "label": "Maximum tokens / second",
+            "scores": {
+              "project:llama-cpp": 2,
+              "project:ollama": 2,
+              "project:mlx": 3,
+              "project:vllm": 3,
+              "project:exllamav2": 3,
+              "project:ktransformers": 3,
+              "project:llamafile": 1,
+              "project:text-generation-inference": 3,
+              "project:localai": 2
+            }
+          },
+          {
+            "value": "control",
+            "label": "Fine-grained control and quantization",
+            "scores": {
+              "project:llama-cpp": 3,
+              "project:ollama": 2,
+              "project:mlx": 2,
+              "project:vllm": 2,
+              "project:exllamav2": 3,
+              "project:ktransformers": 3,
+              "project:llamafile": 1,
+              "project:text-generation-inference": 2,
+              "project:localai": 1
+            }
+          }
+        ]
+      }
+    ],
+    "candidates": [
+      {
+        "id": "project:llama-cpp",
+        "slug": "llama-cpp",
+        "type": "project",
+        "reason": "llama.cpp runs on every platform (Apple Silicon, NVIDIA, CPU) with tight quantization.",
+        "healthScore": 0.95
+      },
+      {
+        "id": "project:ollama",
+        "slug": "ollama",
+        "type": "project",
+        "reason": "Ollama wraps llama.cpp behind a one-command CLI and OpenAI-compatible REST API.",
+        "healthScore": 0.95
+      },
+      {
+        "id": "project:mlx",
+        "slug": "mlx",
+        "type": "project",
+        "reason": "MLX is Apple's array framework that delivers top-tier inference on Apple Silicon.",
+        "healthScore": 0.8
+      },
+      {
+        "id": "project:vllm",
+        "slug": "vllm",
+        "type": "project",
+        "reason": "vLLM is a high-throughput serving engine with PagedAttention for NVIDIA GPUs.",
+        "healthScore": 0.9
+      },
+      {
+        "id": "project:exllamav2",
+        "slug": "exllamav2",
+        "type": "project",
+        "reason": "ExLlamaV2 is an EXL2-quantized inference engine tuned for NVIDIA GPUs.",
+        "healthScore": 0.85
+      },
+      {
+        "id": "project:ktransformers",
+        "slug": "ktransformers",
+        "type": "project",
+        "reason": "KTransformers is a CPU+GPU hybrid inference engine for huge MoE models.",
+        "healthScore": 0.75
+      },
+      {
+        "id": "project:llamafile",
+        "slug": "llamafile",
+        "type": "project",
+        "reason": "llamafile packages a model and llama.cpp into a single executable that runs anywhere.",
+        "healthScore": 0.85
+      },
+      {
+        "id": "project:text-generation-inference",
+        "slug": "text-generation-inference",
+        "type": "project",
+        "reason": "Text Generation Inference is Hugging Face's production server with tensor parallelism.",
+        "healthScore": 0.9
+      },
+      {
+        "id": "project:localai",
+        "slug": "localai",
+        "type": "project",
+        "reason": "LocalAI is a multi-model OpenAI-compatible drop-in for local and on-prem setups.",
+        "healthScore": 0.8
+      }
+    ],
+    "tags": ["hardware", "inference", "recommendation"],
+    "externalLinks": []
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "AI Atlas Lookup",
+  "version": "0.3.0",
+  "description": "Quick lookup for AI Atlas on GitHub and Hugging Face repo pages.",
+  "permissions": ["activeTab"],
+  "host_permissions": ["https://github.com/*", "https://huggingface.co/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/*", "https://huggingface.co/*/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

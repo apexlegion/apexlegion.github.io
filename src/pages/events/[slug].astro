@@ -1,0 +1,140 @@
+---
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Section from '@/components/layout/Section.astro';
+import Breadcrumbs from '@/components/layout/Breadcrumbs.astro';
+import { Card, CardBody, CardHeader } from '@/components/ui/Card';
+import { Badge } from '@/components/ui/Badge';
+import { Tag } from '@/components/ui/Tag';
+import { Button } from '@/components/ui/Button';
+import { getAllEvents, getEventBySlug } from '@/lib/data/entities';
+import type { EventFormatValue } from '@/lib/schemas/entity';
+
+export async function getStaticPaths() {
+  return getAllEvents().map((e) => ({
+    params: { slug: e.slug },
+    props: { event: e },
+  }));
+}
+
+const { event } = Astro.props;
+
+const formatLabels: Record<EventFormatValue, string> = {
+  'in-person': 'In-person',
+  virtual: 'Virtual',
+  hybrid: 'Hybrid',
+};
+
+function formatDateRange(start: string, end: string): string {
+  const s = new Date(start);
+  const e = new Date(end);
+  if (Number.isNaN(s.getTime()) || Number.isNaN(e.getTime())) return `${start} – ${end}`;
+  const sameDay =
+    s.getFullYear() === e.getFullYear() &&
+    s.getMonth() === e.getMonth() &&
+    s.getDate() === e.getDate();
+  if (sameDay) {
+    return s.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    });
+  }
+  const month = (d: Date): string =>
+    d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  return `${month(s)} – ${month(e)}, ${e.getFullYear()}`;
+}
+
+const verified = getEventBySlug(event.slug);
+if (!verified) {
+  return Astro.redirect('/404');
+}
+---
+
+<SiteShell title={`${event.name} — AI Atlas`} description={event.summary}>
+  <Container class="flex flex-col gap-6 py-10">
+    <Breadcrumbs
+      items={[
+        { label: 'Home', href: '/' },
+        { label: 'Events', href: '/events' },
+        { label: event.name },
+      ]}
+    />
+
+    <header class="flex flex-col gap-3">
+      <div class="flex flex-wrap items-center gap-2">
+        <Badge variant="project">Event</Badge>
+        <Tag>{formatLabels[event.format]}</Tag>
+      </div>
+      <h1 class="text-text text-h1 font-bold tracking-tight md:text-5xl">{event.name}</h1>
+      <p class="text-text-muted text-tiny font-mono">
+        {formatDateRange(event.startDate, event.endDate)} · {event.location}
+      </p>
+    </header>
+
+    <Section containerSize="wide">
+      <div class="grid gap-6 md:grid-cols-3">
+        <article class="md:col-span-2">
+          <Card>
+            <CardHeader>
+              <h2 class="text-text text-h3 font-semibold">About the event</h2>
+            </CardHeader>
+            <CardBody>
+              <p class="text-text-muted text-body whitespace-pre-line">{event.description}</p>
+            </CardBody>
+          </Card>
+
+          {
+            event.tags.length > 0 && (
+              <Card class="mt-6">
+                <CardHeader>
+                  <h2 class="text-text text-h3 font-semibold">Tags</h2>
+                </CardHeader>
+                <CardBody>
+                  <div class="flex flex-wrap gap-2">
+                    {event.tags.map((t) => (
+                      <Tag>{t}</Tag>
+                    ))}
+                  </div>
+                </CardBody>
+              </Card>
+            )
+          }
+        </article>
+
+        <aside>
+          <Card>
+            <CardHeader>
+              <h2 class="text-text text-h3 font-semibold">Links</h2>
+            </CardHeader>
+            <CardBody>
+              {
+                event.externalLinks.length === 0 ? (
+                  <p class="text-text-muted text-small">No external links provided.</p>
+                ) : (
+                  <ul class="flex flex-col gap-2" role="list">
+                    {event.externalLinks.map((link) => (
+                      <li>
+                        <a
+                          href={link.href}
+                          class="text-text hover:text-primary-orange text-small inline-flex items-center gap-1 font-medium underline-offset-4 hover:underline"
+                          rel="noopener noreferrer"
+                        >
+                          {link.label} →
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                )
+              }
+            </CardBody>
+          </Card>
+        </aside>
+      </div>
+
+      <div class="mt-8 flex flex-wrap items-center gap-3">
+        <Button variant="ghost" href="/events"> ← All events </Button>
+      </div>
+    </Section>
+  </Container>
+</SiteShell>

@@ -1,0 +1,326 @@
+---
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Section from '@/components/layout/Section.astro';
+import Grid from '@/components/layout/Grid.astro';
+import { Button } from '@/components/ui/Button';
+import { Card, CardBody, CardFooter, CardHeader } from '@/components/ui/Card';
+import { Badge } from '@/components/ui/Badge';
+import { Tag } from '@/components/ui/Tag';
+
+const categories = [
+  {
+    badge: 'Projects' as const,
+    title: 'Open Source projects',
+    description: 'Curated repos for inference, training, agents, and more.',
+    href: '/projects',
+    cta: 'Browse projects',
+  },
+  {
+    badge: 'Models' as const,
+    title: 'Open models',
+    description: 'LLMs, image, audio, and multimodal models you can run today.',
+    href: '/models',
+    cta: 'Browse models',
+  },
+  {
+    badge: 'Tutorials' as const,
+    title: 'Visual tutorials',
+    description: 'Concept-first, diagram-rich explanations for every level.',
+    href: '/tutorials',
+    cta: 'Browse tutorials',
+  },
+  {
+    badge: 'Projects' as const,
+    title: 'Playgrounds',
+    description: 'Run real models directly in your browser. No install required.',
+    href: '/playgrounds',
+    cta: 'Open a playground',
+  },
+  {
+    badge: 'Glossary' as const,
+    title: 'AI Glossary',
+    description: 'Plain-language definitions for the words you see in papers and docs.',
+    href: '/glossary',
+    cta: 'Browse glossary',
+  },
+  {
+    badge: 'Tools' as const,
+    title: 'Tool directory',
+    description: 'Side-by-side comparisons of the tools that power Open Source AI.',
+    href: '/tools',
+    cta: 'Browse tools',
+  },
+  {
+    badge: 'Concept' as const,
+    title: 'Decision guides',
+    description: 'Answer a few questions and we will recommend a project for you.',
+    href: '/decisions',
+    cta: 'Browse decisions',
+  },
+  {
+    badge: 'Concept' as const,
+    title: 'Concepts',
+    description: 'Concept-first explanations of the ideas behind modern AI.',
+    href: '/concepts',
+    cta: 'Browse concepts',
+  },
+  {
+    badge: 'Project' as const,
+    title: 'Jobs',
+    description: 'Roles at teams shipping open-weight models and open-source frameworks.',
+    href: '/jobs',
+    cta: 'Browse jobs',
+  },
+  {
+    badge: 'Project' as const,
+    title: 'Events',
+    description: 'Conferences, meetups, and hackathons for the Open Source AI community.',
+    href: '/events',
+    cta: 'Browse events',
+  },
+  {
+    badge: 'Project' as const,
+    title: 'News',
+    description: 'Launches, releases, and policy updates from across the universe.',
+    href: '/news',
+    cta: 'Browse news',
+  },
+];
+
+const featuredProjects = [
+  { title: 'llama.cpp', tag: 'Inference', description: 'Run LLaMA models on consumer hardware.' },
+  { title: 'Ollama', tag: 'Local LLM', description: 'One command to run open models locally.' },
+  {
+    title: 'Transformers',
+    tag: 'Framework',
+    description: 'The reference library for state-of-the-art ML.',
+  },
+];
+
+const featuredModels = [
+  { title: 'Llama 3', tag: 'LLM', description: "Meta's open 8B–70B flagship." },
+  { title: 'Mistral 7B', tag: 'LLM', description: 'High quality at small scale.' },
+  {
+    title: 'Stable Diffusion XL',
+    tag: 'Image',
+    description: 'Text-to-image with stunning fidelity.',
+  },
+];
+
+const news = [
+  { date: '2026-07-04', title: 'Universe Seed kicks off', tag: 'Update' },
+  { date: '2026-06-28', title: 'New playgrounds in the pipeline', tag: 'Playground' },
+  { date: '2026-06-14', title: 'Knowledge graph index v0.1 ready', tag: 'Data' },
+];
+
+const learningPaths = [
+  { title: 'Understand Transformers', level: 'Beginner', minutes: 25 },
+  { title: 'Run your first LLM locally', level: 'Developer', minutes: 40 },
+  { title: 'Build a RAG app', level: 'Developer', minutes: 60 },
+];
+---
+
+<SiteShell
+  title="AI Atlas"
+  description="Learn. Compare. Build. Everything Open Source AI, in One Place."
+  lang="en"
+>
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div
+      aria-hidden="true"
+      class="from-primary-orange/20 via-primary-orange/0 absolute inset-x-0 top-0 -z-10 h-[480px] bg-gradient-to-b to-transparent blur-3xl"
+    >
+    </div>
+    <Container class="flex flex-col items-center gap-8 py-20 text-center md:py-28">
+      <Badge variant="project">Universe Seed · Phase 1</Badge>
+      <h1 class="text-text max-w-4xl text-4xl font-bold tracking-tight md:text-6xl">
+        Learn. Compare. Build.
+        <span class="text-primary-orange block">Everything Open Source AI</span>
+        in one place.
+      </h1>
+      <p class="text-text-muted text-body max-w-prose md:text-lg">
+        The definitive knowledge platform for Open Source AI — visual-first, accessibility-led,
+        curated by humans and automated by robots.
+      </p>
+      <div class="flex w-full max-w-md items-center gap-2">
+        <button
+          type="button"
+          data-palette-trigger
+          class="border-border bg-surface-elevated hover:border-primary-orange text-text-muted hover:text-text text-body focus-visible:ring-primary-orange focus-visible:ring-offset-surface flex h-12 w-full items-center gap-3 rounded-md border px-4 text-left transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+        >
+          <span aria-hidden="true" class="text-lg">⌕</span>
+          <span class="flex-1">Search projects, models, concepts...</span>
+          <kbd class="bg-surface text-text-subtle text-tiny rounded px-1.5 py-0.5 font-mono">/</kbd>
+        </button>
+      </div>
+      <div class="flex flex-wrap items-center justify-center gap-3">
+        <Button size="lg">Start exploring</Button>
+        <Button size="lg" variant="secondary">View projects</Button>
+      </div>
+    </Container>
+  </section>
+
+  <!-- Categories -->
+  <Section
+    eyebrow="Explore"
+    title="Categories"
+    description="Jump into the corner of the universe that matches your goal."
+    containerSize="wide"
+  >
+    <Grid cols={{ base: 1, md: 2, lg: 4 }} gap={6} class="lg:[&>*:last-child]:col-span-2">
+      {
+        categories.map((cat) => (
+          <Card variant="interactive">
+            <CardHeader>
+              <Badge variant={cat.badge === 'Tutorials' ? 'tutorial' : 'project'}>
+                {cat.badge}
+              </Badge>
+              <h3 class="text-text text-h3 mt-2 font-semibold">{cat.title}</h3>
+            </CardHeader>
+            <CardBody>{cat.description}</CardBody>
+            <CardFooter>
+              <Button variant="ghost" size="sm">
+                {cat.cta} →
+              </Button>
+            </CardFooter>
+          </Card>
+        ))
+      }
+    </Grid>
+  </Section>
+
+  <!-- Featured projects -->
+  <Section
+    eyebrow="Featured"
+    title="Trending projects"
+    description="Hand-picked projects worth your attention this week."
+    containerSize="wide"
+  >
+    <Grid cols={{ base: 1, md: 3 }} gap={6}>
+      {
+        featuredProjects.map((p) => (
+          <Card variant="interactive">
+            <CardHeader>
+              <Tag>{p.tag}</Tag>
+              <h3 class="text-text text-h3 mt-2 font-semibold">{p.title}</h3>
+            </CardHeader>
+            <CardBody>{p.description}</CardBody>
+            <CardFooter>
+              <Button variant="ghost" size="sm">
+                Open →
+              </Button>
+            </CardFooter>
+          </Card>
+        ))
+      }
+    </Grid>
+  </Section>
+
+  <!-- Featured models -->
+  <Section
+    eyebrow="Models"
+    title="Open models to try"
+    description="From small LLMs to image generators — all open weights."
+    containerSize="wide"
+  >
+    <Grid cols={{ base: 1, md: 3 }} gap={6}>
+      {
+        featuredModels.map((m) => (
+          <Card variant="interactive">
+            <CardHeader>
+              <Tag>{m.tag}</Tag>
+              <h3 class="text-text text-h3 mt-2 font-semibold">{m.title}</h3>
+            </CardHeader>
+            <CardBody>{m.description}</CardBody>
+            <CardFooter>
+              <Button variant="ghost" size="sm">
+                Compare →
+              </Button>
+            </CardFooter>
+          </Card>
+        ))
+      }
+    </Grid>
+  </Section>
+
+  <!-- Latest news -->
+  <Section
+    eyebrow="Fresh"
+    title="Latest news"
+    description="Updates from the Open Source AI universe."
+    containerSize="wide"
+  >
+    <Grid cols={{ base: 1, md: 3 }} gap={6}>
+      {
+        news.map((n) => (
+          <Card>
+            <CardHeader>
+              <span class="text-text-subtle text-tiny font-mono">{n.date}</span>
+              <h3 class="text-text text-body mt-1 font-semibold">{n.title}</h3>
+            </CardHeader>
+            <CardFooter>
+              <Tag>{n.tag}</Tag>
+            </CardFooter>
+          </Card>
+        ))
+      }
+    </Grid>
+  </Section>
+
+  <!-- Learning paths -->
+  <Section
+    eyebrow="Learn"
+    title="Popular learning paths"
+    description="Curated sequences to take you from curious to confident."
+    containerSize="wide"
+  >
+    <Grid cols={{ base: 1, md: 3 }} gap={6}>
+      {
+        learningPaths.map((p) => (
+          <Card variant="interactive">
+            <CardHeader>
+              <Badge variant="tutorial">Path</Badge>
+              <h3 class="text-text text-h3 mt-2 font-semibold">{p.title}</h3>
+            </CardHeader>
+            <CardBody>
+              <div class="text-text-subtle text-tiny flex gap-3">
+                <span>{p.level}</span>
+                <span>·</span>
+                <span>{p.minutes} min</span>
+              </div>
+            </CardBody>
+            <CardFooter>
+              <Button variant="ghost" size="sm">
+                Start path →
+              </Button>
+            </CardFooter>
+          </Card>
+        ))
+      }
+    </Grid>
+  </Section>
+
+  <!-- Knowledge graph teaser -->
+  <Section
+    eyebrow="Knowledge graph"
+    title="Explore the universe"
+    description="Every project, model, concept, and tutorial is connected. (Coming in Phase 1 Milestone 3.)"
+    containerSize="wide"
+  >
+    <Card class="flex flex-col items-center gap-4 p-8 text-center">
+      <div
+        aria-hidden="true"
+        class="bg-primary-orange/10 border-border-strong flex h-40 w-full items-center justify-center rounded-md border border-dashed"
+      >
+        <span class="text-text-subtle text-small font-mono">graph preview</span>
+      </div>
+      <p class="text-text-muted text-small max-w-prose">
+        Interactive graph explorer lets you traverse connections between projects, models, and
+        concepts in any direction.
+      </p>
+      <Button variant="secondary">Learn about the graph</Button>
+    </Card>
+  </Section>
+</SiteShell>

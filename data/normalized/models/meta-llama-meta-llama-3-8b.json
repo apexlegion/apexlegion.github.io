@@ -1,0 +1,47 @@
+{
+  "type": "model",
+  "slug": "meta-llama-meta-llama-3-8b",
+  "name": "Meta Llama 3 8B",
+  "summary": "Meta Llama 3 8B is a text model on the Hugging Face Hub (meta-llama/Meta-Llama-3-8B).",
+  "description": "Meta Llama 3 8B is a text model on the Hugging Face Hub (meta-llama/Meta-Llama-3-8B).",
+  "tags": [
+    "transformers",
+    "safetensors",
+    "llama",
+    "text-generation",
+    "facebook",
+    "meta",
+    "pytorch",
+    "llama-3",
+    "en",
+    "license:llama3",
+    "eval-results",
+    "text-generation-inference",
+    "endpoints_compatible",
+    "region:us"
+  ],
+  "externalLinks": [
+    {
+      "label": "Hugging Face model card",
+      "href": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2024-04-17",
+      "type": "release",
+      "title": "Model uploaded",
+      "description": "First published on the Hugging Face Hub as meta-llama/Meta-Llama-3-8B."
+    },
+    {
+      "date": "2024-09-27",
+      "type": "update",
+      "title": "Latest revision",
+      "description": "Most recent change recorded by the Hub API."
+    }
+  ],
+  "modality": "Text",
+  "parameters": "8.0B",
+  "publishedBy": "Meta Llama",
+  "license": "llama3"
+}

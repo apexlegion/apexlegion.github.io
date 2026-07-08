@@ -1,0 +1,40 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "exactOptionalPropertyTypes": false,
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["./src/components/*"],
+      "@/components": ["./src/components/index.ts"],
+      "@/lib/*": ["./src/lib/*"],
+      "@/lib": ["./src/lib/index.ts"],
+      "@/data/*": ["./src/data/*"],
+      "@/data": ["./src/data/index.ts"],
+      "@/styles/*": ["./src/styles/*"],
+      "@/styles": ["./src/styles/index.ts"],
+      "@/types/*": ["./src/types/*"]
+    },
+    "verbatimModuleSyntax": false,
+    "isolatedModules": true,
+    "moduleResolution": "bundler",
+    "module": "ESNext",
+    "target": "ES2022",
+    "skipLibCheck": true,
+    "types": ["vitest/globals"]
+  },
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": [
+    "dist",
+    "node_modules",
+    ".astro",
+    "playwright-report",
+    "test-results",
+    "scripts/pipeline/dead-links.ts"
+  ]
+}

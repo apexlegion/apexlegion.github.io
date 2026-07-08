@@ -1,0 +1,144 @@
+---
+/**
+ * /compare/{slugA}-vs-{slugB} — side-by-side comparison route.
+ *
+ * The path uses Astro's dynamic `[a]-vs-[b]` convention so slugs that
+ * happen to contain dashes work. We canonicalise the order in
+ * `getStaticPaths` so `a-vs-b` and `b-vs-a` resolve to the same page.
+ *
+ * If either slug does not exist we render an Astro 404 — that page is
+ * already wired up in the site shell.
+ */
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Section from '@/components/layout/Section.astro';
+import Grid from '@/components/layout/Grid.astro';
+import Breadcrumbs from '@/components/layout/Breadcrumbs.astro';
+import { Badge } from '@/components/ui/Badge';
+import { Button } from '@/components/ui/Button';
+import { ComparisonTable, BenchmarkChart, TimelineCompare } from '@/components/compare';
+import { getAllEntities, getRelatedEntities, getAllRelations } from '@/lib/data/entities';
+import { FEATURED_COMPARISONS, buildComparisonSlug } from '@/lib/compare';
+import type { Entity } from '@/lib/schemas/entity';
+
+const allEntities = getAllEntities();
+const allRelations = getAllRelations();
+
+/**
+ * Build the static set of comparison paths. We always render the pair in
+ * canonical (alphabetical) order and use the same slug on both sides so
+ * canonical URL is stable.
+ */
+export async function getStaticPaths() {
+  const entities = getAllEntities();
+  // Curated pairs (curated authors choose canonical order).
+  const curated = FEATURED_COMPARISONS.map((pair) => {
+    const [first, second] = [pair.a, pair.b].sort();
+    return {
+      params: { a: first, b: second },
+      props: { slugA: first, slugB: second },
+    };
+  });
+
+  // Self-compare pages are not useful; skip them by design.
+  return curated;
+}
+
+const { slugA, slugB } = Astro.props as { slugA: string; slugB: string };
+
+const entityA: Entity | undefined = allEntities.find((e) => e.slug === slugA);
+const entityB: Entity | undefined = allEntities.find((e) => e.slug === slugB);
+
+if (!entityA || !entityB) {
+  return Astro.redirect('/404');
+}
+
+const idA = `${entityA.type}/${entityA.slug}`;
+const idB = `${entityB.type}/${entityB.slug}`;
+const relationsA = allRelations.filter((r) => r.source === idA || r.target === idA).length;
+const relationsB = allRelations.filter((r) => r.source === idB || r.target === idB).length;
+const relatedNodesA = getRelatedEntities(entityA);
+const relatedNodesB = getRelatedEntities(entityB);
+const sharedRelated = relatedNodesA
+  .filter((n) => relatedNodesB.some((m) => m.id === n.id))
+  .map((n) => n.name);
+
+const canonicalSlug = buildComparisonSlug(slugA, slugB);
+const title = `${entityA.name} vs ${entityB.name}`;
+const description = `Side-by-side comparison of ${entityA.name} and ${entityB.name} across license, tags, ecosystem activity, and milestones.`;
+---
+
+<SiteShell title={`${title} — AI Atlas`} description={description}>
+  <Container class="flex flex-col gap-6 py-10">
+    <Breadcrumbs
+      items={[
+        { label: 'Home', href: '/' },
+        { label: 'Compare', href: '/compare' },
+        { label: title },
+      ]}
+    />
+    <header class="flex flex-col gap-3">
+      <div class="flex flex-wrap items-center gap-2">
+        <Badge variant="concept">Comparison</Badge>
+        <Badge variant={entityA.type}>{entityA.type}</Badge>
+        <Badge variant={entityB.type}>{entityB.type}</Badge>
+      </div>
+      <h1 class="text-text text-h1 font-bold tracking-tight md:text-5xl">{title}</h1>
+      <p class="text-text-muted text-body max-w-prose">{description}</p>
+      <div class="flex flex-wrap gap-2">
+        <Button
+          as="a"
+          href={`/${entityA.type === 'tutorial' ? 'tutorials' : `${entityA.type}s`}/${entityA.slug}`}
+          variant="secondary"
+          size="sm"
+        >
+          View {entityA.name} →
+        </Button>
+        <Button
+          as="a"
+          href={`/${entityB.type === 'tutorial' ? 'tutorials' : `${entityB.type}s`}/${entityB.slug}`}
+          variant="secondary"
+          size="sm"
+        >
+          View {entityB.name} →
+        </Button>
+        <Button as="a" href="/compare" variant="muted" size="sm"> Pick a different pair </Button>
+      </div>
+      <p class="text-text-subtle text-tiny font-mono">/compare/{canonicalSlug}</p>
+    </header>
+
+    {
+      sharedRelated.length > 0 ? (
+        <Section eyebrow="Overlap" title="Shared connections" containerSize="full">
+          <p class="text-text-muted text-small max-w-prose">
+            Both appear in the knowledge graph next to:{' '}
+            <span class="text-text font-medium">{sharedRelated.join(', ')}</span>.
+          </p>
+        </Section>
+      ) : null
+    }
+
+    <Section eyebrow="Attributes" title="Side-by-side table" containerSize="wide">
+      <ComparisonTable
+        client:visible
+        entityA={entityA}
+        entityB={entityB}
+        relationsA={relationsA}
+        relationsB={relationsB}
+      />
+    </Section>
+
+    <Section eyebrow="Charts" title="Benchmark snapshot" containerSize="wide">
+      <Grid cols={{ base: 1, lg: 2 }} gap={6}>
+        <BenchmarkChart
+          client:visible
+          entityA={entityA}
+          entityB={entityB}
+          relationsA={relationsA}
+          relationsB={relationsB}
+        />
+        <TimelineCompare client:visible entityA={entityA} entityB={entityB} />
+      </Grid>
+    </Section>
+  </Container>
+</SiteShell>

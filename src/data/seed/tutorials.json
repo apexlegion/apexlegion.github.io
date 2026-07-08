@@ -1,0 +1,134 @@
+[
+  {
+    "type": "tutorial",
+    "slug": "understand-transformers",
+    "name": "Understand Transformers",
+    "level": "beginner",
+    "durationMinutes": 25,
+    "format": "article",
+    "summary": "A visual, diagram-first tour of the Transformer architecture.",
+    "description": "Trace the flow of a single token through the Transformer: embeddings, positional encoding, multi-head self-attention, residual connections, layer normalization, and the feed-forward block. By the end you will be able to point at every line of PyTorch in a reference implementation.",
+    "tags": ["architecture", "deep-learning"],
+    "externalLinks": [
+      {
+        "label": "The Illustrated Transformer",
+        "href": "https://jalammar.github.io/illustrated-transformer/"
+      }
+    ],
+    "timeline": [],
+    "levels": {
+      "twelve": {
+        "summary": "We will draw a Transformer one piece at a time, like a comic strip.",
+        "content": "Each step shows what happens to a single word as it travels through the model. By the end you will see how 'cat sits on mat' becomes a stack of numbers, gets compared with every other word, and finally gets used to guess the next word. You don't need math — just curiosity."
+      },
+      "beginner": {
+        "summary": "Walk through the diagram of a Transformer block at your own pace.",
+        "content": "This tutorial opens with a single sentence and follows one token through the entire network. We start with embeddings, add positional information, run self-attention, mix in residuals and layer norms, and finish in the feed-forward block. Every diagram pairs with a plain-English explanation of why that step exists."
+      },
+      "student": {
+        "summary": "Trace shapes and operations through a real Transformer implementation.",
+        "content": "You will follow a single batch of tokens through every layer of a reference PyTorch Transformer. We annotate tensor shapes at each step, explain why Q/K/V are three projections of the same input, and show how masking gives you causal (autoregressive) attention. The companion notebook lets you run the code and print intermediate activations yourself."
+      },
+      "developer": {
+        "summary": "Read a reference implementation and instrument it for inspection.",
+        "content": "The tutorial ships a tiny from-scratch Transformer in PyTorch that mirrors `nanoGPT`. You will instrument each module with hooks to capture attention weights, intermediate activations, and gradient norms. By the end you will know how to plug in RoPE, GQA, or FlashAttention, and how to swap in different attention kernels."
+      },
+      "researcher": {
+        "summary": "Connect the implementation to the original Vaswani et al. paper.",
+        "content": "Each section links to the corresponding equation or figure in 'Attention Is All You Need'. We cover the multi-head formulation, sinusoidal positional encoding, the warm-up learning-rate schedule, and label smoothing. We also point to follow-up papers (RoPE, ALiBi, GQA, RMSNorm, SwiGLU) that the modern stack builds on top of the original."
+      },
+      "business": {
+        "summary": "What your team needs to know about the architecture underpinning your AI roadmap.",
+        "content": "You don't need to implement a Transformer, but you should know what the main building blocks are so you can talk to engineers and evaluate vendor claims. This tutorial gives you the vocabulary — embeddings, attention, context window, KV cache — and the intuition for why scale and architecture choices affect cost, latency, and quality."
+      }
+    }
+  },
+  {
+    "type": "tutorial",
+    "slug": "run-your-first-llm-locally",
+    "name": "Run your first LLM locally",
+    "level": "developer",
+    "durationMinutes": 40,
+    "format": "interactive",
+    "summary": "Install Ollama and run an open model on your laptop in under 10 minutes.",
+    "description": "Install Ollama, pull a 7B model, chat with it from the CLI, expose it as an OpenAI-compatible HTTP endpoint, and call it from a tiny Python script. We will also show how to inspect memory use and pick a model that fits your hardware.",
+    "tags": ["local", "llm", "ollama"],
+    "externalLinks": [
+      {
+        "label": "Ollama quick start",
+        "href": "https://github.com/ollama/ollama/blob/main/docs/api.md"
+      }
+    ],
+    "timeline": [],
+    "levels": {
+      "twelve": {
+        "summary": "You will install one program and ask an AI a question — that's it.",
+        "content": "By the end of this tutorial, you will have a small AI living inside your computer that can answer questions, summarize text, and brainstorm with you — even when the internet is off. No setup drama, no scary terminal commands."
+      },
+      "beginner": {
+        "summary": "Install a one-command LLM runner and chat with a 7B model.",
+        "content": "We install Ollama, download a small but capable model (Llama 3 8B), and chat with it from the terminal. From there we expose it as a local web API, point a browser UI at it, and call it from a tiny Python script. You'll learn how to choose a model that fits your RAM and how to free memory when you're done."
+      },
+      "student": {
+        "summary": "Walk through local inference, REST serving, and prompt plumbing.",
+        "content": "You will inspect the model's context window, count tokens, and compare latency across different quantization levels. We also cover Modelfiles for system prompts and parameters, and use the OpenAI-compatible endpoint to drop Ollama into existing LangChain or LlamaIndex code with one line change. The tutorial closes with a comparison of Ollama, LM Studio, and llamafile."
+      },
+      "developer": {
+        "summary": "Wire Ollama (or llama.cpp) into your app's dev loop.",
+        "content": "The tutorial covers the REST API, streaming responses, embedding endpoints, and concurrent request handling. You will integrate Ollama into a small Python service and a Next.js app, build a chat UI with Server-Sent Events, and learn when to switch to llama.cpp, vLLM, or TGI for higher throughput. We also cover Modelfiles, GGUF quantization choices, and GPU offload flags."
+      },
+      "researcher": {
+        "summary": "Reproducible local inference for evals and ablations.",
+        "content": "You will pin model hashes, deterministic sampling parameters, and prompt templates so your local evals are reproducible across machines. We discuss quantization-aware benchmarking (perplexity, MMLU) and how to compare GGUF quantizations against fp16 baselines. The tutorial also points to lm-evaluation-harness and OpenCompass for standardized harnesses."
+      },
+      "business": {
+        "summary": "A 30-minute spike to evaluate running LLMs locally.",
+        "content": "You will leave with a working local LLM, an estimate of the hardware cost per query, and a clear-eyed view of what 'private by default' means for your data strategy. We cover the licensing of common open models (Llama 3, Mistral, Qwen) and the trade-offs between local and hosted inference for production workloads."
+      }
+    }
+  },
+  {
+    "type": "tutorial",
+    "slug": "build-a-rag-app",
+    "name": "Build a RAG app",
+    "level": "developer",
+    "durationMinutes": 60,
+    "format": "notebook",
+    "summary": "Wire retrieval into an LLM with embeddings, a vector store, and citations.",
+    "description": "Build a retrieval-augmented generation pipeline step by step: chunk documents, embed them, store them in a vector database, retrieve the top-k at query time, and pass them to an LLM with instructions to cite its sources.",
+    "tags": ["rag", "llm", "embeddings"],
+    "externalLinks": [
+      {
+        "label": "LangChain RAG tutorial",
+        "href": "https://python.langchain.com/docs/tutorials/rag/"
+      }
+    ],
+    "timeline": [],
+    "levels": {
+      "twelve": {
+        "summary": "We will teach an AI to read your own documents before it answers.",
+        "content": "You will take a folder of PDFs or notes, chop them into small pieces, and connect them to an AI. After this tutorial, you can ask the AI questions about your own files and it will answer using what it found — like giving the AI a tiny library card."
+      },
+      "beginner": {
+        "summary": "End-to-end RAG with a single notebook and a small document set.",
+        "content": "You will install a few libraries, point a notebook at a folder of documents, and watch a chatbot answer questions grounded in those documents. We explain every concept in plain language — embeddings, chunking, similarity search — and the final notebook is something you can adapt to your own files."
+      },
+      "student": {
+        "summary": "Understand chunking, embeddings, retrieval, and prompt design choices.",
+        "content": "The tutorial walks through each RAG stage with diagrams and small experiments. You will compare fixed-size and semantic chunking, evaluate different embedding models on a small benchmark, tune top-k and similarity thresholds, and see how prompt wording changes citation quality. Every cell is annotated with the trade-off it illustrates."
+      },
+      "developer": {
+        "summary": "Production-style RAG with LangChain / LlamaIndex and a vector database.",
+        "content": "You will build a typed ingestion pipeline with Pydantic, plug in a real vector store (Qdrant or pgvector), add a cross-encoder reranker, and stream answers from an LLM with token-level citations. We also cover evaluation with RAGAS (faithfulness, context recall, answer relevance) and instrument the pipeline with OpenTelemetry so you can debug retrieval failures."
+      },
+      "researcher": {
+        "summary": "Push on retrieval quality, hybrid search, and agentic retrieval.",
+        "content": "You will benchmark dense vs sparse vs hybrid retrieval on a public dataset (BEIR or your own), implement Reciprocal Rank Fusion, and explore late-interaction models like ColBERT. The advanced sections cover multi-hop RAG, query rewriting, and agentic loops where the model plans its own retrievals using tools."
+      },
+      "business": {
+        "summary": "Estimate cost, latency, and accuracy for a RAG feature in production.",
+        "content": "You will leave with a reference architecture, a rough cost model (embeddings, vector storage, LLM calls per query), and a checklist of failure modes (stale data, hallucinations, retrieval misses). We also discuss when RAG is the wrong tool and a fine-tune or a longer-context model would serve better."
+      }
+    }
+  }
+]

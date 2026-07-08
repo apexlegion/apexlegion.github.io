@@ -1,0 +1,102 @@
+[
+  {
+    "type": "news",
+    "slug": "ai-atlas-phase-2-launch",
+    "name": "AI Atlas Phase 2 kicks off — Jobs, Events, News beta",
+    "source": "AI Atlas blog",
+    "publishedAt": "2026-07-04T10:00:00Z",
+    "expiryAt": "2027-07-04T10:00:00Z",
+    "summary": "Phase 2 of the AI Atlas platform is live: browse jobs, events, and a fresh news feed.",
+    "description": "Phase 2 brings three new content surfaces to AI Atlas — a curated Jobs board focused on Open Source AI teams, an Events calendar for meetups and conferences, and a News feed that highlights launches, releases, and policy updates across the open AI ecosystem. All three surfaces are static-first and built from version-controlled seed data, just like the rest of the site.",
+    "tags": ["announcement", "phase-2", "jobs", "events", "news"],
+    "externalLinks": [{ "label": "Read announcement", "href": "/blog/ai-atlas-phase-2" }]
+  },
+  {
+    "type": "news",
+    "slug": "llama-cpp-multimodal-merged",
+    "name": "llama.cpp merges native multimodal backend",
+    "source": "GitHub Releases",
+    "publishedAt": "2026-07-01T15:30:00Z",
+    "expiryAt": "2027-01-01T15:30:00Z",
+    "summary": "Vision and audio inference land in mainline llama.cpp.",
+    "description": "After six months of staging on the multimodal branch, the llama.cpp maintainers merged native vision and audio backends into mainline. The release ships prebuilt binaries for macOS, Linux, and Windows and adds GGUF variants for the leading open multimodal checkpoints.",
+    "tags": ["llama-cpp", "release", "multimodal"],
+    "externalLinks": [
+      { "label": "Release notes", "href": "https://github.com/ggerganov/llama.cpp/releases" }
+    ]
+  },
+  {
+    "type": "news",
+    "slug": "mistral-small-4-released",
+    "name": "Mistral releases Small 4 under Apache 2.0",
+    "source": "Mistral AI",
+    "publishedAt": "2026-06-28T09:00:00Z",
+    "expiryAt": "2027-06-28T09:00:00Z",
+    "summary": "A 22B-parameter model with 128k context ships fully open.",
+    "description": "Mistral Small 4 ships with a 128k context window, function calling, and a permissive Apache 2.0 license. Independent evals show competitive performance against much larger proprietary models on coding and reasoning tasks.",
+    "tags": ["mistral", "model-release", "open-weights"],
+    "externalLinks": [{ "label": "Model card", "href": "https://huggingface.co/mistralai" }]
+  },
+  {
+    "type": "news",
+    "slug": "open-llm-leaderboard-v3",
+    "name": "Open LLM Leaderboard v3 goes live",
+    "source": "Hugging Face",
+    "publishedAt": "2026-06-15T12:00:00Z",
+    "expiryAt": "2026-12-15T12:00:00Z",
+    "summary": "Refreshed leaderboard with new reasoning, coding, and long-context tasks.",
+    "description": "Hugging Face's Open LLM Leaderboard v3 ships with a refreshed task suite designed to be more robust to contamination, including new reasoning, agentic coding, and 128k-context retrieval tasks. All scoring code is open source.",
+    "tags": ["leaderboard", "evaluation", "open-source"],
+    "externalLinks": [
+      { "label": "Leaderboard", "href": "https://huggingface.co/spaces/open-llm-leaderboard" }
+    ]
+  },
+  {
+    "type": "news",
+    "slug": "rag-eval-cookbook",
+    "name": "New community cookbook: evaluating RAG pipelines",
+    "source": "AI Atlas",
+    "publishedAt": "2026-06-10T08:00:00Z",
+    "expiryAt": "2026-09-10T08:00:00Z",
+    "summary": "A community-maintained playbook for evaluating retrieval-augmented generation.",
+    "description": "The new cookbook walks through building evaluation harnesses for RAG pipelines using open-source tools. Includes reproducible datasets for retrieval accuracy, faithfulness, and citation precision.",
+    "tags": ["rag", "evaluation", "cookbook"],
+    "externalLinks": [{ "label": "Cookbook", "href": "/learn/rag-evaluation" }]
+  },
+  {
+    "type": "news",
+    "slug": "vllm-0-8-released",
+    "name": "vLLM 0.8 ships speculative decoding v2",
+    "source": "vLLM blog",
+    "publishedAt": "2026-05-30T14:00:00Z",
+    "expiryAt": "2026-08-30T14:00:00Z",
+    "summary": "Faster serving with the new speculative decoding v2 pipeline.",
+    "description": "vLLM 0.8 lands speculative decoding v2 with new draft-model APIs and improved KV cache reuse, yielding 1.5–2.4× throughput gains on standard benchmarks for Llama- and Mistral-family checkpoints.",
+    "tags": ["vllm", "release", "inference"],
+    "externalLinks": [{ "label": "Release notes", "href": "https://blog.vllm.ai" }]
+  },
+  {
+    "type": "news",
+    "slug": "eurali-ai-act-vote",
+    "name": "European Parliament passes updated AI Act amendments",
+    "source": "Policy feed",
+    "publishedAt": "2026-05-12T16:00:00Z",
+    "expiryAt": "2026-11-12T16:00:00Z",
+    "summary": "Updated amendments clarify rules for open-weights model releases.",
+    "description": "The European Parliament voted to adopt a set of amendments that explicitly carve out open-weights releases from the highest tier of obligations, while introducing transparency requirements for foundation model providers. The text now moves to the Council for final approval.",
+    "tags": ["policy", "europe", "regulation"],
+    "externalLinks": [{ "label": "Press release", "href": "https://www.europarl.europa.eu" }]
+  },
+  {
+    "type": "news",
+    "slug": "expired-news-sample",
+    "name": "Old placeholder news item (expired demo)",
+    "source": "AI Atlas",
+    "publishedAt": "2024-01-15T12:00:00Z",
+    "expiryAt": "2024-04-15T12:00:00Z",
+    "summary": "A deliberately expired news item to validate the expired filter.",
+    "description": "This entry is intentionally expired and should be hidden from the default listing while remaining visible if you explicitly filter for expired items.",
+    "tags": ["archived", "demo"],
+    "externalLinks": []
+  }
+]

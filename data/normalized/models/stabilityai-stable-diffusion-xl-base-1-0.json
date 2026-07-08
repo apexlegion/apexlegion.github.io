@@ -1,0 +1,46 @@
+{
+  "type": "model",
+  "slug": "stabilityai-stable-diffusion-xl-base-1-0",
+  "name": "stable diffusion xl base 1.0",
+  "summary": "stable diffusion xl base 1.0 is a image model on the Hugging Face Hub (stabilityai/stable-diffusion-xl-base-1.0).",
+  "description": "stable diffusion xl base 1.0 is a image model on the Hugging Face Hub (stabilityai/stable-diffusion-xl-base-1.0).",
+  "tags": [
+    "diffusers",
+    "onnx",
+    "safetensors",
+    "text-to-image",
+    "stable-diffusion",
+    "arxiv:2307.01952",
+    "arxiv:2211.01324",
+    "arxiv:2108.01073",
+    "arxiv:2112.10752",
+    "license:openrail++",
+    "endpoints_compatible",
+    "diffusers:stablediffusionxlpipeline",
+    "deploy:azure",
+    "region:us"
+  ],
+  "externalLinks": [
+    {
+      "label": "Hugging Face model card",
+      "href": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2023-07-25",
+      "type": "release",
+      "title": "Model uploaded",
+      "description": "First published on the Hugging Face Hub as stabilityai/stable-diffusion-xl-base-1.0."
+    },
+    {
+      "date": "2023-10-30",
+      "type": "update",
+      "title": "Latest revision",
+      "description": "Most recent change recorded by the Hub API."
+    }
+  ],
+  "modality": "Image",
+  "publishedBy": "Stabilityai",
+  "license": "openrail++"
+}

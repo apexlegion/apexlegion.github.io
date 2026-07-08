@@ -1,0 +1,130 @@
+---
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Section from '@/components/layout/Section.astro';
+import Grid from '@/components/layout/Grid.astro';
+import Breadcrumbs from '@/components/layout/Breadcrumbs.astro';
+import { Card, CardBody, CardFooter, CardHeader } from '@/components/ui/Card';
+import { Badge } from '@/components/ui/Badge';
+import { Tag } from '@/components/ui/Tag';
+import { Button } from '@/components/ui/Button';
+import { getAllPlaygrounds } from '@/lib/data/entities';
+import type { PlaygroundEntity } from '@/lib/schemas/entity';
+
+const playgrounds = getAllPlaygrounds()
+  .slice()
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+const difficultyBadge: Record<string, 'success' | 'info' | 'project' | 'warning'> = {
+  beginner: 'success',
+  student: 'info',
+  developer: 'project',
+  researcher: 'warning',
+};
+
+interface CategoryGroup {
+  id: PlaygroundEntity['category'];
+  label: string;
+  blurb: string;
+  items: PlaygroundEntity[];
+}
+
+const categoryLabels: Record<PlaygroundEntity['category'], { label: string; blurb: string }> = {
+  fundamentals: {
+    label: 'Fundamentals',
+    blurb: 'The core building blocks — tokens, embeddings, prompts, and context.',
+  },
+  models: {
+    label: 'Models',
+    blurb: 'Compare and reason about specific model families.',
+  },
+  optimization: {
+    label: 'Optimization',
+    blurb: 'Compression, quantization, and training-time tuning.',
+  },
+  applications: {
+    label: 'Applications',
+    blurb: 'End-to-end use cases like RAG, diffusion, and speech.',
+  },
+  agents: {
+    label: 'Agents',
+    blurb: 'Tool-using loops and workflow orchestration.',
+  },
+  hardware: {
+    label: 'Hardware',
+    blurb: 'Throughput and memory estimates for local inference.',
+  },
+};
+
+const order: PlaygroundEntity['category'][] = [
+  'fundamentals',
+  'models',
+  'optimization',
+  'applications',
+  'agents',
+  'hardware',
+];
+
+const grouped: CategoryGroup[] = order.map((id) => ({
+  id,
+  label: categoryLabels[id].label,
+  blurb: categoryLabels[id].blurb,
+  items: playgrounds.filter((pg) => pg.category === id),
+}));
+---
+
+<SiteShell
+  title="Playgrounds — AI Atlas"
+  description="Hands-on, in-browser playgrounds for tokenization, embeddings, prompting, context windows, and quantization."
+>
+  <Container class="flex flex-col gap-6 py-10">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Playgrounds' }]} />
+    <header class="flex flex-col gap-2">
+      <Badge variant="concept">Playgrounds</Badge>
+      <h1 class="text-text text-h1 font-bold tracking-tight md:text-5xl">Try it in your browser</h1>
+      <p class="text-text-muted text-body max-w-prose">
+        Lightweight, no-backend playgrounds that build intuition for the core ideas of modern AI.
+        Adjust inputs, watch outputs, and graduate to the real tools when you're ready.
+      </p>
+    </header>
+
+    {
+      grouped.map((group) => (
+        <Section containerSize="wide" class="flex flex-col gap-4">
+          <div class="flex flex-wrap items-baseline justify-between gap-2">
+            <h2 class="text-text text-h2 font-semibold">{group.label}</h2>
+            <Tag>
+              {group.items.length} {group.items.length === 1 ? 'playground' : 'playgrounds'}
+            </Tag>
+          </div>
+          <p class="text-text-muted text-small max-w-prose">{group.blurb}</p>
+          {group.items.length === 0 ? (
+            <p class="text-text-subtle text-small">No playgrounds in this category yet.</p>
+          ) : (
+            <Grid cols={{ base: 1, md: 2, lg: 3 }} gap={6}>
+              {group.items.map((pg) => (
+                <Card variant="interactive" href={`/playgrounds/${pg.slug}`}>
+                  <CardHeader>
+                    <div class="flex flex-wrap items-center gap-2">
+                      <Badge variant={difficultyBadge[pg.difficulty] ?? 'neutral'}>
+                        {pg.difficulty}
+                      </Badge>
+                      <Tag>{pg.estimatedMinutes} min</Tag>
+                    </div>
+                    <h3 class="text-text text-h3 mt-2 font-semibold">{pg.name}</h3>
+                  </CardHeader>
+                  <CardBody>{pg.summary}</CardBody>
+                  <CardFooter>
+                    <Button variant="ghost" size="sm">
+                      Open playground →
+                    </Button>
+                  </CardFooter>
+                </Card>
+              ))}
+            </Grid>
+          )}
+        </Section>
+      ))
+    }
+  </Container>
+</SiteShell>

@@ -1,0 +1,46 @@
+{
+  "type": "model",
+  "slug": "mistralai-mistral-7b-v0-1",
+  "name": "Mistral 7B v0.1",
+  "summary": "Mistral 7B v0.1 is a text model on the Hugging Face Hub (mistralai/Mistral-7B-v0.1).",
+  "description": "Mistral 7B v0.1 is a text model on the Hugging Face Hub (mistralai/Mistral-7B-v0.1).",
+  "tags": [
+    "transformers",
+    "pytorch",
+    "safetensors",
+    "mistral",
+    "text-generation",
+    "pretrained",
+    "mistral-common",
+    "en",
+    "arxiv:2310.06825",
+    "license:apache-2.0",
+    "eval-results",
+    "text-generation-inference",
+    "region:us"
+  ],
+  "externalLinks": [
+    {
+      "label": "Hugging Face model card",
+      "href": "https://huggingface.co/mistralai/Mistral-7B-v0.1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2023-09-20",
+      "type": "release",
+      "title": "Model uploaded",
+      "description": "First published on the Hugging Face Hub as mistralai/Mistral-7B-v0.1."
+    },
+    {
+      "date": "2025-07-24",
+      "type": "update",
+      "title": "Latest revision",
+      "description": "Most recent change recorded by the Hub API."
+    }
+  ],
+  "modality": "Text",
+  "parameters": "7.2B",
+  "publishedBy": "Mistralai",
+  "license": "apache-2.0"
+}

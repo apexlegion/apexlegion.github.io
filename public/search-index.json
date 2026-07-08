@@ -1,0 +1,658 @@
+[
+  {
+    "id": "project/llama-cpp",
+    "type": "project",
+    "title": "llama.cpp",
+    "description": "Run LLaMA-family models on consumer hardware in pure C/C++.",
+    "url": "/projects/llama-cpp",
+    "tags": ["inference", "cpp", "llm", "local"]
+  },
+  {
+    "id": "project/ollama",
+    "type": "project",
+    "title": "Ollama",
+    "description": "One command to download, run, and manage open models locally.",
+    "url": "/projects/ollama",
+    "tags": ["inference", "llm", "local", "cli"]
+  },
+  {
+    "id": "project/transformers",
+    "type": "project",
+    "title": "Transformers",
+    "description": "Reference library for state-of-the-art machine learning in PyTorch, TensorFlow, and JAX.",
+    "url": "/projects/transformers",
+    "tags": ["framework", "training", "nlp", "pytorch"]
+  },
+  {
+    "id": "project/langchain",
+    "type": "project",
+    "title": "LangChain",
+    "description": "Framework for composing retrieval, tools, and chains on top of any model.",
+    "url": "/projects/langchain",
+    "tags": ["agents", "rag", "framework", "python"]
+  },
+  {
+    "id": "project/stable-diffusion-webui",
+    "type": "project",
+    "title": "Stable Diffusion WebUI",
+    "description": "Feature-rich browser interface for Stable Diffusion checkpoints.",
+    "url": "/projects/stable-diffusion-webui",
+    "tags": ["image", "diffusion", "ui"]
+  },
+  {
+    "id": "project/vllm",
+    "type": "project",
+    "title": "vLLM",
+    "description": "High-throughput LLM serving engine with PagedAttention.",
+    "url": "/projects/vllm",
+    "tags": ["inference", "serving", "gpu"]
+  },
+  {
+    "id": "project/text-generation-inference",
+    "type": "project",
+    "title": "Text Generation Inference",
+    "description": "Production-grade LLM serving stack from Hugging Face.",
+    "url": "/projects/text-generation-inference",
+    "tags": ["inference", "serving", "rust"]
+  },
+  {
+    "id": "project/exllamav2",
+    "type": "project",
+    "title": "ExLlamaV2",
+    "description": "Fast CUDA inference for quantized GPTQ and EXL2 models.",
+    "url": "/projects/exllamav2",
+    "tags": ["inference", "cuda", "quantization"]
+  },
+  {
+    "id": "project/mlx",
+    "type": "project",
+    "title": "MLX",
+    "description": "Apple Silicon ML framework with NumPy-like APIs.",
+    "url": "/projects/mlx",
+    "tags": ["framework", "apple-silicon", "training"]
+  },
+  {
+    "id": "project/ktransformers",
+    "type": "project",
+    "title": "KTransformers",
+    "description": "Drop-in llama.cpp with CUDA, MoE, and CPU/GPU hybrid offload.",
+    "url": "/projects/ktransformers",
+    "tags": ["inference", "cuda", "moe"]
+  },
+  {
+    "id": "project/llamafile",
+    "type": "project",
+    "title": "llamafile",
+    "description": "Single-file LLM executables powered by Cosmopolitan Libc.",
+    "url": "/projects/llamafile",
+    "tags": ["inference", "portable", "llm"]
+  },
+  {
+    "id": "project/sglang",
+    "type": "project",
+    "title": "SGLang",
+    "description": "Structured generation language runtime for LLMs.",
+    "url": "/projects/sglang",
+    "tags": ["inference", "serving", "dsl"]
+  },
+  {
+    "id": "project/litellm",
+    "type": "project",
+    "title": "LiteLLM",
+    "description": "Unified API gateway for 100+ LLM providers.",
+    "url": "/projects/litellm",
+    "tags": ["gateway", "proxy", "framework"]
+  },
+  {
+    "id": "project/langgraph",
+    "type": "project",
+    "title": "LangGraph",
+    "description": "Graph-based orchestration for stateful, multi-agent LLM apps.",
+    "url": "/projects/langgraph",
+    "tags": ["agents", "orchestration", "framework"]
+  },
+  {
+    "id": "project/llama-index",
+    "type": "project",
+    "title": "LlamaIndex",
+    "description": "Data framework for connecting LLMs to private documents.",
+    "url": "/projects/llama-index",
+    "tags": ["rag", "data", "framework"]
+  },
+  {
+    "id": "project/haystack",
+    "type": "project",
+    "title": "Haystack",
+    "description": "Pipeline framework for production NLP and LLM applications.",
+    "url": "/projects/haystack",
+    "tags": ["rag", "agents", "framework"]
+  },
+  {
+    "id": "project/autogen",
+    "type": "project",
+    "title": "AutoGen",
+    "description": "Framework for multi-agent LLM conversations.",
+    "url": "/projects/autogen",
+    "tags": ["agents", "multi-agent", "framework"]
+  },
+  {
+    "id": "project/crewai",
+    "type": "project",
+    "title": "CrewAI",
+    "description": "Role-based multi-agent orchestration framework.",
+    "url": "/projects/crewai",
+    "tags": ["agents", "multi-agent", "framework"]
+  },
+  {
+    "id": "project/comfyui",
+    "type": "project",
+    "title": "ComfyUI",
+    "description": "Node-based UI for Stable Diffusion pipelines.",
+    "url": "/projects/comfyui",
+    "tags": ["image", "diffusion", "ui"]
+  },
+  {
+    "id": "project/invokeai",
+    "type": "project",
+    "title": "InvokeAI",
+    "description": "Professional image generation workspace built on Diffusion.",
+    "url": "/projects/invokeai",
+    "tags": ["image", "diffusion", "ui"]
+  },
+  {
+    "id": "project/fooocus",
+    "type": "project",
+    "title": "Fooocus",
+    "description": "Minimalist Stable Diffusion UI inspired by Midjourney.",
+    "url": "/projects/fooocus",
+    "tags": ["image", "diffusion", "ui"]
+  },
+  {
+    "id": "project/kohya-ss",
+    "type": "project",
+    "title": "Kohya Scripts",
+    "description": "Reference training scripts for Stable Diffusion LoRAs and checkpoints.",
+    "url": "/projects/kohya-ss",
+    "tags": ["training", "lora", "diffusion"]
+  },
+  {
+    "id": "project/axolotl",
+    "type": "project",
+    "title": "Axolotl",
+    "description": "YAML-driven fine-tuning framework for LLMs.",
+    "url": "/projects/axolotl",
+    "tags": ["training", "fine-tuning", "framework"]
+  },
+  {
+    "id": "project/unsloth",
+    "type": "project",
+    "title": "Unsloth",
+    "description": "2x faster LLM fine-tuning with patched kernels.",
+    "url": "/projects/unsloth",
+    "tags": ["training", "fine-tuning", "kernels"]
+  },
+  {
+    "id": "project/bitsandbytes",
+    "type": "project",
+    "title": "bitsandbytes",
+    "description": "8-bit and 4-bit quantization primitives for PyTorch.",
+    "url": "/projects/bitsandbytes",
+    "tags": ["quantization", "training", "kernels"]
+  },
+  {
+    "id": "project/peft",
+    "type": "project",
+    "title": "PEFT",
+    "description": "Parameter-efficient fine-tuning library (LoRA, IA3, adapters).",
+    "url": "/projects/peft",
+    "tags": ["training", "lora", "framework"]
+  },
+  {
+    "id": "project/trl",
+    "type": "project",
+    "title": "TRL",
+    "description": "Transformer Reinforcement Learning: SFT, DPO, PPO, GRPO.",
+    "url": "/projects/trl",
+    "tags": ["training", "rlhf", "dpo"]
+  },
+  {
+    "id": "project/milvus",
+    "type": "project",
+    "title": "Milvus",
+    "description": "Distributed vector database built for billion-scale similarity search.",
+    "url": "/projects/milvus",
+    "tags": ["vector-db", "rag", "distributed"]
+  },
+  {
+    "id": "project/qdrant",
+    "type": "project",
+    "title": "Qdrant",
+    "description": "Rust-based vector search engine with rich payload filtering.",
+    "url": "/projects/qdrant",
+    "tags": ["vector-db", "rag", "rust"]
+  },
+  {
+    "id": "project/chroma",
+    "type": "project",
+    "title": "Chroma",
+    "description": "Embedded vector database for Python-first AI apps.",
+    "url": "/projects/chroma",
+    "tags": ["vector-db", "rag", "python"]
+  },
+  {
+    "id": "project/weaviate",
+    "type": "project",
+    "title": "Weaviate",
+    "description": "Vector database with modules for vectorization and hybrid search.",
+    "url": "/projects/weaviate",
+    "tags": ["vector-db", "rag", "hybrid-search"]
+  },
+  {
+    "id": "project/pgvector",
+    "type": "project",
+    "title": "pgvector",
+    "description": "Open-source vector similarity search for PostgreSQL.",
+    "url": "/projects/pgvector",
+    "tags": ["vector-db", "postgres", "rag"]
+  },
+  {
+    "id": "project/lancedb",
+    "type": "project",
+    "title": "LanceDB",
+    "description": "Embedded multimodal database built on the Lance columnar format.",
+    "url": "/projects/lancedb",
+    "tags": ["vector-db", "embedded", "multimodal"]
+  },
+  {
+    "id": "project/faiss",
+    "type": "project",
+    "title": "Faiss",
+    "description": "Library for efficient similarity search and clustering of dense vectors.",
+    "url": "/projects/faiss",
+    "tags": ["vector-db", "similarity", "cpp"]
+  },
+  {
+    "id": "project/whisper-cpp",
+    "type": "project",
+    "title": "whisper.cpp",
+    "description": "Port of OpenAI Whisper to plain C/C++ for fast ASR.",
+    "url": "/projects/whisper-cpp",
+    "tags": ["speech", "asr", "cpp"]
+  },
+  {
+    "id": "project/faster-whisper",
+    "type": "project",
+    "title": "faster-whisper",
+    "description": "CTranslate2-based Whisper implementation in Python.",
+    "url": "/projects/faster-whisper",
+    "tags": ["speech", "asr", "python"]
+  },
+  {
+    "id": "project/cosyvoice",
+    "type": "project",
+    "title": "CosyVoice",
+    "description": "Open multilingual text-to-speech from FunAudioLLM.",
+    "url": "/projects/cosyvoice",
+    "tags": ["speech", "tts", "multilingual"]
+  },
+  {
+    "id": "project/piper-tts",
+    "type": "project",
+    "title": "Piper",
+    "description": "Fast local neural text-to-speech engine.",
+    "url": "/projects/piper-tts",
+    "tags": ["speech", "tts", "local"]
+  },
+  {
+    "id": "project/xtts",
+    "type": "project",
+    "title": "XTTS",
+    "description": "Multilingual voice cloning TTS from Coqui.",
+    "url": "/projects/xtts",
+    "tags": ["speech", "tts", "voice-cloning"]
+  },
+  {
+    "id": "project/lm-evaluation-harness",
+    "type": "project",
+    "title": "lm-evaluation-harness",
+    "description": "Reference framework for benchmarking LLMs.",
+    "url": "/projects/lm-evaluation-harness",
+    "tags": ["evaluation", "benchmark", "framework"]
+  },
+  {
+    "id": "project/ragas",
+    "type": "project",
+    "title": "Ragas",
+    "description": "Evaluation metrics for RAG pipelines.",
+    "url": "/projects/ragas",
+    "tags": ["evaluation", "rag", "metrics"]
+  },
+  {
+    "id": "project/deepeval",
+    "type": "project",
+    "title": "DeepEval",
+    "description": "Open-source LLM evaluation framework with pytest integration.",
+    "url": "/projects/deepeval",
+    "tags": ["evaluation", "metrics", "framework"]
+  },
+  {
+    "id": "project/open-compass",
+    "type": "project",
+    "title": "OpenCompass",
+    "description": "Open evaluation platform for large language models.",
+    "url": "/projects/open-compass",
+    "tags": ["evaluation", "benchmark", "framework"]
+  },
+  {
+    "id": "project/open-webui",
+    "type": "project",
+    "title": "Open WebUI",
+    "description": "Self-hosted ChatGPT-style interface for local LLMs.",
+    "url": "/projects/open-webui",
+    "tags": ["ui", "local", "chat"]
+  },
+  {
+    "id": "project/lobe-chat",
+    "type": "project",
+    "title": "Lobe Chat",
+    "description": "Open-source ChatGPT/LMSYS UI for individuals and teams.",
+    "url": "/projects/lobe-chat",
+    "tags": ["ui", "chat", "framework"]
+  },
+  {
+    "id": "project/jan",
+    "type": "project",
+    "title": "Jan",
+    "description": "Local-first ChatGPT alternative that runs models on your machine.",
+    "url": "/projects/jan",
+    "tags": ["ui", "local", "desktop"]
+  },
+  {
+    "id": "project/gpt4all",
+    "type": "project",
+    "title": "GPT4All",
+    "description": "Desktop app to run open LLMs locally with a friendly UI.",
+    "url": "/projects/gpt4all",
+    "tags": ["ui", "local", "desktop"]
+  },
+  {
+    "id": "project/localai",
+    "type": "project",
+    "title": "LocalAI",
+    "description": "Self-hosted OpenAI API drop-in replacement.",
+    "url": "/projects/localai",
+    "tags": ["inference", "api", "self-hosted"]
+  },
+  {
+    "id": "project/text-embeddings-inference",
+    "type": "project",
+    "title": "Text Embeddings Inference",
+    "description": "High-throughput inference server for text embeddings.",
+    "url": "/projects/text-embeddings-inference",
+    "tags": ["inference", "embeddings", "serving"]
+  },
+  {
+    "id": "model/llama-3",
+    "type": "model",
+    "title": "Llama 3",
+    "description": "Meta's open flagship large language model.",
+    "url": "/models/llama-3",
+    "tags": ["llm", "meta", "open-weights"]
+  },
+  {
+    "id": "model/mistral-7b",
+    "type": "model",
+    "title": "Mistral 7B",
+    "description": "High-quality 7B-parameter open language model.",
+    "url": "/models/mistral-7b",
+    "tags": ["llm", "mistral", "open-weights"]
+  },
+  {
+    "id": "model/stable-diffusion-xl",
+    "type": "model",
+    "title": "Stable Diffusion XL",
+    "description": "Two-stage text-to-image model with stunning fidelity.",
+    "url": "/models/stable-diffusion-xl",
+    "tags": ["image", "diffusion", "stability"]
+  },
+  {
+    "id": "concept/transformer",
+    "type": "concept",
+    "title": "Transformer",
+    "description": "Attention-based neural network architecture that powers modern AI.",
+    "url": "/concepts/transformer",
+    "tags": ["architecture", "deep-learning", "attention"]
+  },
+  {
+    "id": "concept/retrieval-augmented-generation",
+    "type": "concept",
+    "title": "Retrieval Augmented Generation",
+    "description": "Combining retrieval with generation for grounded, up-to-date answers.",
+    "url": "/concepts/retrieval-augmented-generation",
+    "tags": ["rag", "llm", "retrieval"]
+  },
+  {
+    "id": "concept/tokenization",
+    "type": "concept",
+    "title": "Tokenization",
+    "description": "Splitting text into model-understandable units.",
+    "url": "/concepts/tokenization",
+    "tags": ["nlp", "preprocessing"]
+  },
+  {
+    "id": "concept/quantization",
+    "type": "concept",
+    "title": "Quantization",
+    "description": "Reducing model precision for faster inference and lower memory use.",
+    "url": "/concepts/quantization",
+    "tags": ["optimization", "inference"]
+  },
+  {
+    "id": "tutorial/understand-transformers",
+    "type": "tutorial",
+    "title": "Understand Transformers",
+    "description": "A visual, diagram-first tour of the Transformer architecture.",
+    "url": "/tutorials/understand-transformers",
+    "tags": ["architecture", "deep-learning"]
+  },
+  {
+    "id": "tutorial/run-your-first-llm-locally",
+    "type": "tutorial",
+    "title": "Run your first LLM locally",
+    "description": "Install Ollama and run an open model on your laptop in under 10 minutes.",
+    "url": "/tutorials/run-your-first-llm-locally",
+    "tags": ["local", "llm", "ollama"]
+  },
+  {
+    "id": "tutorial/build-a-rag-app",
+    "type": "tutorial",
+    "title": "Build a RAG app",
+    "description": "Wire retrieval into an LLM with embeddings, a vector store, and citations.",
+    "url": "/tutorials/build-a-rag-app",
+    "tags": ["rag", "llm", "embeddings"]
+  },
+  {
+    "id": "job/hugging-face-llm-engineer",
+    "type": "job",
+    "title": "LLM Inference Engineer",
+    "description": "Push the boundaries of open-weight LLM inference on the world's most-used model hub.",
+    "url": "/jobs/hugging-face-llm-engineer",
+    "tags": ["llm", "inference", "rust", "python"]
+  },
+  {
+    "id": "job/mistral-research-scientist",
+    "type": "job",
+    "title": "Research Scientist, Open Models",
+    "description": "Train the next generation of small, fast, fully open-weight foundation models.",
+    "url": "/jobs/mistral-research-scientist",
+    "tags": ["research", "training", "llm", "open-source"]
+  },
+  {
+    "id": "job/langchain-developer-relations",
+    "type": "job",
+    "title": "Developer Advocate, Agents",
+    "description": "Help the world's builders ship production agents on top of LangChain and LangGraph.",
+    "url": "/jobs/langchain-developer-relations",
+    "tags": ["developer-relations", "agents", "llm"]
+  },
+  {
+    "id": "job/ollama-internship",
+    "type": "job",
+    "title": "Open Source Engineering Intern",
+    "description": "12-week internship working directly on the Ollama runtime and Modelfile ecosystem.",
+    "url": "/jobs/ollama-internship",
+    "tags": ["internship", "go", "inference", "open-source"]
+  },
+  {
+    "id": "job/elevenlabs-audio-ml-contract",
+    "type": "job",
+    "title": "Contract Audio ML Engineer",
+    "description": "6-month contract to improve open audio model evaluation and release tooling.",
+    "url": "/jobs/elevenlabs-audio-ml-contract",
+    "tags": ["audio", "evaluation", "contract"]
+  },
+  {
+    "id": "job/stability-image-trainer",
+    "type": "job",
+    "title": "Diffusion Model Trainer",
+    "description": "Train the next open-weights image and video diffusion models.",
+    "url": "/jobs/stability-image-trainer",
+    "tags": ["diffusion", "image", "training", "open-source"]
+  },
+  {
+    "id": "job/mozilla-ai-privacy-part-time",
+    "type": "job",
+    "title": "AI Privacy Researcher (Part-Time)",
+    "description": "Investigate privacy properties of on-device LLM tooling for the Firefox ecosystem.",
+    "url": "/jobs/mozilla-ai-privacy-part-time",
+    "tags": ["privacy", "research", "part-time", "on-device"]
+  },
+  {
+    "id": "job/perplexity-search-engineer",
+    "type": "job",
+    "title": "Search & Retrieval Engineer",
+    "description": "Improve answer quality for the open-source Sonar models by reinventing retrieval.",
+    "url": "/jobs/perplexity-search-engineer",
+    "tags": ["retrieval", "rag", "search", "llm"]
+  },
+  {
+    "id": "event/open-source-ai-summit-2026",
+    "type": "event",
+    "title": "Open Source AI Summit 2026",
+    "description": "The flagship conference for open-weights model builders, framework maintainers, and OSS adopters.",
+    "url": "/events/open-source-ai-summit-2026",
+    "tags": ["conference", "open-source", "llm"]
+  },
+  {
+    "id": "event/neurips-2026",
+    "type": "event",
+    "title": "NeurIPS 2026",
+    "description": "The premier machine learning research conference.",
+    "url": "/events/neurips-2026",
+    "tags": ["conference", "research", "academic"]
+  },
+  {
+    "id": "event/llm-inference-meetup-july",
+    "type": "event",
+    "title": "LLM Inference Meetup — July 2026",
+    "description": "Monthly virtual meetup focused on production LLM inference on open models.",
+    "url": "/events/llm-inference-meetup-july",
+    "tags": ["meetup", "inference", "virtual"]
+  },
+  {
+    "id": "event/eurali-conference-2026",
+    "type": "event",
+    "title": "EuraLi Open AI Conference",
+    "description": "European conference covering open models, regulation, and AI sovereignty.",
+    "url": "/events/eurali-conference-2026",
+    "tags": ["conference", "europe", "policy", "hybrid"]
+  },
+  {
+    "id": "event/agent-hackathon-2026",
+    "type": "event",
+    "title": "Open Agents Hackathon 2026",
+    "description": "48-hour global hackathon building production agents on open-source frameworks.",
+    "url": "/events/agent-hackathon-2026",
+    "tags": ["hackathon", "agents", "virtual"]
+  },
+  {
+    "id": "event/mlops-world-toronto",
+    "type": "event",
+    "title": "MLOps World 2026",
+    "description": "The MLOps community's annual gathering, with a strong open-source track.",
+    "url": "/events/mlops-world-toronto",
+    "tags": ["mlops", "production", "conference"]
+  },
+  {
+    "id": "event/ai-safety-unconference-2026",
+    "type": "event",
+    "title": "AI Safety Unconference 2026",
+    "description": "Community-run unconference on open, reproducible AI safety research.",
+    "url": "/events/ai-safety-unconference-2026",
+    "tags": ["safety", "unconference", "research"]
+  },
+  {
+    "id": "news/ai-atlas-phase-2-launch",
+    "type": "news",
+    "title": "AI Atlas Phase 2 kicks off — Jobs, Events, News beta",
+    "description": "Phase 2 of the AI Atlas platform is live: browse jobs, events, and a fresh news feed.",
+    "url": "/news/ai-atlas-phase-2-launch",
+    "tags": ["announcement", "phase-2", "jobs", "events", "news"]
+  },
+  {
+    "id": "news/llama-cpp-multimodal-merged",
+    "type": "news",
+    "title": "llama.cpp merges native multimodal backend",
+    "description": "Vision and audio inference land in mainline llama.cpp.",
+    "url": "/news/llama-cpp-multimodal-merged",
+    "tags": ["llama-cpp", "release", "multimodal"]
+  },
+  {
+    "id": "news/mistral-small-4-released",
+    "type": "news",
+    "title": "Mistral releases Small 4 under Apache 2.0",
+    "description": "A 22B-parameter model with 128k context ships fully open.",
+    "url": "/news/mistral-small-4-released",
+    "tags": ["mistral", "model-release", "open-weights"]
+  },
+  {
+    "id": "news/open-llm-leaderboard-v3",
+    "type": "news",
+    "title": "Open LLM Leaderboard v3 goes live",
+    "description": "Refreshed leaderboard with new reasoning, coding, and long-context tasks.",
+    "url": "/news/open-llm-leaderboard-v3",
+    "tags": ["leaderboard", "evaluation", "open-source"]
+  },
+  {
+    "id": "news/rag-eval-cookbook",
+    "type": "news",
+    "title": "New community cookbook: evaluating RAG pipelines",
+    "description": "A community-maintained playbook for evaluating retrieval-augmented generation.",
+    "url": "/news/rag-eval-cookbook",
+    "tags": ["rag", "evaluation", "cookbook"]
+  },
+  {
+    "id": "news/vllm-0-8-released",
+    "type": "news",
+    "title": "vLLM 0.8 ships speculative decoding v2",
+    "description": "Faster serving with the new speculative decoding v2 pipeline.",
+    "url": "/news/vllm-0-8-released",
+    "tags": ["vllm", "release", "inference"]
+  },
+  {
+    "id": "news/eurali-ai-act-vote",
+    "type": "news",
+    "title": "European Parliament passes updated AI Act amendments",
+    "description": "Updated amendments clarify rules for open-weights model releases.",
+    "url": "/news/eurali-ai-act-vote",
+    "tags": ["policy", "europe", "regulation"]
+  },
+  {
+    "id": "news/expired-news-sample",
+    "type": "news",
+    "title": "Old placeholder news item (expired demo)",
+    "description": "A deliberately expired news item to validate the expired filter.",
+    "url": "/news/expired-news-sample",
+    "tags": ["archived", "demo"]
+  }
+]

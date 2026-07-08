@@ -1,0 +1,152 @@
+---
+/**
+ * PagefindUI — Astro wrapper around the static Pagefind UI bundle.
+ *
+ * Pagefind runs as a post-build step (`pnpm run build`) and emits its
+ * assets to `dist/pagefind/`. In production we mount the Pagefind UI
+ * bundle against the `#search` element. In development (where Pagefind
+ * has not been built) we fall back to a Fuse.js search over the static
+ * `/search-index.json` so the page always works.
+ */
+export interface Props {
+  class?: string;
+}
+const { class: className = '' } = Astro.props;
+---
+
+<section class={className}>
+  <noscript>
+    <p class="text-text-muted text-small">
+      Search requires JavaScript. You can also <a
+        class="text-primary-orange"
+        href="/search-index.json">browse the search index directly</a
+      >.
+    </p>
+  </noscript>
+
+  <div id="pagefind-ui" class="pagefind-ui"></div>
+  <div id="fuse-fallback" class="flex flex-col gap-3" hidden>
+    <label class="flex flex-col gap-2">
+      <span class="text-tiny text-text-muted font-medium tracking-wide uppercase">Search</span>
+      <input
+        id="fuse-input"
+        type="search"
+        placeholder="Search projects, models, concepts, tutorials..."
+        class="border-border bg-surface-elevated text-text placeholder:text-text-subtle focus-visible:ring-primary-orange rounded-md border px-4 py-3 focus-visible:ring-2 focus-visible:outline-none"
+        autocomplete="off"
+      />
+    </label>
+    <ul id="fuse-results" class="flex flex-col gap-2" role="list"></ul>
+    <p id="fuse-empty" class="text-text-muted text-small" hidden>No results found.</p>
+  </div>
+</section>
+
+<script>
+  import Fuse from 'fuse.js';
+
+  type Item = {
+    id: string;
+    type: string;
+    title: string;
+    description: string;
+    url: string;
+    tags?: string[];
+  };
+
+  const pagefindMount = document.getElementById('pagefind-ui');
+  const fuseMount = document.getElementById('fuse-fallback');
+
+  async function tryPagefind(): Promise<boolean> {
+    try {
+      // Probe for the Pagefind UI bundle. In dev `pnpm run build` has not
+      // run, so this 404s and we fall back to Fuse.
+      const res = await fetch('/pagefind/pagefind-ui.js', { method: 'HEAD' });
+      if (!res.ok) return false;
+      await new Promise<void>((resolve, reject) => {
+        const script = document.createElement('script');
+        script.src = '/pagefind/pagefind-ui.js';
+        script.type = 'module';
+        script.onload = () => resolve();
+        script.onerror = () => reject(new Error('Failed to load Pagefind UI'));
+        document.head.appendChild(script);
+      });
+      // Pagefind exposes a global `PagefindUI` constructor.
+      const w = window as unknown as {
+        PagefindUI?: new (opts: Record<string, unknown>) => unknown;
+      };
+      if (typeof w.PagefindUI === 'function' && pagefindMount) {
+        new w.PagefindUI({
+          element: '#pagefind-ui',
+          resetStyles: false,
+          showImages: false,
+          showSubResults: true,
+          excerptLength: 30,
+        });
+        pagefindMount.hidden = false;
+        if (fuseMount) fuseMount.hidden = true;
+        return true;
+      }
+      return false;
+    } catch {
+      return false;
+    }
+  }
+
+  async function mountFuse(): Promise<void> {
+    if (!fuseMount) return;
+    fuseMount.hidden = false;
+    if (pagefindMount) pagefindMount.hidden = true;
+    const input = document.getElementById('fuse-input') as HTMLInputElement | null;
+    const list = document.getElementById('fuse-results') as HTMLUListElement | null;
+    const empty = document.getElementById('fuse-empty');
+    if (!input || !list || !empty) return;
+
+    const res = await fetch('/search-index.json');
+    const items: Item[] = res.ok ? ((await res.json()) as Item[]) : [];
+    const fuse = new Fuse(items, { keys: ['title', 'description', 'tags'], threshold: 0.4 });
+
+    const render = (results: Item[]) => {
+      list.innerHTML = '';
+      empty.hidden = results.length > 0;
+      for (const item of results.slice(0, 20)) {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = item.url;
+        a.className =
+          'border-border bg-surface-card hover:border-border-strong text-text flex flex-col gap-1 rounded-md border px-4 py-3 transition-colors';
+        const type = document.createElement('span');
+        type.className = 'text-tiny text-primary-orange font-mono uppercase';
+        type.textContent = item.type;
+        const title = document.createElement('span');
+        title.className = 'text-body font-medium';
+        title.textContent = item.title;
+        const desc = document.createElement('span');
+        desc.className = 'text-text-muted text-tiny';
+        desc.textContent = item.description;
+        a.appendChild(type);
+        a.appendChild(title);
+        a.appendChild(desc);
+        li.appendChild(a);
+        list.appendChild(li);
+      }
+    };
+
+    const update = () => {
+      const q = input.value.trim();
+      if (!q) {
+        render(items.slice(0, 10));
+        return;
+      }
+      render(fuse.search(q).map((r) => r.item));
+    };
+
+    input.addEventListener('input', update);
+    render(items.slice(0, 10));
+    input.focus();
+  }
+
+  void (async () => {
+    const ok = await tryPagefind();
+    if (!ok) await mountFuse();
+  })();
+</script>

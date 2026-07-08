@@ -1,0 +1,11 @@
+{
+  "generatedAt": "2026-07-08T19:37:05.182Z",
+  "entityCounts": {
+    "project": 5,
+    "model": 5
+  },
+  "relationCount": 0,
+  "entitiesInvalid": [],
+  "relationsInvalid": [],
+  "passed": true
+}

@@ -1,0 +1,150 @@
+---
+/**
+ * EntityDetail — shared shell for project / model / concept / tutorial pages.
+ *
+ * Renders breadcrumbs, header, summary, description, external links,
+ * optional timeline, the MiniGraph for related entities, and a "What should
+ * I learn next?" footer block.
+ */
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Section from '@/components/layout/Section.astro';
+import Grid from '@/components/layout/Grid.astro';
+import Breadcrumbs from '@/components/layout/Breadcrumbs.astro';
+import { Badge } from '@/components/ui/Badge';
+import { Tag } from '@/components/ui/Tag';
+import { Button } from '@/components/ui/Button';
+import { Timeline, type TimelineEventProps } from '@/components/timeline/Timeline';
+import { MiniGraph } from '@/components/graph/MiniGraph';
+import { BookmarkButton } from '@/components/collections/BookmarkButton';
+import type { Entity } from '@/lib/schemas/entity';
+import type { GraphNode } from '@/lib/graph/types';
+import { getAdjacencyList } from '@/lib/data/entities';
+
+export interface Props {
+  entity: Entity;
+  breadcrumbs: { label: string; href?: string }[];
+  /** Optional "what to learn next" recommendations (relative hrefs). */
+  learnNext: { name: string; href: string; type: string }[];
+  /** Optional href to pre-fill the entity selector on /compare (e.g. `/compare?a=foo`). */
+  compareHref?: string;
+}
+
+const { entity, breadcrumbs, learnNext, compareHref } = Astro.props;
+const nodeId = `${entity.type}/${entity.slug}`;
+const entityHref = `/${entity.type === 'tutorial' ? 'tutorials' : `${entity.type}s`}/${entity.slug}`;
+const bookmarkEntity = {
+  id: nodeId,
+  type: entity.type,
+  slug: entity.slug,
+  title: entity.name,
+  url: entityHref,
+};
+const adjacency = getAdjacencyList();
+const center: GraphNode = {
+  id: nodeId,
+  type: entity.type,
+  name: entity.name,
+  slug: entity.slug,
+  href: entityHref,
+  summary: entity.summary,
+};
+
+const timelineEvents: TimelineEventProps[] = entity.timeline.map((t) => ({
+  date: t.date,
+  type: t.type,
+  title: t.title,
+  description: t.description,
+  ...(t.href ? { href: t.href } : {}),
+}));
+---
+
+<SiteShell title={`${entity.name} — AI Atlas`} description={entity.summary}>
+  <Container class="flex flex-col gap-6 py-10">
+    <Breadcrumbs items={breadcrumbs} />
+    <header class="flex flex-col gap-3">
+      <div class="flex flex-wrap items-center gap-2">
+        <Badge variant={entity.type}>{entity.type}</Badge>
+        {entity.tags.slice(0, 4).map((tag) => <Tag>{tag}</Tag>)}
+      </div>
+      <h1 class="text-text text-h1 font-bold tracking-tight md:text-5xl">{entity.name}</h1>
+      <p class="text-text-muted text-body max-w-prose md:text-lg">{entity.summary}</p>
+      {
+        entity.externalLinks.length > 0 || compareHref ? (
+          <div class="flex flex-wrap gap-2">
+            {entity.externalLinks.map((link) => (
+              <Button as="a" href={link.href} variant="secondary" size="sm">
+                {link.label} ↗
+              </Button>
+            ))}
+            {compareHref ? (
+              <Button as="a" href={compareHref} variant="primary" size="sm">
+                Compare ↔
+              </Button>
+            ) : null}
+            <BookmarkButton client:load entity={bookmarkEntity} />
+          </div>
+        ) : (
+          <div class="flex flex-wrap gap-2">
+            <BookmarkButton client:load entity={bookmarkEntity} />
+          </div>
+        )
+      }
+    </header>
+
+    <Grid cols={{ base: 1, lg: 3 }} gap={8}>
+      <div class="flex flex-col gap-8 lg:col-span-2">
+        <Section eyebrow="Overview" title="About" containerSize="full">
+          <p class="text-text-muted text-body max-w-prose">{entity.description}</p>
+        </Section>
+
+        {
+          timelineEvents.length > 0 ? (
+            <Section eyebrow="History" title="Timeline" containerSize="full">
+              <Timeline events={timelineEvents} />
+            </Section>
+          ) : null
+        }
+
+        {
+          learnNext.length > 0 ? (
+            <Section eyebrow="Keep learning" title="What should I learn next?" containerSize="full">
+              <ul class="flex flex-col gap-2" role="list">
+                {learnNext.map((next) => (
+                  <li>
+                    <a
+                      href={next.href}
+                      class="border-border bg-surface-card hover:border-border-strong text-text flex items-center justify-between rounded-md border px-4 py-3 transition-colors"
+                    >
+                      <span class="flex flex-col">
+                        <span class="text-text-muted text-tiny font-mono uppercase">
+                          {next.type}
+                        </span>
+                        <span class="text-text text-body font-medium">{next.name}</span>
+                      </span>
+                      <span aria-hidden="true" class="text-primary-orange">
+                        →
+                      </span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </Section>
+          ) : null
+        }
+      </div>
+
+      <aside class="flex flex-col gap-6">
+        <Section eyebrow="Connections" title="Related entities" containerSize="full">
+          <MiniGraph
+            client:visible
+            entityId={nodeId}
+            adjacency={adjacency}
+            center={center}
+            maxNeighbors={8}
+          />
+        </Section>
+      </aside>
+    </Grid>
+  </Container>
+</SiteShell>

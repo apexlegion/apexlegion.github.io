@@ -1,0 +1,87 @@
+---
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Section from '@/components/layout/Section.astro';
+import Breadcrumbs from '@/components/layout/Breadcrumbs.astro';
+import { Badge } from '@/components/ui/Badge';
+import { Tag } from '@/components/ui/Tag';
+import { getEntitiesByType } from '@/lib/data/entities';
+
+const concepts = getEntitiesByType('concept')
+  .slice()
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+const grouped = concepts.reduce<Record<string, typeof concepts>>((acc, concept) => {
+  const letter = /[A-Za-z]/.test(concept.name[0] ?? '')
+    ? (concept.name[0] ?? '#').toUpperCase()
+    : '#';
+  if (!acc[letter]) acc[letter] = [];
+  acc[letter].push(concept);
+  return acc;
+}, {});
+
+const letters = Object.keys(grouped).sort();
+---
+
+<SiteShell
+  title="AI Glossary — AI Atlas"
+  description="Browse every AI concept in the Atlas, grouped alphabetically."
+>
+  <Container class="flex flex-col gap-6 py-10">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Glossary' }]} />
+    <header class="flex flex-col gap-2">
+      <Badge variant="concept">Glossary</Badge>
+      <h1 class="text-text text-h1 font-bold tracking-tight md:text-5xl">AI Glossary</h1>
+      <p class="text-text-muted text-body max-w-prose">
+        Every concept in the Atlas, alphabetised. Jump to a letter, scan the definitions, and dive
+        into a full explanation when you're ready.
+      </p>
+    </header>
+
+    <nav aria-label="Glossary letter index" class="flex flex-wrap gap-1">
+      {
+        letters.map((letter) => (
+          <a
+            href={`#letter-${letter}`}
+            class="border-border bg-surface-elevated hover:border-primary-orange hover:text-primary-orange text-text-muted text-small inline-flex h-9 w-9 items-center justify-center rounded-md border font-mono transition-colors"
+          >
+            {letter}
+          </a>
+        ))
+      }
+    </nav>
+
+    <Section containerSize="wide">
+      <div class="flex flex-col gap-10">
+        {
+          letters.map((letter) => (
+            <section id={`letter-${letter}`} class="flex scroll-mt-24 flex-col gap-3">
+              <h2 class="text-text border-border flex items-baseline gap-3 border-b pb-2 text-2xl font-bold tracking-tight">
+                <span class="text-primary-orange font-mono">{letter}</span>
+                <span class="text-text-subtle text-small font-mono">
+                  {grouped[letter].length} {grouped[letter].length === 1 ? 'entry' : 'entries'}
+                </span>
+              </h2>
+              <ul class="flex flex-col gap-3" role="list">
+                {grouped[letter].map((c) => (
+                  <li>
+                    <a
+                      href={`/concepts/${c.slug}`}
+                      class="border-border bg-surface-card hover:border-primary-orange block rounded-lg border p-4 transition-colors"
+                    >
+                      <div class="flex flex-wrap items-center justify-between gap-2">
+                        <h3 class="text-text text-body font-semibold">{c.name}</h3>
+                        <Tag>{c.level}</Tag>
+                      </div>
+                      <p class="text-text-muted text-small mt-2">{c.summary}</p>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))
+        }
+      </div>
+    </Section>
+  </Container>
+</SiteShell>

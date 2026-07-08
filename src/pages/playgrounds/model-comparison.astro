@@ -1,0 +1,35 @@
+---
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Breadcrumbs from '@/components/layout/Breadcrumbs.astro';
+import { getEntitiesByType, getPlaygroundBySlug } from '@/lib/data/entities';
+import { ModelComparisonPlayground } from '@/components/playgrounds/ModelComparisonPlayground';
+
+const playground = getPlaygroundBySlug('model-comparison');
+if (!playground) {
+  throw new Error('Missing playground metadata: model-comparison');
+}
+
+const models = getEntitiesByType('model');
+---
+
+<SiteShell title={`${playground.name} — AI Atlas`} description={playground.summary}>
+  <Container class="flex flex-col gap-6 py-10">
+    <Breadcrumbs
+      items={[
+        { label: 'Home', href: '/' },
+        { label: 'Playgrounds', href: '/playgrounds' },
+        { label: playground.name },
+      ]}
+    />
+    <ModelComparisonPlayground
+      client:load
+      models={models}
+      title={playground.name}
+      description={playground.description}
+      difficulty={playground.difficulty}
+      estimatedMinutes={playground.estimatedMinutes}
+      relatedConcepts={playground.relatedConcepts}
+    />
+  </Container>
+</SiteShell>

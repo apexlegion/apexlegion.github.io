@@ -1,0 +1,164 @@
+---
+/**
+ * /compare — entity selector UI.
+ *
+ * Two `<select>` dropdowns (entity A and entity B) submit a standard HTML
+ * form that navigates to `/compare/{slugA}-vs-{slugB}` — the order is
+ * normalised server-side by `buildComparisonSlug` so URL stays canonical.
+ *
+ * Below the form we show a few featured comparison suggestions for users
+ * who don't have a specific pair in mind.
+ */
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Section from '@/components/layout/Section.astro';
+import Grid from '@/components/layout/Grid.astro';
+import Breadcrumbs from '@/components/layout/Breadcrumbs.astro';
+import { Card, CardBody, CardFooter, CardHeader } from '@/components/ui/Card';
+import { Badge } from '@/components/ui/Badge';
+import { Button } from '@/components/ui/Button';
+import { getAllEntities } from '@/lib/data/entities';
+import { FEATURED_COMPARISONS, buildComparisonSlug } from '@/lib/compare';
+
+const entities = getAllEntities()
+  .slice()
+  .sort((a, b) => a.name.localeCompare(b.name))
+  .map((e) => ({
+    type: e.type,
+    slug: e.slug,
+    name: e.name,
+    label: `${e.name} (${e.type})`,
+  }));
+
+// Resolve featured comparisons so we can show real entity names + summaries.
+const allEntities = getAllEntities();
+function lookup(slug: string) {
+  return allEntities.find((e) => e.slug === slug);
+}
+
+const featured = FEATURED_COMPARISONS.map((pair) => {
+  const a = lookup(pair.a);
+  const b = lookup(pair.b);
+  if (!a || !b) return null;
+  const [first, second] = [a, b].sort((x, y) => x.slug.localeCompare(y.slug));
+  return {
+    reason: pair.reason,
+    slugPath: buildComparisonSlug(a.slug, b.slug),
+    first,
+    second,
+  };
+}).filter((entry): entry is NonNullable<typeof entry> => entry !== null);
+---
+
+<SiteShell
+  title="Compare — AI Atlas"
+  description="Pick two open-source AI projects, models, or concepts and see them side by side."
+>
+  <Container class="flex flex-col gap-6 py-10">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Compare' }]} />
+    <header class="flex flex-col gap-2">
+      <Badge variant="concept">Comparison engine</Badge>
+      <h1 class="text-text text-h1 font-bold tracking-tight md:text-5xl">
+        Compare two things, side by side
+      </h1>
+      <p class="text-text-muted text-body max-w-prose">
+        Pick any two open-source AI projects, models, or concepts to see how they differ in license,
+        tags, ecosystem activity, and milestones.
+      </p>
+    </header>
+
+    <Section eyebrow="Selector" title="Choose two entities" containerSize="wide">
+      <form
+        method="get"
+        action="/compare/redirect"
+        class="border-border bg-surface-card flex flex-col gap-4 rounded-lg border p-6"
+        aria-label="Compare two entities"
+      >
+        <div class="grid gap-4 md:grid-cols-2">
+          <label class="flex flex-col gap-1.5">
+            <span class="text-small text-text font-medium">Entity A</span>
+            <select
+              name="a"
+              required
+              class="bg-surface-elevated text-body text-text border-border hover:border-border-strong focus-visible:ring-primary-orange focus-visible:ring-offset-surface h-11 w-full appearance-none rounded-md border px-3 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+            >
+              <option value="" disabled selected>Select an entity…</option>
+              {entities.map((entity) => <option value={entity.slug}>{entity.label}</option>)}
+            </select>
+          </label>
+          <label class="flex flex-col gap-1.5">
+            <span class="text-small text-text font-medium">Entity B</span>
+            <select
+              name="b"
+              required
+              class="bg-surface-elevated text-body text-text border-border hover:border-border-strong focus-visible:ring-primary-orange focus-visible:ring-offset-surface h-11 w-full appearance-none rounded-md border px-3 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+            >
+              <option value="" disabled selected>Select an entity…</option>
+              {entities.map((entity) => <option value={entity.slug}>{entity.label}</option>)}
+            </select>
+          </label>
+        </div>
+
+        <input type="hidden" name="from" value="selector" />
+        <div class="flex flex-wrap items-center justify-between gap-2">
+          <p class="text-text-muted text-small">
+            We&rsquo;ll canonicalise the order so the URL stays stable no matter which side you
+            pick.
+          </p>
+          <Button type="submit" variant="primary" size="md"> Compare → </Button>
+        </div>
+      </form>
+    </Section>
+
+    <Section eyebrow="Suggested" title="Featured comparisons" containerSize="wide">
+      <Grid cols={{ base: 1, md: 2, lg: 3 }} gap={6}>
+        {
+          featured.map((entry) => (
+            <Card variant="interactive" href={`/compare/${entry.slugPath}`}>
+              <CardHeader>
+                <div class="flex flex-wrap items-center gap-2">
+                  <Badge variant={entry.first.type}>{entry.first.type}</Badge>
+                  <Badge variant={entry.second.type}>{entry.second.type}</Badge>
+                </div>
+                <h2 class="text-text text-h3 mt-2 font-semibold">
+                  {entry.first.name}
+                  <span class="text-text-subtle mx-2 font-mono text-base">vs</span>
+                  {entry.second.name}
+                </h2>
+              </CardHeader>
+              <CardBody>{entry.reason}</CardBody>
+              <CardFooter>
+                <Button variant="ghost" size="sm">
+                  Open comparison →
+                </Button>
+              </CardFooter>
+            </Card>
+          ))
+        }
+      </Grid>
+    </Section>
+  </Container>
+</SiteShell>
+
+<script is:inline>
+  // The form posts to `/compare/redirect`, but Astro cannot use a dynamic
+  // `getStaticPaths` redirect at the form level without a page. Instead
+  // we capture submit here, normalise the order, and `location.assign`
+  // to the canonical comparison URL. The static pages live under
+  // `/compare/{slug}-vs-{slug}` and are generated in `[a]-vs-[b].astro`.
+  const form = document.querySelector('form[aria-label="Compare two entities"]');
+  if (form instanceof HTMLFormElement) {
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const data = new FormData(form);
+      const a = String(data.get('a') ?? '');
+      const b = String(data.get('b') ?? '');
+      if (!a || !b || a === b) {
+        form.reportValidity();
+        return;
+      }
+      const [first, second] = [a, b].sort();
+      window.location.assign(`/compare/${first}-vs-${second}`);
+    });
+  }
+</script>

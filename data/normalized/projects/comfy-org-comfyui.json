@@ -1,0 +1,50 @@
+{
+  "type": "project",
+  "slug": "comfy-org-comfyui",
+  "name": "ComfyUI",
+  "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+  "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+  "tags": [
+    "ai",
+    "comfy",
+    "comfyui",
+    "python",
+    "pytorch",
+    "stable-diffusion"
+  ],
+  "externalLinks": [
+    {
+      "label": "GitHub repository",
+      "href": "https://github.com/Comfy-Org/ComfyUI"
+    },
+    {
+      "label": "Homepage",
+      "href": "https://www.comfy.org/"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2023-01-17",
+      "type": "release",
+      "title": "Repository created",
+      "description": "Initial public commit on Comfy-Org/ComfyUI."
+    },
+    {
+      "date": "2026-07-06",
+      "type": "update",
+      "title": "Latest activity",
+      "description": "Most recent push recorded by the GitHub API."
+    }
+  ],
+  "category": "Image Generation",
+  "repository": "https://github.com/Comfy-Org/ComfyUI",
+  "license": "GPL-3.0",
+  "health": {
+    "recentCommit": 0,
+    "releaseFrequency": 0.5,
+    "popularity": 0,
+    "documentation": 0,
+    "license": 1,
+    "total": 0.175
+  }
+}

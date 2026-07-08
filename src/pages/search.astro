@@ -1,0 +1,30 @@
+---
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Section from '@/components/layout/Section.astro';
+import Breadcrumbs from '@/components/layout/Breadcrumbs.astro';
+import PagefindUI from '@/components/search/PagefindUI.astro';
+import { Badge } from '@/components/ui/Badge';
+---
+
+<SiteShell
+  title="Search — AI Atlas"
+  description="Search projects, models, concepts, and tutorials across AI Atlas."
+>
+  <Container class="flex flex-col gap-6 py-10">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Search' }]} />
+    <header class="flex flex-col gap-2">
+      <Badge variant="neutral">Search</Badge>
+      <h1 class="text-text text-h1 font-bold tracking-tight md:text-5xl">Search the universe</h1>
+      <p class="text-text-muted text-body max-w-prose">
+        Full-text search across every project, model, concept, and tutorial in AI Atlas. Powered by <a
+          class="text-primary-orange"
+          href="https://pagefind.app">Pagefind</a
+        > in production; a Fuse.js fallback runs in development.
+      </p>
+    </header>
+    <Section containerSize="full">
+      <PagefindUI />
+    </Section>
+  </Container>
+</SiteShell>

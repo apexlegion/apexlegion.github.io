@@ -1,0 +1,41 @@
+{
+  "type": "project",
+  "slug": "openbmb-minicpm",
+  "name": "MiniCPM",
+  "summary": "MiniCPM5-1B: A SOTA 1B on-device LLM, small yet powerful.",
+  "description": "MiniCPM5-1B: A SOTA 1B on-device LLM, small yet powerful.",
+  "tags": [
+    "jupyter notebook"
+  ],
+  "externalLinks": [
+    {
+      "label": "GitHub repository",
+      "href": "https://github.com/OpenBMB/MiniCPM"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2024-01-29",
+      "type": "release",
+      "title": "Repository created",
+      "description": "Initial public commit on OpenBMB/MiniCPM."
+    },
+    {
+      "date": "2026-06-20",
+      "type": "update",
+      "title": "Latest activity",
+      "description": "Most recent push recorded by the GitHub API."
+    }
+  ],
+  "category": "Open Source",
+  "repository": "https://github.com/OpenBMB/MiniCPM",
+  "license": "Apache-2.0",
+  "health": {
+    "recentCommit": 0,
+    "releaseFrequency": 0.5,
+    "popularity": 0,
+    "documentation": 0,
+    "license": 1,
+    "total": 0.175
+  }
+}

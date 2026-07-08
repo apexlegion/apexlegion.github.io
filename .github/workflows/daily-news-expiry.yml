@@ -1,0 +1,69 @@
+name: Daily News Expiry
+
+on:
+  schedule:
+    # 04:00 UTC every day
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-news-expiry
+  cancel-in-progress: false
+
+jobs:
+  expire-news:
+    name: Expire stale news + commit
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        run: echo "STORE=$(pnpm config get store-dir)" >> "$GITHUB_OUTPUT"
+
+      - name: Cache pnpm store
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE }}
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Expire stale news
+        run: pnpm exec tsx scripts/pipeline/expiry.ts
+
+      - name: Commit expiry changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No news expiry changes to commit."
+          else
+            git commit -m "chore(data): daily news expiry" \
+              -m "Automated expiry sweep via pnpm exec tsx scripts/pipeline/expiry.ts." \
+              -m "" \
+              -m "Co-Authored-By: Kimchi <noreply@kimchi.dev>"
+            git push
+          fi

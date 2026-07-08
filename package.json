@@ -1,0 +1,76 @@
+{
+  "name": "ai-atlas",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AI Atlas — Learn. Compare. Build. Everything Open Source AI, in One Place.",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build && pagefind --site dist --output-subdir pagefind",
+    "preview": "astro preview",
+    "astro": "astro",
+    "pagefind": "pagefind --site dist --output-subdir pagefind",
+    "lint": "eslint . && prettier --check .",
+    "lint:fix": "eslint . --fix && prettier --write .",
+    "format": "prettier --write .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "test:e2e:install": "playwright install --with-deps chromium",
+    "scrape:all": "tsx scripts/pipeline/run.ts",
+    "scrape:github": "tsx scripts/connectors/GitHubConnector.ts",
+    "scrape:huggingface": "tsx scripts/connectors/HuggingFaceConnector.ts",
+    "data:validate": "tsx scripts/pipeline/validate.ts",
+    "data:index": "tsx scripts/pipeline/generateIndexes.ts"
+  },
+  "dependencies": {
+    "@astrojs/react": "^4.4.0",
+    "@astrojs/sitemap": "^3.6.0",
+    "@tailwindcss/vite": "~4.1.17",
+    "astro": "^5.14.0",
+    "fuse.js": "^7.4.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwindcss": "4.1.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "@playwright/test": "^1.56.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/jsdom": "^28.0.3",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.20.0",
+    "@typescript-eslint/parser": "^8.20.0",
+    "eslint": "^9.18.0",
+    "eslint-plugin-astro": "^1.3.1",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "globals": "^15.14.0",
+    "jsdom": "^25.0.1",
+    "lighthouse": "^13.4.0",
+    "pagefind": "^1.5.2",
+    "prettier": "^3.4.2",
+    "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-tailwindcss": "^0.6.10",
+    "tsx": "^4.23.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0",
+    "zod": "^4.4.3"
+  },
+  "packageManager": "pnpm@10.34.4",
+  "engines": {
+    "node": ">=20.18.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "vite": "^6.4.0"
+    }
+  }
+}

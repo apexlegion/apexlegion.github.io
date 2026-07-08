@@ -1,0 +1,35 @@
+---
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import { Button } from '@/components/ui/Button';
+---
+
+<SiteShell
+  title="Page not found"
+  description="The page you are looking for could not be found."
+  noindex
+>
+  <Container class="flex flex-col items-center gap-6 py-24 text-center">
+    <span class="text-tiny text-text-muted font-mono tracking-wide uppercase">404</span>
+    <h1 class="text-text text-h1 font-bold">Lost in the universe</h1>
+    <p class="text-text-muted text-body max-w-prose">
+      The page you are looking for has drifted into a black hole. Let's get you back to a known star
+      system.
+    </p>
+    <div class="flex flex-wrap items-center justify-center gap-3">
+      <a
+        href="/"
+        class="bg-primary-orange text-text-inverse hover:bg-primary-hover active:bg-primary-hover border-primary-orange text-body inline-flex h-12 items-center gap-2 rounded-lg border px-6 font-medium transition-colors"
+      >
+        Return home
+      </a>
+      <button
+        type="button"
+        onclick="history.back()"
+        class="bg-surface-elevated text-text hover:bg-surface-card border-border hover:border-border-strong text-body inline-flex h-12 items-center gap-2 rounded-lg border px-6 font-medium transition-colors"
+      >
+        Go back
+      </button>
+    </div>
+  </Container>
+</SiteShell>

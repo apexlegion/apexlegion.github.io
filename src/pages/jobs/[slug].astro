@@ -1,0 +1,133 @@
+---
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Section from '@/components/layout/Section.astro';
+import Breadcrumbs from '@/components/layout/Breadcrumbs.astro';
+import { Card, CardBody, CardHeader } from '@/components/ui/Card';
+import { Badge } from '@/components/ui/Badge';
+import { Tag } from '@/components/ui/Tag';
+import { Button } from '@/components/ui/Button';
+import { getAllJobs, getJobBySlug, isJobExpired } from '@/lib/data/entities';
+import type { JobTypeValue } from '@/lib/schemas/entity';
+
+export async function getStaticPaths() {
+  // Include expired jobs in static paths so detail pages remain reachable.
+  return getAllJobs({ includeExpired: true }).map((j) => ({
+    params: { slug: j.slug },
+    props: { job: j },
+  }));
+}
+
+const { job } = Astro.props;
+const expired = isJobExpired(job);
+
+const jobTypeLabels: Record<JobTypeValue, string> = {
+  'full-time': 'Full-time',
+  'part-time': 'Part-time',
+  contract: 'Contract',
+  internship: 'Internship',
+};
+
+function formatDate(iso: string): string {
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return iso;
+  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+
+// Defensive: if getJobBySlug returns undefined (it shouldn't for static-paths
+// data, but TS doesn't know that), render the 404 page instead.
+const verified = getJobBySlug(job.slug);
+if (!verified) {
+  return Astro.redirect('/404');
+}
+---
+
+<SiteShell title={`${job.name} — AI Atlas`} description={job.summary}>
+  <Container class="flex flex-col gap-6 py-10">
+    <Breadcrumbs
+      items={[{ label: 'Home', href: '/' }, { label: 'Jobs', href: '/jobs' }, { label: job.name }]}
+    />
+
+    <header class="flex flex-col gap-3">
+      <div class="flex flex-wrap items-center gap-2">
+        <Badge variant="project">Job</Badge>
+        <Tag>{jobTypeLabels[job.jobType]}</Tag>
+        {expired ? <Badge variant="danger">Expired</Badge> : null}
+      </div>
+      <h1 class="text-text text-h1 font-bold tracking-tight md:text-5xl">{job.name}</h1>
+      <p class="text-text-muted text-body">
+        <span class="text-text font-medium">{job.company}</span>
+        <span aria-hidden="true"> · </span>
+        <span>{job.location}</span>
+      </p>
+      <p class="text-text-subtle text-tiny font-mono">
+        Posted {formatDate(job.postedAt)} · Expires {formatDate(job.expiryAt)}
+      </p>
+    </header>
+
+    <Section containerSize="wide">
+      <div class="grid gap-6 md:grid-cols-3">
+        <article class="md:col-span-2">
+          <Card>
+            <CardHeader>
+              <h2 class="text-text text-h3 font-semibold">About the role</h2>
+            </CardHeader>
+            <CardBody>
+              <p class="text-text-muted text-body whitespace-pre-line">{job.description}</p>
+            </CardBody>
+          </Card>
+
+          {
+            job.tags.length > 0 && (
+              <Card class="mt-6">
+                <CardHeader>
+                  <h2 class="text-text text-h3 font-semibold">Tags</h2>
+                </CardHeader>
+                <CardBody>
+                  <div class="flex flex-wrap gap-2">
+                    {job.tags.map((t) => (
+                      <Tag>{t}</Tag>
+                    ))}
+                  </div>
+                </CardBody>
+              </Card>
+            )
+          }
+        </article>
+
+        <aside>
+          <Card>
+            <CardHeader>
+              <h2 class="text-text text-h3 font-semibold">Apply &amp; links</h2>
+            </CardHeader>
+            <CardBody>
+              {
+                job.externalLinks.length === 0 ? (
+                  <p class="text-text-muted text-small">No external links provided.</p>
+                ) : (
+                  <ul class="flex flex-col gap-2" role="list">
+                    {job.externalLinks.map((link) => (
+                      <li>
+                        <a
+                          href={link.href}
+                          class="text-text hover:text-primary-orange text-small inline-flex items-center gap-1 font-medium underline-offset-4 hover:underline"
+                          rel="noopener noreferrer"
+                        >
+                          {link.label} →
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                )
+              }
+            </CardBody>
+          </Card>
+        </aside>
+      </div>
+
+      <div class="mt-8 flex flex-wrap items-center gap-3">
+        <Button variant="ghost" href="/jobs"> ← All jobs </Button>
+      </div>
+    </Section>
+  </Container>
+</SiteShell>

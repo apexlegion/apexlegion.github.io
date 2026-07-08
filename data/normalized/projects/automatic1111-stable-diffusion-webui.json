@@ -1,0 +1,57 @@
+{
+  "type": "project",
+  "slug": "automatic1111-stable-diffusion-webui",
+  "name": "stable-diffusion-webui",
+  "summary": "Stable Diffusion web UI",
+  "description": "Stable Diffusion web UI",
+  "tags": [
+    "ai",
+    "ai-art",
+    "deep-learning",
+    "diffusion",
+    "gradio",
+    "image-generation",
+    "image2image",
+    "img2img",
+    "pytorch",
+    "stable-diffusion",
+    "text2image",
+    "torch",
+    "txt2img",
+    "unstable",
+    "upscaling",
+    "web",
+    "python"
+  ],
+  "externalLinks": [
+    {
+      "label": "GitHub repository",
+      "href": "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2022-08-22",
+      "type": "release",
+      "title": "Repository created",
+      "description": "Initial public commit on AUTOMATIC1111/stable-diffusion-webui."
+    },
+    {
+      "date": "2026-03-02",
+      "type": "update",
+      "title": "Latest activity",
+      "description": "Most recent push recorded by the GitHub API."
+    }
+  ],
+  "category": "Image Generation",
+  "repository": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "license": "AGPL-3.0",
+  "health": {
+    "recentCommit": 0,
+    "releaseFrequency": 0.5,
+    "popularity": 0,
+    "documentation": 0,
+    "license": 1,
+    "total": 0.175
+  }
+}

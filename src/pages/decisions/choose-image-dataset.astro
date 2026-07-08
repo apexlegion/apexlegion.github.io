@@ -1,0 +1,30 @@
+---
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Breadcrumbs from '@/components/layout/Breadcrumbs.astro';
+import { getScoringProfileBySlug } from '@/lib/data/entities';
+import { ScoringDecisionRunner } from '@/components/decisions/ScoringDecisionRunner';
+
+const profile = getScoringProfileBySlug('choose-image-dataset');
+if (!profile) {
+  throw new Error('Missing scoring decision profile: choose-image-dataset');
+}
+---
+
+<SiteShell title={`${profile.name} — AI Atlas`} description={profile.summary}>
+  <Container class="flex flex-col gap-6 py-10">
+    <Breadcrumbs
+      items={[
+        { label: 'Home', href: '/' },
+        { label: 'Decisions', href: '/decisions' },
+        { label: profile.name },
+      ]}
+    />
+    <ScoringDecisionRunner
+      client:load
+      profile={profile}
+      title={profile.name}
+      description={profile.description}
+    />
+  </Container>
+</SiteShell>

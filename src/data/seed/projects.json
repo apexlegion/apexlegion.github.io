@@ -1,0 +1,797 @@
+[
+  {
+    "type": "project",
+    "slug": "llama-cpp",
+    "name": "llama.cpp",
+    "category": "Inference",
+    "summary": "Run LLaMA-family models on consumer hardware in pure C/C++.",
+    "description": "llama.cpp is a port of Meta's LLaMA inference loop to plain C/C++ with no external dependencies. It pioneered the local-first LLM movement by making it possible to run multi-billion-parameter models on a single laptop through aggressive quantization and a tight CPU/GPU code path.",
+    "tags": ["inference", "cpp", "llm", "local"],
+    "license": "MIT",
+    "repository": "https://github.com/ggerganov/llama.cpp",
+    "externalLinks": [
+      { "label": "GitHub repository", "href": "https://github.com/ggerganov/llama.cpp" },
+      {
+        "label": "Documentation",
+        "href": "https://github.com/ggerganov/llama.cpp/tree/master/docs"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2023-03-10",
+        "type": "release",
+        "title": "Initial public release",
+        "description": "First commit enabling LLaMA inference on a MacBook."
+      },
+      {
+        "date": "2024-04-12",
+        "type": "milestone",
+        "title": "GGUF format introduced",
+        "description": "Successor to GGML becomes the default model packaging format."
+      },
+      {
+        "date": "2025-09-18",
+        "type": "update",
+        "title": "Native multimodal support",
+        "description": "Vision and audio backends land in the mainline."
+      }
+    ]
+  },
+  {
+    "type": "project",
+    "slug": "ollama",
+    "name": "Ollama",
+    "category": "Local LLM",
+    "summary": "One command to download, run, and manage open models locally.",
+    "description": "Ollama packages llama.cpp behind a friendly CLI and a REST API. It maintains a model library (called a Modelfile) so that running a model locally is as simple as `ollama run llama3`.",
+    "tags": ["inference", "llm", "local", "cli"],
+    "license": "MIT",
+    "repository": "https://github.com/ollama/ollama",
+    "externalLinks": [
+      { "label": "Website", "href": "https://ollama.com" },
+      { "label": "GitHub repository", "href": "https://github.com/ollama/ollama" }
+    ],
+    "timeline": [
+      {
+        "date": "2023-10-02",
+        "type": "release",
+        "title": "First public release",
+        "description": "Single-binary LLM runner with a curated Modelfile catalog."
+      },
+      {
+        "date": "2024-07-29",
+        "type": "update",
+        "title": "OpenAI-compatible API",
+        "description": "Local drop-in replacement for the OpenAI REST surface."
+      }
+    ]
+  },
+  {
+    "type": "project",
+    "slug": "transformers",
+    "name": "Transformers",
+    "category": "Framework",
+    "summary": "Reference library for state-of-the-art machine learning in PyTorch, TensorFlow, and JAX.",
+    "description": "The Transformers library ships reference implementations of hundreds of open models, unified training pipelines, and the `pipeline()` API that lets you go from `text` to inference in a single line.",
+    "tags": ["framework", "training", "nlp", "pytorch"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/huggingface/transformers",
+    "externalLinks": [
+      { "label": "Documentation", "href": "https://huggingface.co/docs/transformers" },
+      { "label": "GitHub repository", "href": "https://github.com/huggingface/transformers" }
+    ],
+    "timeline": [
+      {
+        "date": "2018-11-15",
+        "type": "release",
+        "title": "pytorch-pretrained-bert renamed to Transformers",
+        "description": "BERT, GPT, GPT-2, and Transformer-XL share a single API."
+      },
+      {
+        "date": "2022-07-13",
+        "type": "milestone",
+        "title": "Version 4.0",
+        "description": "Switch to a single backend, on by default across PyTorch/TensorFlow/JAX."
+      },
+      {
+        "date": "2024-08-15",
+        "type": "update",
+        "title": "Native quantization and KV-cache reuse",
+        "description": "Bitsandbytes, GPTQ, and AWQ land in the mainline."
+      }
+    ]
+  },
+  {
+    "type": "project",
+    "slug": "langchain",
+    "name": "LangChain",
+    "category": "Agents",
+    "summary": "Framework for composing retrieval, tools, and chains on top of any model.",
+    "description": "LangChain provides abstractions for prompts, retrievers, tool calling, and agent loops so you can compose production AI applications without rebuilding the same plumbing every time.",
+    "tags": ["agents", "rag", "framework", "python"],
+    "license": "MIT",
+    "repository": "https://github.com/langchain-ai/langchain",
+    "externalLinks": [
+      { "label": "Documentation", "href": "https://python.langchain.com" },
+      { "label": "GitHub repository", "href": "https://github.com/langchain-ai/langchain" }
+    ],
+    "timeline": [
+      {
+        "date": "2022-10-24",
+        "type": "release",
+        "title": "Initial open source release",
+        "description": "Composable chains around OpenAI and Anthropic APIs."
+      },
+      {
+        "date": "2023-10-12",
+        "type": "milestone",
+        "title": "LangChain v0.1",
+        "description": "Stable package boundary between langchain-core and integrations."
+      }
+    ]
+  },
+  {
+    "type": "project",
+    "slug": "stable-diffusion-webui",
+    "name": "Stable Diffusion WebUI",
+    "category": "Image",
+    "summary": "Feature-rich browser interface for Stable Diffusion checkpoints.",
+    "description": "AUTOMATIC1111's WebUI is the de-facto playground for Stable Diffusion: txt2img, img2img, inpainting, ControlNet, LoRA training, and dozens of extensions live behind a single Gradio app.",
+    "tags": ["image", "diffusion", "ui"],
+    "license": "AGPL-3.0",
+    "repository": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "externalLinks": [
+      {
+        "label": "GitHub repository",
+        "href": "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2022-08-22",
+        "type": "release",
+        "title": "First public release",
+        "description": "Gradio UI wrapping the original Stable Diffusion reference code."
+      },
+      {
+        "date": "2023-02-26",
+        "type": "update",
+        "title": "ControlNet support",
+        "description": "Plug-in conditioning models for pose, depth, and edges."
+      }
+    ]
+  },
+  {
+    "type": "project",
+    "slug": "vllm",
+    "name": "vLLM",
+    "category": "Inference",
+    "summary": "High-throughput LLM serving engine with PagedAttention.",
+    "description": "vLLM introduces PagedAttention to eliminate KV-cache fragmentation, unlocking multi-x throughput for batched LLM serving. It is the default backend for production text generation behind many LLM gateways.",
+    "tags": ["inference", "serving", "gpu"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/vllm-project/vllm",
+    "externalLinks": [
+      { "label": "Documentation", "href": "https://docs.vllm.ai" },
+      { "label": "GitHub repository", "href": "https://github.com/vllm-project/vllm" }
+    ],
+    "timeline": [
+      {
+        "date": "2023-06-20",
+        "type": "release",
+        "title": "vLLM open source release",
+        "description": "PagedAttention paper and reference implementation released."
+      }
+    ]
+  },
+  {
+    "type": "project",
+    "slug": "text-generation-inference",
+    "name": "Text Generation Inference",
+    "category": "Inference",
+    "summary": "Production-grade LLM serving stack from Hugging Face.",
+    "description": "TGI is Hugging Face's Rust + Python serving runtime for LLMs. It batches requests, shards models across GPUs, and exposes an OpenAI-compatible HTTP API.",
+    "tags": ["inference", "serving", "rust"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/huggingface/text-generation-inference",
+    "externalLinks": [
+      { "label": "Documentation", "href": "https://huggingface.co/docs/text-generation-inference" }
+    ],
+    "timeline": [
+      {
+        "date": "2022-09-13",
+        "type": "release",
+        "title": "Initial release",
+        "description": "Hugging Face's first production LLM serving stack."
+      }
+    ]
+  },
+  {
+    "type": "project",
+    "slug": "exllamav2",
+    "name": "ExLlamaV2",
+    "category": "Inference",
+    "summary": "Fast CUDA inference for quantized GPTQ and EXL2 models.",
+    "description": "ExLlamaV2 is a tuned CUDA kernel set for running GPTQ and EXL2 quantized models on a single GPU. It is a favourite for consumer-grade inference because of its high tokens-per-second on small batch sizes.",
+    "tags": ["inference", "cuda", "quantization"],
+    "license": "MIT",
+    "repository": "https://github.com/turboderp/exllamav2",
+    "externalLinks": [
+      { "label": "GitHub repository", "href": "https://github.com/turboderp/exllamav2" }
+    ],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "mlx",
+    "name": "MLX",
+    "category": "Framework",
+    "summary": "Apple Silicon ML framework with NumPy-like APIs.",
+    "description": "MLX is Apple's array framework for Apple Silicon. It unifies NumPy-style ops, autograd, and compilation so you can train and run LLMs natively on M-series chips without leaving Python.",
+    "tags": ["framework", "apple-silicon", "training"],
+    "license": "MIT",
+    "repository": "https://github.com/ml-explore/mlx",
+    "externalLinks": [{ "label": "Documentation", "href": "https://ml-explore.github.io/mlx/" }],
+    "timeline": [
+      {
+        "date": "2023-12-04",
+        "type": "release",
+        "title": "Open source release",
+        "description": "Apple open-sources MLX for Apple Silicon."
+      }
+    ]
+  },
+  {
+    "type": "project",
+    "slug": "ktransformers",
+    "name": "KTransformers",
+    "category": "Inference",
+    "summary": "Drop-in llama.cpp with CUDA, MoE, and CPU/GPU hybrid offload.",
+    "description": "KTransformers extends llama.cpp with optimized CUDA kernels for attention and MoE expert dispatch, enabling frontier-scale open models to run on a desktop with a single consumer GPU.",
+    "tags": ["inference", "cuda", "moe"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/kvcache-ai/ktransformers",
+    "externalLinks": [
+      { "label": "GitHub repository", "href": "https://github.com/kvcache-ai/ktransformers" }
+    ],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "llamafile",
+    "name": "llamafile",
+    "category": "Local LLM",
+    "summary": "Single-file LLM executables powered by Cosmopolitan Libc.",
+    "description": "llamafile packages a model and the llama.cpp runtime into one portable executable that runs on Linux, macOS, Windows, BSD, and Docker without installation.",
+    "tags": ["inference", "portable", "llm"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/Mozilla-Ocho/llamafile",
+    "externalLinks": [
+      { "label": "GitHub repository", "href": "https://github.com/Mozilla-Ocho/llamafile" }
+    ],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "sglang",
+    "name": "SGLang",
+    "category": "Inference",
+    "summary": "Structured generation language runtime for LLMs.",
+    "description": "SGLang pairs a Python DSL with a high-performance runtime (RadixAttention) to execute multi-call LLM programs with shared prefix caching and parallel tool calls.",
+    "tags": ["inference", "serving", "dsl"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/sgl-project/sglang",
+    "externalLinks": [{ "label": "Documentation", "href": "https://sgl-project.github.io/" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "litellm",
+    "name": "LiteLLM",
+    "category": "Framework",
+    "summary": "Unified API gateway for 100+ LLM providers.",
+    "description": "LiteLLM translates OpenAI-compatible calls to every major provider, adds retries, fallbacks, and cost tracking, and can be deployed as a proxy or used as a Python SDK.",
+    "tags": ["gateway", "proxy", "framework"],
+    "license": "MIT",
+    "repository": "https://github.com/BerriAI/litellm",
+    "externalLinks": [{ "label": "Documentation", "href": "https://docs.litellm.ai" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "langgraph",
+    "name": "LangGraph",
+    "category": "Agents",
+    "summary": "Graph-based orchestration for stateful, multi-agent LLM apps.",
+    "description": "LangGraph is LangChain's framework for modelling agent loops as graphs with explicit state, cycles, and human-in-the-loop checkpoints.",
+    "tags": ["agents", "orchestration", "framework"],
+    "license": "MIT",
+    "repository": "https://github.com/langchain-ai/langgraph",
+    "externalLinks": [
+      { "label": "Documentation", "href": "https://langchain-ai.github.io/langgraph/" }
+    ],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "llama-index",
+    "name": "LlamaIndex",
+    "category": "Agents",
+    "summary": "Data framework for connecting LLMs to private documents.",
+    "description": "LlamaIndex provides loaders, parsers, indexes, and query engines for ingestion pipelines. It focuses on the RAG workflow and integrates with dozens of vector stores and agent frameworks.",
+    "tags": ["rag", "data", "framework"],
+    "license": "MIT",
+    "repository": "https://github.com/run-llama/llama_index",
+    "externalLinks": [{ "label": "Documentation", "href": "https://docs.llamaindex.ai" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "haystack",
+    "name": "Haystack",
+    "category": "Agents",
+    "summary": "Pipeline framework for production NLP and LLM applications.",
+    "description": "Haystack by deepset is a Python framework for building retrieval, RAG, and agent pipelines. Components are composable nodes connected in a directed graph.",
+    "tags": ["rag", "agents", "framework"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/deepset-ai/haystack",
+    "externalLinks": [{ "label": "Documentation", "href": "https://docs.haystack.deepset.ai" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "autogen",
+    "name": "AutoGen",
+    "category": "Agents",
+    "summary": "Framework for multi-agent LLM conversations.",
+    "description": "AutoGen is Microsoft's framework for building applications where multiple agents converse to solve tasks. It supports human-in-the-loop patterns and code-executing agents.",
+    "tags": ["agents", "multi-agent", "framework"],
+    "license": "MIT",
+    "repository": "https://github.com/microsoft/autogen",
+    "externalLinks": [{ "label": "Documentation", "href": "https://microsoft.github.io/autogen/" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "crewai",
+    "name": "CrewAI",
+    "category": "Agents",
+    "summary": "Role-based multi-agent orchestration framework.",
+    "description": "CrewAI lets you define crews of role-playing agents with goals, tools, and a shared process. It focuses on collaborative task execution.",
+    "tags": ["agents", "multi-agent", "framework"],
+    "license": "MIT",
+    "repository": "https://github.com/crewAIInc/crewAI",
+    "externalLinks": [{ "label": "Documentation", "href": "https://docs.crewai.com" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "comfyui",
+    "name": "ComfyUI",
+    "category": "Image",
+    "summary": "Node-based UI for Stable Diffusion pipelines.",
+    "description": "ComfyUI is a graph-based interface where each diffusion step is a node. Power users build complex pipelines for img2img, inpainting, ControlNet, AnimateDiff, and SDXL workflows.",
+    "tags": ["image", "diffusion", "ui"],
+    "license": "GPL-3.0",
+    "repository": "https://github.com/comfyanonymous/ComfyUI",
+    "externalLinks": [
+      { "label": "GitHub repository", "href": "https://github.com/comfyanonymous/ComfyUI" }
+    ],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "invokeai",
+    "name": "InvokeAI",
+    "category": "Image",
+    "summary": "Professional image generation workspace built on Diffusion.",
+    "description": "InvokeAI is a polished web app for Stable Diffusion with a canvas editor, model manager, and workflow builder aimed at creators.",
+    "tags": ["image", "diffusion", "ui"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/invoke-ai/InvokeAI",
+    "externalLinks": [{ "label": "Website", "href": "https://invoke-ai.github.io/InvokeAI/" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "fooocus",
+    "name": "Fooocus",
+    "category": "Image",
+    "summary": "Minimalist Stable Diffusion UI inspired by Midjourney.",
+    "description": "Fooocus strips Stable Diffusion down to a single screen with sensible defaults. It bundles SDXL checkpoints, inpainting, and face swap into one easy install.",
+    "tags": ["image", "diffusion", "ui"],
+    "license": "GPL-3.0",
+    "repository": "https://github.com/lllyasviel/Fooocus",
+    "externalLinks": [
+      { "label": "GitHub repository", "href": "https://github.com/lllyasviel/Fooocus" }
+    ],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "kohya-ss",
+    "name": "Kohya Scripts",
+    "category": "Training",
+    "summary": "Reference training scripts for Stable Diffusion LoRAs and checkpoints.",
+    "description": "Kohya's GUI and scripts are the de-facto trainer for Stable Diffusion. They support SDXL, LoRA, DreamBooth, and full fine-tuning on consumer GPUs.",
+    "tags": ["training", "lora", "diffusion"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/bmaltais/kohya_ss",
+    "externalLinks": [
+      { "label": "GitHub repository", "href": "https://github.com/bmaltais/kohya_ss" }
+    ],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "axolotl",
+    "name": "Axolotl",
+    "category": "Training",
+    "summary": "YAML-driven fine-tuning framework for LLMs.",
+    "description": "Axolotl wraps Hugging Face Transformers + PEFT + DeepSpeed into a single config-driven CLI. It supports LoRA, QLoRA, full fine-tuning, and dozens of open models out of the box.",
+    "tags": ["training", "fine-tuning", "framework"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/axolotl-ai-cloud/axolotl",
+    "externalLinks": [{ "label": "Documentation", "href": "https://docs.axolotl.ai" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "unsloth",
+    "name": "Unsloth",
+    "category": "Training",
+    "summary": "2x faster LLM fine-tuning with patched kernels.",
+    "description": "Unsloth rewrites attention and optimizer kernels to deliver 2x speedups and reduced memory for LoRA and full fine-tuning on a single GPU.",
+    "tags": ["training", "fine-tuning", "kernels"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/unslothai/unsloth",
+    "externalLinks": [{ "label": "Documentation", "href": "https://docs.unsloth.ai" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "bitsandbytes",
+    "name": "bitsandbytes",
+    "category": "Training",
+    "summary": "8-bit and 4-bit quantization primitives for PyTorch.",
+    "description": "bitsandbytes provides LLM.int8() and 4-bit NF4 quantizers that plug into Hugging Face Transformers and PEFT for memory-efficient training and inference.",
+    "tags": ["quantization", "training", "kernels"],
+    "license": "MIT",
+    "repository": "https://github.com/bitsandbytes-foundation/bitsandbytes",
+    "externalLinks": [
+      {
+        "label": "GitHub repository",
+        "href": "https://github.com/bitsandbytes-foundation/bitsandbytes"
+      }
+    ],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "peft",
+    "name": "PEFT",
+    "category": "Training",
+    "summary": "Parameter-efficient fine-tuning library (LoRA, IA3, adapters).",
+    "description": "Hugging Face PEFT implements LoRA, prefix tuning, prompt tuning, and IA3 on top of Transformers, letting you fine-tune billion-parameter models on consumer hardware.",
+    "tags": ["training", "lora", "framework"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/huggingface/peft",
+    "externalLinks": [{ "label": "Documentation", "href": "https://huggingface.co/docs/peft" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "trl",
+    "name": "TRL",
+    "category": "Training",
+    "summary": "Transformer Reinforcement Learning: SFT, DPO, PPO, GRPO.",
+    "description": "TRL adds preference and reinforcement learning trainers on top of Transformers, including SFT, DPO, PPO, and the latest GRPO recipes.",
+    "tags": ["training", "rlhf", "dpo"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/huggingface/trl",
+    "externalLinks": [{ "label": "Documentation", "href": "https://huggingface.co/docs/trl" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "milvus",
+    "name": "Milvus",
+    "category": "Vector Database",
+    "summary": "Distributed vector database built for billion-scale similarity search.",
+    "description": "Milvus is a cloud-native vector database written in C++ and Go. It supports IVF, HNSW, and DiskANN indexes with multi-tenant isolation and horizontal sharding.",
+    "tags": ["vector-db", "rag", "distributed"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/milvus-io/milvus",
+    "externalLinks": [{ "label": "Documentation", "href": "https://milvus.io/docs" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "qdrant",
+    "name": "Qdrant",
+    "category": "Vector Database",
+    "summary": "Rust-based vector search engine with rich payload filtering.",
+    "description": "Qdrant is a vector database written in Rust. It pairs HNSW indexes with payload-based filtering and supports both cloud and self-hosted deployments.",
+    "tags": ["vector-db", "rag", "rust"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/qdrant/qdrant",
+    "externalLinks": [{ "label": "Documentation", "href": "https://qdrant.tech/documentation/" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "chroma",
+    "name": "Chroma",
+    "category": "Vector Database",
+    "summary": "Embedded vector database for Python-first AI apps.",
+    "description": "Chroma is an open-source embedding database. It runs in-process or as a server, integrates tightly with LangChain and LlamaIndex, and ships with a built-in metadata filter.",
+    "tags": ["vector-db", "rag", "python"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/chroma-core/chroma",
+    "externalLinks": [{ "label": "Documentation", "href": "https://docs.trychroma.com" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "weaviate",
+    "name": "Weaviate",
+    "category": "Vector Database",
+    "summary": "Vector database with modules for vectorization and hybrid search.",
+    "description": "Weaviate is a Go-based vector database that combines dense vectors, sparse BM25, and generative re-ranking in a single GraphQL/REST API.",
+    "tags": ["vector-db", "rag", "hybrid-search"],
+    "license": "BSD-3-Clause",
+    "repository": "https://github.com/weaviate/weaviate",
+    "externalLinks": [
+      { "label": "Documentation", "href": "https://weaviate.io/developers/weaviate" }
+    ],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "pgvector",
+    "name": "pgvector",
+    "category": "Vector Database",
+    "summary": "Open-source vector similarity search for PostgreSQL.",
+    "description": "pgvector adds HNSW and IVF indexes to PostgreSQL so you can store embeddings next to relational data and query them with standard SQL.",
+    "tags": ["vector-db", "postgres", "rag"],
+    "license": "PostgreSQL",
+    "repository": "https://github.com/pgvector/pgvector",
+    "externalLinks": [
+      { "label": "Documentation", "href": "https://github.com/pgvector/pgvector#readme" }
+    ],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "lancedb",
+    "name": "LanceDB",
+    "category": "Vector Database",
+    "summary": "Embedded multimodal database built on the Lance columnar format.",
+    "description": "LanceDB is an embedded vector + columnar database written in Rust. It handles vectors, metadata, and large blobs for AI applications.",
+    "tags": ["vector-db", "embedded", "multimodal"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/lancedb/lancedb",
+    "externalLinks": [{ "label": "Documentation", "href": "https://lancedb.github.io/lancedb/" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "faiss",
+    "name": "Faiss",
+    "category": "Vector Database",
+    "summary": "Library for efficient similarity search and clustering of dense vectors.",
+    "description": "Faiss, from Meta AI, is the C++ reference library for vector indexing. It ships IVF, HNSW, and GPU-accelerated indexes for billion-scale similarity search.",
+    "tags": ["vector-db", "similarity", "cpp"],
+    "license": "MIT",
+    "repository": "https://github.com/facebookresearch/faiss",
+    "externalLinks": [
+      { "label": "GitHub repository", "href": "https://github.com/facebookresearch/faiss" }
+    ],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "whisper-cpp",
+    "name": "whisper.cpp",
+    "category": "Speech",
+    "summary": "Port of OpenAI Whisper to plain C/C++ for fast ASR.",
+    "description": "whisper.cpp is the whisper inference loop rewritten in C/C++. It runs OpenAI's speech recognition models on phones, laptops, and Raspberry Pi.",
+    "tags": ["speech", "asr", "cpp"],
+    "license": "MIT",
+    "repository": "https://github.com/ggerganov/whisper.cpp",
+    "externalLinks": [
+      { "label": "GitHub repository", "href": "https://github.com/ggerganov/whisper.cpp" }
+    ],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "faster-whisper",
+    "name": "faster-whisper",
+    "category": "Speech",
+    "summary": "CTranslate2-based Whisper implementation in Python.",
+    "description": "faster-whisper runs Whisper models through the CTranslate2 inference engine, giving 4x speedup over the original Python implementation on CPU.",
+    "tags": ["speech", "asr", "python"],
+    "license": "MIT",
+    "repository": "https://github.com/SYSTRAN/faster-whisper",
+    "externalLinks": [
+      { "label": "GitHub repository", "href": "https://github.com/SYSTRAN/faster-whisper" }
+    ],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "cosyvoice",
+    "name": "CosyVoice",
+    "category": "Speech",
+    "summary": "Open multilingual text-to-speech from FunAudioLLM.",
+    "description": "CosyVoice is an open multilingual TTS model with cross-lingual voice cloning, streaming inference, and natural prosody.",
+    "tags": ["speech", "tts", "multilingual"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/FunAudioLLM/CosyVoice",
+    "externalLinks": [
+      { "label": "GitHub repository", "href": "https://github.com/FunAudioLLM/CosyVoice" }
+    ],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "piper-tts",
+    "name": "Piper",
+    "category": "Speech",
+    "summary": "Fast local neural text-to-speech engine.",
+    "description": "Piper is a fast, local neural TTS engine that runs on CPU and Raspberry Pi. It is trained on the VITS architecture and ships in dozens of voices.",
+    "tags": ["speech", "tts", "local"],
+    "license": "MIT",
+    "repository": "https://github.com/rhasspy/piper",
+    "externalLinks": [{ "label": "GitHub repository", "href": "https://github.com/rhasspy/piper" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "xtts",
+    "name": "XTTS",
+    "category": "Speech",
+    "summary": "Multilingual voice cloning TTS from Coqui.",
+    "description": "XTTS is Coqui's cross-lingual voice cloning model. It generates speech in 13 languages from a six-second reference clip.",
+    "tags": ["speech", "tts", "voice-cloning"],
+    "license": "CPML (Coqui Public Model License)",
+    "repository": "https://github.com/coqui-ai/TTS",
+    "externalLinks": [{ "label": "GitHub repository", "href": "https://github.com/coqui-ai/TTS" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "lm-evaluation-harness",
+    "name": "lm-evaluation-harness",
+    "category": "Evaluation",
+    "summary": "Reference framework for benchmarking LLMs.",
+    "description": "EleutherAI's lm-evaluation-harness is the de-facto standard for running academic LLM benchmarks. It supports 200+ tasks out of the box and dozens of model APIs.",
+    "tags": ["evaluation", "benchmark", "framework"],
+    "license": "MIT",
+    "repository": "https://github.com/EleutherAI/lm-evaluation-harness",
+    "externalLinks": [
+      { "label": "Documentation", "href": "https://github.com/EleutherAI/lm-evaluation-harness" }
+    ],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "ragas",
+    "name": "Ragas",
+    "category": "Evaluation",
+    "summary": "Evaluation metrics for RAG pipelines.",
+    "description": "Ragas provides reference-based and reference-free metrics for retrieval-augmented generation: faithfulness, answer relevancy, context precision, and recall.",
+    "tags": ["evaluation", "rag", "metrics"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/explodinggradients/ragas",
+    "externalLinks": [{ "label": "Documentation", "href": "https://docs.ragas.io" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "deepeval",
+    "name": "DeepEval",
+    "category": "Evaluation",
+    "summary": "Open-source LLM evaluation framework with pytest integration.",
+    "description": "DeepEval is an LLM evaluation framework that plugs into pytest. It offers 14+ metrics, including G-Eval, hallucination, bias, and toxicity, and runs locally.",
+    "tags": ["evaluation", "metrics", "framework"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/confident-ai/deepeval",
+    "externalLinks": [{ "label": "Documentation", "href": "https://docs.confident-ai.com" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "open-compass",
+    "name": "OpenCompass",
+    "category": "Evaluation",
+    "summary": "Open evaluation platform for large language models.",
+    "description": "OpenCompass from Shanghai AI Lab is a comprehensive evaluation suite that benchmarks LLMs across 100+ datasets covering reasoning, knowledge, and code.",
+    "tags": ["evaluation", "benchmark", "framework"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/open-compass/opencompass",
+    "externalLinks": [{ "label": "Documentation", "href": "https://opencompass.org.cn" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "open-webui",
+    "name": "Open WebUI",
+    "category": "Local LLM",
+    "summary": "Self-hosted ChatGPT-style interface for local LLMs.",
+    "description": "Open WebUI is a polished self-hosted chat interface for Ollama and OpenAI-compatible APIs. It supports RAG, multi-user accounts, and plugin pipelines.",
+    "tags": ["ui", "local", "chat"],
+    "license": "MIT",
+    "repository": "https://github.com/open-webui/open-webui",
+    "externalLinks": [{ "label": "Documentation", "href": "https://docs.openwebui.com" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "lobe-chat",
+    "name": "Lobe Chat",
+    "category": "Local LLM",
+    "summary": "Open-source ChatGPT/LMSYS UI for individuals and teams.",
+    "description": "Lobe Chat is a polished chat workspace with multi-provider support, plugin tools, and local-first deployment options. Built in Next.js.",
+    "tags": ["ui", "chat", "framework"],
+    "license": "MIT",
+    "repository": "https://github.com/lobehub/lobe-chat",
+    "externalLinks": [{ "label": "Website", "href": "https://lobechat.com" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "jan",
+    "name": "Jan",
+    "category": "Local LLM",
+    "summary": "Local-first ChatGPT alternative that runs models on your machine.",
+    "description": "Jan is an Electron-based desktop app that runs open models on your laptop with Cortex, an embedded llama.cpp runtime. It is fully offline-capable.",
+    "tags": ["ui", "local", "desktop"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/menloresearch/jan",
+    "externalLinks": [{ "label": "Website", "href": "https://jan.ai" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "gpt4all",
+    "name": "GPT4All",
+    "category": "Local LLM",
+    "summary": "Desktop app to run open LLMs locally with a friendly UI.",
+    "description": "GPT4All is Nomic AI's cross-platform desktop client for running open LLMs locally. It ships a curated model catalog and LocalDocs for retrieval.",
+    "tags": ["ui", "local", "desktop"],
+    "license": "MIT",
+    "repository": "https://github.com/nomic-ai/gpt4all",
+    "externalLinks": [{ "label": "Website", "href": "https://gpt4all.io" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "localai",
+    "name": "LocalAI",
+    "category": "Inference",
+    "summary": "Self-hosted OpenAI API drop-in replacement.",
+    "description": "LocalAI is a REST API that mirrors the OpenAI surface and dispatches to local backends: llama.cpp, bert.cpp, whisper.cpp, and Stable Diffusion.",
+    "tags": ["inference", "api", "self-hosted"],
+    "license": "MIT",
+    "repository": "https://github.com/mudler/LocalAI",
+    "externalLinks": [{ "label": "Documentation", "href": "https://localai.io/docs/" }],
+    "timeline": []
+  },
+  {
+    "type": "project",
+    "slug": "text-embeddings-inference",
+    "name": "Text Embeddings Inference",
+    "category": "Inference",
+    "summary": "High-throughput inference server for text embeddings.",
+    "description": "TEI is Hugging Face's Rust-based serving stack for sentence-transformer embedding models, optimized for batch throughput and low-latency vector search.",
+    "tags": ["inference", "embeddings", "serving"],
+    "license": "Apache-2.0",
+    "repository": "https://github.com/huggingface/text-embeddings-inference",
+    "externalLinks": [
+      { "label": "Documentation", "href": "https://huggingface.co/docs/text-embeddings-inference" }
+    ],
+    "timeline": []
+  }
+]

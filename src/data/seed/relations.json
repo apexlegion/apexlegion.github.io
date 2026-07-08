@@ -1,0 +1,131 @@
+[
+  { "source": "project/llama-cpp", "target": "project/ollama", "type": "usedBy", "weight": 0.8 },
+  { "source": "project/ollama", "target": "project/llama-cpp", "type": "dependsOn", "weight": 0.9 },
+  {
+    "source": "project/transformers",
+    "target": "project/langchain",
+    "type": "usesFramework",
+    "weight": 0.6
+  },
+  {
+    "source": "project/langchain",
+    "target": "project/transformers",
+    "type": "usesFramework",
+    "weight": 0.6
+  },
+  {
+    "source": "project/stable-diffusion-webui",
+    "target": "model/stable-diffusion-xl",
+    "type": "usesFramework",
+    "weight": 0.7
+  },
+
+  { "source": "model/llama-3", "target": "model/mistral-7b", "type": "similarTo", "weight": 0.7 },
+  { "source": "model/mistral-7b", "target": "model/llama-3", "type": "similarTo", "weight": 0.7 },
+  {
+    "source": "model/llama-3",
+    "target": "project/transformers",
+    "type": "implements",
+    "weight": 0.6
+  },
+  {
+    "source": "model/stable-diffusion-xl",
+    "target": "project/stable-diffusion-webui",
+    "type": "compatibleWith",
+    "weight": 0.8
+  },
+
+  {
+    "source": "concept/transformer",
+    "target": "model/llama-3",
+    "type": "introduced",
+    "weight": 0.5
+  },
+  {
+    "source": "concept/transformer",
+    "target": "model/mistral-7b",
+    "type": "introduced",
+    "weight": 0.5
+  },
+  {
+    "source": "concept/transformer",
+    "target": "project/transformers",
+    "type": "introduced",
+    "weight": 0.4
+  },
+  {
+    "source": "concept/retrieval-augmented-generation",
+    "target": "project/langchain",
+    "type": "implementedBy",
+    "weight": 0.7
+  },
+  { "source": "concept/tokenization", "target": "model/llama-3", "type": "partOf", "weight": 0.6 },
+  {
+    "source": "concept/tokenization",
+    "target": "model/mistral-7b",
+    "type": "partOf",
+    "weight": 0.6
+  },
+  {
+    "source": "concept/quantization",
+    "target": "project/llama-cpp",
+    "type": "implementedBy",
+    "weight": 0.9
+  },
+  {
+    "source": "concept/quantization",
+    "target": "project/ollama",
+    "type": "implementedBy",
+    "weight": 0.7
+  },
+
+  {
+    "source": "concept/transformer",
+    "target": "tutorial/understand-transformers",
+    "type": "taughtBy",
+    "weight": 0.9
+  },
+  {
+    "source": "concept/retrieval-augmented-generation",
+    "target": "tutorial/build-a-rag-app",
+    "type": "taughtBy",
+    "weight": 0.9
+  },
+  {
+    "source": "tutorial/run-your-first-llm-locally",
+    "target": "project/ollama",
+    "type": "teaches",
+    "weight": 0.9
+  },
+  {
+    "source": "tutorial/run-your-first-llm-locally",
+    "target": "concept/quantization",
+    "type": "teaches",
+    "weight": 0.6
+  },
+  {
+    "source": "tutorial/build-a-rag-app",
+    "target": "project/langchain",
+    "type": "teaches",
+    "weight": 0.7
+  },
+
+  {
+    "source": "tutorial/understand-transformers",
+    "target": "tutorial/build-a-rag-app",
+    "type": "leadsTo",
+    "weight": 0.5
+  },
+  {
+    "source": "concept/tokenization",
+    "target": "concept/transformer",
+    "type": "prerequisiteOf",
+    "weight": 0.7
+  },
+  {
+    "source": "concept/transformer",
+    "target": "concept/retrieval-augmented-generation",
+    "type": "prerequisiteOf",
+    "weight": 0.8
+  }
+]

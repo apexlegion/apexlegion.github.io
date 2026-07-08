@@ -1,0 +1,118 @@
+---
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Section from '@/components/layout/Section.astro';
+import Grid from '@/components/layout/Grid.astro';
+import Breadcrumbs from '@/components/layout/Breadcrumbs.astro';
+import { Card, CardBody, CardFooter, CardHeader } from '@/components/ui/Card';
+import { Badge } from '@/components/ui/Badge';
+import { Tag } from '@/components/ui/Tag';
+import { Button } from '@/components/ui/Button';
+import { getEntitiesByType } from '@/lib/data/entities';
+
+const projects = getEntitiesByType('project')
+  .slice()
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+const categories = Array.from(new Set(projects.map((p) => p.category))).sort();
+---
+
+<SiteShell
+  title="Tool Directory — AI Atlas"
+  description="Browse every open-source AI tool in the Atlas. Filter by category, sorted alphabetically."
+>
+  <Container class="flex flex-col gap-6 py-10">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Tools' }]} />
+    <header class="flex flex-col gap-2">
+      <Badge variant="project">Tools</Badge>
+      <h1 class="text-text text-h1 font-bold tracking-tight md:text-5xl">Tool Directory</h1>
+      <p class="text-text-muted text-body max-w-prose">
+        Every open-source project in the Atlas, sorted alphabetically. Use the chips below to filter
+        by category — inference engines, training frameworks, agents, and more.
+      </p>
+    </header>
+
+    <Section containerSize="wide">
+      <div
+        class="border-border bg-surface-card flex flex-col gap-3 rounded-lg border p-4"
+        aria-label="Filter by category"
+      >
+        <span class="text-text-muted text-tiny font-semibold tracking-wide uppercase">
+          Filter by category
+        </span>
+        <div class="flex flex-wrap gap-2" role="list">
+          <button
+            type="button"
+            data-tool-filter="all"
+            class="tool-chip border-border bg-primary-orange text-text-inverse border-primary-orange text-small inline-flex h-9 items-center rounded-full border px-3 font-medium transition-colors"
+            aria-pressed="true"
+          >
+            All ({projects.length})
+          </button>
+          {
+            categories.map((cat) => (
+              <button
+                type="button"
+                data-tool-filter={cat}
+                class="tool-chip border-border bg-surface-elevated hover:border-primary-orange hover:text-primary-orange text-text-muted text-small inline-flex h-9 items-center rounded-full border px-3 font-medium transition-colors"
+                aria-pressed="false"
+              >
+                {cat} ({projects.filter((p) => p.category === cat).length})
+              </button>
+            ))
+          }
+        </div>
+      </div>
+
+      <div class="mt-6">
+        <Grid cols={{ base: 1, md: 2, lg: 3 }} gap={6}>
+          {
+            projects.map((p) => (
+              <Card
+                variant="interactive"
+                href={`/projects/${p.slug}`}
+                data-tool-category={p.category}
+                class="tool-card"
+              >
+                <CardHeader>
+                  <Tag>{p.category}</Tag>
+                  <h2 class="text-text text-h3 mt-2 font-semibold">{p.name}</h2>
+                </CardHeader>
+                <CardBody>{p.summary}</CardBody>
+                <CardFooter>
+                  <Button variant="ghost" size="sm">
+                    Open →
+                  </Button>
+                </CardFooter>
+              </Card>
+            ))
+          }
+        </Grid>
+      </div>
+    </Section>
+  </Container>
+
+  <script>
+    const chips = document.querySelectorAll<HTMLButtonElement>('[data-tool-filter]');
+    const cards = document.querySelectorAll<HTMLElement>('[data-tool-category]');
+    chips.forEach((chip) => {
+      chip.addEventListener('click', () => {
+        const target = chip.dataset.toolFilter ?? 'all';
+        chips.forEach((c) => {
+          const isActive = c === chip;
+          c.setAttribute('aria-pressed', String(isActive));
+          c.classList.toggle('bg-primary-orange', isActive);
+          c.classList.toggle('text-text-inverse', isActive);
+          c.classList.toggle('border-primary-orange', isActive);
+          c.classList.toggle('bg-surface-elevated', !isActive);
+          c.classList.toggle('text-text-muted', !isActive);
+        });
+        cards.forEach((card) => {
+          const cat = card.dataset.toolCategory;
+          const visible = target === 'all' || cat === target;
+          card.classList.toggle('hidden', !visible);
+        });
+      });
+    });
+  </script>
+</SiteShell>

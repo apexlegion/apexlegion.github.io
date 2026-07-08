@@ -1,0 +1,58 @@
+{
+  "type": "project",
+  "slug": "deepspeedai-deepspeed",
+  "name": "DeepSpeed",
+  "summary": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.",
+  "description": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.",
+  "tags": [
+    "billion-parameters",
+    "compression",
+    "data-parallelism",
+    "deep-learning",
+    "gpu",
+    "inference",
+    "machine-learning",
+    "mixture-of-experts",
+    "model-parallelism",
+    "pipeline-parallelism",
+    "pytorch",
+    "trillion-parameters",
+    "zero",
+    "python"
+  ],
+  "externalLinks": [
+    {
+      "label": "GitHub repository",
+      "href": "https://github.com/deepspeedai/DeepSpeed"
+    },
+    {
+      "label": "Homepage",
+      "href": "https://www.deepspeed.ai/"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2020-01-23",
+      "type": "release",
+      "title": "Repository created",
+      "description": "Initial public commit on deepspeedai/DeepSpeed."
+    },
+    {
+      "date": "2026-07-06",
+      "type": "update",
+      "title": "Latest activity",
+      "description": "Most recent push recorded by the GitHub API."
+    }
+  ],
+  "category": "Language Models",
+  "repository": "https://github.com/deepspeedai/DeepSpeed",
+  "license": "Apache-2.0",
+  "health": {
+    "recentCommit": 0,
+    "releaseFrequency": 0.5,
+    "popularity": 0,
+    "documentation": 0,
+    "license": 1,
+    "total": 0.175
+  }
+}
