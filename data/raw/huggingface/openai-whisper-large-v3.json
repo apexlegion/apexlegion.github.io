@@ -143,9 +143,7 @@
     ],
     "model-index": null,
     "config": {
-      "architectures": [
-        "WhisperForConditionalGeneration"
-      ],
+      "architectures": ["WhisperForConditionalGeneration"],
       "model_type": "whisper",
       "tokenizer_config": {
         "bos_token": "<|endoftext|>",
@@ -256,11 +254,7 @@
         "jw",
         "su"
       ],
-      "tags": [
-        "audio",
-        "automatic-speech-recognition",
-        "hf-asr-leaderboard"
-      ],
+      "tags": ["audio", "automatic-speech-recognition", "hf-asr-leaderboard"],
       "widget": [
         {
           "example_title": "Librispeech sample 1",

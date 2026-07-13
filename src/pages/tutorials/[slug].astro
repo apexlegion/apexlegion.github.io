@@ -1,6 +1,5 @@
 ---
 import EntityDetail from '@/components/entity/EntityDetail.astro';
-import { LevelSwitcher } from '@/components/explain/LevelSwitcher';
 import { LevelContent } from '@/components/levels/LevelContent';
 import { getEntitiesByType } from '@/lib/data/entities';
 import { LEVEL_IDS, type LevelId } from '@/lib';
@@ -28,19 +27,16 @@ const hasLevels = Boolean(entity.levels && Object.keys(entity.levels).length > 0
   ]}
   learnNext={[]}
 >
-  <div slot="header" class="flex flex-col gap-4">
-    <div class="bg-surface-card border-border rounded-lg border p-4">
-      <LevelSwitcher client:load active={initialLevel} onChange={() => undefined} />
-    </div>
-    {
-      hasLevels ? (
+  {
+    hasLevels ? (
+      <div slot="header">
         <LevelContent
           client:load
           levels={entity.levels ?? {}}
           defaultLevel={initialLevel}
           entityId={`tutorial:${entity.slug}`}
         />
-      ) : null
-    }
-  </div>
+      </div>
+    ) : null
+  }
 </EntityDetail>

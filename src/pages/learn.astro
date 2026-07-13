@@ -19,6 +19,28 @@ import { getEntitiesByType } from '@/lib/data/entities';
 
 const tutorials = getEntitiesByType('tutorial');
 const concepts = getEntitiesByType('concept');
+
+// "Start here" path — a guided, ordered sequence for someone with zero
+// background. Each step points at a concept that ships a plain-language
+// `twelve`/`beginner` explanation, so a non-technical reader can go from
+// "what even is AI?" to running open models, one short read at a time.
+const beginnerPath: { slug: string; blurb: string }[] = [
+  { slug: 'artificial-intelligence', blurb: 'What AI actually is — in plain words.' },
+  { slug: 'machine-learning', blurb: 'How computers learn from examples.' },
+  { slug: 'neural-network', blurb: 'The brain-inspired math behind it all.' },
+  { slug: 'large-language-model', blurb: 'The tech behind ChatGPT-style tools.' },
+  { slug: 'training', blurb: 'How a model is taught before you use it.' },
+  { slug: 'inference', blurb: 'What happens when you actually ask it something.' },
+  { slug: 'prompt-engineering', blurb: 'How to ask so you get great answers.' },
+  { slug: 'hallucination', blurb: 'Why AI sometimes makes things up.' },
+  { slug: 'open-weights', blurb: 'Why "open source" AI is a big deal.' },
+  { slug: 'ai-agent', blurb: 'When AI can take actions, not just chat.' },
+];
+
+const conceptBySlug = new Map(concepts.map((c) => [c.slug, c]));
+const beginnerSteps = beginnerPath
+  .map((step) => ({ ...step, concept: conceptBySlug.get(step.slug) }))
+  .filter((step) => step.concept);
 ---
 
 <SiteShell
@@ -34,6 +56,52 @@ const concepts = getEntitiesByType('concept');
         Diagram-first tutorials and plain-language concepts, taught at the level that fits you.
       </p>
     </header>
+
+    <Section>
+      <div
+        class="border-primary-orange/30 from-primary-orange/10 flex flex-col gap-5 rounded-2xl border bg-gradient-to-b to-transparent p-6 md:p-8"
+      >
+        <div class="flex flex-col gap-2">
+          <Badge variant="tutorial">Start here · No experience needed</Badge>
+          <h2 class="text-text text-h2 font-semibold">New to AI? Follow this path.</h2>
+          <p class="text-text-muted text-body max-w-prose">
+            Ten short reads that take you from “what even is AI?” to understanding how modern,
+            free-to-run models work. Every step is written for a complete beginner — no coding, no
+            maths, no jargon. Read them in order, or jump to whatever you're curious about.
+          </p>
+        </div>
+        <ol class="flex flex-col gap-3">
+          {
+            beginnerSteps.map((step, idx) => (
+              <li>
+                <a
+                  href={`/concepts/${step.slug}`}
+                  class="group border-border bg-surface-card hover:border-primary-orange focus-visible:ring-primary-orange flex items-center gap-4 rounded-xl border p-4 transition-colors focus-visible:ring-2 focus-visible:outline-none"
+                >
+                  <span class="bg-primary-orange/15 text-primary-orange flex h-9 w-9 shrink-0 items-center justify-center rounded-full font-mono text-sm font-bold">
+                    {idx + 1}
+                  </span>
+                  <span class="flex flex-col">
+                    <span class="text-text group-hover:text-primary-orange font-semibold transition-colors">
+                      {step.concept?.name}
+                    </span>
+                    <span class="text-text-muted text-small">{step.blurb}</span>
+                  </span>
+                  <span class="text-text-subtle group-hover:text-primary-orange ml-auto shrink-0 transition-colors">
+                    →
+                  </span>
+                </a>
+              </li>
+            ))
+          }
+        </ol>
+        <p class="text-text-subtle text-small">
+          Tip: on every concept page you can switch the explanation between <strong
+            class="text-text-muted">“Explain like I'm 12”</strong
+          >, Beginner, Student, Developer, and Researcher.
+        </p>
+      </div>
+    </Section>
 
     <Section>
       <div class="flex flex-col gap-4">

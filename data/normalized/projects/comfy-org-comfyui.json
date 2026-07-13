@@ -4,14 +4,7 @@
   "name": "ComfyUI",
   "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
   "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
-  "tags": [
-    "ai",
-    "comfy",
-    "comfyui",
-    "python",
-    "pytorch",
-    "stable-diffusion"
-  ],
+  "tags": ["ai", "comfy", "comfyui", "python", "pytorch", "stable-diffusion"],
   "externalLinks": [
     {
       "label": "GitHub repository",

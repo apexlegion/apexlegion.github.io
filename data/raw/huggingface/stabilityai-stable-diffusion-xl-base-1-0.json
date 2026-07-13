@@ -40,10 +40,7 @@
     },
     "cardData": {
       "license": "openrail++",
-      "tags": [
-        "text-to-image",
-        "stable-diffusion"
-      ]
+      "tags": ["text-to-image", "stable-diffusion"]
     },
     "siblings": [
       {

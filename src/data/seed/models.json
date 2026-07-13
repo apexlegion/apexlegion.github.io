@@ -82,5 +82,170 @@
         "description": "Base + refiner pipeline, open weights under RAIL-M."
       }
     ]
+  },
+  {
+    "type": "model",
+    "slug": "qwen-2-5",
+    "name": "Qwen2.5",
+    "modality": "Text",
+    "parameters": "0.5B – 72B",
+    "summary": "Alibaba's broad family of strong, permissively licensed open LLMs.",
+    "description": "Qwen2.5 is a family of open language models from Alibaba spanning 0.5B to 72B parameters, with specialised Coder and Math variants. It offers long context, strong multilingual and coding performance, and is one of the most widely used open-weight families on Hugging Face.",
+    "tags": ["llm", "qwen", "open-weights", "multilingual"],
+    "license": "Apache-2.0 (most sizes)",
+    "publishedBy": "Alibaba Qwen Team",
+    "externalLinks": [
+      { "label": "Qwen blog", "href": "https://qwenlm.github.io/blog/qwen2.5/" },
+      { "label": "Hugging Face", "href": "https://huggingface.co/Qwen" }
+    ],
+    "timeline": [
+      {
+        "date": "2024-09-19",
+        "type": "release",
+        "title": "Qwen2.5 released",
+        "description": "Base, instruct, coder, and math variants from 0.5B to 72B."
+      }
+    ]
+  },
+  {
+    "type": "model",
+    "slug": "gemma-2",
+    "name": "Gemma 2",
+    "modality": "Text",
+    "parameters": "2B / 9B / 27B",
+    "summary": "Google's lightweight open models built from Gemini research.",
+    "description": "Gemma 2 is Google's family of open-weight text models in 2B, 9B, and 27B sizes, derived from the research behind Gemini. It delivers strong performance for its size and is designed to run efficiently on a single GPU or laptop.",
+    "tags": ["llm", "google", "open-weights"],
+    "license": "Gemma Terms of Use",
+    "publishedBy": "Google DeepMind",
+    "externalLinks": [
+      { "label": "Gemma page", "href": "https://ai.google.dev/gemma" },
+      { "label": "Hugging Face", "href": "https://huggingface.co/google" }
+    ],
+    "timeline": [
+      {
+        "date": "2024-06-27",
+        "type": "release",
+        "title": "Gemma 2 released",
+        "description": "9B and 27B open models; 2B added later."
+      }
+    ]
+  },
+  {
+    "type": "model",
+    "slug": "deepseek-r1",
+    "name": "DeepSeek-R1",
+    "modality": "Text",
+    "parameters": "1.5B – 671B (MoE)",
+    "summary": "Open reasoning model rivaling closed frontier models on math and code.",
+    "description": "DeepSeek-R1 is an open-weight reasoning model trained with large-scale reinforcement learning to produce long chain-of-thought before answering. It reaches performance competitive with leading closed reasoning models on math, code, and logic, and ships distilled smaller variants that run locally.",
+    "tags": ["llm", "reasoning", "deepseek", "open-weights"],
+    "license": "MIT",
+    "publishedBy": "DeepSeek",
+    "externalLinks": [
+      { "label": "Hugging Face", "href": "https://huggingface.co/deepseek-ai/DeepSeek-R1" }
+    ],
+    "timeline": [
+      {
+        "date": "2025-01-20",
+        "type": "release",
+        "title": "DeepSeek-R1 released",
+        "description": "Open reasoning model plus distilled 1.5B–70B variants under MIT."
+      }
+    ]
+  },
+  {
+    "type": "model",
+    "slug": "mixtral-8x7b",
+    "name": "Mixtral 8x7B",
+    "modality": "Text",
+    "parameters": "46.7B (12.9B active)",
+    "summary": "Sparse mixture-of-experts model with the quality of a much larger LLM.",
+    "description": "Mixtral 8x7B is a sparse mixture-of-experts (MoE) model that routes each token to 2 of 8 expert networks, giving the quality of a large model at the inference cost of a ~13B model. It popularised open MoE and remains a strong, efficient Apache-licensed option.",
+    "tags": ["llm", "mixture-of-experts", "mistral", "open-weights"],
+    "license": "Apache-2.0",
+    "publishedBy": "Mistral AI",
+    "externalLinks": [
+      { "label": "Mistral announcement", "href": "https://mistral.ai/news/mixtral-of-experts/" }
+    ],
+    "timeline": [
+      {
+        "date": "2023-12-11",
+        "type": "release",
+        "title": "Mixtral 8x7B released",
+        "description": "First widely used open sparse MoE, Apache 2.0 licensed."
+      }
+    ]
+  },
+  {
+    "type": "model",
+    "slug": "whisper",
+    "name": "Whisper",
+    "modality": "Audio",
+    "parameters": "39M – 1.55B",
+    "summary": "OpenAI's open speech-to-text model for transcription and translation.",
+    "description": "Whisper is an open-source automatic speech recognition model trained on 680k hours of multilingual audio. It transcribes and translates speech robustly across languages and accents, and its open weights power countless local transcription tools and the faster-whisper runtime.",
+    "tags": ["audio", "speech-to-text", "openai", "open-weights"],
+    "license": "MIT",
+    "publishedBy": "OpenAI",
+    "externalLinks": [{ "label": "Whisper repo", "href": "https://github.com/openai/whisper" }],
+    "timeline": [
+      {
+        "date": "2022-09-21",
+        "type": "release",
+        "title": "Whisper released",
+        "description": "Open multilingual ASR under MIT; large-v3 followed in 2023."
+      }
+    ]
+  },
+  {
+    "type": "model",
+    "slug": "flux-1",
+    "name": "FLUX.1",
+    "modality": "Image",
+    "parameters": "12B",
+    "summary": "State-of-the-art open text-to-image model from the original SD team.",
+    "description": "FLUX.1 is a 12B-parameter rectified-flow transformer for text-to-image generation, created by Black Forest Labs (founders of the original Stable Diffusion). The [schnell] variant is Apache-2.0 and runs locally, producing high-fidelity images with excellent prompt adherence and typography.",
+    "tags": ["image", "diffusion", "black-forest-labs", "open-weights"],
+    "license": "Apache-2.0 ([schnell] variant)",
+    "publishedBy": "Black Forest Labs",
+    "externalLinks": [
+      { "label": "Black Forest Labs", "href": "https://blackforestlabs.ai/" },
+      { "label": "Hugging Face", "href": "https://huggingface.co/black-forest-labs" }
+    ],
+    "timeline": [
+      {
+        "date": "2024-08-01",
+        "type": "release",
+        "title": "FLUX.1 released",
+        "description": "[schnell] (Apache-2.0), [dev], and [pro] variants."
+      }
+    ]
+  },
+  {
+    "type": "model",
+    "slug": "phi-3",
+    "name": "Phi-3",
+    "modality": "Text",
+    "parameters": "3.8B / 7B / 14B",
+    "summary": "Microsoft's small models that punch far above their size.",
+    "description": "Phi-3 is a family of small open language models from Microsoft trained on carefully curated, 'textbook-quality' data. The 3.8B Mini model rivals much larger models on reasoning benchmarks and is small enough to run comfortably on a phone or laptop.",
+    "tags": ["llm", "small-models", "microsoft", "open-weights"],
+    "license": "MIT",
+    "publishedBy": "Microsoft",
+    "externalLinks": [
+      {
+        "label": "Hugging Face",
+        "href": "https://huggingface.co/collections/microsoft/phi-3-6626e15e9585a200d2d761e3"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2024-04-23",
+        "type": "release",
+        "title": "Phi-3 released",
+        "description": "Mini (3.8B), Small (7B), and Medium (14B) under MIT."
+      }
+    ]
   }
 ]

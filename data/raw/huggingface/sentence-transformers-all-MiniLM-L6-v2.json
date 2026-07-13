@@ -68,18 +68,12 @@
     "widgetData": [
       {
         "source_sentence": "That is a happy person",
-        "sentences": [
-          "That is a happy dog",
-          "That is a very happy person",
-          "Today is a sunny day"
-        ]
+        "sentences": ["That is a happy dog", "That is a very happy person", "Today is a sunny day"]
       }
     ],
     "model-index": null,
     "config": {
-      "architectures": [
-        "BertModel"
-      ],
+      "architectures": ["BertModel"],
       "model_type": "bert",
       "tokenizer_config": {
         "unk_token": "[UNK]",
@@ -90,9 +84,7 @@
       }
     },
     "cardData": {
-      "base_model": [
-        "nreimers/MiniLM-L6-H384-uncased"
-      ],
+      "base_model": ["nreimers/MiniLM-L6-H384-uncased"],
       "language": "en",
       "license": "apache-2.0",
       "library_name": "sentence-transformers",

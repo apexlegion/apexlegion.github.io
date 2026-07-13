@@ -33,14 +33,7 @@
       "name": "ComfyUI",
       "type": "project",
       "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
-      "tags": [
-        "ai",
-        "comfy",
-        "comfyui",
-        "python",
-        "pytorch",
-        "stable-diffusion"
-      ]
+      "tags": ["ai", "comfy", "comfyui", "python", "pytorch", "stable-diffusion"]
     },
     "deepspeedai-deepspeed": {
       "slug": "deepspeedai-deepspeed",
@@ -71,9 +64,7 @@
       "name": "whisper",
       "type": "project",
       "summary": "Robust Speech Recognition via Large-Scale Weak Supervision",
-      "tags": [
-        "python"
-      ]
+      "tags": ["python"]
     },
     "openbmb-minicpm": {
       "slug": "openbmb-minicpm",
@@ -81,9 +72,7 @@
       "name": "MiniCPM",
       "type": "project",
       "summary": "MiniCPM5-1B: A SOTA 1B on-device LLM, small yet powerful.",
-      "tags": [
-        "jupyter notebook"
-      ]
+      "tags": ["jupyter notebook"]
     },
     "meta-llama-meta-llama-3-8b": {
       "slug": "meta-llama-meta-llama-3-8b",

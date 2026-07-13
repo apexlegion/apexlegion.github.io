@@ -33,6 +33,23 @@
   --color-subtle: var(--color-subtle);
   --color-faint: var(--color-faint);
 
+  /* Semantic aliases matching the class names used across the app
+   * (text-text, bg-surface-card, fill-text-muted, …). Registering them in
+   * @theme is what makes Tailwind v4 emit the FULL utility namespace for
+   * each — critically including SVG `fill-*` and `stroke-*`, which the
+   * legacy JS config does not generate. Without these, SVG graph labels
+   * fall back to black and vanish on the dark canvas. */
+  --color-text: var(--color-white);
+  --color-text-muted: var(--color-muted);
+  --color-text-subtle: var(--color-subtle);
+  --color-text-inverse: var(--color-primary-black);
+  --color-surface-raised: var(--color-secondary-black);
+  --color-surface-elevated: var(--color-surface);
+  --color-surface-card: var(--color-card);
+  --color-primary: var(--color-primary-orange);
+  --color-primary-hover: var(--color-secondary-orange);
+  --color-primary-accent: var(--color-accent-orange);
+
   --color-success: var(--color-success);
   --color-warning: var(--color-warning);
   --color-danger: var(--color-danger);

@@ -3,10 +3,14 @@ name: Deploy to GitHub Pages
 # Builds the static site and publishes it to GitHub Pages.
 #
 # Triggers:
-#   - push to main            → redeploy whenever code OR scraped data changes.
-#     (The daily data-update / news-expiry workflows commit to main, which
-#      fires this workflow, so the live site refreshes within minutes of new
-#      data landing — satisfying the "updates every 24h, zero backend" goal.)
+#   - push to main            → redeploy whenever a human (or a PR merge)
+#     changes code or content.
+#   - schedule (daily 05:00)  → rebuild + redeploy every day so the site
+#     always reflects the latest scraped data. This is deliberate: the daily
+#     scrape/news-expiry workflows commit with GITHUB_TOKEN, and GitHub does
+#     NOT let a GITHUB_TOKEN push trigger another workflow (anti-recursion).
+#     A scheduled deploy at 05:00 UTC — after the 02:00 scrape and 04:00
+#     expiry — guarantees the "updates every 24h, zero backend" behaviour.
 #   - workflow_dispatch       → deploy on demand from the Actions tab.
 #
 # Requirements (one-time, in the repo settings):
@@ -14,6 +18,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  schedule:
+    # 05:00 UTC daily — after daily-data-update (02:00) and news-expiry (04:00).
+    - cron: '0 5 * * *'
   workflow_dispatch:
 
 # Least-privilege token scoped for Pages deployment.

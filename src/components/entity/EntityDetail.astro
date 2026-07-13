@@ -92,6 +92,8 @@ const timelineEvents: TimelineEventProps[] = entity.timeline.map((t) => ({
       }
     </header>
 
+    <slot name="header" />
+
     <Grid cols={{ base: 1, lg: 3 }} gap={8}>
       <div class="flex flex-col gap-8 lg:col-span-2">
         <Section eyebrow="Overview" title="About" containerSize="full">

@@ -197,5 +197,587 @@
         "content": "A quantized 7B model on a laptop replaces many cloud calls; a quantized 70B on a single workstation replaces most of them. Quantization is the difference between a 24 GB GPU requirement and an 8 GB one, which directly changes hardware budgets. Evaluate quality regressions carefully — for some workloads the savings are free, for others they're not."
       }
     }
+  },
+  {
+    "type": "concept",
+    "slug": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "level": "twelve",
+    "summary": "Software that performs tasks we normally think need human intelligence.",
+    "description": "Artificial Intelligence (AI) is a broad field of computer science focused on building systems that can perform tasks that usually require human intelligence — understanding language, recognising images, making decisions, and generating content. Modern AI is mostly powered by machine learning, where systems learn patterns from data rather than being explicitly programmed with rules.",
+    "tags": ["fundamentals", "overview"],
+    "externalLinks": [
+      {
+        "label": "Wikipedia: Artificial intelligence",
+        "href": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      }
+    ],
+    "levels": {
+      "twelve": {
+        "summary": "Teaching a computer to do smart things by showing it lots of examples.",
+        "content": "Artificial Intelligence is when a computer can do something that normally needs a human brain — like understanding what you say, spotting a cat in a photo, or writing a story. Instead of a person writing down every rule, we show the computer millions of examples and it figures out the patterns on its own."
+      },
+      "beginner": {
+        "summary": "Computer systems that learn from data to understand, decide, and create.",
+        "content": "AI is the umbrella term for software that mimics human abilities like perception, reasoning, and language. Today's AI is built mostly on machine learning: instead of hand-coding rules, engineers feed the system large amounts of data so it can learn patterns and make predictions. Open-source AI means the models and tools that do this are freely available for anyone to use, inspect, and improve."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "machine-learning",
+    "name": "Machine Learning",
+    "level": "beginner",
+    "summary": "Getting computers to learn patterns from data instead of being explicitly programmed.",
+    "description": "Machine Learning (ML) is the subfield of AI where systems improve at a task by learning from data. Rather than a developer writing explicit rules, an ML model adjusts its internal parameters to minimise error on examples. Common paradigms include supervised learning (labelled data), unsupervised learning (finding structure), and reinforcement learning (learning from rewards).",
+    "tags": ["fundamentals", "training"],
+    "externalLinks": [
+      {
+        "label": "Wikipedia: Machine learning",
+        "href": "https://en.wikipedia.org/wiki/Machine_learning"
+      }
+    ],
+    "levels": {
+      "twelve": {
+        "summary": "The computer practises on lots of examples and gets better by itself.",
+        "content": "Imagine learning to tell dogs from cats by looking at thousands of pictures. Machine learning is the same idea for computers: we show them many examples, they make guesses, we tell them when they're wrong, and they slowly get better — without anyone writing down the rules for what makes a dog a dog."
+      },
+      "beginner": {
+        "summary": "Models learn from examples by tuning parameters to reduce mistakes.",
+        "content": "Machine learning powers almost all modern AI. You give a model data and a goal; it makes predictions, measures how wrong it is, and nudges its internal numbers to do better next time. Repeat millions of times and it becomes surprisingly capable. The three big families are supervised (learn from labelled answers), unsupervised (find hidden structure), and reinforcement learning (learn from trial and error)."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "neural-network",
+    "name": "Neural Network",
+    "level": "beginner",
+    "summary": "Layers of simple math units, loosely inspired by the brain, that learn patterns.",
+    "description": "A neural network is a model made of layers of interconnected 'neurons', each computing a weighted sum of its inputs followed by a non-linear activation. By stacking layers and adjusting the weights during training, neural networks can approximate very complex functions. Deep neural networks (many layers) underpin modern language, vision, and audio models.",
+    "tags": ["fundamentals", "deep-learning", "architecture"],
+    "externalLinks": [
+      {
+        "label": "Wikipedia: Neural network",
+        "href": "https://en.wikipedia.org/wiki/Artificial_neural_network"
+      }
+    ],
+    "levels": {
+      "twelve": {
+        "summary": "A big web of tiny math helpers that pass numbers to each other.",
+        "content": "A neural network is like a huge team of tiny helpers arranged in rows. Each helper takes some numbers, does a little math, and passes the result to the next row. When the team practises on lots of examples, the helpers learn how much to trust each number — and together they can recognise faces, understand sentences, or draw pictures."
+      },
+      "beginner": {
+        "summary": "Stacked layers of weighted math units trained to map inputs to outputs.",
+        "content": "Neural networks are the engine of deep learning. Each 'neuron' multiplies its inputs by learned weights, adds them up, and applies a simple curve (an activation function). Stacking many layers lets the network learn hierarchical patterns — edges then shapes then objects in an image, or letters then words then meaning in text. Training adjusts the weights so the output gets closer to the right answer."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "large-language-model",
+    "name": "Large Language Model",
+    "level": "beginner",
+    "summary": "A neural network trained on huge amounts of text to understand and generate language.",
+    "description": "A Large Language Model (LLM) is a Transformer-based neural network trained on massive text corpora to predict the next token. This simple objective, at scale, yields models that can answer questions, write code, summarise, translate, and reason. Open-weight LLMs like Llama, Mistral, and Qwen can be downloaded and run locally.",
+    "tags": ["nlp", "foundation-models", "generative"],
+    "externalLinks": [
+      {
+        "label": "Wikipedia: Large language model",
+        "href": "https://en.wikipedia.org/wiki/Large_language_model"
+      }
+    ],
+    "levels": {
+      "twelve": {
+        "summary": "A word-predicting robot that read almost the whole internet.",
+        "content": "A large language model is a program that has read an enormous amount of text and learned to guess what word comes next. That one trick — guessing the next word really well — is enough to let it chat, answer questions, and help write things. ChatGPT and similar tools are large language models."
+      },
+      "beginner": {
+        "summary": "Next-word predictors trained at massive scale to become general assistants.",
+        "content": "LLMs learn language by repeatedly predicting the next chunk of text (a 'token') across trillions of words. At large enough scale, this produces models that can hold conversations, write and debug code, and follow instructions. 'Open-weight' LLMs (Llama, Mistral, Qwen, Gemma) publish their trained parameters so you can run them on your own hardware for free, unlike closed models behind an API."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "embedding",
+    "name": "Embedding",
+    "level": "beginner",
+    "summary": "Turning words, images, or data into lists of numbers that capture meaning.",
+    "description": "An embedding is a vector (a list of numbers) that represents a piece of data — a word, sentence, image, or user — in a way that places similar items close together in space. Embeddings are the foundation of semantic search, recommendation, clustering, and retrieval-augmented generation.",
+    "tags": ["representation", "search", "vectors"],
+    "externalLinks": [
+      {
+        "label": "Wikipedia: Word embedding",
+        "href": "https://en.wikipedia.org/wiki/Word_embedding"
+      }
+    ],
+    "levels": {
+      "twelve": {
+        "summary": "Giving each word a location on a giant map so similar words sit together.",
+        "content": "An embedding turns a word into a spot on a huge invisible map. Words that mean similar things — like 'dog' and 'puppy' — end up close together, while 'dog' and 'rocket' are far apart. Computers use these maps to figure out which things are related."
+      },
+      "beginner": {
+        "summary": "Vectors that place similar meanings near each other for search and matching.",
+        "content": "Embeddings convert data into points in a high-dimensional space where distance means similarity. Search for 'cheap laptop' and an embedding model can match 'affordable notebook' even though the words differ, because their vectors are close. This is what powers modern semantic search and the retrieval step in RAG systems."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "fine-tuning",
+    "name": "Fine-tuning",
+    "level": "beginner",
+    "summary": "Adapting a pre-trained model to your own data or task with extra training.",
+    "description": "Fine-tuning takes a model that already learned general knowledge during pretraining and continues training it on a smaller, task-specific dataset. This is far cheaper than training from scratch and lets teams specialise open models for their domain, tone, or format. Parameter-efficient methods like LoRA make fine-tuning possible on modest hardware.",
+    "tags": ["training", "adaptation", "peft"],
+    "externalLinks": [
+      {
+        "label": "Hugging Face: Fine-tuning",
+        "href": "https://huggingface.co/docs/transformers/training"
+      }
+    ],
+    "levels": {
+      "twelve": {
+        "summary": "Taking a smart model and giving it a bit of extra practice on your topic.",
+        "content": "Fine-tuning is like hiring someone who already speaks a language and teaching them the special words your company uses. The model already knows a lot; you just give it a little more practice on your own examples so it fits your needs."
+      },
+      "beginner": {
+        "summary": "Continue training a general model on your data to specialise it.",
+        "content": "Instead of building a model from zero (which costs millions), you start with an open pre-trained model and train it a little more on your own examples — support tickets, legal docs, a writing style. Techniques like LoRA update only a tiny slice of the model, so fine-tuning can run on a single consumer GPU."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "inference",
+    "name": "Inference",
+    "level": "beginner",
+    "summary": "Actually running a trained model to get predictions or generate output.",
+    "description": "Inference is the process of using a trained model to produce results — generating text, classifying an image, transcribing audio. It is distinct from training. Inference cost, latency, and memory determine whether a model can run on a phone, a laptop, or needs a datacentre GPU. Engines like llama.cpp, vLLM, and Ollama optimise inference.",
+    "tags": ["deployment", "runtime", "performance"],
+    "externalLinks": [
+      {
+        "label": "Wikipedia: Inference engine",
+        "href": "https://en.wikipedia.org/wiki/Inference_engine"
+      }
+    ],
+    "levels": {
+      "twelve": {
+        "summary": "The model has finished learning — now it's actually doing the job.",
+        "content": "Training is when the model studies. Inference is when it takes a test — you ask it something and it answers. Every time you type a question to a chatbot and it replies, that's inference happening."
+      },
+      "beginner": {
+        "summary": "Using the finished model to answer requests, as opposed to training it.",
+        "content": "Once a model is trained, running it to get answers is called inference. How fast and cheap inference is decides where a model can live — a small quantized model runs on your laptop, while huge ones need powerful GPUs. Open-source inference engines like llama.cpp and vLLM make models run faster and on cheaper hardware."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "prompt-engineering",
+    "name": "Prompt Engineering",
+    "level": "beginner",
+    "summary": "Writing instructions that get the best results from a language model.",
+    "description": "Prompt engineering is the practice of crafting the input text (the 'prompt') given to a language model to steer its output. Techniques include giving clear instructions, providing examples (few-shot), asking the model to reason step by step (chain-of-thought), and specifying format. Good prompting often beats fine-tuning for quick wins.",
+    "tags": ["usage", "llm", "technique"],
+    "externalLinks": [{ "label": "Prompting guide", "href": "https://www.promptingguide.ai/" }],
+    "levels": {
+      "twelve": {
+        "summary": "Asking the AI in just the right way to get a great answer.",
+        "content": "AI models do much better when you ask clearly. Prompt engineering is learning how to phrase your request — giving an example, saying what format you want, or asking it to explain its thinking — so you get the answer you actually need."
+      },
+      "beginner": {
+        "summary": "Crafting inputs — instructions, examples, format — to steer model output.",
+        "content": "The same model can give a mediocre or an excellent answer depending on how you ask. Prompt engineering covers reliable tricks: be specific, show a couple of examples, ask for step-by-step reasoning, and state the output format. It's the fastest, cheapest way to improve results — no training required."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "hallucination",
+    "name": "Hallucination",
+    "level": "beginner",
+    "summary": "When an AI confidently makes up information that is false.",
+    "description": "A hallucination is when a language model generates text that is fluent and confident but factually wrong or fabricated. Because LLMs predict plausible text rather than look up facts, they can invent citations, numbers, or events. Retrieval-augmented generation, grounding, and verification reduce but do not eliminate hallucinations.",
+    "tags": ["limitations", "safety", "llm"],
+    "externalLinks": [
+      {
+        "label": "Wikipedia: Hallucination (AI)",
+        "href": "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)"
+      }
+    ],
+    "levels": {
+      "twelve": {
+        "summary": "The AI sometimes makes stuff up while sounding totally sure.",
+        "content": "Sometimes an AI gives an answer that sounds right but is actually wrong — like confidently inventing a fake book title. This is called a hallucination. That's why you should always double-check important facts an AI tells you."
+      },
+      "beginner": {
+        "summary": "Confident but false output, because models predict text, not truth.",
+        "content": "LLMs generate the most plausible-sounding next words, not verified facts, so they sometimes fabricate details while sounding authoritative. This is a hallucination. Grounding the model in real documents (RAG) and asking it to cite sources reduces the risk, but you should still verify anything important."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "diffusion-model",
+    "name": "Diffusion Model",
+    "level": "beginner",
+    "summary": "AI that creates images by gradually removing noise from random static.",
+    "description": "Diffusion models generate images (and audio/video) by learning to reverse a noising process: they start from random noise and iteratively denoise it into a coherent result, guided by a text prompt. Stable Diffusion is the best-known open-source example, enabling free local image generation.",
+    "tags": ["generative", "vision", "image"],
+    "externalLinks": [
+      {
+        "label": "Wikipedia: Diffusion model",
+        "href": "https://en.wikipedia.org/wiki/Diffusion_model"
+      }
+    ],
+    "levels": {
+      "twelve": {
+        "summary": "Start with TV static and slowly clean it up into a picture.",
+        "content": "Imagine a screen full of random static. A diffusion model slowly cleans it up, step by step, until a real picture appears — a cat, a castle, whatever you asked for. It learned how to do this by watching millions of images get noisier, then practising the reverse."
+      },
+      "beginner": {
+        "summary": "Turn random noise into images by learned step-by-step denoising.",
+        "content": "Diffusion models are trained by adding noise to images until they're pure static, then learning to undo it. To generate, they start from noise and denoise toward an image that matches your text prompt. Stable Diffusion made this open source, so anyone can generate images locally for free."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "ai-agent",
+    "name": "AI Agent",
+    "level": "beginner",
+    "summary": "An AI that can plan, use tools, and take multi-step actions toward a goal.",
+    "description": "An AI agent wraps a language model in a loop that lets it decide actions, call tools (search, code execution, APIs), observe results, and continue until a goal is met. Agents move beyond single answers toward autonomous task completion. Frameworks like LangGraph, CrewAI, and AutoGen build agentic systems.",
+    "tags": ["agents", "tools", "automation"],
+    "externalLinks": [
+      { "label": "LangGraph", "href": "https://langchain-ai.github.io/langgraph/" }
+    ],
+    "levels": {
+      "twelve": {
+        "summary": "An AI helper that can take steps and use tools, not just chat.",
+        "content": "A normal chatbot just talks. An agent can actually do things — search the web, run a calculation, check the weather — one step at a time until it finishes your task. It's like the difference between someone who gives advice and someone who rolls up their sleeves and does the job."
+      },
+      "beginner": {
+        "summary": "An LLM in a loop that chooses tools and acts until the goal is done.",
+        "content": "Agents give a language model the ability to act: it thinks about what to do, calls a tool (like a search engine or code runner), reads the result, and repeats until the task is complete. This unlocks automation — booking, research, coding — but also adds complexity and failure modes. Open frameworks like LangGraph, CrewAI, and AutoGen help build them."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "vector-database",
+    "name": "Vector Database",
+    "level": "student",
+    "summary": "A database built to store embeddings and find the most similar ones fast.",
+    "description": "A vector database stores embeddings and performs approximate nearest-neighbour search to retrieve the most semantically similar items to a query. It is the storage layer behind semantic search and retrieval-augmented generation. Open-source options include Milvus, Qdrant, Chroma, Weaviate, and pgvector.",
+    "tags": ["infrastructure", "search", "rag"],
+    "externalLinks": [{ "label": "Qdrant", "href": "https://qdrant.tech/" }],
+    "levels": {
+      "beginner": {
+        "summary": "Storage that finds items by meaning instead of exact keywords.",
+        "content": "A vector database keeps the number-list 'embeddings' of your documents and, given a query, instantly finds the closest matches by meaning. It's the memory behind chatbots that answer from your own files. Popular open-source ones include Qdrant, Chroma, Milvus, Weaviate, and pgvector."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "rlhf",
+    "name": "RLHF (Reinforcement Learning from Human Feedback)",
+    "level": "student",
+    "summary": "Aligning models to human preferences using feedback as a reward signal.",
+    "description": "RLHF fine-tunes a model using human rankings of its outputs: a reward model is trained to predict human preference, then the language model is optimised (often with PPO) to maximise that reward. It is a key ingredient in making raw LLMs helpful, honest, and harmless. Simpler alternatives like DPO are now common.",
+    "tags": ["alignment", "training", "safety"],
+    "externalLinks": [
+      { "label": "Hugging Face: RLHF", "href": "https://huggingface.co/blog/rlhf" }
+    ],
+    "levels": {
+      "beginner": {
+        "summary": "Teach the model good behaviour by letting humans rank its answers.",
+        "content": "A freshly trained LLM is knowledgeable but unpolished. RLHF improves it by having people rank different answers; the model learns to prefer the responses humans liked. This is a big part of why assistants feel helpful and safe rather than random."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "context-window",
+    "name": "Context Window",
+    "level": "beginner",
+    "summary": "How much text a model can consider at once — its working memory.",
+    "description": "The context window is the maximum number of tokens a model can process in a single request, covering both the prompt and its response. Larger windows let a model read long documents or hold longer conversations, but cost more memory and compute. Modern open models range from a few thousand to hundreds of thousands of tokens.",
+    "tags": ["llm", "limits", "memory"],
+    "externalLinks": [
+      {
+        "label": "Wikipedia: Large language model",
+        "href": "https://en.wikipedia.org/wiki/Large_language_model"
+      }
+    ],
+    "levels": {
+      "twelve": {
+        "summary": "How much the AI can keep in its head at one time.",
+        "content": "The context window is like the AI's short-term memory. If it's small, the AI forgets the start of a long chat. If it's big, it can read a whole book and remember it while answering. Once you go past the limit, the oldest stuff falls out."
+      },
+      "beginner": {
+        "summary": "The token budget for prompt + response the model can see at once.",
+        "content": "Every model can only 'see' a fixed amount of text at a time, measured in tokens — that's the context window. It has to hold both your input and the model's reply. Bigger windows enable long documents and conversations but use more memory and can be slower."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "gpu",
+    "name": "GPU (Graphics Processing Unit)",
+    "level": "beginner",
+    "summary": "The parallel-processing hardware that makes training and running AI practical.",
+    "description": "A GPU is a processor with thousands of cores optimised for the parallel matrix math that neural networks rely on. GPUs (and related accelerators) make training and inference orders of magnitude faster than CPUs. VRAM (GPU memory) is often the binding constraint on which models you can run locally.",
+    "tags": ["hardware", "performance", "infrastructure"],
+    "externalLinks": [
+      {
+        "label": "Wikipedia: GPU",
+        "href": "https://en.wikipedia.org/wiki/Graphics_processing_unit"
+      }
+    ],
+    "levels": {
+      "twelve": {
+        "summary": "A chip that does thousands of little sums at the same time.",
+        "content": "AI does a huge amount of math. A regular computer chip does the sums a few at a time; a GPU does thousands at once, which is exactly what AI needs. That's why gaming graphics cards turned out to be perfect for AI."
+      },
+      "beginner": {
+        "summary": "Massively parallel chips ideal for the matrix math in neural nets.",
+        "content": "GPUs have thousands of small cores that crunch matrix operations in parallel — the core workload of neural networks. The amount of memory on the GPU (VRAM) usually decides which models fit: an 8 GB card runs small quantized models, while large models need 24 GB or a datacentre accelerator."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "open-weights",
+    "name": "Open Weights",
+    "level": "beginner",
+    "summary": "Models whose trained parameters are published for anyone to download and run.",
+    "description": "An open-weight model publishes its trained parameters, so anyone can download, run, fine-tune, and self-host it — often under permissive licences. This contrasts with closed models available only through an API. Open weights are the foundation of the local-AI movement (Llama, Mistral, Qwen, Gemma).",
+    "tags": ["open-source", "licensing", "ecosystem"],
+    "externalLinks": [{ "label": "Hugging Face models", "href": "https://huggingface.co/models" }],
+    "levels": {
+      "beginner": {
+        "summary": "The model files are free to download, run, and modify yourself.",
+        "content": "Open-weight models let you download the actual trained model and run it on your own computer or server — no subscription, no sending your data to someone else's API. It's the difference between renting AI and owning it. Llama, Mistral, Qwen, and Gemma are popular open-weight families."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "training",
+    "name": "Training",
+    "level": "beginner",
+    "summary": "The process of teaching a model by adjusting its parameters on data.",
+    "description": "Training is how a model learns: it processes data, measures its error with a loss function, and updates its parameters via gradient descent and backpropagation to reduce that error. Pretraining builds general capability from massive datasets; fine-tuning specialises it. Training is compute-intensive; inference is what happens afterwards.",
+    "tags": ["fundamentals", "learning", "compute"],
+    "externalLinks": [
+      {
+        "label": "Wikipedia: Training data",
+        "href": "https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets"
+      }
+    ],
+    "levels": {
+      "twelve": {
+        "summary": "The model studies examples over and over until it gets good.",
+        "content": "Training is the AI's school. It looks at an example, makes a guess, finds out how wrong it was, and adjusts a tiny bit. Do that billions of times and it becomes really good. This part uses a lot of powerful computers."
+      },
+      "beginner": {
+        "summary": "Adjust parameters to minimise error across many examples.",
+        "content": "During training a model repeatedly predicts, measures how far off it was (the loss), and tweaks its parameters to do better — this loop is gradient descent with backpropagation. Pretraining on huge datasets builds broad ability; later fine-tuning adapts it to a specific job."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "chain-of-thought",
+    "name": "Chain-of-Thought",
+    "level": "student",
+    "summary": "Prompting a model to reason step by step for harder problems.",
+    "description": "Chain-of-thought (CoT) is a prompting technique where the model is encouraged to produce intermediate reasoning steps before a final answer. It markedly improves performance on maths, logic, and multi-step tasks. Newer 'reasoning models' are trained to do this natively.",
+    "tags": ["reasoning", "prompting", "llm"],
+    "externalLinks": [
+      { "label": "Chain-of-thought paper", "href": "https://arxiv.org/abs/2201.11903" }
+    ],
+    "levels": {
+      "beginner": {
+        "summary": "Ask the model to show its work, and it answers harder questions better.",
+        "content": "Just like students solve maths better by writing out steps, LLMs get more accurate when asked to 'think step by step' before answering. This is chain-of-thought prompting, and it's one of the simplest ways to boost results on tricky problems."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "lora",
+    "name": "LoRA (Low-Rank Adaptation)",
+    "level": "developer",
+    "summary": "A parameter-efficient fine-tuning method that trains tiny add-on matrices.",
+    "description": "LoRA freezes the original model weights and injects small trainable low-rank matrices into each layer, training only those. This cuts memory and storage dramatically — a LoRA adapter is a few megabytes versus gigabytes for a full model — making fine-tuning feasible on a single consumer GPU and easy to swap per task.",
+    "tags": ["peft", "fine-tuning", "efficiency"],
+    "externalLinks": [{ "label": "LoRA paper", "href": "https://arxiv.org/abs/2106.09685" }],
+    "levels": {
+      "beginner": {
+        "summary": "Fine-tune by training a small add-on instead of the whole model.",
+        "content": "LoRA lets you customise a big model by training only a tiny extra piece and leaving the original untouched. The result is a few-megabyte 'adapter' you can share and swap, and training fits on an ordinary gaming GPU — a huge reason fine-tuning became accessible to everyone."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "mixture-of-experts",
+    "name": "Mixture of Experts",
+    "level": "developer",
+    "summary": "A model that routes each token to a few specialised sub-networks for efficiency.",
+    "description": "Mixture of Experts (MoE) architectures contain many 'expert' sub-networks but activate only a small subset per token via a learned router. This gives the capacity of a very large model at the compute cost of a much smaller one. Open MoE models like Mixtral popularised the approach.",
+    "tags": ["architecture", "efficiency", "scaling"],
+    "externalLinks": [
+      { "label": "Mixtral of Experts", "href": "https://arxiv.org/abs/2401.04088" }
+    ],
+    "levels": {
+      "beginner": {
+        "summary": "Many specialist mini-models, but only a few run for each word.",
+        "content": "Instead of one giant network doing everything, a Mixture of Experts has many smaller specialists and a 'router' that picks the right couple for each piece of input. You get the smarts of a huge model while only paying to run a small part of it each time."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "benchmark",
+    "name": "Benchmark",
+    "level": "student",
+    "summary": "A standard test used to measure and compare model capabilities.",
+    "description": "A benchmark is a curated dataset and scoring method used to evaluate models on a task — reasoning (MMLU), coding (HumanEval), maths (GSM8K), and more. Leaderboards rank models by benchmark scores, though real-world performance can differ and benchmarks can be gamed or contaminated.",
+    "tags": ["evaluation", "comparison", "metrics"],
+    "externalLinks": [
+      {
+        "label": "Open LLM Leaderboard",
+        "href": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"
+      }
+    ],
+    "levels": {
+      "beginner": {
+        "summary": "A standard exam that lets you compare models fairly.",
+        "content": "Benchmarks are like standardised tests for AI: every model takes the same exam, so you can compare scores. They're useful for ranking models, but a high score doesn't always mean the model is best for your specific job — always try it on your own task too."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "overfitting",
+    "name": "Overfitting",
+    "level": "student",
+    "summary": "When a model memorises training data instead of learning general patterns.",
+    "description": "Overfitting happens when a model performs well on its training data but poorly on new, unseen data because it memorised specifics rather than learning generalisable patterns. It is countered with more data, regularisation, dropout, early stopping, and proper validation splits.",
+    "tags": ["training", "generalisation", "pitfalls"],
+    "externalLinks": [
+      { "label": "Wikipedia: Overfitting", "href": "https://en.wikipedia.org/wiki/Overfitting" }
+    ],
+    "levels": {
+      "beginner": {
+        "summary": "The model memorised the answers instead of understanding.",
+        "content": "Overfitting is like a student who memorises past exam papers but fails when the questions change. The model looks great on data it has seen and stumbles on anything new. Fixes include showing it more varied data and stopping training before it starts memorising."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "zero-shot-learning",
+    "name": "Zero-shot Learning",
+    "level": "student",
+    "summary": "Getting a model to do a task it was never explicitly trained on.",
+    "description": "Zero-shot learning is when a model performs a task with no task-specific examples, relying only on its general pretraining and a clear instruction. Few-shot learning adds a handful of examples in the prompt. Large models are surprisingly capable zero-shot, which is why prompting alone often suffices.",
+    "tags": ["llm", "generalisation", "prompting"],
+    "externalLinks": [
+      {
+        "label": "Wikipedia: Zero-shot learning",
+        "href": "https://en.wikipedia.org/wiki/Zero-shot_learning"
+      }
+    ],
+    "levels": {
+      "beginner": {
+        "summary": "The model handles a brand-new task just from a good instruction.",
+        "content": "Zero-shot means you ask the model to do something it was never specifically trained for — like classifying emails — and it just does it from your instruction alone. Add a few examples in the prompt and it's called few-shot, which usually works even better."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "multimodal",
+    "name": "Multimodal AI",
+    "level": "beginner",
+    "summary": "Models that understand or generate more than one type of data — text, images, audio.",
+    "description": "Multimodal models process and relate multiple data types (modalities) such as text, images, audio, and video. Examples include vision-language models that describe images, and speech models that transcribe audio. Combining modalities enables richer applications like image Q&A and document understanding.",
+    "tags": ["vision", "audio", "foundation-models"],
+    "externalLinks": [
+      {
+        "label": "Wikipedia: Multimodal learning",
+        "href": "https://en.wikipedia.org/wiki/Multimodal_learning"
+      }
+    ],
+    "levels": {
+      "twelve": {
+        "summary": "AI that can handle pictures and sound, not just words.",
+        "content": "Some AI only reads text. Multimodal AI can also look at pictures, listen to audio, or watch video — and connect them. So you can show it a photo and ask 'what's happening here?' and it understands both the image and your question."
+      },
+      "beginner": {
+        "summary": "One model that works across text, images, audio, and more.",
+        "content": "Multimodal models combine different data types so they can, for example, describe a photo, answer questions about a chart, or transcribe and summarise a meeting. Mixing modalities is a major frontier because most real tasks involve more than plain text."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "semantic-search",
+    "name": "Semantic Search",
+    "level": "beginner",
+    "summary": "Search that matches meaning rather than exact keywords.",
+    "description": "Semantic search uses embeddings to find results that are conceptually related to a query, even when they share no keywords. It powers modern search, recommendations, and the retrieval step in RAG. It is typically implemented with an embedding model plus a vector database.",
+    "tags": ["search", "embeddings", "rag"],
+    "externalLinks": [{ "label": "Sentence Transformers", "href": "https://www.sbert.net/" }],
+    "levels": {
+      "beginner": {
+        "summary": "Find things by what they mean, not the exact words used.",
+        "content": "Keyword search needs the same words to match. Semantic search understands meaning, so searching 'how to lower my energy bill' can surface an article titled 'reducing electricity costs'. It works by comparing embeddings and is the backbone of AI-powered search and chat-over-your-docs."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "temperature",
+    "name": "Temperature",
+    "level": "developer",
+    "summary": "A setting that controls how random or focused a model's output is.",
+    "description": "Temperature scales the probability distribution over next tokens. Low temperature makes output more deterministic and focused; high temperature makes it more diverse and creative but riskier. It is one of the main knobs, alongside top-p and top-k, for tuning generation.",
+    "tags": ["generation", "sampling", "llm"],
+    "externalLinks": [
+      {
+        "label": "Wikipedia: Softmax function",
+        "href": "https://en.wikipedia.org/wiki/Softmax_function"
+      }
+    ],
+    "levels": {
+      "beginner": {
+        "summary": "Low = safe and predictable, high = creative and surprising.",
+        "content": "Temperature is a creativity dial. Turn it low and the model plays it safe, giving the most likely answer every time — good for facts and code. Turn it up and it takes more risks and varies its wording — good for brainstorming and stories."
+      }
+    }
+  },
+  {
+    "type": "concept",
+    "slug": "gguf",
+    "name": "GGUF",
+    "level": "developer",
+    "summary": "A file format for distributing quantized models to run locally with llama.cpp.",
+    "description": "GGUF is the model file format used by llama.cpp and compatible runtimes (Ollama, LM Studio). It packages quantized weights plus metadata in a single file, making open models easy to download and run on CPUs and consumer GPUs. It replaced the older GGML format.",
+    "tags": ["formats", "local", "quantization"],
+    "externalLinks": [{ "label": "llama.cpp", "href": "https://github.com/ggml-org/llama.cpp" }],
+    "levels": {
+      "beginner": {
+        "summary": "A single-file format that makes local models easy to download and run.",
+        "content": "GGUF packs a compressed (quantized) model into one file that tools like Ollama and LM Studio can run on an ordinary computer. When you download a model to run locally, it's very often a GGUF file."
+      }
+    }
   }
 ]

@@ -104,14 +104,7 @@
     "web_commit_signoff_required": false,
     "has_pull_requests": true,
     "pull_request_creation_policy": "all",
-    "topics": [
-      "ai",
-      "comfy",
-      "comfyui",
-      "python",
-      "pytorch",
-      "stable-diffusion"
-    ],
+    "topics": ["ai", "comfy", "comfyui", "python", "pytorch", "stable-diffusion"],
     "visibility": "public",
     "forks": 14046,
     "open_issues": 4233,
