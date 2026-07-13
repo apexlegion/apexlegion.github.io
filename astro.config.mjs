@@ -41,6 +41,14 @@ export default defineConfig({
       alias: {
         '@': new URL('./src', import.meta.url).pathname,
       },
+      // Force a single copy of React across all islands. Without this, Vite's
+      // dep optimizer can prebundle React twice (two different `?v=` hashes),
+      // which throws "Invalid hook call / more than one copy of React" and
+      // silently kills every interactive island in dev.
+      dedupe: ['react', 'react-dom'],
+    },
+    optimizeDeps: {
+      include: ['react', 'react-dom', 'react-dom/client', 'react/jsx-runtime'],
     },
   },
 });

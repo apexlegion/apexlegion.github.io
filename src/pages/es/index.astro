@@ -215,9 +215,7 @@ const learningPaths = [
             </CardHeader>
             <CardBody>{cat.description}</CardBody>
             <CardFooter>
-              <Button variant="ghost" size="sm">
-                {cat.cta}
-              </Button>
+              <span class="text-primary-orange text-small font-medium">{cat.cta}</span>
             </CardFooter>
           </Card>
         ))
@@ -243,9 +241,9 @@ const learningPaths = [
             </CardHeader>
             <CardBody>{p.description}</CardBody>
             <CardFooter>
-              <Button variant="ghost" size="sm">
+              <span class="text-primary-orange text-small font-medium">
                 {t['home.openArrow'] ?? 'Abrir →'}
-              </Button>
+              </span>
             </CardFooter>
           </Card>
         ))
@@ -271,9 +269,9 @@ const learningPaths = [
             </CardHeader>
             <CardBody>{m.description}</CardBody>
             <CardFooter>
-              <Button variant="ghost" size="sm">
+              <span class="text-primary-orange text-small font-medium">
                 {t['home.compareArrow'] ?? 'Comparar →'}
-              </Button>
+              </span>
             </CardFooter>
           </Card>
         ))
@@ -331,9 +329,9 @@ const learningPaths = [
               </div>
             </CardBody>
             <CardFooter>
-              <Button variant="ghost" size="sm">
+              <span class="text-primary-orange text-small font-medium">
                 {t['home.startPath'] ?? 'Comenzar ruta →'}
-              </Button>
+              </span>
             </CardFooter>
           </Card>
         ))

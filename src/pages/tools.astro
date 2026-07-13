@@ -15,6 +15,92 @@ const projects = getEntitiesByType('project')
   .sort((a, b) => a.name.localeCompare(b.name));
 
 const categories = Array.from(new Set(projects.map((p) => p.category))).sort();
+
+// Curated, plain-language explainers for the most famous free tools — written
+// for someone who has never written a line of code. `whatItDoes` avoids jargon;
+// `howToStart` is the single easiest way in; `bestFor` sets expectations.
+const popularTools = [
+  {
+    slug: 'ollama',
+    name: 'Ollama',
+    repo: 'https://github.com/ollama/ollama',
+    noCode: true,
+    whatItDoes:
+      'Run powerful AI chatbots privately on your own computer — no internet or account needed once installed.',
+    howToStart:
+      'Download the installer, then type one line like “ollama run llama3” to start chatting.',
+    bestFor: 'Anyone who wants a private, free ChatGPT-style assistant on their laptop.',
+  },
+  {
+    slug: 'gpt4all',
+    name: 'GPT4All',
+    repo: 'https://github.com/nomic-ai/gpt4all',
+    noCode: true,
+    whatItDoes:
+      'A friendly desktop app to chat with AI completely offline — just download and click.',
+    howToStart: 'Install the app, pick a model from the built-in list, and start typing. No setup.',
+    bestFor: 'Complete beginners who want zero configuration.',
+  },
+  {
+    slug: 'jan',
+    name: 'Jan',
+    repo: 'https://github.com/menloresearch/jan',
+    noCode: true,
+    whatItDoes:
+      'An open-source, offline alternative to ChatGPT that looks and feels like a normal app.',
+    howToStart: 'Download Jan, choose a model, and chat. Your conversations stay on your device.',
+    bestFor: 'People who love the ChatGPT experience but want privacy and no subscription.',
+  },
+  {
+    slug: 'open-webui',
+    name: 'Open WebUI',
+    repo: 'https://github.com/open-webui/open-webui',
+    noCode: false,
+    whatItDoes: 'A polished ChatGPT-like web interface that sits on top of your local models.',
+    howToStart: 'Pairs perfectly with Ollama — install it, connect, and chat in your browser.',
+    bestFor: 'Anyone who wants a beautiful chat interface for models they run themselves.',
+  },
+  {
+    slug: 'comfyui',
+    name: 'ComfyUI',
+    repo: 'https://github.com/comfyanonymous/ComfyUI',
+    noCode: true,
+    whatItDoes: 'Create AI images by connecting visual building blocks — like a flowchart for art.',
+    howToStart: 'Install it, load a starter template, type what you want to see, and press run.',
+    bestFor: 'Visual thinkers who want full control over AI image generation.',
+  },
+  {
+    slug: 'stable-diffusion-webui',
+    name: 'Stable Diffusion WebUI',
+    repo: 'https://github.com/AUTOMATIC1111/stable-diffusion-webui',
+    noCode: true,
+    whatItDoes: 'Generate AI art from a text description in a simple browser dashboard.',
+    howToStart: 'Install it, type a prompt like “a cozy cabin in the snow”, and click Generate.',
+    bestFor: 'Making images fast without learning node editors.',
+  },
+  {
+    slug: 'whisper-cpp',
+    name: 'whisper.cpp',
+    repo: 'https://github.com/ggerganov/whisper.cpp',
+    noCode: false,
+    whatItDoes: 'Turn speech or audio recordings into accurate text, running on your own machine.',
+    howToStart:
+      'Point it at an audio file and it writes out the transcript — great for notes and subtitles.',
+    bestFor: 'Transcribing meetings, videos, and voice notes privately and for free.',
+  },
+  {
+    slug: 'langchain',
+    name: 'LangChain',
+    repo: 'https://github.com/langchain-ai/langchain',
+    noCode: false,
+    whatItDoes: 'A toolkit for building apps that let AI use your own documents and take actions.',
+    howToStart:
+      'For those learning to code — follow its quickstart to build a “chat with your PDF” app.',
+    bestFor: 'Aspiring builders ready to make their first real AI app.',
+  },
+]
+  .map((t) => ({ ...t, exists: projects.some((p) => p.slug === t.slug) }))
+  .filter((t) => t.exists);
 ---
 
 <SiteShell
@@ -24,15 +110,79 @@ const categories = Array.from(new Set(projects.map((p) => p.category))).sort();
   <Container class="flex flex-col gap-6 py-10">
     <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Tools' }]} />
     <header class="flex flex-col gap-2">
-      <Badge variant="project">Tools</Badge>
-      <h1 class="text-text text-h1 font-bold tracking-tight md:text-5xl">Tool Directory</h1>
+      <Badge variant="project">Open-source toolbox</Badge>
+      <h1 class="text-text text-h1 font-bold tracking-tight md:text-5xl">
+        Free AI tools, <span class="text-gradient-brand">explained simply</span>
+      </h1>
       <p class="text-text-muted text-body max-w-prose">
-        Every open-source project in the Atlas, sorted alphabetically. Use the chips below to filter
-        by category — inference engines, training frameworks, agents, and more.
+        The famous, free, open-source AI tools people use around the world — what each one does, who
+        it's for, and how to start. No jargon. Many need <strong class="text-text"
+          >no coding at all</strong
+        >.
       </p>
     </header>
 
-    <Section containerSize="wide">
+    <!-- Curated: most popular, plain-language -->
+    <Section
+      eyebrow="Start here"
+      title="Most popular — the ones worth knowing first"
+      description="If you only try a few, try these. Green means no coding required."
+      containerSize="wide"
+    >
+      <Grid cols={{ base: 1, md: 2 }} gap={6}>
+        {
+          popularTools.map((t) => (
+            <div class="border-border bg-surface-card lift flex h-full flex-col gap-4 rounded-2xl border p-6">
+              <div class="flex items-start justify-between gap-3">
+                <h3 class="text-text text-h3 font-semibold">{t.name}</h3>
+                {t.noCode ? (
+                  <span class="border-success/40 text-success bg-success/10 text-tiny inline-flex shrink-0 items-center rounded-full border px-2.5 py-1 font-semibold">
+                    No coding
+                  </span>
+                ) : (
+                  <span class="border-border text-text-muted bg-surface-elevated text-tiny inline-flex shrink-0 items-center rounded-full border px-2.5 py-1 font-semibold">
+                    A little setup
+                  </span>
+                )}
+              </div>
+              <p class="text-text text-body">{t.whatItDoes}</p>
+              <dl class="text-small flex flex-col gap-2">
+                <div class="flex gap-2">
+                  <dt class="text-primary-orange w-24 shrink-0 font-semibold">How to start</dt>
+                  <dd class="text-text-muted">{t.howToStart}</dd>
+                </div>
+                <div class="flex gap-2">
+                  <dt class="text-primary-orange w-24 shrink-0 font-semibold">Best for</dt>
+                  <dd class="text-text-muted">{t.bestFor}</dd>
+                </div>
+              </dl>
+              <div class="mt-auto flex flex-wrap gap-2 pt-2">
+                <Button as="a" href={`/projects/${t.slug}`} size="sm">
+                  Full guide →
+                </Button>
+                <Button
+                  as="a"
+                  href={t.repo}
+                  size="sm"
+                  variant="secondary"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  View on GitHub ↗
+                </Button>
+              </div>
+            </div>
+          ))
+        }
+      </Grid>
+    </Section>
+
+    <Section
+      eyebrow="Everything"
+      title="The full toolbox"
+      description="Browse all open-source projects in the Atlas, filtered by what they do."
+      containerSize="wide"
+    >
       <div
         class="border-border bg-surface-card flex flex-col gap-3 rounded-lg border p-4"
         aria-label="Filter by category"
@@ -80,9 +230,7 @@ const categories = Array.from(new Set(projects.map((p) => p.category))).sort();
                 </CardHeader>
                 <CardBody>{p.summary}</CardBody>
                 <CardFooter>
-                  <Button variant="ghost" size="sm">
-                    Open →
-                  </Button>
+                  <span class="text-primary-orange text-small font-medium">Open →</span>
                 </CardFooter>
               </Card>
             ))

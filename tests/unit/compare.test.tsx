@@ -243,14 +243,15 @@ describe('ComparisonTable', () => {
   });
 
   it('highlights shared tags with active state', () => {
-    render(<ComparisonTable entityA={projectA} entityB={projectB} />);
-    // Shared tags ("rag", "framework") appear in both the attribute row and
-    // the shared-tags footer row, so we look for them via aria-pressed.
-    const sharedTags = screen.getAllByRole('button', { name: /rag|framework/i });
-    expect(sharedTags.length).toBeGreaterThan(0);
-    for (const button of sharedTags) {
-      expect(button.getAttribute('aria-pressed')).toBe('true');
-    }
+    const { container } = render(<ComparisonTable entityA={projectA} entityB={projectB} />);
+    // Shared tags ("rag", "framework") render as active Tag spans, marked with
+    // data-active="true". (Tags are non-interactive labels, not buttons.)
+    const activeTags = container.querySelectorAll('[data-active="true"]');
+    expect(activeTags.length).toBeGreaterThan(0);
+    const activeText = Array.from(activeTags)
+      .map((el) => el.textContent ?? '')
+      .join(' ');
+    expect(activeText).toMatch(/rag|framework/i);
   });
 
   it('renders a Winner badge for the winning attribute', () => {

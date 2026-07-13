@@ -85,7 +85,7 @@
   html {
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
-    color-scheme: dark light;
+    color-scheme: dark;
     scroll-behavior: smooth;
   }
 
@@ -247,5 +247,103 @@
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
+  }
+
+  /* ---- Brand visual language: ambient glow, gradient text, glass, lift ---- */
+
+  /* Orange gradient text for hero words and section accents. */
+  .text-gradient-brand {
+    background-image: linear-gradient(
+      100deg,
+      var(--color-accent-orange) 0%,
+      var(--color-primary-orange) 45%,
+      var(--color-secondary-orange) 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Soft radial brand glow used behind heroes and section headers. */
+  .glow-brand {
+    position: absolute;
+    pointer-events: none;
+    border-radius: 9999px;
+    background: radial-gradient(
+      closest-side,
+      rgba(255, 106, 0, 0.28),
+      rgba(255, 106, 0, 0.08) 60%,
+      transparent 100%
+    );
+    filter: blur(8px);
+  }
+
+  /* Frosted glass surface for sticky nav and elevated panels. */
+  .glass {
+    background-color: color-mix(in srgb, var(--color-primary-black) 68%, transparent);
+    backdrop-filter: saturate(140%) blur(14px);
+    -webkit-backdrop-filter: saturate(140%) blur(14px);
+  }
+
+  /* Interactive lift: cards/tiles rise and glow on hover. */
+  .lift {
+    transition:
+      transform var(--motion-base) var(--motion-easing-out),
+      box-shadow var(--motion-base) var(--motion-easing-out),
+      border-color var(--motion-base) var(--motion-easing-out);
+    will-change: transform;
+  }
+
+  .lift:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-border-strong);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .lift:hover {
+      transform: none;
+    }
+  }
+
+  /* Gradient hairline border for premium feature cards. */
+  .border-gradient-brand {
+    border: 1px solid transparent;
+    background:
+      linear-gradient(var(--color-card), var(--color-card)) padding-box,
+      linear-gradient(135deg, rgba(255, 106, 0, 0.5), rgba(255, 179, 71, 0.12)) border-box;
+  }
+
+  /* Subtle grid texture for hero backdrops. */
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 44px 44px;
+    -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, #000 40%, transparent 100%);
+    mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, #000 40%, transparent 100%);
+  }
+
+  /* Entrance animation for staggered reveals (respects reduced motion). */
+  @keyframes rise-in {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  .rise-in {
+    animation: rise-in var(--motion-slow) var(--motion-easing-out) both;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .rise-in {
+      animation: none;
+    }
   }
 }

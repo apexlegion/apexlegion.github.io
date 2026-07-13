@@ -6,7 +6,6 @@
  * search button dispatches a `palette:open` custom event consumed by the
  * CommandPalette island.
  */
-import { ThemeToggle } from '@/components/ui/ThemeToggle';
 import { LanguageSwitcher } from '@/components/i18n/LanguageSwitcher';
 import { DEFAULT_LOCALE, normalizeLocale, type Locale, getTranslations } from '@/i18n/utils';
 
@@ -78,7 +77,6 @@ const labels = getTranslations(resolvedLang);
         spanish: labels['language.spanish'],
       }}
     />
-    <ThemeToggle client:load />
     <button
       type="button"
       data-mobile-trigger
