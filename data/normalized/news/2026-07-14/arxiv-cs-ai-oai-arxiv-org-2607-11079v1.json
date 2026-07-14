@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11079v1",
+  "name": "Are LLMs Ready for Scientific Discovery? A Capability-Oriented Benchmark for AI Scientists",
+  "summary": "arXiv:2607.11079v1 Announce Type: new Abstract: Existing benchmarks for scientific data analysis evaluate LLMs primarily on code execution or workflow completion, overlooking that scientific analys...",
+  "description": "arXiv:2607.11079v1 Announce Type: new Abstract: Existing benchmarks for scientific data analysis evaluate LLMs primarily on code execution or workflow completion, overlooking that scientific analysis serves to support distinct types of scientific claims: hypothesis exploration, statistical inference, mechanistic explanation, each with different assumptions and validity criteria. We introduce SD...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11079"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11079"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Chuhan Shi, Xiaoquan Ren, Sicheng Song, Haobo Li, Rui Sheng, Yushi Sun"
+}

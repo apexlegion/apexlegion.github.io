@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/global-affairs/argentinas-ai-opportunity",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/global-affairs/argentinas-ai-opportunity",
+    "title": "Argentina’s AI opportunity",
+    "link": "https://openai.com/global-affairs/argentinas-ai-opportunity",
+    "description": "OpenAI and Sur Energy are exploring Argentina’s first Stargate project—an AI and clean energy collaboration that could make Argentina a Latin American leader in artificial intelligence, sustainable infrastructure, and digital innovation.",
+    "publishedAt": "2025-10-14",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

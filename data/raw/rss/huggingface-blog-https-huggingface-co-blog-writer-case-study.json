@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/writer-case-study",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/writer-case-study",
+    "title": "Leveraging Hugging Face for complex generative AI use cases",
+    "link": "https://huggingface.co/blog/writer-case-study",
+    "description": "",
+    "publishedAt": "2023-07-01",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

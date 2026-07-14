@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-to-acquire-astral",
+  "fetchedAt": "2026-07-14T05:07:36.574Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-to-acquire-astral",
+    "title": "OpenAI to acquire Astral",
+    "link": "https://openai.com/index/openai-to-acquire-astral",
+    "description": "Accelerates Codex growth to power the next generation of Python developer tools",
+    "publishedAt": "2026-03-19",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

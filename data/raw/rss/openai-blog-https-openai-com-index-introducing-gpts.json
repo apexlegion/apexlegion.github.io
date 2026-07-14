@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/introducing-gpts",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/introducing-gpts",
+    "title": "Introducing GPTs",
+    "link": "https://openai.com/index/introducing-gpts",
+    "description": "You can now create custom versions of ChatGPT that combine instructions, extra knowledge, and any combination of skills.",
+    "publishedAt": "2023-11-06",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

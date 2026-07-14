@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/falconmamba",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/falconmamba",
+    "title": "Welcome Falcon Mamba: The first strong attention-free 7B model",
+    "link": "https://huggingface.co/blog/falconmamba",
+    "description": "",
+    "publishedAt": "2024-08-12",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

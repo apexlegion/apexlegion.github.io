@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/altera",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/altera",
+    "title": "Creating agent and human collaboration with GPT 4o",
+    "link": "https://openai.com/index/altera",
+    "description": "Altera uses GPT-4o to build a new area of human collaboration",
+    "publishedAt": "2024-10-01",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

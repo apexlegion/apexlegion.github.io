@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/few-shot-learning-gpt-neo-and-inference-api",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/few-shot-learning-gpt-neo-and-inference-api",
+    "title": "Few-shot learning in practice: GPT-Neo and the 🤗 Accelerated Inference API",
+    "link": "https://huggingface.co/blog/few-shot-learning-gpt-neo-and-inference-api",
+    "description": "",
+    "publishedAt": "2021-06-03",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2410-20535v5",
+  "name": "Asynchronous Perception Machine For Efficient Test-Time-Training",
+  "summary": "arXiv:2410.20535v5 Announce Type: replace-cross Abstract: In this work, we propose Asynchronous Perception Machine (APM), a computationally-efficient architecture for test-time-training (TTT). APM...",
+  "description": "arXiv:2410.20535v5 Announce Type: replace-cross Abstract: In this work, we propose Asynchronous Perception Machine (APM), a computationally-efficient architecture for test-time-training (TTT). APM can process patches of an image one at a time in any order asymmetrically and still encode semantic-awareness in the net. We demonstrate APM's ability to recognize out-of-distribution images without d...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2410.20535"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2410.20535"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Rajat Modi, Yogesh Singh Rawat"
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/global-affairs/accelerating-ai-uptake-in-europe",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/global-affairs/accelerating-ai-uptake-in-europe",
+    "title": "Accelerating AI adoption in Europe",
+    "link": "https://openai.com/global-affairs/accelerating-ai-uptake-in-europe",
+    "description": "OpenAI and Allied for Startups release the Hacktivate AI report with 20 actionable policy ideas to accelerate AI adoption in Europe, boost competitiveness, and empower innovators.",
+    "publishedAt": "2025-10-06",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

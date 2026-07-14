@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/faulty-reward-functions",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/faulty-reward-functions",
+    "title": "Faulty reward functions in the wild",
+    "link": "https://openai.com/index/faulty-reward-functions",
+    "description": "Reinforcement learning algorithms can break in surprising, counterintuitive ways. In this post we’ll explore one failure mode, which is where you misspecify your reward function.",
+    "publishedAt": "2016-12-21",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

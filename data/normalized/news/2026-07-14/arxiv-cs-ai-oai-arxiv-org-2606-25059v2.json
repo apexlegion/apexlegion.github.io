@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2606-25059v2",
+  "name": "What Does It Mean to Break a Distillation Defense?",
+  "summary": "arXiv:2606.25059v2 Announce Type: replace-cross Abstract: Black-box LLMs (accessible only via API) are vulnerable to distillation attacks, in which an attacker queries the model and trains a studen...",
+  "description": "arXiv:2606.25059v2 Announce Type: replace-cross Abstract: Black-box LLMs (accessible only via API) are vulnerable to distillation attacks, in which an attacker queries the model and trains a student on its outputs. A recent line of work proposes output perturbation defenses that modify the teacher's output to reduce student performance while preserving utility for legitimate users. As a relativ...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2606.25059"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2606.25059"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Lena Libon, Pura Peetathawatchai, Michael Aerni, Daniel Paleka, Florian Tram\\`er"
+}

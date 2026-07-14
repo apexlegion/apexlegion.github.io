@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/argilla-ui-hub",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/argilla-ui-hub",
+    "title": "Argilla 2.4: Easily Build Fine-Tuning and Evaluation Datasets on the Hub — No Code Required",
+    "link": "https://huggingface.co/blog/argilla-ui-hub",
+    "description": "",
+    "publishedAt": "2024-11-04",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

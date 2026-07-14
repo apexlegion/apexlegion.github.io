@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/llms-help-robots-understand-vague-instructions-and-focus-key-details-0626",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/llms-help-robots-understand-vague-instructions-and-focus-key-details-0626",
+    "title": "LLMs help robots understand vague instructions and focus on key details",
+    "link": "https://news.mit.edu/2026/llms-help-robots-understand-vague-instructions-and-focus-key-details-0626",
+    "description": "To help robots do chores in places like homes and factories, a new approach from MIT uses one language model to clarify users’ instructions, then another to ignore irrelevant info.",
+    "publishedAt": "2026-06-26",
+    "author": "Alex Shipps | MIT CSAIL",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

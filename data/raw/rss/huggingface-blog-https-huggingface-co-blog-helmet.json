@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/helmet",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/helmet",
+    "title": "Introducing HELMET: Holistically Evaluating Long-context Language Models",
+    "link": "https://huggingface.co/blog/helmet",
+    "description": "",
+    "publishedAt": "2025-04-16",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

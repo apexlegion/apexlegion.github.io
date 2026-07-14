@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-technical-goals",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-technical-goals",
+    "title": "OpenAI technical goals",
+    "link": "https://openai.com/index/openai-technical-goals",
+    "description": "OpenAI’s mission is to build safe AI, and ensure AI’s benefits are as widely and evenly distributed as possible.",
+    "publishedAt": "2016-06-20",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

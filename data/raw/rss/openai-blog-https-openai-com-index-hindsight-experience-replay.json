@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/hindsight-experience-replay",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/hindsight-experience-replay",
+    "title": "Hindsight Experience Replay",
+    "link": "https://openai.com/index/hindsight-experience-replay",
+    "description": "",
+    "publishedAt": "2017-07-05",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

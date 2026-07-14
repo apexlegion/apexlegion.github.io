@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-09826v1",
+  "name": "Towards Objective Dysgraphia Detection: A Multi-Branch Deep Learning Approach for Online Handwriting Analysis",
+  "summary": "arXiv:2607.09826v1 Announce Type: cross Abstract: Dysgraphia is a specific learning disability that is prevalent among school-age children. It affects handwriting coherence, quality, fluency, and l...",
+  "description": "arXiv:2607.09826v1 Announce Type: cross Abstract: Dysgraphia is a specific learning disability that is prevalent among school-age children. It affects handwriting coherence, quality, fluency, and legibility, often hindering academic achievement and early learning development. This motor coordination disorder is typically diagnosed through subjective assessments based on clinician observation, w...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.09826"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.09826"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Lydia Ouhib (LIASD), Yassine Ouzar (LIASD), Zo\\'e Pinseel (LIASD), St\\'ephane Bouilland (LIASD), Mehdi Ammi (LIASD)"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "huggingface-blog-https-huggingface-co-blog-amazon-one-click-to-sagemaker-studio",
+  "name": "From Hugging Face to Amazon SageMaker Studio in one click",
+  "summary": "From Hugging Face to Amazon SageMaker Studio in one click",
+  "description": "From Hugging Face to Amazon SageMaker Studio in one click",
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Hugging Face Blog",
+      "href": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-07",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Hugging Face Blog.",
+      "href": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio"
+    }
+  ],
+  "source": "Hugging Face Blog",
+  "publishedAt": "2026-07-07",
+  "expiryAt": "2026-08-06T00:00:00.000Z"
+}

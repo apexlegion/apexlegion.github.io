@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/introducing-the-codex-app",
+  "fetchedAt": "2026-07-14T05:07:36.574Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/introducing-the-codex-app",
+    "title": "Introducing the Codex app",
+    "link": "https://openai.com/index/introducing-the-codex-app",
+    "description": "Introducing the Codex app for macOS—a command center for AI coding and software development with multiple agents, parallel workflows, and long-running tasks.",
+    "publishedAt": "2026-02-02",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

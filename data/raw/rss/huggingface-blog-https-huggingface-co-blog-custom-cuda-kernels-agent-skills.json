@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/custom-cuda-kernels-agent-skills",
+  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/custom-cuda-kernels-agent-skills",
+    "title": "Custom Kernels for All from Codex and Claude",
+    "link": "https://huggingface.co/blog/custom-cuda-kernels-agent-skills",
+    "description": "",
+    "publishedAt": "2026-02-13",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

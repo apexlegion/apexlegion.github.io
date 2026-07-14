@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-and-journalism",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-and-journalism",
+    "title": "OpenAI and journalism",
+    "link": "https://openai.com/index/openai-and-journalism",
+    "description": "We support journalism, partner with news organizations, and believe The New York Times lawsuit is without merit.",
+    "publishedAt": "2024-01-08",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

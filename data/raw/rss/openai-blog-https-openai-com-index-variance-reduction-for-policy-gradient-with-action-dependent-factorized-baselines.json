@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/variance-reduction-for-policy-gradient-with-action-dependent-factorized-baselines",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/variance-reduction-for-policy-gradient-with-action-dependent-factorized-baselines",
+    "title": "Variance reduction for policy gradient with action-dependent factorized baselines",
+    "link": "https://openai.com/index/variance-reduction-for-policy-gradient-with-action-dependent-factorized-baselines",
+    "description": "",
+    "publishedAt": "2018-03-20",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

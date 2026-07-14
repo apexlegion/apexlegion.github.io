@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/how-agents-are-transforming-work",
+  "fetchedAt": "2026-07-14T05:07:36.574Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/how-agents-are-transforming-work",
+    "title": "How agents are transforming work",
+    "link": "https://openai.com/index/how-agents-are-transforming-work",
+    "description": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+    "publishedAt": "2026-06-25",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

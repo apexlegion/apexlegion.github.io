@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/introducing-openai-japan",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/introducing-openai-japan",
+    "title": "Introducing OpenAI Japan",
+    "link": "https://openai.com/index/introducing-openai-japan",
+    "description": "We are excited to announce our first office in Asia and we’re releasing a GPT-4 custom model optimized for the Japanese language.",
+    "publishedAt": "2024-04-14",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "google-ai-blog-https-blog-google-innovation-and-ai-technology-developers-tools-expanding-managed-agents-gemini-api",
+  "name": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
+  "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp\"&gt;We’re announcing new capabilities in Managed Agents in...",
+  "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp\"&gt;We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
+  "tags": [
+    "news",
+    "google-ai-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Google AI Blog",
+      "href": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-07",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Google AI Blog.",
+      "href": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/"
+    }
+  ],
+  "source": "Google AI Blog",
+  "publishedAt": "2026-07-07",
+  "expiryAt": "2026-08-06T00:00:00.000Z",
+  "author": "<name>Philipp Schmid</name><title>Developer Relations Engineer</title><department>Google DeepMind</department><company/>"
+}

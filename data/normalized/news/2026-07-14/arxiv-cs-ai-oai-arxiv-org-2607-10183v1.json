@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10183v1",
+  "name": "Automated Tensor Scheduling for Hybrid CPU-GPU LLM Inference on Consumer Devices",
+  "summary": "arXiv:2607.10183v1 Announce Type: cross Abstract: Running large language models on consumer devices such as laptops and desktops is challenging because model weights often exceed GPU memory capacit...",
+  "description": "arXiv:2607.10183v1 Announce Type: cross Abstract: Running large language models on consumer devices such as laptops and desktops is challenging because model weights often exceed GPU memory capacity, making offloading inference necessary to extend effective model capacity with CPU memory. Existing offloading systems, however, typically rely on coarse layer-level or expert-level scheduling, whic...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10183"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10183"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Yangyijian Liu, Hongyi Ye, Mingyang Li, Wu-jun Li"
+}

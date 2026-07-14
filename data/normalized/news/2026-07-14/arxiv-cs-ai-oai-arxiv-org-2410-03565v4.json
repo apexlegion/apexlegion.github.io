@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2410-03565v4",
+  "name": "Training on Irrelevant States Implies Data Augmentation: Generalization in Contextual MDPs",
+  "summary": "arXiv:2410.03565v4 Announce Type: replace-cross Abstract: In the zero-shot policy transfer (ZSPT) setting for contextual Markov decision processes (CMDP), agents train on a fixed, finite set of con...",
+  "description": "arXiv:2410.03565v4 Announce Type: replace-cross Abstract: In the zero-shot policy transfer (ZSPT) setting for contextual Markov decision processes (CMDP), agents train on a fixed, finite set of contexts and must generalize to new ones. Recent work has demonstrated that training on additional states, even if they are irrelevant for solving the current context, can improve generalization to unsee...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2410.03565"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2410.03565"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Max Weltevrede, Caroline Horsch, Matthijs T. J. Spaan, Wendelin B\\\"ohmer"
+}

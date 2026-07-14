@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data",
+    "title": "Semi-supervised knowledge transfer for deep learning from private training data",
+    "link": "https://openai.com/index/semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data",
+    "description": "",
+    "publishedAt": "2016-10-18",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

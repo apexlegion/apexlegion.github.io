@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10571v1",
+  "name": "Learning from Local Walks on Dynamic Graphs with Bandit Feedback",
+  "summary": "arXiv:2607.10571v1 Announce Type: cross Abstract: We study stochastic multi-armed bandits on dynamic graphs, where arms correspond to the vertices of a network with time-varying edges. In this sett...",
+  "description": "arXiv:2607.10571v1 Announce Type: cross Abstract: We study stochastic multi-armed bandits on dynamic graphs, where arms correspond to the vertices of a network with time-varying edges. In this setting, the learner is restricted to local movement, selecting only its current node or an immediate neighbor at each round. This constraint decouples best-arm identification from exploitation: even afte...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10571"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10571"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Sourav Chakraborty, Amit Kiran Rege, Claire Monteleoni, Lijun Chen"
+}

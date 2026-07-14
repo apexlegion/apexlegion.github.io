@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-cybersecurity-grant-program",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-cybersecurity-grant-program",
+    "title": "OpenAI Cybersecurity Grant Program",
+    "link": "https://openai.com/index/openai-cybersecurity-grant-program",
+    "description": "Our goal is to facilitate the development of AI-powered cybersecurity capabilities for defenders through grants and other support.",
+    "publishedAt": "2023-06-01",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

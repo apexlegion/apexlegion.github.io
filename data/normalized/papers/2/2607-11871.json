@@ -1,0 +1,39 @@
+{
+  "type": "paper",
+  "slug": "2607-11871",
+  "name": "Inside the Unfair Judge: A Mechanistic Interpretability Account of LLM-as-Judge Bias",
+  "summary": "Existing studies of LLM-as-judge scoring bias work predominantly at the input-output level: they perturb inputs, measure score deltas, and propose prompt-level mitigations. We argue that the same b...",
+  "description": "Existing studies of LLM-as-judge scoring bias work predominantly at the input-output level: they perturb inputs, measure score deltas, and propose prompt-level mitigations. We argue that the same biases admit a representation-level account in the judge's hidden state, complementary to the input-output view and operationally useful in ways it does not afford. We report three findings, across seven judges, seven bias types, and nine benchmarks. Geometry: baseline judging inputs occupy a tight activation manifold while biased inputs are displaced along a low-dimensional, type-specific subspace...",
+  "tags": [
+    "arxiv",
+    "cs.LG"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.11871v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-13",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.LG.",
+      "href": "https://arxiv.org/abs/2607.11871v1"
+    }
+  ],
+  "authors": [
+    "Zixiang Xu",
+    "Sixian Li",
+    "Huaxing Liu",
+    "Xiang Wang",
+    "Shuai Li",
+    "Zirui Song",
+    "Xiuying Chen"
+  ],
+  "paperId": "2607.11871",
+  "category": "cs.LG",
+  "publishedAt": "2026-07-13",
+  "abstract": "Existing studies of LLM-as-judge scoring bias work predominantly at the input-output level: they perturb inputs, measure score deltas, and propose prompt-level mitigations. We argue that the same biases admit a representation-level account in the judge's hidden state, complementary to the input-output view and operationally useful in ways it does not afford. We report three findings, across seven judges, seven bias types, and nine benchmarks. Geometry: baseline judging inputs occupy a tight activation manifold while biased inputs are displaced along a low-dimensional, type-specific subspace..."
+}

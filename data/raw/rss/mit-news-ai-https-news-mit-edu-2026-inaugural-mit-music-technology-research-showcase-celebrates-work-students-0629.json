@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/inaugural-mit-music-technology-research-showcase-celebrates-work-students-0629",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/inaugural-mit-music-technology-research-showcase-celebrates-work-students-0629",
+    "title": "Inaugural Music Technology Research Showcase celebrates work of new graduate program’s initial students",
+    "link": "https://news.mit.edu/2026/inaugural-mit-music-technology-research-showcase-celebrates-work-students-0629",
+    "description": "Associate Professor Anna Huang delivers the keynote address, “In Search of Human-AI Resonance,” to a capacity crowd.",
+    "publishedAt": "2026-06-29",
+    "author": "Dan Pecci | MIT Music and Theater Arts",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

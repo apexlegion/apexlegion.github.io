@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/booking-com",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/booking-com",
+    "title": "Personalizing travel at scale with OpenAI",
+    "link": "https://openai.com/index/booking-com",
+    "description": "By integrating its data systems with OpenAI’s LLMs, Booking.com delivers smarter search, faster support, and intent-driven travel experiences.",
+    "publishedAt": "2025-03-20",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

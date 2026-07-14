@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/start-using-chatgpt-instantly",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/start-using-chatgpt-instantly",
+    "title": "Start using ChatGPT instantly",
+    "link": "https://openai.com/index/start-using-chatgpt-instantly",
+    "description": "We’re making it easier for people to experience the benefits of AI without needing to sign up",
+    "publishedAt": "2024-04-01",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

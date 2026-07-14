@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10784v1",
+  "name": "LSTrans: Efficient Knowledge Transfer for Lightweight and Automated ECG Classification",
+  "summary": "arXiv:2607.10784v1 Announce Type: cross Abstract: Deploying deep learning models for automated electrocardiogram classification on resource-constrained wearable devices remains challenging due to h...",
+  "description": "arXiv:2607.10784v1 Announce Type: cross Abstract: Deploying deep learning models for automated electrocardiogram classification on resource-constrained wearable devices remains challenging due to high computational costs. To address this, we propose LSTrans, a lightweight hybrid model designed for efficient and sensitive ECG analysis. LSTrans introduces a specialized 1D convolutional backbone w...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10784"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10784"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Yi Zhao, Jiajun Gao, Chenyang Xu, Yuxi Zhou, Hao Wang"
+}

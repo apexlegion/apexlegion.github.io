@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2606-11520v3",
+  "name": "ISE: An Execution-Grounded Recipe for Multi-Turn OS-Agent Trajectories",
+  "summary": "arXiv:2606.11520v3 Announce Type: replace-cross Abstract: Training capable OS agents requires data that simultaneously captures structured user intents, multi-turn task delegation, and grounded too...",
+  "description": "arXiv:2606.11520v3 Announce Type: replace-cross Abstract: Training capable OS agents requires data that simultaneously captures structured user intents, multi-turn task delegation, and grounded tool execution--properties absent from existing datasets. We propose ISE (Intent -&gt; Simulate -&gt; Execute), a three-stage synthesis paradigm that addresses these gaps jointly. Stage 1 constructs roug...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2606.11520"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2606.11520"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Siyuan Luo, Nairong Zheng, Lin Zhou, Tiankuo Yao, Shengyou Yuan, Haojia Yu, Cong Pang, Jiapeng Luo, Lewei Lu"
+}

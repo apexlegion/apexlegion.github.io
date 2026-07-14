@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/synthetic-data-save-costs",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/synthetic-data-save-costs",
+    "title": "Synthetic data: save money, time and carbon with open source",
+    "link": "https://huggingface.co/blog/synthetic-data-save-costs",
+    "description": "",
+    "publishedAt": "2024-02-16",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

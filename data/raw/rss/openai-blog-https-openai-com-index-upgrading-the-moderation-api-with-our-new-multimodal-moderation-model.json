@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/upgrading-the-moderation-api-with-our-new-multimodal-moderation-model",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/upgrading-the-moderation-api-with-our-new-multimodal-moderation-model",
+    "title": "Upgrading the Moderation API with our new multimodal moderation model",
+    "link": "https://openai.com/index/upgrading-the-moderation-api-with-our-new-multimodal-moderation-model",
+    "description": "We’re introducing a new model built on GPT-4o that is more accurate at detecting harmful text and images, enabling developers to build more robust moderation systems.",
+    "publishedAt": "2024-09-26",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

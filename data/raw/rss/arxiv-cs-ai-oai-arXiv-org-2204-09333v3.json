@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2204.09333v3",
+  "fetchedAt": "2026-07-14T05:07:36.736Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2204.09333v3",
+    "title": "Profiling and Evolution of Intellectual Property",
+    "link": "https://arxiv.org/abs/2204.09333",
+    "description": "arXiv:2204.09333v3 Announce Type: replace-cross Abstract: In recent years, with the rapid growth of Internet data, the number and types of scientific and technological resources are also rapidly expanding. However, the increase in the number and category of information data will also increase the cost of information acquisition. For technology-based enterprises or users, in addition to general papers, patents, and other resources, policies related to technology or the development of their industries should also belong to a type of scientific and technological resource. Extracting valuable science and technology policy resources from a huge amount of mixed-content data and providing accurate and fast retrieval will help break down information barriers and reduce information-acquisition costs, which has profound social significance and utility. This article focuses on the difficulties and problems in the field of science and technology policy and introduces related technologies and developments.",
+    "publishedAt": "2026-07-14",
+    "author": "Bowen Yu, Yingxia Shao, Ang Li",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

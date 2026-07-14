@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2602-17686v5",
+  "name": "BRIDGE: Bridging Reasoning In Distillation Gap Elimination via Structure-Aware Masking",
+  "summary": "arXiv:2602.17686v5 Announce Type: replace-cross Abstract: Chain-of-Thought (CoT) reasoning has significantly improved LLMs' mathematical problem-solving capabilities, but distilling such capabiliti...",
+  "description": "arXiv:2602.17686v5 Announce Type: replace-cross Abstract: Chain-of-Thought (CoT) reasoning has significantly improved LLMs' mathematical problem-solving capabilities, but distilling such capabilities into smaller models remains challenging due to the capacity mismatch between verbose teachers and compact students. Directly copying teachers' lengthy reasoning chains causes capacity overload, res...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2602.17686"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2602.17686"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Bowen Yu, Sheng Zhang, Binhao Wang, Yi Wen, Jingtong Gao, Bowen Liu, Zimo Zhao, Shanshan Ye, Wanyu Wang, Maolin Wang, Xiangyu Zhao"
+}

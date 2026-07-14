@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/roboschool",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/roboschool",
+    "title": "Roboschool",
+    "link": "https://openai.com/index/roboschool",
+    "description": "We are releasing Roboschool: open-source software for robot simulation, integrated with OpenAI Gym.",
+    "publishedAt": "2017-05-15",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

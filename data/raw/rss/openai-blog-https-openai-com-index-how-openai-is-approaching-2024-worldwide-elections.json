@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/how-openai-is-approaching-2024-worldwide-elections",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/how-openai-is-approaching-2024-worldwide-elections",
+    "title": "How OpenAI is approaching 2024 worldwide elections",
+    "link": "https://openai.com/index/how-openai-is-approaching-2024-worldwide-elections",
+    "description": "We’re working to prevent abuse, provide transparency on AI-generated content, and improve access to accurate voting information.",
+    "publishedAt": "2024-01-15",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

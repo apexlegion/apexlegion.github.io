@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/newsroom-ai-catalyst-global-program-with-wan-ifra",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/newsroom-ai-catalyst-global-program-with-wan-ifra",
+    "title": "The Newsroom AI Catalyst: a global program with WAN-IFRA",
+    "link": "https://openai.com/index/newsroom-ai-catalyst-global-program-with-wan-ifra",
+    "description": "",
+    "publishedAt": "2024-05-29",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

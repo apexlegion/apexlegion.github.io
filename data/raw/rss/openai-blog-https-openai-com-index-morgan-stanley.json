@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/morgan-stanley",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/morgan-stanley",
+    "title": "Morgan Stanley is shaping the future of financial services",
+    "link": "https://openai.com/index/morgan-stanley",
+    "description": "Morgan Stanley uses AI evals to shape the future of financial services",
+    "publishedAt": "2024-12-04",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

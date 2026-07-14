@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/digital-green",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/digital-green",
+    "title": "Building agricultural database for farmers",
+    "link": "https://openai.com/index/digital-green",
+    "description": "Digital Green uses OpenAI to increase farmer income.",
+    "publishedAt": "2024-01-12",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

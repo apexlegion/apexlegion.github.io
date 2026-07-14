@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/content-partnership-with-financial-times",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/content-partnership-with-financial-times",
+    "title": "We’re bringing the Financial Times’ world-class journalism to ChatGPT",
+    "link": "https://openai.com/index/content-partnership-with-financial-times",
+    "description": "We will also collaborate on new AI experiences for FT readers.",
+    "publishedAt": "2024-04-29",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

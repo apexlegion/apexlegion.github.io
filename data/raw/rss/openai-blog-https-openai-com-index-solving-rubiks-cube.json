@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/solving-rubiks-cube",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/solving-rubiks-cube",
+    "title": "Solving Rubik’s Cube with a robot hand",
+    "link": "https://openai.com/index/solving-rubiks-cube",
+    "description": "We’ve trained a pair of neural networks to solve the Rubik’s Cube with a human-like robot hand. The neural networks are trained entirely in simulation, using the same reinforcement learning code as OpenAI Five paired with a new technique called Automatic Domain Randomization (ADR). The system can handle situations it never saw during training, such as being prodded by a stuffed giraffe. This shows that reinforcement learning isn’t just a tool for virtual tasks, but can solve physical-world problems requiring unprecedented dexterity.",
+    "publishedAt": "2019-10-15",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

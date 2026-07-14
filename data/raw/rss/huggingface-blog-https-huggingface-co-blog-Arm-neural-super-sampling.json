@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/Arm/neural-super-sampling",
+  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/Arm/neural-super-sampling",
+    "title": "Neural Super Sampling is here!",
+    "link": "https://huggingface.co/blog/Arm/neural-super-sampling",
+    "description": "",
+    "publishedAt": "2025-08-12",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

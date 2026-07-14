@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2602-23242v4",
+  "name": "A Model-Free Universal AI",
+  "summary": "arXiv:2602.23242v4 Announce Type: replace Abstract: In general reinforcement learning, all established optimal agents, including AIXI, are model-based, explicitly maintaining and using environment...",
+  "description": "arXiv:2602.23242v4 Announce Type: replace Abstract: In general reinforcement learning, all established optimal agents, including AIXI, are model-based, explicitly maintaining and using environment models. This paper introduces Universal AI with Q-Induction (AIQI), the first model-free agent proven to be asymptotically $\\varepsilon$-optimal in general RL. AIQI performs universal induction over d...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2602.23242"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2602.23242"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Yegon Kim, Juho Lee"
+}

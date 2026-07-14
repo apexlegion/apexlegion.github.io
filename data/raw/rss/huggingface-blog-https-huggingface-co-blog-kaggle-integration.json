@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/kaggle-integration",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/kaggle-integration",
+    "title": "Improving Hugging Face Model Access for Kaggle Users",
+    "link": "https://huggingface.co/blog/kaggle-integration",
+    "description": "",
+    "publishedAt": "2025-05-14",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

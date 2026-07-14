@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2508-09904v3",
+  "name": "Beyond Na\\\"ive Prompting: Strategies for Improved Context-aided Forecasting with LLMs",
+  "summary": "arXiv:2508.09904v3 Announce Type: replace-cross Abstract: Real-world forecasting requires models to integrate not only historical data but also relevant contextual information provided in textual f...",
+  "description": "arXiv:2508.09904v3 Announce Type: replace-cross Abstract: Real-world forecasting requires models to integrate not only historical data but also relevant contextual information provided in textual form. While large language models (LLMs) show promise for context-aided forecasting, critical challenges remain: we lack diagnostic tools to understand failure modes, performance remains far below thei...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2508.09904"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2508.09904"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Arjun Ashok, Andrew Robert Williams, Vincent Zhihao Zheng, Irina Rish, Nicolas Chapados, \\'Etienne Marcotte, Valentina Zantedeschi, Alexandre Drouin"
+}

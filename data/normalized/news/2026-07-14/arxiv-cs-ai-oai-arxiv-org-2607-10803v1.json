@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10803v1",
+  "name": "Weight-Adjusted Gradients Reveal Parameter Importance and Failure Modes in LLMs",
+  "summary": "arXiv:2607.10803v1 Announce Type: cross Abstract: Understanding which parameters are influential in Large Language Models (LLMs) is central to improving their efficiency, reliability, and interpret...",
+  "description": "arXiv:2607.10803v1 Announce Type: cross Abstract: Understanding which parameters are influential in Large Language Models (LLMs) is central to improving their efficiency, reliability, and interpretability. We introduce Weight-Adjusted Gradients (WAG), a simple yet effective approach for estimating parameter importance that explicitly captures the interaction between model weights and first-orde...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10803"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10803"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Shrestha Datta, Hongfu Liu, Anshuman Chhabra"
+}

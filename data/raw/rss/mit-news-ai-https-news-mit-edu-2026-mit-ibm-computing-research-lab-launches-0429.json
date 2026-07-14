@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/mit-ibm-computing-research-lab-launches-0429",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/mit-ibm-computing-research-lab-launches-0429",
+    "title": "The MIT-IBM Computing Research Lab launches to shape the future of AI and quantum computing",
+    "link": "https://news.mit.edu/2026/mit-ibm-computing-research-lab-launches-0429",
+    "description": "Building on a long-standing MIT–IBM collaboration, the new lab will chart the convergence of AI, algorithms, and quantum computing.",
+    "publishedAt": "2026-04-29",
+    "author": "MIT Schwarzman College of Computing",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

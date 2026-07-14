@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise",
+    "title": "DALL·E 3 is now available in ChatGPT Plus and Enterprise",
+    "link": "https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise",
+    "description": "We developed a safety mitigation stack to ready DALL·E 3 for wider release and are sharing updates on our provenance research.",
+    "publishedAt": "2023-10-19",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+  "fetchedAt": "2026-07-14T05:07:36.574Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+    "title": "Advancing voice intelligence with new models in the API",
+    "link": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+    "description": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
+    "publishedAt": "2026-05-07",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

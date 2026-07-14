@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "google-ai-blog:https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+  "fetchedAt": "2026-07-14T05:07:36.145Z",
+  "data": {
+    "guid": "google-ai-blog:https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+    "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+    "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp\"&gt;We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
+    "publishedAt": "2026-05-29",
+    "author": "<name>Zahra Thompson</name><title>Contributing writer</title><department/><company/>",
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  },
+  "extra": {
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  }
+}

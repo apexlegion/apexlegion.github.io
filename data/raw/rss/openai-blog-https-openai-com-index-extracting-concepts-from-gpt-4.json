@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/extracting-concepts-from-gpt-4",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/extracting-concepts-from-gpt-4",
+    "title": "Extracting Concepts from GPT-4",
+    "link": "https://openai.com/index/extracting-concepts-from-gpt-4",
+    "description": "Using new techniques for scaling sparse autoencoders, we automatically identified 16 million patterns in GPT-4's computations.",
+    "publishedAt": "2024-06-06",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

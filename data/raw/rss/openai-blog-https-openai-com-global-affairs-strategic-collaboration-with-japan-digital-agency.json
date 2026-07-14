@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/global-affairs/strategic-collaboration-with-japan-digital-agency",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/global-affairs/strategic-collaboration-with-japan-digital-agency",
+    "title": "OpenAI announces strategic collaboration with Japan’s Digital Agency",
+    "link": "https://openai.com/global-affairs/strategic-collaboration-with-japan-digital-agency",
+    "description": "OpenAI and Japan’s Digital Agency partner to advance generative AI in public services, support international AI governance, and promote safe, trustworthy AI adoption worldwide.",
+    "publishedAt": "2025-10-02",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

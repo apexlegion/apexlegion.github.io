@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/disrupting-a-covert-iranian-influence-operation",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/disrupting-a-covert-iranian-influence-operation",
+    "title": "Disrupting a covert Iranian influence operation",
+    "link": "https://openai.com/index/disrupting-a-covert-iranian-influence-operation",
+    "description": "",
+    "publishedAt": "2024-08-16",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

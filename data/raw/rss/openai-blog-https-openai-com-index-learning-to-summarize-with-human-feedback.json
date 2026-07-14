@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/learning-to-summarize-with-human-feedback",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/learning-to-summarize-with-human-feedback",
+    "title": "Learning to summarize with human feedback",
+    "link": "https://openai.com/index/learning-to-summarize-with-human-feedback",
+    "description": "We’ve applied reinforcement learning from human feedback to train language models that are better at summarization.",
+    "publishedAt": "2020-09-04",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

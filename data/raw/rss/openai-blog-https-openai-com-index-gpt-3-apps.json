@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/gpt-3-apps",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/gpt-3-apps",
+    "title": "GPT-3 powers the next generation of apps",
+    "link": "https://openai.com/index/gpt-3-apps",
+    "description": "Over 300 applications are delivering GPT-3–powered search, conversation, text completion, and other advanced AI features through our API.",
+    "publishedAt": "2021-03-25",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

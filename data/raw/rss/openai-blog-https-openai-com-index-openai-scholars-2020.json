@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-scholars-2020",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-scholars-2020",
+    "title": "OpenAI Scholars 2020: Applications open",
+    "link": "https://openai.com/index/openai-scholars-2020",
+    "description": "We are now accepting applications for our third class of OpenAI Scholars.",
+    "publishedAt": "2019-10-11",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.09822v1",
+  "fetchedAt": "2026-07-14T05:07:36.736Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.09822v1",
+    "title": "Memory-Conditioned Tool Calling for Camera-First Visual Agents",
+    "link": "https://arxiv.org/abs/2607.09822",
+    "description": "arXiv:2607.09822v1 Announce Type: cross Abstract: Recognition tells an agent what is in an image; personal memory affects what is worth looking up next. In a camera-first setting the user can send only an image, so the agent must form the lookups. We study whether personal visual memory improves agent-side tool choice and tool arguments, and thereby more user-aligned multi-tool lookups. The design uses a three-layer personal visual memory (profile, short-term focus, observations) that is loaded on each turn to condition an LLM tool-calling loop under camera-first intake, and includes conflict-aware write-back intended to refresh the user model for later captures. On 800 images paired with synthetic memory blocks constructed for controlled ablation, removing the full three-layer memory block reduces tool-query relevance by 0.47 points absolute (4.21 -&gt; 3.74 on a 5-point scale; 11.2% relative) and end-to-end utility by 0.082 absolute (0.842 -&gt; 0.760; 9.7% relative). These results measure memory conditioning of tool policy under image-only intake with fixed synthetic blocks, not multi-session write-back from live user histories.",
+    "publishedAt": "2026-07-14",
+    "author": "Xiaofan Wu (Chance AI), Xi Zeng (Chance AI), Miaoxia Chen (Chance AI), Peishan Chen (Chance AI), Shuyan Li (Chance AI), Jiyun Yao (Chance AI), Hanyong Zhong (Chance AI), Jiahao Zhu (Chance AI)",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

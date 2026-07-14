@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "huggingface-blog-https-huggingface-co-blog-microsoft-foundry-managed-compute",
+  "name": "Hugging Face Models on Foundry Managed Compute",
+  "summary": "Hugging Face Models on Foundry Managed Compute",
+  "description": "Hugging Face Models on Foundry Managed Compute",
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Hugging Face Blog",
+      "href": "https://huggingface.co/blog/microsoft/foundry-managed-compute"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-07",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Hugging Face Blog.",
+      "href": "https://huggingface.co/blog/microsoft/foundry-managed-compute"
+    }
+  ],
+  "source": "Hugging Face Blog",
+  "publishedAt": "2026-07-07",
+  "expiryAt": "2026-08-06T00:00:00.000Z"
+}

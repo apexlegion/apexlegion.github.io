@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/whoop",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/whoop",
+    "title": "Delivering LLM-powered health solutions",
+    "link": "https://openai.com/index/whoop",
+    "description": "WHOOP delivers personalized fitness and health coaching with GPT-4.",
+    "publishedAt": "2024-01-04",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

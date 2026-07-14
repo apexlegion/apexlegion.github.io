@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "google-ai-blog:https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+  "fetchedAt": "2026-07-14T05:07:36.145Z",
+  "data": {
+    "guid": "google-ai-blog:https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+    "title": "Catch up on 12 major I/O 2026 moments",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+    "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KW_KNH.max-600x600.format-webp.webp\"&gt;Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more.",
+    "publishedAt": "2026-05-28",
+    "author": "<name>Zahra Thompson</name><title>Contributing writer</title><department/><company/>",
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  },
+  "extra": {
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  }
+}

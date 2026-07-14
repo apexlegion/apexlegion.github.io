@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/rakuten-2024",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/rakuten-2024",
+    "title": "Pairing data with APIs to unlock customer value",
+    "link": "https://openai.com/index/rakuten-2024",
+    "description": "Rakuten Pairs Data with AI to Unlock Customer Insights and Value",
+    "publishedAt": "2024-08-07",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

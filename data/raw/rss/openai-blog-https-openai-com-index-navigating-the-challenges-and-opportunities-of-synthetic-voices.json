@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/navigating-the-challenges-and-opportunities-of-synthetic-voices",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/navigating-the-challenges-and-opportunities-of-synthetic-voices",
+    "title": "Navigating the challenges and opportunities of synthetic voices",
+    "link": "https://openai.com/index/navigating-the-challenges-and-opportunities-of-synthetic-voices",
+    "description": "We’re sharing lessons from a small scale preview of Voice Engine, a model for creating custom voices.",
+    "publishedAt": "2024-03-29",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

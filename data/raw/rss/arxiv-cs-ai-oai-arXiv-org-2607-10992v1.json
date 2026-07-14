@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.10992v1",
+  "fetchedAt": "2026-07-14T05:07:36.736Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.10992v1",
+    "title": "LoSA-Net: A Localized and Scale-Adaptive Network for Boundary-Sensitive Prediction of Perineural Invasion in 3D MRI",
+    "link": "https://arxiv.org/abs/2607.10992",
+    "description": "arXiv:2607.10992v1 Announce Type: cross Abstract: Perineural invasion (PNI) is a clinically relevant indicator of tumor aggressiveness and can influence surgical decision-making, motivating interest in reliable preoperative assessment. The subtle MRI features of PNI, however, often resemble nearby anatomy, complicating noninvasive prediction. These fine perineural cues are easily attenuated by routine downsampling or overly global feature aggregation, reducing the effectiveness of conventional volumetric models. We present LoSA-Net, a localized and scale-adaptive architecture for boundary-sensitive PNI prediction in 3D MRI. Talking Neighborhood Attention (TNA) preserves nerve-aligned detail through localized self-attention with head-wise mixing, and Scale-Adaptive Feature Mixing (SAFM) modulates the receptive field using multi-scale depthwise processing. Cross-Scale Refinement and Alignment (CSRA) maintains consistency between semantic context and high-resolution boundaries across stages. In contrast-enhanced MRI scans from 168 patients with cholangiocarcinoma, LoSA-Net achieves an AUC of 0.7567 and outperforms representative convolutional and transformer baselines under matched preprocessing and optimization settings.",
+    "publishedAt": "2026-07-14",
+    "author": "Youngung Han, Hyunsu Go, Kyeonghun Kim, Induk Um, Junga Kim, Jaewon Jung, Woo Kyoung Jeong, Won Jae Lee, Pa Hong, Ken Ying-Kai Liao, Hyuk-Jae Lee, Nam-Joon Kim",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

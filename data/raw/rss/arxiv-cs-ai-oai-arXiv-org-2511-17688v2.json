@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2511.17688v2",
+  "fetchedAt": "2026-07-14T05:07:36.736Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2511.17688v2",
+    "title": "Enhancing Adversarial Transferability through Block Stretch and Shrink",
+    "link": "https://arxiv.org/abs/2511.17688",
+    "description": "arXiv:2511.17688v2 Announce Type: replace-cross Abstract: Input transformation-based attacks improve adversarial transferability by aggregating gradients over transformed inputs. Existing analyses mainly explain their efficacy from image diversity, semantic preservation, attention variance or hypothesis space augmentation, yet overlook the critical role of model frontend responses. In this paper, we revisit transformation-based attacks from an implicit ensemble perspective: each transformation can be viewed as a pre-processing operator before the surrogate model, inducing a distinct frontend response for gradient aggregation. Based on this view, we propose FRO, a Frontend Response-Oriented input transformation method that enriches such responses through two complementary operators. The Local Scaling Operator perturbs local content sampling via block-wise stretch-and-shrink operations, while the Projection Operator modifies global spatial organization through coherent perspective deformation. Together, they produce structured transformed views to optimize transferable adversarial perturbations. Experiments on an ImageNet subset show that FRO consistently improves black-box transferability across diverse CNN and Vision Transformer models. We further analyze the effect of implicit ensemble size and evaluate different transformation-based methods under a unified ensemble scale, demonstrating the superiority of designing input transformations from the perspective of front-end response ensembles.",
+    "publishedAt": "2026-07-14",
+    "author": "Quan Liu, Feng Ye, Chenhao Lu, Shuming Zhen, Guanliang Huang, Lunzhe Chen, Xudong Ke",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

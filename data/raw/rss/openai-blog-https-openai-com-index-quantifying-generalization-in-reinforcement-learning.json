@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/quantifying-generalization-in-reinforcement-learning",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/quantifying-generalization-in-reinforcement-learning",
+    "title": "Quantifying generalization in reinforcement learning",
+    "link": "https://openai.com/index/quantifying-generalization-in-reinforcement-learning",
+    "description": "We’re releasing CoinRun, a training environment which provides a metric for an agent’s ability to transfer its experience to novel situations and has already helped clarify a longstanding puzzle in reinforcement learning. CoinRun strikes a desirable balance in complexity: the environment is simpler than traditional platformer games like Sonic the Hedgehog but still poses a worthy generalization challenge for state of the art algorithms.",
+    "publishedAt": "2018-12-06",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

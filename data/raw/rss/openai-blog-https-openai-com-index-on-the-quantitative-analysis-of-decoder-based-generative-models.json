@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/on-the-quantitative-analysis-of-decoder-based-generative-models",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/on-the-quantitative-analysis-of-decoder-based-generative-models",
+    "title": "On the quantitative analysis of decoder-based generative models",
+    "link": "https://openai.com/index/on-the-quantitative-analysis-of-decoder-based-generative-models",
+    "description": "",
+    "publishedAt": "2016-11-14",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

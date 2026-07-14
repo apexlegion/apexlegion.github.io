@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences",
+    "title": "Accelerating life sciences research",
+    "link": "https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences",
+    "description": "Discover how a specialized AI model, GPT-4b micro, helped OpenAI and Retro Bio engineer more effective proteins for stem cell therapy and longevity research.",
+    "publishedAt": "2025-08-22",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

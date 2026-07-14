@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "huggingface-blog-https-huggingface-co-blog-dharma-ai-why-specialization-is-inevitable",
+  "name": "Why Specialization Is Inevitable",
+  "summary": "Why Specialization Is Inevitable",
+  "description": "Why Specialization Is Inevitable",
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Hugging Face Blog",
+      "href": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-06-30",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Hugging Face Blog.",
+      "href": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable"
+    }
+  ],
+  "source": "Hugging Face Blog",
+  "publishedAt": "2026-06-30",
+  "expiryAt": "2026-07-30T00:00:00.000Z"
+}

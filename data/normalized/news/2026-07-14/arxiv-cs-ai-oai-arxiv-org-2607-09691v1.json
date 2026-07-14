@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-09691v1",
+  "name": "What Context Does a Coding Agent Actually Need to Act?",
+  "summary": "arXiv:2607.09691v1 Announce Type: cross Abstract: A modern coding agent can hold an entire repository in its context window. Most of its reading is wasted -- and the interesting question is not how...",
+  "description": "arXiv:2607.09691v1 Announce Type: cross Abstract: A modern coding agent can hold an entire repository in its context window. Most of its reading is wasted -- and the interesting question is not how much context an agent can use, but what it actually \\emph{needs}. We study that question at the moment it matters most: when the agent must \\emph{edit} code. Separating \\emph{finding} the work site f...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.09691"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.09691"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Brian Sam-Bodden"
+}

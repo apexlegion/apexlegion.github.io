@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/how-novice-coders-can-develop-ai-programs-for-military-applications-0707",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/how-novice-coders-can-develop-ai-programs-for-military-applications-0707",
+    "title": "How novice coders can develop AI programs for military applications",
+    "link": "https://news.mit.edu/2026/how-novice-coders-can-develop-ai-programs-for-military-applications-0707",
+    "description": "A USAF cadet and a Lincoln Laboratory researcher found AI chatbots can help nontechnical service members produce viable software applications for their unique problems.",
+    "publishedAt": "2026-07-07",
+    "author": "Haley Wahl | MIT Lincoln Laboratory",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

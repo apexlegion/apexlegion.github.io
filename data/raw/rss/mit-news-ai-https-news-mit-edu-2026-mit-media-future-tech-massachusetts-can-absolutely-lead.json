@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/mit-media-future-tech-massachusetts-can-absolutely-lead",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/mit-media-future-tech-massachusetts-can-absolutely-lead",
+    "title": "MIT in the media: For the future of tech, \"Massachusetts can absolutely lead\"",
+    "link": "https://news.mit.edu/2026/mit-media-future-tech-massachusetts-can-absolutely-lead",
+    "description": "Leaders, faculty across MIT discuss fostering innovation and talent in Greater Boston in special series of articles published alongside the outlet's annual list of 'Tech Power Players'",
+    "publishedAt": "2026-06-18",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

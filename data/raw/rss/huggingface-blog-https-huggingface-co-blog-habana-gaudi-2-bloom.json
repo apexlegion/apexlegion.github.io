@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/habana-gaudi-2-bloom",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/habana-gaudi-2-bloom",
+    "title": "Fast Inference on Large Language Models: BLOOMZ on Habana Gaudi2 Accelerator",
+    "link": "https://huggingface.co/blog/habana-gaudi-2-bloom",
+    "description": "",
+    "publishedAt": "2023-03-28",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

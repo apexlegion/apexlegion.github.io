@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/quanto-introduction",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/quanto-introduction",
+    "title": "Quanto: a PyTorch quantization backend for Optimum",
+    "link": "https://huggingface.co/blog/quanto-introduction",
+    "description": "",
+    "publishedAt": "2024-03-18",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

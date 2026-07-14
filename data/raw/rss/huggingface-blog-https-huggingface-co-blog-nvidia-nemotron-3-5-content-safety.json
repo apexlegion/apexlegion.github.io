@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+    "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+    "link": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+    "description": "",
+    "publishedAt": "2026-06-04",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

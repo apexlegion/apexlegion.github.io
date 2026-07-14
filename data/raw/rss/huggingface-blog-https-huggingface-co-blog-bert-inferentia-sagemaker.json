@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/bert-inferentia-sagemaker",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/bert-inferentia-sagemaker",
+    "title": "Accelerate BERT inference with Hugging Face Transformers and AWS Inferentia",
+    "link": "https://huggingface.co/blog/bert-inferentia-sagemaker",
+    "description": "",
+    "publishedAt": "2022-03-16",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/paperbench",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/paperbench",
+    "title": "PaperBench: Evaluating AI’s Ability to Replicate AI Research",
+    "link": "https://openai.com/index/paperbench",
+    "description": "We introduce PaperBench, a benchmark evaluating the ability of AI agents to replicate state-of-the-art AI research.",
+    "publishedAt": "2025-04-02",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

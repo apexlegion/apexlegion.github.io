@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-acquires-rockset",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-acquires-rockset",
+    "title": "OpenAI acquires Rockset",
+    "link": "https://openai.com/index/openai-acquires-rockset",
+    "description": "OpenAI Acquires Rockset",
+    "publishedAt": "2024-06-21",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

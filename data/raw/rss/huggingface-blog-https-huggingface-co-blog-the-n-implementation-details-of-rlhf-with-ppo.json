@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/the_n_implementation_details_of_rlhf_with_ppo",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/the_n_implementation_details_of_rlhf_with_ppo",
+    "title": "The N Implementation Details of RLHF with PPO",
+    "link": "https://huggingface.co/blog/the_n_implementation_details_of_rlhf_with_ppo",
+    "description": "",
+    "publishedAt": "2023-10-24",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

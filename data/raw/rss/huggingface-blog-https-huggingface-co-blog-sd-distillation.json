@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/sd_distillation",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/sd_distillation",
+    "title": "Open-sourcing Knowledge Distillation Code and Weights of SD-Small and SD-Tiny",
+    "link": "https://huggingface.co/blog/sd_distillation",
+    "description": "",
+    "publishedAt": "2023-08-01",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

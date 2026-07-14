@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/zerogpu-aoti",
+  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/zerogpu-aoti",
+    "title": "Make your ZeroGPU Spaces go brrr with ahead-of-time compilation",
+    "link": "https://huggingface.co/blog/zerogpu-aoti",
+    "description": "",
+    "publishedAt": "2025-09-02",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

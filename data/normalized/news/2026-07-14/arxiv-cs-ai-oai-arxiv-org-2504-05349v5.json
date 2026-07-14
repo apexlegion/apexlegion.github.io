@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2504-05349v5",
+  "name": "Hyperflux: Pruning Reveals Importance",
+  "summary": "arXiv:2504.05349v5 Announce Type: replace-cross Abstract: Network pruning is used to reduce inference latency and power consumption in large neural networks. However, most methods focus on empirica...",
+  "description": "arXiv:2504.05349v5 Announce Type: replace-cross Abstract: Network pruning is used to reduce inference latency and power consumption in large neural networks. However, most methods focus on empirical results at the expense of understanding the pruning process. We introduce Hyperflux, a novel $L_0$ method which models pruning as a continuously evolving system determined by flux, the gradient resp...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2504.05349"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2504.05349"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Eugen Barbulescu, Antonio Alexoaie, Lucian Busoniu"
+}

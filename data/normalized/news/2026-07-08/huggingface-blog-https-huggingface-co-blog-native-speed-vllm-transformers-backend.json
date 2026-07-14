@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "huggingface-blog-https-huggingface-co-blog-native-speed-vllm-transformers-backend",
+  "name": "Native-speed vLLM transformers modeling backend",
+  "summary": "Native-speed vLLM transformers modeling backend",
+  "description": "Native-speed vLLM transformers modeling backend",
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Hugging Face Blog",
+      "href": "https://huggingface.co/blog/native-speed-vllm-transformers-backend"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-08",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Hugging Face Blog.",
+      "href": "https://huggingface.co/blog/native-speed-vllm-transformers-backend"
+    }
+  ],
+  "source": "Hugging Face Blog",
+  "publishedAt": "2026-07-08",
+  "expiryAt": "2026-08-07T00:00:00.000Z"
+}

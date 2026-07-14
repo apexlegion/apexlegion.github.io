@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/strengthening-the-us-ai-supply-chain",
+  "fetchedAt": "2026-07-14T05:07:36.574Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/strengthening-the-us-ai-supply-chain",
+    "title": "Strengthening the U.S. AI supply chain through domestic manufacturing",
+    "link": "https://openai.com/index/strengthening-the-us-ai-supply-chain",
+    "description": "OpenAI launches a new RFP to strengthen the U.S. AI supply chain by accelerating domestic manufacturing, creating jobs, and scaling AI infrastructure.",
+    "publishedAt": "2026-01-15",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

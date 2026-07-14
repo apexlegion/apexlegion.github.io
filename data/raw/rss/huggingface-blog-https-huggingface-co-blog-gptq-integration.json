@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/gptq-integration",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/gptq-integration",
+    "title": "Making LLMs lighter with AutoGPTQ and transformers",
+    "link": "https://huggingface.co/blog/gptq-integration",
+    "description": "",
+    "publishedAt": "2023-08-23",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

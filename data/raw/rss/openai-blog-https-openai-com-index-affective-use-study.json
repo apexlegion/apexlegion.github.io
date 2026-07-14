@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/affective-use-study",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/affective-use-study",
+    "title": "Early methods for studying affective use and emotional well-being on ChatGPT",
+    "link": "https://openai.com/index/affective-use-study",
+    "description": "An OpenAI and MIT Media Lab Research collaboration.",
+    "publishedAt": "2025-03-21",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

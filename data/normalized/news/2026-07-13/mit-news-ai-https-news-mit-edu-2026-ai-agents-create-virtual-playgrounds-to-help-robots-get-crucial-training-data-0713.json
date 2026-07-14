@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "mit-news-ai-https-news-mit-edu-2026-ai-agents-create-virtual-playgrounds-to-help-robots-get-crucial-training-data-0713",
+  "name": "AI agents create virtual playgrounds to help robots get crucial training data",
+  "summary": "“SceneSmith” system uses collaborative AI agents to create realistic 3D environments of places like kitchens, hotels, and living rooms, where robots can simulate everyday chores.",
+  "description": "“SceneSmith” system uses collaborative AI agents to create realistic 3D environments of places like kitchens, hotels, and living rooms, where robots can simulate everyday chores.",
+  "tags": [
+    "news",
+    "mit-news-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "MIT News",
+      "href": "https://news.mit.edu/2026/ai-agents-create-virtual-playgrounds-to-help-robots-get-crucial-training-data-0713"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-13",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by MIT News.",
+      "href": "https://news.mit.edu/2026/ai-agents-create-virtual-playgrounds-to-help-robots-get-crucial-training-data-0713"
+    }
+  ],
+  "source": "MIT News",
+  "publishedAt": "2026-07-13",
+  "expiryAt": "2026-08-12T00:00:00.000Z",
+  "author": "Alex Shipps | MIT CSAIL"
+}

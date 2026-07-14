@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-and-guardian-media-group-launch-content-partnership",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-and-guardian-media-group-launch-content-partnership",
+    "title": "OpenAI and Guardian Media Group launch content partnership",
+    "link": "https://openai.com/index/openai-and-guardian-media-group-launch-content-partnership",
+    "description": "OpenAI and Guardian Media Group announce content partnership to bring Guardian news content to ChatGPT.",
+    "publishedAt": "2025-02-14",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

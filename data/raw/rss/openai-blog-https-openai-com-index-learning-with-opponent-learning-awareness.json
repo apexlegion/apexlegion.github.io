@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/learning-with-opponent-learning-awareness",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/learning-with-opponent-learning-awareness",
+    "title": "Learning with opponent-learning awareness",
+    "link": "https://openai.com/index/learning-with-opponent-learning-awareness",
+    "description": "",
+    "publishedAt": "2017-09-13",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

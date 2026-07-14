@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/codex-apps",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/codex-apps",
+    "title": "Powering next generation applications with OpenAI Codex",
+    "link": "https://openai.com/index/codex-apps",
+    "description": "Codex is now powering 70 different applications across a variety of use cases through the OpenAI API.",
+    "publishedAt": "2022-05-24",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

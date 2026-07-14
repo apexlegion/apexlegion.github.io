@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/special-projects",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/special-projects",
+    "title": "Special projects",
+    "link": "https://openai.com/index/special-projects",
+    "description": "Impactful scientific work requires working on the right problems—problems which are not just interesting, but whose solutions matter.",
+    "publishedAt": "2016-07-28",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

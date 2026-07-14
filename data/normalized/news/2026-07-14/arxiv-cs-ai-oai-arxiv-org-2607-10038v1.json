@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10038v1",
+  "name": "Geometric mean-based pairwise comparison method with the reference values -- statistical approach",
+  "summary": "arXiv:2607.10038v1 Announce Type: cross Abstract: For many years, the pairwise comparison method has been widely used for decision-making involving experts. The best-known example of this method is...",
+  "description": "arXiv:2607.10038v1 Announce Type: cross Abstract: For many years, the pairwise comparison method has been widely used for decision-making involving experts. The best-known example of this method is the Analytic Hierarchy Process (AHP). In this now classic approach, the weights of alternatives are calculated using the principal eigenvector of the comparison matrix. In this paper, we present a st...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10038"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10038"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Konrad Ku{\\l}akowski, Jacek Szybowski"
+}

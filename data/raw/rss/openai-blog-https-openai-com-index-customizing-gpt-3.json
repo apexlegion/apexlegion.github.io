@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/customizing-gpt-3",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/customizing-gpt-3",
+    "title": "Customizing GPT-3 for your application",
+    "link": "https://openai.com/index/customizing-gpt-3",
+    "description": "Fine-tune with a single command.",
+    "publishedAt": "2021-12-14",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

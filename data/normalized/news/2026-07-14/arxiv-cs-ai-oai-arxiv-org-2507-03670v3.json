@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2507-03670v3",
+  "name": "Interaction Techniques that Encourage Longer Prompts Can Improve Psychological Ownership when Writing with AI",
+  "summary": "arXiv:2507.03670v3 Announce Type: replace-cross Abstract: Writing longer prompts for an AI assistant to generate a story increases psychological ownership, a user's feeling that the writing belongs...",
+  "description": "arXiv:2507.03670v3 Announce Type: replace-cross Abstract: Writing longer prompts for an AI assistant to generate a story increases psychological ownership, a user's feeling that the writing belongs to them. To encourage users to write longer prompts, we evaluated two interaction techniques that modify the prompt entry interface of chat-based generative AI assistants: pressing and holding the pr...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2507.03670"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2507.03670"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Nikhita Joshi, Daniel Vogel"
+}

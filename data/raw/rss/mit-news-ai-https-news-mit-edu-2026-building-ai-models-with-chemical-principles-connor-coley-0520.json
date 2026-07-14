@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/building-ai-models-with-chemical-principles-connor-coley-0520",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/building-ai-models-with-chemical-principles-connor-coley-0520",
+    "title": "Building AI models that understand chemical principles",
+    "link": "https://news.mit.edu/2026/building-ai-models-with-chemical-principles-connor-coley-0520",
+    "description": "Connor Coley works at the interface of chemistry and machine learning, to discover and design new drug compounds.",
+    "publishedAt": "2026-05-20",
+    "author": "Anne Trafton | MIT News",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "source": "huggingface",
   "sourceId": "mistralai/Mistral-7B-v0.1",
-  "fetchedAt": "2026-07-06T16:57:05.578Z",
+  "fetchedAt": "2026-07-14T05:07:34.485Z",
   "data": {
     "_id": "650aedb6238a644cb93a52c3",
     "id": "mistralai/Mistral-7B-v0.1",
@@ -23,8 +23,8 @@
       "text-generation-inference",
       "region:us"
     ],
-    "downloads": 879249,
-    "likes": 4121,
+    "downloads": 713161,
+    "likes": 4124,
     "modelId": "mistralai/Mistral-7B-v0.1",
     "author": "mistralai",
     "sha": "27d67f1b5f57dc0953326b2601d68371d40ea8da",
@@ -47,7 +47,9 @@
     ],
     "model-index": null,
     "config": {
-      "architectures": ["MistralForCausalLM"],
+      "architectures": [
+        "MistralForCausalLM"
+      ],
       "model_type": "mistral",
       "tokenizer_config": {
         "bos_token": "<s>",
@@ -59,9 +61,14 @@
     },
     "cardData": {
       "library_name": "transformers",
-      "language": ["en"],
+      "language": [
+        "en"
+      ],
       "license": "apache-2.0",
-      "tags": ["pretrained", "mistral-common"],
+      "tags": [
+        "pretrained",
+        "mistral-common"
+      ],
       "inference": false,
       "extra_gated_description": "If you want to learn more about how we process your personal data, please read our <a href=\"https://mistral.ai/terms/\">Privacy Policy</a>."
     },
@@ -115,14 +122,15 @@
       }
     ],
     "spaces": [
+      "logikon/open_cot_leaderboard",
       "overhead520/LLM-Settings-Guide",
-      "speakleash/open_pl_llm_leaderboard",
-      "FallnAI/Quantize-HF-Models",
+      "CiLprototype/CurvOpt-SmarterModels",
+      "AwaisAdilKhokhar/modelDNA",
       "Vokturz/can-it-run-llm",
       "eduagarcia/open_pt_llm_leaderboard",
       "3DTopia/3DGen-Arena",
       "ehristoforu/mistral-7b-chat",
-      "logikon/open_cot_leaderboard",
+      "speakleash/open_pl_llm_leaderboard",
       "KBaba7/Quant",
       "Vision-CAIR-Admin/MiniGPT4-video",
       "EvanTHU/MotionLLM",
@@ -134,6 +142,7 @@
       "AiActivity/AI-Assistant",
       "MCP-1st-Birthday/TraceMind",
       "GenAICoder/MultiPDFChatbot",
+      "FallnAI/Quantize-HF-Models",
       "prometheus-eval/BiGGen-Bench-Leaderboard",
       "openfree/LLM_Quantization",
       "bhaskartripathi/LLM_Quantization",
@@ -212,9 +221,7 @@
       "LeroyDyer/LCARS_BASIC_CHAT",
       "JingyiZhou/anlp",
       "afeng/tokenizers",
-      "swordfish7412/Bandila-v2",
-      "Enaoudir/mistral-niger-chat",
-      "Oss11/Quantize-HF-Models"
+      "swordfish7412/Bandila-v2"
     ],
     "createdAt": "2023-09-20T13:03:50.000Z",
     "safetensors": {

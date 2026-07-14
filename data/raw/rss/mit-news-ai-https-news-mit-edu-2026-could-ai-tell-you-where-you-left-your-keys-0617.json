@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/could-ai-tell-you-where-you-left-your-keys-0617",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/could-ai-tell-you-where-you-left-your-keys-0617",
+    "title": "Could AI tell you where you left your keys?",
+    "link": "https://news.mit.edu/2026/could-ai-tell-you-where-you-left-your-keys-0617",
+    "description": "A new spatial memory system for robots efficiently captures details about the objects they see while exploring their environment.",
+    "publishedAt": "2026-06-17",
+    "author": "Adam Zewe | MIT News",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

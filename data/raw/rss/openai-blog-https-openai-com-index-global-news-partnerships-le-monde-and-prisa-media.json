@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media",
+    "title": "Global news partnerships: Le Monde and Prisa Media",
+    "link": "https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media",
+    "description": "We have partnered with international news organizations Le Monde and Prisa Media to bring French and Spanish news content to ChatGPT.",
+    "publishedAt": "2024-03-13",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

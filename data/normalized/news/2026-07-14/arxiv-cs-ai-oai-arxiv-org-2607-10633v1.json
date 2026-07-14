@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10633v1",
+  "name": "Auditing Construct Overlap in Explainable Machine Learning: Evidence from Burnout-Depression Prediction Across Student Cohorts",
+  "summary": "arXiv:2607.10633v1 Announce Type: cross Abstract: Explainable machine learning (XML) pipelines applied to composite mental health outcomes can produce apparently-robust, cross-population-stable ris...",
+  "description": "arXiv:2607.10633v1 Announce Type: cross Abstract: Explainable machine learning (XML) pipelines applied to composite mental health outcomes can produce apparently-robust, cross-population-stable risk hierarchies that are largely artefacts of how the outcome was constructed. We demonstrate this using an ElasticNet pipeline applied to 886 medical students at the University of Lausanne (primary coh...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10633"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10633"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Alireza Dehghan, Negin Ashrafi"
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/introducing-the-chatgpt-app-for-ios",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/introducing-the-chatgpt-app-for-ios",
+    "title": "Introducing the ChatGPT app for iOS",
+    "link": "https://openai.com/index/introducing-the-chatgpt-app-for-ios",
+    "description": "The ChatGPT app syncs your conversations, supports voice input, and brings our latest model improvements to your fingertips.",
+    "publishedAt": "2023-05-18",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

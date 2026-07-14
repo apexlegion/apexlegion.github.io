@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/spinning-up-in-deep-rl-workshop-review",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/spinning-up-in-deep-rl-workshop-review",
+    "title": "Spinning Up in Deep RL: Workshop review",
+    "link": "https://openai.com/index/spinning-up-in-deep-rl-workshop-review",
+    "description": "On February 2, we held our first Spinning Up Workshop as part of our new education initiative at OpenAI.",
+    "publishedAt": "2019-02-26",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

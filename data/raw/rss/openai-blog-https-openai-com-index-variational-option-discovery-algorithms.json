@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/variational-option-discovery-algorithms",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/variational-option-discovery-algorithms",
+    "title": "Variational option discovery algorithms",
+    "link": "https://openai.com/index/variational-option-discovery-algorithms",
+    "description": "",
+    "publishedAt": "2018-07-26",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

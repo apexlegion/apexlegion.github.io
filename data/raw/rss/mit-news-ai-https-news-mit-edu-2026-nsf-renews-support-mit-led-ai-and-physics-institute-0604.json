@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/nsf-renews-support-mit-led-ai-and-physics-institute-0604",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/nsf-renews-support-mit-led-ai-and-physics-institute-0604",
+    "title": "NSF renews support for MIT-led AI and physics institute, expanding a new model for discovery",
+    "link": "https://news.mit.edu/2026/nsf-renews-support-mit-led-ai-and-physics-institute-0604",
+    "description": "IAIFI enters its second phase with increased funding, broader ambitions, and a growing community at the frontier of AI and fundamental physics.",
+    "publishedAt": "2026-06-04",
+    "author": "Laboratory for Nuclear Science",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/beacon-biosignals-maps-brain-during-sleep-0501",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/beacon-biosignals-maps-brain-during-sleep-0501",
+    "title": "Beacon Biosignals is mapping the brain during sleep",
+    "link": "https://news.mit.edu/2026/beacon-biosignals-maps-brain-during-sleep-0501",
+    "description": "Founded by Jake Donoghue PhD ’19 and former MIT researcher Jarrett Revels, the company is creating an AI-driven platform to help diagnose and treat disease.",
+    "publishedAt": "2026-05-01",
+    "author": "Zach Winn | MIT News",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/screensuite",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/screensuite",
+    "title": "ScreenSuite - The most comprehensive evaluation suite for GUI Agents!",
+    "link": "https://huggingface.co/blog/screensuite",
+    "description": "",
+    "publishedAt": "2025-06-06",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

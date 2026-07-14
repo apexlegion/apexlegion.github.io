@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/introducing-chatgpt-search",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/introducing-chatgpt-search",
+    "title": "Introducing ChatGPT search",
+    "link": "https://openai.com/index/introducing-chatgpt-search",
+    "description": "Get fast, timely answers with links to relevant web sources",
+    "publishedAt": "2024-10-31",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

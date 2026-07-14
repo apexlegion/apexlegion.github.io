@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/prediction-and-control-with-temporal-segment-models",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/prediction-and-control-with-temporal-segment-models",
+    "title": "Prediction and control with temporal segment models",
+    "link": "https://openai.com/index/prediction-and-control-with-temporal-segment-models",
+    "description": "",
+    "publishedAt": "2017-03-12",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

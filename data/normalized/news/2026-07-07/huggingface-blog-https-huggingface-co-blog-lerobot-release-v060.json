@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "huggingface-blog-https-huggingface-co-blog-lerobot-release-v060",
+  "name": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+  "summary": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+  "description": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Hugging Face Blog",
+      "href": "https://huggingface.co/blog/lerobot-release-v060"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-07",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Hugging Face Blog.",
+      "href": "https://huggingface.co/blog/lerobot-release-v060"
+    }
+  ],
+  "source": "Hugging Face Blog",
+  "publishedAt": "2026-07-07",
+  "expiryAt": "2026-08-06T00:00:00.000Z"
+}

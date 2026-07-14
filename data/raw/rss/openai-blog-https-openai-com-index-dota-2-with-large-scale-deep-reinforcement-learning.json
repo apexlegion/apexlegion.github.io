@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/dota-2-with-large-scale-deep-reinforcement-learning",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/dota-2-with-large-scale-deep-reinforcement-learning",
+    "title": "Dota 2 with large scale deep reinforcement learning",
+    "link": "https://openai.com/index/dota-2-with-large-scale-deep-reinforcement-learning",
+    "description": "",
+    "publishedAt": "2019-12-13",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10341v1",
+  "name": "From Stochastic to Stable: Rank Stability and Structural Sufficiency in AI Visibility Measurement",
+  "summary": "arXiv:2607.10341v1 Announce Type: cross Abstract: AI visibility measurement is comparative: practitioners want to know which domains generative search engines cite most often and whether observed d...",
+  "description": "arXiv:2607.10341v1 Announce Type: cross Abstract: AI visibility measurement is comparative: practitioners want to know which domains generative search engines cite most often and whether observed differences are large enough to support decisions. Yet the industry lacks a principled way to determine whether enough data has been collected. Collection budgets vary widely across studies and platfor...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10341"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10341"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Ronald Sielinski"
+}

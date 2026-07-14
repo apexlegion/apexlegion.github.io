@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "google-ai-blog:https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+  "fetchedAt": "2026-07-14T05:07:36.145Z",
+  "data": {
+    "guid": "google-ai-blog:https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+    "title": "Ask an AI expert: What exactly is the full stack?",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+    "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Full_Stack.max-600x600.format-webp.webp\"&gt;A Google expert explains what it means to take a full-stack approach to AI and why it’s been the foundation of our AI work for so long.",
+    "publishedAt": "2026-06-29",
+    "author": "<name>Molly McHugh-Johnson</name><title>Contributor</title><department/><company/>",
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  },
+  "extra": {
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  }
+}

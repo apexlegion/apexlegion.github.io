@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/language-models-can-explain-neurons-in-language-models",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/language-models-can-explain-neurons-in-language-models",
+    "title": "Language models can explain neurons in language models",
+    "link": "https://openai.com/index/language-models-can-explain-neurons-in-language-models",
+    "description": "We use GPT-4 to automatically write explanations for the behavior of neurons in large language models and to score those explanations. We release a dataset of these (imperfect) explanations and scores for every neuron in GPT-2.",
+    "publishedAt": "2023-05-09",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

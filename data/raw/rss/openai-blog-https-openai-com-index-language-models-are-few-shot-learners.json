@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/language-models-are-few-shot-learners",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/language-models-are-few-shot-learners",
+    "title": "Language models are few-shot learners",
+    "link": "https://openai.com/index/language-models-are-few-shot-learners",
+    "description": "",
+    "publishedAt": "2020-05-28",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

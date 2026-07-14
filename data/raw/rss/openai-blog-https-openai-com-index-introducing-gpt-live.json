@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/introducing-gpt-live",
+  "fetchedAt": "2026-07-14T05:07:36.574Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/introducing-gpt-live",
+    "title": "Introducing GPT-Live",
+    "link": "https://openai.com/index/introducing-gpt-live",
+    "description": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+    "publishedAt": "2026-07-08",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

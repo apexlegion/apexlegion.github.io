@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-09763v1",
+  "name": "Knowledge-Constrained Shape Optimization with a Mixture-of-Experts Neural Operator for High-Confidence Design",
+  "summary": "arXiv:2607.09763v1 Announce Type: cross Abstract: Engineering shape optimization faces challenges in both expert-dependent problem setup and surrogate-model reliability. In practical aerodynamic de...",
+  "description": "arXiv:2607.09763v1 Announce Type: cross Abstract: Engineering shape optimization faces challenges in both expert-dependent problem setup and surrogate-model reliability. In practical aerodynamic design, optimization settings such as editable regions, deformation ranges, and design-preservation constraints are typically specified manually by experienced engineers, while surrogate-based optimizat...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.09763"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.09763"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Wenhao Fan, Yuanwei Bin, Jianghan Gu, Wenfa Luo, Jiao Xiang, Yuntian Chen, Shiyi Chen"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10628v1",
+  "name": "Anamnesis: An Open-Source Platform for Large-Scale Backstory-Conditioned Survey Simulation",
+  "summary": "arXiv:2607.10628v1 Announce Type: cross Abstract: We present Anamnesis, an interactive system for demographically controllable survey simulation using large language models. Open-source, and design...",
+  "description": "arXiv:2607.10628v1 Announce Type: cross Abstract: We present Anamnesis, an interactive system for demographically controllable survey simulation using large language models. Open-source, and designed for non-technical users/researchers, Anamnesis enables the prototyping and stress-testing of survey instruments on virtual populations rather than real human subjects. The platform operationalizes...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10628"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10628"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Song-Ze Yu, Joseph Suh, Serina Chang, David M. Chan"
+}

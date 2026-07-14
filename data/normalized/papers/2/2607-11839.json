@@ -1,0 +1,34 @@
+{
+  "type": "paper",
+  "slug": "2607-11839",
+  "name": "LoRA-Based Cascaded Multimodal Fusion for Action Recognition in Medical Training Environments",
+  "summary": "This paper presents a cascaded Low-Rank Adaptation (LoRA)-based multimodal fusion framework for action and activity recognition in healthcare-oriented training environments. The proposed architectu...",
+  "description": "This paper presents a cascaded Low-Rank Adaptation (LoRA)-based multimodal fusion framework for action and activity recognition in healthcare-oriented training environments. The proposed architecture combines parameter-efficient modality-specific adaptation with sequential fusion, enabling modalities to be integrated in stages without retraining previously learned components. Rather than assuming a fixed fusion structure, the framework first integrates more closely related modalities and then incorporates additional heterogeneous modalities, supporting scalable adaptation across datasets wi...",
+  "tags": [
+    "arxiv",
+    "cs.CV"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.11839v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-13",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.CV.",
+      "href": "https://arxiv.org/abs/2607.11839v1"
+    }
+  ],
+  "authors": [
+    "Divya Mereddy",
+    "Jeevan Beedareddy"
+  ],
+  "paperId": "2607.11839",
+  "category": "cs.CV",
+  "publishedAt": "2026-07-13",
+  "abstract": "This paper presents a cascaded Low-Rank Adaptation (LoRA)-based multimodal fusion framework for action and activity recognition in healthcare-oriented training environments. The proposed architecture combines parameter-efficient modality-specific adaptation with sequential fusion, enabling modalities to be integrated in stages without retraining previously learned components. Rather than assuming a fixed fusion structure, the framework first integrates more closely related modalities and then incorporates additional heterogeneous modalities, supporting scalable adaptation across datasets wi..."
+}

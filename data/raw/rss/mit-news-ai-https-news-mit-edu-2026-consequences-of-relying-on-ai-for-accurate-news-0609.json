@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/consequences-of-relying-on-ai-for-accurate-news-0609",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/consequences-of-relying-on-ai-for-accurate-news-0609",
+    "title": "The consequences of relying on AI for accurate news",
+    "link": "https://news.mit.edu/2026/consequences-of-relying-on-ai-for-accurate-news-0609",
+    "description": "A Media Lab study shows that, much like how GPS has weakened our navigation skills, AI can make us worse at detecting fake news.",
+    "publishedAt": "2026-06-09",
+    "author": "Adam Conner-Simons | MIT Media Lab",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

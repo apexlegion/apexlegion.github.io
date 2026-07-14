@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10231v1",
+  "name": "PhenoEmbed: Self-Supervised Multispectral UAV Time-Series Embeddings for Individual Tree Crown Phenology",
+  "summary": "arXiv:2607.10231v1 Announce Type: cross Abstract: Tree crowns are a challenging target for resilient AI because they are not static objects: their spectral response, internal texture, translucency,...",
+  "description": "arXiv:2607.10231v1 Announce Type: cross Abstract: Tree crowns are a challenging target for resilient AI because they are not static objects: their spectral response, internal texture, translucency, and apparent boundaries change substantially across the growing season. We develop PhenoEmbed, a self-supervised crown-centric temporal embedding model trained with contrastive and masked reconstruct...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10231"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10231"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Taimur Khan"
+}

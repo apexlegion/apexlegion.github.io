@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-safety-update",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-safety-update",
+    "title": "OpenAI safety practices",
+    "link": "https://openai.com/index/openai-safety-update",
+    "description": "Artificial general intelligence has the potential to benefit nearly every aspect of our lives—so it must be developed and deployed responsibly.",
+    "publishedAt": "2024-05-21",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

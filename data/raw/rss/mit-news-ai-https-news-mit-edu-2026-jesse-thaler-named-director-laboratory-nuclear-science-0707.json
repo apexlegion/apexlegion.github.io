@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/jesse-thaler-named-director-laboratory-nuclear-science-0707",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/jesse-thaler-named-director-laboratory-nuclear-science-0707",
+    "title": "Jesse Thaler named director of the Laboratory for Nuclear Science",
+    "link": "https://news.mit.edu/2026/jesse-thaler-named-director-laboratory-nuclear-science-0707",
+    "description": "The professor of physics and inaugural director of the NSF AI Institute for Artificial Intelligence and Fundamental Interactions will lead LNS and continue his research in particle physics.",
+    "publishedAt": "2026-07-07",
+    "author": "Julia C. Keller | School of Science",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

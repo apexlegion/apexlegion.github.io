@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/rearchitecting-uploads-and-downloads",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/rearchitecting-uploads-and-downloads",
+    "title": "Rearchitecting Hugging Face Uploads and Downloads",
+    "link": "https://huggingface.co/blog/rearchitecting-uploads-and-downloads",
+    "description": "",
+    "publishedAt": "2024-11-26",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

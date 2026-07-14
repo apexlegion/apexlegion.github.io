@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model",
+    "title": "Transfer from simulation to real world through learning deep inverse dynamics model",
+    "link": "https://openai.com/index/transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model",
+    "description": "",
+    "publishedAt": "2016-10-11",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

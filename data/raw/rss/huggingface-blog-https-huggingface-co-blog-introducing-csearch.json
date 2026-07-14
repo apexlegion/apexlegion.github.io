@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/introducing-csearch",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/introducing-csearch",
+    "title": "Generating Human-level Text with Contrastive Search in Transformers 🤗",
+    "link": "https://huggingface.co/blog/introducing-csearch",
+    "description": "",
+    "publishedAt": "2022-11-08",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

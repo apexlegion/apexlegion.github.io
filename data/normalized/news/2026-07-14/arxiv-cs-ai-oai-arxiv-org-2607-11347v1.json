@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11347v1",
+  "name": "From Neural Network Decisions to Training Cases: An Exact Account via Case-Based Decision Theory",
+  "summary": "arXiv:2607.11347v1 Announce Type: new Abstract: Neural networks increasingly guide decisions in high-stakes domains such as medical diagnosis, credit approval, and energy bidding. Audit in these se...",
+  "description": "arXiv:2607.11347v1 Announce Type: new Abstract: Neural networks increasingly guide decisions in high-stakes domains such as medical diagnosis, credit approval, and energy bidding. Audit in these settings requires case-level evidence: which training cases support an action and what outcomes they carried. Case-based decision theory (CBDT) formalizes this reasoning by aggregating outcome support f...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11347"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11347"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Manli Yan, Yuebin Lin, Yaowen Yu, Yong Zhao"
+}

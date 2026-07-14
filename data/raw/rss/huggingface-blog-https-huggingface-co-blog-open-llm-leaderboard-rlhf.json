@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/open-llm-leaderboard-rlhf",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/open-llm-leaderboard-rlhf",
+    "title": "Can foundation models label data like humans?",
+    "link": "https://huggingface.co/blog/open-llm-leaderboard-rlhf",
+    "description": "",
+    "publishedAt": "2023-06-12",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

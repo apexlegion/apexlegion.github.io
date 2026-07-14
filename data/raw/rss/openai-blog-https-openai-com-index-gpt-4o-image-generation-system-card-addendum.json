@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/gpt-4o-image-generation-system-card-addendum",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/gpt-4o-image-generation-system-card-addendum",
+    "title": "Addendum to GPT-4o System Card: 4o image generation",
+    "link": "https://openai.com/index/gpt-4o-image-generation-system-card-addendum",
+    "description": "4o image generation is a new, significantly more capable image generation approach than our earlier DALL·E 3 series of models. It can create photorealistic output. It can take images as inputs and transform them.",
+    "publishedAt": "2025-03-25",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

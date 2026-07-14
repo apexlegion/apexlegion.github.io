@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-elon-musk",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-elon-musk",
+    "title": "OpenAI and Elon Musk",
+    "link": "https://openai.com/index/openai-elon-musk",
+    "description": "We are dedicated to the OpenAI mission and have pursued it every step of the way.",
+    "publishedAt": "2024-03-05",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

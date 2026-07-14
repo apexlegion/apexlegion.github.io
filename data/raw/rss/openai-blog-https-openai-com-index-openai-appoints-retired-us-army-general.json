@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-appoints-retired-us-army-general",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-appoints-retired-us-army-general",
+    "title": "OpenAI appoints Retired U.S. Army General Paul M. Nakasone to Board of Directors",
+    "link": "https://openai.com/index/openai-appoints-retired-us-army-general",
+    "description": "Nakasone brings cybersecurity experience to growing Board of Directors; will join the Board’s Safety and Security Committee",
+    "publishedAt": "2024-06-13",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

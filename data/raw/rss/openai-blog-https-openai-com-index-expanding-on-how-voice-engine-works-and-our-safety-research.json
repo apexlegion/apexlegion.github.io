@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/expanding-on-how-voice-engine-works-and-our-safety-research",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/expanding-on-how-voice-engine-works-and-our-safety-research",
+    "title": "Expanding on how Voice Engine works and our safety research",
+    "link": "https://openai.com/index/expanding-on-how-voice-engine-works-and-our-safety-research",
+    "description": "Exploring the technology behind our text-to-speech model.",
+    "publishedAt": "2024-06-07",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

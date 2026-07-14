@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission",
+    "title": "Why OpenAI’s structure must evolve to advance our mission",
+    "link": "https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission",
+    "description": "A stronger non-profit supported by the for-profit’s success.",
+    "publishedAt": "2024-12-27",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

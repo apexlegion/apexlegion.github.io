@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/academy/how-to-use-chatgpt-work-for-everyday-tasks",
+  "fetchedAt": "2026-07-14T05:07:36.574Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/academy/how-to-use-chatgpt-work-for-everyday-tasks",
+    "title": "How to use ChatGPT Work for everyday tasks",
+    "link": "https://openai.com/academy/how-to-use-chatgpt-work-for-everyday-tasks",
+    "description": "Explore practical ChatGPT Work use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+    "publishedAt": "2026-04-23",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

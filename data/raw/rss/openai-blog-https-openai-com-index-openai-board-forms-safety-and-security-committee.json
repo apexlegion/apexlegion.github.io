@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-board-forms-safety-and-security-committee",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-board-forms-safety-and-security-committee",
+    "title": "OpenAI Board Forms Safety and Security Committee",
+    "link": "https://openai.com/index/openai-board-forms-safety-and-security-committee",
+    "description": "",
+    "publishedAt": "2024-05-28",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

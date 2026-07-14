@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/stripe",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/stripe",
+    "title": "Stripe",
+    "link": "https://openai.com/index/stripe",
+    "description": "Stripe leverages GPT-4 to streamline user experience and combat fraud.",
+    "publishedAt": "2023-03-14",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

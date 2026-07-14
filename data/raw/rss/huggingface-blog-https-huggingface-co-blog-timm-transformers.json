@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/timm-transformers",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/timm-transformers",
+    "title": "Timm ❤️ Transformers: Use any timm model with transformers",
+    "link": "https://huggingface.co/blog/timm-transformers",
+    "description": "",
+    "publishedAt": "2025-01-16",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

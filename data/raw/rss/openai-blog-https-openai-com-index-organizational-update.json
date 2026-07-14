@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/organizational-update",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/organizational-update",
+    "title": "Organizational update from OpenAI",
+    "link": "https://openai.com/index/organizational-update",
+    "description": "It’s been a year of dramatic change and growth at OpenAI.",
+    "publishedAt": "2020-12-29",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/strengthening-americas-ai-leadership-with-the-us-national-laboratories",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/strengthening-americas-ai-leadership-with-the-us-national-laboratories",
+    "title": "Strengthening America’s AI leadership with the U.S. National Laboratories",
+    "link": "https://openai.com/index/strengthening-americas-ai-leadership-with-the-us-national-laboratories",
+    "description": "OpenAI’s latest line of reasoning models will be used by nation’s leading scientists to drive scientific breakthroughs.",
+    "publishedAt": "2025-01-30",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

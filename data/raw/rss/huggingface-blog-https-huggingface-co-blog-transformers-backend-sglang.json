@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/transformers-backend-sglang",
+  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/transformers-backend-sglang",
+    "title": "Transformers backend integration in SGLang",
+    "link": "https://huggingface.co/blog/transformers-backend-sglang",
+    "description": "",
+    "publishedAt": "2025-06-23",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

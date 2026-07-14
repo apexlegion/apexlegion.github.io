@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/digital-green-llm-judge",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/digital-green-llm-judge",
+    "title": "Expert Support case study: Bolstering a RAG app with LLM-as-a-Judge",
+    "link": "https://huggingface.co/blog/digital-green-llm-judge",
+    "description": "",
+    "publishedAt": "2024-10-28",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

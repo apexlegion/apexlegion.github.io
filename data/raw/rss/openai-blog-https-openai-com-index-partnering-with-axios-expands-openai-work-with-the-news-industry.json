@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/partnering-with-axios-expands-openai-work-with-the-news-industry",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/partnering-with-axios-expands-openai-work-with-the-news-industry",
+    "title": "Partnering with Axios expands OpenAI’s work with the news industry",
+    "link": "https://openai.com/index/partnering-with-axios-expands-openai-work-with-the-news-industry",
+    "description": "Publishers representing hundreds of newsrooms and content brands are using OpenAI partnerships and grant programs to adopt AI tools and strengthen the news ecosystem, while ChatGPT users gain access to information from leading, reliable publications.",
+    "publishedAt": "2025-01-15",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

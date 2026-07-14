@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce",
+    "title": "Providing ChatGPT to the Entire U.S. Federal Workforce",
+    "link": "https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce",
+    "description": "Today, OpenAI for Government is announcing a new partnership with the U.S. General Services Administration (GSA) to launch a transformative initiative. For the next year, ChatGPT Enterprise will be available to the entire federal executive branch workforce at essentially no cost.",
+    "publishedAt": "2025-08-06",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

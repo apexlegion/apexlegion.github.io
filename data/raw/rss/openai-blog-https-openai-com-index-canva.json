@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/canva",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/canva",
+    "title": "Creating an AI-powered Magic Studio",
+    "link": "https://openai.com/index/canva",
+    "description": "Canva is a visual communication platform, enjoyed by more than 175 million people monthly to make presentations, videos, documents, websites, social media graphics and more. A majority of the world’s knowledge workers lack design training, but Canva’s combination of an easy-to-use interface, vast libraries, and time-saving tools allows anyone to create visually compelling content.",
+    "publishedAt": "2024-05-16",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

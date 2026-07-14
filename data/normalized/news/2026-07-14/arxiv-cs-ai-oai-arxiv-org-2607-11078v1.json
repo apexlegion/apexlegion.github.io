@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11078v1",
+  "name": "Do Video-LLMs Actually Watch? Diagnosing Character-Tracking Failures in Long-Form Video",
+  "summary": "arXiv:2607.11078v1 Announce Type: cross Abstract: Can a Video Large Language Model (Video-LLM) follow one person through a long video, keeping track of who they are well enough to report, in order,...",
+  "description": "arXiv:2607.11078v1 Announce Type: cross Abstract: Can a Video Large Language Model (Video-LLM) follow one person through a long video, keeping track of who they are well enough to report, in order, how their outfit changes across a full TV episode? Benchmarks increasingly score this kind of task, and the strongest open-source 7--8B models now reach 37--38% on InfiniBench's global appearance tas...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11078"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11078"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Mohammad Al-Ratrout, Shayla Sharmin, Aditya Raikwar, Roghayeh Leila Barmaki"
+}

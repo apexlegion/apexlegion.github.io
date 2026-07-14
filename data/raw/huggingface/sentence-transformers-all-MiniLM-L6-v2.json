@@ -1,7 +1,7 @@
 {
   "source": "huggingface",
   "sourceId": "sentence-transformers/all-MiniLM-L6-v2",
-  "fetchedAt": "2026-07-06T16:57:06.364Z",
+  "fetchedAt": "2026-07-14T05:07:35.236Z",
   "data": {
     "_id": "621ffdc136468d709f180294",
     "id": "sentence-transformers/all-MiniLM-L6-v2",
@@ -56,8 +56,8 @@
       "deploy:azure",
       "region:us"
     ],
-    "downloads": 246342719,
-    "likes": 5036,
+    "downloads": 253402358,
+    "likes": 5065,
     "modelId": "sentence-transformers/all-MiniLM-L6-v2",
     "author": "sentence-transformers",
     "sha": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
@@ -68,12 +68,18 @@
     "widgetData": [
       {
         "source_sentence": "That is a happy person",
-        "sentences": ["That is a happy dog", "That is a very happy person", "Today is a sunny day"]
+        "sentences": [
+          "That is a happy dog",
+          "That is a very happy person",
+          "Today is a sunny day"
+        ]
       }
     ],
     "model-index": null,
     "config": {
-      "architectures": ["BertModel"],
+      "architectures": [
+        "BertModel"
+      ],
       "model_type": "bert",
       "tokenizer_config": {
         "unk_token": "[UNK]",
@@ -84,7 +90,9 @@
       }
     },
     "cardData": {
-      "base_model": ["nreimers/MiniLM-L6-H384-uncased"],
+      "base_model": [
+        "nreimers/MiniLM-L6-H384-uncased"
+      ],
       "language": "en",
       "license": "apache-2.0",
       "library_name": "sentence-transformers",
@@ -218,35 +226,23 @@
     ],
     "spaces": [
       "mteb/leaderboard",
+      "MTEB-BR/leaderboard",
+      "eduagarcia/multilingual-tokenizer-leaderboard",
       "hakari-bench/leaderboard",
-      "usmanyousaf/AI_Interview_Coach",
-      "Coderadi/Radha",
-      "Nawabwaqar/FastMed_RAG_Chatbot",
-      "amitlal/sap-finance-dashboard-RPT-1-OSS",
-      "build-small-hackathon/gitopadesh",
-      "Talha812/RAG-Based-App-QA",
-      "alexchilton/apertus_demo_hf",
-      "Sarthak080907/proofrank",
-      "caio007/tati-ai-backend",
-      "KoushikAce/nexus-ai-research",
+      "Aqarion13/Quantarion-moneo-repository",
       "Muras125/carrer_conversation",
-      "Radiomixter/symptom_analyser_AI_AGENT",
-      "Rahul-2407/Document-QA",
-      "adonairlariva/asistenteGodot",
-      "Shubham71205/RA2",
-      "abdelfetteh/medical-chatbot-doctor",
-      "samnathanswarna/Webpage-Summarizer",
-      "PUSHPENDRA2006/HYBRID_RAG_AGENT",
-      "ShivanshKandwal/Dev_Analysis",
-      "LTCAI/Zone_Classifier",
-      "GIRI876/ranking-system",
-      "jarnil/byteastra",
-      "luffy900/shl-assessment-recommender-2",
-      "rohit-yadavgolu-33/SHL_NEW",
-      "Amjad1m/NAJMIAI",
-      "swamiTesla/Lumen",
-      "sajitkun125/inkference",
-      "PR-HARIHARAN/Hiver",
+      "Ahmed167/research_assistant",
+      "hapda12/GAIA",
+      "GopalJee2745/email-security-ai",
+      "looh2/fastapi_hf",
+      "UmairLari/ai-financial-advisor-backend",
+      "ayush150152/ziro",
+      "kr1shnasharma/academic-tutor-ai",
+      "Amit55Mandal/rag-Question-Answer",
+      "malaika871/NexusAI",
+      "Vikrant-Honbute/schemesense-ai",
+      "Zoiudp/Mystic_especulator_V6",
+      "GiacomoDeLuca/orrery-demo",
       "cvachet/pdf-chatbot",
       "marcosv/InstructIR",
       "JournalistsonHF/ai-scraper",
@@ -278,7 +274,6 @@
       "remyxai/Feature-Finder",
       "Agents-MCP-Hackathon/Intelligent_Content_Organizer",
       "MCP-1st-Birthday/Jobly",
-      "mteb-pt/leaderboard",
       "jscheah/open-webui",
       "Yas1n/CADomatic",
       "ZySec-AI/ZySec",
@@ -299,6 +294,7 @@
       "m-ric/Quotes",
       "taupirho/gradio_multi_file_rag",
       "lihuigu/SciPIP",
+      "usmanyousaf/AI_Interview_Coach",
       "responsible-prompting/demo-multiturn",
       "Pulastya0/Data-Science-Agent",
       "aseifert/ExplaiNER",
@@ -312,11 +308,23 @@
       "build-small-hackathon/multi-agent-lab",
       "somosnlp-hackathon-2022/AbstractGen_ES",
       "jspr/autodrummer",
+      "Volkopat/arXivGPT",
       "khalifssa/medicine-chartbot",
       "dnzblgn/RAG_PDF_langchain",
       "Ardaarslan02/finance-chatbot",
       "VIDraft/Local-RAG-llama-3-8b",
-      "santanavagner/responsible-prompting-demo"
+      "santanavagner/responsible-prompting-demo",
+      "CyberTud/legalchat",
+      "MCP-1st-Birthday/auto-distill",
+      "Anmol4521/jansahayak",
+      "shreyanarayane/Resume-Retrieval-System",
+      "RaviRaj988/Asking-question-to-video",
+      "vjain/Trading-Chatbot",
+      "OuroborosM/STLA-BABY",
+      "KrishnaKumar23/documentQABot",
+      "CyranoB/search_agent",
+      "Gololias/MetroCuadrado",
+      "ABBNikit/Nikit_PDF_Chatbot"
     ],
     "createdAt": "2022-03-02T23:29:05.000Z",
     "safetensors": {

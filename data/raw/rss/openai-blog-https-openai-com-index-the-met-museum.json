@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/the-met-museum",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/the-met-museum",
+    "title": "Awakening Sleeping Beauties at The Met",
+    "link": "https://openai.com/index/the-met-museum",
+    "description": "AI can enrich lives through beauty and creativity, and its artistic potential shines in \"Sleeping Beauties: Reawakening Fashion,\" a collaborative exhibit from The Met's Costume Institute.",
+    "publishedAt": "2024-08-14",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

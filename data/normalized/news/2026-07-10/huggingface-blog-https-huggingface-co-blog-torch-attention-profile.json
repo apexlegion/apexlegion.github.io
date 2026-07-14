@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "huggingface-blog-https-huggingface-co-blog-torch-attention-profile",
+  "name": "Profiling in PyTorch (Part 3): Attention is all you profile",
+  "summary": "Profiling in PyTorch (Part 3): Attention is all you profile",
+  "description": "Profiling in PyTorch (Part 3): Attention is all you profile",
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Hugging Face Blog",
+      "href": "https://huggingface.co/blog/torch-attention-profile"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-10",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Hugging Face Blog.",
+      "href": "https://huggingface.co/blog/torch-attention-profile"
+    }
+  ],
+  "source": "Hugging Face Blog",
+  "publishedAt": "2026-07-10",
+  "expiryAt": "2026-08-09T00:00:00.000Z"
+}

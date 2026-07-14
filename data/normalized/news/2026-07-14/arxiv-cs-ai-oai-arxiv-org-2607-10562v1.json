@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10562v1",
+  "name": "CRiT-QA: Evaluating Multi-hop Reasoning with Counterfactual Chains and Distractor Traps",
+  "summary": "arXiv:2607.10562v1 Announce Type: new Abstract: Evaluating the multi-hop reasoning capabilities of large language models remains a significant challenge. Although current models achieve strong resu...",
+  "description": "arXiv:2607.10562v1 Announce Type: new Abstract: Evaluating the multi-hop reasoning capabilities of large language models remains a significant challenge. Although current models achieve strong results on existing multi-hop question answering datasets, such performance often masks two critical vulnerabilities: (1) reliance on internal parametric knowledge rather than adherence to the provided co...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10562"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10562"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "JungMin Yun, JuneHyoung Kwon, YoungBin Kim"
+}

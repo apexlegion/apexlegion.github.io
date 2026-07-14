@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/our-approach-to-ai-safety",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/our-approach-to-ai-safety",
+    "title": "Our approach to AI safety",
+    "link": "https://openai.com/index/our-approach-to-ai-safety",
+    "description": "Ensuring that AI systems are built, deployed, and used safely is critical to our mission.",
+    "publishedAt": "2023-04-05",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

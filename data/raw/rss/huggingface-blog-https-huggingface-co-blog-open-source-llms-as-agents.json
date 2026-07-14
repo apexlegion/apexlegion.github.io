@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/open-source-llms-as-agents",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/open-source-llms-as-agents",
+    "title": "Open-source LLMs as LangChain Agents",
+    "link": "https://huggingface.co/blog/open-source-llms-as-agents",
+    "description": "",
+    "publishedAt": "2024-01-24",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/moving-ai-governance-forward",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/moving-ai-governance-forward",
+    "title": "Moving AI governance forward",
+    "link": "https://openai.com/index/moving-ai-governance-forward",
+    "description": "OpenAI and other leading labs reinforce AI safety, security and trustworthiness through voluntary commitments.",
+    "publishedAt": "2023-07-21",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

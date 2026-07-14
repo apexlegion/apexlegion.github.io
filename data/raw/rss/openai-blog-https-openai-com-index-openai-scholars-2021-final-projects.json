@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-scholars-2021-final-projects",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-scholars-2021-final-projects",
+    "title": "OpenAI Scholars 2021: Final projects",
+    "link": "https://openai.com/index/openai-scholars-2021-final-projects",
+    "description": "We’re proud to announce that the 2021 class of OpenAI Scholars has completed our six-month mentorship program and have produced an open-source research project with stipends and support from OpenAI.",
+    "publishedAt": "2021-05-10",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

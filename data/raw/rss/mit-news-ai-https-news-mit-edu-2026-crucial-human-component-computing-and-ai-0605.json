@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/crucial-human-component-computing-and-ai-0605",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/crucial-human-component-computing-and-ai-0605",
+    "title": "The crucial human component in computing and AI",
+    "link": "https://news.mit.edu/2026/crucial-human-component-computing-and-ai-0605",
+    "description": "The MIT Ethics of Computing Research Symposium brought together experts and researchers working at the heart of ethical and social impact in technology.",
+    "publishedAt": "2026-06-05",
+    "author": "Amanda Diehl | MIT Schwarzman College of Computing",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

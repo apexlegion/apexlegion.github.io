@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/teaching-ai-models-to-say-im-not-sure-0422",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/teaching-ai-models-to-say-im-not-sure-0422",
+    "title": "Teaching AI models to say “I’m not sure”",
+    "link": "https://news.mit.edu/2026/teaching-ai-models-to-say-im-not-sure-0422",
+    "description": "A new training method improves the reliability of AI confidence estimates without sacrificing performance, addressing a root cause of hallucination in reasoning models.",
+    "publishedAt": "2026-04-22",
+    "author": "Rachel Gordon | MIT CSAIL",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

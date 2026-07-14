@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/transfer-of-adversarial-robustness-between-perturbation-types",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/transfer-of-adversarial-robustness-between-perturbation-types",
+    "title": "Transfer of adversarial robustness between perturbation types",
+    "link": "https://openai.com/index/transfer-of-adversarial-robustness-between-perturbation-types",
+    "description": "",
+    "publishedAt": "2019-05-03",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

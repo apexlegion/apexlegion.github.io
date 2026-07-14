@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "google-ai-blog:https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+  "fetchedAt": "2026-07-14T05:07:36.145Z",
+  "data": {
+    "guid": "google-ai-blog:https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+    "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+    "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\"&gt;Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
+    "publishedAt": "2026-06-17",
+    "author": "<name>Mike Schaekermann</name><title>Research Lead</title><department/><company/>",
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  },
+  "extra": {
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/deliberative-alignment",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/deliberative-alignment",
+    "title": "Deliberative alignment: reasoning enables safer language models",
+    "link": "https://openai.com/index/deliberative-alignment",
+    "description": "Deliberative alignment: reasoning enables safer language models Introducing our new alignment strategy for o1 models, which are directly taught safety specifications and how to reason over them.",
+    "publishedAt": "2024-12-20",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

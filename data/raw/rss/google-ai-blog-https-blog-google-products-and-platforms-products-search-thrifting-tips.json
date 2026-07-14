@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "google-ai-blog:https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+  "fetchedAt": "2026-07-14T05:07:36.145Z",
+  "data": {
+    "guid": "google-ai-blog:https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+    "title": "5 ways Google Search can level up your thrift and vintage shopping",
+    "link": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+    "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Thrifting_Header.max-600x600.format-webp.webp\"&gt;Uncover second-hand scores with AI tools in Google Search and Shopping.",
+    "publishedAt": "2026-06-03",
+    "author": "<name>Megan Stoner</name><title>Contributing writer</title><department/><company/>",
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  },
+  "extra": {
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  }
+}

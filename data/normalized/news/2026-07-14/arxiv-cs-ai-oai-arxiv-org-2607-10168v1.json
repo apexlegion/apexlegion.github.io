@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10168v1",
+  "name": "Transcript-Free Lightweight Detection of Alzheimer's Disease from Spontaneous Speech Using Handcrafted MFCC-Dominant Acoustic Biomarkers",
+  "summary": "arXiv:2607.10168v1 Announce Type: cross Abstract: It is still hard to find Alzheimer's disease (AD) early, especially when neuroimaging is expensive or tools that depend on language are not availab...",
+  "description": "arXiv:2607.10168v1 Announce Type: cross Abstract: It is still hard to find Alzheimer's disease (AD) early, especially when neuroimaging is expensive or tools that depend on language are not available. Spontaneous speech provides a non-invasive signal; however, numerous current methodologies depend on transcripts/ASR or computationally intensive deep models. We offer a simple, audio-only baselin...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10168"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10168"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Rashin Gholijani Farahani, Azam Bastanfard"
+}

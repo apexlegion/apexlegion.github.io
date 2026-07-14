@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/oscar",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/oscar",
+    "title": "Reducing health insurance costs and improving care",
+    "link": "https://openai.com/index/oscar",
+    "description": "Oscar brings AI to health insurance, reducing costs and improving patient care.",
+    "publishedAt": "2024-04-01",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

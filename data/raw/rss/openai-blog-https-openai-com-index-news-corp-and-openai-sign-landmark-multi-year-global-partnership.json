@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/news-corp-and-openai-sign-landmark-multi-year-global-partnership",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/news-corp-and-openai-sign-landmark-multi-year-global-partnership",
+    "title": "A landmark multi-year global partnership with News Corp",
+    "link": "https://openai.com/index/news-corp-and-openai-sign-landmark-multi-year-global-partnership",
+    "description": "Companies Join Forces to Enrich OpenAI’s Generative AI Products and Platforms with Premium Journalism",
+    "publishedAt": "2024-05-22",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10208v1",
+  "name": "Exploratory Analysis of Deep Learning Models for Forecasting Meteorological Parameters in the Agricultural Sector",
+  "summary": "arXiv:2607.10208v1 Announce Type: cross Abstract: Accurate meteorological forecasting is essential for agricultural planning, irrigation management, and environmental decision support. This study c...",
+  "description": "arXiv:2607.10208v1 Announce Type: cross Abstract: Accurate meteorological forecasting is essential for agricultural planning, irrigation management, and environmental decision support. This study conducts a comparative evaluation of recurrent and hybrid deep learning architectures for multivariate forecasting of reference evapotranspiration ($ET_0$), vapour pressure deficit (VPD), wind speed, a...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10208"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10208"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Piotr Sikora, Sotirios Kontogiannis"
+}

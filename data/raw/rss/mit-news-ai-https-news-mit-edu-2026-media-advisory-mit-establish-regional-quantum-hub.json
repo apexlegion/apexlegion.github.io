@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/media-advisory-mit-establish-regional-quantum-hub",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/media-advisory-mit-establish-regional-quantum-hub",
+    "title": "Media Advisory: MIT to establish regional quantum hub",
+    "link": "https://news.mit.edu/2026/media-advisory-mit-establish-regional-quantum-hub",
+    "description": "With $25 million investment from the Commonwealth of Massachusetts, MIT to build a new shared-use facility to serve as a statewide quantum toolbox.",
+    "publishedAt": "2026-05-28",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

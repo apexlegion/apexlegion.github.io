@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/viable",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/viable",
+    "title": "Accurately analyzing large scale qualitative data",
+    "link": "https://openai.com/index/viable",
+    "description": "Viable uses GPT-4 to analyze qualitative data at a revolutionary scale with unparalleled accuracy.",
+    "publishedAt": "2023-07-07",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

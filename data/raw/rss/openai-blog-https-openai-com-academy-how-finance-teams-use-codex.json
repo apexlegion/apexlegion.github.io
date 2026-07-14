@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/academy/how-finance-teams-use-codex",
+  "fetchedAt": "2026-07-14T05:07:36.574Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/academy/how-finance-teams-use-codex",
+    "title": "How finance teams use ChatGPT Work",
+    "link": "https://openai.com/academy/how-finance-teams-use-codex",
+    "description": "See how finance teams can use ChatGPT Work to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
+    "publishedAt": "2026-05-12",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2511-22331v3",
+  "name": "On the Condition Number Dependency in Bilevel Optimization",
+  "summary": "arXiv:2511.22331v3 Announce Type: replace-cross Abstract: Bilevel optimization minimizes an objective function, defined by an upper-level problem whose feasible region is the solution of a lower-le...",
+  "description": "arXiv:2511.22331v3 Announce Type: replace-cross Abstract: Bilevel optimization minimizes an objective function, defined by an upper-level problem whose feasible region is the solution of a lower-level problem. We study the oracle complexity of finding an $\\epsilon$-stationary point with first-order methods when the upper-level problem is nonconvex, and the lower-level problem is strongly convex...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2511.22331"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2511.22331"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Lesi Chen, Jingzhao Zhang"
+}

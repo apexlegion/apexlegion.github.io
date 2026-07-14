@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/huggy-lingo",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/huggy-lingo",
+    "title": "Huggy Lingo: Using Machine Learning to Improve Language Metadata on the Hugging Face Hub",
+    "link": "https://huggingface.co/blog/huggy-lingo",
+    "description": "",
+    "publishedAt": "2023-08-02",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

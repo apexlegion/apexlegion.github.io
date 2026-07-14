@@ -1,0 +1,37 @@
+{
+  "type": "paper",
+  "slug": "2607-11771",
+  "name": "Evaluating RE Practices for Explainability: Synthesizing Insights from Daimler Truck into an Explainable RE Framework Proposal",
+  "summary": "Explainability has emerged as a critical requirement for AI-based systems, particularly in safety-critical and regulated domains. Although prior research has proposed frameworks, patterns, and user...",
+  "description": "Explainability has emerged as a critical requirement for AI-based systems, particularly in safety-critical and regulated domains. Although prior research has proposed frameworks, patterns, and user-centered approaches to support explainability, there is limited empirical understanding of how existing Requirements Engineering (RE) practices support explainability requirements across the RE lifecycle, especially in an industrial context. This paper reports early findings from an ongoing industry-based study investigating how explainability requirements are elicited, specified, and validated u...",
+  "tags": [
+    "arxiv",
+    "cs.SE"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.11771v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-13",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.SE.",
+      "href": "https://arxiv.org/abs/2607.11771v1"
+    }
+  ],
+  "authors": [
+    "Umm-e- Habiba",
+    "Lucas Mauser",
+    "Jonas Fritzsch",
+    "Justus Bogner",
+    "Stefan Wagner"
+  ],
+  "paperId": "2607.11771",
+  "category": "cs.SE",
+  "publishedAt": "2026-07-13",
+  "abstract": "Explainability has emerged as a critical requirement for AI-based systems, particularly in safety-critical and regulated domains. Although prior research has proposed frameworks, patterns, and user-centered approaches to support explainability, there is limited empirical understanding of how existing Requirements Engineering (RE) practices support explainability requirements across the RE lifecycle, especially in an industrial context. This paper reports early findings from an ongoing industry-based study investigating how explainability requirements are elicited, specified, and validated u..."
+}

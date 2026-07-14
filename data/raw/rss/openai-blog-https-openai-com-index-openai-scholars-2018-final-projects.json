@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-scholars-2018-final-projects",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-scholars-2018-final-projects",
+    "title": "OpenAI Scholars 2018: Final projects",
+    "link": "https://openai.com/index/openai-scholars-2018-final-projects",
+    "description": "Our first cohort of OpenAI Scholars has now completed the program.",
+    "publishedAt": "2018-09-10",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

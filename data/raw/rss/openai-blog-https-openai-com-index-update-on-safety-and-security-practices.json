@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/update-on-safety-and-security-practices",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/update-on-safety-and-security-practices",
+    "title": "An update on our safety & security practices",
+    "link": "https://openai.com/index/update-on-safety-and-security-practices",
+    "description": "An update on our safety & security practices",
+    "publishedAt": "2024-09-16",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

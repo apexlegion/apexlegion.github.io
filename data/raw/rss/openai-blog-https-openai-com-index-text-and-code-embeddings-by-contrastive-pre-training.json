@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training",
+    "title": "Text and code embeddings by contrastive pre-training",
+    "link": "https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training",
+    "description": "",
+    "publishedAt": "2022-01-24",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

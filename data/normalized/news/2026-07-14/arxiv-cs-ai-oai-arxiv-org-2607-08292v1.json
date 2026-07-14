@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-08292v1",
+  "name": "Reverse Engineering Compliance: A Dual-Graph Verification Framework for Auditing Legacy IT Security Concepts",
+  "summary": "arXiv:2607.08292v1 Announce Type: cross Abstract: The NIS-2 Directive increases the need for continuous, auditable compliance evidence and motivates a shift from document-based compliance toward ma...",
+  "description": "arXiv:2607.08292v1 Announce Type: cross Abstract: The NIS-2 Directive increases the need for continuous, auditable compliance evidence and motivates a shift from document-based compliance toward machine-readable compliance artifacts. The Open Security Controls Assessment Language (OSCAL) is a standard for this purpose, which the German Federal Office for Information Security (BSI) is adapting w...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.08292"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.08292"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Lea Roxanne Muth, Marian Margraf"
+}

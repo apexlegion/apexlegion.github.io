@@ -1,0 +1,59 @@
+{
+  "type": "project",
+  "slug": "ollama-ollama",
+  "name": "ollama",
+  "summary": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+  "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+  "tags": [
+    "deepseek",
+    "gemma",
+    "gemma3",
+    "glm",
+    "go",
+    "golang",
+    "gpt-oss",
+    "llama",
+    "llama3",
+    "llm",
+    "llms",
+    "minimax",
+    "mistral",
+    "ollama",
+    "qwen"
+  ],
+  "externalLinks": [
+    {
+      "label": "GitHub repository",
+      "href": "https://github.com/ollama/ollama"
+    },
+    {
+      "label": "Homepage",
+      "href": "https://ollama.com"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2023-06-26",
+      "type": "release",
+      "title": "Repository created",
+      "description": "Initial public commit on ollama/ollama."
+    },
+    {
+      "date": "2026-07-14",
+      "type": "update",
+      "title": "Latest activity",
+      "description": "Most recent push recorded by the GitHub API."
+    }
+  ],
+  "category": "Language Models",
+  "repository": "https://github.com/ollama/ollama",
+  "license": "MIT",
+  "health": {
+    "recentCommit": 0,
+    "releaseFrequency": 0.5,
+    "popularity": 0,
+    "documentation": 0,
+    "license": 1,
+    "total": 0.175
+  }
+}

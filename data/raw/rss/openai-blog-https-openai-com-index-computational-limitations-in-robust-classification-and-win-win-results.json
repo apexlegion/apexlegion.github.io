@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/computational-limitations-in-robust-classification-and-win-win-results",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/computational-limitations-in-robust-classification-and-win-win-results",
+    "title": "Computational limitations in robust classification and win-win results",
+    "link": "https://openai.com/index/computational-limitations-in-robust-classification-and-win-win-results",
+    "description": "",
+    "publishedAt": "2019-02-04",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

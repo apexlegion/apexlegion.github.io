@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/academy/chatgpt-sites",
+  "fetchedAt": "2026-07-14T05:07:36.574Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/academy/chatgpt-sites",
+    "title": "ChatGPT Sites",
+    "link": "https://openai.com/academy/chatgpt-sites",
+    "description": "Create that kind of lightweight website or app with Codex.",
+    "publishedAt": "2026-06-02",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

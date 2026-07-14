@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/lowes-chandhu-nair",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/lowes-chandhu-nair",
+    "title": "Lowe’s leverages AI to power home improvement retail",
+    "link": "https://openai.com/index/lowes-chandhu-nair",
+    "description": "A conversation with Chandhu Nair, Senior Vice President of Data, AI, and Innovation.",
+    "publishedAt": "2025-05-05",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

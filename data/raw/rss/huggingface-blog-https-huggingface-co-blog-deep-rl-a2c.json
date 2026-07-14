@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/deep-rl-a2c",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/deep-rl-a2c",
+    "title": "Advantage Actor Critic (A2C)",
+    "link": "https://huggingface.co/blog/deep-rl-a2c",
+    "description": "",
+    "publishedAt": "2022-07-22",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

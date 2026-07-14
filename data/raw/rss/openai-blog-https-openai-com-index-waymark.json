@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/waymark",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/waymark",
+    "title": "Fine-tuning GPT-3 to scale video creation",
+    "link": "https://openai.com/index/waymark",
+    "description": "Fine-tuning GPT-3 to power and scale done-for-you video creation.",
+    "publishedAt": "2023-01-03",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

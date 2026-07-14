@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/yabble",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/yabble",
+    "title": "Delivering nuanced insights from customer feedback",
+    "link": "https://openai.com/index/yabble",
+    "description": "Using GPT-3 to deliver fast, nuanced insights from customer feedback.",
+    "publishedAt": "2023-01-04",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

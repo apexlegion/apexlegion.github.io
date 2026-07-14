@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/idefics",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/idefics",
+    "title": "Introducing IDEFICS: An Open Reproduction of State-of-the-art Visual Langage Model",
+    "link": "https://huggingface.co/blog/idefics",
+    "description": "",
+    "publishedAt": "2023-08-22",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

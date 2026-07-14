@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/cosmopedia",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/cosmopedia",
+    "title": "Cosmopedia: how to create large-scale synthetic data for pre-training Large Language Models",
+    "link": "https://huggingface.co/blog/cosmopedia",
+    "description": "",
+    "publishedAt": "2024-03-20",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

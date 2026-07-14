@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/global-affairs/learning-accelerator",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/global-affairs/learning-accelerator",
+    "title": "Announcing the OpenAI Learning Accelerator",
+    "link": "https://openai.com/global-affairs/learning-accelerator",
+    "description": "",
+    "publishedAt": "2025-08-25",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

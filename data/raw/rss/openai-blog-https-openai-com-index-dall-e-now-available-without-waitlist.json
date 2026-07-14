@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/dall-e-now-available-without-waitlist",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/dall-e-now-available-without-waitlist",
+    "title": "DALL·E now available without waitlist",
+    "link": "https://openai.com/index/dall-e-now-available-without-waitlist",
+    "description": "New users can start creating straight away. Lessons learned from deployment and improvements to our safety systems make wider availability possible.",
+    "publishedAt": "2022-09-28",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

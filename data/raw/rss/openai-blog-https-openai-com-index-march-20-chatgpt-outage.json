@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/march-20-chatgpt-outage",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/march-20-chatgpt-outage",
+    "title": "March 20 ChatGPT outage: Here’s what happened",
+    "link": "https://openai.com/index/march-20-chatgpt-outage",
+    "description": "An update on our findings, the actions we’ve taken, and technical details of the bug.",
+    "publishedAt": "2023-03-24",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/dell-ai-applications",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/dell-ai-applications",
+    "title": "Dell Enterprise Hub is all you need to build AI on premises",
+    "link": "https://huggingface.co/blog/dell-ai-applications",
+    "description": "",
+    "publishedAt": "2025-05-23",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

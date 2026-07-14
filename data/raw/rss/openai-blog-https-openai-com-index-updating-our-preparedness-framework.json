@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/updating-our-preparedness-framework",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/updating-our-preparedness-framework",
+    "title": "Our updated Preparedness Framework",
+    "link": "https://openai.com/index/updating-our-preparedness-framework",
+    "description": "Sharing our updated framework for measuring and protecting against severe harm from frontier AI capabilities.",
+    "publishedAt": "2025-04-15",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

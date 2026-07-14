@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/deploy-tfserving-kubernetes",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/deploy-tfserving-kubernetes",
+    "title": "Deploying 🤗 ViT on Kubernetes with TF Serving",
+    "link": "https://huggingface.co/blog/deploy-tfserving-kubernetes",
+    "description": "",
+    "publishedAt": "2022-08-11",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

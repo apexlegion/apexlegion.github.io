@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/build-rocm-kernels",
+  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/build-rocm-kernels",
+    "title": "Easily Build and Share ROCm Kernels with Hugging Face",
+    "link": "https://huggingface.co/blog/build-rocm-kernels",
+    "description": "",
+    "publishedAt": "2025-11-17",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/swift-coreml-llm",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/swift-coreml-llm",
+    "title": "Releasing Swift Transformers: Run On-Device LLMs in Apple Devices",
+    "link": "https://huggingface.co/blog/swift-coreml-llm",
+    "description": "",
+    "publishedAt": "2023-08-08",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

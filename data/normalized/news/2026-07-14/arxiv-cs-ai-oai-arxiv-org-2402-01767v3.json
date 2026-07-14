@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2402-01767v3",
+  "name": "HiQA: A Hierarchical Contextual Augmentation RAG for Multi-Documents QA",
+  "summary": "arXiv:2402.01767v3 Announce Type: replace-cross Abstract: Retrieval-augmented generation (RAG) has rapidly advanced the language model field, particularly in question-answering (QA) systems. By int...",
+  "description": "arXiv:2402.01767v3 Announce Type: replace-cross Abstract: Retrieval-augmented generation (RAG) has rapidly advanced the language model field, particularly in question-answering (QA) systems. By integrating external documents during the response generation phase, RAG significantly enhances the accuracy and reliability of language models. This method elevates the quality of responses and reduces...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2402.01767"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2402.01767"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Xinyue Chen, Pengyu Gao, Jiangjiang Song, Xiaoyang Tan"
+}

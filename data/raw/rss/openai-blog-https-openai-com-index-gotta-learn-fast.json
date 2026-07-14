@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/gotta-learn-fast",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/gotta-learn-fast",
+    "title": "Gotta Learn Fast: A new benchmark for generalization in RL",
+    "link": "https://openai.com/index/gotta-learn-fast",
+    "description": "",
+    "publishedAt": "2018-04-10",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

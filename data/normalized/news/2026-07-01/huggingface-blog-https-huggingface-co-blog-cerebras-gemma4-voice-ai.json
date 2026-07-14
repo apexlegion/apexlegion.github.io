@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "huggingface-blog-https-huggingface-co-blog-cerebras-gemma4-voice-ai",
+  "name": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+  "summary": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+  "description": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Hugging Face Blog",
+      "href": "https://huggingface.co/blog/cerebras-gemma4-voice-ai"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-01",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Hugging Face Blog.",
+      "href": "https://huggingface.co/blog/cerebras-gemma4-voice-ai"
+    }
+  ],
+  "source": "Hugging Face Blog",
+  "publishedAt": "2026-07-01",
+  "expiryAt": "2026-07-31T00:00:00.000Z"
+}

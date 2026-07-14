@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/improving-ai-agent-speed-and-energy-efficiency-0625",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/improving-ai-agent-speed-and-energy-efficiency-0625",
+    "title": "Improving the speed and energy-efficiency of AI agents",
+    "link": "https://news.mit.edu/2026/improving-ai-agent-speed-and-energy-efficiency-0625",
+    "description": "A new system, known as Murakkab, optimizes the design and deployment of multistep workflows that power AI applications.",
+    "publishedAt": "2026-06-25",
+    "author": "Adam Zewe | MIT News",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

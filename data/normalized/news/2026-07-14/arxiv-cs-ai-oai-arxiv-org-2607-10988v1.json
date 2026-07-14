@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10988v1",
+  "name": "MMA-Former: Multi-Window Mixture-of-Head Attention Transformer for Adaptive PNI Prediction in 3D MRI",
+  "summary": "arXiv:2607.10988v1 Announce Type: cross Abstract: Perineural invasion (PNI) is a critical prognostic factor in cholangiocarcinoma. Non-invasive prediction from 3D MRI is challenging, demanding mode...",
+  "description": "arXiv:2607.10988v1 Announce Type: cross Abstract: Perineural invasion (PNI) is a critical prognostic factor in cholangiocarcinoma. Non-invasive prediction from 3D MRI is challenging, demanding models that efficiently capture both fine-grained details and global context. We propose the Multi-window Mixture-of-Head Attention Transformer (MMA-Former), a novel end-to-end 3D architecture featuring a...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10988"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10988"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Youngung Han, Induk Um, Kyeonghun Kim, Junga Kim, Hyunsu Go, Jaewon Jung, Woo Kyoung Jeong, Won Jae Lee, Pa Hong, Ken Ying-Kai Liao, Hyuk-Jae Lee, Nam-Joon Kim"
+}

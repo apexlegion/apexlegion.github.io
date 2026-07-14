@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/klarna",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/klarna",
+    "title": "Klarna's AI assistant does the work of 700 full-time agents",
+    "link": "https://openai.com/index/klarna",
+    "description": "Klarna is using AI to revolutionize personal shopping, customer service, and employee productivity.",
+    "publishedAt": "2024-04-05",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/the-power-of-continuous-learning",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/the-power-of-continuous-learning",
+    "title": "The power of continuous learning",
+    "link": "https://openai.com/index/the-power-of-continuous-learning",
+    "description": "Lilian Weng works on Applied AI Research at OpenAI.",
+    "publishedAt": "2022-12-23",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

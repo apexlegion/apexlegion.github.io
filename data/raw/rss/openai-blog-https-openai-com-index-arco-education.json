@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/arco-education",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/arco-education",
+    "title": "Using GPT-4 to improve teaching and learning in Brazil",
+    "link": "https://openai.com/index/arco-education",
+    "description": "Improving teaching and learning in Brazil",
+    "publishedAt": "2024-09-17",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

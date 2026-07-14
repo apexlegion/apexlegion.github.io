@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/variational-lossy-autoencoder",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/variational-lossy-autoencoder",
+    "title": "Variational lossy autoencoder",
+    "link": "https://openai.com/index/variational-lossy-autoencoder",
+    "description": "",
+    "publishedAt": "2016-11-08",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

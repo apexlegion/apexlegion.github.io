@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/new-tools-and-features-in-the-responses-api",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/new-tools-and-features-in-the-responses-api",
+    "title": "New tools and features in the Responses API",
+    "link": "https://openai.com/index/new-tools-and-features-in-the-responses-api",
+    "description": "",
+    "publishedAt": "2025-05-21",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

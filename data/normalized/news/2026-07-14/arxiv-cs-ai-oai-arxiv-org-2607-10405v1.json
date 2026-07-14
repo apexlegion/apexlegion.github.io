@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10405v1",
+  "name": "Spatula: Exploring On-Demand In-Situ Interfaces and Interaction for Attribute Control",
+  "summary": "arXiv:2607.10405v1 Announce Type: cross Abstract: Controlling attributes is a critical step toward achieving the final creative outcome, yet current approaches fall short in supporting users in the...",
+  "description": "arXiv:2607.10405v1 Announce Type: cross Abstract: Controlling attributes is a critical step toward achieving the final creative outcome, yet current approaches fall short in supporting users in the iterative refinement of generative content. We propose Spatula, a proof-of-concept system that generates on-demand, in-situ attribute control interfaces and interactions for creating motion graphics....",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10405"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10405"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Boyu Li, Linjie Qiu, Lin-Ping Yuan, Duotun Wang, Yue Jiang, Zeyu Wang, Hongbo Fu"
+}

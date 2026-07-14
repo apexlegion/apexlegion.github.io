@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-09757v1",
+  "name": "RSLoRA: Training-free Rank Allocation for LoRA via Representational Sensitivity Probing",
+  "summary": "arXiv:2607.09757v1 Announce Type: cross Abstract: Low-Rank Adaptation (LoRA) has become a cornerstone of parameter-efficient fine-tuning (PEFT); however, the conventional practice of uniform rank a...",
+  "description": "arXiv:2607.09757v1 Announce Type: cross Abstract: Low-Rank Adaptation (LoRA) has become a cornerstone of parameter-efficient fine-tuning (PEFT); however, the conventional practice of uniform rank assignment ignores the functional heterogeneity of neural layers. Existing rank allocation methods typically struggle with a trade-off between computational intensity and heuristic simplicity: training...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.09757"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.09757"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Jiaqi Liu, Haidong Kang, Qihui Zhao, Guo Yu"
+}

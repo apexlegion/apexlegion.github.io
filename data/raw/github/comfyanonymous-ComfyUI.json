@@ -1,7 +1,7 @@
 {
   "source": "github",
   "sourceId": "comfyanonymous/ComfyUI",
-  "fetchedAt": "2026-07-06T16:57:04.951Z",
+  "fetchedAt": "2026-07-14T05:07:34.154Z",
   "data": {
     "id": 589831718,
     "node_id": "R_kgDOIygeJg",
@@ -70,16 +70,16 @@
     "releases_url": "https://api.github.com/repos/Comfy-Org/ComfyUI/releases{/id}",
     "deployments_url": "https://api.github.com/repos/Comfy-Org/ComfyUI/deployments",
     "created_at": "2023-01-17T03:15:56Z",
-    "updated_at": "2026-07-06T16:42:10Z",
-    "pushed_at": "2026-07-06T04:35:33Z",
+    "updated_at": "2026-07-14T04:45:44Z",
+    "pushed_at": "2026-07-14T02:07:24Z",
     "git_url": "git://github.com/Comfy-Org/ComfyUI.git",
     "ssh_url": "git@github.com:Comfy-Org/ComfyUI.git",
     "clone_url": "https://github.com/Comfy-Org/ComfyUI.git",
     "svn_url": "https://github.com/Comfy-Org/ComfyUI",
     "homepage": "https://www.comfy.org/",
-    "size": 91746,
-    "stargazers_count": 119631,
-    "watchers_count": 119631,
+    "size": 91968,
+    "stargazers_count": 120648,
+    "watchers_count": 120648,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -87,11 +87,11 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 14046,
+    "forks_count": 14171,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 4233,
+    "open_issues_count": 4274,
     "license": {
       "key": "gpl-3.0",
       "name": "GNU General Public License v3.0",
@@ -104,13 +104,27 @@
     "web_commit_signoff_required": false,
     "has_pull_requests": true,
     "pull_request_creation_policy": "all",
-    "topics": ["ai", "comfy", "comfyui", "python", "pytorch", "stable-diffusion"],
+    "topics": [
+      "ai",
+      "comfy",
+      "comfyui",
+      "python",
+      "pytorch",
+      "stable-diffusion"
+    ],
     "visibility": "public",
-    "forks": 14046,
-    "open_issues": 4233,
-    "watchers": 119631,
+    "forks": 14171,
+    "open_issues": 4274,
+    "watchers": 120648,
     "default_branch": "master",
-    "temp_clone_token": null,
+    "permissions": {
+      "admin": false,
+      "maintain": false,
+      "push": false,
+      "triage": false,
+      "pull": false
+    },
+    "temp_clone_token": "",
     "custom_properties": {},
     "organization": {
       "login": "Comfy-Org",
@@ -133,7 +147,7 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "network_count": 14046,
-    "subscribers_count": 754
+    "network_count": 14171,
+    "subscribers_count": 751
   }
 }

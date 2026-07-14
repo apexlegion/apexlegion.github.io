@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/evaluating-large-language-models-trained-on-code",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/evaluating-large-language-models-trained-on-code",
+    "title": "Evaluating large language models trained on code",
+    "link": "https://openai.com/index/evaluating-large-language-models-trained-on-code",
+    "description": "",
+    "publishedAt": "2021-07-07",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

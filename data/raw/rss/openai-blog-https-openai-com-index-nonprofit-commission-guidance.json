@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/nonprofit-commission-guidance",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/nonprofit-commission-guidance",
+    "title": "New commission to provide insight as OpenAI builds the world’s best-equipped nonprofit",
+    "link": "https://openai.com/index/nonprofit-commission-guidance",
+    "description": "Already a nonprofit, and already using AI to help people solve hard problems, OpenAI aims to build the best-equipped nonprofit the world has ever seen—combining potentially historic financial resources with something even more powerful: technology that can scale human ingenuity itself.",
+    "publishedAt": "2025-04-02",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+    "title": "Q&amp;A: What is agentic AI today, and what do we want it to be?",
+    "link": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+    "description": "Computer scientist Phillip Isola cuts through the hype to explain how AI agents work and what the future might hold for this rapidly advancing technology.",
+    "publishedAt": "2026-06-30",
+    "author": "Adam Zewe | MIT News",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

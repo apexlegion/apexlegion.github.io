@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "google-ai-blog:https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+  "fetchedAt": "2026-07-14T05:07:36.145Z",
+  "data": {
+    "guid": "google-ai-blog:https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+    "title": "How we used Gemini to build Google I/O 2026",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+    "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp\"&gt;Learn how Googlers used AI to produce Google I/O 2026.",
+    "publishedAt": "2026-06-01",
+    "author": "<name>Marvin Chow</name><title>VP</title><department>Marketing</department><company/>",
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  },
+  "extra": {
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  }
+}

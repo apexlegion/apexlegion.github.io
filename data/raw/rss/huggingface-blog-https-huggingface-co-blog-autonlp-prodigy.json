@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/autonlp-prodigy",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/autonlp-prodigy",
+    "title": "Active Learning with AutoNLP and Prodigy",
+    "link": "https://huggingface.co/blog/autonlp-prodigy",
+    "description": "",
+    "publishedAt": "2021-12-23",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

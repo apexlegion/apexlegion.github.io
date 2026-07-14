@@ -1,0 +1,64 @@
+{
+  "type": "project",
+  "slug": "langchain-ai-langchain",
+  "name": "langchain",
+  "summary": "The agent engineering platform.",
+  "description": "The agent engineering platform.",
+  "tags": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "anthropic",
+    "chatgpt",
+    "deepagents",
+    "enterprise",
+    "framework",
+    "gemini",
+    "generative-ai",
+    "langchain",
+    "langgraph",
+    "llm",
+    "multiagent",
+    "open-source",
+    "openai",
+    "pydantic",
+    "python",
+    "rag",
+    "typescript"
+  ],
+  "externalLinks": [
+    {
+      "label": "GitHub repository",
+      "href": "https://github.com/langchain-ai/langchain"
+    },
+    {
+      "label": "Homepage",
+      "href": "https://docs.langchain.com/langchain/"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2022-10-17",
+      "type": "release",
+      "title": "Repository created",
+      "description": "Initial public commit on langchain-ai/langchain."
+    },
+    {
+      "date": "2026-07-14",
+      "type": "update",
+      "title": "Latest activity",
+      "description": "Most recent push recorded by the GitHub API."
+    }
+  ],
+  "category": "Agents",
+  "repository": "https://github.com/langchain-ai/langchain",
+  "license": "MIT",
+  "health": {
+    "recentCommit": 0,
+    "releaseFrequency": 0.5,
+    "popularity": 0,
+    "documentation": 1,
+    "license": 1,
+    "total": 0.275
+  }
+}

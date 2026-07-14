@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/mit-initiative-for-new-manufacturing-builds-momentum-0616",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/mit-initiative-for-new-manufacturing-builds-momentum-0616",
+    "title": "MIT’s Initiative for New Manufacturing builds momentum",
+    "link": "https://news.mit.edu/2026/mit-initiative-for-new-manufacturing-builds-momentum-0616",
+    "description": "In its first year, INM has worked across research, workforce development, and industry engagement to help accelerate new manufacturing technologies and their real-world deployment.",
+    "publishedAt": "2026-06-16",
+    "author": "Julie Diop | Initiative for New Manufacturing",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

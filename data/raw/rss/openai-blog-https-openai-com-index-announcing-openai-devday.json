@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/announcing-openai-devday",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/announcing-openai-devday",
+    "title": "Join us for OpenAI’s first developer conference on November 6 in San Francisco",
+    "link": "https://openai.com/index/announcing-openai-devday",
+    "description": "Developer registration for in-person attendance will open in the coming weeks and developers everywhere will be able to livestream the keynote.",
+    "publishedAt": "2023-09-06",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

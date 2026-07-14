@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-lp",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-lp",
+    "title": "OpenAI LP",
+    "link": "https://openai.com/index/openai-lp",
+    "description": "We’ve created OpenAI LP, a new “capped-profit” company that allows us to rapidly increase our investments in compute and talent while including checks and balances to actualize our mission.",
+    "publishedAt": "2019-03-11",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

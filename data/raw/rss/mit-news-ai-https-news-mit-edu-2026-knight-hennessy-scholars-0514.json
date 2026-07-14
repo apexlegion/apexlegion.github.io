@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/knight-hennessy-scholars-0514",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/knight-hennessy-scholars-0514",
+    "title": "Two from MIT named 2026 Knight-Hennessy Scholars",
+    "link": "https://news.mit.edu/2026/knight-hennessy-scholars-0514",
+    "description": "The prestigious fellowship funds graduate studies at Stanford University.",
+    "publishedAt": "2026-05-14",
+    "author": "Julia Mongo | Office of Distinguished Fellowships",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

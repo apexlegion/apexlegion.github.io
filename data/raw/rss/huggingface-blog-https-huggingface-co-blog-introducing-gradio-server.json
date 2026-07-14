@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/introducing-gradio-server",
+  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/introducing-gradio-server",
+    "title": "Any Custom Frontend with Gradio&apos;s Backend",
+    "link": "https://huggingface.co/blog/introducing-gradio-server",
+    "description": "",
+    "publishedAt": "2026-04-01",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

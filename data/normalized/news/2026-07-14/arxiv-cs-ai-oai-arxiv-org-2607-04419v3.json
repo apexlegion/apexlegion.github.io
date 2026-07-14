@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-04419v3",
+  "name": "Agent Step Value: Auditing Evaluator-Channel Reversals in Black-Box Agent Traces",
+  "summary": "arXiv:2607.04419v3 Announce Type: replace Abstract: When evaluator-derived step rewards are pooled or compared across scoring channels, their sign is treated as transportable. Yet the same frozen t...",
+  "description": "arXiv:2607.04419v3 Announce Type: replace Abstract: When evaluator-derived step rewards are pooled or compared across scoring channels, their sign is treated as transportable. Yet the same frozen transition can change sign with the scoring channel. Process rewards vary agent states, while evaluator audits vary scoring configurations; neither first difference isolates their interaction. We defin...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.04419"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.04419"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Andrew Zhang, Chengzhan Li"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "mit-news-ai-https-news-mit-edu-2026-mit-media-innovating-and-educating-next-250-years-america",
+  "name": "MIT in the media: Innovating and educating for the next 250 years of America",
+  "summary": "During a \"Washington Post Live\" panel discussion with ASU President Michael Crow, President Sally Kornbluth explored how universities are preparing the next generation of scientists to lead in Amer...",
+  "description": "During a \"Washington Post Live\" panel discussion with ASU President Michael Crow, President Sally Kornbluth explored how universities are preparing the next generation of scientists to lead in America’s rapidly changing technological landscape.",
+  "tags": [
+    "news",
+    "mit-news-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "MIT News",
+      "href": "https://news.mit.edu/2026/mit-media-innovating-and-educating-next-250-years-america"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-01",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by MIT News.",
+      "href": "https://news.mit.edu/2026/mit-media-innovating-and-educating-next-250-years-america"
+    }
+  ],
+  "source": "MIT News",
+  "publishedAt": "2026-07-01",
+  "expiryAt": "2026-07-31T00:00:00.000Z"
+}

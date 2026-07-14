@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/emergence-of-grounded-compositional-language-in-multi-agent-populations",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/emergence-of-grounded-compositional-language-in-multi-agent-populations",
+    "title": "Emergence of grounded compositional language in multi-agent populations",
+    "link": "https://openai.com/index/emergence-of-grounded-compositional-language-in-multi-agent-populations",
+    "description": "",
+    "publishedAt": "2017-03-15",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

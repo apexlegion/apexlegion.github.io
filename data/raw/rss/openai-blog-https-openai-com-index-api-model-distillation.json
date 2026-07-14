@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/api-model-distillation",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/api-model-distillation",
+    "title": "Model Distillation in the API",
+    "link": "https://openai.com/index/api-model-distillation",
+    "description": "Fine-tune a cost-efficient model with the outputs of a large frontier model–all on the OpenAI platform",
+    "publishedAt": "2024-10-01",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

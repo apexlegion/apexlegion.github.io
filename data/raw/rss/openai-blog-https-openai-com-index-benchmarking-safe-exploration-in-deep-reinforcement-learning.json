@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/benchmarking-safe-exploration-in-deep-reinforcement-learning",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/benchmarking-safe-exploration-in-deep-reinforcement-learning",
+    "title": "Benchmarking safe exploration in deep reinforcement learning",
+    "link": "https://openai.com/index/benchmarking-safe-exploration-in-deep-reinforcement-learning",
+    "description": "",
+    "publishedAt": "2019-11-21",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

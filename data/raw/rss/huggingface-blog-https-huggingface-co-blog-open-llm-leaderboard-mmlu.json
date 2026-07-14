@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/open-llm-leaderboard-mmlu",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/open-llm-leaderboard-mmlu",
+    "title": "What&apos;s going on with the Open LLM Leaderboard?",
+    "link": "https://huggingface.co/blog/open-llm-leaderboard-mmlu",
+    "description": "",
+    "publishedAt": "2023-06-23",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

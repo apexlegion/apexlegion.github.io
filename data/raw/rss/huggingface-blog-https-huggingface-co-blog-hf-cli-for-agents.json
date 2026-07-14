@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/hf-cli-for-agents",
+  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/hf-cli-for-agents",
+    "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+    "link": "https://huggingface.co/blog/hf-cli-for-agents",
+    "description": "",
+    "publishedAt": "2026-06-04",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

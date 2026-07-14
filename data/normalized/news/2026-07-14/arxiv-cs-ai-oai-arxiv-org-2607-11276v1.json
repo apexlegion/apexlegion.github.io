@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11276v1",
+  "name": "Automated Textbook Auditing with Multi-Agent LLM Systems",
+  "summary": "arXiv:2607.11276v1 Announce Type: cross Abstract: Ensuring the quality of educational materials requires more than standard proofreading: textbooks must be audited for factual accuracy, domain-spec...",
+  "description": "arXiv:2607.11276v1 Announce Type: cross Abstract: Ensuring the quality of educational materials requires more than standard proofreading: textbooks must be audited for factual accuracy, domain-specific technical correctness, and linguistic quality simultaneously -- a task that general-purpose grammar checkers cannot address. We present \\textbf{AI Textbook Auditor}, a modular multi-agent pipelin...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11276"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11276"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Ciprian Cristescu, Adrian-Marius Dumitran, Angela-Liliana Dumitran, Gabriel Stefan"
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/prover-verifier-games-improve-legibility",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/prover-verifier-games-improve-legibility",
+    "title": "Prover-Verifier Games improve legibility of language model outputs",
+    "link": "https://openai.com/index/prover-verifier-games-improve-legibility",
+    "description": "Discover how prover-verifier games improve the legibility of language model outputs, making AI solutions clearer, easier to verify, and more trustworthy for both humans and machines.",
+    "publishedAt": "2024-07-17",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

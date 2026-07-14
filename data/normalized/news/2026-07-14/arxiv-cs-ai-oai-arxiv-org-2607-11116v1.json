@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11116v1",
+  "name": "The Equilibrium Is the Initialization: Lazy Identity Collapse in Physics-Structured Deep Equilibrium Reasoning",
+  "summary": "arXiv:2607.11116v1 Announce Type: cross Abstract: Deep equilibrium models promise input-adaptive implicit computation: harder problems should demand more solver iterations, and the solved equilibri...",
+  "description": "arXiv:2607.11116v1 Announce Type: cross Abstract: Deep equilibrium models promise input-adaptive implicit computation: harder problems should demand more solver iterations, and the solved equilibrium should encode the result of genuine iterative inference. We report a cautionary study of a port-Hamiltonian DEQ with a learned initialization on two reasoning tasks -- ProofWriter entailment over f...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11116"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11116"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Joyjeet Singh"
+}

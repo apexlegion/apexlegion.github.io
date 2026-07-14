@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai",
+    "title": "Review completed & Altman, Brockman to continue to lead OpenAI",
+    "link": "https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai",
+    "description": "New board members named and enhancements to the governance structure introduced",
+    "publishedAt": "2024-03-08",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

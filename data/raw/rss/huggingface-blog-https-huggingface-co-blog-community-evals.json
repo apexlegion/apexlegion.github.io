@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/community-evals",
+  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/community-evals",
+    "title": "Community Evals: Because we&apos;re done trusting black-box leaderboards over the community",
+    "link": "https://huggingface.co/blog/community-evals",
+    "description": "",
+    "publishedAt": "2026-02-04",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

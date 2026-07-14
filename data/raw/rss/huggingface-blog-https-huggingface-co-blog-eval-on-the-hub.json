@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/eval-on-the-hub",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/eval-on-the-hub",
+    "title": "Announcing Evaluation on the Hub",
+    "link": "https://huggingface.co/blog/eval-on-the-hub",
+    "description": "",
+    "publishedAt": "2022-06-28",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/sasha-luccioni-interview",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/sasha-luccioni-interview",
+    "title": "Machine Learning Experts - Sasha Luccioni",
+    "link": "https://huggingface.co/blog/sasha-luccioni-interview",
+    "description": "",
+    "publishedAt": "2022-05-17",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

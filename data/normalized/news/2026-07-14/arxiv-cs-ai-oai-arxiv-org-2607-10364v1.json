@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10364v1",
+  "name": "A Hyperbolic Neural Closure for M1 Radiation Transfer",
+  "summary": "arXiv:2607.10364v1 Announce Type: cross Abstract: In radiation transfer simulations, an M1 method achieves substantial computational savings by replacing the full angular transport equation with a...",
+  "description": "arXiv:2607.10364v1 Announce Type: cross Abstract: In radiation transfer simulations, an M1 method achieves substantial computational savings by replacing the full angular transport equation with a low-order moment system. Because this reduced system is not closed, a closure model is required to represent the unknown higher-order moments using lower-order moments. While machine learning (ML)-bas...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10364"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10364"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Bongseok Kim, Jiahao Zhang, Johannes Krotz, Dinshaw Balsara, Ryan McClarren, Guang Lin"
+}

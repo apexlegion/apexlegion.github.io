@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/improving-language-model-behavior",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/improving-language-model-behavior",
+    "title": "Improving language model behavior by training on a curated dataset",
+    "link": "https://openai.com/index/improving-language-model-behavior",
+    "description": "Our latest research finds we can improve language model behavior with respect to specific behavioral values by fine-tuning on a small, curated dataset.",
+    "publishedAt": "2021-06-10",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

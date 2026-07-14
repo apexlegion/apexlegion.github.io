@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/superhuman",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/superhuman",
+    "title": "Reimagining the email experience with AI",
+    "link": "https://openai.com/index/superhuman",
+    "description": "Superhuman introduces a new era of email with OpenAI.",
+    "publishedAt": "2024-03-18",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

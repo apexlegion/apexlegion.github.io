@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2603-25115v2",
+  "name": "When Sensing Varies with Contexts: Context Probing for Tactile Few-Shot Class-Incremental Learning",
+  "summary": "arXiv:2603.25115v2 Announce Type: replace Abstract: Few-shot class-incremental learning (FSCIL) aims to recognize novel classes from only a few labeled samples while retaining previously learned kn...",
+  "description": "arXiv:2603.25115v2 Announce Type: replace Abstract: Few-shot class-incremental learning (FSCIL) aims to recognize novel classes from only a few labeled samples while retaining previously learned knowledge. Although recent FSCIL methods have achieved substantial progress on visual benchmarks, they remain limited in tactile sensing, where the same material may produce markedly different observati...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2603.25115"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2603.25115"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Yifeng Lin, Aiping Huang, Wenxi Liu, Si Wu, Tiesong Zhao, Zechao Li, Zheng-Jun Zha"
+}

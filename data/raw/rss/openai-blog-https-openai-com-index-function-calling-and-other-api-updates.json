@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/function-calling-and-other-api-updates",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/function-calling-and-other-api-updates",
+    "title": "Function calling and other API updates",
+    "link": "https://openai.com/index/function-calling-and-other-api-updates",
+    "description": "We’re announcing updates including more steerable API models, function calling capabilities, longer context, and lower prices.",
+    "publishedAt": "2023-06-13",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

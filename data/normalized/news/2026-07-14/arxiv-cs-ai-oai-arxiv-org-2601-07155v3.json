@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2601-07155v3",
+  "name": "Stable On-Policy Distillation through Adaptive Target Reformulation",
+  "summary": "arXiv:2601.07155v3 Announce Type: replace-cross Abstract: Knowledge distillation (KD) is a widely adopted technique for transferring knowledge from large language models to smaller student models;...",
+  "description": "arXiv:2601.07155v3 Announce Type: replace-cross Abstract: Knowledge distillation (KD) is a widely adopted technique for transferring knowledge from large language models to smaller student models; however, conventional supervised KD often suffers from a distribution mismatch between training and inference. While on-policy KD approaches attempt to mitigate this issue by learning directly from st...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2601.07155"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2601.07155"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Ijun Jang, Jewon Yeom, Juan Yeo, Hyunggyu Lim, Taesup Kim"
+}

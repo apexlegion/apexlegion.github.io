@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "google-ai-blog-https-blog-google-innovation-and-ai-models-and-research-google-research-amie-for-disease-management-in-nature",
+  "name": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+  "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\"&gt;Research in “Nature” shows our conversational AI system...",
+  "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\"&gt;Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
+  "tags": [
+    "news",
+    "google-ai-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Google AI Blog",
+      "href": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-06-17",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Google AI Blog.",
+      "href": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/"
+    }
+  ],
+  "source": "Google AI Blog",
+  "publishedAt": "2026-06-17",
+  "expiryAt": "2026-07-17T00:00:00.000Z",
+  "author": "<name>Mike Schaekermann</name><title>Research Lead</title><department/><company/>"
+}

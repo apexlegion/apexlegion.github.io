@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-acquires-global-illumination",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-acquires-global-illumination",
+    "title": "OpenAI acquires Global Illumination",
+    "link": "https://openai.com/index/openai-acquires-global-illumination",
+    "description": "The entire team has joined OpenAI.",
+    "publishedAt": "2023-08-16",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

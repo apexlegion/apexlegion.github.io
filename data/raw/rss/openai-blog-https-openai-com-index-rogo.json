@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/rogo",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/rogo",
+    "title": "Using OpenAI o1 for financial analysis",
+    "link": "https://openai.com/index/rogo",
+    "description": "Rogo scales AI-driven financial research with OpenAI o1",
+    "publishedAt": "2025-02-13",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

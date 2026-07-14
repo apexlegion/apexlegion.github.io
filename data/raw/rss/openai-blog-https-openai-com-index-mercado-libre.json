@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/mercado-libre",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/mercado-libre",
+    "title": "Introducing Verdi, an AI dev platform powered by GPT-4o",
+    "link": "https://openai.com/index/mercado-libre",
+    "description": "Mercado Libre introduces Verdi, an AI developer platform powered by GPT-4o",
+    "publishedAt": "2024-09-24",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

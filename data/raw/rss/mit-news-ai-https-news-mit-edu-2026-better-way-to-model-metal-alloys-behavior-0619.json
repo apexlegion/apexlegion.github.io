@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/better-way-to-model-metal-alloys-behavior-0619",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/better-way-to-model-metal-alloys-behavior-0619",
+    "title": "A better way to model the behavior of metal alloys",
+    "link": "https://news.mit.edu/2026/better-way-to-model-metal-alloys-behavior-0619",
+    "description": "MIT researchers’ approach captures subtle atomic patterns, improving predictions of material properties.",
+    "publishedAt": "2026-06-19",
+    "author": "Zach Winn | MIT News",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

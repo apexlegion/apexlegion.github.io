@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/requests-for-research-2",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/requests-for-research-2",
+    "title": "Requests for Research 2.0",
+    "link": "https://openai.com/index/requests-for-research-2",
+    "description": "We’re releasing a new batch of seven unsolved problems which have come up in the course of our research at OpenAI.",
+    "publishedAt": "2018-01-31",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

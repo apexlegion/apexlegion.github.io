@@ -1,0 +1,63 @@
+{
+  "type": "project",
+  "slug": "huggingface-transformers",
+  "name": "transformers",
+  "summary": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+  "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+  "tags": [
+    "audio",
+    "deep-learning",
+    "deepseek",
+    "gemma",
+    "glm",
+    "hacktoberfest",
+    "llm",
+    "machine-learning",
+    "model-hub",
+    "natural-language-processing",
+    "nlp",
+    "pretrained-models",
+    "python",
+    "pytorch",
+    "pytorch-transformers",
+    "qwen",
+    "speech-recognition",
+    "transformer",
+    "vlm"
+  ],
+  "externalLinks": [
+    {
+      "label": "GitHub repository",
+      "href": "https://github.com/huggingface/transformers"
+    },
+    {
+      "label": "Homepage",
+      "href": "https://huggingface.co/transformers"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2018-10-29",
+      "type": "release",
+      "title": "Repository created",
+      "description": "Initial public commit on huggingface/transformers."
+    },
+    {
+      "date": "2026-07-14",
+      "type": "update",
+      "title": "Latest activity",
+      "description": "Most recent push recorded by the GitHub API."
+    }
+  ],
+  "category": "Speech",
+  "repository": "https://github.com/huggingface/transformers",
+  "license": "Apache-2.0",
+  "health": {
+    "recentCommit": 0,
+    "releaseFrequency": 0.5,
+    "popularity": 0,
+    "documentation": 0,
+    "license": 1,
+    "total": 0.175
+  }
+}

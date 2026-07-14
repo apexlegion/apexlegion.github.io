@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/ucb-exploration-via-q-ensembles",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/ucb-exploration-via-q-ensembles",
+    "title": "UCB exploration via Q-ensembles",
+    "link": "https://openai.com/index/ucb-exploration-via-q-ensembles",
+    "description": "",
+    "publishedAt": "2017-06-05",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

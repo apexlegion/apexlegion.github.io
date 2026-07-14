@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/hf-skills-training-codex",
+  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/hf-skills-training-codex",
+    "title": "Codex is Open Sourcing AI models",
+    "link": "https://huggingface.co/blog/hf-skills-training-codex",
+    "description": "",
+    "publishedAt": "2025-12-11",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

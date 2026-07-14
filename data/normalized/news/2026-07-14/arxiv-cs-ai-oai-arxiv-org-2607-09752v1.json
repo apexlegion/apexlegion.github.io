@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-09752v1",
+  "name": "Data-Driven Forward and Inverse Modeling of V-Beam Thermal Sensors",
+  "summary": "arXiv:2607.09752v1 Announce Type: cross Abstract: This paper presents a machine learning framework for data-driven inverse design of V-beam thermal sensors. The goal is to determine the optimal sen...",
+  "description": "arXiv:2607.09752v1 Announce Type: cross Abstract: This paper presents a machine learning framework for data-driven inverse design of V-beam thermal sensors. The goal is to determine the optimal sensor geometry: beam inclination angle, beam length and beam width that achieves a target displacement under a given temperature. The design should also provide the geometry with minimum structure volum...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.09752"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.09752"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Tudor Bartha, Radu Chiorean, Adrian Groza"
+}

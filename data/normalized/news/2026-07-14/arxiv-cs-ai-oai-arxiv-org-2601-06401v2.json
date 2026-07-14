@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2601-06401v2",
+  "name": "BizFinBench.v2: Towards Reliable LLMs in Finance via Real-User Data and Offline/Online Bilingual Evaluation",
+  "summary": "arXiv:2601.06401v2 Announce Type: replace Abstract: Large language models are becoming increasingly significant in financial applications. Nevertheless, prevailing benchmarks are largely dependent...",
+  "description": "arXiv:2601.06401v2 Announce Type: replace Abstract: Large language models are becoming increasingly significant in financial applications. Nevertheless, prevailing benchmarks are largely dependent on simulated or generic data, which leads to a significant gap between reported performance and actual efficacy in real-world scenarios. To tackle this challenge, we present BizFinBench.v2, the first...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2601.06401"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2601.06401"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Xin Guo, Rongjunchen Zhang, Guilong Lu, Xuntao Guo, Shuai Jia, Zhi Yang, Liwen Zhang"
+}

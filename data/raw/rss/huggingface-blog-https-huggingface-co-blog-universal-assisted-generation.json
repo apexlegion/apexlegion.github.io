@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/universal_assisted_generation",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/universal_assisted_generation",
+    "title": "Universal Assisted Generation: Faster Decoding with Any Assistant Model",
+    "link": "https://huggingface.co/blog/universal_assisted_generation",
+    "description": "",
+    "publishedAt": "2024-10-29",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

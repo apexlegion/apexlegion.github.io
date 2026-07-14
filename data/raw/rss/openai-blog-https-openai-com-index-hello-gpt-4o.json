@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/hello-gpt-4o",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/hello-gpt-4o",
+    "title": "Hello GPT-4o",
+    "link": "https://openai.com/index/hello-gpt-4o",
+    "description": "We’re announcing GPT-4 Omni, our new flagship model which can reason across audio, vision, and text in real time.",
+    "publishedAt": "2024-05-13",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

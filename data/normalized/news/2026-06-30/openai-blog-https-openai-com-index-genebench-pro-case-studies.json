@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "openai-blog-https-openai-com-index-genebench-pro-case-studies",
+  "name": "Inside Genebench-Pro",
+  "summary": "Inside Genebench-Pro",
+  "description": "Inside Genebench-Pro",
+  "tags": [
+    "news",
+    "openai-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "OpenAI Blog",
+      "href": "https://openai.com/index/genebench-pro/case-studies"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-06-30",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by OpenAI Blog.",
+      "href": "https://openai.com/index/genebench-pro/case-studies"
+    }
+  ],
+  "source": "OpenAI Blog",
+  "publishedAt": "2026-06-30",
+  "expiryAt": "2026-07-30T00:00:00.000Z"
+}

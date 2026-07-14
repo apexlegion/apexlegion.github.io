@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/evaluating-fairness-in-chatgpt",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/evaluating-fairness-in-chatgpt",
+    "title": "Evaluating fairness in ChatGPT",
+    "link": "https://openai.com/index/evaluating-fairness-in-chatgpt",
+    "description": "We've analyzed how ChatGPT responds to users based on their name, using AI research assistants to protect privacy.",
+    "publishedAt": "2024-10-15",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

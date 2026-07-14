@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/dall-e-introducing-outpainting",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/dall-e-introducing-outpainting",
+    "title": "DALL·E: Introducing outpainting",
+    "link": "https://openai.com/index/dall-e-introducing-outpainting",
+    "description": "Extend creativity and tell a bigger story with DALL·E images of any size.",
+    "publishedAt": "2022-08-31",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

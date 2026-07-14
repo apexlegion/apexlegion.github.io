@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/toward-future-preserves-benefits-neurotechnology-for-all-0706",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/toward-future-preserves-benefits-neurotechnology-for-all-0706",
+    "title": "Toward a future that preserves benefits of neurotechnology for all",
+    "link": "https://news.mit.edu/2026/toward-future-preserves-benefits-neurotechnology-for-all-0706",
+    "description": "PhD student Rachel Sava, winner of the Envisioning the Future of Computing Prize, explores transformative improvements and dystopian risks of neural technology.",
+    "publishedAt": "2026-07-06",
+    "author": "Amanda Diehl | MIT Schwarzman College of Computing",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

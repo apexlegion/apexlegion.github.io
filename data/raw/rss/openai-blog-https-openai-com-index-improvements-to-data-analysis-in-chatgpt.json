@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/improvements-to-data-analysis-in-chatgpt",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/improvements-to-data-analysis-in-chatgpt",
+    "title": "Improvements to data analysis in ChatGPT",
+    "link": "https://openai.com/index/improvements-to-data-analysis-in-chatgpt",
+    "description": "Improvements to data analysis in ChatGPT Interact with tables and charts and add files directly from Google Drive and Microsoft OneDrive.",
+    "publishedAt": "2024-05-16",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

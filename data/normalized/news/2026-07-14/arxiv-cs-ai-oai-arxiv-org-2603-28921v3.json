@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2603-28921v3",
+  "name": "Critical Damping as a Momentum Schedule: Multi-Seed Validation, a Hybrid Recipe, and an Exhaustive Negative Result on Surgical Layer Selection",
+  "summary": "arXiv:2603.28921v3 Announce Type: replace-cross Abstract: The critical damping condition of the damped harmonic oscillator model of SGD with momentum (Qian, 1999) yields a momentum schedule with no...",
+  "description": "arXiv:2603.28921v3 Announce Type: replace-cross Abstract: The critical damping condition of the damped harmonic oscillator model of SGD with momentum (Qian, 1999) yields a momentum schedule with no tuned hyperparameters: mu(t) = 1 - 2*sqrt(alpha(t)). Across five seeds on ResNet-18/CIFAR-10 (200-epoch cosine schedule) it reaches 90% test accuracy 2.34x faster than constant mu=0.9 (range 1.71-2.8...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2603.28921"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2603.28921"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Ivan Pasichnyk"
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/genmab",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/genmab",
+    "title": "Genmab launches “AI Everywhere”",
+    "link": "https://openai.com/index/genmab",
+    "description": "Genmab embraces ChatGPT Enterprise, supported by OpenAI’s commitment to security and privacy",
+    "publishedAt": "2024-09-19",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

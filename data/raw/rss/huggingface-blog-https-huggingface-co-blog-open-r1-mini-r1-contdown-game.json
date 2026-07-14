@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/open-r1/mini-r1-contdown-game",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/open-r1/mini-r1-contdown-game",
+    "title": "Mini-R1: Reproduce Deepseek R1 „aha moment“ a RL tutorial",
+    "link": "https://huggingface.co/blog/open-r1/mini-r1-contdown-game",
+    "description": "",
+    "publishedAt": "2025-01-31",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

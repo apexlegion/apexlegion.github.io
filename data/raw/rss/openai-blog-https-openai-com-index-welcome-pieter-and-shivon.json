@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/welcome-pieter-and-shivon",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/welcome-pieter-and-shivon",
+    "title": "Welcome, Pieter and Shivon!",
+    "link": "https://openai.com/index/welcome-pieter-and-shivon",
+    "description": "We have two more team updates.",
+    "publishedAt": "2016-04-26",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

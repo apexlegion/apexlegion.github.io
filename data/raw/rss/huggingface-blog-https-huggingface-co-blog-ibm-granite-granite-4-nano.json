@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/ibm-granite/granite-4-nano",
+  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/ibm-granite/granite-4-nano",
+    "title": "Granite 4.0 Nano: Just how small can you go?",
+    "link": "https://huggingface.co/blog/ibm-granite/granite-4-nano",
+    "description": "",
+    "publishedAt": "2025-10-28",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

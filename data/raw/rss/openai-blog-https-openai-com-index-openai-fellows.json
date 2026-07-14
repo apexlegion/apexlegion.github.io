@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-fellows",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-fellows",
+    "title": "OpenAI Fellows Fall 2018",
+    "link": "https://openai.com/index/openai-fellows",
+    "description": "We’re now accepting applications for the next cohort of OpenAI Fellows, a program which offers a compensated 6-month apprenticeship in AI research at OpenAI.",
+    "publishedAt": "2018-05-30",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

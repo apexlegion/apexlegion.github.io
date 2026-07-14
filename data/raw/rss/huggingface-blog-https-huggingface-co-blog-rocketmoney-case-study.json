@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/rocketmoney-case-study",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/rocketmoney-case-study",
+    "title": "Rocket Money x Hugging Face: Scaling Volatile ML Models in Production​",
+    "link": "https://huggingface.co/blog/rocketmoney-case-study",
+    "description": "",
+    "publishedAt": "2023-09-19",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

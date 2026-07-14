@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/global-affairs/response-to-uk-copyright-consultation",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/global-affairs/response-to-uk-copyright-consultation",
+    "title": "Our response to the UK’s copyright consultation",
+    "link": "https://openai.com/global-affairs/response-to-uk-copyright-consultation",
+    "description": "Recommendations for pro-innovation policies that can help make the UK the AI capital of Europe.",
+    "publishedAt": "2025-04-02",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

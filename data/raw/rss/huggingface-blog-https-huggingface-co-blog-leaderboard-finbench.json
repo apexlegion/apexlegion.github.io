@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/leaderboard-finbench",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/leaderboard-finbench",
+    "title": "Introducing the Open FinLLM Leaderboard",
+    "link": "https://huggingface.co/blog/leaderboard-finbench",
+    "description": "",
+    "publishedAt": "2024-10-04",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

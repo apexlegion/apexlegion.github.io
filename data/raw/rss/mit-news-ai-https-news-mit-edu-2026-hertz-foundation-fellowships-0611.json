@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/hertz-foundation-fellowships-0611",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/hertz-foundation-fellowships-0611",
+    "title": "MIT affiliates win 2026 Hertz Foundation Fellowships",
+    "link": "https://news.mit.edu/2026/hertz-foundation-fellowships-0611",
+    "description": "The fellowships in applied sciences, engineering, and mathematics recognize doctoral students who are pursuing solutions to the most pressing challenges in science and technology.",
+    "publishedAt": "2026-06-11",
+    "author": "Division of Graduate and Undergraduate Education",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

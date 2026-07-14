@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/panel-on-hugging-face",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/panel-on-hugging-face",
+    "title": "Panel on Hugging Face",
+    "link": "https://huggingface.co/blog/panel-on-hugging-face",
+    "description": "",
+    "publishedAt": "2023-06-22",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

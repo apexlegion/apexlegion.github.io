@@ -1,0 +1,37 @@
+{
+  "type": "paper",
+  "slug": "2607-11801",
+  "name": "Encoder-Side Neuron Identification and Amplification for Acoustic Perception in Large Audio-Language Models",
+  "summary": "Large audio-language models (LALMs) often underperform on fine-grained, non-semantic attributes of speech, such as a speaker's emotion, despite strong performance on speech content. Improving this...",
+  "description": "Large audio-language models (LALMs) often underperform on fine-grained, non-semantic attributes of speech, such as a speaker's emotion, despite strong performance on speech content. Improving this without the cost of retraining calls for an effective inference-time intervention, yet most existing methods intervene only after the audio encoder and operate at a relatively coarse granularity. The encoder itself, where acoustic information is first extracted from the waveform, remains largely unexplored, especially at the level of individual neurons. We introduce IAAN, Identifying and Amplifyin...",
+  "tags": [
+    "arxiv",
+    "cs.SD"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.11801v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-13",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.SD.",
+      "href": "https://arxiv.org/abs/2607.11801v1"
+    }
+  ],
+  "authors": [
+    "Yu-Han Huang",
+    "Chih-Kai Yang",
+    "Ke-Han Lu",
+    "An-Yu Cheng",
+    "Hung-yi Lee"
+  ],
+  "paperId": "2607.11801",
+  "category": "cs.SD",
+  "publishedAt": "2026-07-13",
+  "abstract": "Large audio-language models (LALMs) often underperform on fine-grained, non-semantic attributes of speech, such as a speaker's emotion, despite strong performance on speech content. Improving this without the cost of retraining calls for an effective inference-time intervention, yet most existing methods intervene only after the audio encoder and operate at a relatively coarse granularity. The encoder itself, where acoustic information is first extracted from the waveform, remains largely unexplored, especially at the level of individual neurons. We introduce IAAN, Identifying and Amplifyin..."
+}

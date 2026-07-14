@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/vision-transformers",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/vision-transformers",
+    "title": "Deep Dive: Vision Transformers On Hugging Face Optimum Graphcore",
+    "link": "https://huggingface.co/blog/vision-transformers",
+    "description": "",
+    "publishedAt": "2022-08-18",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-five-benchmark",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-five-benchmark",
+    "title": "OpenAI Five Benchmark",
+    "link": "https://openai.com/index/openai-five-benchmark",
+    "description": "The OpenAI Five Benchmark match is now over!",
+    "publishedAt": "2018-07-18",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

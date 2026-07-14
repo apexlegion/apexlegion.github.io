@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-09892v1",
+  "name": "Next-Dense-Stride Prediction for Multimodal Autoregressive Visual Modeling",
+  "summary": "arXiv:2607.09892v1 Announce Type: cross Abstract: We introduce DenseAR, a new generative paradigm that reformulates autoregressive image generation as coarse-to-fine next-dense-stride prediction us...",
+  "description": "arXiv:2607.09892v1 Announce Type: cross Abstract: We introduce DenseAR, a new generative paradigm that reformulates autoregressive image generation as coarse-to-fine next-dense-stride prediction using a compact single-scale tokenizer. Our key insight is that traversing a single-scale latent grid with progressively denser strides naturally captures the transition from global structure to fine de...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.09892"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.09892"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Chicago Y. Park, Jialin Mao, Xiaojian Xu, Taha Kass-Hout, Ulugbek S. Kamilov, Cao Xiao"
+}

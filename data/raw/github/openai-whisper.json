@@ -1,7 +1,7 @@
 {
   "source": "github",
   "sourceId": "openai/whisper",
-  "fetchedAt": "2026-07-06T16:56:58.013Z",
+  "fetchedAt": "2026-07-14T05:07:33.607Z",
   "data": {
     "id": 537603333,
     "node_id": "R_kgDOIAstBQ",
@@ -70,7 +70,7 @@
     "releases_url": "https://api.github.com/repos/openai/whisper/releases{/id}",
     "deployments_url": "https://api.github.com/repos/openai/whisper/deployments",
     "created_at": "2022-09-16T20:02:54Z",
-    "updated_at": "2026-07-06T16:33:06Z",
+    "updated_at": "2026-07-14T04:30:05Z",
     "pushed_at": "2026-04-15T16:32:15Z",
     "git_url": "git://github.com/openai/whisper.git",
     "ssh_url": "org-14957082@github.com:openai/whisper.git",
@@ -78,8 +78,8 @@
     "svn_url": "https://github.com/openai/whisper",
     "homepage": "",
     "size": 4132,
-    "stargazers_count": 104332,
-    "watchers_count": 104332,
+    "stargazers_count": 104897,
+    "watchers_count": 104897,
     "language": "Python",
     "has_issues": false,
     "has_projects": false,
@@ -87,11 +87,11 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 12714,
+    "forks_count": 12755,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 134,
+    "open_issues_count": 135,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -106,11 +106,18 @@
     "pull_request_creation_policy": "all",
     "topics": [],
     "visibility": "public",
-    "forks": 12714,
-    "open_issues": 134,
-    "watchers": 104332,
+    "forks": 12755,
+    "open_issues": 135,
+    "watchers": 104897,
     "default_branch": "main",
-    "temp_clone_token": null,
+    "permissions": {
+      "admin": false,
+      "maintain": false,
+      "push": false,
+      "triage": false,
+      "pull": false
+    },
+    "temp_clone_token": "",
     "custom_properties": {},
     "organization": {
       "login": "openai",
@@ -133,7 +140,7 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "network_count": 12714,
-    "subscribers_count": 752
+    "network_count": 12755,
+    "subscribers_count": 753
   }
 }

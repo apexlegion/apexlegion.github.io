@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2409-19716v2",
+  "name": "Constrained Reinforcement Learning for Safe Heat Pump Control",
+  "summary": "arXiv:2409.19716v2 Announce Type: replace-cross Abstract: Constrained Reinforcement Learning (RL) has emerged as a significant research area within RL, where integrating constraints with rewards is...",
+  "description": "arXiv:2409.19716v2 Announce Type: replace-cross Abstract: Constrained Reinforcement Learning (RL) has emerged as a significant research area within RL, where integrating constraints with rewards is crucial for enhancing safety and performance across diverse control tasks. In the context of heating systems in the buildings, optimizing the energy efficiency while maintaining the residents' therma...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2409.19716"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2409.19716"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Baohe Zhang, Lilli Frison, Thomas Brox, Joschka B\\\"odecker"
+}

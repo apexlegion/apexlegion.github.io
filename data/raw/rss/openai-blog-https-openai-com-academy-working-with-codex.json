@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/academy/working-with-codex",
+  "fetchedAt": "2026-07-14T05:07:36.574Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/academy/working-with-codex",
+    "title": "Working with ChatGPT Codex",
+    "link": "https://openai.com/academy/working-with-codex",
+    "description": "Learn how to set up your ChatGPT Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+    "publishedAt": "2026-04-23",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

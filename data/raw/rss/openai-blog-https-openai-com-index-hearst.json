@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/hearst",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/hearst",
+    "title": "OpenAI and Hearst Content Partnership",
+    "link": "https://openai.com/index/hearst",
+    "description": "Hearst’s iconic brands bring curated lifestyle and local news content to OpenAI’s products.",
+    "publishedAt": "2024-10-08",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

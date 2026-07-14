@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "mit-news-ai-https-news-mit-edu-2026-mit-cybersecurity-clinic-preventing-cyberattacks-0713",
+  "name": "How MIT students are helping to prevent cyberattacks",
+  "summary": "Students from the MIT Cybersecurity Clinic help local governments and other vulnerable organizations defend against digital threats.",
+  "description": "Students from the MIT Cybersecurity Clinic help local governments and other vulnerable organizations defend against digital threats.",
+  "tags": [
+    "news",
+    "mit-news-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "MIT News",
+      "href": "https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-13",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by MIT News.",
+      "href": "https://news.mit.edu/2026/mit-cybersecurity-clinic-preventing-cyberattacks-0713"
+    }
+  ],
+  "source": "MIT News",
+  "publishedAt": "2026-07-13",
+  "expiryAt": "2026-08-12T00:00:00.000Z",
+  "author": "Nicole Estvanik Taylor | Department of Urban Studies and Planning"
+}

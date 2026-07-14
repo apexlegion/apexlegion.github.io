@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/open-asr-leaderboard-private-data",
+  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/open-asr-leaderboard-private-data",
+    "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
+    "link": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
+    "description": "",
+    "publishedAt": "2026-05-06",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

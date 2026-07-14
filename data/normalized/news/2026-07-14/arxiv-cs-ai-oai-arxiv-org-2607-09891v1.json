@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-09891v1",
+  "name": "What You Train Is What You Get: Gender Bias, Training Composition, and Post-Hoc Mitigation in Audio Deepfake Detection",
+  "summary": "arXiv:2607.09891v1 Announce Type: cross Abstract: Audio deepfake detection models determine whether speech is genuine or artificially generated, but high overall accuracy can mask substantial perfo...",
+  "description": "arXiv:2607.09891v1 Announce Type: cross Abstract: Audio deepfake detection models determine whether speech is genuine or artificially generated, but high overall accuracy can mask substantial performance disparities across demographic groups. In this work, we investigate gender bias in audio deepfake detection using the ASVspoof5 dataset. We use ASVspoof5 under a controlled custom split designe...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.09891"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.09891"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Aishwarya R. Fursule, Vamshi Nallaguntla, Shruti Kshirsagar, Anderson R. Avila"
+}

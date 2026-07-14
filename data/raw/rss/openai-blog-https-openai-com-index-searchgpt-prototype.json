@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/searchgpt-prototype",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/searchgpt-prototype",
+    "title": "SearchGPT is a prototype of new AI search features",
+    "link": "https://openai.com/index/searchgpt-prototype",
+    "description": "We’re testing SearchGPT, a temporary prototype of new search features that give you fast and timely answers with clear and relevant sources.",
+    "publishedAt": "2024-07-25",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

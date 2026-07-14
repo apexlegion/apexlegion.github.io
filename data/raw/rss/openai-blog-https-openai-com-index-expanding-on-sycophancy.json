@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/expanding-on-sycophancy",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/expanding-on-sycophancy",
+    "title": "Expanding on what we missed with sycophancy",
+    "link": "https://openai.com/index/expanding-on-sycophancy",
+    "description": "A deeper dive on our findings, what went wrong, and future changes we’re making.",
+    "publishedAt": "2025-05-02",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

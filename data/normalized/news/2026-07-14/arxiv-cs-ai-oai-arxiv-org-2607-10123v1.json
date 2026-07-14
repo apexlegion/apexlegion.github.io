@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10123v1",
+  "name": "A Large-Scale Dataset of MCP Implementations on GitHub",
+  "summary": "arXiv:2607.10123v1 Announce Type: cross Abstract: The rapid emergence of the Model Context Protocol (MCP) has introduced a new standard for connecting large language models to external tools and se...",
+  "description": "arXiv:2607.10123v1 Announce Type: cross Abstract: The rapid emergence of the Model Context Protocol (MCP) has introduced a new standard for connecting large language models to external tools and services. Despite its rapid adoption in open-source development, systematic understanding of how MCP is implemented, structured, and maintained remains limited. This study presents the first large-scale...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10123"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10123"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Benny Toeppe, Amine Barrak, Emna Ksontini"
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/leadership-updates-march-2025",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/leadership-updates-march-2025",
+    "title": "Leadership updates",
+    "link": "https://openai.com/index/leadership-updates-march-2025",
+    "description": "OpenAI has grown a lot. We remain focused on the same core—pursuing frontier AI research that accelerates human progress–but we now also deliver products used by hundreds of millions of people.",
+    "publishedAt": "2025-03-24",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

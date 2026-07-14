@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/eu-ai-act-oss",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/eu-ai-act-oss",
+    "title": "AI Policy @🤗: Open ML Considerations in the EU AI Act",
+    "link": "https://huggingface.co/blog/eu-ai-act-oss",
+    "description": "",
+    "publishedAt": "2023-07-24",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

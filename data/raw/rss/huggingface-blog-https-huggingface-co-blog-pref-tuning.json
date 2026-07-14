@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/pref-tuning",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/pref-tuning",
+    "title": "Preference Tuning LLMs with Direct Preference Optimization Methods",
+    "link": "https://huggingface.co/blog/pref-tuning",
+    "description": "",
+    "publishedAt": "2024-01-18",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

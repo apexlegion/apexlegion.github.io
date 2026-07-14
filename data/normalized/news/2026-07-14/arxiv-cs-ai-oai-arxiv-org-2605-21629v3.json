@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2605-21629v3",
+  "name": "Faster Completion, Less Learning: Generative AI Reduced Study Time on Math Problems and the Knowledge They Build",
+  "summary": "arXiv:2605.21629v3 Announce Type: replace-cross Abstract: How much have students' ordinary learning processes shifted in response to generative AI, and how does that affect their durable learning o...",
+  "description": "arXiv:2605.21629v3 Announce Type: replace-cross Abstract: How much have students' ordinary learning processes shifted in response to generative AI, and how does that affect their durable learning outcomes? Self-report surveys show little change, while small-scale behavioral studies report widespread AI use without the scale or duration to measure learning consequences. We address both questions...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2605.21629"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2605.21629"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Sina Rismanchian, Hasan Uzun, Jeffrey Matayoshi, Eric Cosyn, Eyad Kurd-Misto"
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/team-update-january",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/team-update-january",
+    "title": "Team update",
+    "link": "https://openai.com/index/team-update-january",
+    "description": "The OpenAI team is now 45 people. Together, we’re pushing the frontier of AI capabilities—whether by validating novel ideas, creating new software systems, or deploying machine learning on robots.",
+    "publishedAt": "2017-01-30",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

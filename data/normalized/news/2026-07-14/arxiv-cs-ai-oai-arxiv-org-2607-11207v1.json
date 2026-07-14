@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11207v1",
+  "name": "ProgramTab: Boosting Table Reasoning of LLMs via Programmatic Paradigm",
+  "summary": "arXiv:2607.11207v1 Announce Type: cross Abstract: Table-based reasoning with large language models (LLMs), which requires reasoning based on natural language questions and structured tabular data,...",
+  "description": "arXiv:2607.11207v1 Announce Type: cross Abstract: Table-based reasoning with large language models (LLMs), which requires reasoning based on natural language questions and structured tabular data, has gained widespread attention. However, a series of issues still constrain the application of this task. The previous approaches suffered from significant performance degradation when faced with lar...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11207"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11207"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Pei Guo, Enjie Liu, Yunzhi Tan, Mochi Gao, Jianxin Zhang, Ruichao Zhong, Juntao Li, Bo Hu, Zang Li"
+}

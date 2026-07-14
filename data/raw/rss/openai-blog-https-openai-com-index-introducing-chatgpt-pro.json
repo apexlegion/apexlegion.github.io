@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/introducing-chatgpt-pro",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/introducing-chatgpt-pro",
+    "title": "Introducing ChatGPT Pro",
+    "link": "https://openai.com/index/introducing-chatgpt-pro",
+    "description": "Broadening usage of frontier AI",
+    "publishedAt": "2024-12-05",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

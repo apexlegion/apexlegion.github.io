@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-five",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-five",
+    "title": "OpenAI Five",
+    "link": "https://openai.com/index/openai-five",
+    "description": "Our team of five neural networks, OpenAI Five, has started to defeat amateur human teams at Dota 2.",
+    "publishedAt": "2018-06-25",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

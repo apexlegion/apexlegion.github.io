@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "huggingface-blog-https-huggingface-co-blog-photoroom-prx-part4-data",
+  "name": "PRX Part 4: Our Data Strategy",
+  "summary": "PRX Part 4: Our Data Strategy",
+  "description": "PRX Part 4: Our Data Strategy",
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Hugging Face Blog",
+      "href": "https://huggingface.co/blog/Photoroom/prx-part4-data"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-06",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Hugging Face Blog.",
+      "href": "https://huggingface.co/blog/Photoroom/prx-part4-data"
+    }
+  ],
+  "source": "Hugging Face Blog",
+  "publishedAt": "2026-07-06",
+  "expiryAt": "2026-08-05T00:00:00.000Z"
+}

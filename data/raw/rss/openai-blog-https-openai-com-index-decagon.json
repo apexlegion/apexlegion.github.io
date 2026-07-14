@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/decagon",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/decagon",
+    "title": "Delivering high-performance customer support",
+    "link": "https://openai.com/index/decagon",
+    "description": "Decagon and OpenAI deliver high-performance, fully automated customer support at scale",
+    "publishedAt": "2024-10-29",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

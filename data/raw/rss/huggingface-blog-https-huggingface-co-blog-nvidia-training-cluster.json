@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/nvidia-training-cluster",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/nvidia-training-cluster",
+    "title": "Introducing Training Cluster as a Service - a new collaboration with NVIDIA",
+    "link": "https://huggingface.co/blog/nvidia-training-cluster",
+    "description": "",
+    "publishedAt": "2025-06-11",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/scale-the-benefits-of-ai",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/scale-the-benefits-of-ai",
+    "title": "New funding to scale the benefits of AI",
+    "link": "https://openai.com/index/scale-the-benefits-of-ai",
+    "description": "We are making progress on our mission to ensure that artificial general intelligence benefits all of humanity.",
+    "publishedAt": "2024-10-02",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

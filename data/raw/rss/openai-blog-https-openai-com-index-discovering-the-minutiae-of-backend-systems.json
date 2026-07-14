@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/discovering-the-minutiae-of-backend-systems",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/discovering-the-minutiae-of-backend-systems",
+    "title": "Discovering the minutiae of backend systems",
+    "link": "https://openai.com/index/discovering-the-minutiae-of-backend-systems",
+    "description": "Christian Gibson is an engineer on the Supercomputing team at OpenAI.",
+    "publishedAt": "2022-12-08",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

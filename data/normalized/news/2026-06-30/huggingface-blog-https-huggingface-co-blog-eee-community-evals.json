@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "huggingface-blog-https-huggingface-co-blog-eee-community-evals",
+  "name": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+  "summary": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+  "description": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Hugging Face Blog",
+      "href": "https://huggingface.co/blog/eee-community-evals"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-06-30",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Hugging Face Blog.",
+      "href": "https://huggingface.co/blog/eee-community-evals"
+    }
+  ],
+  "source": "Hugging Face Blog",
+  "publishedAt": "2026-06-30",
+  "expiryAt": "2026-07-30T00:00:00.000Z"
+}

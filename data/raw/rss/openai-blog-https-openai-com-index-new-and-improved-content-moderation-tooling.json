@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/new-and-improved-content-moderation-tooling",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/new-and-improved-content-moderation-tooling",
+    "title": "New and improved content moderation tooling",
+    "link": "https://openai.com/index/new-and-improved-content-moderation-tooling",
+    "description": "We are introducing a new and improved content moderation tool. The Moderation endpoint improves upon our previous content filter, and is available for free today to OpenAI API developers.",
+    "publishedAt": "2022-08-10",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

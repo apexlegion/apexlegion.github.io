@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/introducing-chatgpt-edu",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/introducing-chatgpt-edu",
+    "title": "OpenAI for Education",
+    "link": "https://openai.com/index/introducing-chatgpt-edu",
+    "description": "An affordable offering for universities to responsibly bring AI to campus.",
+    "publishedAt": "2024-05-30",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

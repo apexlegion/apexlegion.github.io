@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2512-19311v2",
+  "name": "MixFlow Training: Alleviating Exposure Bias with Slowed Interpolation Mixture",
+  "summary": "arXiv:2512.19311v2 Announce Type: replace-cross Abstract: This paper studies the training-testing discrepancy (a.k.a. exposure bias) problem for improving the diffusion models. During training, the...",
+  "description": "arXiv:2512.19311v2 Announce Type: replace-cross Abstract: This paper studies the training-testing discrepancy (a.k.a. exposure bias) problem for improving the diffusion models. During training, the input of a prediction network at one training timestep is the corresponding ground-truth noisy data that is an interpolation of the noise and the data, and during testing, the input is the generated...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2512.19311"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2512.19311"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Hui Li, Fu-Yun Wang, Haoyuan Xia, Jiayue Lyu, Kaihui Cheng, Siyu Zhu, Jingdong Wang"
+}

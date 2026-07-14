@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/summarizing-books",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/summarizing-books",
+    "title": "Summarizing books with human feedback",
+    "link": "https://openai.com/index/summarizing-books",
+    "description": "Scaling human oversight of AI systems for tasks that are difficult to evaluate.",
+    "publishedAt": "2021-09-23",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

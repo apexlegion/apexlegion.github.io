@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/bug-bounty-program",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/bug-bounty-program",
+    "title": "Announcing OpenAI’s Bug Bounty Program",
+    "link": "https://openai.com/index/bug-bounty-program",
+    "description": "This initiative is essential to our commitment to develop safe and advanced AI. As we create technology and services that are secure, reliable, and trustworthy, we need your help.",
+    "publishedAt": "2023-04-11",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

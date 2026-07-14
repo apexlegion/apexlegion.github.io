@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/new-ways-to-manage-your-data-in-chatgpt",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/new-ways-to-manage-your-data-in-chatgpt",
+    "title": "New ways to manage your data in ChatGPT",
+    "link": "https://openai.com/index/new-ways-to-manage-your-data-in-chatgpt",
+    "description": "ChatGPT users can now turn off chat history, allowing you to choose which conversations can be used to train our models.",
+    "publishedAt": "2023-04-25",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

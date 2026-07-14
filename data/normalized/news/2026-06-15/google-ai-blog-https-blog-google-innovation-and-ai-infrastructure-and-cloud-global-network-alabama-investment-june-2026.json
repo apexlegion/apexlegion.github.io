@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "google-ai-blog-https-blog-google-innovation-and-ai-infrastructure-and-cloud-global-network-alabama-investment-june-2026",
+  "name": "We’re strengthening our presence in Alabama through new investments and community support.",
+  "summary": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
+  "description": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
+  "tags": [
+    "news",
+    "google-ai-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Google AI Blog",
+      "href": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-06-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Google AI Blog.",
+      "href": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/"
+    }
+  ],
+  "source": "Google AI Blog",
+  "publishedAt": "2026-06-15",
+  "expiryAt": "2026-07-15T00:00:00.000Z"
+}

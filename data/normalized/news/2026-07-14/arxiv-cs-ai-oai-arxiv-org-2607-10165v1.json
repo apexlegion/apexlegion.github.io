@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10165v1",
+  "name": "EmoStyle: Affective Conditioning of Style-Specialist Experts for Emotional Image Generation",
+  "summary": "arXiv:2607.10165v1 Announce Type: cross Abstract: Emotion-aware artistic image generation requires an image to match the input prompt, follow the specified artistic style, and convey the target emo...",
+  "description": "arXiv:2607.10165v1 Announce Type: cross Abstract: Emotion-aware artistic image generation requires an image to match the input prompt, follow the specified artistic style, and convey the target emotion. In this challenge, the main difficulty is that the visual and affective attributes available in the training data are not explicitly provided at test time. Without these attributes, the generato...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10165"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10165"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Dexiang Hong, Yijie Guo, Weidong Chen, Xinyan Liu, Zixuan Zou, Zhendong Mao, Yongdong Zhang"
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/introducing-doi",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/introducing-doi",
+    "title": "Introducing DOI: the Digital Object Identifier to Datasets and Models",
+    "link": "https://huggingface.co/blog/introducing-doi",
+    "description": "",
+    "publishedAt": "2022-10-07",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

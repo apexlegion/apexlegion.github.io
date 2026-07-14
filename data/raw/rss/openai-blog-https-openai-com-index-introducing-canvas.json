@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/introducing-canvas",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/introducing-canvas",
+    "title": "Introducing canvas, a new way to write and code with ChatGPT.",
+    "link": "https://openai.com/index/introducing-canvas",
+    "description": "Introducing canvas",
+    "publishedAt": "2024-10-03",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

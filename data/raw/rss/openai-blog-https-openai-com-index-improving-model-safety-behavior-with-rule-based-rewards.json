@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/improving-model-safety-behavior-with-rule-based-rewards",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/improving-model-safety-behavior-with-rule-based-rewards",
+    "title": "Improving Model Safety Behavior with Rule-Based Rewards",
+    "link": "https://openai.com/index/improving-model-safety-behavior-with-rule-based-rewards",
+    "description": "We've developed and applied a new method leveraging Rule-Based Rewards (RBRs) that aligns models to behave safely without extensive human data collection.",
+    "publishedAt": "2024-07-24",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

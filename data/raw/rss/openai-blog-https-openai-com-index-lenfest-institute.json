@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/lenfest-institute",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/lenfest-institute",
+    "title": "OpenAI and the Lenfest Institute AI Collaborative and Fellowship program",
+    "link": "https://openai.com/index/lenfest-institute",
+    "description": "OpenAI and the Lenfest Institute AI Collaborative and Fellowship program",
+    "publishedAt": "2024-10-22",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

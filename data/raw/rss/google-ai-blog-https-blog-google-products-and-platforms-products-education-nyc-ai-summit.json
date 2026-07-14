@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "google-ai-blog:https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+  "fetchedAt": "2026-07-14T05:07:36.145Z",
+  "data": {
+    "guid": "google-ai-blog:https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+    "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+    "link": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+    "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summit_Photo_1.max-600x600.format-webp.webp\"&gt;Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and industry leaders.",
+    "publishedAt": "2026-07-01",
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  },
+  "extra": {
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  }
+}

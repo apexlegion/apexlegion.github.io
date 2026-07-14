@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "huggingface-blog-https-huggingface-co-blog-skypilot-hf-storage",
+  "name": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+  "summary": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+  "description": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Hugging Face Blog",
+      "href": "https://huggingface.co/blog/skypilot-hf-storage"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-07",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Hugging Face Blog.",
+      "href": "https://huggingface.co/blog/skypilot-hf-storage"
+    }
+  ],
+  "source": "Hugging Face Blog",
+  "publishedAt": "2026-07-07",
+  "expiryAt": "2026-08-06T00:00:00.000Z"
+}

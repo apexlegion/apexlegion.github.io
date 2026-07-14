@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/advancing-red-teaming-with-people-and-ai",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/advancing-red-teaming-with-people-and-ai",
+    "title": "Advancing red teaming with people and AI",
+    "link": "https://openai.com/index/advancing-red-teaming-with-people-and-ai",
+    "description": "Advancing red teaming with people and AI",
+    "publishedAt": "2024-11-21",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

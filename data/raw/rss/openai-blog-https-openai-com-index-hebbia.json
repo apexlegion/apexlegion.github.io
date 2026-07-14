@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/hebbia",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/hebbia",
+    "title": "Automating 90% of finance and legal work with agents",
+    "link": "https://openai.com/index/hebbia",
+    "description": "Hebbia’s deep research automates 90% of finance and legal work, powered by OpenAI",
+    "publishedAt": "2025-03-25",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/introducing-vision-to-the-fine-tuning-api",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/introducing-vision-to-the-fine-tuning-api",
+    "title": "Introducing vision to the fine-tuning API",
+    "link": "https://openai.com/index/introducing-vision-to-the-fine-tuning-api",
+    "description": "Developers can now fine-tune GPT-4o with images and text to improve vision capabilities",
+    "publishedAt": "2024-10-01",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

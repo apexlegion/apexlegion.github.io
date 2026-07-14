@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/jetbrains",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/jetbrains",
+    "title": "Embedding AI into developer software",
+    "link": "https://openai.com/index/jetbrains",
+    "description": "JetBrains uses OpenAI’s API to build its fastest-growing product ever.",
+    "publishedAt": "2024-03-21",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

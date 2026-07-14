@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/equivalence-between-policy-gradients-and-soft-q-learning",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/equivalence-between-policy-gradients-and-soft-q-learning",
+    "title": "Equivalence between policy gradients and soft Q-learning",
+    "link": "https://openai.com/index/equivalence-between-policy-gradients-and-soft-q-learning",
+    "description": "",
+    "publishedAt": "2017-04-21",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

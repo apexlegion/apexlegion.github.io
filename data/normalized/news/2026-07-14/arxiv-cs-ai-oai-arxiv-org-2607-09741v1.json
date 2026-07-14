@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-09741v1",
+  "name": "SWIFT: A Small-World Interaction Framework for Flow-Aware Trajectory Prediction in Autonomous Driving",
+  "summary": "arXiv:2607.09741v1 Announce Type: cross Abstract: Accurate trajectory prediction in autonomous driving hinges on modeling dynamic and context-dependent interactions among traffic agents. However, m...",
+  "description": "arXiv:2607.09741v1 Announce Type: cross Abstract: Accurate trajectory prediction in autonomous driving hinges on modeling dynamic and context-dependent interactions among traffic agents. However, most existing approaches are purely data-driven and lack structural priors, which limits their generalization under distribution shifts. In this work, interaction modeling is revisited through the stru...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.09741"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.09741"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Chengyue Wang, Bin Rao, Haicheng Liao, Bonan Wang, Chengzhong Xu, Zhenning Li"
+}

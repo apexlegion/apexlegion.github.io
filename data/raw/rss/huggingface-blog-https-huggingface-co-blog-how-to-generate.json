@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/how-to-generate",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/how-to-generate",
+    "title": "How to generate text: using different decoding methods for language generation with Transformers",
+    "link": "https://huggingface.co/blog/how-to-generate",
+    "description": "",
+    "publishedAt": "2020-03-01",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

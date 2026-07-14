@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/global-affairs/openai-and-uk-government-partnership",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/global-affairs/openai-and-uk-government-partnership",
+    "title": "OpenAI and UK Government announce strategic partnership to deliver AI-driven growth",
+    "link": "https://openai.com/global-affairs/openai-and-uk-government-partnership",
+    "description": "OpenAI partners with the UK Government to boost AI adoption, drive economic growth, and enhance public services for a thriving AI ecosystem in the UK.",
+    "publishedAt": "2025-07-21",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

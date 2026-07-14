@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/gpt-4o-fine-tuning",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/gpt-4o-fine-tuning",
+    "title": "Fine-tuning now available for GPT-4o",
+    "link": "https://openai.com/index/gpt-4o-fine-tuning",
+    "description": "",
+    "publishedAt": "2024-08-20",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

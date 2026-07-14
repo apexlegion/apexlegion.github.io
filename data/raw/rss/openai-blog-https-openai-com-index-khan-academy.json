@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/khan-academy",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/khan-academy",
+    "title": "Powering virtual education for the classroom",
+    "link": "https://openai.com/index/khan-academy",
+    "description": "Khan Academy explores the potential for GPT-4 in a limited pilot program.",
+    "publishedAt": "2023-03-14",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10112v1",
+  "name": "Minionese: Comprehensive Benchmark and Mechanistic Study of Multilingual LLM Safety",
+  "summary": "arXiv:2607.10112v1 Announce Type: cross Abstract: Safety alignment in large language models remains brittle across languages: prompts reliably refused in English can elicit harmful compliance in no...",
+  "description": "arXiv:2607.10112v1 Announce Type: cross Abstract: Safety alignment in large language models remains brittle across languages: prompts reliably refused in English can elicit harmful compliance in non-English and low-resource settings. We introduce \\textsc{Minionese}, a multilingual jailbreak benchmark spanning 18 languages, 4 resource tiers, and 4 perturbation types (standard translation, code-s...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10112"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10112"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Chigozirim Ifebi, Brent Kong, Ayushi Mehrotra"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11245v1",
+  "name": "An Empirical Study for GUI Test Migration from Android to OpenHarmony System",
+  "summary": "arXiv:2607.11245v1 Announce Type: cross Abstract: To reduce the substantial engineering effort required to test the corresponding applications from Android to OpenHarmony, migrating existing GUI te...",
+  "description": "arXiv:2607.11245v1 Announce Type: cross Abstract: To reduce the substantial engineering effort required to test the corresponding applications from Android to OpenHarmony, migrating existing GUI test cases has become a critical problem. However, current research neither proposes solutions tailored for OpenHarmony nor provides a systematic evaluation of migration approaches on this system, leavi...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11245"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11245"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Yakun Zhang, Xinjia Chen, Yiyun Chen, Yuxia Zhang, Mingyi Zhou, Xiang Gao, Shaokun Zhang, Li Li, Yunming Ye"
+}

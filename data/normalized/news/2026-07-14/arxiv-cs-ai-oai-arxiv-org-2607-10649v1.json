@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10649v1",
+  "name": "Coverage Path Planning: Classical Foundations, Recent Advances, and Future Directions",
+  "summary": "arXiv:2607.10649v1 Announce Type: cross Abstract: Coverage path planning (CPP) is a fundamental problem in robot motion planning, whose aim is to produce robot trajectories that provide complete co...",
+  "description": "arXiv:2607.10649v1 Announce Type: cross Abstract: Coverage path planning (CPP) is a fundamental problem in robot motion planning, whose aim is to produce robot trajectories that provide complete coverage of target workspaces while minimizing task-specific objectives such as path length, overlap, number of turns, and energy consumption. CPP has widespread applications in cleaning, inspection, ma...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10649"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10649"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Zongyuan Shen, Shalabh Gupta, Shancheng Zhao, Dehua Zhou, Gao Wang, Zhongqiang Ren, Yaming Ou, Yikui Zhai, C. L. Philip Chen"
+}

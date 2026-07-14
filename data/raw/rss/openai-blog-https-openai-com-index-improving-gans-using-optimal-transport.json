@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/improving-gans-using-optimal-transport",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/improving-gans-using-optimal-transport",
+    "title": "Improving GANs using optimal transport",
+    "link": "https://openai.com/index/improving-gans-using-optimal-transport",
+    "description": "",
+    "publishedAt": "2018-03-15",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

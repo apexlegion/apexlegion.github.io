@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/global-affairs/disrupting-malicious-uses-of-ai",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/global-affairs/disrupting-malicious-uses-of-ai",
+    "title": "Disrupting malicious uses of AI",
+    "link": "https://openai.com/global-affairs/disrupting-malicious-uses-of-ai",
+    "description": "",
+    "publishedAt": "2025-02-21",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

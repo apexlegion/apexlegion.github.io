@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/building-more-helpful-chatgpt-experiences-for-everyone",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/building-more-helpful-chatgpt-experiences-for-everyone",
+    "title": "Building more helpful ChatGPT experiences for everyone",
+    "link": "https://openai.com/index/building-more-helpful-chatgpt-experiences-for-everyone",
+    "description": "We’re partnering with experts, strengthening protections for teens with parental controls, and routing sensitive conversations to reasoning models in ChatGPT.",
+    "publishedAt": "2025-09-02",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

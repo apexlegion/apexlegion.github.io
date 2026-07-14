@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2204-09333v3",
+  "name": "Profiling and Evolution of Intellectual Property",
+  "summary": "arXiv:2204.09333v3 Announce Type: replace-cross Abstract: In recent years, with the rapid growth of Internet data, the number and types of scientific and technological resources are also rapidly ex...",
+  "description": "arXiv:2204.09333v3 Announce Type: replace-cross Abstract: In recent years, with the rapid growth of Internet data, the number and types of scientific and technological resources are also rapidly expanding. However, the increase in the number and category of information data will also increase the cost of information acquisition. For technology-based enterprises or users, in addition to general...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2204.09333"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2204.09333"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Bowen Yu, Yingxia Shao, Ang Li"
+}

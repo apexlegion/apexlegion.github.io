@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/hierarchical-text-conditional-image-generation-with-clip-latents",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/hierarchical-text-conditional-image-generation-with-clip-latents",
+    "title": "Hierarchical text-conditional image generation with CLIP latents",
+    "link": "https://openai.com/index/hierarchical-text-conditional-image-generation-with-clip-latents",
+    "description": "",
+    "publishedAt": "2022-04-13",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

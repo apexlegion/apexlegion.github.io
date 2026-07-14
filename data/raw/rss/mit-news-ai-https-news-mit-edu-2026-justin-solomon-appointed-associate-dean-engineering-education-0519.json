@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/justin-solomon-appointed-associate-dean-engineering-education-0519",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/justin-solomon-appointed-associate-dean-engineering-education-0519",
+    "title": "Justin Solomon appointed associate dean of engineering education",
+    "link": "https://news.mit.edu/2026/justin-solomon-appointed-associate-dean-engineering-education-0519",
+    "description": "MIT faculty member in electrical engineering and computer science to focus on innovation in engineering education and new pedagogical approaches.",
+    "publishedAt": "2026-05-19",
+    "author": "Mary Beth Gallagher | School of Engineering",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

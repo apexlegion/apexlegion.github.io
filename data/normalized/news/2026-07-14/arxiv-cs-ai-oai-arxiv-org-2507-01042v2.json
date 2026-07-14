@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2507-01042v2",
+  "name": "Can Argus Judge Them All? Comparing VLMs Across Domains",
+  "summary": "arXiv:2507.01042v2 Announce Type: replace-cross Abstract: Vision-Language Models (VLMs) are increasingly used in industry VLM applications such as retrieval systems, content generation platforms, a...",
+  "description": "arXiv:2507.01042v2 Announce Type: replace-cross Abstract: Vision-Language Models (VLMs) are increasingly used in industry VLM applications such as retrieval systems, content generation platforms, and decision-support workflows, where model selection is commonly guided by benchmark rankings. These rankings are largely determined by retrieval, captioning, and reasoning downstream tasks; however,...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2507.01042"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2507.01042"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Harsh Joshi, Gautam Siddharth Kashyap, Rafiq Ali, Ebad Shabbir, Niharika Jain, Sarthak Jain, Jiechao Gao, Usman Naseem"
+}

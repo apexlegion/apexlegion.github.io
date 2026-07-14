@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/inworld-ai-DO-NOT-PUBLISH",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/inworld-ai-DO-NOT-PUBLISH",
+    "title": "Creating next-gen characters",
+    "link": "https://openai.com/index/inworld-ai-DO-NOT-PUBLISH",
+    "description": "Using GPT-3 to create the next generation of AI-powered characters.",
+    "publishedAt": "2023-01-01",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

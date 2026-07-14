@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/doc_aug_hf_alb",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/doc_aug_hf_alb",
+    "title": "Introducing TextImage Augmentation for Document Images",
+    "link": "https://huggingface.co/blog/doc_aug_hf_alb",
+    "description": "",
+    "publishedAt": "2024-08-06",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

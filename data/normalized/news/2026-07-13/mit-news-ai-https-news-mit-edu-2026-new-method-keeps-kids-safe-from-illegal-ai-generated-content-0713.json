@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "mit-news-ai-https-news-mit-edu-2026-new-method-keeps-kids-safe-from-illegal-ai-generated-content-0713",
+  "name": "New method aims to keep kids safe from illegal AI-generated content",
+  "summary": "Researchers developed an auditing technique to test generative AI models for malicious capabilities, without prompting them for illegal outputs.",
+  "description": "Researchers developed an auditing technique to test generative AI models for malicious capabilities, without prompting them for illegal outputs.",
+  "tags": [
+    "news",
+    "mit-news-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "MIT News",
+      "href": "https://news.mit.edu/2026/new-method-keeps-kids-safe-from-illegal-ai-generated-content-0713"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-13",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by MIT News.",
+      "href": "https://news.mit.edu/2026/new-method-keeps-kids-safe-from-illegal-ai-generated-content-0713"
+    }
+  ],
+  "source": "MIT News",
+  "publishedAt": "2026-07-13",
+  "expiryAt": "2026-08-12T00:00:00.000Z",
+  "author": "Adam Zewe | MIT News"
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/upwork",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/upwork",
+    "title": "Putting AI to work at Upwork",
+    "link": "https://openai.com/index/upwork",
+    "description": "Upwork puts AI to work, uniting team members, operations and product development",
+    "publishedAt": "2024-08-20",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

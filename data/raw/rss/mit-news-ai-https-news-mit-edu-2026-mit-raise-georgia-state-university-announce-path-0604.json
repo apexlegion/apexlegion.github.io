@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/mit-raise-georgia-state-university-announce-path-0604",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/mit-raise-georgia-state-university-announce-path-0604",
+    "title": "PATH to boost AI training and career opportunities for industry-aligned jobs",
+    "link": "https://news.mit.edu/2026/mit-raise-georgia-state-university-announce-path-0604",
+    "description": "MIT RAISE and Georgia State University announce an initiative to connect universities, community colleges, industry, and government to expand industry-aligned AI training and career pathways.",
+    "publishedAt": "2026-06-04",
+    "author": "Media Lab",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

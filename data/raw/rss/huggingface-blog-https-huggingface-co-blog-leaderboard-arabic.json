@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/leaderboard-arabic",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/leaderboard-arabic",
+    "title": "Introducing the Open Arabic LLM Leaderboard",
+    "link": "https://huggingface.co/blog/leaderboard-arabic",
+    "description": "",
+    "publishedAt": "2024-05-14",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

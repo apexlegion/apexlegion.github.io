@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/team-update-august",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/team-update-august",
+    "title": "Team update",
+    "link": "https://openai.com/index/team-update-august",
+    "description": "We’ve hired more great people to help us achieve our goals. Welcome, everyone!",
+    "publishedAt": "2016-08-16",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

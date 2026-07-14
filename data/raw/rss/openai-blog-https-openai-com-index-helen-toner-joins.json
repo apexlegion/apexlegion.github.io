@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/helen-toner-joins",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/helen-toner-joins",
+    "title": "Helen Toner joins OpenAI’s board of directors",
+    "link": "https://openai.com/index/helen-toner-joins",
+    "description": "Today, we’re excited to announce the appointment of Helen Toner to our board of directors.",
+    "publishedAt": "2021-09-08",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

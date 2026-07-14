@@ -1,7 +1,7 @@
 {
   "source": "github",
   "sourceId": "microsoft/DeepSpeed",
-  "fetchedAt": "2026-07-06T16:56:49.219Z",
+  "fetchedAt": "2026-07-14T05:07:32.447Z",
   "data": {
     "id": 235860204,
     "node_id": "MDEwOlJlcG9zaXRvcnkyMzU4NjAyMDQ=",
@@ -70,16 +70,16 @@
     "releases_url": "https://api.github.com/repos/deepspeedai/DeepSpeed/releases{/id}",
     "deployments_url": "https://api.github.com/repos/deepspeedai/DeepSpeed/deployments",
     "created_at": "2020-01-23T18:35:18Z",
-    "updated_at": "2026-07-06T16:44:24Z",
-    "pushed_at": "2026-07-06T00:20:16Z",
+    "updated_at": "2026-07-14T04:59:14Z",
+    "pushed_at": "2026-07-14T04:58:59Z",
     "git_url": "git://github.com/deepspeedai/DeepSpeed.git",
     "ssh_url": "git@github.com:deepspeedai/DeepSpeed.git",
     "clone_url": "https://github.com/deepspeedai/DeepSpeed.git",
     "svn_url": "https://github.com/deepspeedai/DeepSpeed",
     "homepage": "https://www.deepspeed.ai/",
-    "size": 246795,
-    "stargazers_count": 42667,
-    "watchers_count": 42667,
+    "size": 246974,
+    "stargazers_count": 42702,
+    "watchers_count": 42702,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -87,11 +87,11 @@
     "has_wiki": false,
     "has_pages": true,
     "has_discussions": true,
-    "forks_count": 4879,
+    "forks_count": 4881,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 1307,
+    "open_issues_count": 1298,
     "license": {
       "key": "apache-2.0",
       "name": "Apache License 2.0",
@@ -120,11 +120,18 @@
       "zero"
     ],
     "visibility": "public",
-    "forks": 4879,
-    "open_issues": 1307,
-    "watchers": 42667,
+    "forks": 4881,
+    "open_issues": 1298,
+    "watchers": 42702,
     "default_branch": "master",
-    "temp_clone_token": null,
+    "permissions": {
+      "admin": false,
+      "maintain": false,
+      "push": false,
+      "triage": false,
+      "pull": false
+    },
+    "temp_clone_token": "",
     "custom_properties": {},
     "organization": {
       "login": "deepspeedai",
@@ -147,7 +154,7 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "network_count": 4879,
+    "network_count": 4881,
     "subscribers_count": 359
   }
 }

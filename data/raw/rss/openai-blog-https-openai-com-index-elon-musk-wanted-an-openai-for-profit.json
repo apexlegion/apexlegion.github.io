@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/elon-musk-wanted-an-openai-for-profit",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/elon-musk-wanted-an-openai-for-profit",
+    "title": "Elon Musk wanted an OpenAI for-profit",
+    "link": "https://openai.com/index/elon-musk-wanted-an-openai-for-profit",
+    "description": "Elon Musk’s latest legal filing against OpenAI marks his fourth attempt in less than a year to reframe his claims. However, his own words and actions speak for themselves—in 2017, Elon not only wanted, but actually created, a for-profit as OpenAI’s proposed new structure.",
+    "publishedAt": "2024-12-13",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

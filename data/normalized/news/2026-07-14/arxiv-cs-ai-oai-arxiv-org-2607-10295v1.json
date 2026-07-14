@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10295v1",
+  "name": "Program-Synthesis-Driven Autodesign of Universal Unitary Operators",
+  "summary": "arXiv:2607.10295v1 Announce Type: cross Abstract: We demonstrate that AI-driven program synthesis can autonomously discover fundamental strategies for decomposing unitary matrices in photonic netwo...",
+  "description": "arXiv:2607.10295v1 Announce Type: cross Abstract: We demonstrate that AI-driven program synthesis can autonomously discover fundamental strategies for decomposing unitary matrices in photonic networks. By extending DreamCoder to complex-valued linear algebra, the system generates decomposition programs achieving the minimal $N(N-1)/2$ Mach-Zehnder interferometers, distinct from both Reck and Cl...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10295"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10295"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Yifei Zhang, Dong Chen, Fan Wang, Wenrui Zhang, Yan Chen, Dingding Han, Jianmin Yuan, Xiangjin Kong, Yu-Gang Ma"
+}

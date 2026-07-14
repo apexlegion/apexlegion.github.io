@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/pai-6-month",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/pai-6-month",
+    "title": "4M Models Scanned: Protect AI + Hugging Face 6 Months In",
+    "link": "https://huggingface.co/blog/pai-6-month",
+    "description": "",
+    "publishedAt": "2025-04-14",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

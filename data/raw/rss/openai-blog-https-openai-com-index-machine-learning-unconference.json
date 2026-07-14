@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/machine-learning-unconference",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/machine-learning-unconference",
+    "title": "Machine Learning Unconference",
+    "link": "https://openai.com/index/machine-learning-unconference",
+    "description": "The latest information about the Unconference is now available at the Unconference wiki, which will be periodically updated with more information for attendees.",
+    "publishedAt": "2016-08-18",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

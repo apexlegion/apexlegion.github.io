@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/estee-lauder",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/estee-lauder",
+    "title": "Data-driven beauty and creativity with ChatGPT",
+    "link": "https://openai.com/index/estee-lauder",
+    "description": "Data-driven beauty: How The Estée Lauder Companies unlocks insights with ChatGPT",
+    "publishedAt": "2024-11-13",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

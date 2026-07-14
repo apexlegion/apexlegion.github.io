@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/bloom-megatron-deepspeed",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/bloom-megatron-deepspeed",
+    "title": "The Technology Behind BLOOM Training",
+    "link": "https://huggingface.co/blog/bloom-megatron-deepspeed",
+    "description": "",
+    "publishedAt": "2022-07-14",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

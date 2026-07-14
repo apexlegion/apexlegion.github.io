@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/buy-it-in-chatgpt",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/buy-it-in-chatgpt",
+    "title": "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol",
+    "link": "https://openai.com/index/buy-it-in-chatgpt",
+    "description": "We’re taking first steps toward agentic commerce in ChatGPT with new ways for people, AI agents, and businesses to shop together.",
+    "publishedAt": "2025-09-29",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/neurogum",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/neurogum",
+    "title": "Neuro drives national retail wins with ChatGPT Business",
+    "link": "https://openai.com/index/neurogum",
+    "description": "Neuro uses ChatGPT Business to scale nationwide with fewer than 70 employees, saving time, reducing costs, and turning faster execution across sales and operations into growth.",
+    "publishedAt": "2025-11-12",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

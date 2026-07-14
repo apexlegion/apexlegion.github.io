@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2606-24894v3",
+  "name": "RWGBench: Evaluating Scholarly Positioning in Related Work Generation",
+  "summary": "arXiv:2606.24894v3 Announce Type: replace-cross Abstract: Large language models have shown strong fluency in scientific writing, yet the evaluation of related work generation (RWG) remains limited....",
+  "description": "arXiv:2606.24894v3 Announce Type: replace-cross Abstract: Large language models have shown strong fluency in scientific writing, yet the evaluation of related work generation (RWG) remains limited. Existing RWG evaluations largely inherit summarization-oriented metrics, using lexical or semantic similarity to reference sections as proxies for quality. However, related work writing is fundamenta...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2606.24894"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2606.24894"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Anzhe Xie, Weihang Su, Jiaxin Mao, Yiqun Liu, Min Zhang, Shaoping Ma, Qingyao Ai"
+}

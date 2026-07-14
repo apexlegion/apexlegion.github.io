@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/exploring-societal-impacts-of-ai-0623",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/exploring-societal-impacts-of-ai-0623",
+    "title": "Exploring the societal impacts of AI",
+    "link": "https://news.mit.edu/2026/exploring-societal-impacts-of-ai-0623",
+    "description": "During the AI and Society Forum, leading MIT researchers examined critical questions about AI’s influence on employment and democracy.",
+    "publishedAt": "2026-06-23",
+    "author": "Benjamin Daniel | School of Humanities, Arts, and Social Sciences",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

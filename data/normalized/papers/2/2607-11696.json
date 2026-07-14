@@ -1,0 +1,33 @@
+{
+  "type": "paper",
+  "slug": "2607-11696",
+  "name": "Think Through a Bottleneck: Hourglass Reasoning for Rigorous Induction",
+  "summary": "Self-refinement often fails to strengthen few-shot inductive reasoning in large language models. Prompting a model to explicitly state its inferred rule does little on its own. What actually matter...",
+  "description": "Self-refinement often fails to strengthen few-shot inductive reasoning in large language models. Prompting a model to explicitly state its inferred rule does little on its own. What actually matters is a structurally enforced isolation between reasoning stages, so that information can only pass between them as a compressed symbolic state. We introduce \\textbf{Hourglass reasoning}, which enforces strict context isolation between reasoning stages. The frozen LLM acts as a meta-constructor, building for each task a symbolic encoder--decoder: an Induction module compresses the support examples...",
+  "tags": [
+    "arxiv",
+    "cs.AI"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.11696v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-13",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11696v1"
+    }
+  ],
+  "authors": [
+    "Huan Zhu"
+  ],
+  "paperId": "2607.11696",
+  "category": "cs.AI",
+  "publishedAt": "2026-07-13",
+  "abstract": "Self-refinement often fails to strengthen few-shot inductive reasoning in large language models. Prompting a model to explicitly state its inferred rule does little on its own. What actually matters is a structurally enforced isolation between reasoning stages, so that information can only pass between them as a compressed symbolic state. We introduce \\textbf{Hourglass reasoning}, which enforces strict context isolation between reasoning stages. The frozen LLM acts as a meta-constructor, building for each task a symbolic encoder--decoder: an Induction module compresses the support examples..."
+}

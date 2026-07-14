@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/security-on-the-path-to-agi",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/security-on-the-path-to-agi",
+    "title": "Security on the path to AGI",
+    "link": "https://openai.com/index/security-on-the-path-to-agi",
+    "description": "At OpenAI, we proactively adapt, including by building comprehensive security measures directly into our infrastructure and models.",
+    "publishedAt": "2025-03-26",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

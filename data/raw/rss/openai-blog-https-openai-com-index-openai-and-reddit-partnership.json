@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-and-reddit-partnership",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-and-reddit-partnership",
+    "title": "OpenAI and Reddit Partnership",
+    "link": "https://openai.com/index/openai-and-reddit-partnership",
+    "description": "OpenAI and Reddit Partnership We’re bringing Reddit’s unique content to ChatGPT and our products.",
+    "publishedAt": "2024-05-16",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

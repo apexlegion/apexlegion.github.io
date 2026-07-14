@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10806v1",
+  "name": "Abstractiveness Metrics for Evaluating Text Summarization: A Refined Formulation with Empirical Validation",
+  "summary": "arXiv:2607.10806v1 Announce Type: cross Abstract: Quantifying abstractiveness in generated summaries is essential for evaluating summarization models beyond surface-level metrics like ROUGE. We int...",
+  "description": "arXiv:2607.10806v1 Announce Type: cross Abstract: Quantifying abstractiveness in generated summaries is essential for evaluating summarization models beyond surface-level metrics like ROUGE. We introduce Reference Abstraction (RA), Summary Abstraction (SA), and Abstraction Ratio (AR) -- a set of principled heuristic metrics that measure how much a summary diverges from extractive copying of the...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10806"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10806"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Praveenkumar Katwe, Rakesh Chandra Balabantaray, Kali Prasad Vittala"
+}

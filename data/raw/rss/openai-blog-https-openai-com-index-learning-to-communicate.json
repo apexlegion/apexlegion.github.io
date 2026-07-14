@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/learning-to-communicate",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/learning-to-communicate",
+    "title": "Learning to communicate",
+    "link": "https://openai.com/index/learning-to-communicate",
+    "description": "In this post we’ll outline new OpenAI research in which agents develop their own language.",
+    "publishedAt": "2017-03-16",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

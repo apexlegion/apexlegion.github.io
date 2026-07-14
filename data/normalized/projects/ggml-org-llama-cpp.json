@@ -1,0 +1,46 @@
+{
+  "type": "project",
+  "slug": "ggml-org-llama-cpp",
+  "name": "llama.cpp",
+  "summary": "LLM inference in C/C++",
+  "description": "LLM inference in C/C++",
+  "tags": [
+    "ggml",
+    "c++"
+  ],
+  "externalLinks": [
+    {
+      "label": "GitHub repository",
+      "href": "https://github.com/ggml-org/llama.cpp"
+    },
+    {
+      "label": "Homepage",
+      "href": "https://llama.app"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2023-03-10",
+      "type": "release",
+      "title": "Repository created",
+      "description": "Initial public commit on ggml-org/llama.cpp."
+    },
+    {
+      "date": "2026-07-14",
+      "type": "update",
+      "title": "Latest activity",
+      "description": "Most recent push recorded by the GitHub API."
+    }
+  ],
+  "category": "Frameworks",
+  "repository": "https://github.com/ggml-org/llama.cpp",
+  "license": "MIT",
+  "health": {
+    "recentCommit": 0,
+    "releaseFrequency": 0.5,
+    "popularity": 0,
+    "documentation": 0,
+    "license": 1,
+    "total": 0.175
+  }
+}

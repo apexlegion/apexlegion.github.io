@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4",
+    "title": "Finding GPT-4’s mistakes with GPT-4",
+    "link": "https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4",
+    "description": "CriticGPT, a model based on GPT-4, writes critiques of ChatGPT responses to help human trainers spot mistakes during RLHF",
+    "publishedAt": "2024-06-27",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

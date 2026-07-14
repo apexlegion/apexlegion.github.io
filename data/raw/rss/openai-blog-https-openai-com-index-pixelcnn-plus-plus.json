@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/pixelcnn-plus-plus",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/pixelcnn-plus-plus",
+    "title": "PixelCNN++: Improving the PixelCNN with discretized logistic mixture likelihood and other modifications",
+    "link": "https://openai.com/index/pixelcnn-plus-plus",
+    "description": "",
+    "publishedAt": "2017-01-19",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

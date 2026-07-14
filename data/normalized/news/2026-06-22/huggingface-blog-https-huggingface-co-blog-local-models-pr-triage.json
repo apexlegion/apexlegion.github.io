@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "huggingface-blog-https-huggingface-co-blog-local-models-pr-triage",
+  "name": "We got local models to triage the OpenClaw repo for FREE!*",
+  "summary": "We got local models to triage the OpenClaw repo for FREE!*",
+  "description": "We got local models to triage the OpenClaw repo for FREE!*",
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Hugging Face Blog",
+      "href": "https://huggingface.co/blog/local-models-pr-triage"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-06-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Hugging Face Blog.",
+      "href": "https://huggingface.co/blog/local-models-pr-triage"
+    }
+  ],
+  "source": "Hugging Face Blog",
+  "publishedAt": "2026-06-22",
+  "expiryAt": "2026-07-22T00:00:00.000Z"
+}

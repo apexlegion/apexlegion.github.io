@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/empowering-defenders-through-our-cybersecurity-grant-program",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/empowering-defenders-through-our-cybersecurity-grant-program",
+    "title": "Empowering defenders through our Cybersecurity Grant Program",
+    "link": "https://openai.com/index/empowering-defenders-through-our-cybersecurity-grant-program",
+    "description": "Highlighting innovative research and AI integration in cybersecurity",
+    "publishedAt": "2024-06-20",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

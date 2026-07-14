@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/new-models-and-developer-products-announced-at-devday",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/new-models-and-developer-products-announced-at-devday",
+    "title": "New models and developer products announced at DevDay",
+    "link": "https://openai.com/index/new-models-and-developer-products-announced-at-devday",
+    "description": "GPT-4 Turbo with 128K context and lower prices, the new Assistants API, GPT-4 Turbo with Vision, DALL·E 3 API, and more.",
+    "publishedAt": "2023-11-06",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

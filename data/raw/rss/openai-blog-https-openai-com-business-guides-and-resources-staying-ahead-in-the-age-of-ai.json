@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/business/guides-and-resources/staying-ahead-in-the-age-of-ai",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/business/guides-and-resources/staying-ahead-in-the-age-of-ai",
+    "title": "Staying ahead in the age of AI",
+    "link": "https://openai.com/business/guides-and-resources/staying-ahead-in-the-age-of-ai",
+    "description": "Discover how leaders can build AI-ready organizations using clear strategy, training, governance, and accelerated innovation.",
+    "publishedAt": "2025-12-16",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

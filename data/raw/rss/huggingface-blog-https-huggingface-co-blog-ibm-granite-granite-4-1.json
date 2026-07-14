@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/ibm-granite/granite-4-1",
+  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/ibm-granite/granite-4-1",
+    "title": "Granite 4.1 LLMs: How They’re Built",
+    "link": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+    "description": "",
+    "publishedAt": "2026-04-29",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

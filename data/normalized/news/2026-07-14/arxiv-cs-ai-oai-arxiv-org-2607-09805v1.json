@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-09805v1",
+  "name": "A Unified Model for Highly Accurate ECG-Free Dynamic Coronary Roadmapping Using Spatio-Temporal Transformers",
+  "summary": "arXiv:2607.09805v1 Announce Type: cross Abstract: Percutaneous Coronary Intervention (PCI) is a minimally invasive procedure used to restore coronary blood flow obstructed by atherosclerotic plaque...",
+  "description": "arXiv:2607.09805v1 Announce Type: cross Abstract: Percutaneous Coronary Intervention (PCI) is a minimally invasive procedure used to restore coronary blood flow obstructed by atherosclerotic plaque. During PCI, repeated injections of iodine-based contrast agents are required to visualize the coronary arteries and guide interventional devices. However, frequent contrast injections increase radia...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.09805"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.09805"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Saahil Islam, Sebastian Piat, Venkatesh N. Murthy, Serkan Cimen, Puneet Sharma, Andreas Maier, Florin C. Ghesu"
+}

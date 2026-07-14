@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/spam-detection-in-the-physical-world",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/spam-detection-in-the-physical-world",
+    "title": "Spam detection in the physical world",
+    "link": "https://openai.com/index/spam-detection-in-the-physical-world",
+    "description": "We’ve created the world’s first Spam-detecting AI trained entirely in simulation and deployed on a physical robot.",
+    "publishedAt": "2017-04-01",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

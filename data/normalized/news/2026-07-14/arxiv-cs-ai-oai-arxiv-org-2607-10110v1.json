@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10110v1",
+  "name": "Looped State-Space Language Models with Adaptive Exit-State Selection",
+  "summary": "arXiv:2607.10110v1 Announce Type: new Abstract: Recent work on looped language models suggests that many reasoning problems benefit from greater computational depth rather than from additional inde...",
+  "description": "arXiv:2607.10110v1 Announce Type: new Abstract: Recent work on looped language models suggests that many reasoning problems benefit from greater computational depth rather than from additional independent parameters. Existing studies, however, focus almost exclusively on Transformer backbones, leaving open whether this principle also applies to state-space language models. We investigate Looped...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10110"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10110"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Zhenxuan Yu, Takeshi Kojima, Yutaka Matsuo, Yusuke Iwasawa"
+}

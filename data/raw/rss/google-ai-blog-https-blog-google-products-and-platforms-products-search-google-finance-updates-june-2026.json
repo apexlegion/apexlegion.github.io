@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "google-ai-blog:https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+  "fetchedAt": "2026-07-14T05:07:36.145Z",
+  "data": {
+    "guid": "google-ai-blog:https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+    "title": "Our latest Google Finance upgrades, including a new app",
+    "link": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+    "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp\"&gt;The new Google Finance is coming out of beta and launching a new Android app.",
+    "publishedAt": "2026-06-25",
+    "author": "<name>Barine Tee</name><title>Principal Engineer</title><department>Search</department><company/>",
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  },
+  "extra": {
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-residency",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-residency",
+    "title": "OpenAI Residency",
+    "link": "https://openai.com/index/openai-residency",
+    "description": "As part of our effort to support and develop AI talent, we’re excited to announce the OpenAI Residency.",
+    "publishedAt": "2021-11-30",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/train-sentence-transformers",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/train-sentence-transformers",
+    "title": "Training and Finetuning Embedding Models with Sentence Transformers",
+    "link": "https://huggingface.co/blog/train-sentence-transformers",
+    "description": "",
+    "publishedAt": "2024-05-28",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/tiny-robot-boats-build-floating-structures-0709",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/tiny-robot-boats-build-floating-structures-0709",
+    "title": "Tiny robot boats build floating structures",
+    "link": "https://news.mit.edu/2026/tiny-robot-boats-build-floating-structures-0709",
+    "description": "MIT researchers developed FloatForm, a swarm of small aquatic robots that snap together like ants forming a raft, assembling into reconfigurable structures on the water.",
+    "publishedAt": "2026-07-09",
+    "author": "Rachel Gordon | MIT CSAIL",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

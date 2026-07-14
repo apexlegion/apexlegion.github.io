@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/mistral-coreml",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/mistral-coreml",
+    "title": "WWDC 24: Running Mistral 7B with Core ML",
+    "link": "https://huggingface.co/blog/mistral-coreml",
+    "description": "",
+    "publishedAt": "2024-07-22",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

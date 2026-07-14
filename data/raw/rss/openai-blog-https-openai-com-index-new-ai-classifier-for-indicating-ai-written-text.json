@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text",
+    "title": "New AI classifier for indicating AI-written text",
+    "link": "https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text",
+    "description": "We’re launching a classifier trained to distinguish between AI-written and human-written text.",
+    "publishedAt": "2023-01-31",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

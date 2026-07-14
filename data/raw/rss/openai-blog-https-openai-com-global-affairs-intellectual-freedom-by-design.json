@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/global-affairs/intellectual-freedom-by-design",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/global-affairs/intellectual-freedom-by-design",
+    "title": "Intellectual freedom by design",
+    "link": "https://openai.com/global-affairs/intellectual-freedom-by-design",
+    "description": "ChatGPT is designed to be useful, trustworthy, and adaptable—so you can make it your own.",
+    "publishedAt": "2025-07-15",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

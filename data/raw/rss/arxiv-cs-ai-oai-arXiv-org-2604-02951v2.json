@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2604.02951v2",
+  "fetchedAt": "2026-07-14T05:07:36.736Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2604.02951v2",
+    "title": "How Annotation Trains Annotators: Competence Development in Social Influence Recognition",
+    "link": "https://arxiv.org/abs/2604.02951",
+    "description": "arXiv:2604.02951v2 Announce Type: replace-cross Abstract: Human data annotation, especially when involving experts, is often treated as an objective reference. However, many annotation tasks are inherently subjective, and annotators' judgments may evolve over time. This study investigates changes in the quality of annotators' work from a competence perspective during a process of social influence recognition. The study involved 25 annotators from five different groups, including both experts and non-experts, who annotated a dataset of 1,021 dialogues with 20 social influence techniques, along with intentions, reactions, and consequences. An initial subset of 150 texts was annotated twice - before and after the main annotation process - to enable comparison. To measure competence shifts, we combined qualitative and quantitative analyses of the annotated data, semi-structured interviews with annotators, self-assessment surveys, and Large Language Model training and evaluation on the comparison dataset. The results indicate a significant increase in annotators' self-perceived competence and confidence. Moreover, observed changes in data quality suggest that the annotation process may enhance annotator competence and that this effect is more pronounced in expert groups. The observed shifts in annotator competence have a visible impact on the performance of LLMs trained on their annotated data.",
+    "publishedAt": "2026-07-14",
+    "author": "Maciej Markiewicz, Beata Bajcar, Wiktoria Mieleszczenko-Kowszewicz, Aleksander Szcz\\k{e}sny, Tomasz Adamczyk, Grzegorz Chodak, Karolina Ostrowska, Aleksandra Sawczuk, Jolanta Babiak, Jagoda Szklarczyk, Przemys{\\l}aw Kazienko",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

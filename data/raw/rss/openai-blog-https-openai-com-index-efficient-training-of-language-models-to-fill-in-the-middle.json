@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/efficient-training-of-language-models-to-fill-in-the-middle",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/efficient-training-of-language-models-to-fill-in-the-middle",
+    "title": "Efficient training of language models to fill in the middle",
+    "link": "https://openai.com/index/efficient-training-of-language-models-to-fill-in-the-middle",
+    "description": "",
+    "publishedAt": "2022-07-28",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

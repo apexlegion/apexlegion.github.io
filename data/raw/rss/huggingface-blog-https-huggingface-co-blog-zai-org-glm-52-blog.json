@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/zai-org/glm-52-blog",
+  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/zai-org/glm-52-blog",
+    "title": "GLM-5.2: Built for Long-Horizon Tasks",
+    "link": "https://huggingface.co/blog/zai-org/glm-52-blog",
+    "description": "",
+    "publishedAt": "2026-06-17",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

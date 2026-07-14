@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/optimizing-bark",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/optimizing-bark",
+    "title": "Optimizing Bark using 🤗 Transformers",
+    "link": "https://huggingface.co/blog/optimizing-bark",
+    "description": "",
+    "publishedAt": "2023-08-09",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-10357v1",
+  "name": "GRC-ProbNet: Uncertainty-aware Feature Extraction for Cardiovascular Disease Classification",
+  "summary": "arXiv:2607.10357v1 Announce Type: cross Abstract: The automatic detection and classification of cardiovascular disease (CVD) from computed tomography (CT) images plays an important role in clinical...",
+  "description": "arXiv:2607.10357v1 Announce Type: cross Abstract: The automatic detection and classification of cardiovascular disease (CVD) from computed tomography (CT) images plays an important role in clinical practice. Recently, a hybrid pipeline (GRC-Net) for CVD classification was proposed, which leverages a deep-learning-based segmentation and registration method to extract radiomic and geometric featu...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.10357"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.10357"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Yash Shah, Omar Todd, Philipp Seeb\\\"ock, Georg Langs, Ben Glocker, Raghav Mehta"
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/moderna",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/moderna",
+    "title": "Accelerating the development of life-saving treatments",
+    "link": "https://openai.com/index/moderna",
+    "description": "Accelerating the development of life-saving treatments.",
+    "publishedAt": "2024-04-24",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

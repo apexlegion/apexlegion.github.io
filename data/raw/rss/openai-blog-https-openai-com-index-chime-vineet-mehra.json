@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/chime-vineet-mehra",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/chime-vineet-mehra",
+    "title": "How Chime is redefining marketing through AI",
+    "link": "https://openai.com/index/chime-vineet-mehra",
+    "description": "Chime CMO Vineet Mehra shares how AI is reshaping marketing into an agent-driven model and why leaders who prioritize AI literacy and thoughtful adoption will drive growth.",
+    "publishedAt": "2025-11-05",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

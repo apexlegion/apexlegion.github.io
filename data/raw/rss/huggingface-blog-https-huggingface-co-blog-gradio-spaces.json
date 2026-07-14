@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/gradio-spaces",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/gradio-spaces",
+    "title": "Showcase Your Projects in Spaces using Gradio",
+    "link": "https://huggingface.co/blog/gradio-spaces",
+    "description": "",
+    "publishedAt": "2021-10-05",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

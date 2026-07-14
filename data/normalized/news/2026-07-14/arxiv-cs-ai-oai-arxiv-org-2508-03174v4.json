@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2508-03174v4",
+  "name": "InqEduAgent: Adaptive AI Learning Partners with Gaussian Process Augmentation",
+  "summary": "arXiv:2508.03174v4 Announce Type: replace Abstract: Collaborative partnerships play a crucial role in inquiry-oriented education. However, most learning partners are currently assigned through expe...",
+  "description": "arXiv:2508.03174v4 Announce Type: replace Abstract: Collaborative partnerships play a crucial role in inquiry-oriented education. However, most learning partners are currently assigned through experience-driven heuristics or rule-based machine assistants, which often result in limited knowledge expansion and low adaptability. To address these challenges, this study introduces InqEduAgent, an LL...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2508.03174"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2508.03174"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Wen-Xi Yang, Tian-Fang Zhao, Guan Liu"
+}

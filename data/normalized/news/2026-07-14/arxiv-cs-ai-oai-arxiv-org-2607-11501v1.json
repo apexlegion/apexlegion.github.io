@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11501v1",
+  "name": "Comparative Analysis of GAT and BERT for Human-Like Playtesting",
+  "summary": "arXiv:2607.11501v1 Announce Type: new Abstract: Accurately modeling and understanding player experience is crucial for designing engaging puzzle games. To achieve this, a common approach involves c...",
+  "description": "arXiv:2607.11501v1 Announce Type: new Abstract: Accurately modeling and understanding player experience is crucial for designing engaging puzzle games. To achieve this, a common approach involves collecting diverse user data to train predictive playtesting models that mimic player behavior. However, existing data-driven methods often lack the ability to capture the full range of player strategi...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11501"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11501"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Kleio Fragkedaki, Theodoros Panagiotakopoulos, Matteo Biasielli, Hui Wang"
+}

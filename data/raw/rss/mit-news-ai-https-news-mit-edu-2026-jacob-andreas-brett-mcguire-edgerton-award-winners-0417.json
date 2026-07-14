@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/jacob-andreas-brett-mcguire-edgerton-award-winners-0417",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/jacob-andreas-brett-mcguire-edgerton-award-winners-0417",
+    "title": "Jacob Andreas and Brett McGuire named Edgerton Award winners",
+    "link": "https://news.mit.edu/2026/jacob-andreas-brett-mcguire-edgerton-award-winners-0417",
+    "description": "The associate professors of EECS and chemistry, respectively, are honored for exceptional contributions to teaching, research, and service at MIT.",
+    "publishedAt": "2026-04-17",
+    "author": "Danielle Randall Doughty | Jane Halpern | Department of Chemistry | Department of Electrical Engineering and Computer Science",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

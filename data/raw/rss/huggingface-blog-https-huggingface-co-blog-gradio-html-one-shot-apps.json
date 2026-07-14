@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/gradio-html-one-shot-apps",
+  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/gradio-html-one-shot-apps",
+    "title": "One-Shot Any Web App with Gradio&apos;s gr.HTML",
+    "link": "https://huggingface.co/blog/gradio-html-one-shot-apps",
+    "description": "",
+    "publishedAt": "2026-02-18",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

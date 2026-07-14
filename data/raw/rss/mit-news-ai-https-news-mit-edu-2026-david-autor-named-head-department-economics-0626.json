@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/david-autor-named-head-department-economics-0626",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/david-autor-named-head-department-economics-0626",
+    "title": "David Autor named head of the Department of Economics",
+    "link": "https://news.mit.edu/2026/david-autor-named-head-department-economics-0626",
+    "description": "A faculty member since 1999, Autor is a leading researcher in artificial intelligence and the work of the future.",
+    "publishedAt": "2026-06-26",
+    "author": "Benjamin Daniel | School of Humanities, Arts, and Social Sciences",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

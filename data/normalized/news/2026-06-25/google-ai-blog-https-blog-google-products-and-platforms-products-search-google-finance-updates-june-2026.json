@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "google-ai-blog-https-blog-google-products-and-platforms-products-search-google-finance-updates-june-2026",
+  "name": "Our latest Google Finance upgrades, including a new app",
+  "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp\"&gt;The new Google Finance is coming out of beta and launch...",
+  "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp\"&gt;The new Google Finance is coming out of beta and launching a new Android app.",
+  "tags": [
+    "news",
+    "google-ai-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Google AI Blog",
+      "href": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-06-25",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Google AI Blog.",
+      "href": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/"
+    }
+  ],
+  "source": "Google AI Blog",
+  "publishedAt": "2026-06-25",
+  "expiryAt": "2026-07-25T00:00:00.000Z",
+  "author": "<name>Barine Tee</name><title>Principal Engineer</title><department>Search</department><company/>"
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/Hcompany/introducing-holo2-235b-a22b",
+  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/Hcompany/introducing-holo2-235b-a22b",
+    "title": "H Company&apos;s new Holo2 model takes the lead in UI Localization",
+    "link": "https://huggingface.co/blog/Hcompany/introducing-holo2-235b-a22b",
+    "description": "",
+    "publishedAt": "2026-02-03",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

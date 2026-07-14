@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/business/new-in-chatgpt-for-business-april-updates-2025",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/business/new-in-chatgpt-for-business-april-updates-2025",
+    "title": "New in ChatGPT for Business: April 2025",
+    "link": "https://openai.com/business/new-in-chatgpt-for-business-april-updates-2025",
+    "description": "Watch hands-on demos of the lastest in ChatGPT for Business: o3, image generation, enhanced memory, and internal knowledge.",
+    "publishedAt": "2025-04-24",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

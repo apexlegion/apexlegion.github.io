@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/bert-cpu-scaling-part-2",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/bert-cpu-scaling-part-2",
+    "title": "Scaling up BERT-like model Inference on modern CPU  - Part 2",
+    "link": "https://huggingface.co/blog/bert-cpu-scaling-part-2",
+    "description": "",
+    "publishedAt": "2021-11-04",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

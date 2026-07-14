@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/ly-corporation",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/ly-corporation",
+    "title": "Driving growth and ‘WOW’ moments with OpenAI",
+    "link": "https://openai.com/index/ly-corporation",
+    "description": "LY Corporation: Driving growth and ‘WOW’ moments with OpenAI",
+    "publishedAt": "2025-03-12",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/ethics-diffusers",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/ethics-diffusers",
+    "title": "Ethical Guidelines for developing the Diffusers library",
+    "link": "https://huggingface.co/blog/ethics-diffusers",
+    "description": "",
+    "publishedAt": "2023-03-02",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

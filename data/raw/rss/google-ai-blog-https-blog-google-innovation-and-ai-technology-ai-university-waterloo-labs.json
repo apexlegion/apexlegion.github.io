@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "google-ai-blog:https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+  "fetchedAt": "2026-07-14T05:07:36.145Z",
+  "data": {
+    "guid": "google-ai-blog:https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+    "title": "Check out real-life AI prototypes from the Futures Lab.",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+    "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp\"&gt;University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
+    "publishedAt": "2026-05-29",
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  },
+  "extra": {
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2605-17932v2",
+  "name": "Prompt Compression in Diffusion Large Language Models: Evaluating LLMLingua-2 on LLaDA",
+  "summary": "arXiv:2605.17932v2 Announce Type: replace-cross Abstract: Prompt compression reduces inference cost and context length in large language models, but prior evaluations focus mainly on autoregressive...",
+  "description": "arXiv:2605.17932v2 Announce Type: replace-cross Abstract: Prompt compression reduces inference cost and context length in large language models, but prior evaluations focus mainly on autoregressive architectures. This study examines whether LLMLingua-2 transfers effectively to diffusion large language models (DLLMs), specifically LLaDA-8B-Instruct. We evaluate GSM8K, DUC2004, and ShareGPT using...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2605.17932"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2605.17932"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Sterling Huang, Abigayle Brown, Jiyoo Noh, Jiakang Xu, Wantong Huo, Kaung Myat Kyaw, Jonathan Chan"
+}

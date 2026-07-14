@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-pytorch",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-pytorch",
+    "title": "OpenAI standardizes on PyTorch",
+    "link": "https://openai.com/index/openai-pytorch",
+    "description": "We are standardizing OpenAI’s deep learning framework on PyTorch.",
+    "publishedAt": "2020-01-30",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

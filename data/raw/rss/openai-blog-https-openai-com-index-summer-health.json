@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/summer-health",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/summer-health",
+    "title": "Increasing accuracy of pediatric visit notes",
+    "link": "https://openai.com/index/summer-health",
+    "description": "Summer Health reimagines pediatric doctor’s visits with OpenAI.",
+    "publishedAt": "2023-12-14",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

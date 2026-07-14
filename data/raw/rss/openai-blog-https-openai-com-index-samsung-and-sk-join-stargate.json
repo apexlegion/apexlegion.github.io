@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/samsung-and-sk-join-stargate",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/samsung-and-sk-join-stargate",
+    "title": "Samsung and SK join OpenAI’s Stargate initiative to advance global AI infrastructure",
+    "link": "https://openai.com/index/samsung-and-sk-join-stargate",
+    "description": "Samsung and SK join OpenAI’s Stargate initiative to expand global AI infrastructure, scaling advanced memory chip production and building next-gen data centers in Korea.",
+    "publishedAt": "2025-10-01",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/simplifying-stabilizing-and-scaling-continuous-time-consistency-models",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/simplifying-stabilizing-and-scaling-continuous-time-consistency-models",
+    "title": "Simplifying, stabilizing, and scaling continuous-time consistency models",
+    "link": "https://openai.com/index/simplifying-stabilizing-and-scaling-continuous-time-consistency-models",
+    "description": "We’ve simplified, stabilized, and scaled continuous-time consistency models, achieving comparable sample quality to leading diffusion models, while using only two sampling steps.",
+    "publishedAt": "2024-10-23",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

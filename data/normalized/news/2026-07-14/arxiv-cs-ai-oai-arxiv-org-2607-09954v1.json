@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-09954v1",
+  "name": "A Knowledge-Based Multi-Agent Framework for Security Control Recommendation",
+  "summary": "arXiv:2607.09954v1 Announce Type: cross Abstract: Hardening IT on-premises environments can be a daunting task for teams without access to adequate cybersecurity expertise. In this regard, Decision...",
+  "description": "arXiv:2607.09954v1 Announce Type: cross Abstract: Hardening IT on-premises environments can be a daunting task for teams without access to adequate cybersecurity expertise. In this regard, Decision Support Systems (DSS) with embedded expert knowledge can assist users by guiding them with security recommendations to meet their objectives. This work proposes a Security DSS that recommends securit...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.09954"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.09954"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Carolina Fern\\'andez-Mart\\'inez, Shuaib Siddiqui, Vanesa Daza"
+}

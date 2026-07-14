@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/tokenizers",
+  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/tokenizers",
+    "title": "Tokenization in Transformers v5: Simpler, Clearer, and More Modular",
+    "link": "https://huggingface.co/blog/tokenizers",
+    "description": "",
+    "publishedAt": "2025-12-18",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

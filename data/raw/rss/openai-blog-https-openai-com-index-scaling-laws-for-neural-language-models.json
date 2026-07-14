@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/scaling-laws-for-neural-language-models",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/scaling-laws-for-neural-language-models",
+    "title": "Scaling laws for neural language models",
+    "link": "https://openai.com/index/scaling-laws-for-neural-language-models",
+    "description": "",
+    "publishedAt": "2020-01-23",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

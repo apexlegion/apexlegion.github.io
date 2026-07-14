@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/global-affairs/introducing-the-intelligence-age",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/global-affairs/introducing-the-intelligence-age",
+    "title": "Introducing the Intelligence Age",
+    "link": "https://openai.com/global-affairs/introducing-the-intelligence-age",
+    "description": "We aired our first-ever television ad during the Super Bowl to pique people’s curiosity and help us all realize how AI can open up new possibilities for us, create more fulfillment in our lives, and make us more productive, just as all the tools that came before AI did for those who came before us.",
+    "publishedAt": "2025-02-09",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/endex",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/endex",
+    "title": "Building an autonomous financial analyst with o1 and o3-mini",
+    "link": "https://openai.com/index/endex",
+    "description": "Endex builds the future of financial analysis, powered by OpenAI’s reasoning models.",
+    "publishedAt": "2025-02-27",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

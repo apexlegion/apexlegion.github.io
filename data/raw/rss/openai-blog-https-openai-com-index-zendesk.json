@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/zendesk",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/zendesk",
+    "title": "Moving from intent-based bots to proactive AI agents",
+    "link": "https://openai.com/index/zendesk",
+    "description": "Moving from intent-based bots to proactive AI agents.",
+    "publishedAt": "2025-03-27",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

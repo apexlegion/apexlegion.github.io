@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/learning-policy-representations-in-multiagent-systems",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/learning-policy-representations-in-multiagent-systems",
+    "title": "Learning policy representations in multiagent systems",
+    "link": "https://openai.com/index/learning-policy-representations-in-multiagent-systems",
+    "description": "",
+    "publishedAt": "2018-06-17",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

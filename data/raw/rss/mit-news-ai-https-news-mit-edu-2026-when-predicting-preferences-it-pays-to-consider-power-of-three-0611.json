@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/when-predicting-preferences-it-pays-to-consider-power-of-three-0611",
+  "fetchedAt": "2026-07-14T05:07:35.858Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/when-predicting-preferences-it-pays-to-consider-power-of-three-0611",
+    "title": "When it comes to predicting people’s preferences, it pays to consider “the power of three”",
+    "link": "https://news.mit.edu/2026/when-predicting-preferences-it-pays-to-consider-power-of-three-0611",
+    "description": "MIT researchers provide a major upgrade to the nearly century-old idea of random utility models.",
+    "publishedAt": "2026-06-11",
+    "author": "Steve Nadis | MIT Laboratory for Information and Decision Systems",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

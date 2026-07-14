@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/learning-dexterity",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/learning-dexterity",
+    "title": "Learning dexterity",
+    "link": "https://openai.com/index/learning-dexterity",
+    "description": "We’ve trained a human-like robot hand to manipulate physical objects with unprecedented dexterity.",
+    "publishedAt": "2018-07-30",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

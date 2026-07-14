@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/dreambooth",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/dreambooth",
+    "title": "Training Stable Diffusion with Dreambooth using Diffusers",
+    "link": "https://huggingface.co/blog/dreambooth",
+    "description": "",
+    "publishedAt": "2022-11-07",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

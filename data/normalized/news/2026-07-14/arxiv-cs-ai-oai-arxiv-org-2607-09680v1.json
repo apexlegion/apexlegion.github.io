@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-09680v1",
+  "name": "ECG-LDC: A Hardware-Efficient Low-Dimensional Computing Framework for ECG Arrhythmia Classification",
+  "summary": "arXiv:2607.09680v1 Announce Type: cross Abstract: Continuous cardiac monitoring in wearable devices demands classifiers that are simultaneously accurate, energy-efficient, and deployable on resourc...",
+  "description": "arXiv:2607.09680v1 Announce Type: cross Abstract: Continuous cardiac monitoring in wearable devices demands classifiers that are simultaneously accurate, energy-efficient, and deployable on resource-constrained hardware. While deep neural network approaches have demonstrated high classification accuracy for electrocardiogram (ECG) arrhythmia detection, their substantial parameter counts and rel...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.09680"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.09680"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Anh Tran, Khanh Tran, Cuong Do"
+}

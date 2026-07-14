@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/adversarial-attacks-on-neural-network-policies",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/adversarial-attacks-on-neural-network-policies",
+    "title": "Adversarial attacks on neural network policies",
+    "link": "https://openai.com/index/adversarial-attacks-on-neural-network-policies",
+    "description": "",
+    "publishedAt": "2017-02-08",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

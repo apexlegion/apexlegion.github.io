@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/debate",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/debate",
+    "title": "AI safety via debate",
+    "link": "https://openai.com/index/debate",
+    "description": "We’re proposing an AI safety technique which trains agents to debate topics with one another, using a human to judge who wins.",
+    "publishedAt": "2018-05-03",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

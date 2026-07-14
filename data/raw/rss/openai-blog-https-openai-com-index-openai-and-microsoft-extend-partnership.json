@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-and-microsoft-extend-partnership",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-and-microsoft-extend-partnership",
+    "title": "OpenAI and Microsoft extend partnership",
+    "link": "https://openai.com/index/openai-and-microsoft-extend-partnership",
+    "description": "We’re happy to announce that OpenAI and Microsoft are extending our partnership.",
+    "publishedAt": "2023-01-23",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

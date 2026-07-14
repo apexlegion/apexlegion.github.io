@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/dall-e-api-now-available-in-public-beta",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/dall-e-api-now-available-in-public-beta",
+    "title": "DALL·E API now available in public beta",
+    "link": "https://openai.com/index/dall-e-api-now-available-in-public-beta",
+    "description": "Starting today, developers can begin building apps with the DALL·E API.",
+    "publishedAt": "2022-11-03",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

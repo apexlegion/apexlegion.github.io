@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/lewis-tunstall-interview",
+  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/lewis-tunstall-interview",
+    "title": "Machine Learning Experts - Lewis Tunstall",
+    "link": "https://huggingface.co/blog/lewis-tunstall-interview",
+    "description": "",
+    "publishedAt": "2022-04-13",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

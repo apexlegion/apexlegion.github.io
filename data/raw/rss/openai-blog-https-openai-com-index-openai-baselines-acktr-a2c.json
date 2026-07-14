@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/openai-baselines-acktr-a2c",
+  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/openai-baselines-acktr-a2c",
+    "title": "OpenAI Baselines: ACKTR & A2C",
+    "link": "https://openai.com/index/openai-baselines-acktr-a2c",
+    "description": "We’re releasing two new OpenAI Baselines implementations: ACKTR and A2C. A2C is a synchronous, deterministic variant of Asynchronous Advantage Actor Critic (A3C) which we’ve found gives equal performance. ACKTR is a more sample-efficient reinforcement learning algorithm than TRPO and A2C, and requires only slightly more computation than A2C per update.",
+    "publishedAt": "2017-08-18",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}
