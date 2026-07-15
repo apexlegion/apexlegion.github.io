@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11980v1",
+  "name": "LP Mining with LP2Graph: A Use Case for Railway Rescheduling",
+  "summary": "arXiv:2607.11980v1 Announce Type: new Abstract: Like many optimization-driven domains, railway rescheduling relies on Mixed-Integer Linear Programming (MILP), yet the field's modeling knowledge is...",
+  "description": "arXiv:2607.11980v1 Announce Type: new Abstract: Like many optimization-driven domains, railway rescheduling relies on Mixed-Integer Linear Programming (MILP), yet the field's modeling knowledge is scattered across hundreds of papers in incompatible notations, and narrative surveys organize it subjectively: they classify models by vocabulary rather than by structure, and reproduce neither. We pr...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11980"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11980"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "J\\\"orn Maurischat, Nikola Be\\v{s}inovi\\'c, Michael F\\\"arber"
+}

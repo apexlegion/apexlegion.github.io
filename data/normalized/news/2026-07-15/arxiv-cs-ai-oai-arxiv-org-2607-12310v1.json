@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-12310v1",
+  "name": "LakeQuest: A Three-Domain Benchmark for Grounded Question Answering across Data Lakes",
+  "summary": "arXiv:2607.12310v1 Announce Type: cross Abstract: While modern question answering (QA) systems excel on clean, schema-aligned corpora, real-world knowledge is rarely so neatly packaged. Answering q...",
+  "description": "arXiv:2607.12310v1 Announce Type: cross Abstract: While modern question answering (QA) systems excel on clean, schema-aligned corpora, real-world knowledge is rarely so neatly packaged. Answering questions over enterprise and scientific data lakes requires systems to navigate heterogeneous, weakly structured collections of tables, passages, and linked metadata. Current benchmarks abstract away...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.12310"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.12310"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Michael Solodko, Steven Gong, Guangwei Yu, Satya Krishna Gorti, Jesse C. Cresswell, Victor Zhong"
+}

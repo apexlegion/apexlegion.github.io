@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-12422v1",
+  "name": "Accepted Prefixes Are Not All You Need: A Negative Result on PEFT-Based Block-Diffusion Drafting",
+  "summary": "arXiv:2607.12422v1 Announce Type: new Abstract: Speculative decoding accelerates autoregressive language model inference by using a cheap drafter to propose multiple future tokens and a target mode...",
+  "description": "arXiv:2607.12422v1 Announce Type: new Abstract: Speculative decoding accelerates autoregressive language model inference by using a cheap drafter to propose multiple future tokens and a target model to verify them. A common design goal is therefore to improve draft quality while reducing auxiliary parameters and systems overhead. We study a negative result for this direction through PEFT-BD, a...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.12422"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.12422"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Abdurrahman Javat, Allan Kazakov"
+}

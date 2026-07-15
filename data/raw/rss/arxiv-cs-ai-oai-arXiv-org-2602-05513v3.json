@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2602.05513v3",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2602.05513v3",
+    "title": "DECO: Decoupled Multimodal Diffusion Transformer for Bimanual Dexterous Manipulation with a Plugin Tactile Adapter",
+    "link": "https://arxiv.org/abs/2602.05513",
+    "description": "arXiv:2602.05513v3 Announce Type: replace-cross Abstract: Bimanual dexterous manipulation relies on integrating multimodal inputs to perform complex real-world tasks. To address the challenges of effectively combining these modalities, we propose DECO, a decoupled multimodal diffusion transformer that disentangles vision, proprioception, and tactile signals through specialized conditioning pathways, enabling structured and controllable integration of multimodal inputs, with a lightweight adapter for parameter-efficient injection of additional signals. Alongside DECO, we release DECO-50 dataset for bimanual dexterous manipulation with tactile sensing, consisting of 50 hours of data and over 5M frames, collected via teleoperation on real dual-arm robots. We train DECO on DECO-50 and conduct extensive real-world evaluation with over 2,000 robot rollouts. Experimental results show that DECO achieves the best performance across all tasks, with a 72.25% average success rate and a 21% improvement over the baseline. Moreover, the tactile adapter brings an additional 10.25% average success rate across all tasks and a 20% gain on complex contact-rich tasks while tuning less than 10% of the model parameters.",
+    "publishedAt": "2026-07-15",
+    "author": "Xukun Li, Yu Sun, Lei Zhang, Bosheng Huang, Yibo Peng, Yuan Meng, Haojun Jiang, Shaoxuan Xie, Guocai Yao, Alois Knoll, Zhenshan Bing, Xinlong Wang, Zhenguo Sun",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

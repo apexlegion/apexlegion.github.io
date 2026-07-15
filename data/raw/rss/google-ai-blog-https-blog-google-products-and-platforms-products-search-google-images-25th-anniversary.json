@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "google-ai-blog:https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
+  "fetchedAt": "2026-07-15T05:07:49.896Z",
+  "data": {
+    "guid": "google-ai-blog:https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
+    "title": "Celebrating 25 years of visual search innovation",
+    "link": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
+    "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Images_25th_hero.max-600x600.format-webp.webp\"&gt;Google Images is turning 25. Here’s a look back at some major milestones — and new ways to explore and create visual content.",
+    "publishedAt": "2026-07-14",
+    "author": "<name>Brad Kellett</name><title>Senior Engineering Director</title><department>Search</department><company/>",
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  },
+  "extra": {
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  }
+}

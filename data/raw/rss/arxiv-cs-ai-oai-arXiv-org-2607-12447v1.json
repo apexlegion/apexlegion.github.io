@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.12447v1",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.12447v1",
+    "title": "The Computational Basis of Confidence in Large Language Models",
+    "link": "https://arxiv.org/abs/2607.12447",
+    "description": "arXiv:2607.12447v1 Announce Type: cross Abstract: Reliable confidence -- the probability that a model's own answer is correct -- is essential for the trustworthy deployment of language models. Existing work has largely evaluated confidence by how well it predicts correctness and whether it is calibrated, leaving open a more fundamental question: what does the confidence signal itself represent? Answer logits may reflect a latent decision variable sufficient to compute normative confidence, or instead a heuristic preference signal that combines the available evidence in a non-Bayesian manner. We address this using statistical decision confidence (SDC), a normative framework from computational neuroscience. Treating the answer-logit difference (LD) as a candidate readout of the latent decision variable, we test the qualitative signatures predicted by SDC. Across three perceptual discrimination tasks and a memory-based decision task, spanning three multimodal non-reasoning models and one reasoning model, LD satisfied these signatures -- including the diagnostic correct/error folded-X pattern -- showing that, in these settings, answer logits behave as monotonic readouts of a latent decision variable rather than heuristic preference scores. In complex visual reasoning, LD continued to predict correctness beyond objective task difficulty, but the full geometric signatures of SDC were absent, illustrating the current boundary of the framework when explicit normative process models are unavailable. These results provide a computational account of confidence in multimodal language models, delineate when answer logits behave as readouts of a latent decision variable, and establish SDC as a unifying framework for studying confidence across biological and artificial intelligence.",
+    "publishedAt": "2026-07-15",
+    "author": "Dharshan Kumaran, Viorica Patraucean, Maks Ovsanikov, Petar Veli\\v{c}kovi\\'c, Nathaniel Daw",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

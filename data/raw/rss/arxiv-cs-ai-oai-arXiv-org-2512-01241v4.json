@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2512.01241v4",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2512.01241v4",
+    "title": "First, do NOHARM: a medical safety benchmark and randomized study of physician and AI teaming on clinical consultations",
+    "link": "https://arxiv.org/abs/2512.01241",
+    "description": "arXiv:2512.01241v4 Announce Type: replace-cross Abstract: Large language models (LLMs) and medical AI tools are routinely used by physicians and patients for medical advice, yet their clinical safety profiles remain poorly characterized. We present NOHARM (Numerous Options Harm Assessment for Risk in Medicine), a 1,100-task benchmark of primary care-to-specialist consultation cases to measure the frequency and severity of potentially harmful errors from LLM-generated medical consultation recommendations. NOHARM covers 10 specialties, with 12,747 expert annotations for 4,249 clinical management options. Across 20 notable LLMs and 4 widely used retrieval-augmented generation (RAG) clinical AI tools, direct application of recommendations carried potential for severe harm in up to 24.6% of cases, with errors of omission accounting for more than 80% of severe errors. Harm potential was not uniform across systems, with clinical AI tools outperforming generalist LLMs, and multi-agent AI teaming further improving performance in generalist models. In a randomized study of 101 U.S.-licensed generalist physicians, AI assistance improved physician performance compared to conventional resources. However, AI-assisted physicians frequently omitted valuable AI-generated recommendations and still scored lower than many AI systems alone. Had those recommendations been incorporated, combined human-AI responses would have outperformed both the human and AI system as used, suggesting complementary strengths and unrealized potential in human-AI teaming. Collectively, these results show that despite strong performance on medical knowledge benchmarks, widely used AI tools can produce medical consultation advice with the potential for severe harm, and highlight the need for explicit measurement of clinical safety. The benchmark and leaderboard are publicly available to support ongoing evaluation and improvement of AI systems used for clinical care.",
+    "publishedAt": "2026-07-15",
+    "author": "David Wu, Fateme Nateghi Haredasht, Saloni Kumar Maharaj, Priyank Jain, Jessica Tran, Matthew Gwiazdon, Arjun Rustagi, Jenelle Jindal, Jacob M. Koshy, Vinay Kadiyala, Anup Agarwal, Bassman Tappuni, Brianna French, Sirus Jesudasen, Christopher V. Cosgriff, Rebanta Chakraborty, Jillian Caldwell, Susan Ziolkowski, David J. Iberri, Robert Diep, Rahul S. Dalal, Kira L. Newman, Kristin Galetta, J. Carl Pallais, Nancy Wei, Kathleen M. Buchheit, David I. Hong, Vartan Pahalyants, Ernest Y. Lee, Allen Shih, Tamara B. Kaplan, Vishnu Ravi, Sarita Khemani, Thomas A. Buckley, April S. Liang, Daniel Shirvani, Advait Patil, Nicholas Marshall, Kanav Chopra, Joel Koh, Adi Badhwar, Anastasia Perez, Austin J. Schoeffler, Mahbuba Tusty, Chase M. Walton, Liam G. McCoy, David J. H. Wu, Yingjie Weng, Sumant Ranji, Kevin Schulman, Nigam H. Shah, Jason Hom, Arnold Milstein, Arjun K. Manrai, Adam Rodman, Jonathan H. Chen, Ethan Goh",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

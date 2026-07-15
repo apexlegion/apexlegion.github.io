@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-12823v1",
+  "name": "Human-AI Agent Interaction as a Neuroplastic Training Environment",
+  "summary": "arXiv:2607.12823v1 Announce Type: new Abstract: Interaction with AI agents has become one of the most frequent activities of everyday digital life. Whether conversing with an assistant, working wit...",
+  "description": "arXiv:2607.12823v1 Announce Type: new Abstract: Interaction with AI agents has become one of the most frequent activities of everyday digital life. Whether conversing with an assistant, working with a coding copilot, or generating images, the interaction follows a common iterative loop: a request is issued, a result returned, appraised, and the request revised. We observe that this loop is a hi...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.12823"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.12823"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Eranga Bandara, Ross Gore, Asanga Gunaratna, Ravi Mukkamala, Nihal Siriwardanagea, Gihan Siriwardanagea, Sachini Rajapakse, Isurunima Kularathna, Pramoda Karunarathna, Chalani Rajapakse, Sachin Shetty, Christopher K. Rhea, Ng Wee Keong, Kasun De Zoysa, Amin Hass, Shaifali Kaushik, Wathsala Herath, Preston Samuel, Anita H. Clayton, Atmaram Yarlagadd"
+}

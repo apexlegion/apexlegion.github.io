@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.12469v1",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.12469v1",
+    "title": "Agent-Safety Evaluations as Load-Bearing Evidence: A Vendor-Neutral, Cross-Harness Reconstructability Metric",
+    "link": "https://arxiv.org/abs/2607.12469",
+    "description": "arXiv:2607.12469v1 Announce Type: cross Abstract: Many agent-safety evaluation results are not yet load-bearing evidence: identical nominal outcomes (task success, attack success, monitor scores) may sit atop materially different evidence regimes. No vendor-neutral, runnable instrument scores reconstructability as an evaluation-validity metric: whether captured evidence can reconstruct the decision a claim depends on. This paper introduces a property-level reconstructability metric over eight decision-property classes and a cross-harness adapter emitting per-decision Evidence Sufficiency Cards backing a per-run monitor-coverage release check. It specifies a counterfactual-replay intervention protocol, implements its replayability-precondition probe, and defines a claim-evidence overclaim gap. On public and bundled traces, without new model runs, twelve-field sufficiency spans 0.458-0.833 across four inputs sharing a surface reading; replay preconditions are unmet in every scored trace. In a synthetic release-gate pair, the sufficiency gate blocks the raw variant (0.542) and passes the instrumented (0.667). Safety-evaluation claims should travel with their reconstructability vector; a reproducibility package regenerates every reported number.",
+    "publishedAt": "2026-07-15",
+    "author": "Oleg Solozobov",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

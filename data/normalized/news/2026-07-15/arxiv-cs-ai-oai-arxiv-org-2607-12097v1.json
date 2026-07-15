@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-12097v1",
+  "name": "Representing and Generating Levels Over Time through Playtrace Reconstructive Partitioning",
+  "summary": "arXiv:2607.12097v1 Announce Type: new Abstract: Video games are a dynamic medium experienced over time. While there are many Procedural Content Generation (PCG) approaches for generating video game...",
+  "description": "arXiv:2607.12097v1 Announce Type: new Abstract: Video games are a dynamic medium experienced over time. While there are many Procedural Content Generation (PCG) approaches for generating video game levels, they often use representations that abstract away this dynamic nature. In this paper, we introduce a novel, domain-independent ``cake'' representation for game levels over time which implicit...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.12097"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.12097"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Emily Halina, Matthew Guzdial"
+}

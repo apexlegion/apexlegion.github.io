@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.12811v1",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.12811v1",
+    "title": "PixelLoop: Shortcut Topological Navigation with Pixel-Level Loops",
+    "link": "https://arxiv.org/abs/2607.12811",
+    "description": "arXiv:2607.12811v1 Announce Type: cross Abstract: Although topological mapping and navigation have been studied extensively, the specific role and downstream effect of loop closures in purely topological representations has received relatively little attention. Importantly, loop closure over topological maps is distinct from loop closure over globally referenced trajectories and metric maps. Building on recent denser topologies grounded in pixel-level, relative 3D geometry, we propose PixelLoop which introduces loop closures directly in pixel space. Unlike sparse image-level edges or pose-graph corrections in SLAM, our pixel-level closures act as dense topological shortcuts that alter planning connectivity and cost propagation rather than merely aligning coordinates. This dense connectivity enables stable any-point-to-any-point navigation and produces costmaps that align accurately with geometric shortest paths. In particular, we showcase the distinct advantage of applying loop closures to fine-grained pixel topologies rather than image-level topologies. Across extensive simulated experiments, PixelLoop achieves over 35% absolute improvement in both Success Rate and SPL compared to image-relative baselines, with the largest gains in scenarios requiring shortcut exploitation. Results are further validated through real-world mobile robot deployments, demonstrating that dense pixel-level loop closures provide a practical and robust foundation for topological visual navigation. Project Page: https://pixelloop-nav.github.io/",
+    "publishedAt": "2026-07-15",
+    "author": "Sarthak Chittawar, Vansh Garg, Aditya Vadali, Krish Pandya, Rohit Jayanti, Sourav Garg, Madhava Krishna",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

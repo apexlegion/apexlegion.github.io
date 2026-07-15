@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.11998v1",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.11998v1",
+    "title": "HPC-Enabled Video-based Coastal Wave Parameter Estimation Using V-JEPA and Deep Spatiotemporal Learning",
+    "link": "https://arxiv.org/abs/2607.11998",
+    "description": "arXiv:2607.11998v1 Announce Type: cross Abstract: High deployment cost, poor spatial coverage and susceptibility to storm conditions are all challenges faced by traditional in-situ methods. This paper presents a video-based and high performance computing (HPC) enabled deep learning framework for joint sensor free estimation of five coastal wave parameters, namely significant wave height (Hs), maximum wave height (Hmax), peak period (Tp), zero upcrossing period (Tz) and wave direction (theta) from monocular coastal video. The proposed architecture comprises of a V-JEPA (self supervised) ViT Small backbone for robust spatiotemporal feature extraction in visually challenging scenarios, a dual-stream SlowFast temporal encoder for broad bandwidth representation of wave motion in both hydrodynamic breaking and swell regimes, an optical flow stream based on Farneback optical flow algorithm for adding saliency information to the structure with emphasis on hydrodynamically active wavelength bands of waves, and a multi-task regression layer with dispersion constraints (Airy wave dispersion lambda_p = 0.1). The model was trained on an NVIDIA DGX A100 cluster and was early stopped at epoch 31 and achieved Pearson correlation coefficients of 0.451, 0.578, 0.643, 0.680 and 0.832 for Hs, Hmax, Tp, Tz and wave direction respectively, with generalization ability to geographically diverse held out test data sites. While operating in a data-limited regime (6 annotated training scenes), the framework demonstrates statistically significant temporal correlations (PCC of 0.451 to 0.832), confirming proof of concept feasibility; R2 values (max 0.246) indicate that variance capture will improve with larger annotated datasets.",
+    "publishedAt": "2026-07-15",
+    "author": "Abubakar Hamisu Kamagata, Dharm Singh Jat, Attlee Munyaradzi Gamundani, Saravanakumar Paramasivam, Babangida Sani, Aliyu Zakariyya",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "paper",
+  "slug": "2607-12892",
+  "name": "UR-VC: Unsupervised Robotic Value Correction for Time-Derived Progress Proxies",
+  "summary": "Modern robot learning systems increasingly rely on dense progress or value signals to evaluate intermediate states, guide policy learning, and detect task completion, making the quality of these si...",
+  "description": "Modern robot learning systems increasingly rely on dense progress or value signals to evaluate intermediate states, guide policy learning, and detect task completion, making the quality of these signals critical. Since such dense labels are rarely available at scale, normalized time within a demonstration is often used as a scalable substitute: later frames are treated as higher progress. However, this time-derived label is only a noisy proxy for physical task progress. In contact-rich manipulation, a robot may make progress and then lose it through slips, failed grasps, or partial undoing,...",
+  "tags": [
+    "arxiv",
+    "cs.RO"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.12892v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.RO.",
+      "href": "https://arxiv.org/abs/2607.12892v1"
+    }
+  ],
+  "authors": [
+    "Lirui Zhao",
+    "Modi Shi",
+    "Li Chen",
+    "Qi Liu",
+    "Ping Luo",
+    "Hongyang Li"
+  ],
+  "paperId": "2607.12892",
+  "category": "cs.RO",
+  "publishedAt": "2026-07-14",
+  "abstract": "Modern robot learning systems increasingly rely on dense progress or value signals to evaluate intermediate states, guide policy learning, and detect task completion, making the quality of these signals critical. Since such dense labels are rarely available at scale, normalized time within a demonstration is often used as a scalable substitute: later frames are treated as higher progress. However, this time-derived label is only a noisy proxy for physical task progress. In contact-rich manipulation, a robot may make progress and then lose it through slips, failed grasps, or partial undoing,..."
+}

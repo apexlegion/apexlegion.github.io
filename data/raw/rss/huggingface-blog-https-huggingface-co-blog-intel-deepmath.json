@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/intel-deepmath",
-  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "fetchedAt": "2026-07-15T05:07:50.389Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/intel-deepmath",
     "title": "DeepMath: A lightweight math reasoning Agent with smolagents",

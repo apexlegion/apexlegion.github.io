@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.02567v4",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.02567v4",
+    "title": "Cross-Receiver Open-Set Radio Frequency Fingerprinting via Structure-First Adaptation",
+    "link": "https://arxiv.org/abs/2607.02567",
+    "description": "arXiv:2607.02567v4 Announce Type: replace-cross Abstract: Radio frequency fingerprint identification (RFFI) provides a critical physical-layer security mechanism for dynamic Internet of Things (IoT) and ad hoc networks. However, the decentralized and open nature of these networks imposes two strict deployment criteria: the credential must transfer reliably across physically dispersed, heterogeneous receivers, and it must decisively reject unregistered rogue traffic. Cross-receiver hardware shifts depress the confidence of registered devices and may also place unseen rogue transmitters in high-confidence known regions under naive domain adaptation, increasing false acceptance. To address these risks, we propose CRODA-ST, a joint optimization framework that couples Discriminative Structure Anchoring (DSA) with Rejection Oriented Alignment (ROA). Within this coupled objective, DSA establishes a stable target-known semantic foundation for shifted registered devices, while ROA regularizes the open-set decision boundaries governing rejection of unseen rogue transmitters. In the canonical WiSig setting, CRODA-ST achieves an open-set classification rate (OSCR) of 0.9580 and a target-domain false positive rate of 0.0469 at a 90% true positive rate (FPR90). A controllable LoRa simulation provides a complementary diagnostic under synthesized hardware distortions. At the distinct source-calibrated deployment operating point with rho = 0.80, CRODA-ST yields a target-unknown false acceptance rate (FAR) of 0.0075 in the evaluated setting.",
+    "publishedAt": "2026-07-15",
+    "author": "Fengchong Yao, Jianbing Li, Qing Liu, Kefeng Song, Haitao Li, Song Wang, Feixiang Wang",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2606.10829v2",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2606.10829v2",
+    "title": "Attention-Discounted Adaptive Sampler for Masked Diffusion Language Models",
+    "link": "https://arxiv.org/abs/2606.10829",
+    "description": "arXiv:2606.10829v2 Announce Type: replace-cross Abstract: Masked diffusion language models can reduce inference steps by revealing multiple tokens per denoising iteration, but this parallelism is fragile: positions that are individually confident may be unsafe to commit together when their predictions are coupled. Existing training-free samplers such as Top-\\(k\\), Fast-dLLM, and EB-Sampler mainly control how many tokens to reveal, while often ranking candidates by token-wise scores that ignore interactions within the selected set. We propose ADAS, a training-free reranking rule for parallel masked diffusion decoding. ADAS leaves the base sampler's stopping rule unchanged and modifies only subset construction: it greedily discounts a candidate when it attends strongly to already selected positions whose predictions remain uncertain. Unlike graph-constrained methods that turn attention into hard compatibility constraints, ADAS keeps attention continuous and uses it as a soft marginal penalty. Across LLaDA-8B-Base and Dream-7B-Base on GSM8K, MATH500, HumanEval, and MBPP, plugging ADAS into Top-\\(k\\), Fast-dLLM, and EB-Sampler improves low-NFE performance at matched denoiser evaluations by \\(9.11\\) and \\(10.46\\) percentage points on average, respectively, with \\(3.1\\%\\) per-forward runtime overhead. These results show that soft attention-discounted reranking is a simple and modular way to improve quality in highly parallel decoding for masked diffusion language models.",
+    "publishedAt": "2026-07-15",
+    "author": "Yusuf Sahin, Ahmed Rockey Saikia, Volkan Cevher, Paolo Favaro",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

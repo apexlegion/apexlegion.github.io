@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.11916v1",
+  "fetchedAt": "2026-07-15T05:07:50.447Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.11916v1",
+    "title": "QDEvo: A Multi-Objective Quality-Diversity Framework for Automated Heuristic Design",
+    "link": "https://arxiv.org/abs/2607.11916",
+    "description": "arXiv:2607.11916v1 Announce Type: cross Abstract: The integration of Large Language Models (LLMs) with evolutionary computation has emerged as a powerful paradigm for automated heuristic design in combinatorial optimization. However, existing approaches suffer from mode collapse, converging to homogeneous populations that lack semantic diversity and fail to explore the full algorithmic space. We propose Quality-Diversity Evolution (QDEvo), a multi-objective framework that integrates Quality-Diversity optimization with LLM-driven heuristic search, maintaining an unbounded archive of semantically diverse algorithms using pre-trained code embeddings and incorporating hierarchical self-reflection to guide the evolutionary process. Extensive experiments across standard benchmarks and real-world industrial applications demonstrate that QDEvo significantly outperforms state-of-the-art methods in both Hypervolume and Inverted Generational Distance metrics. Our framework enables the discovery of heuristics that are simultaneously high-performing, computationally efficient, and semantically diverse, providing practitioners with a rich portfolio of solutions for complex optimization problems.",
+    "publishedAt": "2026-07-15",
+    "author": "Nam Do Khanh, Nhat Nguyen Tran Minh, Dat Pham Vu Tuan, Long Doan, Binh Huynh Thi Thanh",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

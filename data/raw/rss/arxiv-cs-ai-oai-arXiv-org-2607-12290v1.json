@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.12290v1",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.12290v1",
+    "title": "The Sound of Absence: Audio-Language Embedding Models Struggle with Negation",
+    "link": "https://arxiv.org/abs/2607.12290",
+    "description": "arXiv:2607.12290v1 Announce Type: cross Abstract: Audio-language embedding models such as CLAP are widely evaluated on matching present sound events, but rarely on negation. We show this affirmation-only evaluation hides a key limitation: these models fail to encode negated sound concepts, mapping affirmative and negated captions to nearly identical representations. To expose this blind spot, we introduce NegEval-Audio, a framework that converts existing datasets into two negation-aware tasks, Retrieval-Neg and Multiple-Choice Negation (MCQ-Neg), to probe whether models distinguish present from absent events. On AudioCaps and Clotho, performance degrades sharply under negation, with negation-type MCQ accuracy falling far below chance, and the failure persists even for a recent multimodal LLM-based embedding model. While a training-free steering method improves MCQ-Neg, it yields marginal gains for Retrieval-Neg. This indicates that affirmation bias is a fundamental flaw in the representation geometry, necessitating explicit negation-aware training objectives.",
+    "publishedAt": "2026-07-15",
+    "author": "Chun-Yi Kuan, Hung-yi Lee",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

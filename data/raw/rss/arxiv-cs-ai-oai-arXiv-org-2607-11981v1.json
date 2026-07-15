@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.11981v1",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.11981v1",
+    "title": "Evaluating Nonuniform Dependability Across Response Conditions: A Conditional Generalizability Framework Illustrated in Automated Essay Scoring",
+    "link": "https://arxiv.org/abs/2607.11981",
+    "description": "arXiv:2607.11981v1 Announce Type: cross Abstract: Aggregate reliability estimates can obscure heterogeneity in measurement-design burden across response conditions, so a single G- or D-study may mischaracterize a design's adequacy for particular strata. This study introduces a conditional generalizability framework with three components. First, automated scoring configurations -- the encoder architectures and scoring-head families admissible within a fixed pipeline -- are treated as a universe of admissible measurement conditions rather than incidental modeling choices. Second, analytical D-study projections are compared with empirical configuration sweeps over a finite scoring pool, yielding two estimands of design adequacy whose agreement or divergence diagnoses the realized configuration universe. Third, evidence is conditioned on entropy-defined response strata, treating entropy as an operational stratification variable, not a construct claim about writing quality. Whereas recent generalizability-theory extensions address AI-generated item variants on the response side, this framework addresses the analogous scoring-side problem: AI-mediated scoring configurations. Demonstrated with automated essay scoring of timed L2 writing, the realized design was dependable in aggregate (Phi approx 0.76). Re-estimated within entropy strata, dependability stayed high but declined modestly and robustly (Phi = 0.88, 0.87, 0.84) -- a gradient implying different decision-study requirements, the highest-entropy stratum requiring the most crossed conditions. The framework offers a portable workflow for evaluating nonuniform dependability.",
+    "publishedAt": "2026-07-15",
+    "author": "Yi Gui",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

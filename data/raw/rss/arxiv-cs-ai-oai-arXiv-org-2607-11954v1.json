@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.11954v1",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.11954v1",
+    "title": "Graph-Constrained Policy Learning for Extreme Clinical Code Prediction",
+    "link": "https://arxiv.org/abs/2607.11954",
+    "description": "arXiv:2607.11954v1 Announce Type: cross Abstract: Clinical code prediction maps unstructured discharge summaries to ICD-10-CM leaf codes in a large, sparse, and deeply hierarchical label space. Most systems treat the task as flat multi-label classification, scoring codes independently and providing limited training signal for rare labels. We propose a graph-constrained traversal policy that formulates ICD prediction as a finite-horizon decision process over a pruned code hierarchy. A single language model descends the graph level by level, selecting valid child nodes until billable leaf codes are reached. This converts extreme multi-label prediction into sparse, hierarchy-aware subset decisions while guaranteeing structurally valid outputs. On MIMIC-IV discharge summaries, our best supervised policy, SFT-1+, achieves 0.709 micro-F1 on a curated 50-code subset and 0.527 micro-F1 on the full 15,761-code space, outperforming flat baselines including CAML, LAAT, and PLM-ICD. In the full setting, SFT-1+ improves over the strongest flat baseline by 0.044 micro-F1 and 0.157 macro-F1, suggesting that graph-constrained decomposition mitigates the rare-code bottleneck. A controlled factorial study evaluates architecture, training algorithm, and data budget. Across both scales, one shared policy matches a three-specialist cascade while avoiding its context-window overflow on 28-32% of full-space test notes. Increasing supervised trajectory data is the only intervention that consistently improves performance, while GRPO reinforcement learning provides no benefit over supervised continuation with matched data. These results show that simple graph-constrained policy learning can outperform more complex flat, cascaded, and reinforcement-learning alternatives for extreme clinical code prediction.",
+    "publishedAt": "2026-07-15",
+    "author": "Amritpal Singh, Sebastian Torres, Khawar Shakeel, Syed Ahmad Chan Bukhari",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

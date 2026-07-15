@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.12338v1",
+  "fetchedAt": "2026-07-15T05:07:50.447Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.12338v1",
+    "title": "How Many Tasks Are Enough for Agent Benchmark Decisions? A Replay Analysis of Public LLM Agent Benchmarks",
+    "link": "https://arxiv.org/abs/2607.12338",
+    "description": "arXiv:2607.12338v1 Announce Type: new Abstract: Agent benchmarks often compare two agents after all tasks have run, but costly evaluations make partial runs tempting. A task fraction alone does not show whether a partial run supports the same pairwise conclusion as the completed benchmark. We study this question by replaying completed public task-level records from SWE-bench, AppWorld, and tau-bench. A partial budget counts as enough only when it supports the completed benchmark's decision, covers required task groups, and leaves no more than a target fraction of comparisons unresolved. The required task fraction varies sharply. At the strict 0 percentage point threshold on a 5 percentage point budget grid, AppWorld first meets all targets at 15 percent, tau-bench at 25 percent, and SWE-bench Verified at 90 percent; SWE-bench Lite does not meet all targets by 95 percent under the primary coverage rule. Partial-evaluation reports should state how much one agent must outperform another, how tasks are selected, what coverage rule is required, what decision rule is used, and how many comparisons may remain unresolved.",
+    "publishedAt": "2026-07-15",
+    "author": "Wei-Jung Huang",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

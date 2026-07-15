@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/deploy-deepfloydif-using-bentoml",
-  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "fetchedAt": "2026-07-15T05:07:50.392Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/deploy-deepfloydif-using-bentoml",
     "title": "Deploying Hugging Face Models with BentoML: DeepFloyd IF in Action",

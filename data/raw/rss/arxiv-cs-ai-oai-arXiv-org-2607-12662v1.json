@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.12662v1",
+  "fetchedAt": "2026-07-15T05:07:50.447Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.12662v1",
+    "title": "Internet of Agentic Things: Networked AI Agents for Closed-Loop IoT Orchestration",
+    "link": "https://arxiv.org/abs/2607.12662",
+    "description": "arXiv:2607.12662v1 Announce Type: new Abstract: The paper introduces the Internet of Agentic Things (IoAT), an architectural framework that integrates agentic AI, IoT, cyber-physical systems, Physical AI, edge computing, and digital twins into a unified closed-loop orchestration framework. The proposed architecture consists of cloud, edge/fog, and physical IoT layers connected through autonomous AI agents that perceive, reason, coordinate, and actuate across distributed cyber-physical environments. The paper formalizes IoAT as a coupled workflow-control problem with nested strategic and tactical decision making using a hylomorphic dynamic programming framework that links agentic planning with physical execution. Smart-building orchestration is presented as a representative use case, and key research challenges related to safety, security, governance, resilience, and trustworthy deployment are discussed.",
+    "publishedAt": "2026-07-15",
+    "author": "Quanyan Zhu",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

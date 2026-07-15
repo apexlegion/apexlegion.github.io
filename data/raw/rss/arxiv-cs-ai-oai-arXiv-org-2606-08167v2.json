@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2606.08167v2",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2606.08167v2",
+    "title": "Explaining Data Mixing Scaling Laws",
+    "link": "https://arxiv.org/abs/2606.08167",
+    "description": "arXiv:2606.08167v2 Announce Type: replace-cross Abstract: Recent research has established empirical scaling laws to predict model performance on multi-domain data mixtures. However, a theoretical understanding of these model loss behaviors remains absent. In this work, we propose a unified framework to explain the underlying mechanics of data mixing. Our approach extends theoretical perspectives originally developed for standard neural scaling laws (e.g., Kaplan and Chinchilla) to the multi-domain setting. Based on the distributional assumption that domains overlap on fundamental skills while diverging on specialized skills, we identify two key factors that govern the domain losses of models trained on different data mixtures: \\textit{Capacity Competition}, where the allocation of finite model capacity couples domain losses globally, and \\textit{Noise Reduction}, where optimal weights shift toward harder-to-learn domains to minimize overall noise. Empirical evaluations show that our framework outperforms existing baselines by fitting the loss landscape with a lower Mean Relative Error and identifying higher-performing training mixtures. Most importantly, our model successfully extrapolates across scales, predicting highly effective mixtures for large, unseen scales using parameters fitted on smaller ones. In addition, our model achieves these results using significantly fewer parameters compared to previous empirical laws. Our code is available at https://github.com/meiqwq/Explaining-Data-Mixing-Scaling-Laws.",
+    "publishedAt": "2026-07-15",
+    "author": "Rui Dai, Shuran Zheng",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

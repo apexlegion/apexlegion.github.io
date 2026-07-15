@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2606-26373v4",
+  "name": "Hybrid privacy-aware semantic search: SVD-truncated document geometry and CKKS-encrypted query reranking under a restricted threat model",
+  "summary": "arXiv:2606.26373v4 Announce Type: replace-cross Abstract: Semantic search creates an asymmetric disclosure problem: query embeddings may reveal user intent, while returning exact provider vectors d...",
+  "description": "arXiv:2606.26373v4 Announce Type: replace-cross Abstract: Semantic search creates an asymmetric disclosure problem: query embeddings may reveal user intent, while returning exact provider vectors distributes reusable representations. We evaluate a deliberately restricted hybrid design. A public corpus-fitted SVD basis and PQ index support client-side candidate selection; candidate IDs are discl...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2606.26373"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2606.26373"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Sergey Kurilenko"
+}

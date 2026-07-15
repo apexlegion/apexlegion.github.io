@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11938v1",
+  "name": "Mathematics of Data Science",
+  "summary": "arXiv:2607.11938v1 Announce Type: cross Abstract: This book is about the mathematical foundations of data science. 1. Introduction 2. Curses, Blessings, and Surprises in High Dimensions 3. Singular...",
+  "description": "arXiv:2607.11938v1 Announce Type: cross Abstract: This book is about the mathematical foundations of data science. 1. Introduction 2. Curses, Blessings, and Surprises in High Dimensions 3. Singular Value Decomposition and Principal Component Analysis 4. Linear Regression and Regularization 5. Graphs, Networks, and Clustering 6. Nonlinear Dimension Reduction and Diffusion Maps 7. Linear Dimensio...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11938"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11938"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Afonso S. Bandeira, Amit Singer, Thomas Strohmer"
+}

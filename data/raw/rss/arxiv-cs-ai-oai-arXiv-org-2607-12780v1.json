@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.12780v1",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.12780v1",
+    "title": "When Close Enough Is Not Enough: Autoregressive Drift in Quantum Circuit Synthesis",
+    "link": "https://arxiv.org/abs/2607.12780",
+    "description": "arXiv:2607.12780v1 Announce Type: cross Abstract: Quantum circuit optimization for fault-tolerant computing requires exact functional equivalence while minimizing expensive non-Clifford resources such as T gates. We study this problem using a compact 44.8M-parameter encoder-decoder transformer with structured circuit tokenization, evaluating on parameterized circuits (2-6 qubits) and Clifford+T circuits (3-6 qubits). On parameterized circuits, a hybrid approach -- structure from the transformer, angles from classical optimization -- achieves median fidelity 1.000 on 3-6 qubit circuits. On Clifford+T circuits, where all gates are discrete and no post-processing is possible, the model learns valid syntax and accurate T-Count statistics, yet exact equivalence degrades sharply with target length -- from 88% on circuits with &lt;=9 gates to near zero beyond 26 gates. We trace this failure to autoregressive drift: early-token divergence cascading irrecoverably through left-to-right decoding. Two levers partially mitigate the drift: inference-time strategies that generate multiple candidates and select via equivalence verification raise exact-match rates from 7% to 22.5%, while scaling training data by 2.5x pushes them to 39.5%. Yet the degradation with target length persists -- even with more data, exact equivalence drops from 94% on short circuits to under 4% beyond 26 gates. The contrast between settings is our central finding: when approximate outputs can be rescued by post-processing, the transformer succeeds; when exact discrete correctness is required, autoregressive drift limits reliability, with both inference-time search and data scaling as effective levers while training-side fine-tuning and model-level diversification are not.",
+    "publishedAt": "2026-07-15",
+    "author": "Mehdi Saeedi, Eddie Richter, Paul Hartke",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "paper",
+  "slug": "2607-12861",
+  "name": "Unveiling Complex Collective Behaviors from Simple Rewards",
+  "summary": "Multi-agent Reinforcement Learning (MARL) holds great potential for robot swarms, but the black-box nature of neural policies complicates strategic analysis, limiting multi-robot applications. Furt...",
+  "description": "Multi-agent Reinforcement Learning (MARL) holds great potential for robot swarms, but the black-box nature of neural policies complicates strategic analysis, limiting multi-robot applications. Furthermore, complex swarm behaviors can surprisingly emerge from simple rewards without explicit aggregation incentives. Unveiling the mechanisms behind this emergence is critical, but the disconnection between simple rewards and collective behaviors exacerbates interpretability challenges. This paper aims to reveal the hidden mechanisms in this process. We propose a two-stage EEC (\\LinkIII) explanat...",
+  "tags": [
+    "arxiv",
+    "cs.RO"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.12861v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.RO.",
+      "href": "https://arxiv.org/abs/2607.12861v1"
+    }
+  ],
+  "authors": [
+    "Yize Mi",
+    "Jianan Li",
+    "Liang Li",
+    "Shiyu Zhao"
+  ],
+  "paperId": "2607.12861",
+  "category": "cs.RO",
+  "publishedAt": "2026-07-14",
+  "abstract": "Multi-agent Reinforcement Learning (MARL) holds great potential for robot swarms, but the black-box nature of neural policies complicates strategic analysis, limiting multi-robot applications. Furthermore, complex swarm behaviors can surprisingly emerge from simple rewards without explicit aggregation incentives. Unveiling the mechanisms behind this emergence is critical, but the disconnection between simple rewards and collective behaviors exacerbates interpretability challenges. This paper aims to reveal the hidden mechanisms in this process. We propose a two-stage EEC (\\LinkIII) explanat..."
+}

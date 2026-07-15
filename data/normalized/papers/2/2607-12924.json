@@ -1,0 +1,35 @@
+{
+  "type": "paper",
+  "slug": "2607-12924",
+  "name": "Knowledge- and Gradient-Guided Reinforcement Learning for Parametrized Action Markov Decision Processes",
+  "summary": "In this paper, we study Reinforcement Learning in Parametrized Action Markov Decision Processes (PAMDP), where each decision consists of a symbolic action and numerical parameters. In such settings...",
+  "description": "In this paper, we study Reinforcement Learning in Parametrized Action Markov Decision Processes (PAMDP), where each decision consists of a symbolic action and numerical parameters. In such settings Reinforcement Learning algorithms typically determine parameters with one-shot estimators, which makes their training sample inefficient. Though in most PAMDP environments explicit but incomplete knowledge (e.g., rules, safety constraints, or expert heuristics) is available, it is rarely directly used to increase the sample-efficiency of training Reinforcement Learning agents. We step into this g...",
+  "tags": [
+    "arxiv",
+    "cs.AI"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.12924v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.AI.",
+      "href": "https://arxiv.org/abs/2607.12924v1"
+    }
+  ],
+  "authors": [
+    "Jonas Ehrhardt",
+    "René Heesch",
+    "Oliver Niggemann"
+  ],
+  "paperId": "2607.12924",
+  "category": "cs.AI",
+  "publishedAt": "2026-07-14",
+  "abstract": "In this paper, we study Reinforcement Learning in Parametrized Action Markov Decision Processes (PAMDP), where each decision consists of a symbolic action and numerical parameters. In such settings Reinforcement Learning algorithms typically determine parameters with one-shot estimators, which makes their training sample inefficient. Though in most PAMDP environments explicit but incomplete knowledge (e.g., rules, safety constraints, or expert heuristics) is available, it is rarely directly used to increase the sample-efficiency of training Reinforcement Learning agents. We step into this g..."
+}

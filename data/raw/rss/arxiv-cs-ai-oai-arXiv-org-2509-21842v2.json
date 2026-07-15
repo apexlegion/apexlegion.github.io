@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2509.21842v2",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2509.21842v2",
+    "title": "DeepTravel: An End-to-End Agentic Reinforcement Learning Framework for Autonomous Travel Planning Agents",
+    "link": "https://arxiv.org/abs/2509.21842",
+    "description": "arXiv:2509.21842v2 Announce Type: replace Abstract: Travel planning (TP) agent has recently worked as an emerging building block to interact with external tools/resources for travel itinerary generation, ensuring an enjoyable user experience. Despite its benefits, existing studies rely on hand-craft prompt and fixed agent workflow, hindering more flexible and autonomous TP agents. This paper proposes DeepTravel, an end-to-end agentic reinforcement learning framework for building an autonomous travel planning agent, capable of autonomously planning, executing tools, and reflecting on tool responses to explore, verify, and refine intermediate actions in multi-step reasoning. To achieve this, we first construct a robust travel sandbox by caching transportation, accommodation and POI data, facilitating TP agent training without being constrained by real-world APIs limitations (e.g., inconsistent outputs). Moreover, we develop a hierarchical reward modeling system, where a trajectory-level verifier first checks spatiotemporal feasibility and filters unsatisfied travel itinerary, and then the turn-level verifier further validate itinerary's detail consistency with tool responses, enabling efficient and precise reward service. Finally, we propose the reply-augmented reinforcement learning method that enables TP agent to periodically replay from a failure experience buffer, emerging notable agentic capacity. We deploy the trained TP agent in the DiDi Enterprise Solutions application. A three-month online test shows that it achieves 82% accuracy in travel itinerary generation. Comprehensive offline evaluations further demonstrate that DeepTravel enables small-sized LLMs (e.g., Qwen3-32B) to significantly outperform frontier LLMs (e.g., OpenAI o1/o3 and DeepSeek-R1) and existing TP agent frameworks.",
+    "publishedAt": "2026-07-15",
+    "author": "Yansong Ning, Rui Liu, Jun Wang, Kai Chen, Wei Li, Jun Fang, Kan Zheng, Naiqiang Tan, Hao Liu",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

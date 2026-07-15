@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/introducing-gradio-server",
-  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "fetchedAt": "2026-07-15T05:07:50.389Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/introducing-gradio-server",
     "title": "Any Custom Frontend with Gradio&apos;s Backend",

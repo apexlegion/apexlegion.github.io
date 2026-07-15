@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.11938v1",
+  "fetchedAt": "2026-07-15T05:07:50.447Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.11938v1",
+    "title": "Mathematics of Data Science",
+    "link": "https://arxiv.org/abs/2607.11938",
+    "description": "arXiv:2607.11938v1 Announce Type: cross Abstract: This book is about the mathematical foundations of data science. 1. Introduction 2. Curses, Blessings, and Surprises in High Dimensions 3. Singular Value Decomposition and Principal Component Analysis 4. Linear Regression and Regularization 5. Graphs, Networks, and Clustering 6. Nonlinear Dimension Reduction and Diffusion Maps 7. Linear Dimension Reduction via Random Projections 8. Optimization for Data Science 9. Classification 10. A Mathematical Introduction to Deep Learning 11. Large Sample Limit of Graph Laplacians 12. Community 13. Concentration of Measure and Gaussian Analysis 14. Matrix Concentration Inequalities 15. Compressive Sensing and Sparsity 16. Low-Rank Matrix Recovery",
+    "publishedAt": "2026-07-15",
+    "author": "Afonso S. Bandeira, Amit Singer, Thomas Strohmer",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

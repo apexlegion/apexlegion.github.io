@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2601.19624v3",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2601.19624v3",
+    "title": "Tracking Drift: Variation-Aware Entropy Scheduling for Non-Stationary Reinforcement Learning",
+    "link": "https://arxiv.org/abs/2601.19624",
+    "description": "arXiv:2601.19624v3 Announce Type: replace-cross Abstract: Real-world reinforcement learning often faces environment drift, but most existing methods rely on static entropy coefficients/target entropy, causing over-exploration during stable periods and under-exploration after drift, and leaving unanswered the principled question of how exploration intensity should scale with drift magnitude. We show that, under standard assumptions, entropy scheduling in non-stationary maximum-entropy RL can be cast as the dynamic-regret trade-off between tracking a drifting comparator and stabilizing updates, yielding a square-root scaling rule for the entropy weight in terms of a online non-stationarity proxy. Building on this, we propose AES--Adaptive Entropy Scheduling--which adaptively adjusts the entropy coefficient/temperature online using observable drift proxies during training, requiring almost no structural changes and incurring minimal overhead. Across 4 algorithm variants, 12 tasks, and 4 drift modes, AES significantly reduces the fraction of performance degradation caused by drift and accelerates recovery after abrupt changes.",
+    "publishedAt": "2026-07-15",
+    "author": "Tongxi Wang, Zhuoyang Xia, Xinran Chen, Shan Liu",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

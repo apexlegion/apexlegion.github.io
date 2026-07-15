@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-12755v1",
+  "name": "Practical Judgment, Virtue, and Intuition in the Use of Opaque AI-Enabled Systems",
+  "summary": "arXiv:2607.12755v1 Announce Type: cross Abstract: AI-enabled systems are seeing increasing deployment across numerous domains, with many being \"black boxes\" with respect to core functions and capab...",
+  "description": "arXiv:2607.12755v1 Announce Type: cross Abstract: AI-enabled systems are seeing increasing deployment across numerous domains, with many being \"black boxes\" with respect to core functions and capabilities. I.e., many systems take inputs and give outputs, but without users having any ability to see how the former lead to the latter. AI-enabled systems are also being used to augment autonomy in s...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.12755"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.12755"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Nathan G. Wood, Andrew P. Rebera"
+}

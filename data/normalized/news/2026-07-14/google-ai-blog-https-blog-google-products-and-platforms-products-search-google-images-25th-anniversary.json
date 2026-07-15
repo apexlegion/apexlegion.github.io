@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "google-ai-blog-https-blog-google-products-and-platforms-products-search-google-images-25th-anniversary",
+  "name": "Celebrating 25 years of visual search innovation",
+  "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Images_25th_hero.max-600x600.format-webp.webp\"&gt;Google Images is turning 25. Here’s a look back at some major m...",
+  "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Images_25th_hero.max-600x600.format-webp.webp\"&gt;Google Images is turning 25. Here’s a look back at some major milestones — and new ways to explore and create visual content.",
+  "tags": [
+    "news",
+    "google-ai-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Google AI Blog",
+      "href": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Google AI Blog.",
+      "href": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/"
+    }
+  ],
+  "source": "Google AI Blog",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "<name>Brad Kellett</name><title>Senior Engineering Director</title><department>Search</department><company/>"
+}

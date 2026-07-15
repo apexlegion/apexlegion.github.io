@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/open-deep-research",
-  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "fetchedAt": "2026-07-15T05:07:50.389Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/open-deep-research",
     "title": "Open-source DeepResearch – Freeing our search agents",

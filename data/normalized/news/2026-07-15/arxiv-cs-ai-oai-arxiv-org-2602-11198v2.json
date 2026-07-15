@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2602-11198v2",
+  "name": "Declarative by Design, Assistable Only by Convention: Benchmarking Multi-Agent Frameworks for AI-Assistability",
+  "summary": "arXiv:2602.11198v2 Announce Type: replace-cross Abstract: Multi-agent frameworks (MAFs) promise to simplify LLM-driven software development, yet no principled metric captures how well AI coding ass...",
+  "description": "arXiv:2602.11198v2 Announce Type: replace-cross Abstract: Multi-agent frameworks (MAFs) promise to simplify LLM-driven software development, yet no principled metric captures how well AI coding assistants can generate correct, framework-specific code. We introduce \\textit{AI-assistability} ($\\mathcal{AI}$), a composite metric that quantifies a framework's amenability to AI-assisted development...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2602.11198"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2602.11198"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Shafiuddin Rehan Ahmed, Sourabh Deshpande"
+}

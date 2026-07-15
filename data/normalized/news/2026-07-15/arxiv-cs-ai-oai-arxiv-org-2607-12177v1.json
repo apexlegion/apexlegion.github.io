@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-12177v1",
+  "name": "The Emerging Paradigm of Geospatial Foundation Models: From Pre-Training to Agentic Reasoning",
+  "summary": "arXiv:2607.12177v1 Announce Type: new Abstract: The analysis of satellite and aerial imagery has entered a new era with the advent of foundation models. This paper describes the concept of Geospati...",
+  "description": "arXiv:2607.12177v1 Announce Type: new Abstract: The analysis of satellite and aerial imagery has entered a new era with the advent of foundation models. This paper describes the concept of Geospatial Foundation Models (GeoFMs), which are artificial intelligence/machine learning (AI/ML) models pre-trained on massive geospatial datasets through varied methodologies. We first articulate the core p...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.12177"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.12177"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Shelley Cazares"
+}

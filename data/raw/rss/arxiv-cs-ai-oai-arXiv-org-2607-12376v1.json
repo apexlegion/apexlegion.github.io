@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.12376v1",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.12376v1",
+    "title": "Demonstration of the common dual-channel feature decoupling characteristic of front-door mediation causal inference methods in whole-slice image classification",
+    "link": "https://arxiv.org/abs/2607.12376",
+    "description": "arXiv:2607.12376v1 Announce Type: cross Abstract: Causal inference using front door intervention and multi-instance learning (MIL) has advanced the analysis of Whole Slide Images (WSI) in digital pathology. These methods adjust feature distributions of subtle evidence sub-images to correctly associate them with WSI-level diagnoses. We propose and prove 2 hypotheses for evaluating such methods: 1) Causal inference MIL introduces an independent classification channel that effectively completes WSI classification; 2) Greater difference between features extracted by the new and baseline channels increases effectiveness in eliminating false correlations. This hypothesis describes the core of causal inference MILs: overlaying parallel, independent channels to eliminate false associations between WSI-level diagnostic and non-diagnostic evidence sub-images by increasing deep feature diversity. Based on these hypotheses, we evaluated several causal inference MILs on breast cancer and non-small cell lung cancer datasets. This hypothesis provides a new theoretical perspective for applying causal inference to WSI analysis.",
+    "publishedAt": "2026-07-15",
+    "author": "Zhirui Zhang, Tianhang Nan, Yong Ding, Zhuolun Song, Dayu Hu, Xiaoyu Cui",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2606.06715v2",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2606.06715v2",
+    "title": "Does Topic Sentiment Cause Perceived Ideology? Comparing Human and LLM Annotations in Political News Articles",
+    "link": "https://arxiv.org/abs/2606.06715",
+    "description": "arXiv:2606.06715v2 Announce Type: replace-cross Abstract: We ask whether topic sentiment has a causal effect on perceived political ideology, and whether the answer depends on who assigns the ideology label. Using articles from AllSides, paired with shared sentiment annotations from Llama-3.3-70b-versatile, we compare ideology labels from expert human annotators, GPT-4o-mini (baseline and finetuned), and Llama-3.3-70B. We apply Double Machine Learning (DML) and mediation analysis across all four annotation paradigms. Zero-shot LLMs regularly inflate effect sizes relative to human annotations, while fine-tuning often attenuates them back toward the human scale. Our results have implications for the use of LLM annotations as silver labels and as proxies for human judgment in downstream causal analyses: they may be reliable for recovering the presence and direction of effects on the partisan topics, but not their magnitude, leading to over- or under-prediction of some ideology given particular topics.",
+    "publishedAt": "2026-07-15",
+    "author": "Upasana Chatterjee",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

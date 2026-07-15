@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/leaderboard-llamaguard",
-  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "fetchedAt": "2026-07-15T05:07:50.392Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/leaderboard-llamaguard",
     "title": "CyberSecEval 2 - A Comprehensive Evaluation Framework for Cybersecurity Risks and Capabilities of Large Language Models",

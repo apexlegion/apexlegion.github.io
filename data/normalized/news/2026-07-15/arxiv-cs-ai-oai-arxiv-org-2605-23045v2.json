@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2605-23045v2",
+  "name": "The TIME Machine: On The Power of Motion for Efficient Perception",
+  "summary": "arXiv:2605.23045v2 Announce Type: replace-cross Abstract: Video representation learning has seen tremendous progress in recent years. This has been driven by many factors, including the scale of tr...",
+  "description": "arXiv:2605.23045v2 Announce Type: replace-cross Abstract: Video representation learning has seen tremendous progress in recent years. This has been driven by many factors, including the scale of training and the success of visual models trained contrastively with language. While these factors have pushed the boundaries of what video models can do, they also introduce their own set of limitation...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2605.23045"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2605.23045"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Mantas Skackauskas, Xinyue Hao, Laura Sevilla-Lara"
+}

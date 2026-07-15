@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/inference-providers-publicai",
-  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "fetchedAt": "2026-07-15T05:07:50.389Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/inference-providers-publicai",
     "title": "Public AI on Hugging Face Inference Providers 🔥",

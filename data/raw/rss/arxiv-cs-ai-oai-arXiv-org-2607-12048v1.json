@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.12048v1",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.12048v1",
+    "title": "An Empirical Analysis of Continual Learning for Heterogeneous Medical Visual Question Answering",
+    "link": "https://arxiv.org/abs/2607.12048",
+    "description": "arXiv:2607.12048v1 Announce Type: cross Abstract: Deploying medical visual question answering (MedVQA) systems in real-world clinical settings requires models that adapt to new clinical tasks without forgetting previously acquired knowledge. Continual learning (CL) provides a practical framework for this setting. Despite rapid progress in medical vision-language models, the behavior of CL methods when training these models across heterogeneous MedVQA tasks remains underexplored. This work presents a systematic evaluation of CL for MedVQA across diverse clinical objectives, including classification, multi-label classification, detection, cell counting, and report generation. Specifically, we explore (1) the ability of existing CL methods to mitigate catastrophic forgetting; (2) their sensitivity to task ordering, analyzing how different task sequences influence performance retention and forgetting; and (3) the evolution of low-rank adaptation parameters as new tasks are learned, revealing patterns of weight drift under different CL methods. Our findings suggest that existing CL methods struggle to maintain stability-plasticity balance when tasks with different objectives and supervision formats are interleaved. Code and full experimental setup will be publicly available.",
+    "publishedAt": "2026-07-15",
+    "author": "Mai A. Shaaban, Tausifa Jan Saleem, Alaa Mohamed, Dilnaz Utemissova, Ufaq Khan, Mohammad Yaqub",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

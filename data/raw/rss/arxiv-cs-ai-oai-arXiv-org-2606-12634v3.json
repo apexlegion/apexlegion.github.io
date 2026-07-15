@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2606.12634v3",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2606.12634v3",
+    "title": "Keep Policy Gradient in Charge: Sibling-Guided Credit Distillation for Long-Horizon Tool-Use Agents",
+    "link": "https://arxiv.org/abs/2606.12634",
+    "description": "arXiv:2606.12634v3 Announce Type: replace-cross Abstract: Long-horizon tool-use reinforcement learning learns from outcome verification, but trajectory-level advantages are broadcast over reasoning, API, and answer tokens. Direct self-distillation can supply a denser signal, but in our experiments it can also destroy tool use by rehearsing teacher behavior without identifying which actions the verifier rewards. We introduce Sibling-Guided Credit Distillation (SGCD), which uses distillation for bounded credit weighting rather than as a competing actor loss. Dynamic sampling produces mixed successful and failed sibling rollouts; an external LLM summarizes their contrast into a training-only credit reference; and detached teacher/student divergence reshapes GRPO token advantages. The deployed student receives only the clean task prompt. Across AppWorld and tau^3-airline, SGCD reports higher held-out point estimates than GRPO-family comparators: AppWorld TGC improves from 42.9 to 45.6 on test_normal and from 24.7 to 27.0 on test_challenge, and tau^3-airline held-out evaluator score improves from 0.583 to 0.602. These results support a narrow design rule for long-horizon tool-use agents: use distillation to guide credit assignment while keeping policy gradient in charge of the actor update.",
+    "publishedAt": "2026-07-15",
+    "author": "Tianyu Ding, Jianhong Xin, Juan Pablo De la Cruz Weinstein",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

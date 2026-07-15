@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2511.09008v2",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2511.09008v2",
+    "title": "A Neurosymbolic Approach to Natural Language Formalization and Verification",
+    "link": "https://arxiv.org/abs/2511.09008",
+    "description": "arXiv:2511.09008v2 Announce Type: replace-cross Abstract: Large Language Models perform well at natural language interpretation and reasoning, but their lack of formal correctness guarantees limits their adoption in regulated industries like finance and health-care that operate under strict policies. To address this limitation, we launched Automated Reasoning checks (ARc): a public service that (1) uses LLMs with optional human guidance to formalize natural language policies, allowing fine-grained control of the formalization process, and (2) uses inference-time autoformalization to validate logical correctness of natural language statements against those policies. ARc performs multiple redundant formalization steps at inference time, checking the formalizations for semantic equivalence. Our benchmarks show that ARc exceeds 99% soundness and achieves a near-zero false positive rate in identifying logical validity. Our approach produces auditable artifacts that substantiate the verification outcomes and can be used to improve the original text. ARc is the first commercial offering from a major cloud provider to integrate automated reasoning into a generative AI guardrail.",
+    "publishedAt": "2026-07-15",
+    "author": "Chenyang An, Sam Bayless, Stefano Buliani, Darion Cassel, Byron Cook, Duncan Clough, R\\'emi Delmas, Nafi Diallo, Ferhat Erata, Nick Feng, Dimitra Giannakopoulou, Aman Goel, Aditya Gokhale, Joe Hendrix, Victor Heorhiadi, Marc Hudak, Dejan Jovanovi\\'c, Andrew M. Kent, Benjamin Kiesl-Reiter, Jeffrey J. Kuna, Nadia Labai, Joseph Lilien, Divya Raghunathan, Zvonimir Rakamari\\'c, Niloofar Razavi, Michael Tautschnig, Ali Torkamani, Nathaniel Weir, Michael W. Whalen, Jianan Yao",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

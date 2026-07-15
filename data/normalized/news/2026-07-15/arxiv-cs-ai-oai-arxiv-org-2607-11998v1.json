@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11998v1",
+  "name": "HPC-Enabled Video-based Coastal Wave Parameter Estimation Using V-JEPA and Deep Spatiotemporal Learning",
+  "summary": "arXiv:2607.11998v1 Announce Type: cross Abstract: High deployment cost, poor spatial coverage and susceptibility to storm conditions are all challenges faced by traditional in-situ methods. This pa...",
+  "description": "arXiv:2607.11998v1 Announce Type: cross Abstract: High deployment cost, poor spatial coverage and susceptibility to storm conditions are all challenges faced by traditional in-situ methods. This paper presents a video-based and high performance computing (HPC) enabled deep learning framework for joint sensor free estimation of five coastal wave parameters, namely significant wave height (Hs), m...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11998"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11998"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Abubakar Hamisu Kamagata, Dharm Singh Jat, Attlee Munyaradzi Gamundani, Saravanakumar Paramasivam, Babangida Sani, Aliyu Zakariyya"
+}

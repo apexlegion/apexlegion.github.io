@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/embeddinggemma",
-  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "fetchedAt": "2026-07-15T05:07:50.389Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/embeddinggemma",
     "title": "Welcome EmbeddingGemma, Google&apos;s new efficient embedding model",

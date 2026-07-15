@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.11942v1",
+  "fetchedAt": "2026-07-15T05:07:50.447Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.11942v1",
+    "title": "How Query Visibility Changes KV-Cache Compression Rankings: A Matched-Budget Audit",
+    "link": "https://arxiv.org/abs/2607.11942",
+    "description": "arXiv:2607.11942v1 Announce Type: cross Abstract: KV-cache compression methods are predominantly evaluated with the query appended to the context before compression -- a query-aware protocol. Yet the economic case for a compressed KV cache is reuse: compress a document once, answer many future questions against it. In that deployment, compression must happen query-agnostic -- before any question is seen. We present a matched-budget audit of six published compression methods against three trivial baselines on three open 7-9B models (144,300 paired evaluations on RULER-8192; 40,800 on LongBench; 50,000-resample paired bootstrap throughout). Everything is held fixed -- model, compression ratio, instances, decoding -- except the scoring rule. Three findings. (1) Query visibility changes the rankings: under the agnostic protocol, of the five audited methods that share a common attention backend, only KeyDiff beats a best-of-3 trivial baseline consistently (31 of 36 cells), and the most widely deployed method, SnapKV, loses to \"keep the start and the recent window\" on average (-0.066). (2) The per-method drop between the two protocols is ordered consistently with how visible the question is to each method's scoring signal, legible in its source code: from Delta=+0.198 for SnapKV (the question sits inside its 64-token observation window) down to Delta=+0.011 for KeyDiff (its score contains no query term at all).",
+    "publishedAt": "2026-07-15",
+    "author": "Daming Luo, Christy Liang, Junyu Xuan",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "openai-blog:https://openai.com/index/openai-baselines-acktr-a2c",
-  "fetchedAt": "2026-07-14T05:07:36.575Z",
+  "fetchedAt": "2026-07-15T05:07:50.277Z",
   "data": {
     "guid": "openai-blog:https://openai.com/index/openai-baselines-acktr-a2c",
     "title": "OpenAI Baselines: ACKTR & A2C",

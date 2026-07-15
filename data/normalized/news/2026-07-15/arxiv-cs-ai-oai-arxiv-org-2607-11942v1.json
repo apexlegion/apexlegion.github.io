@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11942v1",
+  "name": "How Query Visibility Changes KV-Cache Compression Rankings: A Matched-Budget Audit",
+  "summary": "arXiv:2607.11942v1 Announce Type: cross Abstract: KV-cache compression methods are predominantly evaluated with the query appended to the context before compression -- a query-aware protocol. Yet t...",
+  "description": "arXiv:2607.11942v1 Announce Type: cross Abstract: KV-cache compression methods are predominantly evaluated with the query appended to the context before compression -- a query-aware protocol. Yet the economic case for a compressed KV cache is reuse: compress a document once, answer many future questions against it. In that deployment, compression must happen query-agnostic -- before any questio...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11942"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11942"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Daming Luo, Christy Liang, Junyu Xuan"
+}

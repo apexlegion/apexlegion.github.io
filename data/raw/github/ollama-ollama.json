@@ -1,7 +1,7 @@
 {
   "source": "github",
   "sourceId": "ollama/ollama",
-  "fetchedAt": "2026-07-14T05:07:31.243Z",
+  "fetchedAt": "2026-07-15T05:07:44.984Z",
   "data": {
     "id": 658928958,
     "node_id": "R_kgDOJ0Z1Pg",
@@ -70,16 +70,16 @@
     "releases_url": "https://api.github.com/repos/ollama/ollama/releases{/id}",
     "deployments_url": "https://api.github.com/repos/ollama/ollama/deployments",
     "created_at": "2023-06-26T19:39:32Z",
-    "updated_at": "2026-07-14T04:57:54Z",
-    "pushed_at": "2026-07-14T00:15:24Z",
+    "updated_at": "2026-07-15T04:46:18Z",
+    "pushed_at": "2026-07-14T22:42:04Z",
     "git_url": "git://github.com/ollama/ollama.git",
     "ssh_url": "git@github.com:ollama/ollama.git",
     "clone_url": "https://github.com/ollama/ollama.git",
     "svn_url": "https://github.com/ollama/ollama",
     "homepage": "https://ollama.com",
-    "size": 89614,
-    "stargazers_count": 176072,
-    "watchers_count": 176072,
+    "size": 89673,
+    "stargazers_count": 176124,
+    "watchers_count": 176124,
     "language": "Go",
     "has_issues": true,
     "has_projects": false,
@@ -87,11 +87,11 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 16955,
+    "forks_count": 16965,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 3431,
+    "open_issues_count": 3445,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -122,9 +122,9 @@
       "qwen"
     ],
     "visibility": "public",
-    "forks": 16955,
-    "open_issues": 3431,
-    "watchers": 176072,
+    "forks": 16965,
+    "open_issues": 3445,
+    "watchers": 176124,
     "default_branch": "main",
     "permissions": {
       "admin": false,
@@ -156,7 +156,7 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "network_count": 16955,
+    "network_count": 16965,
     "subscribers_count": 990
   }
 }

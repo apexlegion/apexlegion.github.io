@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11949v1",
+  "name": "BAT-RM: A Boundary-Aware Transformer with Region-Aware Multi-Directional Mamba for Clinically Deployed Cervical Cancer Radiotherapy Auto-Contouring",
+  "summary": "arXiv:2607.11949v1 Announce Type: cross Abstract: We present a clinically deployed end-to-end auto-contouring system for cervical cancer radiotherapy planning, anchored by the Boundary-Aware Transf...",
+  "description": "arXiv:2607.11949v1 Announce Type: cross Abstract: We present a clinically deployed end-to-end auto-contouring system for cervical cancer radiotherapy planning, anchored by the Boundary-Aware Transformer with Region-Aware Mamba (BAT-RM), a hybrid architecture that integrates Sobel-gated boundary attention, a linear-time, multi-directional Mamba module for long-range context, and a boundary-skele...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11949"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11949"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Istiak Ahmed, Kazi Shahriar Sanjid, Galib Ahmed, Md. Tanzim Hossain, Md. Anwarul Islam, Shahrukh Khan, Md. Ashrif Rahman Arian, Md. Nishan Khan, Md. Misbah Khan, S M Hasibul Hoque, Rahnuma Shahrin Rista, Md. Jobairul Islam, Sheikh Anisul Haque, Md Arifur Rahman, Syed Md. Akram Hussain, Syeda Nashra, Sayeed Shafayet Chowdhury, Md. Mostafa Kamal Sarker, M. Monir Uddin"
+}

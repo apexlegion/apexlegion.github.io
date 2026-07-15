@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/bert-cpu-scaling-part-1",
-  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "fetchedAt": "2026-07-15T05:07:50.392Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/bert-cpu-scaling-part-1",
     "title": "Scaling-up BERT Inference on CPU (Part 1)",

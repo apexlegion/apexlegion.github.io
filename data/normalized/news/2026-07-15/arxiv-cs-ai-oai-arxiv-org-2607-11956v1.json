@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11956v1",
+  "name": "Exact and Certified Data Shapley for Weighted k-Nearest-Neighbor Regression and Soft-Label Prediction",
+  "summary": "arXiv:2607.11956v1 Announce Type: cross Abstract: Data Shapley is the standard principled answer to which training points are worth what, and its k-nearest-neighbor (KNN) specialization is the vers...",
+  "description": "arXiv:2607.11956v1 Announce Type: cross Abstract: Data Shapley is the standard principled answer to which training points are worth what, and its k-nearest-neighbor (KNN) specialization is the version deployed in practice: the exact estimator shipped by toolkits such as pyDVL and OpenDataVal. Exact algorithms are known for unweighted KNN and for weighted KNN classification, but weighted KNN reg...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11956"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11956"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Zongye Lyu"
+}

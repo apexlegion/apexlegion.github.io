@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-12397v1",
+  "name": "Critic Experience Bank: Self-Evolving Step-Level Confidence Estimation for LLM Agents",
+  "summary": "arXiv:2607.12397v1 Announce Type: new Abstract: LLM agents act in external environments where each action changes the state that later decisions condition on, and where a single wrong step can wast...",
+  "description": "arXiv:2607.12397v1 Announce Type: new Abstract: LLM agents act in external environments where each action changes the state that later decisions condition on, and where a single wrong step can waste interaction budget or trigger irreversible side effects long before the final failure is observed. Reliable deployment therefore requires \\emph{step-level confidence estimation}: a calibrated probab...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.12397"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.12397"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Yaopei Zeng, Congchao Wang, JianHang Chen, Nan Wang, Yurui Chang, Lu Lin"
+}

@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.11967v1",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.11967v1",
+    "title": "Beyond Coordinate Gauge: An Audited Protocol for Detecting Donor-Specific Functional Fingerprints after Neural Collapse",
+    "link": "https://arxiv.org/abs/2607.11967",
+    "description": "arXiv:2607.11967v1 Announce Type: cross Abstract: Independently trained neural networks have no shared neuron-index reference frame, so comparing them requires accounting for coordinate freedom. Neural Collapse sharpens this problem: networks converge toward a shared, low-dimensional geometry, raising the question of whether trajectory-specific functional variation remains distinguishable after convergence. We distinguish three claims - detectability, transplantability, and causal persistence - and address the first. Using five independently trained networks reconstructing Neural Collapse on MNIST, we apply a verified affine-correct alignment mapping donor heads into recipient coordinates. Donor-specific functional fingerprints remain distinguishable after recipient-level baseline correction: all 20 ordered donor-recipient pairs are correctly identified, with an exact permutation p=0.0083, robust to a leakage audit. These findings establish detectability under the test used here, but not transplantability or causal persistence. The study shows how alignment, ambiguity diagnostics, and leakage control combine to test cross-network variation in a controlled setting; whether this generalizes beyond it is open.",
+    "publishedAt": "2026-07-15",
+    "author": "Truong Xuan Khanh, Phan Thanh Duc",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

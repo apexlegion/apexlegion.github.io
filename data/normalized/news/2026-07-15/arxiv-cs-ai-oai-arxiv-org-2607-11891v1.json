@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11891v1",
+  "name": "CANDI: Contextual Alignment for Niche Domains Question Answering",
+  "summary": "arXiv:2607.11891v1 Announce Type: cross Abstract: The deployment of large language models (LLMs) in specialized domains like medical diagnostics and financial advisory necessitates evaluating capab...",
+  "description": "arXiv:2607.11891v1 Announce Type: cross Abstract: The deployment of large language models (LLMs) in specialized domains like medical diagnostics and financial advisory necessitates evaluating capabilities beyond general knowledge. Traditional question-answering benchmarks often fail to capture the nuanced contextual grounding, user awareness, and domain understanding these fields require. To ad...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11891"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11891"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Megha Chakraborty, Darssan L. Eswaramoorthi, Het Riteshkumar Shah, Madhur Thareja, Michelle A Ihetu, Harshul Raj Surana, Kaushik Roy, Amit Sheth"
+}

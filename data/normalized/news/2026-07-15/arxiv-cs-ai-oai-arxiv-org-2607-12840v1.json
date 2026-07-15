@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-12840v1",
+  "name": "Reproducible Reservoir Computing with Thermally Driven Superparamagnets: Controlling Temperature Sensitivity",
+  "summary": "arXiv:2607.12840v1 Announce Type: cross Abstract: Unconventional computing systems must demonstrate robust performance under real-world environmental conditions to enable practical deployments. We...",
+  "description": "arXiv:2607.12840v1 Announce Type: cross Abstract: Unconventional computing systems must demonstrate robust performance under real-world environmental conditions to enable practical deployments. We have recently proposed superparamagnetic nanodot ensembles driven by strain-induced magnetoelectric coupling as exciting candidates for use as ultra-low energy consumption reservoir computing substrat...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.12840"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.12840"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Zhengfei Chen, Alex Welbourne, Matthew O. A. Ellis, Dan A. Allwood, Eleni Vasilaki, Thomas J. Hayward"
+}

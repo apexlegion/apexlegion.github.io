@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/image-preferences",
-  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "fetchedAt": "2026-07-15T05:07:50.391Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/image-preferences",
     "title": "Open Preference Dataset for Text-to-Image Generation by the 🤗 Community",

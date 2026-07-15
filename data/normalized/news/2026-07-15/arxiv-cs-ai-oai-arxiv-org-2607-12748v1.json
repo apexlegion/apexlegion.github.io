@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-12748v1",
+  "name": "Weakly Supervised Spatio-Temporal Candidate Discovery of Dairy Farm Sites from Seasonal Satellite Imagery",
+  "summary": "arXiv:2607.12748v1 Announce Type: cross Abstract: Farm site discovery from satellite imagery is a spatiotemporal candidate ranking problem because farm evidence is distributed across pasture, field...",
+  "description": "arXiv:2607.12748v1 Announce Type: cross Abstract: Farm site discovery from satellite imagery is a spatiotemporal candidate ranking problem because farm evidence is distributed across pasture, field boundaries, roads, buildings, and seasonal vegetation patterns. Direct farm labels are often incomplete, which makes fully supervised detection difficult. This paper proposes a weakly supervised pipe...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.12748"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.12748"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Usman Haider, Fatima Khalid, Karl Mason"
+}

@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2606.12346v2",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2606.12346v2",
+    "title": "Atlas H&amp;E-TME: Scalable AI-Based Tissue Profiling at Expert Pathologist-Level Accuracy",
+    "link": "https://arxiv.org/abs/2606.12346",
+    "description": "arXiv:2606.12346v2 Announce Type: replace-cross Abstract: Hematoxylin and eosin (H&amp;E) staining is the cornerstone of histopathology, yet scalable, quantitative analysis of H&amp;E whole-slide images (WSIs) remains a central challenge in computational pathology. We present Atlas H&amp;E-TME, an AI-based system built on the Atlas family of pathology foundation models that predicts tissue quality, tissue region, and cell type labels across multiple cancer types, yielding over 4,500 quantitative readouts per slide at cell-level resolution. A key challenge to validating such systems is overcoming morphological ambiguity inherent to H&amp;E-only ground truth and the limited scalability of more informed references drawing on modalities such as immunohistochemistry (IHC). We address this with a dual validation framework combining biologically grounded depth with technical and morphological breadth. For depth, we propose an IHC-informed multi-pathologist consensus protocol that substantially improves inter-rater agreement over conventional H&amp;E-only annotation. This yields a molecularly grounded reference against which we compare Atlas H&amp;E-TME and pathologists working from H&amp;E alone. For breadth, we benchmark Atlas H&amp;E-TME on over 200,000 high-confidence H&amp;E-only pathologist annotations across 1,500+ cases spanning eight cancer types and their most common metastatic sites, with subtypes covering &gt;90% of clinical cases per cancer type, drawn from 25+ sources and 8+ scanner models. Benchmarked against the IHC-informed consensus, Atlas H&amp;E-TME matches or exceeds pathologist H&amp;E-only performance and generalizes consistently and robustly across this broad morphological and technical scope. In doing so, Atlas H&amp;E-TME turns the H&amp;E slide -- the most ubiquitous data in pathology -- into a scalable, quantitative window into the tumor and its microenvironment, laying a foundation for the next generation of tissue-based biomarkers in translational and clinical research.",
+    "publishedAt": "2026-07-15",
+    "author": "Kai Standvoss, Miriam H\\\"agele, Rosemarie Krupar, Julika Ribbat-Idel, Jennifer Altsch\\\"uler, Gerrit Erdmann, Hans Pinckaers, Evelyn Ramberger, Madleen Drinkwitz, \\'Ad\\'am N\\'arai, Alexander M\\\"ollers, Katja Lingelbach, Sebastian Kons, Lukas H\\\"onig, Recepcan Adig\\\"uzel, Joana Bai\\~ao, Alberto Megina Gonzalo, Marius Teodorescu, Marie-Lisa Eich, Paolo Chetta, Shakil Merchant, Verena Aumiller, Simon Schallenberg, Andrew Norgan, Klaus-Robert M\\\"uller, Lukas Ruff, Maximilian Alber, Frederick Klauschen",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

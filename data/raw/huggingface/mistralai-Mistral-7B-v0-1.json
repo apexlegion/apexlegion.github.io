@@ -1,7 +1,7 @@
 {
   "source": "huggingface",
   "sourceId": "mistralai/Mistral-7B-v0.1",
-  "fetchedAt": "2026-07-14T05:07:34.485Z",
+  "fetchedAt": "2026-07-15T05:07:48.280Z",
   "data": {
     "_id": "650aedb6238a644cb93a52c3",
     "id": "mistralai/Mistral-7B-v0.1",
@@ -23,7 +23,7 @@
       "text-generation-inference",
       "region:us"
     ],
-    "downloads": 713161,
+    "downloads": 668635,
     "likes": 4124,
     "modelId": "mistralai/Mistral-7B-v0.1",
     "author": "mistralai",
@@ -122,8 +122,9 @@
       }
     ],
     "spaces": [
-      "logikon/open_cot_leaderboard",
       "overhead520/LLM-Settings-Guide",
+      "logikon/open_cot_leaderboard",
+      "CATIE-AQ/Guide_Evaluation_LLM",
       "CiLprototype/CurvOpt-SmarterModels",
       "AwaisAdilKhokhar/modelDNA",
       "Vokturz/can-it-run-llm",
@@ -170,7 +171,6 @@
       "tvosch/VRAM-estimator",
       "VITA-MLLM/VITA-1.5",
       "totolook/Quant",
-      "CATIE-AQ/Guide_Evaluation_LLM",
       "BarBar288/Chatbot",
       "Ailaysa-AI/Asai-Tamil-Tokenizer",
       "Taylor658/Zephyr-7b-Apr24",

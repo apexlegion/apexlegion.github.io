@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2603.27270v2",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2603.27270v2",
+    "title": "Quantification of Credal Uncertainty: A Distance-Based Approach",
+    "link": "https://arxiv.org/abs/2603.27270",
+    "description": "arXiv:2603.27270v2 Announce Type: replace Abstract: Credal sets, i.e., closed convex sets of probability measures, provide a natural framework to represent aleatoric and epistemic uncertainty in machine learning. Yet how to quantify these two types of uncertainty for a given credal set, particularly in multiclass classification, remains underexplored. In this paper, we propose a distance-based approach to quantify total, aleatoric, and epistemic uncertainty for credal sets. Concretely, we introduce a family of such measures within the framework of Integral Probability Metrics (IPMs). The resulting quantities admit clear semantic interpretations, satisfy natural theoretical desiderata, and remain computationally tractable for common choices of IPMs. We instantiate the framework with the total variation distance and obtain simple, efficient uncertainty measures for multiclass classification. In the binary case, this choice recovers established uncertainty measures, for which a principled multiclass generalization has so far been missing. Empirical results confirm practical usefulness, with favorable performance at low computational cost.",
+    "publishedAt": "2026-07-15",
+    "author": "Xabier Gonzalez-Garcia, Siu Lun Chau, Julian Rodemann, Michele Caprio, Krikamol Muandet, Humberto Bustince, S\\'ebastien Destercke, Eyke H\\\"ullermeier, Yusuf Sale",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

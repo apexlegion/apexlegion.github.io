@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2605-16969v2",
+  "name": "Brain Vascular Age Prediction Using Cerebral Blood Flow Velocity and Machine Learning Algorithms",
+  "summary": "arXiv:2605.16969v2 Announce Type: replace Abstract: Defining vascular age in terms of physiological function has become one focal point of the extensive studies to categorize and track chronologica...",
+  "description": "arXiv:2605.16969v2 Announce Type: replace Abstract: Defining vascular age in terms of physiological function has become one focal point of the extensive studies to categorize and track chronological age. Transcranial Doppler (TCD) is a method by which cerebral blood flow velocity is measured along the major arteries feeding the human brain. This study aims to use features extracted from TCD to...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2605.16969"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2605.16969"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Anni Zhao, Alex Bateh, Tyler Baldridge, Sandra Billinger, Xiao Hu"
+}

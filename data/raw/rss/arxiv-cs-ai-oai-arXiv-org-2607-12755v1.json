@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.12755v1",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.12755v1",
+    "title": "Practical Judgment, Virtue, and Intuition in the Use of Opaque AI-Enabled Systems",
+    "link": "https://arxiv.org/abs/2607.12755",
+    "description": "arXiv:2607.12755v1 Announce Type: cross Abstract: AI-enabled systems are seeing increasing deployment across numerous domains, with many being \"black boxes\" with respect to core functions and capabilities. I.e., many systems take inputs and give outputs, but without users having any ability to see how the former lead to the latter. AI-enabled systems are also being used to augment autonomy in systems, and autonomy coupled with opacity raises numerous concerns surrounding, e.g., the reliability of systems, their regularity in functioning, human ability to control them, or whether deploying opaque and potentially autonomous systems is in compliance with ethical and legal norms. In this article, we argue that many of these worries can be mitigated by leveraging practical judgment, virtue, and intuition in the deployment and use of opaque AI-enabled systems. We show that focusing on these distinctly human capabilities provides a means for bridging between the practical challenges created by opacity and the ethical, legal, and social norms underpinning particular domains. We argue that a core element in doing this is a recognition that many positive human traits are not quantifiable and we therefore must develop training regimen and guidelines on AI deployment anchored in humanistic but non-quantifiable values. Throughout the article, we focus on the military domain as an exemplar of the importance of practical judgment, virtue, and intuition as drivers for ethical and effective human decision-making surrounding AI deployments, but the underlying arguments apply to all domains where opaque and potentially autonomous systems are being deployed (subject to domain-specific alterations).",
+    "publishedAt": "2026-07-15",
+    "author": "Nathan G. Wood, Andrew P. Rebera",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

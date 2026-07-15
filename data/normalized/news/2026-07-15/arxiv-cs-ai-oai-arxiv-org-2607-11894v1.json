@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11894v1",
+  "name": "Graph-Based Detection of Disinformation Narrative Diffusion between Russian and Ukrainian Telegram Channels",
+  "summary": "arXiv:2607.11894v1 Announce Type: cross Abstract: Detecting disinformation narratives on social media is challenging due to the scale of amplification, rapid evolution, and linguistic variability o...",
+  "description": "arXiv:2607.11894v1 Announce Type: cross Abstract: Detecting disinformation narratives on social media is challenging due to the scale of amplification, rapid evolution, and linguistic variability of online content. We propose a graph-based framework for identifying and analyzing disinformation narratives in Telegram ecosystems by combining weak supervision with propagation graph analysis. The a...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11894"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11894"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Yuliia Vistak, Viktoriia Makovska, Vera Schmitt, Veronika Solopova"
+}

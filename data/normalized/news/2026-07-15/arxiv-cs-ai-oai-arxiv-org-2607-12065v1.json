@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-12065v1",
+  "name": "Enabling 24-hour Agricultural Robotics: Unsupervised Day-to-Night Cross-Modal Image Translation for Nighttime Visual Navigation",
+  "summary": "arXiv:2607.12065v1 Announce Type: cross Abstract: While visual navigation has been extensively studied in agricultural robotics, most existing systems assume daytime conditions. In fact, deploying...",
+  "description": "arXiv:2607.12065v1 Announce Type: cross Abstract: While visual navigation has been extensively studied in agricultural robotics, most existing systems assume daytime conditions. In fact, deploying autonomous robots at night offers significant advantages, including 24-hour crop and soil monitoring, fruit harvesting, and nocturnal pest detection. Modern vision-based systems, however, rely heavily...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.12065"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.12065"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Robel Mamo, Rajitha de Silva, Grzegorz Cielniak, Taeyeong Choi"
+}

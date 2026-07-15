@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-12296v1",
+  "name": "A Comparative Analysis of Institutional and Course Generative AI Policies within Higher Education: Implications for Instruction in Computing Education",
+  "summary": "arXiv:2607.12296v1 Announce Type: cross Abstract: With the increased use of generative AI (GenAI) applications such as ChatGPT, higher education institutions (HEIs) have released a range of guideli...",
+  "description": "arXiv:2607.12296v1 Announce Type: cross Abstract: With the increased use of generative AI (GenAI) applications such as ChatGPT, higher education institutions (HEIs) have released a range of guidelines and policies to direct adoption within their institutions. In computer science (CS) courses GenAI adoption is especially high and the implications for student learning are significant. At the same...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.12296"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.12296"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Amrita Ganguly, Aditya Johri, Nora McDonald, Areej Ali, Umama Dewan, Aayushi Hingle Collier"
+}

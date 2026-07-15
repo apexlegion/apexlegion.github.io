@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11983v1",
+  "name": "Removable Defects: The Economics and Limits of Deliberate Deficiency",
+  "summary": "arXiv:2607.11983v1 Announce Type: cross Abstract: A specialist tolerates blind spots that a generalist does not. Usually this is treated as a cost to be minimized. We treat it as a design variable:...",
+  "description": "arXiv:2607.11983v1 Announce Type: cross Abstract: A specialist tolerates blind spots that a generalist does not. Usually this is treated as a cost to be minimized. We treat it as a design variable: a deficiency can be kept because it pays and removed on demand in the rare situation where it would be fatal, by routing to a compensation channel. We give three results. First, an advantage conditio...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11983"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11983"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Cheng Qian"
+}

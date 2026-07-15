@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2505-22108v4",
+  "name": "Inclusive Federated Learning Through Compliance-Weighted Noise Allocation in Healthcare AI",
+  "summary": "arXiv:2505.22108v4 Announce Type: replace-cross Abstract: Background: Federated learning (FL) enables collaborative training of clinical AI models without centralizing patient data, but adoption is...",
+  "description": "arXiv:2505.22108v4 Announce Type: replace-cross Abstract: Background: Federated learning (FL) enables collaborative training of clinical AI models without centralizing patient data, but adoption is limited by privacy concerns, heterogeneous institutional compliance, and resource disparities; standard differential privacy (DP) applies uniform noise to all clients, penalizing well-compliant or un...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2505.22108"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2505.22108"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Santhosh Parampottupadam, Melih Co\\c{s}\\u{g}un, Sarthak Pati, Maximilian Zenk, Saikat Roy, Dimitrios Bounias, Benjamin Hamm, Sinem Sav, Ralf Floca, Klaus Maier-Hein"
+}

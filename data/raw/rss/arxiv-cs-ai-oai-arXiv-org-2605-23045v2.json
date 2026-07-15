@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2605.23045v2",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2605.23045v2",
+    "title": "The TIME Machine: On The Power of Motion for Efficient Perception",
+    "link": "https://arxiv.org/abs/2605.23045",
+    "description": "arXiv:2605.23045v2 Announce Type: replace-cross Abstract: Video representation learning has seen tremendous progress in recent years. This has been driven by many factors, including the scale of training and the success of visual models trained contrastively with language. While these factors have pushed the boundaries of what video models can do, they also introduce their own set of limitations: first, scaling video models can reach prohibitive costs and second, learning from language restricts the range of concepts that can be learned to those in captions. As a result, video models still struggle with temporal understanding. In this paper we propose a novel approach that uses motion as the central modality for video representation. In particular, given the motion in a video in the form of point-tracks, we use a masked-autoencoder to mask some of the tracks and train the autoencoder to reconstruct the missing tracks. This allows us to learn a representation in a self-supervised manner. We show that using motion to represent videos actually addresses both of the core limitations of video technology. First, it allows us to massively reduce the scale of training data, as motion is inherently appearance-independent and hence needs fewer examples to generalize well. Second, motion allows us to bypass the language-dependent training paradigm, learning better fine-grained concepts. The result is an embedding that we call TIME (Temporally Informed Motion Embedding), a representation trained exclusively on synthetic motion data. We test this embedding on a wide set of tasks in a zero-shot manner. We observe that without bells and whistles, performance is on par with state-of-the-art models using up to 4 orders of magnitude less training data. This is a stepping stone towards a new paradigm of video models that are both more temporally aware as well as more scalable.",
+    "publishedAt": "2026-07-15",
+    "author": "Mantas Skackauskas, Xinyue Hao, Laura Sevilla-Lara",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

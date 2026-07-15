@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-12678v1",
+  "name": "Text-Aided Multi-Modal Panoptic Symbol Spotting for CAD Floor Plan Drawings",
+  "summary": "arXiv:2607.12678v1 Announce Type: cross Abstract: Computer-Aided Design (CAD) floor plan drawings contain both graphical primitives and textual annotations, which provide complementary geometric an...",
+  "description": "arXiv:2607.12678v1 Announce Type: cross Abstract: Computer-Aided Design (CAD) floor plan drawings contain both graphical primitives and textual annotations, which provide complementary geometric and semantic cues for intelligent design understanding. Among CAD analysis tasks, panoptic symbol spotting has become increasingly important with the growing demand for industrial digitalization and dee...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.12678"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.12678"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Yan Gong, Bohao Li, Bowen Du, Junchen Ye"
+}

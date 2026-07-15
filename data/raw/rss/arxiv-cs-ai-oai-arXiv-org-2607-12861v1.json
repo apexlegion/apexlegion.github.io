@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.12861v1",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.12861v1",
+    "title": "Unveiling Complex Collective Behaviors from Simple Rewards",
+    "link": "https://arxiv.org/abs/2607.12861",
+    "description": "arXiv:2607.12861v1 Announce Type: cross Abstract: Multi-agent Reinforcement Learning (MARL) holds great potential for robot swarms, but the black-box nature of neural policies complicates strategic analysis, limiting multi-robot applications. Furthermore, complex swarm behaviors can surprisingly emerge from simple rewards without explicit aggregation incentives. Unveiling the mechanisms behind this emergence is critical, but the disconnection between simple rewards and collective behaviors exacerbates interpretability challenges. This paper aims to reveal the hidden mechanisms in this process. We propose a two-stage EEC (\\LinkIII) explanatory framework. This includes a novel analytical tool called the Agent Response Map (ARM), which reveals agents' decision-making patterns across space and identifies regions of aggregation and avoidance. ARM reveals that the robots implicitly learn the geometric fields of the environment and utilize these structures as desired targets for coordinated movement. We validate this finding across two distinct tasks: a cooperative multi-robot shape assembly and a competitive predator-prey pursuit-evasion. 1) In the cooperative task, ARM identifies the unoccupied target interior as the desired destination for robot navigation. As the center becomes occupied, this target region automatically shifts toward the boundary, demonstrating the robots' capacity to autonomously explore unoccupied areas. 2) In the competitive task, ARM surprisingly identifies the boundary of the predators' Voronoi diagram as the convergence destination for prey agents. Together, these two tasks demonstrate the capability of ARM to discover the hidden geometric structures underlying MARL policies in robot swarms.",
+    "publishedAt": "2026-07-15",
+    "author": "Yize Mi, Jianan Li, Liang Li, Shiyu Zhao",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

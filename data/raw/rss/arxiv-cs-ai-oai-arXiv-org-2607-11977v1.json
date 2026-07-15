@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.11977v1",
+  "fetchedAt": "2026-07-15T05:07:50.447Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.11977v1",
+    "title": "Optimization Is Not All You Need",
+    "link": "https://arxiv.org/abs/2607.11977",
+    "description": "arXiv:2607.11977v1 Announce Type: new Abstract: In 2019, OpenAI released two million GPT-2 outputs-ungrammatical, half broken-to aid the detection of machine-generated text. The alignment that produced their more fluent successors is usually regarded as an engineering achievement; we read it instead as the newest expression of optimization culture: the conviction, older than the technology, that measurable improvement along predefined axes exhausts the question of value. Tracing that conviction through the stack-pretraining, decoding, preference tuning, benchmarking, interface-and back through its genealogy in the audit society, we arrive at the limit: an optimization procedure can measure how improbable a piece of generated text is; it cannot tell whether that unlikelihood is error or invention. A procedure that cannot make that distinction has nonetheless, within half a decade, assumed the authority to set the protocols of legitimate language. Held for centuries by academies and schoolrooms, grammars and examiners, this authority has been given over to loss functions, reward models, benchmarks, and system prompts: an apparatus that executes the office of judgment with no capacity for judging.",
+    "publishedAt": "2026-07-15",
+    "author": "Minh Hua, Rita Raley",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

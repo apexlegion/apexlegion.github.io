@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/fetch-eap-case-study",
-  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "fetchedAt": "2026-07-15T05:07:50.392Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/fetch-eap-case-study",
     "title": "Fetch Consolidates AI Tools and Saves 30% Development Time with Hugging Face on AWS",

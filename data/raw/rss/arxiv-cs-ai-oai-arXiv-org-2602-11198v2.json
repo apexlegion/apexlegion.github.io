@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2602.11198v2",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2602.11198v2",
+    "title": "Declarative by Design, Assistable Only by Convention: Benchmarking Multi-Agent Frameworks for AI-Assistability",
+    "link": "https://arxiv.org/abs/2602.11198",
+    "description": "arXiv:2602.11198v2 Announce Type: replace-cross Abstract: Multi-agent frameworks (MAFs) promise to simplify LLM-driven software development, yet no principled metric captures how well AI coding assistants can generate correct, framework-specific code. We introduce \\textit{AI-assistability} ($\\mathcal{AI}$), a composite metric that quantifies a framework's amenability to AI-assisted development by combining structural alignment ($\\bar{\\sigma}$) with functional correctness (pass@1). To evaluate this metric in a controlled setting, we design DDL2PropBank, a novel benchmark task that maps relational database schemas to PropBank semantic rolesets, and implement identical agent logic across ten frameworks using the Agent-as-a-Tool pattern. Our results challenge the intuition that declarative framework design guarantees AI-assistability: Agno, with a single canonical pattern and convention-aligned API, achieves the highest $\\mathcal{AI}$ score (0.55), while DSPy -- the most declarative framework by design -- scores lowest (0.07), as its novel abstractions are insufficiently represented in AI training data. We find that convention alignment, not declarative design alone, is the primary driver of AI-assistability ($r = 0.576$ between $\\bar{\\sigma}$ and pass@1). All artifacts -- DDL2PropBank, PropBank MCP server, and all implementations -- are available at https://github.com/ahmeshaf/ddl2propbank",
+    "publishedAt": "2026-07-15",
+    "author": "Shafiuddin Rehan Ahmed, Sourabh Deshpande",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

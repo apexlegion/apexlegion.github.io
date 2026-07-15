@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.12364v1",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.12364v1",
+    "title": "Lost in Visual Translation: A VLM-Assisted Perceptual-Semantic Coherence Framework for EEG-to-Image Reconstruction",
+    "link": "https://arxiv.org/abs/2607.12364",
+    "description": "arXiv:2607.12364v1 Announce Type: cross Abstract: EEG-to-image evaluation should distinguish visual fidelity from recoverable meaning. Yet EEG-derived reconstructions are blurry, distorted, and low-detail, causing SSIM, LPIPS, and CLIP to penalize semantically recoverable outputs or reward plausible but incorrect ones. We analyze 6,855 ground-truth/reconstruction pairs from ATM, ENIGMA, BrainVis, and DreamDiffusion using semantic probes, caption harshness and blind-spot rates, and controlled degradations. Pixel metrics show near-zero correlation with semantic consistency, while representation metrics conflate perceptual and semantic errors. We therefore introduce a BCI-aware framework in which four VLMs assess image pairs through structured questions, producing Tolerant Perceptual Alignment Scores (T-PAS) and Tolerant Semantic Alignment Scores (T-SAS). Their consensus is distilled into the BCI-Coherence Score (BCS), a compact evaluator achieving a T-PAS MAE of 0.079 (r = 0.700) and a T-SAS MAE of 0.082 (r = 0.850) on our data. Human validation shows highly reliable joint coherence judgments, with Cohen's kappa = 0.882 +/- 0.174 and Krippendorff's alpha = 0.882, supporting perceptual-semantic recoverability over generic visual similarity. Code and resources are available at https://sukt03.github.io/BCS/.",
+    "publishedAt": "2026-07-15",
+    "author": "Sukriti Tiwari, BHVSP Subrahmanyam, Nidhi Goyal, Sai Amrit Patnaik",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

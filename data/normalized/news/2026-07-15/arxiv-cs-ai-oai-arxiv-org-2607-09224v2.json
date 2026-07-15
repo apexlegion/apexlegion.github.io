@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-09224v2",
+  "name": "Git-Assistant: Planning-Based Support for Updating Git Repositories",
+  "summary": "arXiv:2607.09224v2 Announce Type: replace-cross Abstract: Version control systems are essential for collaborative software development, yet tools like git remain challenging for many practitioners....",
+  "description": "arXiv:2607.09224v2 Announce Type: replace-cross Abstract: Version control systems are essential for collaborative software development, yet tools like git remain challenging for many practitioners. Recent advances in Large Language Models (LLMs) offer promising capabilities for interpreting developer intent, but their effectiveness in repository management tasks is limited by the need for forma...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.09224"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.09224"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Alfredo Garrach\\'on Ruiz, Tom\\'as de la Rosa, Daniel Borrajo"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-12520v1",
+  "name": "The Model Knows Your Project, Not You: Measuring Recognition in LLMs with NameRank",
+  "summary": "arXiv:2607.12520v1 Announce Type: new Abstract: What a frontier model recalls about a person or tool from its own weights -- before any retrieval step -- often shapes the first description a human...",
+  "description": "arXiv:2607.12520v1 Announce Type: new Abstract: What a frontier model recalls about a person or tool from its own weights -- before any retrieval step -- often shapes the first description a human sees, making that parametric corpus presence a measurement problem. Citations explain about a third of whether a model recognizes a researcher; we target the residual and build NameRank, a [0,1] recog...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.12520"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.12520"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Bojie Li, Noah Shi"
+}

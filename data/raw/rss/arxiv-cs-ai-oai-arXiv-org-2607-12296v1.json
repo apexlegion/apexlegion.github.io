@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.12296v1",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.12296v1",
+    "title": "A Comparative Analysis of Institutional and Course Generative AI Policies within Higher Education: Implications for Instruction in Computing Education",
+    "link": "https://arxiv.org/abs/2607.12296",
+    "description": "arXiv:2607.12296v1 Announce Type: cross Abstract: With the increased use of generative AI (GenAI) applications such as ChatGPT, higher education institutions (HEIs) have released a range of guidelines and policies to direct adoption within their institutions. In computer science (CS) courses GenAI adoption is especially high and the implications for student learning are significant. At the same time, instructors have also been forced to address the use of GenAI as students have started to use it for a range of functions. Currently, comparative analysis of guidance provided by institutions and its uptake in instruction is lacking. In this paper we bridge this gap by comparing institutional and computing course level guidance to better understand this terrain. We utilize secondary analysis of institutional and course syllabi guidelines from higher education institutions in the U.S. classified as research-intensive. Our findings reveal that although institutional guidance is more pro-use, at the course-level the uptake is still guarded. We discuss the implications and propose an instructor-centered framework to guide future adoption of GenAI.",
+    "publishedAt": "2026-07-15",
+    "author": "Amrita Ganguly, Aditya Johri, Nora McDonald, Areej Ali, Umama Dewan, Aayushi Hingle Collier",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

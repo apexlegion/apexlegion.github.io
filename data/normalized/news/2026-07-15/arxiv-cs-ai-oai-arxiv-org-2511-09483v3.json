@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2511-09483v3",
+  "name": "CrochetBench: Can Vision-Language Models Move from Describing to Doing in Crochet Domain?",
+  "summary": "arXiv:2511.09483v3 Announce Type: replace Abstract: While multimodal large language models can describe visual content, their ability to generate executable procedures remains underexplored. Croche...",
+  "description": "arXiv:2511.09483v3 Announce Type: replace Abstract: While multimodal large language models can describe visual content, their ability to generate executable procedures remains underexplored. CrochetBench presented in this paper evaluates this shift from describing to doing through fine-grained procedural reasoning in crochet: models must recognize stitches, select structurally appropriate instr...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2511.09483"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2511.09483"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Peiyu Li, Xiaobao Huang, Ting Hua, Nitesh V. Chawla"
+}

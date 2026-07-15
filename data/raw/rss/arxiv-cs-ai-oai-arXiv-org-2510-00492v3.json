@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2510.00492v3",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2510.00492v3",
+    "title": "Rethinking Reward Models for Multi-Domain Test-Time Scaling",
+    "link": "https://arxiv.org/abs/2510.00492",
+    "description": "arXiv:2510.00492v3 Announce Type: replace Abstract: The reliability of large language models (LLMs) during test-time scaling is often assessed with \\emph{external verifiers} or \\emph{reward models} that distinguish correct reasoning from flawed logic. Prior work has studied both outcome reward models (ORMs), which assess only the final answer, and process reward models (PRMs), which score intermediate reasoning steps. Although PRMs are often viewed as advantageous due to their finer-grained supervision, much of the supporting evidence comes from math-adjacent settings, and their relative benefits across broader domains remain unclear. We present the first unified evaluation of four reward model variants, discriminative ORM and PRM (dORM, dPRM) and generative ORM and PRM (gORM, gPRM), across 14 diverse domains. Contrary to conventional wisdom, we find that (i) dORM performs on par with dPRM, (ii) gPRM is not competitive, and (iii) overall, gORM is the most robust, yielding significant and consistent gains across every tested domain. We attribute the worse performance of gPRM to the stepwise scoring process, which inherits label noise from LLM-based automatic labeling, leading to difficulties in evaluating long reasoning trajectories, including those involving self-correcting reasoning. Both our theoretical analysis and empirical observations indicate that stepwise aggregation compounds errors as reasoning length increases. These findings challenge the common assumption that fine-grained supervision is always better and support generative outcome verification for multi-domain deployment. Our \\href{https://github.com/db-Lee/Multi-RM}{\\underline{code}} is publicly available to facilitate future research in multi-domain settings.",
+    "publishedAt": "2026-07-15",
+    "author": "Dong Bok Lee, Seanie Lee, Sangwoo Park, Minki Kang, Jinheon Baek, Dongki Kim, Dominik Wagner, Jiongdao Jin, Heejun Lee, Tobias Bocklet, Jinyu Wang, Jingjing Fu, Sung Ju Hwang, Jiang Bian, Lei Song",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

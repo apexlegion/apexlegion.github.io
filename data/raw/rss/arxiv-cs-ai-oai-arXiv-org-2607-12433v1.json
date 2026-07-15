@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.12433v1",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.12433v1",
+    "title": "ARDepth: Auto-regressive Monocular Depth Estimation with Progressive Visual Conditioning",
+    "link": "https://arxiv.org/abs/2607.12433",
+    "description": "arXiv:2607.12433v1 Announce Type: cross Abstract: Diffusion models have recently become the dominant paradigm for monocular depth estimation (MDE). However, they implicitly assume that depth can be recovered as a globally smooth field through iterative denoising, which does not explicitly reflect the piecewise and scale-dependent organization of scene geometry. In practice, geometric structure emerges progressively across spatial scales, where coarse layout, surfaces, and boundaries are constructed in a hierarchical manner. Motivated by this observation, we introduce ARDepth, which formulates depth estimation as structured auto-regressive generation. Instead of recovering depth through global refinement, ARDepth progressively constructs depth representations as spatial resolution increases. To support this generative process, we introduce Scale-Progressive Conditioning (SPC) to inject multi-scale visual features at each generation stage, and Semantic-Aware Guidance (SAG) to provide scene-level semantic priors that enhance global structural consistency. Together, these designs enable the model to capture fine-grained local details while maintaining coherent global geometry. Empirical results demonstrate that our approach achieves strong performance and produces structurally consistent depth predictions across scales, validating auto-regressive generation as a promising alternative paradigm for geometric modeling.",
+    "publishedAt": "2026-07-15",
+    "author": "Zijie Wang, Wei Zhang, Weiming Zhang, Xiao Tan, Weikai Chen, Xiaoxu Li, Guanbin Li",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

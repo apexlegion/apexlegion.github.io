@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2602-16727v2",
+  "name": "Mobility-Aware Cache Framework for Scalable LLM-Based Human Mobility Simulation",
+  "summary": "arXiv:2602.16727v2 Announce Type: replace Abstract: Simulating large-scale human mobility is fundamental to understanding population movement patterns and supporting real-world geospatial applicati...",
+  "description": "arXiv:2602.16727v2 Announce Type: replace Abstract: Simulating large-scale human mobility is fundamental to understanding population movement patterns and supporting real-world geospatial applications such as urban planning, epidemic response, and transportation analysis. Recent works treat large language models (LLMs) as human agents to simulate realistic mobility behaviors using structured re...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2602.16727"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2602.16727"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Hua Yan, Heng Tan, Yingxue Zhang, Yu Yang"
+}

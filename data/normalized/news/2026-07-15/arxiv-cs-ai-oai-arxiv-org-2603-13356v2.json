@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2603-13356v2",
+  "name": "Learning When to Trust in Contextual Social Bandits",
+  "summary": "arXiv:2603.13356v2 Announce Type: replace Abstract: Robust reinforcement learning typically assumes that feedback sources are either globally trustworthy or corrupted within a fixed global budget....",
+  "description": "arXiv:2603.13356v2 Announce Type: replace Abstract: Robust reinforcement learning typically assumes that feedback sources are either globally trustworthy or corrupted within a fixed global budget. We identify a more subtle failure mode that escapes this dichotomy, which we call \\emph{Contextual Sycophancy}. In this failure, evaluators are truthful in benign contexts but systematically biased in...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2603.13356"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2603.13356"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Majid Ghasemi, Mark Crowley"
+}

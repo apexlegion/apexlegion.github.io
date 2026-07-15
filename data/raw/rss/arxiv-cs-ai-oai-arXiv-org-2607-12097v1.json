@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.12097v1",
+  "fetchedAt": "2026-07-15T05:07:50.447Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.12097v1",
+    "title": "Representing and Generating Levels Over Time through Playtrace Reconstructive Partitioning",
+    "link": "https://arxiv.org/abs/2607.12097",
+    "description": "arXiv:2607.12097v1 Announce Type: new Abstract: Video games are a dynamic medium experienced over time. While there are many Procedural Content Generation (PCG) approaches for generating video game levels, they often use representations that abstract away this dynamic nature. In this paper, we introduce a novel, domain-independent ``cake'' representation for game levels over time which implicitly encodes dynamic information. We present a novel level generation approach Playtrace Reconstructive Partitioning (PRP) specifically developed for this cake representation. We compare against six state-of-the-art PCG approaches in the game domain of \\textit{Sokoban}, and find that our approach can generate valid levels without sacrificing solution diversity. We believe our cake representation more neatly encodes the implicit dynamic nature of games compared to existing representations, which allows for our domain-agnostic level generation algorithm PRP.",
+    "publishedAt": "2026-07-15",
+    "author": "Emily Halina, Matthew Guzdial",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

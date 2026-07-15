@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2606-27321v2",
+  "name": "Beyond the Hard Budget: Sparsity Regularizers for More Interpretable Top-k Sparse Autoencoders",
+  "summary": "arXiv:2606.27321v2 Announce Type: replace-cross Abstract: Sparse autoencoders (SAEs) have become a leading tool for interpreting the representations of vision foundation models, decomposing their p...",
+  "description": "arXiv:2606.27321v2 Announce Type: replace-cross Abstract: Sparse autoencoders (SAEs) have become a leading tool for interpreting the representations of vision foundation models, decomposing their polysemantic activations into a larger set of sparse, more monosemantic features. The Top-$k$ SAE, a now-standard variant, enforces sparsity architecturally through its activation function, retaining o...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2606.27321"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2606.27321"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Nathana\\\"el Jacquier, Maria Vakalopoulou, Mahdi S. Hosseini"
+}

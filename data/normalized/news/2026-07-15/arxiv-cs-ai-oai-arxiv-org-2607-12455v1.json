@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-12455v1",
+  "name": "EVOQUANT: Self-Evolving Verifier-Guided Strategy Optimization for Robust Quantitative Trading",
+  "summary": "arXiv:2607.12455v1 Announce Type: new Abstract: Quantitative strategy optimization remains largely manual, requiring domain experts to identify weak signals, tune risk-control rules, and repeatedly...",
+  "description": "arXiv:2607.12455v1 Announce Type: new Abstract: Quantitative strategy optimization remains largely manual, requiring domain experts to identify weak signals, tune risk-control rules, and repeatedly validate iterative revisions. Large language models can accelerate this process, but directly relying on them to rewrite trading strategies often introduces hallucinated edits, strategy drift, and ba...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.12455"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.12455"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Jie Mao, Changlun Li, Xiang Li, Qiqi Duan, Jinhui Yuan, Xiang Liu, Yuyu Luo, Jing Tang, Xiaowen Chu, Nan Tang"
+}

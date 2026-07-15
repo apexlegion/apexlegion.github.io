@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "openai-blog:https://openai.com/index/braintrust",
-  "fetchedAt": "2026-07-14T05:07:36.574Z",
+  "fetchedAt": "2026-07-15T05:07:50.276Z",
   "data": {
     "guid": "openai-blog:https://openai.com/index/braintrust",
     "title": "How Braintrust turns customer requests into code with Codex",

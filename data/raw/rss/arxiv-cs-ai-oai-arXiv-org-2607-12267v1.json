@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.12267v1",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.12267v1",
+    "title": "Track, Rank, Crack: Epistemic Working Memory Scales Multi-Hop Reasoning in Language Agents",
+    "link": "https://arxiv.org/abs/2607.12267",
+    "description": "arXiv:2607.12267v1 Announce Type: cross Abstract: Language agents that interleave reasoning and tool use degrade sharply as reasoning chains lengthen, even when each individual step is easy. We trace this to context dilution: an agent's investigative state (what it has confirmed, what it suspects, and what it still needs) lives only implicitly in a growing context window, where early discoveries are buried under later retrievals. We introduce SLEUTH, which makes this state explicit and actionable through a structured epistemic working memory: the agent maintains Confirmed Facts grounded to sources, Active Hypotheses ranked by evidence, and Open Questions that directly drive its next action. Across five multi-hop benchmarks and five established baselines, SLEUTH's advantage grows with difficulty, from +5 points on HotpotQA to +11 on 4-hop chains, surpassing Reflexion without multiple episodes. Analyzing where the remaining gap lies, we identify the evidence sufficiency problem: agents often find the answer but fail to commit, exhausting their budget on needless verification. A lightweight commitment trigger fixes this, but only when the agent already maintains structured state: the identical trigger applied to an unstructured agent yields no improvement, isolating organized epistemic state as the necessary condition for effective commitment. Finally, enforcing protocol adherence on a weaker model recovers up to +19 points on the hardest problems, showing that how an agent organizes its reasoning, not raw model capability, is the active ingredient for scaling multi-hop reasoning.",
+    "publishedAt": "2026-07-15",
+    "author": "Ning Liu",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

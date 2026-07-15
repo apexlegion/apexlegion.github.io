@@ -1,7 +1,7 @@
 {
   "source": "huggingface",
   "sourceId": "sentence-transformers/all-MiniLM-L6-v2",
-  "fetchedAt": "2026-07-14T05:07:35.236Z",
+  "fetchedAt": "2026-07-15T05:07:49.024Z",
   "data": {
     "_id": "621ffdc136468d709f180294",
     "id": "sentence-transformers/all-MiniLM-L6-v2",
@@ -56,8 +56,8 @@
       "deploy:azure",
       "region:us"
     ],
-    "downloads": 253402358,
-    "likes": 5065,
+    "downloads": 254155897,
+    "likes": 5067,
     "modelId": "sentence-transformers/all-MiniLM-L6-v2",
     "author": "sentence-transformers",
     "sha": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
@@ -226,7 +226,6 @@
     ],
     "spaces": [
       "mteb/leaderboard",
-      "MTEB-BR/leaderboard",
       "eduagarcia/multilingual-tokenizer-leaderboard",
       "hakari-bench/leaderboard",
       "Aqarion13/Quantarion-moneo-repository",
@@ -243,6 +242,7 @@
       "Vikrant-Honbute/schemesense-ai",
       "Zoiudp/Mystic_especulator_V6",
       "GiacomoDeLuca/orrery-demo",
+      "MTEB-BR/leaderboard",
       "cvachet/pdf-chatbot",
       "marcosv/InstructIR",
       "JournalistsonHF/ai-scraper",

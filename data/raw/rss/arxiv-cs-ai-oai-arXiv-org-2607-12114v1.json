@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.12114v1",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.12114v1",
+    "title": "GaitSpan: Growing Humanoid Locomotion from Walking to Running",
+    "link": "https://arxiv.org/abs/2607.12114",
+    "description": "arXiv:2607.12114v1 Announce Type: cross Abstract: A humanoid that can walk should not relearn locomotion from scratch to jog or run. Yet current approaches often obtain gait diversity by prescribing gait schedules, imitating motion clips, training experts to switch between or distilling skills into one policy. These strategies can produce impressive behaviors, but offer limited flexibility across continuous speed commands, terrains, and morphologies. We study skill growth with GaitSpan, a framework that expands a pretrained, basic walking policy into faster locomotion. It treats walking as a seed skill: reusable motor structure for balance, support, body coordination, and contact transition that can be regenerated at new rhythms, extended into longer/higher strides, and corrected by residual adaptation. This expansion has three aspects: 1) rhythm generation, which modulates the frozen walking policy with multiple internal clocks and learns command-conditioned combinations of the resulting canonical actions; 2) stride shaping, which rewards dynamic locomotion patterns appropriate for higher commanded speeds using a physically grounded objective inspired by spring-loaded inverted pendulum dynamics; and 3) residual adaptation, which captures motion details not accounted for by rhythm generation or stride shaping. GaitSpan is the first to deliver a single command-conditioned humanoid policy that spans walking, jogging, and running-like regimes covering a continuous speed range, transfers across morphologies, and deploys zero-shot on unseen sim-to-sim, and real-world terrains. Compared with baselines either trained with multi-experts or imitation from humans, it learns faster and achieves stronger gait performance.",
+    "publishedAt": "2026-07-15",
+    "author": "Kwan-Yee Lin, Zilin Wang, Janelle J. Liu, Stella X. Yu",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-12605v1",
+  "name": "Multi-Perspective Agentic Program Repair via Code Property Graphs and Temporal Execution Graphs",
+  "summary": "arXiv:2607.12605v1 Announce Type: cross Abstract: Large language models (LLMs) have improved automated program repair (APR), but two limitations remain. First, raw execution traces are often too la...",
+  "description": "arXiv:2607.12605v1 Announce Type: cross Abstract: Large language models (LLMs) have improved automated program repair (APR), but two limitations remain. First, raw execution traces are often too large and repetitive to serve as effective model context. Second, repeated patch sampling may produce different implementations without yielding distinct root-cause hypotheses or repair strategies. We p...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.12605"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.12605"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Zhili Huang, Ling Xu, Hongyu Zhang"
+}

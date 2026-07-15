@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11970v1",
+  "name": "Self-Evolving In-Context Learning for Direct Pilot-to-Beamformer Design in MU-MISO Systems",
+  "summary": "arXiv:2607.11970v1 Announce Type: cross Abstract: We develop an enhanced in-context learning (ICL) framework to improve the performance of pilot-based beamforming in multi-user multiple-input singl...",
+  "description": "arXiv:2607.11970v1 Announce Type: cross Abstract: We develop an enhanced in-context learning (ICL) framework to improve the performance of pilot-based beamforming in multi-user multiple-input single-output (MU-MISO) systems. The proposed scheme integrates the ICL-Transformer backbone with the pilot encoder-decoder network (EDN) and the beamformer EDN. A crucial feature of our ICL network is tha...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11970"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11970"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Yubo Zhang, Xiaodong Wang"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "mit-news-ai-https-news-mit-edu-2026-can-ai-build-jet-engine-jarvis-challenge-tests-ai-copilots-in-tough-tech-engineering-0714",
+  "name": "Can AI build a jet engine? JARVIS Challenge tests role of AI copilots in tough-tech engineering",
+  "summary": "MIT students designed, built, and tested a jet engine with AI copilots, assessing AI’s usefulness in developing high-performance aerospace systems.",
+  "description": "MIT students designed, built, and tested a jet engine with AI copilots, assessing AI’s usefulness in developing high-performance aerospace systems.",
+  "tags": [
+    "news",
+    "mit-news-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "MIT News",
+      "href": "https://news.mit.edu/2026/can-ai-build-jet-engine-jarvis-challenge-tests-ai-copilots-in-tough-tech-engineering-0714"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by MIT News.",
+      "href": "https://news.mit.edu/2026/can-ai-build-jet-engine-jarvis-challenge-tests-ai-copilots-in-tough-tech-engineering-0714"
+    }
+  ],
+  "source": "MIT News",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "Department of Aeronautics and Astronautics"
+}

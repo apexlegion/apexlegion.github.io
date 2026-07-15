@@ -1,0 +1,33 @@
+{
+  "type": "paper",
+  "slug": "2607-12962",
+  "name": "Form, Not Content? A Preregistered, Placebo-Controlled Evaluation of Learned Error-Conditioned Self-Repair Through Prompts and Weights in Frozen Small Code Models",
+  "summary": "Frozen small code LLMs are deployed locally, yet the information guiding a retry after a failed attempt is still measured without placebo controls in the self-repair literature. We treat a failed p...",
+  "description": "Frozen small code LLMs are deployed locally, yet the information guiding a retry after a failed attempt is still measured without placebo controls in the self-repair literature. We treat a failed program as a conjecture and an execution counterexample as an oracle-relative refutation, and introduce PoPE (Popperian Placebo-controlled Evaluation): a methodology for measuring whether evidence that falsifies LLM-generated code can be used operationally by that same model. In PoPE, error content is paired with channel-specific placebos that keep the predeclared scaffold while ablating task-relev...",
+  "tags": [
+    "arxiv",
+    "cs.SE"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.12962v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.SE.",
+      "href": "https://arxiv.org/abs/2607.12962v1"
+    }
+  ],
+  "authors": [
+    "Mehmet Iscan"
+  ],
+  "paperId": "2607.12962",
+  "category": "cs.SE",
+  "publishedAt": "2026-07-14",
+  "abstract": "Frozen small code LLMs are deployed locally, yet the information guiding a retry after a failed attempt is still measured without placebo controls in the self-repair literature. We treat a failed program as a conjecture and an execution counterexample as an oracle-relative refutation, and introduce PoPE (Popperian Placebo-controlled Evaluation): a methodology for measuring whether evidence that falsifies LLM-generated code can be used operationally by that same model. In PoPE, error content is paired with channel-specific placebos that keep the predeclared scaffold while ablating task-relev..."
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2507-15833v3",
+  "name": "Look, Focus, Act: Efficient and Robust Robot Learning via Human Gaze and Foveated Vision Transformers",
+  "summary": "arXiv:2507.15833v3 Announce Type: replace-cross Abstract: Human vision is a highly active process driven by gaze, which directs attention to task-relevant regions through foveation, dramatically re...",
+  "description": "arXiv:2507.15833v3 Announce Type: replace-cross Abstract: Human vision is a highly active process driven by gaze, which directs attention to task-relevant regions through foveation, dramatically reducing visual processing. In contrast, robot learning systems typically rely on passive, uniform processing of raw camera images. In this work, we explore how incorporating human-like active gaze into...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2507.15833"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2507.15833"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Ian Chuang, Jinyu Zou, Andrew Lee, Dechen Gao, Iman Soltani"
+}

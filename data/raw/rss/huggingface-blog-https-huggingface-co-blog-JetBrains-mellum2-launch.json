@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/JetBrains/mellum2-launch",
-  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "fetchedAt": "2026-07-15T05:07:50.389Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/JetBrains/mellum2-launch",
     "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",

@@ -1,0 +1,33 @@
+{
+  "type": "paper",
+  "slug": "2607-12826",
+  "name": "Solution of the Hempel's statistical ambiguity problem and Causal AI",
+  "summary": "This paper addresses Carl Hempel's longstanding problem of statistical ambiguity in inductive-statistical inference, in which contradictory predictions are derived from statistical laws. To avoid s...",
+  "description": "This paper addresses Carl Hempel's longstanding problem of statistical ambiguity in inductive-statistical inference, in which contradictory predictions are derived from statistical laws. To avoid such predictions, Carl Hempel proposed the Requirement of Maximal Specificity (RMS) for the statistical laws used in the inference. An analysis of the RMS refinements made by Wesley Salmon, Alberto Coffa, and James Fetzer led to the following definition of maximally specific statistical laws: \"the lawlike premises of an adequate explanation must specify all and only those properties whose presence...",
+  "tags": [
+    "arxiv",
+    "cs.AI"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.12826v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.AI.",
+      "href": "https://arxiv.org/abs/2607.12826v1"
+    }
+  ],
+  "authors": [
+    "Evgenii Vityaev"
+  ],
+  "paperId": "2607.12826",
+  "category": "cs.AI",
+  "publishedAt": "2026-07-14",
+  "abstract": "This paper addresses Carl Hempel's longstanding problem of statistical ambiguity in inductive-statistical inference, in which contradictory predictions are derived from statistical laws. To avoid such predictions, Carl Hempel proposed the Requirement of Maximal Specificity (RMS) for the statistical laws used in the inference. An analysis of the RMS refinements made by Wesley Salmon, Alberto Coffa, and James Fetzer led to the following definition of maximally specific statistical laws: \"the lawlike premises of an adequate explanation must specify all and only those properties whose presence..."
+}

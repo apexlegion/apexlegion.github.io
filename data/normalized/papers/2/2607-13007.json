@@ -1,0 +1,36 @@
+{
+  "type": "paper",
+  "slug": "2607-13007",
+  "name": "Dynamic Resource Allocation for Ensemble Determinization MCTS",
+  "summary": "Simulation-based algorithms are especially suited for high-uncertainty environments such as adversarial board games with significant elements of randomness and hidden information. In particular, se...",
+  "description": "Simulation-based algorithms are especially suited for high-uncertainty environments such as adversarial board games with significant elements of randomness and hidden information. In particular, several Monte Carlo Tree Search (MCTS) variants are commonly used in such domains. In this paper, we propose a series of enhancements for Ensemble Determinization MCTS, introducing two axes for dynamic resource allocation. First, Dynamic Number of Determinizations, increases or decreases the number of currently used determinization trees depending on the behavior of so-far search. Second, Dynamic Si...",
+  "tags": [
+    "arxiv",
+    "cs.AI"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.13007v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.AI.",
+      "href": "https://arxiv.org/abs/2607.13007v1"
+    }
+  ],
+  "authors": [
+    "Jakub Kowalski",
+    "Adam Ciężkowski",
+    "Artur Krzyżyński",
+    "Mark H. M. Winands"
+  ],
+  "paperId": "2607.13007",
+  "category": "cs.AI",
+  "publishedAt": "2026-07-14",
+  "abstract": "Simulation-based algorithms are especially suited for high-uncertainty environments such as adversarial board games with significant elements of randomness and hidden information. In particular, several Monte Carlo Tree Search (MCTS) variants are commonly used in such domains. In this paper, we propose a series of enhancements for Ensemble Determinization MCTS, introducing two axes for dynamic resource allocation. First, Dynamic Number of Determinizations, increases or decreases the number of currently used determinization trees depending on the behavior of so-far search. Second, Dynamic Si..."
+}

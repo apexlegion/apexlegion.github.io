@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.12826v1",
+  "fetchedAt": "2026-07-15T05:07:50.447Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.12826v1",
+    "title": "Solution of the Hempel's statistical ambiguity problem and Causal AI",
+    "link": "https://arxiv.org/abs/2607.12826",
+    "description": "arXiv:2607.12826v1 Announce Type: new Abstract: This paper addresses Carl Hempel's longstanding problem of statistical ambiguity in inductive-statistical inference, in which contradictory predictions are derived from statistical laws. To avoid such predictions, Carl Hempel proposed the Requirement of Maximal Specificity (RMS) for the statistical laws used in the inference. An analysis of the RMS refinements made by Wesley Salmon, Alberto Coffa, and James Fetzer led to the following definition of maximally specific statistical laws: \"the lawlike premises of an adequate explanation must specify all and only those properties whose presence or absence made a difference to the occurrence of its explanandum-phenomenon.\" However, there was no proof of a solution to the statistical ambiguity problem based on this definition. We use Nancy Cartwright's definition of causes that raise probabilities across background contexts, and then introduce the concept of Causal Rules. Then we define a special semantic probabilistic inference procedure that incrementally refines these causal rules by incorporating all statistically relevant information. This procedure yields Maximally Specific Causal Relationships (MSCRs), for which we prove (Theorem 1) that predictions derived from them are consistent. This resolves the statistical ambiguity problem. The semantic probabilistic inference procedure provides a probabilistic causal learning system, which may be used in such new areas as Causal AI and Causal Machine Learning. They fundamentally explore causal inference as a tool for understanding cause-and-effect relationships within complex systems. Properties similar to RMS remain under discussion. Several notions related to RMS are considered: invariant feature learning, invariant causal prediction, and spurious association.",
+    "publishedAt": "2026-07-15",
+    "author": "Evgenii Vityaev",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2603.05995v2",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2603.05995v2",
+    "title": "TADPO: Reinforcement Learning Goes Off-road",
+    "link": "https://arxiv.org/abs/2603.05995",
+    "description": "arXiv:2603.05995v2 Announce Type: replace-cross Abstract: Off-road autonomous driving poses significant challenges such as navigating unmapped, variable terrain with uncertain and diverse dynamics. Addressing these challenges requires effective long-horizon planning and adaptable control. Reinforcement Learning (RL) offers a promising solution by learning control policies directly from interaction. However, because off-road driving is a long-horizon task with low-signal rewards, standard RL methods are challenging to apply in this setting. We introduce TADPO, a novel policy gradient formulation that extends Proximal Policy Optimization (PPO), leveraging off-policy trajectories for teacher guidance and on-policy trajectories for student exploration. Building on this, we develop a vision-based, end-to-end RL system for high-speed off-road driving, capable of navigating extreme slopes and obstacle-rich terrain. We demonstrate our performance in simulation and, importantly, zero-shot sim-to-real transfer on a full-scale off-road vehicle. To our knowledge, this work represents the first deployment of RL-based policies on a full-scale off-road platform.",
+    "publishedAt": "2026-07-15",
+    "author": "Zhouchonghao Wu, Raymond Song, Vedant Mundheda, Luis E. Navarro-Serment, Christof Schoenborn, Jeff Schneider",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

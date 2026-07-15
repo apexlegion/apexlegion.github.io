@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2603.28583v2",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2603.28583v2",
+    "title": "Navigating the Mirage: A Dual-Path Agentic Framework for Robust Misleading Chart Question Answering",
+    "link": "https://arxiv.org/abs/2603.28583",
+    "description": "arXiv:2603.28583v2 Announce Type: replace-cross Abstract: Despite the success of Vision-Language Models (VLMs), misleading charts remain a significant challenge due to their deceptive visual structures and distorted data representations. We present ChartCynics, an agentic dual-path framework designed to unmask visual deception via a \"skeptical\" reasoning paradigm. Unlike holistic models, ChartCynics decouples perception from verification: a Diagnostic Vision Path captures structural anomalies (e.g., inverted axes) through strategic ROI cropping, while an OCR-Driven Data Path ensures numerical grounding. To resolve cross-modal conflicts, we introduce an Agentic Summarizer optimized via a two-stage protocol: Oracle-Informed SFT for reasoning distillation and Deception-Aware GRPO for adversarial alignment. This pipeline effectively penalizes visual traps and enforces logical consistency. Evaluations on two benchmarks show that ChartCynics achieves 74.43% and 64.55% accuracy, providing an absolute performance boost of ~29% over the Qwen3-VL-8B backbone, outperforming state-of-the-art proprietary models. Our results demonstrate that specialized agentic workflows can grant smaller open-source models superior robustness, establishing a new foundation for trustworthy chart interpretation.",
+    "publishedAt": "2026-07-15",
+    "author": "Yanjie Zhang, Yafei Li, Rui Sheng, Zixin Chen, Yanna Lin, Huamin Qu, Lei Chen, Yushi Sun",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

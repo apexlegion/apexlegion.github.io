@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-12584v1",
+  "name": "Explainable-by-Design Audio Deepfake Detection via Wiener-Hopf Linear Prediction",
+  "summary": "arXiv:2607.12584v1 Announce Type: cross Abstract: The rapid advancement of synthetic speech generation methods has made audio deepfake detection a critical challenge in multimedia forensics. While...",
+  "description": "arXiv:2607.12584v1 Announce Type: cross Abstract: The rapid advancement of synthetic speech generation methods has made audio deepfake detection a critical challenge in multimedia forensics. While recent approaches achieve high detection accuracy, they typically rely on black-box architectures that offer limited interpretability and high computational complexity. In this paper, we propose an ex...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.12584"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.12584"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Mattia Tamiazzo, Simone Milani, Massimo Iuliani, Marco Fontani"
+}

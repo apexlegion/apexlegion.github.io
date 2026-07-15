@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2505.22108v4",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2505.22108v4",
+    "title": "Inclusive Federated Learning Through Compliance-Weighted Noise Allocation in Healthcare AI",
+    "link": "https://arxiv.org/abs/2505.22108",
+    "description": "arXiv:2505.22108v4 Announce Type: replace-cross Abstract: Background: Federated learning (FL) enables collaborative training of clinical AI models without centralizing patient data, but adoption is limited by privacy concerns, heterogeneous institutional compliance, and resource disparities; standard differential privacy (DP) applies uniform noise to all clients, penalizing well-compliant or under-resourced institutions. Objective: We introduce a compliance-aware FL framework that adapts DP to institutional compliance, letting lower-compliance sites participate without uniformly penalizing others. Methods: A compliance scoring tool aligned with HIPAA, GDPR, NIST, ISO, and HL7/FHIR maps each client score to a per-step Gaussian noise scale for server-side DP-SGD on a small aggregator dataset. The formal $(\\epsilon,\\delta)$ bound applies to the aggregator dataset under a semi-honest aggregator; client-level DP needs secure aggregation (future work). We evaluate five FL strategies on PneumoniaMNIST and BreastMNIST (16 clients, 50 rounds, five seeds); the cumulative aggregator-dataset $\\epsilon$ is about 1434 (Breast) and 513 (Pneumonia) at $\\delta=10^{-5}$. Results: Including 12 lower-compliance clients (Experiment 1) versus a compliant-only baseline (Experiment 4) changed BreastMNIST accuracy by +4.5 (FedAvg), +6.8 (FedMedian), +5.2 (FedProx), +1.6 (FedYogi), and -4.1 (FedAdam) percentage points (pooled +2.8 pp; not significant at n=5; up to +17 pp per configuration); compliance-weighted allocation matched uniform server-side DP at equal mean noise (+0.1 pp), carrying no utility penalty, and first-round noise cost 1.3 pp (Breast) and 2.5 pp (Pneumonia, FedAvg). Conclusions: Compliance-weighted server-side DP lets lower-compliance institutions join FL without degrading performance, giving auditable per-site noise control at no utility cost; formal guarantees apply to the aggregator dataset, with client-level DP requiring secure aggregation.",
+    "publishedAt": "2026-07-15",
+    "author": "Santhosh Parampottupadam, Melih Co\\c{s}\\u{g}un, Sarthak Pati, Maximilian Zenk, Saikat Roy, Dimitrios Bounias, Benjamin Hamm, Sinem Sav, Ralf Floca, Klaus Maier-Hein",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

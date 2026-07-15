@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2605.05686v3",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2605.05686v3",
+    "title": "Attractor Geometry of Transformer Memory: From Conflict Arbitration to Confident Hallucination",
+    "link": "https://arxiv.org/abs/2605.05686",
+    "description": "arXiv:2605.05686v3 Announce Type: replace Abstract: Language models draw on two knowledge sources: facts baked into weights (parametric memory, PM) and information in context (working memory, WM). We study two mechanistically distinct failure modes--conflict, when PM and WM disagree and interfere; and hallucination, when the queried fact was never learned. Both produce confident output regardless, making output-based monitoring blind by design. We show both failures share a unified geometric account. In the hidden-state space of autoregressive generation, learned facts form attractor basins. Conflict is basin competition: WM disrupts convergence to the correct basin without raising output entropy. Hallucination is basin absence: the hidden state drifts freely when no memorized basin exists. The frozen LM head, designed for next-token prediction, cannot distinguish these cases and fires confidently either way. We verify this account in a controlled synthetic task-entity identifiers mapped to unique codes with PM installed via LoRA adapters--where ground truth is exact and component roles can be causally isolated through targeted adapter placement. Geometric margin--the hidden state's distance to the nearest memorized basin--reads this geometry directly and separates correct recall from hallucination far more cleanly than output entropy, with zero false refusals where entropy-based detection cannot avoid rejecting the vast majority of correct outputs. The separation holds on natural-language factual queries from the pretrained model with no adaptation, confirming attractor geometry is structural rather than a fine-tuning artifact. The fraction of confident hallucinations follows a scaling law $C = \\exp(-c/\\bar\\Delta)$, growing with scale even as overall error rates fall. Hidden states reliably encode epistemic state; the frozen output head systematically erases it--and this erasure worsens with scale.",
+    "publishedAt": "2026-07-15",
+    "author": "Qiyao Liang, Risto Miikkulainen, Ila Fiete",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

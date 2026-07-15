@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11327v2",
+  "name": "PRISM Edit: One Vector for All Temporal Answers",
+  "summary": "arXiv:2607.11327v2 Announce Type: replace-cross Abstract: Model editing keeps large language models (LLMs) up to date without retraining, but temporal facts expose a limitation of the prevailing lo...",
+  "description": "arXiv:2607.11327v2 Announce Type: replace-cross Abstract: Model editing keeps large language models (LLMs) up to date without retraining, but temporal facts expose a limitation of the prevailing locate-and-edit paradigm: an update is not always a replacement. When a fact changes, the new answer should become current while the old answer may remain correct in historical time contexts. Building o...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11327"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11327"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Chen Huang, Qi Zheng, Ruiqin Zheng, Long Zeng, Yuantong Xu"
+}

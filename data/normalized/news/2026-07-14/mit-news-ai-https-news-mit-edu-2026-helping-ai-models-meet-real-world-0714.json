@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "mit-news-ai-https-news-mit-edu-2026-helping-ai-models-meet-real-world-0714",
+  "name": "Helping AI models to meet the real world",
+  "summary": "Through research and entrepreneurship, Professor Devavrat Shah is helping to design methods that can handle constant decision-making using limited computational resources.",
+  "description": "Through research and entrepreneurship, Professor Devavrat Shah is helping to design methods that can handle constant decision-making using limited computational resources.",
+  "tags": [
+    "news",
+    "mit-news-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "MIT News",
+      "href": "https://news.mit.edu/2026/helping-ai-models-meet-real-world-0714"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by MIT News.",
+      "href": "https://news.mit.edu/2026/helping-ai-models-meet-real-world-0714"
+    }
+  ],
+  "source": "MIT News",
+  "publishedAt": "2026-07-14",
+  "expiryAt": "2026-08-13T00:00:00.000Z",
+  "author": "David Chandler | Laboratory for Information and Decision Systems"
+}

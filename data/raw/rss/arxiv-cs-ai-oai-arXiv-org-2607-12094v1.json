@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.12094v1",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.12094v1",
+    "title": "Sparse Autoencoders for Interpretable Out-of-Distribution Detection",
+    "link": "https://arxiv.org/abs/2607.12094",
+    "description": "arXiv:2607.12094v1 Announce Type: cross Abstract: Reliable detection of out-of-distribution (OOD) samples is crucial for the safe deployment of machine learning models. Neural networks often produce overconfident predictions for inputs that deviate from their training data, leading to significant degradation in performance. While many OOD detection methods focus on the final output layer, they neglect the rich hierarchical information present in intermediate network layers. This paper introduces a novel approach that leverages sparse autoencoders (SAEs) to learn interpretable features from these intermediate activations. We find that in-distribution (ID) and OOD data activate distinct sets of these sparse features. We propose a new OOD score derived from the cosine similarity between the sparse feature activations of a test sample and the mean activations of ID classes. Our post-hoc detection method not only achieves state-of-the-art performance on standard OOD detection benchmarks, but yields interpretable insights into how distribution shift affects learned representations.",
+    "publishedAt": "2026-07-15",
+    "author": "Ayush Karmacharya (Purdue University), Luke Luschwitz (Purdue University), Lucia Romero (Purdue University), Yanan Niu (EPFL), Joseph Campbell (Purdue University)",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

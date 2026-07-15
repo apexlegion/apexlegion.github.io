@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2606.20101v3",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2606.20101v3",
+    "title": "RFM-Editing 2: Text-Guided Audio Editing with Rectified Flow Matching and Coarse-to-Fine Diffusion Transformers",
+    "link": "https://arxiv.org/abs/2606.20101",
+    "description": "arXiv:2606.20101v3 Announce Type: replace-cross Abstract: Audio editing aims to modify specific content in an existing audio clip according to a text instruction or description while preserving the remaining acoustic content. Despite the remarkable progress of diffusion models, existing training-based editing methods mainly rely on the local inductive biases and cross-attention interaction in convolutional U-Net backbones, which often hinder long-range semantic alignment and precise understanding and localization of instructions. In contrast, diffusion transformers provide stronger global modeling and multimodal fusion, but existing editing architectures usually adopt a simple stack of diffusion transformer blocks. Applying joint attention over concatenated audio and text tokens in all blocks results in quadratic complexity with respect to token length. To balance editing performance and efficiency, we propose a novel instruction-guided audio editing framework based on rectified flow matching (RFM), named RFM-Editing 2, built on a hybrid two-stage diffusion transformer. The proposed model performs joint attention over audio and text tokens to establish coarse semantic alignment at the low-resolution stage, then switches to alternating joint-attention and cross-attention blocks to refine editing details at the high-resolution stage. This coarse-to-fine strategy enables efficient and accurate instruction-guided audio editing. Experiments show that the proposed framework achieves notable performance gains on challenging editing tasks involving overlapping audio events and complex instructions, while substantially improving editing efficiency.",
+    "publishedAt": "2026-07-15",
+    "author": "Liting Gao, Yonggang Zhu, Yaru Chen, Dongyu Wang, Shubin Zhang, Zhenbo Li, Jean-Yves Guillemaut, Wenwu Wang",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

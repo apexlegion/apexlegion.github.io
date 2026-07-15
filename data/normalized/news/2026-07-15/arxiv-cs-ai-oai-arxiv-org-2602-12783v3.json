@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2602-12783v3",
+  "name": "SQuTR: A Robustness Benchmark for Spoken Query to Text Retrieval under Acoustic Noise",
+  "summary": "arXiv:2602.12783v3 Announce Type: replace-cross Abstract: Spoken query retrieval is an important interaction mode in modern information retrieval. However, existing evaluation datasets are often li...",
+  "description": "arXiv:2602.12783v3 Announce Type: replace-cross Abstract: Spoken query retrieval is an important interaction mode in modern information retrieval. However, existing evaluation datasets are often limited to simple queries under constrained noise conditions, making them inadequate for assessing the robustness of spoken query retrieval systems under complex acoustic perturbations. To address this...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2602.12783"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2602.12783"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Yuejie Li, Ke Yang, Yueying Hua, Berlin Chen, Jianhao Nie, Yueping He, Caixin Kang"
+}

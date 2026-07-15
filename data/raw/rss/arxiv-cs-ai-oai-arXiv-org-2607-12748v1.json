@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.12748v1",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.12748v1",
+    "title": "Weakly Supervised Spatio-Temporal Candidate Discovery of Dairy Farm Sites from Seasonal Satellite Imagery",
+    "link": "https://arxiv.org/abs/2607.12748",
+    "description": "arXiv:2607.12748v1 Announce Type: cross Abstract: Farm site discovery from satellite imagery is a spatiotemporal candidate ranking problem because farm evidence is distributed across pasture, field boundaries, roads, buildings, and seasonal vegetation patterns. Direct farm labels are often incomplete, which makes fully supervised detection difficult. This paper proposes a weakly supervised pipeline for ranking dairy farm candidate clusters from seasonal Sentinel imagery and open map priors. The method uses aligned spring, summer, and autumn image tiles from County Cork, Ireland, with spectral bands, vegetation indices, built area indices, and a pasture channel. A Barlow Twins encoder learns multi-season tile embeddings without farm labels. In parallel, weak OpenStreetMap farm priors are split into a prior and a held-out set. Prior features support a rule-based tile score that combines farm proximity, seasonal pasture evidence, and summer greenness, while held-out features are reserved only for proxy evaluation. The rule score is smoothed over a spatial representation graph using geographic proximity and embedding similarity, and high-scoring tiles are grouped into ranked candidate clusters. From 26,722 valid tiles, the main run selects 535 high-confidence tiles and forms 71 candidate clusters. The top 5 clusters achieve 0.60 precision within 500 m and 0.80 precision within 1000 m of held-out OpenStreetMap farm features. The top 10 clusters achieve 0.40 precision within 500 m and 0.80 precision within 1000 m. The results show that seasonal representation learning and weak geographic priors can reduce large satellite image collections into compact candidate sets for human review.",
+    "publishedAt": "2026-07-15",
+    "author": "Usman Haider, Fatima Khalid, Karl Mason",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

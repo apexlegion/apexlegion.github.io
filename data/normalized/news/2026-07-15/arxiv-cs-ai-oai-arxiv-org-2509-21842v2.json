@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2509-21842v2",
+  "name": "DeepTravel: An End-to-End Agentic Reinforcement Learning Framework for Autonomous Travel Planning Agents",
+  "summary": "arXiv:2509.21842v2 Announce Type: replace Abstract: Travel planning (TP) agent has recently worked as an emerging building block to interact with external tools/resources for travel itinerary gener...",
+  "description": "arXiv:2509.21842v2 Announce Type: replace Abstract: Travel planning (TP) agent has recently worked as an emerging building block to interact with external tools/resources for travel itinerary generation, ensuring an enjoyable user experience. Despite its benefits, existing studies rely on hand-craft prompt and fixed agent workflow, hindering more flexible and autonomous TP agents. This paper pr...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2509.21842"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2509.21842"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Yansong Ning, Rui Liu, Jun Wang, Kai Chen, Wei Li, Jun Fang, Kan Zheng, Naiqiang Tan, Hao Liu"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11918v1",
+  "name": "AAAI-26 Dual Submissions: Novel Challenges",
+  "summary": "arXiv:2607.11918v1 Announce Type: cross Abstract: Dual submissions, in which identical or substantially similar papers are simultaneously submitted to one or more archival venues, without cross-cit...",
+  "description": "arXiv:2607.11918v1 Announce Type: cross Abstract: Dual submissions, in which identical or substantially similar papers are simultaneously submitted to one or more archival venues, without cross-citation or disclosure, are a growing problem for the AAAI Conference and other scientific publication venues. These submissions increase the burden on the peer-review system and pollute the scientific r...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11918"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11918"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Kiri L. Wagstaff, Joydeep Biswas, Erich Merrill III, Bo An, Ida Camacho, David J. Crandall, Matthew E. Taylor"
+}

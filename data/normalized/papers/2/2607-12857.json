@@ -1,0 +1,33 @@
+{
+  "type": "paper",
+  "slug": "2607-12857",
+  "name": "ChartGenEval: Corruption-Tested Multi-Dimensional Feedback for Rhythm-Game Chart Generation",
+  "summary": "A generated rhythm-game chart need not reproduce one official note sequence: many note choices can fit the same song and difficulty. Reference-note agreement therefore measures reconstruction, not...",
+  "description": "A generated rhythm-game chart need not reproduce one official note sequence: many note choices can fit the same song and difficulty. Reference-note agreement therefore measures reconstruction, not the full design problem. We introduce ChartGenEval, a six-question evaluation framework with an automatic, corruption-tested core. It leaves note choice open while anchoring timing to the song: the matched official chart supplies only its authored timing map, never target notes. We test each core output with dose-controlled failures rather than assume that a familiar statistic measures chart quali...",
+  "tags": [
+    "arxiv",
+    "cs.SD"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.12857v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-14",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.SD.",
+      "href": "https://arxiv.org/abs/2607.12857v1"
+    }
+  ],
+  "authors": [
+    "Jhen-Ke Lin"
+  ],
+  "paperId": "2607.12857",
+  "category": "cs.SD",
+  "publishedAt": "2026-07-14",
+  "abstract": "A generated rhythm-game chart need not reproduce one official note sequence: many note choices can fit the same song and difficulty. Reference-note agreement therefore measures reconstruction, not the full design problem. We introduce ChartGenEval, a six-question evaluation framework with an automatic, corruption-tested core. It leaves note choice open while anchoring timing to the song: the matched official chart supplies only its authored timing map, never target notes. We test each core output with dose-controlled failures rather than assume that a familiar statistic measures chart quali..."
+}

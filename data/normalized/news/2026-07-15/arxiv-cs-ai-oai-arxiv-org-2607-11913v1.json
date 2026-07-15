@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11913v1",
+  "name": "Towards Self-Evolving Agents: A Human-Inspired Adaptive Exploration-Exploitation Framework for Genetic Network Programming",
+  "summary": "arXiv:2607.11913v1 Announce Type: cross Abstract: Recent advancements in agentic AI have increasingly moved toward graph-based methods, driven by the demand for explainable, human-centered, and non...",
+  "description": "arXiv:2607.11913v1 Announce Type: cross Abstract: Recent advancements in agentic AI have increasingly moved toward graph-based methods, driven by the demand for explainable, human-centered, and non-linear reasoning workflows. A prominent example is Genetic Network Programming (GNP), a self-evolving algorithm that utilizes directed graphs to evolve interpretable decision structures for agents. A...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11913"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11913"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Ali Kohan, Mohamad Roshanzamir, Roohallah Alizadehsani, Seyedali Mirjalili"
+}

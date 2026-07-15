@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/ServiceNow-AI/sygra-data-gen-framework",
-  "fetchedAt": "2026-07-14T05:07:36.690Z",
+  "fetchedAt": "2026-07-15T05:07:50.389Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/ServiceNow-AI/sygra-data-gen-framework",
     "title": "SyGra: The One-Stop Framework for Building Data for LLMs and SLMs",

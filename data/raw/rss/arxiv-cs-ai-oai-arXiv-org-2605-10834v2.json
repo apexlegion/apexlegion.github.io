@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2605.10834v2",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2605.10834v2",
+    "title": "From Controlled to the Wild: Evaluation of Pentesting Agents for the Real-World",
+    "link": "https://arxiv.org/abs/2605.10834",
+    "description": "arXiv:2605.10834v2 Announce Type: replace Abstract: AI pentesting agents are increasingly credible as offensive security systems, but current benchmarks still provide limited guidance on which will perform best in real-world targets. Existing evaluation protocols assess and optimize for predefined goals such as capture-the-flag, remote code execution, exploit reproduction, or trajectory similarity, in simplified or narrow settings. These tools are valuable for measuring bounded capabilities, yet they do not adequately capture the complexity, open-ended exploration, and strategic decision-making required in realistic pentesting. In this paper, we present a practical evaluation protocol that shifts assessment from task completion to validated vulnerability discovery, allowing evaluation in sufficiently complex targets spanning multiple attack surfaces and vulnerability classes. The protocol combines structured ground-truth with LLM-based semantic matching to identify vulnerabilities, bipartite resolution to score findings under realistic ambiguity, continuous ground-truth maintenance, repeated and cumulative evaluation of stochastic agents, efficiency metrics, and reduced-suite selection for sustainable experimentation. This protocol extends the state of the art by enabling a more realistic, operationally informative comparison of AI pentesting agents. To enable reproducibility, we also release expert-annotated ground truth and code for the proposed evaluation protocol: https://github.com/ethiack/ethibench.",
+    "publishedAt": "2026-07-15",
+    "author": "Pedro Conde, Henrique Branquinho, Valerio Mazzone, Bruno Mendes, Andr\\'e Baptista, Nuno Moniz",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

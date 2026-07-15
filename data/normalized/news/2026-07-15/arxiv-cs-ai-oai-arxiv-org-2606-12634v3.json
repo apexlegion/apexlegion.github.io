@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2606-12634v3",
+  "name": "Keep Policy Gradient in Charge: Sibling-Guided Credit Distillation for Long-Horizon Tool-Use Agents",
+  "summary": "arXiv:2606.12634v3 Announce Type: replace-cross Abstract: Long-horizon tool-use reinforcement learning learns from outcome verification, but trajectory-level advantages are broadcast over reasoning...",
+  "description": "arXiv:2606.12634v3 Announce Type: replace-cross Abstract: Long-horizon tool-use reinforcement learning learns from outcome verification, but trajectory-level advantages are broadcast over reasoning, API, and answer tokens. Direct self-distillation can supply a denser signal, but in our experiments it can also destroy tool use by rehearsing teacher behavior without identifying which actions the...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2606.12634"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2606.12634"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Tianyu Ding, Jianhong Xin, Juan Pablo De la Cruz Weinstein"
+}

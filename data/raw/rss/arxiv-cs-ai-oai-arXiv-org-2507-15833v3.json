@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2507.15833v3",
+  "fetchedAt": "2026-07-15T05:07:50.448Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2507.15833v3",
+    "title": "Look, Focus, Act: Efficient and Robust Robot Learning via Human Gaze and Foveated Vision Transformers",
+    "link": "https://arxiv.org/abs/2507.15833",
+    "description": "arXiv:2507.15833v3 Announce Type: replace-cross Abstract: Human vision is a highly active process driven by gaze, which directs attention to task-relevant regions through foveation, dramatically reducing visual processing. In contrast, robot learning systems typically rely on passive, uniform processing of raw camera images. In this work, we explore how incorporating human-like active gaze into robotic policies can enhance efficiency and robustness. We develop GIAVA (Gaze Integrated Active-Vision ALOHA), a robot vision system that emulates human head and neck movement, and gaze adjustment for foveated processing. Extending the AV-ALOHA robot platform, we introduce a framework for simultaneously collecting eye-tracking, perspective control, and robot manipulation demonstration data from a human operator. We also open-source a simulation benchmark and dataset for training robot policies that incorporate human gaze. Inspired by recent work in foveated image segmentation and given the widespread use of Vision Transformers (ViTs) in robot learning, we integrate gaze information into ViTs using a foveated patch tokenization scheme. Compared to uniform patch tokenization, this significantly reduces the number of tokens, and thus computation. Our results show that our method for foveated robot vision drastically reduces computational overhead, and enhances robustness to background distractors. Notably, on certain high-precision tasks, foveated vision also improves performance, as reflected in higher success rates. Together, these findings suggest that human-inspired foveated visual processing offers untapped potential and should be further considered as a useful inductive bias in robotic vision systems. https://soltanilara.github.io/giava/",
+    "publishedAt": "2026-07-15",
+    "author": "Ian Chuang, Jinyu Zou, Andrew Lee, Dechen Gao, Iman Soltani",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

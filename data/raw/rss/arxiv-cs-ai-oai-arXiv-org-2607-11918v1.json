@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.11918v1",
+  "fetchedAt": "2026-07-15T05:07:50.447Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.11918v1",
+    "title": "AAAI-26 Dual Submissions: Novel Challenges",
+    "link": "https://arxiv.org/abs/2607.11918",
+    "description": "arXiv:2607.11918v1 Announce Type: cross Abstract: Dual submissions, in which identical or substantially similar papers are simultaneously submitted to one or more archival venues, without cross-citation or disclosure, are a growing problem for the AAAI Conference and other scientific publication venues. These submissions increase the burden on the peer-review system and pollute the scientific record. As part of the AAAI-26 review process, we (conference organizers) compared AAAI main-track submissions to nine other archival venues with overlapping review periods. We also searched for dual submissions within the AAAI-26 main track. We employed title+abstract similarity assessment to prioritize highly similar paper pairs for subsequent triage by an LLM-based overlap assessment tool, followed by manual review of the highest severity pairs. Manual review of such pairs led to the desk-rejection of 141 AAAI-26 main-track submissions. We seek to alert future organizers, and the broader artificial intelligence research community, to the enormous growth in dual submissions. The incidence of exact duplicate submissions, which are easy to detect, has been eclipsed by the number of papers that use different words to describe the same contribution, which are extremely time-consuming to detect. The growth in this phenomenon is likely facilitated by increasing access to generative AI tools. We include several recommendations for addressing this challenge, including (1) updating the AAAI Multiple Submission Policy and educating the community about acceptable practice, (2) having dual-submission checking tools in place before submissions close, (3) working across venues to converge on consistent policies and penalties to aid in reducing the incidence of dual submission, and (4) creating a community-driven adversarial challenge to accelerate the development of robust detection tools.",
+    "publishedAt": "2026-07-15",
+    "author": "Kiri L. Wagstaff, Joydeep Biswas, Erich Merrill III, Bo An, Ida Camacho, David J. Crandall, Matthew E. Taylor",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

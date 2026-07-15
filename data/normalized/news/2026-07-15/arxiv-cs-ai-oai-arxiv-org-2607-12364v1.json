@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-12364v1",
+  "name": "Lost in Visual Translation: A VLM-Assisted Perceptual-Semantic Coherence Framework for EEG-to-Image Reconstruction",
+  "summary": "arXiv:2607.12364v1 Announce Type: cross Abstract: EEG-to-image evaluation should distinguish visual fidelity from recoverable meaning. Yet EEG-derived reconstructions are blurry, distorted, and low...",
+  "description": "arXiv:2607.12364v1 Announce Type: cross Abstract: EEG-to-image evaluation should distinguish visual fidelity from recoverable meaning. Yet EEG-derived reconstructions are blurry, distorted, and low-detail, causing SSIM, LPIPS, and CLIP to penalize semantically recoverable outputs or reward plausible but incorrect ones. We analyze 6,855 ground-truth/reconstruction pairs from ATM, ENIGMA, BrainVi...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.12364"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.12364"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Sukriti Tiwari, BHVSP Subrahmanyam, Nidhi Goyal, Sai Amrit Patnaik"
+}

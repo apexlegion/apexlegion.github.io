@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/cinepile2",
-  "fetchedAt": "2026-07-14T05:07:36.693Z",
+  "fetchedAt": "2026-07-15T05:07:50.391Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/cinepile2",
     "title": "CinePile 2.0 - making stronger datasets with adversarial refinement",

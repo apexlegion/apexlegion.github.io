@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-12273v1",
+  "name": "Code-MUE: Measuring Code LLMs' Uncertainty through Execution-based Semantic Interaction Graphs",
+  "summary": "arXiv:2607.12273v1 Announce Type: cross Abstract: As Code Large Language Models (LLMs) become central to modern software engineering, their inherent stochasticity poses significant real-world risks...",
+  "description": "arXiv:2607.12273v1 Announce Type: cross Abstract: As Code Large Language Models (LLMs) become central to modern software engineering, their inherent stochasticity poses significant real-world risks, where even minor errors can lead to severe functional, security, or safety consequences. Reliable automation, therefore, demands the ability to distinguish between confident, well-supported predicti...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.12273"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.12273"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Xiaoning Ren, Yinxing Xue, Lei Ma, Yuheng Huang"
+}

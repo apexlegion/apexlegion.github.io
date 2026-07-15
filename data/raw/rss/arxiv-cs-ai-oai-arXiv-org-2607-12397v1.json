@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.12397v1",
+  "fetchedAt": "2026-07-15T05:07:50.447Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.12397v1",
+    "title": "Critic Experience Bank: Self-Evolving Step-Level Confidence Estimation for LLM Agents",
+    "link": "https://arxiv.org/abs/2607.12397",
+    "description": "arXiv:2607.12397v1 Announce Type: new Abstract: LLM agents act in external environments where each action changes the state that later decisions condition on, and where a single wrong step can waste interaction budget or trigger irreversible side effects long before the final failure is observed. Reliable deployment therefore requires \\emph{step-level confidence estimation}: a calibrated probability that each proposed action is productive, available \\emph{before} the action is executed. Existing LLM confidence estimators are designed to score a response from the given prompt, but agent confidence also depends on execution consequences: whether similar actions in similar situations actually advanced the task after the environment responded. We introduce the \\method (\\methodshort), a self-evolving critic framework in which an LLM critic accumulates evidence from its own past judgments and their observed consequences. After each trajectory, a hindsight LLM that sees the full execution feedback votes on whether each step was productive. The resulting pseudo-labels populate a memory bank from which related productive and unproductive experiences are retrieved into the critic's prompt whenever a similar step recurs. \\methodshort requires no training and uses no ground truth step labels. Across three agent benchmarks and three critic backbones, \\methodshort attains the best calibration (ECE and Brier) and ranking (AUC) in every dataset--critic combination, reducing ECE by up to $54\\%$ relative to the strongest training-free baseline.",
+    "publishedAt": "2026-07-15",
+    "author": "Yaopei Zeng, Congchao Wang, JianHang Chen, Nan Wang, Yurui Chang, Lu Lin",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

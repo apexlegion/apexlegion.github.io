@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/managing-ai-investments-in-agentic-era",
+  "fetchedAt": "2026-07-15T05:07:50.276Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/managing-ai-investments-in-agentic-era",
+    "title": "How to manage AI investments in the agentic era",
+    "link": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+    "description": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+    "publishedAt": "2026-07-14",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

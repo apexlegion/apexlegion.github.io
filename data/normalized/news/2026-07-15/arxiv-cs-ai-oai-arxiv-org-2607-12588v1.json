@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-12588v1",
+  "name": "Vertical Standardisation for High-Risk AI Systems under the EU AI Act: A Domain-Specific Framework for Algorithmic Hiring",
+  "summary": "arXiv:2607.12588v1 Announce Type: new Abstract: According to the recent European legislation, high-risk AI systems will have to adapt in order to comply with requirements related to specific areas,...",
+  "description": "arXiv:2607.12588v1 Announce Type: new Abstract: According to the recent European legislation, high-risk AI systems will have to adapt in order to comply with requirements related to specific areas, like risk management, data quality and governance, logging and traceability, technical documentation, transparency, human oversight, and accuracy, as outlined in the European Artificial Intelligence...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.12588"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.12588"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Anna Gatzioura, Vrettos Moulos, Nina Baranowska"
+}

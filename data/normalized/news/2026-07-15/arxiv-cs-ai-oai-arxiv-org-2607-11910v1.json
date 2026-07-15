@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-11910v1",
+  "name": "SeqGPT: A Constrained Transformer Agent for the Inverse Designof Multi-Panel Composite Structures",
+  "summary": "arXiv:2607.11910v1 Announce Type: cross Abstract: Optimizing composite stacking sequences to match continuous targets (e.g., Lamination or Buckling Parameters) with discrete manufacturing constrain...",
+  "description": "arXiv:2607.11910v1 Announce Type: cross Abstract: Optimizing composite stacking sequences to match continuous targets (e.g., Lamination or Buckling Parameters) with discrete manufacturing constraints represents a challenging combinatorial inverse problem that regularly occurs in composite design especially when numerical optimization approaches are used (bi-step, bi-level configurations). In mu...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.11910"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.11910"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z",
+  "author": "Driss Chraibi (Toulouse INP), Alejandro Garc\\'ia Pis (IRIT), St\\'ephane Grihon (IRIT), Sixin Zhang (IRIT)"
+}
