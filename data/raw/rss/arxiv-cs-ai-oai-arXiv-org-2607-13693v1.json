@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.13693v1",
+  "fetchedAt": "2026-07-16T05:17:56.085Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.13693v1",
+    "title": "Social Simulations: from Agent-Based Modeling to Digital Twins",
+    "link": "https://arxiv.org/abs/2607.13693",
+    "description": "arXiv:2607.13693v1 Announce Type: cross Abstract: This book chapter covers the evolution of social simulation from classical agent-based models, in which agents interact according to explicitly defined behavioral rules, to AI-enhanced simulations based on Large Language Models and, ultimately, Social Digital Twins: high-fidelity, data-driven representations of real-world socio-technical systems. Along this trajectory, we discuss the main methodological foundations, applications, advantages, and limitations of each paradigm, highlighting the progressive shift from abstract models designed to investigate general social mechanisms toward increasingly realistic computational representations of specific social systems.",
+    "publishedAt": "2026-07-16",
+    "author": "Erica Cau, Andrea Failla, Valentina Pansanella, Giulio Rossetti",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

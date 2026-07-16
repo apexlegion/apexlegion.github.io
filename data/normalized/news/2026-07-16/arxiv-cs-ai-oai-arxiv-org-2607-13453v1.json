@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-13453v1",
+  "name": "Adversarial Prompting Framework for AI Safety Assessment",
+  "summary": "arXiv:2607.13453v1 Announce Type: cross Abstract: Artificial Intelligence (AI), especially Generative AI (GenAI), adoption has increased in industries significantly in recent years. However, the us...",
+  "description": "arXiv:2607.13453v1 Announce Type: cross Abstract: Artificial Intelligence (AI), especially Generative AI (GenAI), adoption has increased in industries significantly in recent years. However, the use of these models may also expose systems to new forms of cyberattacks by different malicious actors -- adversarial prompt attack (APA) being one of the most prominent examples of such threats. This p...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.13453"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.13453"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-16",
+  "expiryAt": "2026-08-15T00:00:00.000Z",
+  "author": "Yash Bhatnagar, Kunal Banerjee, Anirban Chatterjee"
+}

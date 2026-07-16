@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.13402v1",
+  "fetchedAt": "2026-07-16T05:17:56.085Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.13402v1",
+    "title": "Price of Fairness in Bandits: A Tight Minimax Characterization",
+    "link": "https://arxiv.org/abs/2607.13402",
+    "description": "arXiv:2607.13402v1 Announce Type: cross Abstract: In bandit problems, standard regret-minimizing algorithms treat exploration as an amortized cost, which can expose early participants to unfair ex-ante losses in settings such as clinical trials. Recent work addresses this by evaluating the sequence of per-round expected rewards through the generalized $p$-mean, interpolating between utilitarian welfare ($p=1$), Nash welfare ($p\\to0$), and Rawlsian fairness ($p\\to-\\infty$). Although tight guarantees are known for $p\\ge0$, the strictly fair regime $q=-p&gt;0$ remains unresolved because negative-power means are dominated by the smallest per-round rewards. For $\\sigma$-sub-Gaussian rewards with nonnegative means, the best prior algorithm relied on uniform early exploration and achieved regret $O(k^{(q+1)/2}/\\sqrt{T})$, while the only general lower bound was the classical $\\Omega(\\sigma\\sqrt{k/T})$. Thus it was unclear whether the extra dependence on $k$ was intrinsic to strict fairness or an artifact of uniform exploration. We close this gap by identifying the exact polynomial price of strict fairness. Using a needle-in-haystack construction, we prove an algorithm-independent lower bound $\\Omega(\\sigma\\sqrt{k^{\\max(1,q)}/T})$; for $q&gt;1$, this shows that the penalty $k^{q/2}$ is information-theoretically unavoidable. We then introduce \\textsf{UCB-HARE} (Harmonic Anchored Rank Exploration), which replaces uniform exploration with an inverse-weighted harmonic rank schedule protected by a certified positive-mean anchor. Its regret is $\\widetilde{O}(\\sigma\\sqrt{k^{\\max(1,q)}/T})$, matching the lower bound up to logarithmic factors. Experiments on synthetic instances confirm that \\textsf{UCB-HARE} improves over uniform-exploration baselines, with gains increasing as $q$ grows.",
+    "publishedAt": "2026-07-16",
+    "author": "Dhruv Sarkar, Soumyadeep Dutta, Sayak Ray Chowdhury",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

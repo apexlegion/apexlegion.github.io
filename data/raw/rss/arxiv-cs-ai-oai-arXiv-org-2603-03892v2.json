@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2603.03892v2",
+  "fetchedAt": "2026-07-16T05:17:56.085Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2603.03892v2",
+    "title": "A novel network for classification of cuneiform tablet metadata",
+    "link": "https://arxiv.org/abs/2603.03892",
+    "description": "arXiv:2603.03892v2 Announce Type: replace-cross Abstract: In this paper, we present a network structure for classifying metadata of cuneiform tablets. The problem is of practical importance, as the size of the existing corpus far exceeds the number of experts available to analyze it. But the task is made difficult by the combination of limited annotated datasets and the high-resolution point-cloud representation of each tablet. To address this, we develop a convolution-inspired architecture that gradually down-scales the point cloud while integrating local neighbor information. The final down-scaled point cloud is then processed by computing neighbors in the feature space to include global information. Our method is compared with the state-of-the-art transformer-based network Point-BERT, and consistently obtains the best performance. Source code and data available at github.com/fhagelskjaer/cuneiform3d",
+    "publishedAt": "2026-07-16",
+    "author": "Frederik Hagelskj{\\ae}r",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

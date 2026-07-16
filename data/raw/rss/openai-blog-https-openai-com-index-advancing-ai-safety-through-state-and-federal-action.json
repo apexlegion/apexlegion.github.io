@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+  "fetchedAt": "2026-07-16T05:17:55.930Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+    "title": "The US is advancing AI safety through state and federal action",
+    "link": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+    "description": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+    "publishedAt": "2026-07-15",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

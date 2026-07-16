@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/3-questions-neural-transparency-and-future-of-ai-design-0715",
+  "fetchedAt": "2026-07-16T05:17:55.230Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/3-questions-neural-transparency-and-future-of-ai-design-0715",
+    "title": "3 Questions: Neural transparency and the future of AI design",
+    "link": "https://news.mit.edu/2026/3-questions-neural-transparency-and-future-of-ai-design-0715",
+    "description": "Assistant Professor Pat Pataranutaporn describes a new interface that lets everyday users glimpse inside an AI's neural network before their chatbot ever says a word.",
+    "publishedAt": "2026-07-15",
+    "author": "Media Lab",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

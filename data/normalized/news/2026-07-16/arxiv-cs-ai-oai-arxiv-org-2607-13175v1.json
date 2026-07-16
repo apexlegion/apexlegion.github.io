@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-13175v1",
+  "name": "SteinGate: Tail-Sensitive Safe Reinforcement Learning via Stein Discrepancy",
+  "summary": "arXiv:2607.13175v1 Announce Type: cross Abstract: Safe reinforcement learning typically enforces safety by bounding expected cumulative costs, a criterion that often fails to detect rare but catast...",
+  "description": "arXiv:2607.13175v1 Announce Type: cross Abstract: Safe reinforcement learning typically enforces safety by bounding expected cumulative costs, a criterion that often fails to detect rare but catastrophic tail events. To overcome these limitations, this paper introduces SteinGate, a boundary-aware distributional safety certificate that replaces fragile tail fitting with a robust consistency chec...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.13175"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.13175"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-16",
+  "expiryAt": "2026-08-15T00:00:00.000Z",
+  "author": "Yassine Chemingui, Chenhua Fan, Honghao Wei, Janardhan Rao Doppa"
+}

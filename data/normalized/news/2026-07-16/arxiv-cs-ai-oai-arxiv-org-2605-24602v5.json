@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2605-24602v5",
+  "name": "Correcting Visual Blur Induced by Attention Distraction to Reduce Hallucinations: Algorithm and Theory",
+  "summary": "arXiv:2605.24602v5 Announce Type: replace-cross Abstract: Multimodal large language models (MLLMs) frequently suffer from object hallucinations, yet the visual perceptual mechanism underlying this...",
+  "description": "arXiv:2605.24602v5 Announce Type: replace-cross Abstract: Multimodal large language models (MLLMs) frequently suffer from object hallucinations, yet the visual perceptual mechanism underlying this failure remains poorly understood. In this work, we reveal that hallucinations are strongly associated with a human-like attention distraction phenomenon, where humans under divided focus experience d...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2605.24602"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2605.24602"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-16",
+  "expiryAt": "2026-08-15T00:00:00.000Z",
+  "author": "Quanjiang Li, Zhiming Liu, Wei Luo, Tingjin Luo, Chenping Hou"
+}

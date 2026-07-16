@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2603-11811v2",
+  "name": "RADAR: Closed-Loop Robotic Data Generation via Semantic Planning and Autonomous Causal Environment Reset",
+  "summary": "arXiv:2603.11811v2 Announce Type: replace-cross Abstract: The acquisition of large-scale physical interaction data, a critical prerequisite for modern robot learning, is severely bottlenecked by th...",
+  "description": "arXiv:2603.11811v2 Announce Type: replace-cross Abstract: The acquisition of large-scale physical interaction data, a critical prerequisite for modern robot learning, is severely bottlenecked by the prohibitive cost and scalability limits of human-in-the-loop collection paradigms. To break this barrier, we introduce Robust Autonomous Data Acquisition for Robotics (RADAR), a fully autonomous, cl...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2603.11811"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2603.11811"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-16",
+  "expiryAt": "2026-08-15T00:00:00.000Z",
+  "author": "Yongzhong Wang, Keyu Zhu, Yong Zhong, Liqiong Wang, Jinyu Yang, Feng Zheng"
+}

@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/huggingface-and-ibm",
-  "fetchedAt": "2026-07-15T05:07:50.392Z",
+  "fetchedAt": "2026-07-16T05:17:56.030Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/huggingface-and-ibm",
     "title": "Hugging Face and IBM partner on watsonx.ai, the next-generation enterprise studio for AI builders",

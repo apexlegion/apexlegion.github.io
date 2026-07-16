@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2510-14317v2",
+  "name": "Column Generation with Domain-Independent Dynamic Programming",
+  "summary": "arXiv:2510.14317v2 Announce Type: replace-cross Abstract: Column generation and branch-and-price (B&amp;P) are leading mathematical optimization methods for large-scale exact optimization, iteratin...",
+  "description": "arXiv:2510.14317v2 Announce Type: replace-cross Abstract: Column generation and branch-and-price (B&amp;P) are leading mathematical optimization methods for large-scale exact optimization, iterating between solving a master problem and a pricing problem. Due to the difficulty of discrete optimization, high-performance column generation often relies on a custom pricing algorithm built specifical...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2510.14317"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2510.14317"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-16",
+  "expiryAt": "2026-08-15T00:00:00.000Z",
+  "author": "Ryo Kuroiwa, Edward Lam"
+}

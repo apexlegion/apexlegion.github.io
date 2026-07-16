@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/intel-gaudi-backend-for-tgi",
-  "fetchedAt": "2026-07-15T05:07:50.389Z",
+  "fetchedAt": "2026-07-16T05:17:56.030Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/intel-gaudi-backend-for-tgi",
     "title": "🚀 Accelerating LLM Inference with TGI on Intel Gaudi",

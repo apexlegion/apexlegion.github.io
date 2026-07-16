@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-13881v1",
+  "name": "Unleashing Multimodal Large Language Models for Training-free HOI Detection in the Wild",
+  "summary": "arXiv:2607.13881v1 Announce Type: cross Abstract: Human-object interaction detection (HOID) has traditionally been formulated as a supervised detection problem over predefined interaction categorie...",
+  "description": "arXiv:2607.13881v1 Announce Type: cross Abstract: Human-object interaction detection (HOID) has traditionally been formulated as a supervised detection problem over predefined interaction categories. While such paradigms achieve strong performance on closed-set benchmarks, they fundamentally entangle interaction understanding with dataset-specific supervision, limiting their ability to generali...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.13881"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.13881"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-16",
+  "expiryAt": "2026-08-15T00:00:00.000Z",
+  "author": "Ting Lei, Jialin Liu, Zhu Xu, Yuxin Peng, Yang Liu"
+}

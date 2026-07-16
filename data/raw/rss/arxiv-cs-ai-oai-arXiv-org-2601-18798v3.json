@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2601.18798v3",
+  "fetchedAt": "2026-07-16T05:17:56.085Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2601.18798v3",
+    "title": "ELF: A Family of Encoder-Free ECG-Language Models",
+    "link": "https://arxiv.org/abs/2601.18798",
+    "description": "arXiv:2601.18798v3 Announce Type: replace-cross Abstract: ECG-Language Models (ELMs) extend recent advances in Multimodal Large Language Models (MLLMs) to automated ECG interpretation. However, most existing ELMs inherit Vision-Language Model (VLM) design choices and rely on pretrained ECG encoders, introducing substantial architectural and training complexity. Inspired by encoder-free VLMs, we introduce ELF, a family of three encoder-free ELMs that remain competitive with, and often outperform, prior state-of-the-art ELMs across two datasets despite substantially simpler architectures and training pipelines. All code and data are available at github.com/ELM-Research/ECG-Language-Models.",
+    "publishedAt": "2026-07-16",
+    "author": "William Han, Tony Chen, Chaojing Duan, Xiaoyu Song, Yihang Yao, Yuzhe Yang, Michael A. Rosenberg, Emerson Liu, Ding Zhao",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

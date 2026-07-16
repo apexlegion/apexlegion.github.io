@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.13587v1",
+  "fetchedAt": "2026-07-16T05:17:56.085Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.13587v1",
+    "title": "From Prediction to Collaboration: Interactive Symbolic Music Analysis",
+    "link": "https://arxiv.org/abs/2607.13587",
+    "description": "arXiv:2607.13587v1 Announce Type: cross Abstract: Automatic symbolic music analysis has made substantial progress, yet existing systems are typically designed for a single mode of use, such as full-score prediction, and therefore do not match the broader range of operations that arise in analysis workflows, including partial completion, local correction, and iterative refinement. As a result, there remains a gap between strong benchmark models and systems that can support interactive analytical use. We present a unified framework for symbolic Roman-numeral (RN) analysis that narrows this gap by combining strong predictive performance with direct support for constrained completion and revision. The method is designed to provide a practical trade-off between accuracy and interactive responsiveness by computing expensive pretrained representations once and reusing them during iterative refinement, making powerful pretrained models more amenable to interactive settings. It supports complete score analysis, targeted revision of existing labels, and inference of missing annotations from partial context through a shared modeling framework. Experiments on Dilemmadata, the largest and most heterogeneous benchmark of its kind, show that the proposed approach is a strong RN-analysis baseline while also supporting masked completion from partial labels. Together with a prototype interface for multi-level candidate inspection and editing, these results position automatic RN analysis not only as a prediction problem, but also as a foundation for future interactive tools for music analysis.",
+    "publishedAt": "2026-07-16",
+    "author": "Emmanouil Karystinaios, Johannes Hentschel, Markus Neuwirth, Gerhard Widmer",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

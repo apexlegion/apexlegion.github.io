@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2605.03268v2",
+  "fetchedAt": "2026-07-16T05:17:56.085Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2605.03268v2",
+    "title": "Partially Observed Structural Causal Models",
+    "link": "https://arxiv.org/abs/2605.03268",
+    "description": "arXiv:2605.03268v2 Announce Type: replace-cross Abstract: Here we introduce Partially Observed Structural Causal Models (POSCMs) as an extension of structural causal models (SCMs) to settings where upstream contexts co-determine both the interaction structure and downstream mechanisms on observed variables. POSCMs thus provide a self-contained causal modeling framework for endogenous graphs, allowing for an intervention hierarchy spanning node- and edge-level contexts and endogenous variable interventions. To define edge interventions, we separate node mechanisms into edge-local transmission channels that can be modified without changing the source node or the rest of the target mechanism. We provide an identifiability theory that clarifies which intervention families would suffice to disentangle structure formation from mechanisms. We then empirically validate these theoretical results in two external simulators: a biophysically detailed virtual human retina and a gene-regulatory analogue. The experiments reproduce non-identifiability under latent context, expose structure-mechanism confounding under latent edges, and recover pathway-level input-output relationships under targeted interventions, consistent with our positive Markov kernel identifiability results. Together, POSCMs provide an intervention-oriented framework for causal systems in which contexts, graph structure, mechanisms, and measurements are jointly generated and only partially observed.",
+    "publishedAt": "2026-07-16",
+    "author": "Turan Orujlu, Jordan Matelsky, Martin V. Butz, Charley M. Wu, Konrad P. Kording",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

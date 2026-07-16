@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-13241v1",
+  "name": "EMAGN: Efficient Multi-Attention Graph Network via Learned Clustering for Scalable Traffic Forecasting",
+  "summary": "arXiv:2607.13241v1 Announce Type: cross Abstract: Traffic forecasting is highly challenging due to complex and nonlinear spatial and temporal dependencies. Self-attention mechanisms have been widel...",
+  "description": "arXiv:2607.13241v1 Announce Type: cross Abstract: Traffic forecasting is highly challenging due to complex and nonlinear spatial and temporal dependencies. Self-attention mechanisms have been widely adopted to model dynamic and long-range dependencies, achieving state-of-the-art performance, but suffer from limited scalability due to quadratic computational and memory complexity. To address thi...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.13241"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.13241"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-16",
+  "expiryAt": "2026-08-15T00:00:00.000Z",
+  "author": "Mingxing Xu, Rakesh Chowdary Machineni, Ke Liu, Xi Cheng, Chengqi Lu, Xin Hu, Lyuhao Chen, Xiangyu Li, Junwei You, Oliver Gao"
+}

@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2605.15026v2",
+  "fetchedAt": "2026-07-16T05:17:56.085Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2605.15026v2",
+    "title": "TuxBot: Semantic-Aware Online OS Tuning with Large Language Models",
+    "link": "https://arxiv.org/abs/2605.15026",
+    "description": "arXiv:2605.15026v2 Announce Type: replace-cross Abstract: Online OS tuning can improve long-running services, but existing controllers are poorly matched to live hosts. They treat scheduler, power, memory, and I/O controls as black-box variables and optimize a scalar reward. This view ignores cross-knob policy structure, breaks down when application metrics are unavailable, and can send a running service into degraded regions that persist after the bad setting is removed. We present TuxBot, a host-side framework for steady-state OS tuning with bounded language-model guidance. TuxBot turns knob schemas, telemetry, current configuration, recent action--response history, and retrieved prior runs into a compact decision context. A fast loop proposes low-latency updates, a slower loop periodically revises the search strategy, and every proposed change passes through typed validation before reaching kernel or sysctl interfaces. This lets the controller reason about OS-control meaning and indirect performance signals while keeping model cost, latency, and authority constrained. We evaluate TuxBot on 13 live workloads from five benchmark suites while tuning up to 41 Linux parameters. Across the suite, TuxBot improves stable-phase performance by 72.5% over default settings and by 153.3% relative to the strongest non-LLM baseline. A 30-window session costs about $0.20 in model calls. With only host-level metrics, TuxBot still outperforms baselines given direct application objectives by 93.7 percentage points, while avoiding severe degraded regions reached by structure-blind exploration.",
+    "publishedAt": "2026-07-16",
+    "author": "Georgios Liargkovas, Mihir Nitin Joshi, Hubertus Franke, Kostis Kaffes",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

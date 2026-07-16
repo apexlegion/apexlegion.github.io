@@ -1,14 +1,14 @@
 {
   "source": "rss",
   "sourceId": "google-ai-blog:https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
-  "fetchedAt": "2026-07-15T05:07:49.896Z",
+  "fetchedAt": "2026-07-16T05:17:55.519Z",
   "data": {
     "guid": "google-ai-blog:https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
     "title": "100 things we announced at I/O 2026",
     "link": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
     "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/100_things_Social.max-600x600.format-webp.webp\"&gt;We've been busy! Here’s a rundown of the top announcements, launches and demos at I/O 2026.",
     "publishedAt": "2026-05-20",
-    "author": "<name>Keyword Team</name><title/><department/><company/>",
+    "author": "<name>News from Google Team</name><title/><department/><company/>",
     "feedId": "google-ai-blog",
     "source": "Google AI Blog"
   },

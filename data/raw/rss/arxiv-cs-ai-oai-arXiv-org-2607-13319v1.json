@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.13319v1",
+  "fetchedAt": "2026-07-16T05:17:56.085Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.13319v1",
+    "title": "Adapting Generalist Vehicle Models for High-Speed MPC Across Terrains",
+    "link": "https://arxiv.org/abs/2607.13319",
+    "description": "arXiv:2607.13319v1 Announce Type: cross Abstract: High-speed off-road autonomy requires precise closed-loop control for a target vehicle while remaining robust across changing terrains. Recent forward kinodynamic (FKD) prediction foundation models suggest a promising path, starting from a generalist model and specializing it to the target platform. However, effective specialization remains challenging, as it often requires substantial real-world data, and models adapted to one setting can still overfit to specific terrains or driving regimes. We present OptCar (Optimized Car), a recipe for bridging the gap from generalist to specialist FKD models that preserves cross-terrain generalization while optimizing performance for a specific vehicle. $\\texttt{OptCar}$ introduces a history-conditioned dynamics adaptation module that encodes recent state-action observations into a dynamics context token, and then fine-tunes the generalist model using limited real-world data together with targeted synthetic rollouts from environment-specific system identification. In closed-loop model predictive control (MPC) experiments across three terrains and an out-of-distribution cart-pulling task, the largest gains appear at 6~m/s, the highest speed evaluated and the regime in which slip dominates tracking error. On vegetation and dirt, the most slip-diverse terrain, OptCar reduces 6~m/s trajectory tracking error by roughly 55% relative to a fine-tuned AnyCar baseline, and remains the most accurate even when an unseen cart payload changes the dynamics. With only 5 minutes of real data per terrain, OptCar is competitive on road with a specialist trained on 30 minutes of road data, and substantially outperforms it once the terrain changes.",
+    "publishedAt": "2026-07-16",
+    "author": "Rwik Rana, Jesse Quattrociocchi, Christian Ellis, Nathan Tsoi, Garrett Warnell, Joydeep Biswas",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

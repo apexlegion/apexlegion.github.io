@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "google-ai-blog:https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-  "fetchedAt": "2026-07-15T05:07:49.896Z",
+  "fetchedAt": "2026-07-16T05:17:55.519Z",
   "data": {
     "guid": "google-ai-blog:https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
     "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",

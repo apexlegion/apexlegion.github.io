@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-13111v1",
+  "name": "SemaDiff: Identifying Semantic-Changing Commits with Generated Code and Tests",
+  "summary": "arXiv:2607.13111v1 Announce Type: cross Abstract: Distinguishing semantic-preserving commits from changing ones remains an open challenge in software repository mining. While existing approaches de...",
+  "description": "arXiv:2607.13111v1 Announce Type: cross Abstract: Distinguishing semantic-preserving commits from changing ones remains an open challenge in software repository mining. While existing approaches detect refactoring commits accurately, they cannot ensure that a commit is purely semantic-preserving, without any interleaving behaviour-changing modification. This limitation can impact several tasks,...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.13111"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.13111"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-16",
+  "expiryAt": "2026-08-15T00:00:00.000Z",
+  "author": "Maha Ayub, Michael Konstantinou, Ahmed Khanfir, Nikolaos Tsantalis, Mike Papadakis"
+}

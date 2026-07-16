@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.13573v1",
+  "fetchedAt": "2026-07-16T05:17:56.085Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.13573v1",
+    "title": "IMMNet: Hybrid Fusion of Model-based and Data-driven Approaches for Maneuvering Target Tracking",
+    "link": "https://arxiv.org/abs/2607.13573",
+    "description": "arXiv:2607.13573v1 Announce Type: cross Abstract: Maneuvering target tracking in three-dimensional space remains a challenging problem due to complex motion dynamics and model mismatch. To address this, this paper proposes a hybrid model/data-driven algorithm named IMMNet, which integrates the interpretable structure of the interacting multiple model (IMM) algorithm with learnable neural components. Unlike end-to-end black-box methods, the proposed IMMNet algorithm not only can preserve the Bayesian inference mechanism that is essential for real-time radar applications, but also can adaptively learn motion patterns and noise characteristics from data. Extensive experiments demonstrate that the proposed IMMNet algorithm consistently outperforms the existing algorithms across various scenarios, validating it as a robust, interpretable, and practical solution for maneuvering target tracking.",
+    "publishedAt": "2026-07-16",
+    "author": "Yixuan Zhao, Chaoqun Yang, Lin Gao, Yongxiao Tian, Ting Yuan",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

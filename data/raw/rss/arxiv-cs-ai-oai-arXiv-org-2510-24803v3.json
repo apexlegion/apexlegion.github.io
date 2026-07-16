@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2510.24803v3",
+  "fetchedAt": "2026-07-16T05:17:56.085Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2510.24803v3",
+    "title": "MASPRM: Multi-Agent System Process Reward Model",
+    "link": "https://arxiv.org/abs/2510.24803",
+    "description": "arXiv:2510.24803v3 Announce Type: replace-cross Abstract: Inference-time search over multi-agent systems (MAS) wastes compute when it cannot identify which agent's intermediate message advanced progress. We present the Multi-Agent System Process Reward Model (MASPRM), which scores routed transcripts (ordered sequences of messages between agents) and acts as an inference controller for step-level beam search (SBS) and Monte Carlo Tree Search (MCTS). MASPRM is trained from multi-agent MCTS rollouts labeled only with terminal outcome rewards, without human step-level annotations. We evaluate on GSM8K, MATH, MMLU, and LogiQA. Under matched scorer size and comparable MCTS budget, MASPRM exceeds a size-matched ORM by $+2.0$ to $+3.0$ points at 1.5B and $+4.1$ to $+14.5$ at 7B across all four benchmarks, with additional scorer-scaling gains over policy likelihood at 7B (avg $+13.4$ under MCTS). MASPRM also improves ranking quality, reducing Hit@1 to Hit@5 gaps by up to $10.3$ points, with the largest gains under stepwise search that uses intermediate decisions. Code: https://github.com/milad1378yz/MASPRM",
+    "publishedAt": "2026-07-16",
+    "author": "Milad Yazdani, Mahdi Mostajabdaveh, Zirui Zhou, Ying Xiong",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

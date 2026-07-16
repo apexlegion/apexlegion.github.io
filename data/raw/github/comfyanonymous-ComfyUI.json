@@ -1,7 +1,7 @@
 {
   "source": "github",
   "sourceId": "comfyanonymous/ComfyUI",
-  "fetchedAt": "2026-07-15T05:07:47.947Z",
+  "fetchedAt": "2026-07-16T05:17:53.430Z",
   "data": {
     "id": 589831718,
     "node_id": "R_kgDOIygeJg",
@@ -70,16 +70,16 @@
     "releases_url": "https://api.github.com/repos/Comfy-Org/ComfyUI/releases{/id}",
     "deployments_url": "https://api.github.com/repos/Comfy-Org/ComfyUI/deployments",
     "created_at": "2023-01-17T03:15:56Z",
-    "updated_at": "2026-07-15T05:06:28Z",
-    "pushed_at": "2026-07-15T03:51:54Z",
+    "updated_at": "2026-07-16T05:04:20Z",
+    "pushed_at": "2026-07-16T04:34:30Z",
     "git_url": "git://github.com/Comfy-Org/ComfyUI.git",
     "ssh_url": "git@github.com:Comfy-Org/ComfyUI.git",
     "clone_url": "https://github.com/Comfy-Org/ComfyUI.git",
     "svn_url": "https://github.com/Comfy-Org/ComfyUI",
     "homepage": "https://www.comfy.org/",
-    "size": 92016,
-    "stargazers_count": 120763,
-    "watchers_count": 120763,
+    "size": 92126,
+    "stargazers_count": 120902,
+    "watchers_count": 120902,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -87,11 +87,11 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 14195,
+    "forks_count": 14210,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 4274,
+    "open_issues_count": 4279,
     "license": {
       "key": "gpl-3.0",
       "name": "GNU General Public License v3.0",
@@ -113,9 +113,9 @@
       "stable-diffusion"
     ],
     "visibility": "public",
-    "forks": 14195,
-    "open_issues": 4274,
-    "watchers": 120763,
+    "forks": 14210,
+    "open_issues": 4279,
+    "watchers": 120902,
     "default_branch": "master",
     "permissions": {
       "admin": false,
@@ -147,7 +147,7 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "network_count": 14195,
-    "subscribers_count": 751
+    "network_count": 14210,
+    "subscribers_count": 750
   }
 }

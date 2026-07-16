@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2605.16366v2",
+  "fetchedAt": "2026-07-16T05:17:56.085Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2605.16366v2",
+    "title": "Fre-Res: Frequency-Residual Video Token Compression for Efficient Video MLLMs",
+    "link": "https://arxiv.org/abs/2605.16366",
+    "description": "arXiv:2605.16366v2 Announce Type: replace-cross Abstract: Video MLLMs face a persistent tension between spatial fidelity and temporal coverage: preserving fine-grained visual details requires many spatial tokens, while capturing short-lived events requires dense temporal sampling. We propose \\textbf{Fre-Res}, a budget-adaptive dual-track video-token compression framework that separates these two forms of evidence. Fre-Res preserves sparse high-fidelity spatial anchors and represents dense temporal evolution through compact residual-frequency tokens. Specifically, it applies temporal 1D-DCT to inter-frame residual trajectories in vision-latent space, where we observe strong low-frequency concentration. To align frequency-domain dynamics with native visual embeddings, Fre-Res introduces a Spatial-Guided Absorber that injects temporal residual information into spatially corresponding anchor tokens. Across fine-grained short-video and long-video reasoning benchmarks, Fre-Res achieves a favorable accuracy--efficiency trade-off, matching or approaching full-token performance while substantially reducing visual-token length. Extensive ablations further show that temporal-frequency residuals preserve causal transition cues, while spatial anchors remain essential for fine-grained object and layout reasoning.",
+    "publishedAt": "2026-07-16",
+    "author": "Yigui Feng (The College of Computer Science, National University of Defense Technology, Changsha, Hunan, China), Qinglin Wang (The College of Computer Science, National University of Defense Technology, Changsha, Hunan, China), Yang Liu (The Shien-Ming Wu School of Intelligent Engineering, South China University of Technology, Guangzhou, Guangdong, China), Jie Liu (The College of Computer Science, National University of Defense Technology, Changsha, Hunan, China)",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

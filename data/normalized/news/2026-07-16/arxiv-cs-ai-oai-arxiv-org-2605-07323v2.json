@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2605-07323v2",
+  "name": "Discovering Ordinary Differential Equations with LLM-Based Qualitative and Quantitative Evaluation",
+  "summary": "arXiv:2605.07323v2 Announce Type: replace Abstract: Discovering governing differential equations from observational data is a fundamental challenge in scientific machine learning. Existing symbolic...",
+  "description": "arXiv:2605.07323v2 Announce Type: replace Abstract: Discovering governing differential equations from observational data is a fundamental challenge in scientific machine learning. Existing symbolic regression approaches rely primarily on quantitative metrics; however, real-world differential equation modeling also requires incorporating domain knowledge to ensure physical plausibility. To addre...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2605.07323"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2605.07323"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-16",
+  "expiryAt": "2026-08-15T00:00:00.000Z",
+  "author": "Sum Kyun Song, Bong Gyun Shin, Jae Yong Lee"
+}

@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/dynamic_speculation_lookahead",
-  "fetchedAt": "2026-07-15T05:07:50.391Z",
+  "fetchedAt": "2026-07-16T05:17:56.030Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/dynamic_speculation_lookahead",
     "title": "Faster Assisted Generation with Dynamic Speculation",

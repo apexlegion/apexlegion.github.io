@@ -1,0 +1,34 @@
+{
+  "type": "paper",
+  "slug": "2607-13839",
+  "name": "AI-Augmented Human Resource Management? Insights from German companies",
+  "summary": "This study examines the integration of AI into Human Resource Management in German companies. We ask if and how AI-based technologies are \\enquote{augmenting} human resource management. Organisatio...",
+  "description": "This study examines the integration of AI into Human Resource Management in German companies. We ask if and how AI-based technologies are \\enquote{augmenting} human resource management. Organisations employ generative AI or predictive analytics to transform traditional human resource functions, to streamline routine tasks and to reallocate resources toward strategic, people-centred activities. Our findings from interviews and group discussions and a survey (N=410) reveal that while AI tools enhance HR analytics capabilities, their adoption mainly serves efficiency and rationalising goals. T...",
+  "tags": [
+    "arxiv",
+    "cs.CY"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.13839v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.CY.",
+      "href": "https://arxiv.org/abs/2607.13839v1"
+    }
+  ],
+  "authors": [
+    "Yannick Kalff",
+    "Katharina Simbeck"
+  ],
+  "paperId": "2607.13839",
+  "category": "cs.CY",
+  "publishedAt": "2026-07-15",
+  "abstract": "This study examines the integration of AI into Human Resource Management in German companies. We ask if and how AI-based technologies are \\enquote{augmenting} human resource management. Organisations employ generative AI or predictive analytics to transform traditional human resource functions, to streamline routine tasks and to reallocate resources toward strategic, people-centred activities. Our findings from interviews and group discussions and a survey (N=410) reveal that while AI tools enhance HR analytics capabilities, their adoption mainly serves efficiency and rationalising goals. T..."
+}

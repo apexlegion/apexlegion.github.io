@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "mit-news-ai-https-news-mit-edu-2026-turning-2d-designs-into-3d-models-for-rapid-prototyping-0716",
+  "name": "A better way to turn 2D designs into 3D models for rapid prototyping",
+  "summary": "Researchers developed an automated framework that helps AI models generate CAD programs more accurately and efficiently.",
+  "description": "Researchers developed an automated framework that helps AI models generate CAD programs more accurately and efficiently.",
+  "tags": [
+    "news",
+    "mit-news-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "MIT News",
+      "href": "https://news.mit.edu/2026/turning-2d-designs-into-3d-models-for-rapid-prototyping-0716"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by MIT News.",
+      "href": "https://news.mit.edu/2026/turning-2d-designs-into-3d-models-for-rapid-prototyping-0716"
+    }
+  ],
+  "source": "MIT News",
+  "publishedAt": "2026-07-16",
+  "expiryAt": "2026-08-15T00:00:00.000Z",
+  "author": "Adam Zewe | MIT News"
+}

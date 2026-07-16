@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-13452v1",
+  "name": "Symbiosis-Inspired Knowledge Distillation for Incremental Object Detection",
+  "summary": "arXiv:2607.13452v1 Announce Type: cross Abstract: Incremental object detection (IOD) aims to extend detectors to new categories while retaining previously acquired knowledge. Existing methods often...",
+  "description": "arXiv:2607.13452v1 Announce Type: cross Abstract: Incremental object detection (IOD) aims to extend detectors to new categories while retaining previously acquired knowledge. Existing methods often adopt a class incremental learning perspective, separating feature spaces to sharpen decision boundaries. However, this separation-oriented paradigm may overlook object symbiosis in detection, where...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.13452"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.13452"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-16",
+  "expiryAt": "2026-08-15T00:00:00.000Z",
+  "author": "Mingyue Zeng, De Cheng, Zhipeng Xu, Huaijie Wang, Nannan Wang, Xinbo Gao"
+}

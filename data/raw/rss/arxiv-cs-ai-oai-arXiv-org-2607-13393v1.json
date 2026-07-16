@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.13393v1",
+  "fetchedAt": "2026-07-16T05:17:56.085Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.13393v1",
+    "title": "The Caf\\'e in Amsterdam: When the Incumbent Becomes the Oracle",
+    "link": "https://arxiv.org/abs/2607.13393",
+    "description": "arXiv:2607.13393v1 Announce Type: cross Abstract: A field can reformulate its computations freely exactly where its demand is stated independently of any incumbent implementation, and finds itself unable to when the incumbent's own output has quietly become the specification. This note offers that observation as a lens on computational reformulation for modern accelerators, where posing a problem in a hardware-friendly form can yield large speed and energy gains, but only if a replacement can be judged at all. Building on the test-oracle problem (Weyuker; Barr et al.), on requirements engineering's notion of implementation bias (Zave and Jackson), and on the roofline performance model, it names the pathology \"baseline capture\" -- the moment an incumbent stops being evidence that a demand can be met and becomes the definition of meeting it -- and separates two questions that are easily confused: whether a reformulation can be judged (which turns on the existence of an incumbent-independent demand) and whether its discovery can be automated (which turns additionally on the cost of evaluating that demand). Short cases -- shortest-path routing, learnable audio frontends, ZIP-215 for Ed25519 signature validation, CESM-ECT for climate models, and a single-GEMM audio frontend -- illustrate the pattern and the move of \"buying a verifier\": making a demand explicit, operational, and independent of the incumbent. No component is claimed novel in isolation; the contribution is the synthesis and the single question it makes easy to ask of any reformulation result -- does its acceptance test mention the incumbent's output?",
+    "publishedAt": "2026-07-16",
+    "author": "Augusto Camargo",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

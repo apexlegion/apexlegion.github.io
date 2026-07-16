@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-00927v3",
+  "name": "Post-Training Pruning for Diffusion Transformers",
+  "summary": "arXiv:2607.00927v3 Announce Type: replace-cross Abstract: Diffusion Transformers (DiTs) have demonstrated impressive performance in image generation but suffer from substantial computational overhe...",
+  "description": "arXiv:2607.00927v3 Announce Type: replace-cross Abstract: Diffusion Transformers (DiTs) have demonstrated impressive performance in image generation but suffer from substantial computational overhead and resource consumption. Post-training pruning offers a promising solution; however, due to DiTs' unique architectural design and parameter distribution, traditional pruning methods are inapplicab...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.00927"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.00927"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-16",
+  "expiryAt": "2026-08-15T00:00:00.000Z",
+  "author": "Chengzhi Hu, Xuewen Liu, Jing Zhang, Mengjuan Chen, Zhikai Li, Qingyi Gu"
+}

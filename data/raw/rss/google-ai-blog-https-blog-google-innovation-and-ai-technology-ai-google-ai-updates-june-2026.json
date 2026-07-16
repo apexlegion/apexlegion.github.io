@@ -1,14 +1,14 @@
 {
   "source": "rss",
   "sourceId": "google-ai-blog:https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
-  "fetchedAt": "2026-07-15T05:07:49.896Z",
+  "fetchedAt": "2026-07-16T05:17:55.519Z",
   "data": {
     "guid": "google-ai-blog:https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
     "title": "The latest AI news we announced in June 2026",
     "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
     "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp\"&gt;Here are Google’s latest AI updates from June 2026.",
     "publishedAt": "2026-07-01",
-    "author": "<name>Keyword Team</name><title/><department/><company/>",
+    "author": "<name>News from Google Team</name><title/><department/><company/>",
     "feedId": "google-ai-blog",
     "source": "Google AI Blog"
   },

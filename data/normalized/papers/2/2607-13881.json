@@ -1,0 +1,37 @@
+{
+  "type": "paper",
+  "slug": "2607-13881",
+  "name": "Unleashing Multimodal Large Language Models for Training-free HOI Detection in the Wild",
+  "summary": "Human-object interaction detection (HOID) has traditionally been formulated as a supervised detection problem over predefined interaction categories. While such paradigms achieve strong performance...",
+  "description": "Human-object interaction detection (HOID) has traditionally been formulated as a supervised detection problem over predefined interaction categories. While such paradigms achieve strong performance on closed-set benchmarks, they fundamentally entangle interaction understanding with dataset-specific supervision, limiting their ability to generalize to open-world and compositional scenarios. Recent HOI detectors attempt to leverage MLLMs through prompting strategies to transfer interaction-specific knowledge. However, such prompt-based approaches primarily focus on extracting discriminative r...",
+  "tags": [
+    "arxiv",
+    "cs.CV"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.13881v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.CV.",
+      "href": "https://arxiv.org/abs/2607.13881v1"
+    }
+  ],
+  "authors": [
+    "Ting Lei",
+    "Jialin Liu",
+    "Zhu Xu",
+    "Yuxin Peng",
+    "Yang Liu"
+  ],
+  "paperId": "2607.13881",
+  "category": "cs.CV",
+  "publishedAt": "2026-07-15",
+  "abstract": "Human-object interaction detection (HOID) has traditionally been formulated as a supervised detection problem over predefined interaction categories. While such paradigms achieve strong performance on closed-set benchmarks, they fundamentally entangle interaction understanding with dataset-specific supervision, limiting their ability to generalize to open-world and compositional scenarios. Recent HOI detectors attempt to leverage MLLMs through prompting strategies to transfer interaction-specific knowledge. However, such prompt-based approaches primarily focus on extracting discriminative r..."
+}

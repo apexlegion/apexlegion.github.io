@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "huggingface-blog-https-huggingface-co-blog-ibm-research-model-routing-is-simple-until-it-isnt",
+  "name": "Model Routing Is Simple. Until It Isn’t.",
+  "summary": "Model Routing Is Simple. Until It Isn’t.",
+  "description": "Model Routing Is Simple. Until It Isn’t.",
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Hugging Face Blog",
+      "href": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Hugging Face Blog.",
+      "href": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt"
+    }
+  ],
+  "source": "Hugging Face Blog",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z"
+}

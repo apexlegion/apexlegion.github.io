@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2507-19593v3",
+  "name": "A Survey on Hypergame Theory: Modelling Misaligned Perceptions and Nested Beliefs for Multi-Agent Systems",
+  "summary": "arXiv:2507.19593v3 Announce Type: replace Abstract: Classical game-theoretic models typically assume rational agents, complete information, and common knowledge of payoffs - assumptions that are of...",
+  "description": "arXiv:2507.19593v3 Announce Type: replace Abstract: Classical game-theoretic models typically assume rational agents, complete information, and common knowledge of payoffs - assumptions that are often violated in real-world MAS characterized by uncertainty, misaligned perceptions, and nested beliefs. To overcome these limitations, researchers have proposed extensions that incorporate models of...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2507.19593"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2507.19593"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-16",
+  "expiryAt": "2026-08-15T00:00:00.000Z",
+  "author": "Vince Trencsenyi, Agnieszka Mensfelt, Kostas Stathis"
+}

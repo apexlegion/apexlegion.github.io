@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-13094v1",
+  "name": "Analyzing Curricular Pattern Complexity Using AI to Improve On-Time Graduation Rates",
+  "summary": "arXiv:2607.13094v1 Announce Type: cross Abstract: The rise of Artificial Intelligence (AI) enables automatic analysis of large amounts of data. Previously time-consuming and labor-intensive tasks c...",
+  "description": "arXiv:2607.13094v1 Announce Type: cross Abstract: The rise of Artificial Intelligence (AI) enables automatic analysis of large amounts of data. Previously time-consuming and labor-intensive tasks can be completed much more efficiently with the use of AI. This work uses AI techniques to analyze and revise curricular patterns in an undergraduate degree for Software Engineering. Curricula often ha...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.13094"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.13094"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-16",
+  "expiryAt": "2026-08-15T00:00:00.000Z",
+  "author": "Lynn Vonderhaar, Juan Couder, Siri Siqveland, Omar Ochoa, James Pembridge"
+}

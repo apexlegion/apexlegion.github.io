@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/1b-sentence-embeddings",
-  "fetchedAt": "2026-07-15T05:07:50.392Z",
+  "fetchedAt": "2026-07-16T05:17:56.031Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/1b-sentence-embeddings",
     "title": "Train a Sentence Embedding Model with 1B Training Pairs",

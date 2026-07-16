@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.13839v1",
+  "fetchedAt": "2026-07-16T05:17:56.085Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.13839v1",
+    "title": "AI-Augmented Human Resource Management? Insights from German companies",
+    "link": "https://arxiv.org/abs/2607.13839",
+    "description": "arXiv:2607.13839v1 Announce Type: cross Abstract: This study examines the integration of AI into Human Resource Management in German companies. We ask if and how AI-based technologies are \\enquote{augmenting} human resource management. Organisations employ generative AI or predictive analytics to transform traditional human resource functions, to streamline routine tasks and to reallocate resources toward strategic, people-centred activities. Our findings from interviews and group discussions and a survey (N=410) reveal that while AI tools enhance HR analytics capabilities, their adoption mainly serves efficiency and rationalising goals. The introduction of AI tools is shaped by organisational transformation factors such as digital infrastructure, co-determination frameworks, and ethical implications. The research highlights both the strategic potential for improved talent development and the challenges posed by data governance and algorithmic transparency. Overall, this work contributes to understanding the ambiguous role of technological change in HR, which promises to augment predictive capabilities yet serves the ends of efficiency and rationalisation.",
+    "publishedAt": "2026-07-16",
+    "author": "Yannick Kalff, Katharina Simbeck",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

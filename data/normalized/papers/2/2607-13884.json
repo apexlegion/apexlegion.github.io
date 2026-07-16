@@ -1,0 +1,37 @@
+{
+  "type": "paper",
+  "slug": "2607-13884",
+  "name": "Experience Memory Graph: One-Shot Error Correction for Agents",
+  "summary": "Large Language Model (LLM) agents have shown remarkable capabilities in autonomous decision-making by generating sequential trajectories of states, actions, and observations. However, in complex, l...",
+  "description": "Large Language Model (LLM) agents have shown remarkable capabilities in autonomous decision-making by generating sequential trajectories of states, actions, and observations. However, in complex, long-horizon tasks, these agents frequently suffer from compounding errors and struggle to recover from failures. Existing self-correction mechanisms rely on prompt-based reflection, which is inherently brittle, incurs heavy time and API costs due to iterative trial-and-error loops, and produces task-specific memory that may be hard to generalize to new scenarios. To address this, we propose Experi...",
+  "tags": [
+    "arxiv",
+    "cs.AI"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.13884v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.AI.",
+      "href": "https://arxiv.org/abs/2607.13884v1"
+    }
+  ],
+  "authors": [
+    "Wenjun Wang",
+    "Yuchen Fang",
+    "Fengrui Liu",
+    "Zibo Liang",
+    "Kai Zheng"
+  ],
+  "paperId": "2607.13884",
+  "category": "cs.AI",
+  "publishedAt": "2026-07-15",
+  "abstract": "Large Language Model (LLM) agents have shown remarkable capabilities in autonomous decision-making by generating sequential trajectories of states, actions, and observations. However, in complex, long-horizon tasks, these agents frequently suffer from compounding errors and struggle to recover from failures. Existing self-correction mechanisms rely on prompt-based reflection, which is inherently brittle, incurs heavy time and API costs due to iterative trial-and-error loops, and produces task-specific memory that may be hard to generalize to new scenarios. To address this, we propose Experi..."
+}

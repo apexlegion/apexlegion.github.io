@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/fine-tune-w2v2-bert",
-  "fetchedAt": "2026-07-15T05:07:50.392Z",
+  "fetchedAt": "2026-07-16T05:17:56.030Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/fine-tune-w2v2-bert",
     "title": "Fine-Tune W2V2-Bert for low-resource ASR with 🤗 Transformers",

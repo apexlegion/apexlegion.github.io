@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/MiniMax-AI/aligning-to-what",
-  "fetchedAt": "2026-07-15T05:07:50.389Z",
+  "fetchedAt": "2026-07-16T05:17:56.030Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/MiniMax-AI/aligning-to-what",
     "title": "Aligning to What? Rethinking Agent Generalization in MiniMax M2",

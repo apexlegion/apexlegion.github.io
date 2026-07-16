@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/claude-and-mcp",
-  "fetchedAt": "2026-07-15T05:07:50.389Z",
+  "fetchedAt": "2026-07-16T05:17:56.030Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/claude-and-mcp",
     "title": "Generate Images with Claude and Hugging Face",

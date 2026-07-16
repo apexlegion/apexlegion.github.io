@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2510-10002v3",
+  "name": "Interaction Protocol Shapes Moral Judgment in Multi-Agent Debate",
+  "summary": "arXiv:2510.10002v3 Announce Type: replace Abstract: As large language models (LLMs) are increasingly deployed in sensitive everyday contexts -- offering personal advice, mental health support, and...",
+  "description": "arXiv:2510.10002v3 Announce Type: replace Abstract: As large language models (LLMs) are increasingly deployed in sensitive everyday contexts -- offering personal advice, mental health support, and moral guidance -- understanding their behavior in navigating complex moral reasoning is essential. Most evaluations study this sociotechnical alignment through single-turn prompts, but it is unclear i...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2510.10002"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2510.10002"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-16",
+  "expiryAt": "2026-08-15T00:00:00.000Z",
+  "author": "Pratik S. Sachdeva, Tom van Nuenen"
+}

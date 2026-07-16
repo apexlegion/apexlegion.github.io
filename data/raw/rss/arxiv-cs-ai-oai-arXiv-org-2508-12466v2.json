@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2508.12466v2",
+  "fetchedAt": "2026-07-16T05:17:56.085Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2508.12466v2",
+    "title": "Inverse-LLaVA: Rethinking Multimodal Alignment via Text-to-Vision Mapping",
+    "link": "https://arxiv.org/abs/2508.12466",
+    "description": "arXiv:2508.12466v2 Announce Type: replace-cross Abstract: Traditional multimodal learning approaches rely on alignment pre-training to bridge vision and language modalities, typically by projecting visual features into discrete text token spaces using large-scale image--text data. We revisit this design choice and propose Inverse-LLaVA, a multimodal architecture that inverts the conventional mapping direction by projecting text embeddings into continuous visual representation space and performing fusion within intermediate transformer layers. This representation-first design enables effective multimodal reasoning without relying on an explicit alignment pretraining stage and significantly reduces dependence on large alignment datasets. Across nine multimodal benchmarks, Inverse-LLaVA demonstrates strong learning efficiency under reduced supervision, achieving substantial gains on reasoning-intensive tasks while exhibiting selective performance drops on perception tasks that depend on explicit visual--text grounding. Our analysis indicates that these trade-offs primarily reflect differences in supervision regime rather than architectural limitations. Together, these results show that alignment pretraining is not strictly required for effective multimodal reasoning and highlight the importance of preserving continuous modality representations, opening a new direction for multimodal architecture design that decouples representation structure from supervision regime for more flexible and efficient multimodal systems.",
+    "publishedAt": "2026-07-16",
+    "author": "Xuhui Zhan, Tyler Derr",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

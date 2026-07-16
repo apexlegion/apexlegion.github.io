@@ -1,7 +1,7 @@
 {
   "source": "huggingface",
   "sourceId": "meta-llama/Meta-Llama-3-8B",
-  "fetchedAt": "2026-07-15T05:07:48.061Z",
+  "fetchedAt": "2026-07-16T05:17:53.531Z",
   "data": {
     "_id": "661f97d48e7f3438386f755d",
     "id": "meta-llama/Meta-Llama-3-8B",
@@ -24,8 +24,8 @@
       "endpoints_compatible",
       "region:us"
     ],
-    "downloads": 1356124,
-    "likes": 6598,
+    "downloads": 1355362,
+    "likes": 6600,
     "modelId": "meta-llama/Meta-Llama-3-8B",
     "author": "meta-llama",
     "sha": "8cde5ca8380496c9a6cc7ef3a8b46a0372a1d920",
@@ -143,6 +143,7 @@
       }
     ],
     "spaces": [
+      "hugging-apps/ardy",
       "logikon/open_cot_leaderboard",
       "eduagarcia/multilingual-tokenizer-leaderboard",
       "featherless-ai/try-this-model",
@@ -192,8 +193,8 @@
       "yuvaranianandhan24/chat_with_pdf",
       "suplinux/meta-llama-Meta-Llama-3-8B",
       "John6687890/meta-llama-Meta-Llama-3-8B",
-      "Helder84/meta-llama-Meta-Llama-3-8B",
       "saneowl/meta-llama-Meta-Llama-3-8B",
+      "Helder84/meta-llama-Meta-Llama-3-8B",
       "davdadev/ai",
       "dioarafl/Translate",
       "ExploitationLizard/Meta_LLama_charlie",
@@ -230,19 +231,18 @@
       "nisum04/nepbpe-api",
       "tws-pappu/Llama3_PK_DemoAPP",
       "Lician/meta-llama-Meta-Llama-3-8B",
+      "amancseai/meta-llama-Meta-Llama-3-8B",
       "WillianCGomes4Sys/meta-llama-Meta-Llama-3-8B",
       "philip10/meta-llama-Meta-Llama-3-8B",
-      "amancseai/meta-llama-Meta-Llama-3-8B",
       "zeez/meta-llama-Meta-Llama-3-8B",
       "goaiguru/meta-llama-Meta-Llama-3-8B",
       "afrenkai/meta-llama-Meta-Llama-3-8B",
       "andrewchristen/meta-llama-Meta-Llama-3-8B",
-      "nabu098/meta-llama-Meta-Llama-3-8B",
       "rudyTzhan/meta-llama-Meta-Llama-3-8B",
+      "nabu098/meta-llama-Meta-Llama-3-8B",
       "VaderKai/meta-llama-Meta-Llama-3-8B",
       "yuping322/meta-llama-Meta-Llama-3-8B",
-      "mfernandes3/meta-llama-Meta-Llama-3-8B",
-      "Tianyi289/meta-llama-Meta-Llama-3-8B"
+      "mfernandes3/meta-llama-Meta-Llama-3-8B"
     ],
     "createdAt": "2024-04-17T09:35:16.000Z",
     "safetensors": {

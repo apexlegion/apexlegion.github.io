@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2409-17340v2",
+  "name": "Koopman-driven grip force prediction through EMG sensing",
+  "summary": "arXiv:2409.17340v2 Announce Type: replace-cross Abstract: Loss of hand function due to conditions like stroke or multiple sclerosis significantly impacts daily activities. Robotic rehabilitation pr...",
+  "description": "arXiv:2409.17340v2 Announce Type: replace-cross Abstract: Loss of hand function due to conditions like stroke or multiple sclerosis significantly impacts daily activities. Robotic rehabilitation provides tools to restore hand function, while novel methods based on surface electromyography (sEMG) enable the adaptation of the device's force output according to the user's condition, thereby improv...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2409.17340"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2409.17340"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-16",
+  "expiryAt": "2026-08-15T00:00:00.000Z",
+  "author": "Tomislav Bazina, Ervin Kamenar, Maria Fonoberova, Igor Mezi\\'c"
+}

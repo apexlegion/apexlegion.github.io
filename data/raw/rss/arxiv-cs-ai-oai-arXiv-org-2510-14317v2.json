@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2510.14317v2",
+  "fetchedAt": "2026-07-16T05:17:56.085Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2510.14317v2",
+    "title": "Column Generation with Domain-Independent Dynamic Programming",
+    "link": "https://arxiv.org/abs/2510.14317",
+    "description": "arXiv:2510.14317v2 Announce Type: replace-cross Abstract: Column generation and branch-and-price (B&amp;P) are leading mathematical optimization methods for large-scale exact optimization, iterating between solving a master problem and a pricing problem. Due to the difficulty of discrete optimization, high-performance column generation often relies on a custom pricing algorithm built specifically to exploit the problem's structure. This bespoke nature of the pricing solver makes column generation a problem-specific method and hinders the use of generic implementations across a wide range of problems. We show that domain-independent dynamic programming (DIDP), a model-based paradigm for dynamic programming, can be used as a generic pricing solver. We develop new modeling features and a solving algorithm for DIDP to achieve better performance in typical pricing problems. We demonstrate that in four problem classes, our implementations of B&amp;P, with pricing by DIDP, empirically outperform an existing automated B&amp;P solver and B&amp;P with pricing by mixed-integer programming or constraint programming.",
+    "publishedAt": "2026-07-16",
+    "author": "Ryo Kuroiwa, Edward Lam",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

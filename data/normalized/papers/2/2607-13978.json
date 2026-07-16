@@ -1,0 +1,39 @@
+{
+  "type": "paper",
+  "slug": "2607-13978",
+  "name": "Music-to-Dance Generation via Atomic Movements",
+  "summary": "Music-driven dance generation aims to produce human motion that is both rhythmically synchronized and semantically consistent with music. While recent neural approaches have achieved impressive vis...",
+  "description": "Music-driven dance generation aims to produce human motion that is both rhythmically synchronized and semantically consistent with music. While recent neural approaches have achieved impressive visual realism, they typically model motion as a continuous signal and neglect its compositional nature, making generated dances structurally incoherent and difficult to control. In this work, we introduce a structure-aware framework that models choreography as a sequence of atomic movements-semantically interpretable motion events that serve as the building blocks of dance. To construct this atomic...",
+  "tags": [
+    "arxiv",
+    "cs.CV"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.13978v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.CV.",
+      "href": "https://arxiv.org/abs/2607.13978v1"
+    }
+  ],
+  "authors": [
+    "Xinhao Cai",
+    "Yixuan Sun",
+    "Minghang Zheng",
+    "Qingchao Chen",
+    "Xin Jin",
+    "Song-chun Zhu",
+    "Yang Liu"
+  ],
+  "paperId": "2607.13978",
+  "category": "cs.CV",
+  "publishedAt": "2026-07-15",
+  "abstract": "Music-driven dance generation aims to produce human motion that is both rhythmically synchronized and semantically consistent with music. While recent neural approaches have achieved impressive visual realism, they typically model motion as a continuous signal and neglect its compositional nature, making generated dances structurally incoherent and difficult to control. In this work, we introduce a structure-aware framework that models choreography as a sequence of atomic movements-semantically interpretable motion events that serve as the building blocks of dance. To construct this atomic..."
+}

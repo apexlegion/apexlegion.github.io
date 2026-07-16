@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "huggingface-blog-https-huggingface-co-blog-real-world-voiceeq",
+  "name": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
+  "summary": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
+  "description": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Hugging Face Blog",
+      "href": "https://huggingface.co/blog/real-world-voiceeq"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Hugging Face Blog.",
+      "href": "https://huggingface.co/blog/real-world-voiceeq"
+    }
+  ],
+  "source": "Hugging Face Blog",
+  "publishedAt": "2026-07-15",
+  "expiryAt": "2026-08-14T00:00:00.000Z"
+}

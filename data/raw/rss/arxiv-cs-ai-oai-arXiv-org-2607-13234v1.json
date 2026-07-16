@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.13234v1",
+  "fetchedAt": "2026-07-16T05:17:56.085Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.13234v1",
+    "title": "Continuously Evolving Deepfake Detection: An Architecture and Public-Benchmark Evaluation of a Dynamic Detection System",
+    "link": "https://arxiv.org/abs/2607.13234",
+    "description": "arXiv:2607.13234v1 Announce Type: cross Abstract: Deepfake detectors that achieve near-perfect scores on academic benchmarks collapse on real-world content: recent in-the-wild evaluations report AUC drops of 45-50% for state-of-the-art open-source models. We argue this gap is structural: static detectors are trained once against a moving generative frontier. We present BitMind Forensics (BMF), trained through Bittensor SN34, an open adversarial competition that continually refreshes the training distribution. We evaluate one dated export comprising image, general-video, and human-video checkpoints across nineteen public datasets: the canonical face-swap suites (FaceForensics++, Celeb-DF v1/v2/++, DFDC, DFD, UADFV, DF40) and recent in-the-wild and AI-generated-media benchmarks (Sumsub, Deepfake-Eval-2024, WildRF, Community Forensics, AIGCDetectBench, GenImage, AI-GenBench, AIGIBench, RAID, GenVidBench, GenVideo-100K). BMF reaches 0.936 AUC on Sumsub's original images and 0.872 pooled AUC over its full four-condition manipulation battery (1.4M images), staying robust under perturbation (0.855 JPEG, 0.799 downscaled), while GPEN enhancement improves detection (0.996). On Deepfake-Eval-2024, it matches the best commercial detector on images (0.915 vs 0.90) and exceeds it on video (0.822 vs 0.79), far above the best open-source detectors (0.56 and 0.63). It reaches 0.991 AUC on a 21-generator AI-image panel and 0.918 on GenVidBench, and exceeds the FF++-trained frontier on DFDC (0.947 vs 0.843) and Celeb-DF v2 (0.9985 vs 0.956), both contamination-audited, with statistical parity on Celeb-DF++. In a temporal study, successive dated exports improve on held-out media from generators absent from the static baseline's training (image 0.842 to 0.902; video 0.864 to 0.936). Our evaluation harness is public, and at publication the production API serves the exact evaluated snapshot for independent verification.",
+    "publishedAt": "2026-07-16",
+    "author": "Ken Jon Miyachi, Dylan Uys",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

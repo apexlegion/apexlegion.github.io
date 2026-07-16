@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "openai-blog:https://openai.com/index/point-e",
-  "fetchedAt": "2026-07-15T05:07:50.277Z",
+  "fetchedAt": "2026-07-16T05:17:55.930Z",
   "data": {
     "guid": "openai-blog:https://openai.com/index/point-e",
     "title": "Point-E: A system for generating 3D point clouds from complex prompts",

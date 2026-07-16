@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2605-16281v2",
+  "name": "Post-Deployment Accountability in AI Governance: A Cross-Regulatory Empirical Analysis of AI Incidents",
+  "summary": "arXiv:2605.16281v2 Announce Type: replace-cross Abstract: Post-deployment accountability has become central to AI governance, yet little empirical evidence shows whether monitoring, incident report...",
+  "description": "arXiv:2605.16281v2 Announce Type: replace-cross Abstract: Post-deployment accountability has become central to AI governance, yet little empirical evidence shows whether monitoring, incident reporting, and impact assessment obligations are visible when AI systems fail. This study analyzes real-world AI incidents from the AI Incident Database (2020--2026) and codes them against nine post-deploym...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2605.16281"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2605.16281"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-16",
+  "expiryAt": "2026-08-15T00:00:00.000Z",
+  "author": "Ummara Mumtaz, Summaya Mumtaz"
+}

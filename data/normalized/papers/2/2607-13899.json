@@ -1,0 +1,46 @@
+{
+  "type": "paper",
+  "slug": "2607-13899",
+  "name": "AIMO Interpretability Challenge",
+  "summary": "We propose the AIMO Interpretability Challenge, a competition on distinguishing robust from spurious reasoning in frontier mathematical language models based on the models' internal mechanisms. The...",
+  "description": "We propose the AIMO Interpretability Challenge, a competition on distinguishing robust from spurious reasoning in frontier mathematical language models based on the models' internal mechanisms. The challenge is motivated by a central limitation of standard reasoning benchmarks: strong final-answer accuracy does not reveal whether a model relies on stable reasoning mechanisms or exploits brittle reasoning shortcuts. Building on AI Mathematical Olympiad (AIMO) problems and submissions, together with resources from the Fields Model Initiative, the competition will provide (1) newly-published o...",
+  "tags": [
+    "arxiv",
+    "cs.AI"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.13899v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-15",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.AI.",
+      "href": "https://arxiv.org/abs/2607.13899v1"
+    }
+  ],
+  "authors": [
+    "Michal Štefánik",
+    "Philipp Mondorf",
+    "Andreas Waldis",
+    "Qianying Liu",
+    "Chuan Yang",
+    "Michal Spiegel",
+    "Josef Kuchař",
+    "Marek Kadlčík",
+    "Adam Vawda-Oomerjee",
+    "Chaoran Liu",
+    "Simon Frieder",
+    "Barbara Plank",
+    "Fazl Barez",
+    "Pontus Stenetorp"
+  ],
+  "paperId": "2607.13899",
+  "category": "cs.AI",
+  "publishedAt": "2026-07-15",
+  "abstract": "We propose the AIMO Interpretability Challenge, a competition on distinguishing robust from spurious reasoning in frontier mathematical language models based on the models' internal mechanisms. The challenge is motivated by a central limitation of standard reasoning benchmarks: strong final-answer accuracy does not reveal whether a model relies on stable reasoning mechanisms or exploits brittle reasoning shortcuts. Building on AI Mathematical Olympiad (AIMO) problems and submissions, together with resources from the Fields Model Initiative, the competition will provide (1) newly-published o..."
+}

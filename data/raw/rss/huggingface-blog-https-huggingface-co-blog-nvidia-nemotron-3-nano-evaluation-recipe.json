@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/nvidia/nemotron-3-nano-evaluation-recipe",
-  "fetchedAt": "2026-07-15T05:07:50.389Z",
+  "fetchedAt": "2026-07-16T05:17:56.030Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/nvidia/nemotron-3-nano-evaluation-recipe",
     "title": "The Open Evaluation Standard: Benchmarking NVIDIA Nemotron 3 Nano with NeMo Evaluator",

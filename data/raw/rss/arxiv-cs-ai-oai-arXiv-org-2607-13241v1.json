@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.13241v1",
+  "fetchedAt": "2026-07-16T05:17:56.085Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.13241v1",
+    "title": "EMAGN: Efficient Multi-Attention Graph Network via Learned Clustering for Scalable Traffic Forecasting",
+    "link": "https://arxiv.org/abs/2607.13241",
+    "description": "arXiv:2607.13241v1 Announce Type: cross Abstract: Traffic forecasting is highly challenging due to complex and nonlinear spatial and temporal dependencies. Self-attention mechanisms have been widely adopted to model dynamic and long-range dependencies, achieving state-of-the-art performance, but suffer from limited scalability due to quadratic computational and memory complexity. To address this, we propose an Efficient Multi-Attention Graph Network (EMAGN) that linearises the spatial attention mechanism itself, inspired by the theory of fast high-dimensional Gaussian filtering. Two learned clustering matrices C_k and C_v adaptively group key and value vectors into M super-clusters, reducing complexity from O(N^2 d) to O(NMd) without sacrificing the flexibility of attention for dynamic dependency modelling. Experimental results on PEMS-BAY and METR-LA show that EMAGN achieves accuracy within 2.7-3.2% MAE of full-attention GMAN while reducing training time by 32%, inference time by 38%, and GPU memory by 58%. Critically, at K=16 attention heads, full-attention GMAN runs out of memory on a standard 11 GB GPU entirely while EMAGN continues to operate, demonstrating a categorical expansion of feasible model configurations. EMAGN also surpasses Linformer and Performer in both accuracy and efficiency within the same backbone, owing to its traffic-network-aware adaptive clustering.",
+    "publishedAt": "2026-07-16",
+    "author": "Mingxing Xu, Rakesh Chowdary Machineni, Ke Liu, Xi Cheng, Chengqi Lu, Xin Hu, Lyuhao Chen, Xiangyu Li, Junwei You, Oliver Gao",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

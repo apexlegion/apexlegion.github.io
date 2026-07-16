@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/real-world-voiceeq",
+  "fetchedAt": "2026-07-16T05:17:56.030Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/real-world-voiceeq",
+    "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
+    "link": "https://huggingface.co/blog/real-world-voiceeq",
+    "description": "",
+    "publishedAt": "2026-07-15",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}
