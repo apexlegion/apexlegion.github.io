@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-14328v1",
+  "name": "ViPSAM: Visual Prompting Medical Image Segmentation Using Segment Anything Model",
+  "summary": "arXiv:2607.14328v1 Announce Type: cross Abstract: In proton therapy planning, respiratory-gated non-contrast CT (NCCT) is commonly used for lesion segmentation; however, accurate delineation remain...",
+  "description": "arXiv:2607.14328v1 Announce Type: cross Abstract: In proton therapy planning, respiratory-gated non-contrast CT (NCCT) is commonly used for lesion segmentation; however, accurate delineation remains challenging due to low lesion-to-background contrast. Although learning-based methods have shown strong performance, they often struggle with non-contrast image segmentation. Inspired by clinical pr...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.14328"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-17",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.14328"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-17",
+  "expiryAt": "2026-08-16T00:00:00.000Z",
+  "author": "San Lee, Nalee Kim, Jeong Il Yu, Hee Chul Park, Boah Kim"
+}

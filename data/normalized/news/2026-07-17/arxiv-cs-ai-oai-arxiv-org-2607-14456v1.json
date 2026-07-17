@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-14456v1",
+  "name": "Beyond Generalist LLMs: Specialist Agentic Systems for Structured Code Workflow Execution",
+  "summary": "arXiv:2607.14456v1 Announce Type: cross Abstract: Large Language Models (LLMs) have accelerated the adoption of software development agents, now widely available as Integrated Development Environme...",
+  "description": "arXiv:2607.14456v1 Announce Type: cross Abstract: Large Language Models (LLMs) have accelerated the adoption of software development agents, now widely available as Integrated Development Environment (IDE) extensions and standalone applications. While these agents are typically general-purpose, it remains unclear whether specialist agents justify their additional development effort. We investig...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.14456"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-17",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.14456"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-17",
+  "expiryAt": "2026-08-16T00:00:00.000Z",
+  "author": "Harris Borman, Herman Wandabwa, Fusun Yu, Sandeepa Kannangara, Justin Liu, Anna Leontjeva, Ritchie Ng"
+}

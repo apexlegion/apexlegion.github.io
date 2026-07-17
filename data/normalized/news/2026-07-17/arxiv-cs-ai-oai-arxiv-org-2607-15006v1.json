@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-15006v1",
+  "name": "When AI Blurs the Boundaries of Contribution: An Empirical Study of Authorship Calibration",
+  "summary": "arXiv:2607.15006v1 Announce Type: cross Abstract: The broad adoption of Artificial Intelligence (AI), especially Generative AI, raises pressing questions about how users interact with these systems...",
+  "description": "arXiv:2607.15006v1 Announce Type: cross Abstract: The broad adoption of Artificial Intelligence (AI), especially Generative AI, raises pressing questions about how users interact with these systems to produce new content. In this paper, we introduce the concept of authorship calibration, defined as users awareness of their actual authorship when interacting with AI. Using the CoAuthor dataset,...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.15006"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-17",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.15006"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-17",
+  "expiryAt": "2026-08-16T00:00:00.000Z",
+  "author": "C\\'elina Treuillier, Denis Lalanne"
+}

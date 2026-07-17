@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.14436v1",
+  "fetchedAt": "2026-07-17T05:20:13.331Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.14436v1",
+    "title": "Global drivers and barriers to the public acceptance of autonomous vehicles: Evidence from 17 countries",
+    "link": "https://arxiv.org/abs/2607.14436",
+    "description": "arXiv:2607.14436v1 Announce Type: cross Abstract: This study investigated the public acceptance of Society of Automotive Engineers Level 3 conditionally automated cars, which can self-drive under certain specified conditions but require the human driver to remain ready to resume control when requested. Previous Unified Theory of Acceptance and Use of Technology 2 (UTAUT2)-based research has focused mainly on European samples, and so it is still unclear whether the same factors shape acceptance across broader world regions. This knowledge gap was addressed using the L3Pilot Global User Acceptance Survey. From an original dataset of 18,631 respondents, the final analytic sample comprised 18,603 respondents from 17 countries across Africa, Asia, Europe, North America, and South America. The data were analyzed using a UTAUT2-based structural equation model to examine how performance expectancy, effort expectancy, social influence, facilitating conditions, and hedonic motivation shape the intention to use Level 3 cars. The model showed strong explanatory power. Across the analytic sample, the intention to use Level 3 cars was driven mainly by performance expectancy, social influence, and hedonic motivation. Effort expectancy and facilitating conditions also contributed, but they played smaller direct roles. Age, gender, and previous experience with advanced driver assistance systems were statistically significant, but comparatively weak predictors. Overall, the findings suggest that the acceptance of Level 3 automated cars depends less on demographic characteristics or ease-of-use concerns and more on whether people see the technology as useful, socially supported, and enjoyable to use.",
+    "publishedAt": "2026-07-17",
+    "author": "Antonios Saravanos (New York University)",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

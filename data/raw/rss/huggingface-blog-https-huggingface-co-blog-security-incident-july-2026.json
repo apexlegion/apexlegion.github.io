@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "huggingface-blog:https://huggingface.co/blog/security-incident-july-2026",
+  "fetchedAt": "2026-07-17T05:20:13.303Z",
+  "data": {
+    "guid": "huggingface-blog:https://huggingface.co/blog/security-incident-july-2026",
+    "title": "Security incident disclosure — July 2026",
+    "link": "https://huggingface.co/blog/security-incident-july-2026",
+    "description": "",
+    "publishedAt": "2026-07-16",
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  },
+  "extra": {
+    "feedId": "huggingface-blog",
+    "source": "Hugging Face Blog"
+  }
+}

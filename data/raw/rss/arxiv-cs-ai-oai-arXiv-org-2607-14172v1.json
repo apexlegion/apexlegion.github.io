@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.14172v1",
+  "fetchedAt": "2026-07-17T05:20:13.331Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.14172v1",
+    "title": "The Cost and Network Limits of Space-Based AI Compute",
+    "link": "https://arxiv.org/abs/2607.14172",
+    "description": "arXiv:2607.14172v1 Announce Type: cross Abstract: This paper evaluates whether large-scale AI data centers deployed in low-Earth orbit (LEO) could become a cost-effective alternative to terrestrial facilities. The analysis compares orbital and ground-based systems across launch cost, power generation, cooling, radiation exposure, and atmospheric reentry, as well as compute-network performance. A key distinction is the shift from terrestrial Clos networks to space-based mesh networks using laser inter-satellite links. Using bisection bandwidth, bisection intensity, and roofline-style models, we show that while LEO-based inference may be feasible, training frontier-scale LLMs in orbit is unlikely to be competitive with terrestrial data centers.",
+    "publishedAt": "2026-07-17",
+    "author": "Kees van Berkel",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

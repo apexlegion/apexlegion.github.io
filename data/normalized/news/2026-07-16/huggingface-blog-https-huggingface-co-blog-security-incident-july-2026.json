@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "huggingface-blog-https-huggingface-co-blog-security-incident-july-2026",
+  "name": "Security incident disclosure — July 2026",
+  "summary": "Security incident disclosure — July 2026",
+  "description": "Security incident disclosure — July 2026",
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Hugging Face Blog",
+      "href": "https://huggingface.co/blog/security-incident-july-2026"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Hugging Face Blog.",
+      "href": "https://huggingface.co/blog/security-incident-july-2026"
+    }
+  ],
+  "source": "Hugging Face Blog",
+  "publishedAt": "2026-07-16",
+  "expiryAt": "2026-08-15T00:00:00.000Z"
+}

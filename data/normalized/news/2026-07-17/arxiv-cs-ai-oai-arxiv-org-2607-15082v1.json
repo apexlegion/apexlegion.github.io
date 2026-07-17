@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-15082v1",
+  "name": "Towards Hierarchical Structure Understanding of Newspaper Images",
+  "summary": "arXiv:2607.15082v1 Announce Type: cross Abstract: Understanding newspaper images remains a challenging task due to their complex, nested hierarchical structures and dense, heterogeneous layouts. In...",
+  "description": "arXiv:2607.15082v1 Announce Type: cross Abstract: Understanding newspaper images remains a challenging task due to their complex, nested hierarchical structures and dense, heterogeneous layouts. In this paper, we explore two complementary approaches for newspaper structure understanding. First, we present a modular bottom-up pipeline that combines state-of-the-art open-source models: YOLO for l...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.15082"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-17",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.15082"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-17",
+  "expiryAt": "2026-08-16T00:00:00.000Z",
+  "author": "William Moca\\\"er, Sol\\`ene Tarride, Thomas Constum, Merveilles Agbeti-Messan, Tom Simon, Cl\\'ement Chatelain, St\\'ephane Nicolas, Pierrick Tranouez, S\\'ebastien Cretin, Thierry Paquet"
+}

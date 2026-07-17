@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-14826v1",
+  "name": "Interventional Causal Circuits for Safe Robot Action Testing and Failure Recovery",
+  "summary": "arXiv:2607.14826v1 Announce Type: cross Abstract: Safe physical AI for robot actions are required not only likely to succeed but tested to be safe before execution. In practice, however, formal tes...",
+  "description": "arXiv:2607.14826v1 Announce Type: cross Abstract: Safe physical AI for robot actions are required not only likely to succeed but tested to be safe before execution. In practice, however, formal testing of motion parameters is computationally expensive, and the cost scales poorly with the dimensionality of the action space. When a proposed action is rejected by a tester, the naive response is to...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.14826"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-17",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.14826"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-17",
+  "expiryAt": "2026-08-16T00:00:00.000Z",
+  "author": "Naren Vasantakumaar, Tom Schierenbeck, Michael Beetz"
+}

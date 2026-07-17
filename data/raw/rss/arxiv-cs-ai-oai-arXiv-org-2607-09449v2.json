@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.09449v2",
+  "fetchedAt": "2026-07-17T05:20:13.332Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.09449v2",
+    "title": "How Does Bayesian Causal Discovery Fail? Characterising Structural Consequences in Linear Gaussian Networks under Latent Confounding",
+    "link": "https://arxiv.org/abs/2607.09449",
+    "description": "arXiv:2607.09449v2 Announce Type: replace Abstract: Bayesian causal discovery is widely used for its ability to quantify epistemic uncertainty over directed acyclic graphs (DAGs) through posterior inference. However, its behaviour under latent confounding remains poorly understood, as existing work typically notes that confounding breaks identifiability without characterising how the posterior distribution over DAGs responds. In this work, we analyse posterior behaviour under latent confounding in linear Gaussian causal models, focusing on additive latent confounding between exactly two observed variables. We derive a critical correlation threshold above which the score function favours graphs with a spurious edge between the confounded variables, and show that this threshold decreases with sample size -- more data lowers the correlation required for the spurious edge to be favoured. Beyond this threshold, we characterize two distinct posterior failure regimes determined by the local structure around the confounded variables. Our findings are supported by exact posterior computations on multiple graph structures, demonstrating both the predicted failure regimes.",
+    "publishedAt": "2026-07-17",
+    "author": "Debargha Ghosh, Silja Renooij, Anna V. Kononova",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "source": "github",
   "sourceId": "huggingface/transformers",
-  "fetchedAt": "2026-07-16T05:17:50.788Z",
+  "fetchedAt": "2026-07-17T05:20:09.489Z",
   "data": {
     "id": 155220641,
     "node_id": "MDEwOlJlcG9zaXRvcnkxNTUyMjA2NDE=",
@@ -70,16 +70,16 @@
     "releases_url": "https://api.github.com/repos/huggingface/transformers/releases{/id}",
     "deployments_url": "https://api.github.com/repos/huggingface/transformers/deployments",
     "created_at": "2018-10-29T13:56:00Z",
-    "updated_at": "2026-07-16T04:18:46Z",
-    "pushed_at": "2026-07-16T05:16:57Z",
+    "updated_at": "2026-07-17T04:48:46Z",
+    "pushed_at": "2026-07-17T02:31:00Z",
     "git_url": "git://github.com/huggingface/transformers.git",
     "ssh_url": "git@github.com:huggingface/transformers.git",
     "clone_url": "https://github.com/huggingface/transformers.git",
     "svn_url": "https://github.com/huggingface/transformers",
     "homepage": "https://huggingface.co/transformers",
-    "size": 502138,
-    "stargazers_count": 162637,
-    "watchers_count": 162637,
+    "size": 501847,
+    "stargazers_count": 162671,
+    "watchers_count": 162671,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -87,11 +87,11 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 33897,
+    "forks_count": 33901,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 2489,
+    "open_issues_count": 2481,
     "license": {
       "key": "apache-2.0",
       "name": "Apache License 2.0",
@@ -126,9 +126,9 @@
       "vlm"
     ],
     "visibility": "public",
-    "forks": 33897,
-    "open_issues": 2489,
-    "watchers": 162637,
+    "forks": 33901,
+    "open_issues": 2481,
+    "watchers": 162671,
     "default_branch": "main",
     "permissions": {
       "admin": false,
@@ -160,7 +160,7 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "network_count": 33897,
+    "network_count": 33901,
     "subscribers_count": 1223
   }
 }

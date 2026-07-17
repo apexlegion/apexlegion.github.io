@@ -1,0 +1,35 @@
+{
+  "type": "paper",
+  "slug": "2607-15176",
+  "name": "Benchmarking Multimodal Large Language Models for Scientific Visualization Literacy",
+  "summary": "Multimodal large language models (MLLMs) are increasingly used to interpret visualizations, yet current evaluations remain largely chart-centric and provide limited evidence of understanding of sci...",
+  "description": "Multimodal large language models (MLLMs) are increasingly used to interpret visualizations, yet current evaluations remain largely chart-centric and provide limited evidence of understanding of scientific visualization (SciVis). We benchmark six MLLMs on the scientific visualization literacy assessment test, a standardized SciVis literacy assessment comprising 49 items based on 18 scientific visualizations and illustrations, spanning 8 techniques and 11 task types. We evaluate three closed-source and three open-source models under a closed-world protocol and compare their performance using...",
+  "tags": [
+    "arxiv",
+    "cs.AI"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.15176v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.AI.",
+      "href": "https://arxiv.org/abs/2607.15176v1"
+    }
+  ],
+  "authors": [
+    "Patrick Phuoc Do",
+    "Chau M. Ta",
+    "Chaoli Wang"
+  ],
+  "paperId": "2607.15176",
+  "category": "cs.AI",
+  "publishedAt": "2026-07-16",
+  "abstract": "Multimodal large language models (MLLMs) are increasingly used to interpret visualizations, yet current evaluations remain largely chart-centric and provide limited evidence of understanding of scientific visualization (SciVis). We benchmark six MLLMs on the scientific visualization literacy assessment test, a standardized SciVis literacy assessment comprising 49 items based on 18 scientific visualizations and illustrations, spanning 8 techniques and 11 task types. We evaluate three closed-source and three open-source models under a closed-world protocol and compare their performance using..."
+}

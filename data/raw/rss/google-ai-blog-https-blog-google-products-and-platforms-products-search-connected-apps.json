@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "google-ai-blog:https://blog.google/products-and-platforms/products/search/connected-apps/",
+  "fetchedAt": "2026-07-17T05:20:12.733Z",
+  "data": {
+    "guid": "google-ai-blog:https://blog.google/products-and-platforms/products/search/connected-apps/",
+    "title": "Connect more of your apps to Search",
+    "link": "https://blog.google/products-and-platforms/products/search/connected-apps/",
+    "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ConnectedAppshero.max-600x600.format-webp.webp\"&gt;You’ll be able to securely link and interact with your go-to services directly in AI Mode.",
+    "publishedAt": "2026-07-16",
+    "author": "<name>Chips Mistry</name><title>Senior Product Manager</title><department>Search</department><company/>",
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  },
+  "extra": {
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  }
+}

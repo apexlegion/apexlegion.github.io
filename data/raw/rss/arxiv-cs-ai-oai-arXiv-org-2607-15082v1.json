@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.15082v1",
+  "fetchedAt": "2026-07-17T05:20:13.331Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.15082v1",
+    "title": "Towards Hierarchical Structure Understanding of Newspaper Images",
+    "link": "https://arxiv.org/abs/2607.15082",
+    "description": "arXiv:2607.15082v1 Announce Type: cross Abstract: Understanding newspaper images remains a challenging task due to their complex, nested hierarchical structures and dense, heterogeneous layouts. In this paper, we explore two complementary approaches for newspaper structure understanding. First, we present a modular bottom-up pipeline that combines state-of-the-art open-source models: YOLO for layout detection, LayoutReader for reading order prediction, and a custom algorithm for article segmentation. This approach leverages existing robust components while maintaining flexibility and interpretability. Second, we introduce Tiramisu (Tiered Transformers for Hierarchical Structure Understanding), a novel end-to-end transformer-based architecture that explicitly models document hierarchy through an iterative tiered process. Tiramisu performs section and article separation, block localization, semantic categorization, and reading order prediction using highly parallelized attention mechanisms. Finally, we release Finlam La Libert\\'e, a new dataset designed specifically for evaluating hierarchical information retrieval in historical newspapers. Experimental results demonstrate the effectiveness of both approaches in reconstructing complex newspaper hierarchies, with comparative analysis highlighting their respective strengths for scalable document digitization. The Tiramisu training code, including the synthetic newspaper generator, is available at https://git.litislab.fr/tiramisu/tiramisu-newspaper-articles-extractor.",
+    "publishedAt": "2026-07-17",
+    "author": "William Moca\\\"er, Sol\\`ene Tarride, Thomas Constum, Merveilles Agbeti-Messan, Tom Simon, Cl\\'ement Chatelain, St\\'ephane Nicolas, Pierrick Tranouez, S\\'ebastien Cretin, Thierry Paquet",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

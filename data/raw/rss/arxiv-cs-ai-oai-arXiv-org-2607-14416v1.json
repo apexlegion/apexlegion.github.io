@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.14416v1",
+  "fetchedAt": "2026-07-17T05:20:13.331Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.14416v1",
+    "title": "CausalGraphX: A Counterfactual Graph Neural Network Framework for Explainable Systemic Risk Assessment",
+    "link": "https://arxiv.org/abs/2607.14416",
+    "description": "arXiv:2607.14416v1 Announce Type: new Abstract: The interconnected nature of global financial systems makes them vulnerable to systemic risks, where the failure of a few institutions can trigger catastrophic cascading defaults. Traditional risk models often fail to capture the complex, non-linear dynamics of these networks. While Graph Neural Networks (GNNs) have shown promise in modeling relational data, they primarily learn correlative patterns and function as black boxes, offering little insight into the causal mechanisms of shock propagation. This limitation is critical for regulators who require explainable models to perform stress tests and devise effective interventions. We introduce CausalGraphX, a novel framework that integrates GNNs with counterfactual reasoning to provide explainable assessments of systemic risk. CausalGraphX employs a Graph Attention mechanism to learn representations of institutional vulnerability and uses an adversarial regularization technique to ensure these representations capture causal drivers rather than spurious correlations. Furthermore, we propose an optimization-based approach to generate counterfactual explanations, answering questions such as, \"What minimum capital injection would have prevented Bank A's default under a specific stress scenario?\" We validate CausalGraphX on large-scale synthetic financial networks. Our results demonstrate that CausalGraphX significantly outperforms traditional and deep learning baselines in predicting cascading defaults while providing sparse, plausible, and actionable counterfactual explanations.",
+    "publishedAt": "2026-07-17",
+    "author": "Rabimba Karanjai, Hemanth Madhavarao, Lei Xu, Weidong Shi",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

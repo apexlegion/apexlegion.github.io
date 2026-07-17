@@ -1,0 +1,37 @@
+{
+  "type": "paper",
+  "slug": "2607-15265",
+  "name": "SceneBind: Binding What and Where Across Vision, Audio and Language",
+  "summary": "We present SceneBind, an omni-modal representation of realistic scenes with joint semantic and 3D spatial understanding across vision, audio and language. Existing omni-modal encoders excel at inst...",
+  "description": "We present SceneBind, an omni-modal representation of realistic scenes with joint semantic and 3D spatial understanding across vision, audio and language. Existing omni-modal encoders excel at instance-level semantics (i.e., what is present), but often lack explicit spatial structure (i.e., where it is). SceneBind addresses this gap by representing each scene as a semantic-spatial entity, combining a global semantic embedding with object-centric semantic-spatial slots. This representation explicitly captures object-level semantics, spatial attributes, and uncertainty. We further propose Sce...",
+  "tags": [
+    "arxiv",
+    "cs.CV"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.15265v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.CV.",
+      "href": "https://arxiv.org/abs/2607.15265v1"
+    }
+  ],
+  "authors": [
+    "Mingfei Chen",
+    "Zijun Cui",
+    "Ruoke Zhang",
+    "Hyeonggon Ryu",
+    "Eli Shlizerman"
+  ],
+  "paperId": "2607.15265",
+  "category": "cs.CV",
+  "publishedAt": "2026-07-16",
+  "abstract": "We present SceneBind, an omni-modal representation of realistic scenes with joint semantic and 3D spatial understanding across vision, audio and language. Existing omni-modal encoders excel at instance-level semantics (i.e., what is present), but often lack explicit spatial structure (i.e., where it is). SceneBind addresses this gap by representing each scene as a semantic-spatial entity, combining a global semantic embedding with object-centric semantic-spatial slots. This representation explicitly captures object-level semantics, spatial attributes, and uncertainty. We further propose Sce..."
+}

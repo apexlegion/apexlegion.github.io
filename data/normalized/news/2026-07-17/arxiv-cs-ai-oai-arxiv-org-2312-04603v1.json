@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2312-04603v1",
+  "name": "All Polarized but Still Different: a Multi-factorial Metric to Discriminate between Polarization Behaviors on Social Media",
+  "summary": "arXiv:2312.04603v1 Announce Type: cross Abstract: Online polarization has attracted the attention of researchers for many years. Its effects on society are a cause for concern, and the design of pe...",
+  "description": "arXiv:2312.04603v1 Announce Type: cross Abstract: Online polarization has attracted the attention of researchers for many years. Its effects on society are a cause for concern, and the design of personalized depolarization strategies appears to be a key solution. Such strategies should rely on a fine and accurate measurement, and a clear understanding of polarization behaviors. However, the lit...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2312.04603"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-17",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2312.04603"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-17",
+  "expiryAt": "2026-08-16T00:00:00.000Z",
+  "author": "Celina Treuillier (UL, CNRS, LORIA), Sylvain Castagnos (UL, CNRS, LORIA), Armelle Brun (UL, CNRS, LORIA)"
+}

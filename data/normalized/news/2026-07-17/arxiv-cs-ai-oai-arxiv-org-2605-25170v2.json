@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2605-25170v2",
+  "name": "Grow-Prune-Freeze Networks: Adaptive &amp; Continual Learning Technique for Olfactory Navigation",
+  "summary": "arXiv:2605.25170v2 Announce Type: replace-cross Abstract: Training data for olfaction is scattered through disparate, non-standardized datasets that limit the ability to build representative world...",
+  "description": "arXiv:2605.25170v2 Announce Type: replace-cross Abstract: Training data for olfaction is scattered through disparate, non-standardized datasets that limit the ability to build representative world models. Olfactory navigation is a highly dynamic and non-stationary task that benefits from real-time continual learning. We introduce an adaptive framework called Grow-Prune-Freeze (GPF) networks tha...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2605.25170"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-17",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2605.25170"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-17",
+  "expiryAt": "2026-08-16T00:00:00.000Z",
+  "author": "Kordel K. France, Ovidiu Daescu"
+}

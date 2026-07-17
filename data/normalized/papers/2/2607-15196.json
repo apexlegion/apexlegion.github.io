@@ -1,0 +1,35 @@
+{
+  "type": "paper",
+  "slug": "2607-15196",
+  "name": "Subjective Risk Decomposition: A New View for Uncertainty Quantification",
+  "summary": "We present a novel viewpoint for uncertainty quantification. Uncertainty measures are not primitives, in need of axioms and argumentation, but instead consequences, of higher-level modelling decisi...",
+  "description": "We present a novel viewpoint for uncertainty quantification. Uncertainty measures are not primitives, in need of axioms and argumentation, but instead consequences, of higher-level modelling decisions. We show how epistemic and aleatoric uncertainty measures can be derived via decomposition of a subjective risk, based on a strictly proper loss. Reverse cross-entropy provides a prominent example, where decomposition recovers the classic information-theoretic uncertainty terms. The same approach recovers numerous measures previously proposed across the UQ literature, providing them a common t...",
+  "tags": [
+    "arxiv",
+    "stat.ML"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.15196v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category stat.ML.",
+      "href": "https://arxiv.org/abs/2607.15196v1"
+    }
+  ],
+  "authors": [
+    "Raghad Alamri",
+    "Michele Caprio",
+    "Gavin Brown"
+  ],
+  "paperId": "2607.15196",
+  "category": "stat.ML",
+  "publishedAt": "2026-07-16",
+  "abstract": "We present a novel viewpoint for uncertainty quantification. Uncertainty measures are not primitives, in need of axioms and argumentation, but instead consequences, of higher-level modelling decisions. We show how epistemic and aleatoric uncertainty measures can be derived via decomposition of a subjective risk, based on a strictly proper loss. Reverse cross-entropy provides a prominent example, where decomposition recovers the classic information-theoretic uncertainty terms. The same approach recovers numerous measures previously proposed across the UQ literature, providing them a common t..."
+}

@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2512.06364v4",
+  "fetchedAt": "2026-07-17T05:20:13.332Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2512.06364v4",
+    "title": "JEEVHITAA -- An HCAI Ecosystem to Support Collective Care",
+    "link": "https://arxiv.org/abs/2512.06364",
+    "description": "arXiv:2512.06364v4 Announce Type: replace-cross Abstract: Current mobile health platforms are predominantly individual-centric and lack the support for coordinated, auditable multi-actor workflows. However, in many settings worldwide, health decisions are enacted through multi-actor coordination rather than individual users. We present JEEVHITAA, a cross-platform mobile system enabling role-aware sharing and verifiable information flows within permissioned care circles. JEEVHITAA ingests platform and device data, builds layered profiles from sensors and tiered onboarding, and enforces fine-grained, time-bounded access control across care graphs. Data stays secure both within the application and the cloud. Integrated retrieval-augmented Large Language Models produce structured, role-targeted summaries and action plans, offer evidence-grounded verification with provenance and confidence scores, and support advanced insights on reports. We describe the architecture, connector abstractions, and security primitives, and report robustness evaluations using synthetic, ontology-driven data and findings from a feasibility study with real-life care circles across 9-14 weeks. We outline plans for larger multi-site evaluations focusing on operational alignment, longitudinal trust &amp; literacy impact, and relational friction &amp; efforts to sink into the daily infrastructure.",
+    "publishedAt": "2026-07-17",
+    "author": "Shyama Sastha Krishnamoorthy Srinivasan, Harsh Pala, Mohan Kumar, Pushpendra Singh",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

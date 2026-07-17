@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-14611v1",
+  "name": "Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems",
+  "summary": "arXiv:2607.14611v1 Announce Type: cross Abstract: A growing class of agentic systems maintain persistent state across sessions through memory files, behavioral preferences, and knowledge bases. Whi...",
+  "description": "arXiv:2607.14611v1 Announce Type: cross Abstract: A growing class of agentic systems maintain persistent state across sessions through memory files, behavioral preferences, and knowledge bases. While this makes agents more useful and self-improving, it also creates a new attack surface for prompt injections in which malicious instructions can be embedded within persistent files and influence fu...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.14611"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-17",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.14611"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-17",
+  "expiryAt": "2026-08-16T00:00:00.000Z",
+  "author": "Soham Gadgil, David Alexander, Sai Sunku, Franziska Roesner"
+}

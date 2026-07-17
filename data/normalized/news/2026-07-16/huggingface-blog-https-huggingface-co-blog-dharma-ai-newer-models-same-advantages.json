@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "huggingface-blog-https-huggingface-co-blog-dharma-ai-newer-models-same-advantages",
+  "name": "Newer Models, Same Advantage",
+  "summary": "Newer Models, Same Advantage",
+  "description": "Newer Models, Same Advantage",
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Hugging Face Blog",
+      "href": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Hugging Face Blog.",
+      "href": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages"
+    }
+  ],
+  "source": "Hugging Face Blog",
+  "publishedAt": "2026-07-16",
+  "expiryAt": "2026-08-15T00:00:00.000Z"
+}

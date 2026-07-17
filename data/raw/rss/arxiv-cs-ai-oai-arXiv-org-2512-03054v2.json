@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2512.03054v2",
+  "fetchedAt": "2026-07-17T05:20:13.332Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2512.03054v2",
+    "title": "Energy-Efficient Federated Learning via Adaptive Encoder Freezing for MRI-to-CT Conversion: A Green AI-Guided Research",
+    "link": "https://arxiv.org/abs/2512.03054",
+    "description": "arXiv:2512.03054v2 Announce Type: replace-cross Abstract: Federated Learning (FL) holds the potential to advance equality in health by enabling diverse institutions to collaboratively train deep learning (DL) models, even with limited data. However, the significant resource requirements of FL often exclude centres with limited computational infrastructure, further widening existing healthcare disparities. To address this issue, we propose a Green AI-oriented adaptive layer-freezing strategy designed to reduce energy consumption and computational load while maintaining model performance. We tested our approach using different federated architectures for Magnetic Resonance Imaging (MRI)-to-Computed Tomography (CT) conversion. The proposed adaptive strategy optimises the federated training by selectively freezing the encoder weights based on the monitored relative difference of the encoder weights from round to round. A patience-based mechanism ensures that freezing only occurs when updates remain consistently minimal. The energy consumption and CO2eq emissions of the federation were tracked using the CodeCarbon library. Compared to equivalent non-frozen counterparts, our approach reduced training time, total energy consumption and CO2eq emissions by up to 23%. At the same time, the MRI-to-CT conversion performance was maintained, with only small variations in the Mean Absolute Error (MAE). Notably, for three out of the five evaluated architectures, no statistically significant differences were observed, while two architectures exhibited statistically significant improvements. Our work aligns with a research paradigm that promotes DL-based frameworks meeting clinical requirements while ensuring climatic, social, and economic sustainability. It lays the groundwork for novel FL evaluation frameworks, advancing privacy, equity and, more broadly, justice in AI-driven healthcare.",
+    "publishedAt": "2026-07-17",
+    "author": "Ciro Benito Raggio, Lucia Migliorelli, Nils Skupien, Mathias Krohmer Zabaleta, Oliver Blanck, Francesco Cicone, Giuseppe Lucio Cascini, Paolo Zaffino, Maria Francesca Spadea",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

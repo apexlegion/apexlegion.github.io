@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2601.05050v3",
+  "fetchedAt": "2026-07-17T05:20:13.331Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2601.05050v3",
+    "title": "Large language models can effectively convince people to believe conspiracies",
+    "link": "https://arxiv.org/abs/2601.05050",
+    "description": "arXiv:2601.05050v3 Announce Type: replace Abstract: Large language models (LLMs) have been shown to be persuasive across a variety of contexts. But it remains unclear whether this persuasive power advantages accuracy, or if bad actors can just as easily use LLMs to promote misbeliefs. Here, we investigate this question across four experiments in which participants (N = 3996 Americans) discussed a conspiracy theory they were uncertain about with an LLM we instructed to either argue against (\"debunking\") or for (\"bunking\") that conspiracy. Across several frontier models (with standard guardrails but prompted to allow lying), we did not find consistent evidence of a truth advantage: the LLMs were able to both substantially increase and decrease average conspiracy belief, and participants in the bunking condition rated the LLM as more informative and collaborative, and reported greater trust in AI, than those who were in the debunking condition. More encouragingly, however, debunking induced more large changes in belief, and subsequent corrections were able to reverse the bunking effect. Furthermore, simply prompting the model to only provide accurate information dramatically reduced bunking effectiveness, and one powerful frontier model (GPT 5.2) almost entirely refused to promote conspiracies, suggesting that it is possible for the right guardrails to favor accurate beliefs. Finally, we did find a stark truth asymmetry in the context of information sharing: debunking had a large positive impact on mock social media posts composed by participants, while bunking had little effect. Overall, our findings show that people are not inherently less susceptible to AI that misleads than to AI that informs, but that potential technical solutions exist to mitigate this risk.",
+    "publishedAt": "2026-07-17",
+    "author": "Thomas H. Costello, Kellin Pelrine, Matthew Kowal, Jasper Timm, Antonio A. Arechar, Jean-Fran\\c{c}ois Godbout, Adam Gleave, David Rand, Gordon Pennycook",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

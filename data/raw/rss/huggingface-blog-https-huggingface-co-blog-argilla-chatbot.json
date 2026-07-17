@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/argilla-chatbot",
-  "fetchedAt": "2026-07-16T05:17:56.030Z",
+  "fetchedAt": "2026-07-17T05:20:13.303Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/argilla-chatbot",
     "title": "How we leveraged distilabel to create an Argilla 2.0 Chatbot",

@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/hub-duckdb",
-  "fetchedAt": "2026-07-16T05:17:56.030Z",
+  "fetchedAt": "2026-07-17T05:20:13.304Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/hub-duckdb",
     "title": "DuckDB: analyze 50,000+ datasets stored on the Hugging Face Hub",

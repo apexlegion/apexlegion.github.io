@@ -1,0 +1,37 @@
+{
+  "type": "paper",
+  "slug": "2607-15267",
+  "name": "Pretraining Data Can Be Poisoned through Computational Propaganda",
+  "summary": "Poisoning pretraining data can introduce harmful behaviors to LMs that are difficult to detect and mitigate. Prior work on poisoning pretraining data has largely exploited established data sources...",
+  "description": "Poisoning pretraining data can introduce harmful behaviors to LMs that are difficult to detect and mitigate. Prior work on poisoning pretraining data has largely exploited established data sources such as Wikipedia, which do not represent the large scale and heterogeneity typical of pretraining corpora, and has ignored the interaction between poisoned data and data curation pipelines. We demonstrate that poisoning attacks on pretraining data are feasible beyond this limited setting through an existing web-scale content injection mechanism: public discussion interfaces. Additionally, to meas...",
+  "tags": [
+    "arxiv",
+    "cs.AI"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.15267v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-16",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.AI.",
+      "href": "https://arxiv.org/abs/2607.15267v1"
+    }
+  ],
+  "authors": [
+    "Victoria Graf",
+    "Hannaneh Hajishirzi",
+    "Noah A. Smith",
+    "David Kohlbrenner",
+    "Kyle Lo"
+  ],
+  "paperId": "2607.15267",
+  "category": "cs.AI",
+  "publishedAt": "2026-07-16",
+  "abstract": "Poisoning pretraining data can introduce harmful behaviors to LMs that are difficult to detect and mitigate. Prior work on poisoning pretraining data has largely exploited established data sources such as Wikipedia, which do not represent the large scale and heterogeneity typical of pretraining corpora, and has ignored the interaction between poisoned data and data curation pipelines. We demonstrate that poisoning attacks on pretraining data are feasible beyond this limited setting through an existing web-scale content injection mechanism: public discussion interfaces. Additionally, to meas..."
+}

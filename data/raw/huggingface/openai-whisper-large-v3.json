@@ -1,7 +1,7 @@
 {
   "source": "huggingface",
   "sourceId": "openai/whisper-large-v3",
-  "fetchedAt": "2026-07-16T05:17:54.254Z",
+  "fetchedAt": "2026-07-17T05:20:11.763Z",
   "data": {
     "_id": "654a84cadff2f49007ce6c37",
     "id": "openai/whisper-large-v3",
@@ -123,8 +123,8 @@
       "deploy:azure",
       "region:us"
     ],
-    "downloads": 5975475,
-    "likes": 5945,
+    "downloads": 5780598,
+    "likes": 5948,
     "modelId": "openai/whisper-large-v3",
     "author": "openai",
     "sha": "06f233fe06e710322aca913c1bc4249a0d71fce1",
@@ -346,10 +346,10 @@
     ],
     "spaces": [
       "mteb/leaderboard",
-      "treble-technologies/ffasr",
       "openai/whisper",
+      "treble-technologies/ffasr",
+      "BSC-LT/CATALAN-ASR-ARENA",
       "elmresearchcenter/open_universal_arabic_asr_leaderboard",
-      "eduagarcia/multilingual-tokenizer-leaderboard",
       "Quran-Lab/quranic-asr-leaderboard",
       "build-small-hackathon/thuna",
       "Yash030/claude-code-proxy",
@@ -399,6 +399,7 @@
       "tvosch/Dutch-ASR-Leaderboard",
       "not-lain/gpu-utils",
       "allenai/OLMoASR",
+      "eduagarcia/multilingual-tokenizer-leaderboard",
       "AhmedAlmaghz/create-your-own-TTS-dataset",
       "eustlb/whisper-vs-distil-whisper-fr",
       "victor/openai-whisper-large-v3",
@@ -443,8 +444,7 @@
       "SahilJ2/VQA_Model",
       "maroonvillager/openai-whisper-large-v3",
       "Upgradojha/whisper",
-      "newbietk/openai-whisper-large-v3",
-      "Alfadhils/llm-angusta"
+      "newbietk/openai-whisper-large-v3"
     ],
     "createdAt": "2023-11-07T18:41:14.000Z",
     "safetensors": {

@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2512.01208v5",
+  "fetchedAt": "2026-07-17T05:20:13.332Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2512.01208v5",
+    "title": "Language as a Wave Phenomenon: Semantic Phase Locking and Interference in Neural Networks",
+    "link": "https://arxiv.org/abs/2512.01208",
+    "description": "arXiv:2512.01208v5 Announce Type: replace-cross Abstract: In standard Transformer architectures, semantic importance is often conflated with activation magnitude, obscuring the geometric structure of latent representations. To disentangle these factors, we introduce PRISM, a complex-valued architecture designed to isolate the computational role of phase. By enforcing a strict unit-norm constraint ($|z| = 1$) and replacing attention with gated harmonic convolutions, the model is encouraged to utilize subtractive interference in the frequency domain to suppress noise, rather than relying on magnitude-based gating. We utilize this constrained regime to study a hybrid architecture -- fusing phase-based routing with standard attention -- which achieves improved parameter efficiency and representation quality compared to baselines in our evaluated settings. Mechanistically, interventional ablations indicate that the model carries substantial task-relevant information in phase: preserving phase largely maintains performance, whereas disrupting phase causes severe degradation. Together, these results suggest that phase-based spectral interference is a usable computational mechanism for neural sequence modeling at the evaluated scale.",
+    "publishedAt": "2026-07-17",
+    "author": "Alper Y{\\i}ld{\\i}r{\\i}m, \\.Ibrahim Y\\\"uceda\\u{g}",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

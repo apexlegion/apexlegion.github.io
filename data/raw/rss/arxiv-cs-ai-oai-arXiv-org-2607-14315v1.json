@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.14315v1",
+  "fetchedAt": "2026-07-17T05:20:13.331Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.14315v1",
+    "title": "Towards a Unified Multidimensional Explainability Metric: Evaluating Trustworthiness in AI Models",
+    "link": "https://arxiv.org/abs/2607.14315",
+    "description": "arXiv:2607.14315v1 Announce Type: cross Abstract: In this paper, we present a comprehensive framework for assessing the explainability of various XAI methods, such as LIME and SHAP, across multiple datasets and machine learning models, with the ultimate goal of creating a unified multidimensional explainability score. Our methodology focuses on three key aspects of explainability: fidelity, simplicity, and stability. We leverage benchmarking experiments to systematically evaluate these aspects and use the insights gained to construct an offline knowledge base. This knowledge base captures the explainability scores for each registered model and serves as a valuable resource for context-dependent evaluation of explainability. By analyzing the complementary characteristics and metadata of AI models, datasets, and XAI methods, the knowledge base will enable the estimation of explainability scores for previously unseen datasets and models. Properties like fidelity, simplicity, and stability may vary significantly based on the dataset, underlying model, and domain expertise of the end user. We demonstrate our framework by applying it to three open-source datasets, discussing the implications of the obtained results in relation to the characteristics of the datasets. Our work contributes to the growing field of XAI by providing a robust and versatile tool for evaluating and comparing the explainability of various XAI methods, ultimately supporting the development of more transparent and trustworthy AI systems.",
+    "publishedAt": "2026-07-17",
+    "author": "Georgios Makridis, Georgios Fatouros, Athanasios Kiourtis, Dimitrios Kotios, Vasileios Koukos, Dimosthenis Kyriazis, Jonh Soldatos",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

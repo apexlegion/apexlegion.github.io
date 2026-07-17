@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.14524v1",
+  "fetchedAt": "2026-07-17T05:20:13.331Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.14524v1",
+    "title": "WrAFT: a Modularized Automated Writing Evaluation System for Argumentative Essays",
+    "link": "https://arxiv.org/abs/2607.14524",
+    "description": "arXiv:2607.14524v1 Announce Type: new Abstract: This study presents WrAFT, a Writing Assessment and Feedback Tool, that delivers both accurate and reliable scores and effective comprehensive feedback to argumentative essays. WrAFT adopts a modular design by dividing automated writing evaluation (AWE) tasks into scoring, surface-level feedback, and deep-level feedback. In building the system, various Large Language Models (LLMs) have been evaluated, including LLaMA-3.3-70B-Instruct, GPT-4o, and Claude 3.7, through both direct prompting and supervised fine-tuning approaches. A proprietary dataset of 480 TOEFL Independent Writing essays with official benchmark scores was utilized. Benchmark-based evaluation shows that WrAFT achieves state-of-the-art performance in scoring, with a quadratic weighted kappa (QWK) of 0.84 and a root mean square error (RMSE) of 0.44 against official scores on a scale of 0-5. Human evaluation of system-generated feedback also reveals high approval ratings: 96.14 percent for surface-level feedback, 93.03 percent for deep-level macro feedback, and 94.69 percent for deep-level micro feedback. An interactive user interface has been developed for the system and is publicly available and free to use.",
+    "publishedAt": "2026-07-17",
+    "author": "Adnan Labib, Yixuan Huang, Jiahui Wu, John Maurice Gayed, Zheng Yuan, Qiao Wang",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

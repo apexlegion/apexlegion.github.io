@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-14424v1",
+  "name": "ConFlow: Constraints-Guided Learning with Flow Matching for Motion Generation",
+  "summary": "arXiv:2607.14424v1 Announce Type: cross Abstract: In recent years Flow Matching has become a prominent method for generative modeling robot motion generation. In its generic form Flow Matching is a...",
+  "description": "arXiv:2607.14424v1 Announce Type: cross Abstract: In recent years Flow Matching has become a prominent method for generative modeling robot motion generation. In its generic form Flow Matching is an ODE-based neural sampler that is trained by regressing empirical flow fields associated with motion samples as data. However, in robot motion generation we often have additional constraints that mig...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.14424"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-17",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.14424"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-17",
+  "expiryAt": "2026-08-16T00:00:00.000Z",
+  "author": "Nutan Chen, Jianxiang Feng, Marvin Alles, Botond Cseke"
+}

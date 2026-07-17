@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2509-25667v3",
+  "name": "EEG-based AI-BCI Wheelchair Advancement: Transformer-Based Learning with Motor Imagery for Brain Computer Interface",
+  "summary": "arXiv:2509.25667v3 Announce Type: replace-cross Abstract: This paper presents an Artificial Intelligence (AI) integrated approach to Brain-Computer Interface (BCI)-based wheelchair development, uti...",
+  "description": "arXiv:2509.25667v3 Announce Type: replace-cross Abstract: This paper presents an Artificial Intelligence (AI) integrated approach to Brain-Computer Interface (BCI)-based wheelchair development, utilizing a motor imagery right-left-hand movement mechanism for control. The system is designed to simulate wheelchair navigation based on motor imagery right and left-hand movements using electroenceph...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2509.25667"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-17",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2509.25667"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-17",
+  "expiryAt": "2026-08-16T00:00:00.000Z",
+  "author": "Bipul Thapa, Biplov Paneru, Bishwash Paneru, Khem Narayan Poudyal"
+}

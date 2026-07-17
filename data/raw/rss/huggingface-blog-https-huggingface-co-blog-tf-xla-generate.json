@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/tf-xla-generate",
-  "fetchedAt": "2026-07-16T05:17:56.031Z",
+  "fetchedAt": "2026-07-17T05:20:13.304Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/tf-xla-generate",
     "title": "Faster Text Generation with TensorFlow and XLA",
