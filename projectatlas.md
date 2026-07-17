@@ -19,22 +19,19 @@
   (Windows-native, sits alongside the other projects like `affiliateforge`,
   `space-site`, etc.). This **replaces** the old WSL copy at
   `\\wsl.localhost\Ubuntu\home\kunal\AI-Atlas`, which is now stale — do not use it.
-- **Git remote (as of writing):** `origin` →
-  `https://github.com/apexlegion/apexlegion.github.io.git` on branch `main`.
-- **The rename is IN PROGRESS.** The goal is to serve the site at
-  **`https://apexlegion.github.io/aiatlas/`** (a GitHub Pages *project page*,
-  same URL shape as `apexlegion.github.io/affiliateforge/`), instead of the old
-  root URL `https://apexlegion.github.io`.
-- **All the code changes to support the `/aiatlas` subpath are DONE and verified
-  by a local production build** (typecheck clean, zero broken internal links
-  except two pre-existing content dead-links noted in §5). What remains is a
-  **human-only step**: Kunal renames the repo on GitHub, then the push +
-  auto-deploy finishes the job. See §2 for the exact steps.
-- **2026-07-17: the Learn Academy shipped locally** (not yet pushed — it rides
-  along with the rename push). `/learn` is now a 3-track, hands-on curriculum
-  (34 lessons); see §3.5. Production build now emits **203 pages**, verified
-  in a served production build (islands hydrate, progress persists, zero
-  base-path violations, no console errors).
+- **LIVE.** Repo renamed `apexlegion/aiatlas`, migration + Learn Academy
+  pushed and deployed. Site is up at **https://apexlegion.github.io/aiatlas/**
+  — verified in a live browser check (no console errors, all 3 Academy
+  tracks render).
+- **Git remote:** `origin` → `https://github.com/apexlegion/aiatlas.git` on
+  branch `main`.
+- Before pushing, local `main` was fast-forwarded onto `origin/main` to pick
+  up 4 daily-scrape bot commits made on the old repo name before the rename,
+  then rebuilt/retypechecked clean against that merged data before pushing —
+  so no scraped data was lost or overwritten by the migration.
+- **2026-07-17: the Learn Academy shipped and is live.** `/learn` is now a
+  3-track, hands-on curriculum (34 lessons); see §3.5. Production build emits
+  **203 pages**, verified both in a local served build and on the live site.
 
 **Why the rename is needed at all:** the current repo is named
 `apexlegion.github.io`, which GitHub treats as the account's *root* user page
