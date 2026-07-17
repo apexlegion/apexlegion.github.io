@@ -11,6 +11,7 @@
  * partially-translated pages still render correctly.
  */
 import translationsJson from './translations.json';
+import { withBase } from '@/lib/utils/url';
 
 export type Locale = 'en' | 'es';
 export const DEFAULT_LOCALE: Locale = 'en';
@@ -144,6 +145,11 @@ export function buildAlternatePath(pathname: string, target: Locale): string {
 /**
  * Build the canonical hreflang URLs for the current pathname in all
  * supported locales plus the `x-default` fallback.
+ *
+ * `pathname` must be locale-neutral *and* deploy-subpath-neutral (i.e. what
+ * `stripBase(Astro.url.pathname)` returns) — this function re-applies the
+ * deploy subpath itself via `withBase` so the site keeps working whether
+ * it's hosted at the domain root or under a GitHub Pages project subpath.
  */
 export function buildHreflangs(
   pathname: string,
@@ -159,8 +165,8 @@ export function buildHreflangs(
     typeof baseUrl === 'string'
       ? baseUrl.replace(/\/$/, '')
       : `${baseUrl.protocol}//${baseUrl.host}`;
-  const canonicalEn = `${base}${stripLocalePrefix(pathname)}`;
-  const canonicalEs = `${base}${buildAlternatePath(pathname, 'es')}`;
+  const canonicalEn = `${base}${withBase(stripLocalePrefix(pathname))}`;
+  const canonicalEs = `${base}${withBase(buildAlternatePath(pathname, 'es'))}`;
   return {
     canonicalEn,
     canonicalEs,

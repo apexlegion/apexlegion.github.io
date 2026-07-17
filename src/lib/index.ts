@@ -11,3 +11,4 @@ export {
   type LevelId,
   type LevelMeta,
 } from './utils/levels';
+export { withBase, stripBase } from './utils/url';

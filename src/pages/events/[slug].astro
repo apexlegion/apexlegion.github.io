@@ -9,6 +9,7 @@ import { Tag } from '@/components/ui/Tag';
 import { Button } from '@/components/ui/Button';
 import { getAllEvents, getEventBySlug } from '@/lib/data/entities';
 import type { EventFormatValue } from '@/lib/schemas/entity';
+import { withBase } from '@/lib';
 
 export async function getStaticPaths() {
   return getAllEvents().map((e) => ({
@@ -47,7 +48,7 @@ function formatDateRange(start: string, end: string): string {
 
 const verified = getEventBySlug(event.slug);
 if (!verified) {
-  return Astro.redirect('/404');
+  return Astro.redirect(withBase('/404'));
 }
 ---
 
@@ -133,7 +134,7 @@ if (!verified) {
       </div>
 
       <div class="mt-8 flex flex-wrap items-center gap-3">
-        <Button variant="ghost" href="/events"> ← All events </Button>
+        <Button variant="ghost" href={withBase('/events')}> ← All events </Button>
       </div>
     </Section>
   </Container>

@@ -10,6 +10,7 @@ import { Tag } from '@/components/ui/Tag';
 import { Button } from '@/components/ui/Button';
 import ModelDirectoryFilters from '@/components/models/ModelDirectoryFilters.astro';
 import { getEntitiesByType } from '@/lib/data/entities';
+import { withBase } from '@/lib';
 
 const models = getEntitiesByType('model');
 ---
@@ -34,7 +35,7 @@ const models = getEntitiesByType('model');
           models.map((m) => (
             <Card
               variant="interactive"
-              href={`/models/${m.slug}`}
+              href={withBase(`/models/${m.slug}`)}
               data-model-card
               data-modality={m.modality}
               data-parameters={m.parameters ?? ''}

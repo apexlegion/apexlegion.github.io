@@ -8,6 +8,8 @@
  * has not been built) we fall back to a Fuse.js search over the static
  * `/search-index.json` so the page always works.
  */
+import { withBase } from '@/lib';
+
 export interface Props {
   class?: string;
 }
@@ -19,7 +21,7 @@ const { class: className = '' } = Astro.props;
     <p class="text-text-muted text-small">
       Search requires JavaScript. You can also <a
         class="text-primary-orange"
-        href="/search-index.json">browse the search index directly</a
+        href={withBase('/search-index.json')}>browse the search index directly</a
       >.
     </p>
   </noscript>
@@ -43,6 +45,7 @@ const { class: className = '' } = Astro.props;
 
 <script>
   import Fuse from 'fuse.js';
+  import { withBase } from '../../lib/utils/url';
 
   type Item = {
     id: string;
@@ -60,11 +63,11 @@ const { class: className = '' } = Astro.props;
     try {
       // Probe for the Pagefind UI bundle. In dev `pnpm run build` has not
       // run, so this 404s and we fall back to Fuse.
-      const res = await fetch('/pagefind/pagefind-ui.js', { method: 'HEAD' });
+      const res = await fetch(withBase('/pagefind/pagefind-ui.js'), { method: 'HEAD' });
       if (!res.ok) return false;
       await new Promise<void>((resolve, reject) => {
         const script = document.createElement('script');
-        script.src = '/pagefind/pagefind-ui.js';
+        script.src = withBase('/pagefind/pagefind-ui.js');
         script.type = 'module';
         script.onload = () => resolve();
         script.onerror = () => reject(new Error('Failed to load Pagefind UI'));
@@ -101,7 +104,7 @@ const { class: className = '' } = Astro.props;
     const empty = document.getElementById('fuse-empty');
     if (!input || !list || !empty) return;
 
-    const res = await fetch('/search-index.json');
+    const res = await fetch(withBase('/search-index.json'));
     const items: Item[] = res.ok ? ((await res.json()) as Item[]) : [];
     const fuse = new Fuse(items, { keys: ['title', 'description', 'tags'], threshold: 0.4 });
 
@@ -111,7 +114,7 @@ const { class: className = '' } = Astro.props;
       for (const item of results.slice(0, 20)) {
         const li = document.createElement('li');
         const a = document.createElement('a');
-        a.href = item.url;
+        a.href = withBase(item.url);
         a.className =
           'border-border bg-surface-card hover:border-border-strong text-text flex flex-col gap-1 rounded-md border px-4 py-3 transition-colors';
         const type = document.createElement('span');

@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { cn } from '@/lib';
+import { cn, withBase } from '@/lib';
 
 export type PlaygroundDifficulty = 'beginner' | 'student' | 'developer' | 'researcher';
 
@@ -107,7 +107,7 @@ export function PlaygroundShell({
               {relatedConcepts.map((concept) => (
                 <li key={concept}>
                   <a
-                    href={`/concepts/${concept}`}
+                    href={withBase(`/concepts/${concept}`)}
                     className="text-small text-text duration-fast hover:bg-surface-elevated hover:text-primary-orange block rounded-md px-3 py-2 transition-colors ease-out"
                   >
                     {concept}

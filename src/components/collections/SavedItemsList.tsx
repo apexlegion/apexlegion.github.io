@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { getSavedItems, removeItem, type SavedItem } from '@/lib/collections/store';
+import { withBase } from '@/lib/utils/url';
 
 /**
  * SavedItemsList — React island that renders every entry from
@@ -55,19 +56,19 @@ export function SavedItemsList() {
         </p>
         <div className="flex flex-wrap gap-3">
           <a
-            href="/projects"
+            href={withBase('/projects')}
             className="bg-primary-orange text-surface hover:bg-primary-orange-hover focus-visible:ring-primary-orange focus-visible:ring-offset-surface inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-semibold focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
           >
             Browse projects
           </a>
           <a
-            href="/models"
+            href={withBase('/models')}
             className="border-border text-text hover:border-primary-orange hover:text-primary-orange inline-flex items-center justify-center rounded-md border px-4 py-2 text-sm font-semibold"
           >
             Browse models
           </a>
           <a
-            href="/tutorials"
+            href={withBase('/tutorials')}
             className="border-border text-text hover:border-primary-orange hover:text-primary-orange inline-flex items-center justify-center rounded-md border px-4 py-2 text-sm font-semibold"
           >
             Browse tutorials

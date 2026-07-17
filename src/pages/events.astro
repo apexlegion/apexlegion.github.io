@@ -10,6 +10,7 @@ import { Tag } from '@/components/ui/Tag';
 import { Button } from '@/components/ui/Button';
 import { getAllEvents } from '@/lib/data/entities';
 import type { EventFormatValue } from '@/lib/schemas/entity';
+import { withBase } from '@/lib';
 
 const events = getAllEvents();
 
@@ -100,7 +101,7 @@ function formatDateRange(start: string, end: string): string {
               {events.map((e) => (
                 <Card
                   variant="interactive"
-                  href={`/events/${e.slug}`}
+                  href={withBase(`/events/${e.slug}`)}
                   data-event-format={e.format}
                   class="event-card"
                 >

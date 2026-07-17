@@ -13,6 +13,7 @@ import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { Input } from '@/components/ui/Input';
 import { matchRule, type AssistantRule, type AssistantSuggestion } from '@/lib/assistant/rules';
+import { withBase } from '@/lib/utils/url';
 
 export interface AssistantMessage {
   id: string;
@@ -317,7 +318,7 @@ function MessageBubble({ message }: MessageBubbleProps): ReactElement {
           {message.suggestions.map((suggestion) => (
             <a
               key={`${message.id}-${suggestion.href}`}
-              href={suggestion.href}
+              href={withBase(suggestion.href)}
               className="text-small text-primary-orange hover:text-primary-hover focus-visible:ring-primary-orange focus-visible:ring-offset-surface rounded-md underline-offset-2 hover:underline focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
             >
               {suggestion.label}

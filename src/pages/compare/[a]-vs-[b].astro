@@ -18,6 +18,7 @@ import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { ComparisonTable, BenchmarkChart, TimelineCompare } from '@/components/compare';
 import { getAllEntities, getRelatedEntities, getAllRelations } from '@/lib/data/entities';
+import { withBase } from '@/lib';
 import { FEATURED_COMPARISONS, buildComparisonSlug } from '@/lib/compare';
 import type { Entity } from '@/lib/schemas/entity';
 
@@ -50,7 +51,7 @@ const entityA: Entity | undefined = allEntities.find((e) => e.slug === slugA);
 const entityB: Entity | undefined = allEntities.find((e) => e.slug === slugB);
 
 if (!entityA || !entityB) {
-  return Astro.redirect('/404');
+  return Astro.redirect(withBase('/404'));
 }
 
 const idA = `${entityA.type}/${entityA.slug}`;
@@ -88,7 +89,9 @@ const description = `Side-by-side comparison of ${entityA.name} and ${entityB.na
       <div class="flex flex-wrap gap-2">
         <Button
           as="a"
-          href={`/${entityA.type === 'tutorial' ? 'tutorials' : `${entityA.type}s`}/${entityA.slug}`}
+          href={withBase(
+            `/${entityA.type === 'tutorial' ? 'tutorials' : `${entityA.type}s`}/${entityA.slug}`,
+          )}
           variant="secondary"
           size="sm"
         >
@@ -96,13 +99,15 @@ const description = `Side-by-side comparison of ${entityA.name} and ${entityB.na
         </Button>
         <Button
           as="a"
-          href={`/${entityB.type === 'tutorial' ? 'tutorials' : `${entityB.type}s`}/${entityB.slug}`}
+          href={withBase(
+            `/${entityB.type === 'tutorial' ? 'tutorials' : `${entityB.type}s`}/${entityB.slug}`,
+          )}
           variant="secondary"
           size="sm"
         >
           View {entityB.name} →
         </Button>
-        <Button as="a" href="/compare" variant="muted" size="sm"> Pick a different pair </Button>
+        <Button as="a" href={withBase('/compare')} variant="muted" size="sm"> Pick a different pair </Button>
       </div>
       <p class="text-text-subtle text-tiny font-mono">/compare/{canonicalSlug}</p>
     </header>

@@ -9,6 +9,7 @@ import { Badge } from '@/components/ui/Badge';
 import { Tag } from '@/components/ui/Tag';
 import { Button } from '@/components/ui/Button';
 import { getAllNews, getAllJobs, isNewsExpired, isJobExpired } from '@/lib/data/entities';
+import { withBase } from '@/lib';
 
 const news = getAllNews();
 const jobs = getAllJobs();
@@ -50,7 +51,7 @@ function formatDate(iso: string): string {
         ) : (
           <Grid cols={{ base: 1, md: 2 }} gap={6}>
             {news.map((n) => (
-              <Card variant="interactive" href={`/news/${n.slug}`}>
+              <Card variant="interactive" href={withBase(`/news/${n.slug}`)}>
                 <CardHeader>
                   <div class="flex flex-wrap items-center gap-2">
                     <Tag>{n.source}</Tag>

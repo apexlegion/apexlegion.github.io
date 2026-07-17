@@ -18,6 +18,7 @@ import { Card, CardBody, CardFooter, CardHeader } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { getAllEntities } from '@/lib/data/entities';
+import { withBase } from '@/lib';
 import { FEATURED_COMPARISONS, buildComparisonSlug } from '@/lib/compare';
 
 const entities = getAllEntities()
@@ -70,7 +71,7 @@ const featured = FEATURED_COMPARISONS.map((pair) => {
     <Section eyebrow="Selector" title="Choose two entities" containerSize="wide">
       <form
         method="get"
-        action="/compare/redirect"
+        action={withBase('/compare/redirect')}
         class="border-border bg-surface-card flex flex-col gap-4 rounded-lg border p-6"
         aria-label="Compare two entities"
       >
@@ -114,7 +115,7 @@ const featured = FEATURED_COMPARISONS.map((pair) => {
       <Grid cols={{ base: 1, md: 2, lg: 3 }} gap={6}>
         {
           featured.map((entry) => (
-            <Card variant="interactive" href={`/compare/${entry.slugPath}`}>
+            <Card variant="interactive" href={withBase(`/compare/${entry.slugPath}`)}>
               <CardHeader>
                 <div class="flex flex-wrap items-center gap-2">
                   <Badge variant={entry.first.type}>{entry.first.type}</Badge>
@@ -140,12 +141,14 @@ const featured = FEATURED_COMPARISONS.map((pair) => {
   </Container>
 </SiteShell>
 
-<script is:inline>
+<script is:inline define:vars={{ compareBase: withBase('/compare') }}>
   // The form posts to `/compare/redirect`, but Astro cannot use a dynamic
   // `getStaticPaths` redirect at the form level without a page. Instead
   // we capture submit here, normalise the order, and `location.assign`
   // to the canonical comparison URL. The static pages live under
   // `/compare/{slug}-vs-{slug}` and are generated in `[a]-vs-[b].astro`.
+  // `compareBase` comes in via `define:vars` since `is:inline` scripts
+  // aren't processed by Vite and can't read `import.meta.env` directly.
   const form = document.querySelector('form[aria-label="Compare two entities"]');
   if (form instanceof HTMLFormElement) {
     form.addEventListener('submit', (event) => {
@@ -158,7 +161,7 @@ const featured = FEATURED_COMPARISONS.map((pair) => {
         return;
       }
       const [first, second] = [a, b].sort();
-      window.location.assign(`/compare/${first}-vs-${second}`);
+      window.location.assign(`${compareBase}/${first}-vs-${second}`);
     });
   }
 </script>

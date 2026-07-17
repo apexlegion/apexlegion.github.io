@@ -9,6 +9,7 @@ import { Badge } from '@/components/ui/Badge';
 import { Tag } from '@/components/ui/Tag';
 import { Button } from '@/components/ui/Button';
 import { getEntitiesByType } from '@/lib/data/entities';
+import { withBase } from '@/lib';
 
 const projects = getEntitiesByType('project')
   .slice()
@@ -157,7 +158,7 @@ const popularTools = [
                 </div>
               </dl>
               <div class="mt-auto flex flex-wrap gap-2 pt-2">
-                <Button as="a" href={`/projects/${t.slug}`} size="sm">
+                <Button as="a" href={withBase(`/projects/${t.slug}`)} size="sm">
                   Full guide →
                 </Button>
                 <Button
@@ -220,7 +221,7 @@ const popularTools = [
             projects.map((p) => (
               <Card
                 variant="interactive"
-                href={`/projects/${p.slug}`}
+                href={withBase(`/projects/${p.slug}`)}
                 data-tool-category={p.category}
                 class="tool-card"
               >

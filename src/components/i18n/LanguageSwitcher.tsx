@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import type { Locale } from '../../i18n/utils';
 import { buildAlternatePath, normalizeLocale } from '../../i18n/utils';
+import { stripBase, withBase } from '../../lib/utils/url';
 
 export interface LanguageSwitcherProps {
   /**
@@ -60,8 +61,9 @@ export function LanguageSwitcher({ currentLocale, currentPath, labels }: Languag
   }, [currentPath]);
 
   const detectedLocale = normalizeLocale(currentLocale);
-  const englishHref = buildAlternatePath(resolvedPath, 'en');
-  const spanishHref = buildAlternatePath(resolvedPath, 'es');
+  const localeNeutralPath = stripBase(resolvedPath);
+  const englishHref = withBase(buildAlternatePath(localeNeutralPath, 'en'));
+  const spanishHref = withBase(buildAlternatePath(localeNeutralPath, 'es'));
 
   return (
     <div

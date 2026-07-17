@@ -18,6 +18,7 @@
  */
 import '@/styles/global.css';
 import { buildHreflangs, DEFAULT_LOCALE, normalizeLocale, type Locale } from '@/i18n/utils';
+import { stripBase, withBase } from '@/lib/utils/url';
 
 export interface Props {
   title: string;
@@ -40,10 +41,15 @@ const {
 } = Astro.props;
 
 const siteName = 'AI Atlas';
-const fullTitle = title === siteName ? title : `${title} — ${siteName}`;
+// Pages may pass either "Page" or "Page — AI Atlas"; append the site name
+// only when it isn't already there so titles never double up.
+const fullTitle = title.endsWith(siteName) ? title : `${title} — ${siteName}`;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? 'http://localhost:4321');
 const resolvedLang: Locale = normalizeLocale(lang ?? DEFAULT_LOCALE);
-const hreflangs = buildHreflangs(Astro.url.pathname, Astro.site ?? 'http://localhost:4321');
+const hreflangs = buildHreflangs(
+  stripBase(Astro.url.pathname),
+  Astro.site ?? 'http://localhost:4321',
+);
 ---
 
 <!doctype html>
@@ -52,8 +58,8 @@ const hreflangs = buildHreflangs(Astro.url.pathname, Astro.site ?? 'http://local
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" viewport-fit="cover" />
     <meta name="generator" content={Astro.generator} />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/svg+xml" href={withBase('/favicon.svg')} />
+    <link rel="manifest" href={withBase('/manifest.json')} />
     <meta name="theme-color" content="#FF6A00" />
     <link rel="canonical" href={canonicalURL.toString()} />
 
@@ -73,7 +79,7 @@ const hreflangs = buildHreflangs(Astro.url.pathname, Astro.site ?? 'http://local
     <meta property="og:locale" content={resolvedLang === 'es' ? 'es_ES' : 'en_US'} />
     <meta
       property="og:image"
-      content={new URL(image, Astro.site ?? 'http://localhost:4321').toString()}
+      content={new URL(withBase(image), Astro.site ?? 'http://localhost:4321').toString()}
     />
 
     <meta name="twitter:card" content="summary_large_image" />

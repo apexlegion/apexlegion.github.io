@@ -9,6 +9,7 @@ import { Badge } from '@/components/ui/Badge';
 import { Tag } from '@/components/ui/Tag';
 import { Button } from '@/components/ui/Button';
 import { getEntitiesByType } from '@/lib/data/entities';
+import { withBase } from '@/lib';
 
 const projects = getEntitiesByType('project');
 ---
@@ -31,7 +32,7 @@ const projects = getEntitiesByType('project');
       <Grid cols={{ base: 1, md: 2, lg: 3 }} gap={6}>
         {
           projects.map((p) => (
-            <Card variant="interactive" href={`/projects/${p.slug}`}>
+            <Card variant="interactive" href={withBase(`/projects/${p.slug}`)}>
               <CardHeader>
                 <Tag>{p.category}</Tag>
                 <h2 class="text-text text-h3 mt-2 font-semibold">{p.name}</h2>

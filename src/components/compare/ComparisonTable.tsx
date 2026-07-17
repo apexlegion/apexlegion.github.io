@@ -3,6 +3,7 @@ import type { Entity } from '@/lib/schemas/entity';
 import { Badge } from '@/components/ui/Badge';
 import { Tag } from '@/components/ui/Tag';
 import { compareEntities, type ComparisonAttribute, type Winner } from '@/lib/compare';
+import { withBase } from '@/lib/utils/url';
 
 export interface ComparisonTableProps {
   entityA: Entity;
@@ -186,7 +187,7 @@ export function ComparisonTable({
 
 function entityHref(entity: Entity): string {
   const base = entity.type === 'tutorial' ? 'tutorials' : `${entity.type}s`;
-  return `/${base}/${entity.slug}`;
+  return withBase(`/${base}/${entity.slug}`);
 }
 
 export default ComparisonTable;

@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import type { Entity } from '@/lib/schemas/entity';
 import { mergeTimeline, type MergedTimelineEvent } from '@/lib/compare';
+import { withBase } from '@/lib/utils/url';
 
 export interface TimelineCompareProps {
   entityA: Entity;
@@ -79,7 +80,7 @@ export function TimelineCompare({ entityA, entityB }: TimelineCompareProps): Rea
               ) : null}
               {event.href ? (
                 <a
-                  href={event.href}
+                  href={withBase(event.href)}
                   className="text-primary-orange hover:text-primary-hover text-small inline-flex w-fit items-center gap-1 underline-offset-2 hover:underline"
                 >
                   Read more ↗

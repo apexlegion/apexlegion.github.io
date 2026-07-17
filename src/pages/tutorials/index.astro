@@ -9,6 +9,7 @@ import { Badge } from '@/components/ui/Badge';
 import { Tag } from '@/components/ui/Tag';
 import { Button } from '@/components/ui/Button';
 import { getEntitiesByType } from '@/lib/data/entities';
+import { withBase } from '@/lib';
 
 const tutorials = getEntitiesByType('tutorial');
 ---
@@ -28,7 +29,7 @@ const tutorials = getEntitiesByType('tutorial');
       <Grid cols={{ base: 1, md: 2, lg: 3 }} gap={6}>
         {
           tutorials.map((t) => (
-            <Card variant="interactive" href={`/tutorials/${t.slug}`}>
+            <Card variant="interactive" href={withBase(`/tutorials/${t.slug}`)}>
               <CardHeader>
                 <div class="flex flex-wrap items-center gap-2">
                   <Tag>{t.level}</Tag>

@@ -2,6 +2,7 @@
 import SiteShell from '@/layouts/SiteShell.astro';
 import Container from '@/components/layout/Container.astro';
 import Section from '@/components/layout/Section.astro';
+import { withBase } from '@/lib';
 ---
 
 <SiteShell
@@ -25,13 +26,13 @@ import Section from '@/components/layout/Section.astro';
         </p>
         <div class="flex flex-wrap items-center justify-center gap-3">
           <a
-            href="/"
+            href={withBase('/')}
             class="bg-primary-orange text-surface hover:bg-primary-orange-hover focus-visible:ring-primary-orange focus-visible:ring-offset-surface inline-flex items-center justify-center rounded-md px-5 py-3 text-sm font-semibold focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
           >
             Go back home
           </a>
           <a
-            href="/learn"
+            href={withBase('/learn')}
             class="border-border text-text hover:border-primary-orange hover:text-primary-orange inline-flex items-center justify-center rounded-md border px-5 py-3 text-sm font-semibold"
           >
             Browse Learn

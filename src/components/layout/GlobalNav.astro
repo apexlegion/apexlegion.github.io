@@ -8,6 +8,7 @@
  */
 import { LanguageSwitcher } from '@/components/i18n/LanguageSwitcher';
 import { DEFAULT_LOCALE, normalizeLocale, type Locale, getTranslations } from '@/i18n/utils';
+import { withBase } from '@/lib';
 
 export interface Props {
   links: { label: string; href: string }[];
@@ -16,7 +17,7 @@ export interface Props {
 
 const { links, lang } = Astro.props;
 const resolvedLang: Locale = normalizeLocale(lang ?? DEFAULT_LOCALE);
-const homeHref = resolvedLang === 'es' ? '/es' : '/';
+const homeHref = withBase(resolvedLang === 'es' ? '/es' : '/');
 const labels = getTranslations(resolvedLang);
 ---
 

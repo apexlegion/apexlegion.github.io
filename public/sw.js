@@ -16,10 +16,17 @@
 const APP_SHELL_CACHE = 'app-shell-v1';
 const RUNTIME_CACHE = 'runtime-v1';
 
+// This file is served as-is by GitHub Pages (not processed by Astro/Vite), so
+// it can't read the build's `base` config directly. `self.registration.scope`
+// is set to the SW's own scope URL at registration time (see RegisterSW.tsx),
+// which already carries the deploy subpath — deriving BASE from it here keeps
+// this file correct even if the site moves to a different subpath later.
+const BASE = new URL(self.registration.scope).pathname.replace(/\/$/, '');
+
 // CSS/JS asset filenames are content-hashed by the build and unknown ahead of
 // time, so only precache routes here; static assets are picked up by
 // `cacheFirst` the first time each page requests them.
-const APP_SHELL_URLS = ['/', '/offline', '/favicon.svg'];
+const APP_SHELL_URLS = [`${BASE}/`, `${BASE}/offline`, `${BASE}/favicon.svg`];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -121,12 +128,12 @@ async function networkFirst(request) {
 
 async function offlineFallback() {
   const cache = await caches.open(APP_SHELL_CACHE);
-  const offline = await cache.match('/offline');
+  const offline = await cache.match(`${BASE}/offline`);
   if (offline) return offline;
   return new Response(
     '<!doctype html><html><head><meta charset="utf-8"><title>Offline</title></head>' +
       '<body><h1>Offline</h1><p>You are offline and this page is not cached.</p>' +
-      '<p><a href="/">Go home</a></p></body></html>',
+      `<p><a href="${BASE}/">Go home</a></p></body></html>`,
     { status: 503, headers: { 'Content-Type': 'text/html; charset=utf-8' } },
   );
 }

@@ -9,6 +9,7 @@ import { Tag } from '@/components/ui/Tag';
 import { Button } from '@/components/ui/Button';
 import { getAllJobs, getJobBySlug, isJobExpired } from '@/lib/data/entities';
 import type { JobTypeValue } from '@/lib/schemas/entity';
+import { withBase } from '@/lib';
 
 export async function getStaticPaths() {
   // Include expired jobs in static paths so detail pages remain reachable.
@@ -38,7 +39,7 @@ function formatDate(iso: string): string {
 // data, but TS doesn't know that), render the 404 page instead.
 const verified = getJobBySlug(job.slug);
 if (!verified) {
-  return Astro.redirect('/404');
+  return Astro.redirect(withBase('/404'));
 }
 ---
 
@@ -126,7 +127,7 @@ if (!verified) {
       </div>
 
       <div class="mt-8 flex flex-wrap items-center gap-3">
-        <Button variant="ghost" href="/jobs"> ← All jobs </Button>
+        <Button variant="ghost" href={withBase('/jobs')}> ← All jobs </Button>
       </div>
     </Section>
   </Container>

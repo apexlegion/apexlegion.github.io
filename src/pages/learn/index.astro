@@ -1,0 +1,208 @@
+---
+/**
+ * /learn — the AI Academy: a 3-track, task-first curriculum.
+ *
+ * Visitors pick their level (Beginner / Intermediate / Advanced) and follow
+ * hands-on lessons built around free tools (open-source alternatives always
+ * badged). Terminology is taught inside the lessons, linking back to the
+ * concepts library. Progress is tracked client-side (localStorage) — no
+ * accounts. Tutorials and concepts remain surfaced below the tracks.
+ */
+import SiteShell from '@/layouts/SiteShell.astro';
+import Container from '@/components/layout/Container.astro';
+import Section from '@/components/layout/Section.astro';
+import Grid from '@/components/layout/Grid.astro';
+import Breadcrumbs from '@/components/layout/Breadcrumbs.astro';
+import { Card, CardBody, CardFooter, CardHeader } from '@/components/ui/Card';
+import { Badge } from '@/components/ui/Badge';
+import { Tag } from '@/components/ui/Tag';
+import { Button } from '@/components/ui/Button';
+import { TrackProgress } from '@/components/learn/LessonProgress';
+import { getEntitiesByType } from '@/lib/data/entities';
+import { withBase } from '@/lib';
+import { TRACKS, getLessonsByTrack } from '@/data/lessons';
+
+const tutorials = getEntitiesByType('tutorial');
+const concepts = getEntitiesByType('concept');
+
+const tracksWithLessons = TRACKS.map((track) => ({
+  track,
+  lessons: getLessonsByTrack(track.id),
+}));
+---
+
+<SiteShell
+  title="Learn — AI Atlas"
+  description="Learn AI by doing — a free, 3-track academy from absolute beginner to open-source power user."
+>
+  <Container class="flex flex-col gap-6 py-10">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Learn' }]} />
+    <header class="flex flex-col gap-2">
+      <Badge variant="tutorial">The AI Academy</Badge>
+      <h1 class="text-text text-h1 font-bold tracking-tight md:text-5xl">Learn AI by doing</h1>
+      <p class="text-text-muted text-body max-w-prose">
+        Not a lecture — a workshop. Pick your level, open a free tool, and get real work done in
+        your first five minutes. Every lesson names an open-source option, and the jargon is
+        explained as you go.
+      </p>
+    </header>
+
+    <Section>
+      <Grid cols={{ base: 1, lg: 3 }} gap={6}>
+        {
+          tracksWithLessons.map(({ track, lessons }) => (
+            <a
+              href={`#track-${track.id}`}
+              class="group border-border bg-surface-card hover:border-primary-orange focus-visible:ring-primary-orange flex flex-col gap-4 rounded-2xl border p-6 transition-colors focus-visible:ring-2 focus-visible:outline-none"
+            >
+              <div class="flex items-center gap-3">
+                <span class="text-3xl" aria-hidden="true">
+                  {track.emoji}
+                </span>
+                <div class="flex flex-col">
+                  <span class="text-text text-h3 font-semibold">{track.label}</span>
+                  <span class="text-primary-orange text-sm font-medium">
+                    “{track.audience}”
+                  </span>
+                </div>
+              </div>
+              <p class="text-text-muted text-sm leading-relaxed">{track.blurb}</p>
+              <div class="mt-auto flex flex-col gap-3">
+                <TrackProgress client:load slugs={lessons.map((l) => l.slug)} />
+                <span class="text-text-subtle text-tiny font-mono">
+                  {lessons.length} lessons · free forever
+                </span>
+                <span class="text-primary-orange text-sm font-semibold transition-transform group-hover:translate-x-1">
+                  Start this track →
+                </span>
+              </div>
+            </a>
+          ))
+        }
+      </Grid>
+    </Section>
+
+    {
+      tracksWithLessons.map(({ track, lessons }) => (
+        <Section>
+          <div id={`track-${track.id}`} class="flex scroll-mt-24 flex-col gap-4">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <div class="flex items-center gap-3">
+                <span class="text-2xl" aria-hidden="true">
+                  {track.emoji}
+                </span>
+                <h2 class="text-text text-h2 font-semibold">{track.label}</h2>
+                <Tag>{track.audience}</Tag>
+              </div>
+              <div class="w-40">
+                <TrackProgress client:load slugs={lessons.map((l) => l.slug)} />
+              </div>
+            </div>
+            <ol class="flex flex-col gap-3">
+              {lessons.map((lesson, i) => (
+                <li>
+                  <a
+                    href={withBase(`/learn/${lesson.slug}`)}
+                    class="group border-border bg-surface-card hover:border-primary-orange focus-visible:ring-primary-orange flex items-center gap-4 rounded-xl border p-4 transition-colors focus-visible:ring-2 focus-visible:outline-none"
+                  >
+                    <span class="border-primary-orange/40 text-primary-orange flex h-8 w-8 shrink-0 items-center justify-center rounded-full border font-mono text-sm font-bold">
+                      {i + 1}
+                    </span>
+                    <span class="flex min-w-0 flex-col">
+                      <span class="text-text font-semibold group-hover:text-primary-orange transition-colors">
+                        {lesson.title}
+                      </span>
+                      <span class="text-text-muted text-sm">{lesson.tagline}</span>
+                    </span>
+                    <span class="text-text-subtle text-tiny ml-auto shrink-0 font-mono">
+                      {lesson.minutes} min
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </div>
+        </Section>
+      ))
+    }
+
+    <Section>
+      <div class="border-border bg-surface-card flex flex-col gap-2 rounded-2xl border p-6">
+        <h2 class="text-text text-h3 font-semibold">Prefer to read the theory?</h2>
+        <p class="text-text-muted text-body max-w-prose">
+          Every AI term the lessons mention lives in the concepts library, explained at five
+          levels — from <strong class="text-text-muted">“Explain like I'm 12”</strong> to
+          Researcher. The glossary covers the rest, A–Z.
+        </p>
+        <div class="mt-2 flex flex-wrap gap-3">
+          <Button as="a" href={withBase('/concepts')} variant="ghost" size="sm">
+            Browse concepts →
+          </Button>
+          <Button as="a" href={withBase('/glossary')} variant="ghost" size="sm">
+            Open the glossary →
+          </Button>
+        </div>
+      </div>
+    </Section>
+
+    <Section>
+      <div class="flex flex-col gap-4">
+        <div class="flex items-center justify-between">
+          <h2 class="text-text text-h2 font-semibold">Tutorials</h2>
+          <Button as="a" href={withBase('/tutorials')} variant="ghost" size="sm">Browse all tutorials →</Button>
+        </div>
+        <Grid cols={{ base: 1, md: 2, lg: 3 }} gap={6}>
+          {
+            tutorials.slice(0, 3).map((t) => (
+              <Card variant="interactive" href={withBase(`/tutorials/${t.slug}`)}>
+                <CardHeader>
+                  <div class="flex flex-wrap items-center gap-2">
+                    <Tag>{t.level}</Tag>
+                    <Tag>{t.format}</Tag>
+                  </div>
+                  <h3 class="text-text text-h3 mt-2 font-semibold">{t.name}</h3>
+                  <span class="text-text-subtle text-tiny mt-1 font-mono">
+                    {t.durationMinutes} min
+                  </span>
+                </CardHeader>
+                <CardBody>{t.summary}</CardBody>
+                <CardFooter>
+                  <Button variant="ghost" size="sm">
+                    Start tutorial →
+                  </Button>
+                </CardFooter>
+              </Card>
+            ))
+          }
+        </Grid>
+      </div>
+    </Section>
+
+    <Section>
+      <div class="flex flex-col gap-4">
+        <div class="flex items-center justify-between">
+          <h2 class="text-text text-h2 font-semibold">Concepts</h2>
+          <Button as="a" href={withBase('/concepts')} variant="ghost" size="sm">Browse all concepts →</Button>
+        </div>
+        <Grid cols={{ base: 1, md: 2, lg: 3 }} gap={6}>
+          {
+            concepts.slice(0, 3).map((c) => (
+              <Card variant="interactive" href={withBase(`/concepts/${c.slug}`)}>
+                <CardHeader>
+                  <Tag>{c.level}</Tag>
+                  <h3 class="text-text text-h3 mt-2 font-semibold">{c.name}</h3>
+                </CardHeader>
+                <CardBody>{c.summary}</CardBody>
+                <CardFooter>
+                  <Button variant="ghost" size="sm">
+                    Read concept →
+                  </Button>
+                </CardFooter>
+              </Card>
+            ))
+          }
+        </Grid>
+      </div>
+    </Section>
+  </Container>
+</SiteShell>

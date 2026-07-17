@@ -10,6 +10,7 @@ import { Tag } from '@/components/ui/Tag';
 import { Button } from '@/components/ui/Button';
 import { getAllJobs } from '@/lib/data/entities';
 import type { JobTypeValue } from '@/lib/schemas/entity';
+import { withBase } from '@/lib';
 
 const jobs = getAllJobs();
 
@@ -91,7 +92,7 @@ function formatDate(iso: string): string {
               {jobs.map((j) => (
                 <Card
                   variant="interactive"
-                  href={`/jobs/${j.slug}`}
+                  href={withBase(`/jobs/${j.slug}`)}
                   data-job-type={j.jobType}
                   class="job-card"
                 >

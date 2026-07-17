@@ -1,6 +1,7 @@
 import Fuse from 'fuse.js';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { KeyboardEvent } from 'react';
+import { withBase } from '../../lib/utils/url';
 
 export interface SearchIndexItem {
   id: string;
@@ -33,7 +34,7 @@ export function CommandPalette({
   useEffect(() => {
     if (!open) return;
     let cancelled = false;
-    fetch(indexUrl)
+    fetch(withBase(indexUrl))
       .then((res) => (res.ok ? res.json() : []))
       .then((data: SearchIndexItem[]) => {
         if (!cancelled) setItems(data);
@@ -88,7 +89,7 @@ export function CommandPalette({
       e.preventDefault();
       const target = results[active];
       if (target) {
-        window.location.href = target.url;
+        window.location.href = withBase(target.url);
       }
     } else if (e.key === 'Escape') {
       onClose();
@@ -130,7 +131,7 @@ export function CommandPalette({
             results.map((item, idx) => (
               <li key={item.id} role="option" aria-selected={idx === active}>
                 <a
-                  href={item.url}
+                  href={withBase(item.url)}
                   onMouseEnter={() => setActive(idx)}
                   className={`flex flex-col gap-1 px-4 py-2 ${
                     idx === active ? 'bg-surface-elevated' : ''

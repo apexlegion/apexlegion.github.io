@@ -72,10 +72,12 @@ jobs:
 
       - name: Build
         env:
-          # actions/configure-pages resolves the correct public origin for the
-          # Pages site (custom domain or <owner>.github.io) so canonical URLs,
-          # sitemap.xml, and structured data all point at the live host.
+          # actions/configure-pages resolves the correct public origin and
+          # subpath for the Pages site (custom domain or <owner>.github.io,
+          # project page vs. root page) so canonical URLs, sitemap.xml,
+          # internal links, and structured data all point at the live host.
           PUBLIC_SITE_URL: ${{ steps.pages.outputs.origin }}
+          PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
         run: pnpm run build
 
       - name: Upload Pages artifact

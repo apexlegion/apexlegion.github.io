@@ -8,6 +8,7 @@ import { Card, CardBody, CardFooter, CardHeader } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { Tag } from '@/components/ui/Tag';
 import { getEntitiesByType } from '@/lib/data/entities';
+import { withBase } from '@/lib';
 
 const categories = [
   {
@@ -66,7 +67,7 @@ const categories = [
     href: '/graph',
     cta: 'Explore the graph',
   },
-];
+].map((c) => ({ ...c, href: withBase(c.href) }));
 
 // Pull real entities so the featured cards link to real detail pages.
 const bySlug = (type: 'project' | 'model', slug: string) =>
@@ -91,11 +92,12 @@ const stats = [
   { value: '$0', label: 'Forever free' },
 ];
 
+// First hands-on lessons of the Academy's beginner track — doing, not reading.
 const beginnerSteps = [
-  { slug: 'artificial-intelligence', name: 'What is AI?' },
-  { slug: 'large-language-model', name: 'What is an LLM?' },
-  { slug: 'open-weights', name: 'Why “open source” AI?' },
-  { slug: 'inference', name: 'How do you run one?' },
+  { slug: 'your-first-five-minutes', name: 'Your first 5 minutes with AI' },
+  { slug: 'write-any-email', name: 'Write any email' },
+  { slug: 'summarize-anything', name: 'Summarize anything' },
+  { slug: 'make-your-first-image', name: 'Make your first image' },
 ];
 ---
 
@@ -115,7 +117,7 @@ const beginnerSteps = [
     </div>
     <Container class="flex flex-col items-center gap-7 py-20 text-center md:py-28">
       <a
-        href="/learn"
+        href={withBase('/learn')}
         class="border-primary-orange/30 bg-primary-orange/10 text-primary-orange hover:bg-primary-orange/15 inline-flex items-center gap-2 rounded-full border px-4 py-1.5 text-sm font-medium transition-colors"
       >
         <span class="bg-primary-orange h-1.5 w-1.5 rounded-full"></span>
@@ -154,8 +156,8 @@ const beginnerSteps = [
         </button>
       </div>
       <div class="flex flex-wrap items-center justify-center gap-3">
-        <Button as="a" href="/learn" size="lg" iconRight="→">Start learning free</Button>
-        <Button as="a" href="/projects" size="lg" variant="secondary">Browse the tools</Button>
+        <Button as="a" href={withBase('/learn')} size="lg" iconRight="→">Start learning free</Button>
+        <Button as="a" href={withBase('/projects')} size="lg" variant="secondary">Browse the tools</Button>
       </div>
 
       <!-- Stat row -->
@@ -187,7 +189,7 @@ const beginnerSteps = [
         {
           beginnerSteps.map((step, i) => (
             <a
-              href={`/concepts/${step.slug}`}
+              href={withBase(`/learn/${step.slug}`)}
               class="border-border bg-surface-card hover:border-primary-orange text-text-muted hover:text-text inline-flex items-center gap-2 rounded-lg border px-3 py-2 text-sm font-medium transition-colors"
             >
               <span class="text-primary-orange font-mono text-xs">{i + 1}</span>
@@ -236,7 +238,7 @@ const beginnerSteps = [
     <Grid cols={{ base: 1, md: 3 }} gap={6}>
       {
         featuredProjects.map((p) => (
-          <Card variant="interactive" href={`/projects/${p!.slug}`} className="group h-full">
+          <Card variant="interactive" href={withBase(`/projects/${p!.slug}`)} className="group h-full">
             <CardHeader>
               <Tag>{(p as { category?: string }).category ?? 'Project'}</Tag>
               <h3 class="text-text group-hover:text-primary-orange text-h3 mt-2 font-semibold transition-colors">
@@ -252,7 +254,7 @@ const beginnerSteps = [
       }
     </Grid>
     <div class="mt-6 flex justify-center">
-      <Button as="a" href="/projects" variant="secondary">See all projects →</Button>
+      <Button as="a" href={withBase('/projects')} variant="secondary">See all projects →</Button>
     </div>
   </Section>
 
@@ -266,7 +268,7 @@ const beginnerSteps = [
     <Grid cols={{ base: 1, md: 3 }} gap={6}>
       {
         featuredModels.map((m) => (
-          <Card variant="interactive" href={`/models/${m!.slug}`} className="group h-full">
+          <Card variant="interactive" href={withBase(`/models/${m!.slug}`)} className="group h-full">
             <CardHeader>
               <Tag>{(m as { modality?: string }).modality ?? 'Model'}</Tag>
               <h3 class="text-text group-hover:text-primary-orange text-h3 mt-2 font-semibold transition-colors">
@@ -282,7 +284,7 @@ const beginnerSteps = [
       }
     </Grid>
     <div class="mt-6 flex justify-center">
-      <Button as="a" href="/models" variant="secondary">See all models →</Button>
+      <Button as="a" href={withBase('/models')} variant="secondary">See all models →</Button>
     </div>
   </Section>
 
@@ -299,7 +301,7 @@ const beginnerSteps = [
           Every project, model, and concept is one connected graph. Click any node to expand its
           neighbourhood and follow the threads.
         </p>
-        <Button as="a" href="/graph" size="lg">Explore the graph →</Button>
+        <Button as="a" href={withBase('/graph')} size="lg">Explore the graph →</Button>
       </div>
     </div>
   </Section>

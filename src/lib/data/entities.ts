@@ -18,6 +18,7 @@ import jobsJson from '@/data/seed/jobs.json';
 import eventsJson from '@/data/seed/events.json';
 import newsJson from '@/data/seed/news.json';
 import type { Entity, Relation } from '@/lib/schemas/entity';
+import { withBase } from '@/lib/utils/url';
 import {
   EntitySchema,
   PlaygroundSchema,
@@ -138,7 +139,7 @@ function entityToNode(entity: Entity): GraphNode {
     type: entity.type,
     name: entity.name,
     slug: entity.slug,
-    href: `/${entity.type === 'tutorial' ? 'tutorials' : `${entity.type}s`}/${entity.slug}`,
+    href: withBase(`/${entity.type === 'tutorial' ? 'tutorials' : `${entity.type}s`}/${entity.slug}`),
     summary: entity.summary,
   };
 }

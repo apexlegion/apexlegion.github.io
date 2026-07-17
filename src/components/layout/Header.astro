@@ -7,6 +7,7 @@
  */
 import GlobalNav from './GlobalNav.astro';
 import { DEFAULT_LOCALE, normalizeLocale, type Locale } from '@/i18n/utils';
+import { withBase } from '@/lib';
 
 export interface Props {
   links?: { label: string; href: string }[];
@@ -26,7 +27,7 @@ const {
     { label: 'Graph', href: '/graph' },
     { label: 'News', href: '/news' },
     { label: 'Dashboard', href: '/dashboard' },
-  ],
+  ].map((l) => ({ ...l, href: withBase(l.href) })),
   lang,
 } = Astro.props;
 

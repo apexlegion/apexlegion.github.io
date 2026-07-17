@@ -7,6 +7,7 @@
  * the link hrefs get the `/es` prefix. Defaults to English.
  */
 import { DEFAULT_LOCALE, normalizeLocale, type Locale, getTranslations } from '@/i18n/utils';
+import { withBase } from '@/lib';
 
 export interface Props {
   lang?: string;
@@ -15,7 +16,7 @@ export interface Props {
 const { lang } = Astro.props;
 const resolvedLang: Locale = normalizeLocale(lang ?? DEFAULT_LOCALE);
 const t = getTranslations(resolvedLang);
-const homeHref = resolvedLang === 'es' ? '/es' : '/';
+const homeHref = withBase(resolvedLang === 'es' ? '/es' : '/');
 const prefix = resolvedLang === 'es' ? '/es' : '';
 
 const groups = [
@@ -46,7 +47,10 @@ const groups = [
       { label: t['footer.links.about'] ?? 'About', href: `${prefix}/about` },
     ],
   },
-];
+].map((group) => ({
+  ...group,
+  links: group.links.map((l) => ({ ...l, href: withBase(l.href) })),
+}));
 
 const year = new Date().getFullYear();
 const copyright = (

@@ -20,6 +20,7 @@ import { BookmarkButton } from '@/components/collections/BookmarkButton';
 import type { Entity } from '@/lib/schemas/entity';
 import type { GraphNode } from '@/lib/graph/types';
 import { getAdjacencyList } from '@/lib/data/entities';
+import { withBase } from '@/lib';
 
 export interface Props {
   entity: Entity;
@@ -32,7 +33,9 @@ export interface Props {
 
 const { entity, breadcrumbs, learnNext, compareHref } = Astro.props;
 const nodeId = `${entity.type}/${entity.slug}`;
-const entityHref = `/${entity.type === 'tutorial' ? 'tutorials' : `${entity.type}s`}/${entity.slug}`;
+const entityHref = withBase(
+  `/${entity.type === 'tutorial' ? 'tutorials' : `${entity.type}s`}/${entity.slug}`,
+);
 const bookmarkEntity = {
   id: nodeId,
   type: entity.type,
@@ -78,7 +81,7 @@ const timelineEvents: TimelineEventProps[] = entity.timeline.map((t) => ({
               </Button>
             ))}
             {compareHref ? (
-              <Button as="a" href={compareHref} variant="primary" size="sm">
+              <Button as="a" href={withBase(compareHref)} variant="primary" size="sm">
                 Compare ↔
               </Button>
             ) : null}
@@ -115,7 +118,7 @@ const timelineEvents: TimelineEventProps[] = entity.timeline.map((t) => ({
                 {learnNext.map((next) => (
                   <li>
                     <a
-                      href={next.href}
+                      href={withBase(next.href)}
                       class="border-border bg-surface-card hover:border-border-strong text-text flex items-center justify-between rounded-md border px-4 py-3 transition-colors"
                     >
                       <span class="flex flex-col">

@@ -5,14 +5,19 @@ import react from '@astrojs/react';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 
-// AI Atlas is deployed to GitHub Pages. When a custom domain is not configured,
-// the site is served from https://<owner>.github.io/<repo>. The `site` option
-// below drives canonical URLs, sitemap.xml, and structured metadata.
-// Override via env vars when deploying elsewhere.
-const SITE = process.env.PUBLIC_SITE_URL ?? 'https://ai-atlas.dev';
+// AI Atlas is deployed to GitHub Pages as a project page (not a
+// <owner>.github.io root repo), so it's served from
+// https://<owner>.github.io/<repo>/ — the `base` option below must match the
+// repo name so internal links resolve under that subpath instead of the
+// domain root. `deploy.yml` derives both PUBLIC_SITE_URL and
+// PUBLIC_BASE_PATH from `actions/configure-pages` at build time so this
+// stays correct even if the repo is renamed again.
+const SITE = process.env.PUBLIC_SITE_URL ?? 'https://apexlegion.github.io';
+const BASE_PATH = process.env.PUBLIC_BASE_PATH ?? '/aiatlas';
 
 export default defineConfig({
   site: SITE,
+  base: BASE_PATH,
   trailingSlash: 'never',
   // i18n: English (default) lives at "/" with no prefix; Spanish ("es") lives
   // under "/es". New locales can be added to `locales` and a matching set of

@@ -8,6 +8,7 @@ import { Badge } from '@/components/ui/Badge';
 import { Tag } from '@/components/ui/Tag';
 import { Button } from '@/components/ui/Button';
 import { getAllNews, getNewsBySlug, isNewsExpired } from '@/lib/data/entities';
+import { withBase } from '@/lib';
 
 export async function getStaticPaths() {
   // Include expired news in static paths so the detail page remains reachable
@@ -29,7 +30,7 @@ function formatDate(iso: string): string {
 
 const verified = getNewsBySlug(news.slug);
 if (!verified) {
-  return Astro.redirect('/404');
+  return Astro.redirect(withBase('/404'));
 }
 ---
 
@@ -113,7 +114,7 @@ if (!verified) {
       </div>
 
       <div class="mt-8 flex flex-wrap items-center gap-3">
-        <Button variant="ghost" href="/news"> ← All news </Button>
+        <Button variant="ghost" href={withBase('/news')}> ← All news </Button>
       </div>
     </Section>
   </Container>
