@@ -5,8 +5,20 @@
  * Reads `data-modality` and `data-parameters` attributes from each card and
  * toggles visibility based on the selected modality filter and sort order.
  *
+ * The modality chips are passed in from the page (derived from the actual
+ * model data) so a chip can never reference a modality no model has.
+ *
  * Renders nothing of substance — it just wires event handlers.
  */
+interface Props {
+  /** Distinct modalities present in the data, e.g. ['Audio','Image','Text']. */
+  modalities: string[];
+}
+
+const { modalities } = Astro.props;
+
+const chipBase =
+  'bg-surface-elevated data-[active=true]:border-primary-orange data-[active=true]:text-primary-orange text-small focus-visible:ring-primary-orange focus-visible:ring-offset-surface inline-flex h-9 items-center rounded-full border px-3 font-medium transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none';
 ---
 
 <div
@@ -20,46 +32,23 @@
       data-modality-chip="all"
       aria-pressed="true"
       data-active="true"
-      class="border-border-strong bg-surface-elevated text-text data-[active=true]:border-primary-orange data-[active=true]:text-primary-orange text-small focus-visible:ring-primary-orange focus-visible:ring-offset-surface inline-flex h-9 items-center rounded-full border px-3 font-medium transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+      class={`border-border-strong text-text ${chipBase}`}
     >
       All
     </button>
-    <button
-      type="button"
-      data-modality-chip="Text"
-      aria-pressed="false"
-      data-active="false"
-      class="border-border bg-surface-elevated text-text-muted hover:text-text data-[active=true]:border-primary-orange data-[active=true]:text-primary-orange text-small focus-visible:ring-primary-orange focus-visible:ring-offset-surface inline-flex h-9 items-center rounded-full border px-3 font-medium transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
-    >
-      Text
-    </button>
-    <button
-      type="button"
-      data-modality-chip="Vision"
-      aria-pressed="false"
-      data-active="false"
-      class="border-border bg-surface-elevated text-text-muted hover:text-text data-[active=true]:border-primary-orange data-[active=true]:text-primary-orange text-small focus-visible:ring-primary-orange focus-visible:ring-offset-surface inline-flex h-9 items-center rounded-full border px-3 font-medium transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
-    >
-      Vision
-    </button>
-    <button
-      type="button"
-      data-modality-chip="Audio"
-      aria-pressed="false"
-      data-active="false"
-      class="border-border bg-surface-elevated text-text-muted hover:text-text data-[active=true]:border-primary-orange data-[active=true]:text-primary-orange text-small focus-visible:ring-primary-orange focus-visible:ring-offset-surface inline-flex h-9 items-center rounded-full border px-3 font-medium transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
-    >
-      Audio
-    </button>
-    <button
-      type="button"
-      data-modality-chip="Multimodal"
-      aria-pressed="false"
-      data-active="false"
-      class="border-border bg-surface-elevated text-text-muted hover:text-text data-[active=true]:border-primary-orange data-[active=true]:text-primary-orange text-small focus-visible:ring-primary-orange focus-visible:ring-offset-surface inline-flex h-9 items-center rounded-full border px-3 font-medium transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
-    >
-      Multimodal
-    </button>
+    {
+      modalities.map((modality) => (
+        <button
+          type="button"
+          data-modality-chip={modality}
+          aria-pressed="false"
+          data-active="false"
+          class={`border-border text-text-muted hover:text-text ${chipBase}`}
+        >
+          {modality}
+        </button>
+      ))
+    }
   </div>
 
   <label class="flex items-center gap-2">

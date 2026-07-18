@@ -32,6 +32,14 @@
 - **2026-07-17: the Learn Academy shipped and is live.** `/learn` is now a
   3-track, hands-on curriculum (34 lessons); see §3.5. Production build emits
   **203 pages**, verified both in a local served build and on the live site.
+- **2026-07-18: post-launch bug sweep (user-reported "tons of broken things").**
+  Root causes found and fixed — see §3.6. Two real bugs (models filter,
+  graph layout) + 4 stale PWA tests updated. **194/194 tests pass.** Two
+  reported symptoms were NOT code bugs: the tools filter and the concept
+  level switcher both work (early test probes read the DOM before React's
+  async re-render — always re-check state in a follow-up call); and
+  "Jan — No related entities yet" is a data gap (that project simply has no
+  relations authored in `relations.json`), not a rendering bug.
 
 **Why the rename is needed at all:** the current repo is named
 `apexlegion.github.io`, which GitHub treats as the account's *root* user page
@@ -249,6 +257,59 @@ OSS alternative card.
 build and confirmed: islands hydrate, mark-done persists and shows on the
 landing progress bars, copy button present, all `/learn` hrefs base-prefixed,
 no console errors.
+
+---
+
+## 3.6. Post-launch bug sweep (2026-07-18)
+
+Kunal reported broken things on the live site after the rename/Academy launch.
+Systematic diagnosis results:
+
+### Real bug 1 — models modality filter never matched anything
+
+`/models` filter chips were **hardcoded** to `Text / Vision / Audio /
+Multimodal`, but `models.json` uses `Text / Image / Audio`. So "Vision" and
+"Multimodal" always showed "No models match this filter", and Image models
+(SDXL, FLUX.1) had no chip at all.
+**Fix:** `src/pages/models/index.astro` now derives the distinct modality list
+from the data and passes it to `ModelDirectoryFilters.astro`, which renders
+chips from that prop. Chips can never drift from the data again (also
+future-proofs the nightly scraper adding new modalities).
+**Verified:** chips render `All/Audio/Image/Text`; filtering shows 1/2/7 cards
+respectively; All restores 10.
+
+### Real bug 2 — knowledge-graph "clump"
+
+`layoutNodes` in `src/lib/graph/explorer.ts` assigned rings by a fixed type
+order with `project` on the **smallest** ring (the code even contradicted its
+own docstring), so ~49 project nodes overlapped into an unreadable blob at the
+center of `/graph`.
+**Fix:** rings are now ordered fewest→most populated (inner→outer), and each
+ring's radius is computed from its node count to guarantee ≥74px of arc per
+node (`MIN_NODE_ARC`), with a minimum radial gap between rings. The SVG
+viewBox auto-fits, so bigger rings scale rather than overflow. Layout stays
+deterministic/analytic (no physics) to keep SSR/client markup identical.
+**Verified:** 93 nodes, minimum pairwise node distance **73.9px** (was ~8px);
+labels readable; node click still selects + shows relations in the sidebar.
+
+### Test suite — 4 stale assertions updated
+
+`tests/unit/pwa.test.ts` still asserted pre-migration root paths
+(`start_url: '/'`, `/favicon.svg`, literal `'/offline'` in `sw.js`). Updated
+to assert the intended post-migration behavior (`/aiatlas/` manifest paths;
+`sw.js` deriving `${BASE}` from `self.registration.scope`). **194/194 pass.**
+
+### Reported symptoms that were NOT code bugs
+
+- **Tools filter & concept level switcher work correctly.** Early automated
+  probes concluded "broken" because they read the DOM in the same JS call as
+  the click — React 18 re-renders asynchronously. Re-checking in a follow-up
+  call shows both features fully functional. (Diagnostic lesson recorded so
+  future sessions don't repeat it.)
+- **"Jan — No related entities yet"** on `/graph` node detail: the `jan`
+  project has no entries in `relations.json`. Content gap, not a bug. Several
+  scraped projects share this; authoring relations for orphan nodes is a
+  suggested next step (§10).
 
 ---
 

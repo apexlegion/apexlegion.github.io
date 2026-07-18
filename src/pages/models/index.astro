@@ -13,6 +13,10 @@ import { getEntitiesByType } from '@/lib/data/entities';
 import { withBase } from '@/lib';
 
 const models = getEntitiesByType('model');
+
+// Derive the modality filter chips from the data itself so a chip can never
+// point at a modality no model has (and every real modality gets a chip).
+const modalities = [...new Set(models.map((m) => m.modality).filter(Boolean))].sort();
 ---
 
 <SiteShell title="Models — AI Atlas" description="Open-weight AI models.">
@@ -27,7 +31,7 @@ const models = getEntitiesByType('model');
       </p>
     </header>
 
-    <ModelDirectoryFilters />
+    <ModelDirectoryFilters modalities={modalities} />
 
     <Section containerSize="wide">
       <Grid cols={{ base: 1, md: 2, lg: 3 }} gap={6}>

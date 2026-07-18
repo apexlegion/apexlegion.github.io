@@ -163,12 +163,25 @@ export function expandNode(
   };
 }
 
+/** Minimum arc distance (px) between two adjacent nodes on the same ring. */
+const MIN_NODE_ARC = 74;
+/** Minimum radial gap (px) between two concentric rings. */
+const RING_GAP = 104;
+/** Radius (px) of the innermost ring's baseline. */
+const INNER_RADIUS = 70;
+
 /**
- * Build a deterministic per-type circular layout. Each entity type gets
- * its own ring of nodes, with `project` on the outermost ring and the
- * remaining types on progressively smaller rings. This keeps the
- * visualisation readable without any physics simulation and works
- * perfectly with the seed data sizes (~50–100 entities).
+ * Build a deterministic per-type circular layout. Each entity type gets its
+ * own concentric ring, ordered so the least-populated types sit on the inner
+ * rings and the most-populated on the outer rings. Crucially, each ring's
+ * radius is sized so its nodes keep at least {@link MIN_NODE_ARC} px of arc
+ * between them — otherwise a type with many members (e.g. ~49 projects) would
+ * pile up on a small ring and overlap into an unreadable clump. The SVG
+ * viewBox in the explorer auto-fits the resulting bounds, so larger rings
+ * just scale the whole graph to fit rather than overflowing.
+ *
+ * No physics simulation — a stable analytic layout keeps SSR and client
+ * markup byte-identical (see the rounding note below).
  */
 function layoutNodes(
   nodes: readonly GraphNode[],
@@ -177,7 +190,6 @@ function layoutNodes(
 ): Map<string, PositionedNode> {
   const cx = width / 2;
   const cy = height / 2;
-  const minDim = Math.min(width, height);
   const byType = new Map<EntityType, GraphNode[]>();
   for (const node of nodes) {
     const list = byType.get(node.type) ?? [];
@@ -185,6 +197,8 @@ function layoutNodes(
     byType.set(node.type, list);
   }
 
+  // Deterministic tiebreak order for types with equal node counts, so the
+  // layout never depends on Map insertion / sort stability quirks.
   const ringOrder: EntityType[] = [
     'project',
     'model',
@@ -198,28 +212,38 @@ function layoutNodes(
     'company',
     'license',
   ];
-  const orderedTypes = ringOrder.filter((t) => byType.has(t));
-  // Append any unknown types at the end so the layout still works if the
-  // graph grows new entity types later on.
-  for (const type of byType.keys()) {
-    if (!orderedTypes.includes(type)) orderedTypes.push(type);
-  }
+  const rank = (t: EntityType): number => {
+    const i = ringOrder.indexOf(t);
+    return i === -1 ? ringOrder.length : i;
+  };
+
+  // Fewest-populated ring innermost → most-populated outermost. This gives the
+  // crowded rings the largest circumference, which is exactly what they need.
+  const orderedTypes = [...byType.keys()].sort((a, b) => {
+    const diff = (byType.get(a)?.length ?? 0) - (byType.get(b)?.length ?? 0);
+    return diff !== 0 ? diff : rank(a) - rank(b);
+  });
 
   const positioned = new Map<string, PositionedNode>();
-  const ringCount = orderedTypes.length;
-  const maxRadius = Math.max(0, minDim / 2 - 60);
+  const single = orderedTypes.length <= 1 && (byType.get(orderedTypes[0] ?? ('' as EntityType))?.length ?? 0) <= 1;
 
+  let radius = 0;
   orderedTypes.forEach((type, ringIdx) => {
     const list = (byType.get(type) ?? []).slice().sort((a, b) => a.name.localeCompare(b.name));
-    const ringRadius = ringCount <= 1 ? 0 : maxRadius * (0.25 + 0.75 * (ringIdx / (ringCount - 1)));
+    const count = list.length;
+    // Radius this ring needs so `count` nodes each get MIN_NODE_ARC of arc.
+    const radiusForSpacing = count <= 1 ? 0 : (count * MIN_NODE_ARC) / (2 * Math.PI);
+    // Grow monotonically outward and never crowd the previous ring.
+    radius = Math.max(radius + RING_GAP, radiusForSpacing, INNER_RADIUS + ringIdx * RING_GAP);
+
     list.forEach((node, idx) => {
-      const angle = list.length === 0 ? 0 : (2 * Math.PI * idx) / list.length - Math.PI / 2;
+      const angle = count === 0 ? 0 : (2 * Math.PI * idx) / count - Math.PI / 2;
       // Math.cos/Math.sin can differ by a single ULP between Node's V8 (SSR)
       // and the browser's V8 (hydration), which React treats as a hydration
       // mismatch. Rounding to a stable precision keeps the SSR and client
       // markup byte-identical; sub-hundredth-pixel differences are invisible.
-      const x = ringRadius === 0 ? cx : Math.round((cx + ringRadius * Math.cos(angle)) * 100) / 100;
-      const y = ringRadius === 0 ? cy : Math.round((cy + ringRadius * Math.sin(angle)) * 100) / 100;
+      const x = single ? cx : Math.round((cx + radius * Math.cos(angle)) * 100) / 100;
+      const y = single ? cy : Math.round((cy + radius * Math.sin(angle)) * 100) / 100;
       positioned.set(node.id, { ...node, x, y });
     });
   });

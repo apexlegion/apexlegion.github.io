@@ -26,7 +26,10 @@ describe('PWA web app manifest', () => {
   });
 
   it('configures standalone display and Atlas theme colours', () => {
-    expect(manifest.start_url).toBe('/');
+    // The site deploys as a GitHub Pages project page under /aiatlas/, and
+    // manifest.json is a static file, so the subpath is baked in.
+    expect(manifest.start_url).toBe('/aiatlas/');
+    expect(manifest.scope).toBe('/aiatlas/');
     expect(manifest.display).toBe('standalone');
     expect(manifest.background_color).toBe('#0B0B0B');
     expect(manifest.theme_color).toBe('#FF6A00');
@@ -46,7 +49,7 @@ describe('PWA web app manifest', () => {
     expect(sizes).toEqual(['192x192', '512x512']);
 
     for (const icon of icons) {
-      expect(icon.src).toBe('/favicon.svg');
+      expect(icon.src).toBe('/aiatlas/favicon.svg');
       expect(icon.type).toBe('image/svg+xml');
       expect(icon.purpose ?? '').toMatch(/maskable/);
     }
@@ -62,11 +65,14 @@ describe('PWA service worker', () => {
     expect(sw).toMatch(/['"]runtime-v\d+['"]/);
   });
 
-  it('precaches the app shell on install', () => {
+  it('precaches the app shell on install, relative to the deploy base', () => {
     expect(sw).toMatch(/addEventListener\(\s*['"]install['"]/);
-    expect(sw).toMatch(/['"]\/['"]/);
-    expect(sw).toMatch(/['"]\/offline['"]/);
-    expect(sw).toMatch(/['"]\/favicon\.svg['"]/);
+    // The SW derives its base path from its own registration scope at runtime
+    // so the precache list survives deploys under any subpath.
+    expect(sw).toMatch(/self\.registration\.scope/);
+    expect(sw).toMatch(/\$\{BASE\}\/`?/);
+    expect(sw).toMatch(/\$\{BASE\}\/offline/);
+    expect(sw).toMatch(/\$\{BASE\}\/favicon\.svg/);
   });
 
   it('handles fetch and activate events', () => {
@@ -76,7 +82,7 @@ describe('PWA service worker', () => {
   });
 
   it('falls back to the offline page on failed navigation', () => {
-    expect(sw).toMatch(/['"]\/offline['"]/);
+    expect(sw).toMatch(/\$\{BASE\}\/offline/);
     expect(sw).toMatch(/offlineFallback/);
   });
 });
