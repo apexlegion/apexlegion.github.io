@@ -4,7 +4,10 @@
   "name": "Model Routing Is Simple. Until It Isn’t.",
   "summary": "Model Routing Is Simple. Until It Isn’t.",
   "description": "Model Routing Is Simple. Until It Isn’t.",
-  "tags": ["news", "huggingface-blog"],
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

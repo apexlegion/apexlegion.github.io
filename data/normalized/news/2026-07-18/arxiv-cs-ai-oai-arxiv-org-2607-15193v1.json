@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-15193v1",
+  "name": "Plover: Steering GUI Agents through Plan-Centric Interaction",
+  "summary": "arXiv:2607.15193v1 Announce Type: new Abstract: Graphical user interface (GUI) automation remains challenging in real-world environments, where dynamic layouts, unexpected dialogs, and evolving int...",
+  "description": "arXiv:2607.15193v1 Announce Type: new Abstract: Graphical user interface (GUI) automation remains challenging in real-world environments, where dynamic layouts, unexpected dialogs, and evolving interface states can cause autonomous agents to drift from user intent. Recent vision-based multimodal agents improve flexibility by operating directly over screenshots and natural language instructions,...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.15193"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-18",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.15193"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-18",
+  "expiryAt": "2026-08-17T00:00:00.000Z",
+  "author": "Madhumitha Venkatesan, Shicheng Wen, Jiajing Guo, Jorge Piazentin Ono, Liu Ren, Dongyu Liu"
+}

@@ -4,7 +4,10 @@
   "name": "3 Questions: Neural transparency and the future of AI design",
   "summary": "Assistant Professor Pat Pataranutaporn describes a new interface that lets everyday users glimpse inside an AI's neural network before their chatbot ever says a word.",
   "description": "Assistant Professor Pat Pataranutaporn describes a new interface that lets everyday users glimpse inside an AI's neural network before their chatbot ever says a word.",
-  "tags": ["news", "mit-news-ai"],
+  "tags": [
+    "news",
+    "mit-news-ai"
+  ],
   "externalLinks": [
     {
       "label": "MIT News",

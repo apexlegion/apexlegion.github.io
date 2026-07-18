@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2406-01514v4",
+  "name": "Decoupled Alignment for Robust Plug-and-Play Adaptation",
+  "summary": "arXiv:2406.01514v4 Announce Type: replace-cross Abstract: We introduce a training-free safety enhancement method for aligning large language models (LLMs) without the need for supervised fine-tunin...",
+  "description": "arXiv:2406.01514v4 Announce Type: replace-cross Abstract: We introduce a training-free safety enhancement method for aligning large language models (LLMs) without the need for supervised fine-tuning or reinforcement learning from human feedback. Our main idea is to provide a robust plug-and-play approach to prevent shadow alignment when models are adapted to downstream tasks. Specifically, we l...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2406.01514"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-18",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2406.01514"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-18",
+  "expiryAt": "2026-08-17T00:00:00.000Z",
+  "author": "Haozheng Luo, Jiahao Yu, Wenxin Zhang, Jialong Li, Chenghao Qiu, Yimin Wang, Eric Hanchen Jiang, Jerry Yao-Chieh Hu, Yan Chen, Binghui Wang, Xinyu Xing, Han Liu"
+}

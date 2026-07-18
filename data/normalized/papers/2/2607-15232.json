@@ -4,7 +4,10 @@
   "name": "In-Place Tokenizer Expansion for Pre-trained LLMs",
   "summary": "A tokenizer fixed at the start of pre-training allocates vocabulary in proportion to the pre-training corpus, reflecting the deployment priorities at that time. When those priorities shift, languag...",
   "description": "A tokenizer fixed at the start of pre-training allocates vocabulary in proportion to the pre-training corpus, reflecting the deployment priorities at that time. When those priorities shift, languages added later are split into many more tokens per word, which can raise latency, compute, and energy consumption for users of those languages. Cloud models can afford a broad vocabulary because the embedding and LM-head matrices are a small fraction of their parameters. On a compact model those matrices are a material share of per-token decode bandwidth, so on-device models ship small vocabularie...",
-  "tags": ["arxiv", "cs.CL"],
+  "tags": [
+    "arxiv",
+    "cs.CL"
+  ],
   "externalLinks": [
     {
       "label": "arXiv abstract",

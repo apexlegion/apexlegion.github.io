@@ -4,7 +4,10 @@
   "name": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
   "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summit_Photo_1.max-600x600.format-webp.webp\"&gt;Google, the New York Jobs CEO Council and Urban Assembly hosted an AI su...",
   "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summit_Photo_1.max-600x600.format-webp.webp\"&gt;Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and industry leaders.",
-  "tags": ["news", "google-ai-blog"],
+  "tags": [
+    "news",
+    "google-ai-blog"
+  ],
   "externalLinks": [
     {
       "label": "Google AI Blog",

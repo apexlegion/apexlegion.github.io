@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-14739v1",
+  "name": "FoMoVLA: Bridging Visual Foresight and Motion Guidance for Vision-Language-Action Models",
+  "summary": "arXiv:2607.14739v1 Announce Type: cross Abstract: Vision-Language-Action (VLA) models have achieved impressive results in visuomotor policy learning, yet remain fundamentally reactive, mapping curr...",
+  "description": "arXiv:2607.14739v1 Announce Type: cross Abstract: Vision-Language-Action (VLA) models have achieved impressive results in visuomotor policy learning, yet remain fundamentally reactive, mapping current observations and language to actions without explicit forward prediction of world dynamics. Existing visual foresight methods predict future visual states but lack explicit motion guidance: they s...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.14739"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-18",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.14739"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-18",
+  "expiryAt": "2026-08-17T00:00:00.000Z",
+  "author": "Wei Li, Peijin Jia, Yuan Ma, Xuefeng Jiang, Titong Jiang, Sheng Sun, Yujian Li, Xin Wen, Han Hong, Zhikang Liu, Bailin Li, Kun Zhan"
+}

@@ -4,7 +4,10 @@
   "name": "Introducing GPT-Live",
   "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
   "description": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
-  "tags": ["news", "openai-blog"],
+  "tags": [
+    "news",
+    "openai-blog"
+  ],
   "externalLinks": [
     {
       "label": "OpenAI Blog",

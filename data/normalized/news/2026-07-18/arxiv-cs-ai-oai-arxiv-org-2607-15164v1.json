@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-15164v1",
+  "name": "The Industrialization of Research ; On AI-Driven Science and Its Consequences",
+  "summary": "arXiv:2607.15164v1 Announce Type: new Abstract: Artificial intelligence is transforming scientific research -- not merely as a more powerful instrument, but as an autonomous participant in the rese...",
+  "description": "arXiv:2607.15164v1 Announce Type: new Abstract: Artificial intelligence is transforming scientific research -- not merely as a more powerful instrument, but as an autonomous participant in the research cycle itself. This transition constitutes, in the most precise sense of the term, the industrialization of research: a shift from a craft model, in which knowledge, method, and judgment are embed...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.15164"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-18",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.15164"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-18",
+  "expiryAt": "2026-08-17T00:00:00.000Z",
+  "author": "Emmanuel Jeannot"
+}

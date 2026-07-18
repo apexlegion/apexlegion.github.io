@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-15216v1",
+  "name": "Symbal: Detecting Systematic Misalignments in Model-Generated Captions",
+  "summary": "arXiv:2607.15216v1 Announce Type: cross Abstract: Multimodal large language models (MLLMs) often introduce errors when generating image captions, resulting in misaligned image-text pairs. Our work...",
+  "description": "arXiv:2607.15216v1 Announce Type: cross Abstract: Multimodal large language models (MLLMs) often introduce errors when generating image captions, resulting in misaligned image-text pairs. Our work focuses on a class of captioning errors that we refer to as systematic misalignments, where a recurring error in MLLM-generated captions is closely associated with the presence of a specific visual fe...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.15216"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-18",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.15216"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-18",
+  "expiryAt": "2026-08-17T00:00:00.000Z",
+  "author": "Maya Varma, Jean-Benoit Delbrouck, Sophie Ostmeier, Akshay Chaudhari, Curtis Langlotz"
+}

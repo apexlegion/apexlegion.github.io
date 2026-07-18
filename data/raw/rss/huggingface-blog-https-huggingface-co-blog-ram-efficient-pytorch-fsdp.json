@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/ram-efficient-pytorch-fsdp",
-  "fetchedAt": "2026-07-17T05:20:13.304Z",
+  "fetchedAt": "2026-07-18T04:54:45.378Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/ram-efficient-pytorch-fsdp",
     "title": "Fine-tuning Llama 2 70B using PyTorch FSDP",

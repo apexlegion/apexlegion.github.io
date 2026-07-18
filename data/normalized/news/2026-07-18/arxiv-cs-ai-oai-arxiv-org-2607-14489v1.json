@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-14489v1",
+  "name": "EdgeFaaS: A Function-based Framework for Edge Computing",
+  "summary": "arXiv:2607.14489v1 Announce Type: cross Abstract: Edge computing brings unique challenges as the resources on the edge are highly diverse in capabilities and capacities, and highly distributed acro...",
+  "description": "arXiv:2607.14489v1 Announce Type: cross Abstract: Edge computing brings unique challenges as the resources on the edge are highly diverse in capabilities and capacities, and highly distributed across many users and the physical world. Existing distributed computing frameworks cannot adequately handle this level of heterogeneity and distribution. This paper proposes EdgeFaaS, a novel function-ba...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.14489"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-18",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.14489"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-18",
+  "expiryAt": "2026-08-17T00:00:00.000Z",
+  "author": "Neha Vadnere, Yu-Ting Wang, Yitao Chen, Sreehari Sadesh, Ming Zhao"
+}

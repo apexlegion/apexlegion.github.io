@@ -1,13 +1,13 @@
 {
   "source": "rss",
   "sourceId": "arxiv-cs-ai:oai:arXiv.org:2603.26842v3",
-  "fetchedAt": "2026-07-17T05:20:13.332Z",
+  "fetchedAt": "2026-07-18T04:54:45.491Z",
   "data": {
     "guid": "arxiv-cs-ai:oai:arXiv.org:2603.26842v3",
     "title": "VAN-AD: Visual Masked Autoencoder with Normalizing Flow For Time Series Anomaly Detection",
     "link": "https://arxiv.org/abs/2603.26842",
     "description": "arXiv:2603.26842v3 Announce Type: replace-cross Abstract: Time series anomaly detection (TSAD) is essential for maintaining the reliability and security of IoT-enabled service systems. Existing methods require training one specific model for each dataset, which exhibits limited generalization capability across different target datasets, hindering anomaly detection performance in various scenarios with scarce training data. To address this limitation, foundation models have emerged as a promising direction. However, existing approaches either repurpose large language models (LLMs) or construct largescale time series datasets to develop general anomaly detection foundation models, and still face challenges caused by severe cross-modal gaps or in-domain heterogeneity. In this paper, we investigate the applicability of large-scale vision models to TSAD. Specifically, we adapt a visual Masked Autoencoder (MAE) pretrained on ImageNet to the TSAD task. However, directly transferring MAE to TSAD introduces two key challenges: overgeneralization and limited local perception. To address these challenges, we propose VAN-AD, a novel MAE-based framework for TSAD. To alleviate the over-generalization issue, we design an Adaptive Distribution Mapping Module (ADMM), which maps the reconstruction results before and after MAE into a unified statistical space to amplify discrepancies caused by abnormal patterns. To overcome the limitation of local perception, we further develop a Normalizing Flow Module (NFM), which combines MAE with normalizing flow to estimate the probability density of the current window under the global distribution. Extensive experiments on nine real-world datasets demonstrate that VAN-AD consistently outperforms existing state-of-the-art methods across multiple evaluation metrics.We make our code and datasets available at https://github.com/PenyChen/VAN-AD.",
-    "publishedAt": "2026-07-17",
+    "publishedAt": "2026-07-18",
     "author": "PengYu Chen, Shang Wan, Xiaohou Shi, Yuan Chang, Yan Sun, Sajal K. Das",
     "feedId": "arxiv-cs-ai",
     "source": "arXiv cs.AI"

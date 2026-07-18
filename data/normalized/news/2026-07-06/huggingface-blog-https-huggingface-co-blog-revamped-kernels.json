@@ -4,7 +4,10 @@
   "name": "🤗 Kernels: Major Updates",
   "summary": "🤗 Kernels: Major Updates",
   "description": "🤗 Kernels: Major Updates",
-  "tags": ["news", "huggingface-blog"],
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

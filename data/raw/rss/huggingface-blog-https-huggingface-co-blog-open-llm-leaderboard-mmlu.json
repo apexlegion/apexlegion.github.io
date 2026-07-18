@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/open-llm-leaderboard-mmlu",
-  "fetchedAt": "2026-07-17T05:20:13.304Z",
+  "fetchedAt": "2026-07-18T04:54:45.378Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/open-llm-leaderboard-mmlu",
     "title": "What&apos;s going on with the Open LLM Leaderboard?",

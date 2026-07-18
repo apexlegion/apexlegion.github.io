@@ -4,7 +4,10 @@
   "name": "OpenAI and Broadcom unveil LLM-optimized inference chip",
   "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
   "description": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
-  "tags": ["news", "openai-blog"],
+  "tags": [
+    "news",
+    "openai-blog"
+  ],
   "externalLinks": [
     {
       "label": "OpenAI Blog",

@@ -4,7 +4,10 @@
   "name": "A better way to model the behavior of metal alloys",
   "summary": "MIT researchers’ approach captures subtle atomic patterns, improving predictions of material properties.",
   "description": "MIT researchers’ approach captures subtle atomic patterns, improving predictions of material properties.",
-  "tags": ["news", "mit-news-ai"],
+  "tags": [
+    "news",
+    "mit-news-ai"
+  ],
   "externalLinks": [
     {
       "label": "MIT News",

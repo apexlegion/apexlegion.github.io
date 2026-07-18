@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2602-22568v2",
+  "name": "Quality-Aware Robust Multi-View Clustering for Heterogeneous Observation Noise",
+  "summary": "arXiv:2602.22568v2 Announce Type: replace-cross Abstract: Deep multi-view clustering has achieved remarkable progress but remains vulnerable to complex noise in real-world applications. Existing no...",
+  "description": "arXiv:2602.22568v2 Announce Type: replace-cross Abstract: Deep multi-view clustering has achieved remarkable progress but remains vulnerable to complex noise in real-world applications. Existing noisy robust methods predominantly rely on a simplified binary assumption, treating data as either perfectly clean or completely corrupted. This overlooks the prevalent existence of heterogeneous observ...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2602.22568"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-18",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2602.22568"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-18",
+  "expiryAt": "2026-08-17T00:00:00.000Z",
+  "author": "Peihan Wu, Guanjie Cheng, Yufei Tong, Meng Xi, Shuiguang Deng"
+}

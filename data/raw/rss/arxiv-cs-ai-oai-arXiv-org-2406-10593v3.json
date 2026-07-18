@@ -1,13 +1,13 @@
 {
   "source": "rss",
   "sourceId": "arxiv-cs-ai:oai:arXiv.org:2406.10593v3",
-  "fetchedAt": "2026-07-17T05:20:13.331Z",
+  "fetchedAt": "2026-07-18T04:54:45.491Z",
   "data": {
     "guid": "arxiv-cs-ai:oai:arXiv.org:2406.10593v3",
     "title": "QDA-SQL: Questions Enhanced Dialogue Augmentation for Multi-Turn Text-to-SQL",
     "link": "https://arxiv.org/abs/2406.10593",
     "description": "arXiv:2406.10593v3 Announce Type: replace Abstract: Fine-tuning large language models (LLMs) for specific domain tasks has achieved great success in Text-to-SQL tasks. However, these fine-tuned models often face challenges with multi-turn Text-to-SQL tasks caused by ambiguous or unanswerable questions. It is desired to enhance LLMs to handle multiple types of questions in multi-turn Text-to-SQL tasks. To address this, we propose a novel data augmentation method, called QDA-SQL, which generates multiple types of multi-turn Q\\&amp;A pairs using LLMs. In QDA-SQL, we introduce a method incorporating validation and correction mechanisms to handle complex multi-turn Text-to-SQL tasks. Experimental results demonstrate that QDA-SQL enables fine-tuned models to exhibit higher performance on SQL statement accuracy and enhances their ability to handle complex, unanswerable questions in multi-turn Text-to-SQL tasks. The generation script and test set are released at https://github.com/mcxiaoxiao/QDA-SQL",
-    "publishedAt": "2026-07-17",
+    "publishedAt": "2026-07-18",
     "author": "Yinggang Sun, Ziming Guo, Haining Yu, Chuanyi Liu, Xiang Li, Bingxuan Wang, Xiangzhan Yu, Tiancheng Zhao",
     "feedId": "arxiv-cs-ai",
     "source": "arXiv cs.AI"

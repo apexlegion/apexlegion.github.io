@@ -4,7 +4,10 @@
   "name": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
   "summary": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
   "description": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
-  "tags": ["news", "huggingface-blog"],
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

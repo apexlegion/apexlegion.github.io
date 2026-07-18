@@ -4,7 +4,10 @@
   "name": "Hugging Face Models on Foundry Managed Compute",
   "summary": "Hugging Face Models on Foundry Managed Compute",
   "description": "Hugging Face Models on Foundry Managed Compute",
-  "tags": ["news", "huggingface-blog"],
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

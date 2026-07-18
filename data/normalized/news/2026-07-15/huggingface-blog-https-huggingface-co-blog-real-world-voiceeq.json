@@ -4,7 +4,10 @@
   "name": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
   "summary": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
   "description": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
-  "tags": ["news", "huggingface-blog"],
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/fine-tune-wav2vec2-english",
-  "fetchedAt": "2026-07-17T05:20:13.304Z",
+  "fetchedAt": "2026-07-18T04:54:45.381Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/fine-tune-wav2vec2-english",
     "title": "Fine-Tune Wav2Vec2 for English ASR in Hugging Face with 🤗 Transformers",

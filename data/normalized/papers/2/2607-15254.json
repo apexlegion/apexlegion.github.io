@@ -4,7 +4,10 @@
   "name": "teLLMe Why (Ain't Nothing but a Jam): Exploratory Causal Analysis of Urban Driving Data",
   "summary": "Traffic agencies now have access to large volumes of video-derived data for studying safety and congestion. Most of these data are observational and collected without interventions, which makes cau...",
   "description": "Traffic agencies now have access to large volumes of video-derived data for studying safety and congestion. Most of these data are observational and collected without interventions, which makes causal questions such as \"How would rain change traffic density?\" difficult to answer. We present teLLMe, a system for exploratory causal analysis of urban driving datasets. The system starts from a structured event table built from dashcam annotations and combines causal structure learning with the PC algorithm, bootstrap-based stability checks, and query-specific effect estimation using linear regr...",
-  "tags": ["arxiv", "cs.AI"],
+  "tags": [
+    "arxiv",
+    "cs.AI"
+  ],
   "externalLinks": [
     {
       "label": "arXiv abstract",
@@ -20,7 +23,10 @@
       "href": "https://arxiv.org/abs/2607.15254v1"
     }
   ],
-  "authors": ["Qiwei Li", "Jorge Ortiz"],
+  "authors": [
+    "Qiwei Li",
+    "Jorge Ortiz"
+  ],
   "paperId": "2607.15254",
   "category": "cs.AI",
   "publishedAt": "2026-07-16",

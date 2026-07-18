@@ -4,7 +4,10 @@
   "name": "David Autor named head of the Department of Economics",
   "summary": "A faculty member since 1999, Autor is a leading researcher in artificial intelligence and the work of the future.",
   "description": "A faculty member since 1999, Autor is a leading researcher in artificial intelligence and the work of the future.",
-  "tags": ["news", "mit-news-ai"],
+  "tags": [
+    "news",
+    "mit-news-ai"
+  ],
   "externalLinks": [
     {
       "label": "MIT News",

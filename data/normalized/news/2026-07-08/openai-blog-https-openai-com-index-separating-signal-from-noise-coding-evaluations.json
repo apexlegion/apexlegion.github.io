@@ -4,7 +4,10 @@
   "name": "Separating signal from noise in coding evaluations",
   "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
   "description": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-  "tags": ["news", "openai-blog"],
+  "tags": [
+    "news",
+    "openai-blog"
+  ],
   "externalLinks": [
     {
       "label": "OpenAI Blog",

@@ -4,7 +4,10 @@
   "name": "Helping build shared standards for advanced AI",
   "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
   "description": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
-  "tags": ["news", "openai-blog"],
+  "tags": [
+    "news",
+    "openai-blog"
+  ],
   "externalLinks": [
     {
       "label": "OpenAI Blog",

@@ -4,7 +4,10 @@
   "name": "PRX Part 4: Our Data Strategy",
   "summary": "PRX Part 4: Our Data Strategy",
   "description": "PRX Part 4: Our Data Strategy",
-  "tags": ["news", "huggingface-blog"],
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

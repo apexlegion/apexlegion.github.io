@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/pretraining-bert",
-  "fetchedAt": "2026-07-17T05:20:13.304Z",
+  "fetchedAt": "2026-07-18T04:54:45.381Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/pretraining-bert",
     "title": "Pre-Train BERT with Hugging Face Transformers and Habana Gaudi",

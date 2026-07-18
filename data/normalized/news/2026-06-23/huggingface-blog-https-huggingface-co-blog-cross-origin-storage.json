@@ -4,7 +4,10 @@
   "name": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
   "summary": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
   "description": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
-  "tags": ["news", "huggingface-blog"],
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

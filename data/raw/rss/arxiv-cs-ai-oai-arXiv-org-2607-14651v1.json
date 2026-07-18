@@ -1,13 +1,13 @@
 {
   "source": "rss",
   "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.14651v1",
-  "fetchedAt": "2026-07-17T05:20:13.331Z",
+  "fetchedAt": "2026-07-18T04:54:45.491Z",
   "data": {
     "guid": "arxiv-cs-ai:oai:arXiv.org:2607.14651v1",
     "title": "MemPoison: Uncovering Persistent Memory Threats and Structural Blind Spots in LLM Agents",
     "link": "https://arxiv.org/abs/2607.14651",
     "description": "arXiv:2607.14651v1 Announce Type: cross Abstract: Persistent external memory enhances agent continuity but introduces persistent security vulnerabilities: adversarial content can be injected via standard interaction channels, retained across turns, and later distort downstream behavior. To address this challenge, we propose MemPoison, a comprehensive benchmark and analysis framework featuring 1227 hand-validated cases across four attack types, three injection channels, and three representative memory substrates, evaluated on seven open-weight and three closed-weight model families. We introduce a three-tier taxonomy: (L1) direct single-record corruption, (L2) compositional multi-record corruption and (L3) context-triggered dormant corruption. Our evaluations reveal a distinct defense frontier: while baseline write-time defenses, such as consistency checks, substantially suppress direct L1 attacks, they fail to reliably suppress L2 and L3 attacks. Through mechanistic influence decomposition (MID), we demonstrate structural blind spots in write-time defenses, which admit seemingly benign records that later become harmful through joint retrieval composition or trigger-conditioned activation. Our findings advocate for shifting from static filtering to adaptive, context-sensitive memory defense strategies.",
-    "publishedAt": "2026-07-17",
+    "publishedAt": "2026-07-18",
     "author": "Jifeng Gao, Kang Xia, Yi Zhang, Xiaobin Hong, Mingkai Lin, Xingshen Wei, Wenzhong Li, Sanglu Lu",
     "feedId": "arxiv-cs-ai",
     "source": "arXiv cs.AI"

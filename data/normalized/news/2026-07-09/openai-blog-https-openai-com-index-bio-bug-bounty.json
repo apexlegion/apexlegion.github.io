@@ -4,7 +4,10 @@
   "name": "GPT-5.5 Bio Bug Bounty",
   "summary": "Details about the OpenAI Bio Bounty program",
   "description": "Details about the OpenAI Bio Bounty program",
-  "tags": ["news", "openai-blog"],
+  "tags": [
+    "news",
+    "openai-blog"
+  ],
   "externalLinks": [
     {
       "label": "OpenAI Blog",

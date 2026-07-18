@@ -4,7 +4,10 @@
   "name": "Can AI build a jet engine? JARVIS Challenge tests role of AI copilots in tough-tech engineering",
   "summary": "MIT students designed, built, and tested a jet engine with AI copilots, assessing AI’s usefulness in developing high-performance aerospace systems.",
   "description": "MIT students designed, built, and tested a jet engine with AI copilots, assessing AI’s usefulness in developing high-performance aerospace systems.",
-  "tags": ["news", "mit-news-ai"],
+  "tags": [
+    "news",
+    "mit-news-ai"
+  ],
   "externalLinks": [
     {
       "label": "MIT News",

@@ -1,13 +1,13 @@
 {
   "source": "rss",
   "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.14443v1",
-  "fetchedAt": "2026-07-17T05:20:13.331Z",
+  "fetchedAt": "2026-07-18T04:54:45.491Z",
   "data": {
     "guid": "arxiv-cs-ai:oai:arXiv.org:2607.14443v1",
     "title": "Tactile: Giving Computer-Using Agents Hands and Feet",
     "link": "https://arxiv.org/abs/2607.14443",
     "description": "arXiv:2607.14443v1 Announce Type: new Abstract: Computer-use agents are becoming capable software operators, but their interface to desktop applications is still often a brittle motor layer: they look at screenshots, predict coordinates, click, and hope that the visible state changed as intended. This collapses target grounding, action execution, and outcome verification into a single ambiguous operation. We present Tactile, an open-source tool layer that gives agents a more reliable \"hands and feet\" for desktop use. Tactile converts heterogeneous UI evidence--operating-system accessibility semantics, OCR-grounded text, and visual fallback regions--into action-grounded interface states: compact target candidates with source labels, roles or text, state, geometry, executable affordances, and verification cues. Agents operate through an observe-ground-act-verify loop that prefers native semantic actions when available, falls back to OCR-grounded coordinates when visible text is the best evidence, and keeps full provenance for replay and failure attribution. On macOSWorld-style tasks, adding Tactile improves Codex Success@100 from 41.1% to 50.0% overall and from 45.2% to 55.3% on accessibility-adapted tasks; a 96-task cross-agent subset shows consistent gains across Codex, Claude Code, OpenCode, and Goose. These results suggest that reliable computer use requires not only stronger models, but also a reusable execution substrate that exposes software actions as semantic, verifiable, and auditable objects rather than anonymous screen coordinates.",
-    "publishedAt": "2026-07-17",
+    "publishedAt": "2026-07-18",
     "author": "Yong Liu, Zhenyi Zhong, Zhanpeng Shi",
     "feedId": "arxiv-cs-ai",
     "source": "arXiv cs.AI"

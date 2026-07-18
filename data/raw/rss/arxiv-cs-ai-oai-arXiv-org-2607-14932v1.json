@@ -1,13 +1,13 @@
 {
   "source": "rss",
   "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.14932v1",
-  "fetchedAt": "2026-07-17T05:20:13.331Z",
+  "fetchedAt": "2026-07-18T04:54:45.491Z",
   "data": {
     "guid": "arxiv-cs-ai:oai:arXiv.org:2607.14932v1",
     "title": "Benchmarking Face Recognition without Real Faces",
     "link": "https://arxiv.org/abs/2607.14932",
     "description": "arXiv:2607.14932v1 Announce Type: cross Abstract: Synthetic face datasets have become effective enough to train face recognition models with accuracy rivaling that of models trained on real photographs. This progress sidesteps the ethical and legal burdens of collecting real biometric data, yet evaluation has not kept pace. Even studies that train entirely on synthetic images still rely on real-face benchmarks to measure performance, leaving the privacy problem only half solved. We ask whether synthetic datasets can replace real benchmarks for face recognition evaluation. We test 12 synthetic datasets against 7 established real benchmarks using 24 pre-trained models that span both convolutional and transformer architectures. Our evaluation covers biometric verification metrics, similarity score distributions, cross-model ranking consistency, and the underlying distributional properties of each dataset. Benchmarking fidelity varies widely across the synthetic candidates, but the two strongest, MorphFace and Vec2Face, reproduce the relative behavior of real benchmarks and reach agreement levels that fall within the natural disagreement already observed among the real benchmarks themselves. These results establish that well-constructed synthetic datasets can support reliable comparative evaluation for face recognition, moving the field closer to a fully synthetic and privacy-preserving pipeline for both training and benchmarking.",
-    "publishedAt": "2026-07-17",
+    "publishedAt": "2026-07-18",
     "author": "Pawe{\\l} Borsukiewicz, Daniele Lunghi, Wendk\\^uuni C. Ou\\'edraogo, Jacques Klein, Tegawend\\'e F. Bissyand\\'e",
     "feedId": "arxiv-cs-ai",
     "source": "arXiv cs.AI"

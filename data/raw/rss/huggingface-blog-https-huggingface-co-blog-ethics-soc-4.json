@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/ethics-soc-4",
-  "fetchedAt": "2026-07-17T05:20:13.304Z",
+  "fetchedAt": "2026-07-18T04:54:45.378Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/ethics-soc-4",
     "title": "Ethics and Society Newsletter #4: Bias in Text-to-Image Models",

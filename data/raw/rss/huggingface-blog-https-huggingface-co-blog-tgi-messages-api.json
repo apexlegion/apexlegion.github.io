@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/tgi-messages-api",
-  "fetchedAt": "2026-07-17T05:20:13.303Z",
+  "fetchedAt": "2026-07-18T04:54:45.378Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/tgi-messages-api",
     "title": "From OpenAI to Open LLMs with Messages API on Hugging Face",

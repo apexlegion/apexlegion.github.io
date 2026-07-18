@@ -4,7 +4,10 @@
   "name": "Improving the speed and energy-efficiency of AI agents",
   "summary": "A new system, known as Murakkab, optimizes the design and deployment of multistep workflows that power AI applications.",
   "description": "A new system, known as Murakkab, optimizes the design and deployment of multistep workflows that power AI applications.",
-  "tags": ["news", "mit-news-ai"],
+  "tags": [
+    "news",
+    "mit-news-ai"
+  ],
   "externalLinks": [
     {
       "label": "MIT News",

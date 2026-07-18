@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2409-01754v4",
+  "name": "Empirical evidence of Large Language Model's influence on human spoken communication",
+  "summary": "arXiv:2409.01754v4 Announce Type: replace-cross Abstract: From the printing press to social media, innovations in communication technology have repeatedly reshaped how ideas spread through human cu...",
+  "description": "arXiv:2409.01754v4 Announce Type: replace-cross Abstract: From the printing press to social media, innovations in communication technology have repeatedly reshaped how ideas spread through human culture. Chatbots powered by generative artificial intelligence constitute a new medium, encoding cultural patterns in their neural representations and disseminating them in conversations with hundreds...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2409.01754"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-18",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2409.01754"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-18",
+  "expiryAt": "2026-08-17T00:00:00.000Z",
+  "author": "Hiromu Yakura, Ezequiel Lopez-Lopez, Levin Brinkmann, Ignacio de la Serna, Lara Kirfel, Prateek Gupta, Ivan Soraperra, Thomas F. Eisenmann, Dirk U. Wulff, Iyad Rahwan"
+}

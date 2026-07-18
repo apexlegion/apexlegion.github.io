@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "mit-news-ai-https-news-mit-edu-2026-following-questions-where-they-lead-bailey-flanigan-0717",
+  "name": "Following the questions where they lead",
+  "summary": "Assistant Professor Bailey Flanigan has arrived at complex computational methods for helping democracy thrive.",
+  "description": "Assistant Professor Bailey Flanigan has arrived at complex computational methods for helping democracy thrive.",
+  "tags": [
+    "news",
+    "mit-news-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "MIT News",
+      "href": "https://news.mit.edu/2026/following-questions-where-they-lead-bailey-flanigan-0717"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-17",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by MIT News.",
+      "href": "https://news.mit.edu/2026/following-questions-where-they-lead-bailey-flanigan-0717"
+    }
+  ],
+  "source": "MIT News",
+  "publishedAt": "2026-07-17",
+  "expiryAt": "2026-08-16T00:00:00.000Z",
+  "author": "Michaela Jarvis | MIT Laboratory for Information and Decision Systems"
+}

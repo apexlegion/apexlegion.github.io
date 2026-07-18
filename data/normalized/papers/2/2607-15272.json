@@ -4,7 +4,10 @@
   "name": "SciDiagramEdit: Learning to Edit Scientific Diagrams from Paper Revisions",
   "summary": "Editing the figures in a research paper is a routine and time-consuming part of everyday research practice: authors relabel components, rearrange panels, and restyle visuals as they revise their ma...",
   "description": "Editing the figures in a research paper is a routine and time-consuming part of everyday research practice: authors relabel components, rearrange panels, and restyle visuals as they revise their manuscripts. Automating this editing workflow under a natural-language instruction, however, is challenging, because a scientific figure is a dense infographic in which heterogeneous visual elements such as schematics, plots, photos, captions, and arrows are composed under a tight visual grammar to advance a specific argument. To address this, we present SciDiagramEdit, a benchmark and skill-evoluti...",
-  "tags": ["arxiv", "cs.CL"],
+  "tags": [
+    "arxiv",
+    "cs.CL"
+  ],
   "externalLinks": [
     {
       "label": "arXiv abstract",

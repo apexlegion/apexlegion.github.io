@@ -1,13 +1,13 @@
 {
   "source": "rss",
   "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.14818v1",
-  "fetchedAt": "2026-07-17T05:20:13.331Z",
+  "fetchedAt": "2026-07-18T04:54:45.491Z",
   "data": {
     "guid": "arxiv-cs-ai:oai:arXiv.org:2607.14818v1",
     "title": "Can LLMs Build a MaxSAT Solver from Papers? The CoreForge Experience",
     "link": "https://arxiv.org/abs/2607.14818",
     "description": "arXiv:2607.14818v1 Announce Type: cross Abstract: We report on CoreForge, an experience in using large language models (LLMs) to build an unweighted MaxSAT solver from research papers rather than from an existing solver codebase. The project focuses on unsatisfiability-based MaxSAT algorithms and follows an iterative workflow that combines paper discussions with ChatGPT, implementation through Codex prompts, and repeated LLM-assisted code audits and revisions. Although the codebase implements several algorithms and solver components, our evaluation focuses on configurations that combine core-guided optimization, lightweight preprocessing, core minimization, integration with integer linear optimization backends, and a new core-sequence lookahead approach. Our experience suggests that LLMs can support solver implementation from papers, while requiring external validation, benchmarking, and human guidance. In our experiments, fuzzing and MaxSAT Evaluation instances did not reveal wrong answers in the tested configurations, although performance remains below the best hand-engineered MaxSAT solvers. We summarize what worked, what remained difficult, and the lessons for future LLM-assisted solver development.",
-    "publishedAt": "2026-07-17",
+    "publishedAt": "2026-07-18",
     "author": "Ruben Martins",
     "feedId": "arxiv-cs-ai",
     "source": "arXiv cs.AI"

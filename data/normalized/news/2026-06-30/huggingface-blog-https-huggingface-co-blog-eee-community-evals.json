@@ -4,7 +4,10 @@
   "name": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
   "summary": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
   "description": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
-  "tags": ["news", "huggingface-blog"],
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/a-scorecard-for-the-ai-age",
+  "fetchedAt": "2026-07-18T04:54:45.252Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/a-scorecard-for-the-ai-age",
+    "title": "A scorecard for the AI age",
+    "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
+    "description": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+    "publishedAt": "2026-07-17",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

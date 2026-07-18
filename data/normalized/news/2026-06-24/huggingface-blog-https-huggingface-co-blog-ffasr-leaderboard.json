@@ -4,7 +4,10 @@
   "name": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
   "summary": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
   "description": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
-  "tags": ["news", "huggingface-blog"],
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

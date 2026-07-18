@@ -4,7 +4,10 @@
   "name": "What building Shippy taught us about building agents",
   "summary": "What building Shippy taught us about building agents",
   "description": "What building Shippy taught us about building agents",
-  "tags": ["news", "huggingface-blog"],
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

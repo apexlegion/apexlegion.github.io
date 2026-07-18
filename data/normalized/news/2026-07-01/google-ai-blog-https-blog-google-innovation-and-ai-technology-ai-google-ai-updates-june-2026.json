@@ -4,7 +4,10 @@
   "name": "The latest AI news we announced in June 2026",
   "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp\"&gt;Here are Google’s latest AI updates from June 2026.",
   "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp\"&gt;Here are Google’s latest AI updates from June 2026.",
-  "tags": ["news", "google-ai-blog"],
+  "tags": [
+    "news",
+    "google-ai-blog"
+  ],
   "externalLinks": [
     {
       "label": "Google AI Blog",

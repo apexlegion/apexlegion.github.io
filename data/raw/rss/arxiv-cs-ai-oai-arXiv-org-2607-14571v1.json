@@ -1,13 +1,13 @@
 {
   "source": "rss",
   "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.14571v1",
-  "fetchedAt": "2026-07-17T05:20:13.331Z",
+  "fetchedAt": "2026-07-18T04:54:45.491Z",
   "data": {
     "guid": "arxiv-cs-ai:oai:arXiv.org:2607.14571v1",
     "title": "Gate-Zero Growth: A Geometric Framework for Function-Preserving Continual Learning",
     "link": "https://arxiv.org/abs/2607.14571",
     "description": "arXiv:2607.14571v1 Announce Type: cross Abstract: We introduce \\emph{gate-zero growth}, a function-preserving (FP) operator for continual learning that adds new residual blocks through a zero-initialised gate. Under a transversality condition, gate-zero growth induces \\emph{rank separation} in the functional Jacobian: old directions are unchanged, new-weight directions are exactly flat at the growth point, and new gate directions are the only first-order source of new functional variation. As gates open during continual learning, function drift is $O(\\|\\boldsymbol{\\alpha}\\|^2)$ and Jacobian leakage $O(\\|\\boldsymbol{\\alpha}\\|_\\infty)$, giving a controlled departure from the FP locus. On a $300\\mathrm{M}\\to857\\mathrm{M}$ Transformer adapted from WikiText-103 to BookCorpus, gate-zero growth reaches near-zero old-domain forgetting ($\\Delta_A &lt; 0.1$) under both exact-preservation (Isolation) and joint-frontier (Freeze-Nothing) operating points, while a non-FP control ($G_{\\text{stack}}$) suffers an order-of-magnitude larger forgetting under the same recipe. The same geometric analysis covers LoRA, ReZero, and zero-init adapter constructions, establishing gate-zero growth as the canonical instance of a shared local geometry that governs safe capacity activation in CL.",
-    "publishedAt": "2026-07-17",
+    "publishedAt": "2026-07-18",
     "author": "Dante Lok",
     "feedId": "arxiv-cs-ai",
     "source": "arXiv cs.AI"

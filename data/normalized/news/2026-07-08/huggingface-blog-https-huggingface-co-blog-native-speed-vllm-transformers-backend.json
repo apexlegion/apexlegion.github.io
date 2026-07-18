@@ -4,7 +4,10 @@
   "name": "Native-speed vLLM transformers modeling backend",
   "summary": "Native-speed vLLM transformers modeling backend",
   "description": "Native-speed vLLM transformers modeling backend",
-  "tags": ["news", "huggingface-blog"],
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

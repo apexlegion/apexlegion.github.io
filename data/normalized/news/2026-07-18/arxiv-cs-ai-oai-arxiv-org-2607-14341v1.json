@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-14341v1",
+  "name": "Beyond Visual Grasping: Benchmarking Complex Grasping from Detection to Execution",
+  "summary": "arXiv:2607.14341v1 Announce Type: cross Abstract: Robust robotic grasping remains a fundamental challenge for complex real-world applications. Recent advances in large-scale models demonstrate prom...",
+  "description": "arXiv:2607.14341v1 Announce Type: cross Abstract: Robust robotic grasping remains a fundamental challenge for complex real-world applications. Recent advances in large-scale models demonstrate promising capabilities for reasoning in robotic tasks. However, existing benchmarks for grasping primarily focus on isolated, visual-based grasp pose detection, failing to capture the complexity of graspi...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.14341"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-18",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.14341"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-18",
+  "expiryAt": "2026-08-17T00:00:00.000Z",
+  "author": "Hanyi Zhang, Khang Nguyen, Charith Munasinghe, Basu Hela, Tianyu Li, Zihong Luo, Hoan Nguyen, Hans Wernher van de Venn, Yalin Zheng, Ravi Prakash, Tung D. Ta, Anh Nguyen, Baoru Huang"
+}

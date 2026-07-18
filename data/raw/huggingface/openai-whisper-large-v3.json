@@ -1,7 +1,7 @@
 {
   "source": "huggingface",
   "sourceId": "openai/whisper-large-v3",
-  "fetchedAt": "2026-07-17T05:20:11.763Z",
+  "fetchedAt": "2026-07-18T04:54:42.959Z",
   "data": {
     "_id": "654a84cadff2f49007ce6c37",
     "id": "openai/whisper-large-v3",
@@ -123,8 +123,8 @@
       "deploy:azure",
       "region:us"
     ],
-    "downloads": 5780598,
-    "likes": 5948,
+    "downloads": 5939035,
+    "likes": 5954,
     "modelId": "openai/whisper-large-v3",
     "author": "openai",
     "sha": "06f233fe06e710322aca913c1bc4249a0d71fce1",
@@ -347,11 +347,10 @@
     "spaces": [
       "mteb/leaderboard",
       "openai/whisper",
-      "treble-technologies/ffasr",
-      "BSC-LT/CATALAN-ASR-ARENA",
       "elmresearchcenter/open_universal_arabic_asr_leaderboard",
+      "BSC-LT/CATALAN-ASR-ARENA",
+      "treble-technologies/ffasr",
       "Quran-Lab/quranic-asr-leaderboard",
-      "build-small-hackathon/thuna",
       "Yash030/claude-code-proxy",
       "aliyaasif/Audio-Video-To-Text",
       "hf-audio/whisper-large-v3",
@@ -417,6 +416,7 @@
       "Johnyquest7/medical-transcription-notes",
       "MGZON/mgzon-app",
       "inesc-id/CAMOES-ASR-DEMO",
+      "build-small-hackathon/thuna",
       "kemalpm/openai-whisper-large-v3",
       "SaeidFarsian/Ask-AI-Youtube",
       "devilent2/whisper-vs-distil-whisper-zero",

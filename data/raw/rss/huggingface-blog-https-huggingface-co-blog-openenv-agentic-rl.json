@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/openenv-agentic-rl",
-  "fetchedAt": "2026-07-17T05:20:13.303Z",
+  "fetchedAt": "2026-07-18T04:54:45.377Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/openenv-agentic-rl",
     "title": "The Open Source Community is backing OpenEnv for Agentic RL",

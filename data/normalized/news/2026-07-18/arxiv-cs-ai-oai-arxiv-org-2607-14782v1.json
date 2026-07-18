@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-14782v1",
+  "name": "Global Index on Responsible AI: 2026 Report",
+  "summary": "arXiv:2607.14782v1 Announce Type: new Abstract: Grounded in human rights-based frameworks such as the UNESCO Recommendation on the Ethics of AI, the Global Index on Responsible AI (GIRAI) examines...",
+  "description": "arXiv:2607.14782v1 Announce Type: new Abstract: Grounded in human rights-based frameworks such as the UNESCO Recommendation on the Ethics of AI, the Global Index on Responsible AI (GIRAI) examines how countries translate responsible AI commitments into enforceable protections, institutional capacity, and redress mechanisms. GIRAI 2026 assesses these across five dimensions: Inclusion and Diversi...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.14782"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-18",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.14782"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-18",
+  "expiryAt": "2026-08-17T00:00:00.000Z",
+  "author": "Rachel Adams, Fola Adeleke, Ayantola Alayande, Selamawit Engida Abdella, Ana Florido, Nicol\\'as Grossman, Leah Junck"
+}

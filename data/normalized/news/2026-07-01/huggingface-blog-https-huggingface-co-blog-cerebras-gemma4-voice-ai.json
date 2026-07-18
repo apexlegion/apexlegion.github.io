@@ -4,7 +4,10 @@
   "name": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
   "summary": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
   "description": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-  "tags": ["news", "huggingface-blog"],
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

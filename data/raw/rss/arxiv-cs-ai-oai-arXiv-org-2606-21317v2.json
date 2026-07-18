@@ -1,13 +1,13 @@
 {
   "source": "rss",
   "sourceId": "arxiv-cs-ai:oai:arXiv.org:2606.21317v2",
-  "fetchedAt": "2026-07-17T05:20:13.332Z",
+  "fetchedAt": "2026-07-18T04:54:45.491Z",
   "data": {
     "guid": "arxiv-cs-ai:oai:arXiv.org:2606.21317v2",
     "title": "Warning labels shift perceptions of sycophantic AI, but not its influence",
     "link": "https://arxiv.org/abs/2606.21317",
     "description": "arXiv:2606.21317v2 Announce Type: replace-cross Abstract: Recent work has raised concerns about the influence of sycophantic AI on user judgment and relationships. One proposed mitigation, which has received regulatory attention, is to warn users about potentially harmful AI behaviors such as sycophancy. In a preregistered experiment in which participants (N = 2,610) discussed real interpersonal conflicts with an AI system, we test whether warning labels mitigate sycophancy's influence. We find that a basic AI disclosure (``This chatbot is AI'') has no detectable effect. Labeling the system as sycophantic (``...may agree with you and validate you even when you are wrong...'') does shift users' perceptions, reducing perceived objectivity and trust, but it does not reliably reduce sycophancy's influence on users' self-perceived rightness or their willingness to repair the conflict. Our results reveal a gap between AI perception and AI influence: by shifting perception without reducing influence, warning-based interventions may offer a false sense of protection. Addressing the harms of sycophancy will therefore require understanding the specific mechanisms through which it shapes judgment, and improving model behavior itself.",
-    "publishedAt": "2026-07-17",
+    "publishedAt": "2026-07-18",
     "author": "Lujain Ibrahim, Myra Cheng, Cinoo Lee, Pranav Khadpe, Desmond Ong, Dan Jurafsky, Diyi Yang",
     "feedId": "arxiv-cs-ai",
     "source": "arXiv cs.AI"

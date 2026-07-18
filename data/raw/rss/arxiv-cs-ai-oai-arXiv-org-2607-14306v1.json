@@ -1,13 +1,13 @@
 {
   "source": "rss",
   "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.14306v1",
-  "fetchedAt": "2026-07-17T05:20:13.331Z",
+  "fetchedAt": "2026-07-18T04:54:45.491Z",
   "data": {
     "guid": "arxiv-cs-ai:oai:arXiv.org:2607.14306v1",
     "title": "Tracing LLM Behavior to the Training Data with Empirical Next-Token Distributions",
     "link": "https://arxiv.org/abs/2607.14306",
     "description": "arXiv:2607.14306v1 Announce Type: new Abstract: In this paper, we study the connection between an LLM's output distribution and the data used to train it. Specifically, we study the degree to which an LLM's next-token distribution agrees with the empirical next-token distribution (ENTD) given the context in the training data. The ENTD is an appealing target because it is the unrestricted global minimizer of the next-token cross entropy loss used for pretraining, as well as an easily interpretable function of the pretraining corpus. We find that for a significant fraction of inputs, the LLM's distribution agrees with the ENTD almost perfectly, and the average agreement increases with model scale and training compute. Nevertheless, there is a long tail of input sequences where the LLM and ENTD differ significantly, and we examine several possible sources of this discrepancy across the transformer architecture, training procedure, and finite-sample noise in the ENTD estimate itself. More broadly, we hope our findings will encourage more work on ``data-centric mechanistic interpretability,'' a complement to standard mechanistic interpretability that opens the black box of how model behaviors arise from the data, rather than how they are encoded in the learned weights.",
-    "publishedAt": "2026-07-17",
+    "publishedAt": "2026-07-18",
     "author": "Zachary Izzo",
     "feedId": "arxiv-cs-ai",
     "source": "arXiv cs.AI"

@@ -4,7 +4,10 @@
   "name": "RoboTTT: Context Scaling for Robot Policies",
   "summary": "Recent robot foundation models operate with single-step or short-history visuomotor context. We introduce Test-Time-Training Robot Policies (RoboTTT), a robot model and training recipe that scale v...",
   "description": "Recent robot foundation models operate with single-step or short-history visuomotor context. We introduce Test-Time-Training Robot Policies (RoboTTT), a robot model and training recipe that scale visuomotor context to 8K timesteps, three orders of magnitude beyond state-of-the-art policies, without growing inference latency. At this context length, we unlock new robot capabilities: one-shot in-context imitation from human video demonstrations, on-the-fly policy improvement, robustness to perturbations, and stronger performance on multi-stage, long-horizon tasks. We also observe, for the fir...",
-  "tags": ["arxiv", "cs.RO"],
+  "tags": [
+    "arxiv",
+    "cs.RO"
+  ],
   "externalLinks": [
     {
       "label": "arXiv abstract",

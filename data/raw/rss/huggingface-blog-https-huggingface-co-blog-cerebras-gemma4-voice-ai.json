@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-  "fetchedAt": "2026-07-17T05:20:13.303Z",
+  "fetchedAt": "2026-07-18T04:54:45.377Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/cerebras-gemma4-voice-ai",
     "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",

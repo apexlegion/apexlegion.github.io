@@ -4,7 +4,10 @@
   "name": "Create, edit and star in videos with two Google Vids updates",
   "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/omni-blog-header_OarEe2t.max-600x600.format-webp.webp\"&gt;Gemini Omni and personal avatars in Google Vids make video cre...",
   "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/omni-blog-header_OarEe2t.max-600x600.format-webp.webp\"&gt;Gemini Omni and personal avatars in Google Vids make video creation easier than ever.",
-  "tags": ["news", "google-ai-blog"],
+  "tags": [
+    "news",
+    "google-ai-blog"
+  ],
   "externalLinks": [
     {
       "label": "Google AI Blog",

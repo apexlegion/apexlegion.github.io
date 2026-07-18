@@ -4,7 +4,10 @@
   "name": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
   "summary": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
   "description": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-  "tags": ["news", "huggingface-blog"],
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

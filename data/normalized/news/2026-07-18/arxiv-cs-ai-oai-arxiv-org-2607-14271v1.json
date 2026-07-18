@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-14271v1",
+  "name": "Local Additive Feature Attribution: A Mathematical Taxonomy and Reporting Checklist",
+  "summary": "arXiv:2607.14271v1 Announce Type: cross Abstract: Feature-attribution methods are central to explainable artificial intelligence. Their assumptions are expressed in several mathematical languages:...",
+  "description": "arXiv:2607.14271v1 Announce Type: cross Abstract: Feature-attribution methods are central to explainable artificial intelligence. Their assumptions are expressed in several mathematical languages: cooperative-game values, path integrals, gradient operators, perturbation distributions, and backpropagation rules. This survey proposes a common framework for local additive feature attribution. It o...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.14271"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-18",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.14271"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-18",
+  "expiryAt": "2026-08-17T00:00:00.000Z",
+  "author": "Rebecca Afriyie Sarpong, Daniel Commey"
+}

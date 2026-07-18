@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "huggingface-blog-https-huggingface-co-blog-nvidia-scale-diffusers-finetuning-nemo-automodel",
+  "name": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+  "summary": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+  "description": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Hugging Face Blog",
+      "href": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-17",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Hugging Face Blog.",
+      "href": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel"
+    }
+  ],
+  "source": "Hugging Face Blog",
+  "publishedAt": "2026-07-17",
+  "expiryAt": "2026-08-16T00:00:00.000Z"
+}

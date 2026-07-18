@@ -4,7 +4,10 @@
   "name": "Ask an AI expert: What exactly is the full stack?",
   "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Full_Stack.max-600x600.format-webp.webp\"&gt;A Google expert explains what it means to take a full-stack approach to AI a...",
   "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Full_Stack.max-600x600.format-webp.webp\"&gt;A Google expert explains what it means to take a full-stack approach to AI and why it’s been the foundation of our AI work for so long.",
-  "tags": ["news", "google-ai-blog"],
+  "tags": [
+    "news",
+    "google-ai-blog"
+  ],
   "externalLinks": [
     {
       "label": "Google AI Blog",

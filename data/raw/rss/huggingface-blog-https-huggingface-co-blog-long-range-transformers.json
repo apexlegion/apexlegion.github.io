@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/long-range-transformers",
-  "fetchedAt": "2026-07-17T05:20:13.304Z",
+  "fetchedAt": "2026-07-18T04:54:45.381Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/long-range-transformers",
     "title": "Hugging Face Reads, Feb. 2021 - Long-range Transformers",

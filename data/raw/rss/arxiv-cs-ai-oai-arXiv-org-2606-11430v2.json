@@ -1,13 +1,13 @@
 {
   "source": "rss",
   "sourceId": "arxiv-cs-ai:oai:arXiv.org:2606.11430v2",
-  "fetchedAt": "2026-07-17T05:20:13.332Z",
+  "fetchedAt": "2026-07-18T04:54:45.491Z",
   "data": {
     "guid": "arxiv-cs-ai:oai:arXiv.org:2606.11430v2",
     "title": "Towards a Bridge Layer Between Bibliographic and Formalized Mathematical Knowledge",
     "link": "https://arxiv.org/abs/2606.11430",
     "description": "arXiv:2606.11430v2 Announce Type: replace-cross Abstract: Mathematical knowledge is split between bibliographic databases (e.g., MathSciNet, zbMATH Open) and formal proof libraries (e.g., Lean mathlib), preventing unified access between published results and their formalizations. We propose a relational bridge-database that aligns publication metadata with formal artifacts, providing an interoperability layer between mathematical literature and machine-verifiable proofs. We introduce a paper-level formalization score that measures how much of a publication is covered in formal systems. As a feasibility study, we show how such scores can be estimated via cross-document alignment between informal texts and Lean formalizations, enabling large-scale analysis of formalization coverage. This framework is a first step toward integrating bibliographic and formal mathematical ecosystems into scalable, machine-actionable knowledge graphs linking publications to formal proof objects.",
-    "publishedAt": "2026-07-17",
+    "publishedAt": "2026-07-18",
     "author": "A. Mayeux",
     "feedId": "arxiv-cs-ai",
     "source": "arXiv cs.AI"

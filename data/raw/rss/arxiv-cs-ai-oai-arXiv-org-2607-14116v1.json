@@ -1,13 +1,13 @@
 {
   "source": "rss",
   "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.14116v1",
-  "fetchedAt": "2026-07-17T05:20:13.331Z",
+  "fetchedAt": "2026-07-18T04:54:45.491Z",
   "data": {
     "guid": "arxiv-cs-ai:oai:arXiv.org:2607.14116v1",
     "title": "ReportMedSAM: Guiding Segmentation Through Radiology Reports",
     "link": "https://arxiv.org/abs/2607.14116",
     "description": "arXiv:2607.14116v1 Announce Type: cross Abstract: Free-form radiology reports contain rich clinical descriptions, yet converting them for reliable segmentation remains challenging due to the inherent variability of natural language. Existing pipelines often rely on predefined organ phrases or brittle rule-based inference-time extraction, which limits their scalability to novel anatomical structures and makes them sensitive to linguistic variations. To address this, we propose ReportMedSAM, a report-driven framework that replaces discrete extraction with a learnable concept bank. By leveraging a frozen medical vision-language encoder (BiomedCLIP), we align organ-level concept embeddings with large-scale clinical corpora through contrastive learning, establishing mutually orthogonal semantic anchors. Our approach explicitly mitigates organ-level semantic collapse and ensures high robustness against diverse clinical synonyms (e.g., \"renal\" vs. \"kidney\" ). During inference, a clinical report is embedded and matched against this concept bank to dynamically activate task-specific Mixture-of-Experts (MoE) modules. This decoupled design allows new concepts and experts to be added without retraining existing components, providing a parameter-isolated extension mechanism while keeping previously learned experts unchanged. Evaluated on the AbdomenAtlas 3.0 dataset, ReportMedSAM effectively interprets free-form reports, achieves competitive segmentation accuracy, and demonstrates seamless, non-interfering extension to novel clinical tasks.",
-    "publishedAt": "2026-07-17",
+    "publishedAt": "2026-07-18",
     "author": "Anghong Du, Theodoros N. Arvanitis, Colin Watts, Alejandro F. Frangi, Le Zhang",
     "feedId": "arxiv-cs-ai",
     "source": "arXiv cs.AI"

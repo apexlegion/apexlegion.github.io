@@ -4,7 +4,9 @@
   "name": "whisper",
   "summary": "Robust Speech Recognition via Large-Scale Weak Supervision",
   "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
-  "tags": ["python"],
+  "tags": [
+    "python"
+  ],
   "externalLinks": [
     {
       "label": "GitHub repository",

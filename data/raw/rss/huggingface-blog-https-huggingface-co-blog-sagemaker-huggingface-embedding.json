@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/sagemaker-huggingface-embedding",
-  "fetchedAt": "2026-07-17T05:20:13.303Z",
+  "fetchedAt": "2026-07-18T04:54:45.378Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/sagemaker-huggingface-embedding",
     "title": "Introducing the Hugging Face Embedding Container for Amazon SageMaker",

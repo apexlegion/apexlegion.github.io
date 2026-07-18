@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-14321v1",
+  "name": "Accounting for Hysteresis and Eddy Currents in Finite Element Simulations of Ferromagnetic Laminated Cores using a Recurrent Neural Network",
+  "summary": "arXiv:2607.14321v1 Announce Type: cross Abstract: Incorporating hysteresis and eddy currents into finite element simulations of laminated-core electrical machines is computationally challenging. Re...",
+  "description": "arXiv:2607.14321v1 Announce Type: cross Abstract: Incorporating hysteresis and eddy currents into finite element simulations of laminated-core electrical machines is computationally challenging. Resolving the fields inside the laminations at each integration point and at every nonlinear iteration leads to computational costs several orders of magnitude higher than anhysteretic simulations, maki...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.14321"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-18",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.14321"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-18",
+  "expiryAt": "2026-08-17T00:00:00.000Z",
+  "author": "Florent Purnode, Louis Denis, Fran\\c{c}ois Henrotte, Gilles Louppe, Christophe Geuzaine"
+}

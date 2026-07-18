@@ -1,13 +1,13 @@
 {
   "source": "rss",
   "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.14673v1",
-  "fetchedAt": "2026-07-17T05:20:13.331Z",
+  "fetchedAt": "2026-07-18T04:54:45.491Z",
   "data": {
     "guid": "arxiv-cs-ai:oai:arXiv.org:2607.14673v1",
     "title": "Project Kaleidoscope: Contextual, Human-Aligned Evaluation for Real-World AI Applications",
     "link": "https://arxiv.org/abs/2607.14673",
     "description": "arXiv:2607.14673v1 Announce Type: new Abstract: Evaluations (Evals) are a deployment bottleneck for real-world AI applications: public benchmarks rarely match a team's users, context, or policies, and human review is often tedious to scale. Motivated by our work with AI applications in the public sector, this project addresses recurring evaluation challenges encountered when applications must satisfy local policy and governance requirements. We present Kaleidoscope, an integrated workflow for contextual functional evaluation that links persona-based test generation, contextualized rubrics, and human review for reliability-gated automated scoring. Generated test cases are scored against application-specific rubrics; human annotations provide reviewable labels; and LLM judges automate scoring only when their agreement with those labels meets a configured threshold. Kaleidoscope is therefore a practical, inspectable, iterative workflow for product teams. We report early evidence from a three-week pilot across four organizational use cases and custom-rubric judge experiments on 108 annotated Q\\&amp;A pairs spanning four domains and 14 evaluation dimensions. The results highlight useful features for end-to-end reliable, automated scoring.",
-    "publishedAt": "2026-07-17",
+    "publishedAt": "2026-07-18",
     "author": "Leanne Tan, Rohan Jaggi, Shaun Khoo, Roy Ka-Wei Lee",
     "feedId": "arxiv-cs-ai",
     "source": "arXiv cs.AI"

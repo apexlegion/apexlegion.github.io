@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2602-01086v3",
+  "name": "MedBeads: An AI-Native Clinical Context Graph Built from Immutable Beads and Reconstructable Clinical Links",
+  "summary": "arXiv:2602.01086v3 Announce Type: replace Abstract: Generative AI can encode substantial medical knowledge, but patient-specific answers remain constrained by the context supplied at inference time...",
+  "description": "arXiv:2602.01086v3 Announce Type: replace Abstract: Generative AI can encode substantial medical knowledge, but patient-specific answers remain constrained by the context supplied at inference time. Electronic health records and FHIR support documentation and interoperability, but they do not by themselves define the complete, current, and auditable context a model should receive. Similarity-ba...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2602.01086"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-18",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2602.01086"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-18",
+  "expiryAt": "2026-08-17T00:00:00.000Z",
+  "author": "Takahito Nakajima"
+}

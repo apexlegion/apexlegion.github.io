@@ -4,7 +4,10 @@
   "name": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
   "summary": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
   "description": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
-  "tags": ["news", "huggingface-blog"],
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",
