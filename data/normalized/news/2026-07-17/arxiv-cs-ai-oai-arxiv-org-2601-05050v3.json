@@ -4,10 +4,7 @@
   "name": "Large language models can effectively convince people to believe conspiracies",
   "summary": "arXiv:2601.05050v3 Announce Type: replace Abstract: Large language models (LLMs) have been shown to be persuasive across a variety of contexts. But it remains unclear whether this persuasive power...",
   "description": "arXiv:2601.05050v3 Announce Type: replace Abstract: Large language models (LLMs) have been shown to be persuasive across a variety of contexts. But it remains unclear whether this persuasive power advantages accuracy, or if bad actors can just as easily use LLMs to promote misbeliefs. Here, we investigate this question across four experiments in which participants (N = 3996 Americans) discussed...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "VLT: A Vision-Language-Time Series Multimodal Foundation Model for Industrial Intelligence",
   "summary": "arXiv:2607.14510v1 Announce Type: new Abstract: Industrial time series serve as the foundation for Prognostics and Health Management (PHM) to ensure the reliability and safety of industrial equipme...",
   "description": "arXiv:2607.14510v1 Announce Type: new Abstract: Industrial time series serve as the foundation for Prognostics and Health Management (PHM) to ensure the reliability and safety of industrial equipment such as aero-engines. However, existing approaches are typically limited to single-modality modeling, which restricts their generalization in complex scenarios. Although recent advances in large la...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

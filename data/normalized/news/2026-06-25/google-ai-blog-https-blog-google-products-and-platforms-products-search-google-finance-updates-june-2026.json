@@ -4,10 +4,7 @@
   "name": "Our latest Google Finance upgrades, including a new app",
   "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp\"&gt;The new Google Finance is coming out of beta and launch...",
   "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp\"&gt;The new Google Finance is coming out of beta and launching a new Android app.",
-  "tags": [
-    "news",
-    "google-ai-blog"
-  ],
+  "tags": ["news", "google-ai-blog"],
   "externalLinks": [
     {
       "label": "Google AI Blog",

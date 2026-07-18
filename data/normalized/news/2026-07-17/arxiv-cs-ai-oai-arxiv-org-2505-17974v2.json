@@ -4,10 +4,7 @@
   "name": "Generalized Fisher-Weighted SVD: Scalable Kronecker-Factored Fisher Approximation for Compressing Large Language Models",
   "summary": "arXiv:2505.17974v2 Announce Type: replace-cross Abstract: The Fisher information is a fundamental concept for characterizing the sensitivity of parameters in neural networks. However, leveraging th...",
   "description": "arXiv:2505.17974v2 Announce Type: replace-cross Abstract: The Fisher information is a fundamental concept for characterizing the sensitivity of parameters in neural networks. However, leveraging the full observed Fisher information is too expensive for large models, so most methods rely on simple diagonal approximations. While efficient, this approach ignores parameter correlations, often resul...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

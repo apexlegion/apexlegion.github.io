@@ -4,10 +4,7 @@
   "name": "Animating Petascale Time-varying Data on Commodity Hardware with LLM-assisted Scripting",
   "summary": "arXiv:2603.07053v3 Announce Type: replace Abstract: Scientists face significant visualization challenges as time-varying datasets grow in speed and volume, often requiring specialized infrastructur...",
   "description": "arXiv:2603.07053v3 Announce Type: replace Abstract: Scientists face significant visualization challenges as time-varying datasets grow in speed and volume, often requiring specialized infrastructure and expertise to handle massive datasets. Petascale climate models generated in NASA laboratories require a dedicated group of graphics and media experts and access to high-performance computing res...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

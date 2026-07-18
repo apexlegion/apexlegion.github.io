@@ -4,10 +4,7 @@
   "name": "Newer Models, Same Advantage",
   "summary": "Newer Models, Same Advantage",
   "description": "Newer Models, Same Advantage",
-  "tags": [
-    "news",
-    "huggingface-blog"
-  ],
+  "tags": ["news", "huggingface-blog"],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

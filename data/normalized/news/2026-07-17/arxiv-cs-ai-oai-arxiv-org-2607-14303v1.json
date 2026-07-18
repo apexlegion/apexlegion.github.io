@@ -4,10 +4,7 @@
   "name": "Assessing AI in Introductory Physics Problem Solving",
   "summary": "arXiv:2607.14303v1 Announce Type: cross Abstract: Reasoning or inference-scaling models are the new generation of Large Language Models (LLMs) capable of complex problem solving. To investigate the...",
   "description": "arXiv:2607.14303v1 Announce Type: cross Abstract: Reasoning or inference-scaling models are the new generation of Large Language Models (LLMs) capable of complex problem solving. To investigate their problem-solving capability in physics, we evaluated model o4-mini by OpenAI on solving traditional, end-of-chapter problems from Halliday and Resnick's \"Fundamentals of Physics,\" spanning core topi...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

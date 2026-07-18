@@ -4,10 +4,7 @@
   "name": "Can LLMs Build a MaxSAT Solver from Papers? The CoreForge Experience",
   "summary": "arXiv:2607.14818v1 Announce Type: cross Abstract: We report on CoreForge, an experience in using large language models (LLMs) to build an unweighted MaxSAT solver from research papers rather than f...",
   "description": "arXiv:2607.14818v1 Announce Type: cross Abstract: We report on CoreForge, an experience in using large language models (LLMs) to build an unweighted MaxSAT solver from research papers rather than from an existing solver codebase. The project focuses on unsatisfiability-based MaxSAT algorithms and follows an iterative workflow that combines paper discussions with ChatGPT, implementation through...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "SAGA: Schema-Aware Grounding for Agentic Text-to-SPARQL Generation",
   "summary": "arXiv:2607.14494v1 Announce Type: new Abstract: Complex knowledge base question answering (KBQA) is commonly approached through either information retrieval over a question-specific subgraph or sem...",
   "description": "arXiv:2607.14494v1 Announce Type: new Abstract: Complex knowledge base question answering (KBQA) is commonly approached through either information retrieval over a question-specific subgraph or semantic parsing into an executable logical form. We study the latter paradigm. Recent large language model agents make semantic parsing interactive: they alternate between reasoning, querying the knowle...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

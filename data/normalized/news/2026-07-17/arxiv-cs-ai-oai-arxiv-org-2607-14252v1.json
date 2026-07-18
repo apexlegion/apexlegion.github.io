@@ -4,10 +4,7 @@
   "name": "MEMORA: Embodied Action Memory from Egocentric Videos for Reasoning and Planning",
   "summary": "arXiv:2607.14252v1 Announce Type: cross Abstract: Long-horizon robot planning requires more than predicting what actions will do next; it also requires memory of the embodied experience that makes...",
   "description": "arXiv:2607.14252v1 Announce Type: cross Abstract: Long-horizon robot planning requires more than predicting what actions will do next; it also requires memory of the embodied experience that makes future goals interpretable. People do not plan from the present scene alone: they draw on remembered places, object-state changes, prior procedures, and regularities revealed through repeated action....",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Angular Gaussian Supervised Contrastive Learning for Long-Tailed Electrocardiogram Arrhythmia Diagnosis",
   "summary": "arXiv:2607.14613v1 Announce Type: cross Abstract: Long-tailed label distributions reduce the reliability of deep learning for electrocardiogram (ECG) arrhythmia diagnosis, particularly for clinical...",
   "description": "arXiv:2607.14613v1 Announce Type: cross Abstract: Long-tailed label distributions reduce the reliability of deep learning for electrocardiogram (ECG) arrhythmia diagnosis, particularly for clinically important but rare abnormalities. Existing rebalancing and logit adjustment methods mainly address class frequency while overlooking direction-dependent morphological variability across ECG classes...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Explaining Process Control Optimisation Recommendations via GradientSHAP and Implicit Differentiation",
   "summary": "arXiv:2607.14970v1 Announce Type: new Abstract: Automated optimisation is increasingly adopted in industrial processes, yet a trust gap persists between engineers who design these algorithms and op...",
   "description": "arXiv:2607.14970v1 Announce Type: new Abstract: Automated optimisation is increasingly adopted in industrial processes, yet a trust gap persists between engineers who design these algorithms and operators who must act on their recommendations. Explainable AI methods like SHAP (SHapley Additive exPlanations) have transformed interpretability for machine learning predictions; optimisation outputs...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

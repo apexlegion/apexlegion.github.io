@@ -4,10 +4,7 @@
   "name": "Show Me How You Reason and I'll Tell You Who You Are: Reasoning Graphs for Robust LLM Authorship Attribution",
   "summary": "arXiv:2607.14905v1 Announce Type: cross Abstract: Given the current trend to employ large language models (LLMs) in almost any imaginable context, LLM-generated text detection and authorship attrib...",
   "description": "arXiv:2607.14905v1 Announce Type: cross Abstract: Given the current trend to employ large language models (LLMs) in almost any imaginable context, LLM-generated text detection and authorship attribution have become a pressing issue. Prior work has primarily focused on surface-level linguistic features, an approach shown to be susceptible to paraphrasing and other obfuscation techniques. In this...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Towards a Unified Multidimensional Explainability Metric: Evaluating Trustworthiness in AI Models",
   "summary": "arXiv:2607.14315v1 Announce Type: cross Abstract: In this paper, we present a comprehensive framework for assessing the explainability of various XAI methods, such as LIME and SHAP, across multiple...",
   "description": "arXiv:2607.14315v1 Announce Type: cross Abstract: In this paper, we present a comprehensive framework for assessing the explainability of various XAI methods, such as LIME and SHAP, across multiple datasets and machine learning models, with the ultimate goal of creating a unified multidimensional explainability score. Our methodology focuses on three key aspects of explainability: fidelity, sim...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

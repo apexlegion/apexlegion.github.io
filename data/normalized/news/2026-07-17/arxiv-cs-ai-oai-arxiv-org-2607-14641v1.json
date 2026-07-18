@@ -4,10 +4,7 @@
   "name": "Analytic Abduction: Causal Decomposition and Governed Commitment for Human--AI Coordination",
   "summary": "arXiv:2607.14641v1 Announce Type: new Abstract: Abductive reasoning operates in two directions. The synthetic mode builds explanations from available hypotheses; the analytic mode, conversely, iden...",
   "description": "arXiv:2607.14641v1 Announce Type: new Abstract: Abductive reasoning operates in two directions. The synthetic mode builds explanations from available hypotheses; the analytic mode, conversely, identifies the latent factors whose interaction accounts for a complex observed state. This paper develops the analytic mode as a non-greedy, risk-sensitive discipline of commitment, in which candidate fa...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

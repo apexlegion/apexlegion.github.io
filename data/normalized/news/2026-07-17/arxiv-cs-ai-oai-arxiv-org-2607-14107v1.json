@@ -4,10 +4,7 @@
   "name": "Polestar: Drift-Aware Cache Calibration and Token Commitment for Efficient Inference of Diffusion LLMs",
   "summary": "arXiv:2607.14107v1 Announce Type: cross Abstract: The inference efficiency of diffusion large language models (dLLMs) is constrained by two challenges: bidirectional attention precludes efficient K...",
   "description": "arXiv:2607.14107v1 Announce Type: cross Abstract: The inference efficiency of diffusion large language models (dLLMs) is constrained by two challenges: bidirectional attention precludes efficient KV-cache reuse, while increasing decoding parallelism with static confidence thresholds can compromise generation quality. We observe that both challenges arise from a shared phenomenon: as tokens are...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

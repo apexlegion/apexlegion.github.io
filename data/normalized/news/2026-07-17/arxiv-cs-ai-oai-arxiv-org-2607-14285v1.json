@@ -4,10 +4,7 @@
   "name": "ToolAlignBench: Investigating Alignment Conflicts in Tool-Calling Enabled LLMs",
   "summary": "arXiv:2607.14285v1 Announce Type: cross Abstract: Safety alignment in LLMs aims to align models with human values, but which values take precedence when they conflict? We investigate this question...",
   "description": "arXiv:2607.14285v1 Announce Type: cross Abstract: Safety alignment in LLMs aims to align models with human values, but which values take precedence when they conflict? We investigate this question in the context of tool-calling LLM agents deployed in regulated industries, where agents processing confidential documents may encounter content that triggers safety-trained values (e.g., public welfa...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

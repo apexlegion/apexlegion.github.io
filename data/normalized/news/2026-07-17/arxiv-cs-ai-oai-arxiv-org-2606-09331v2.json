@@ -4,10 +4,7 @@
   "name": "Conan-embedding-v3: Fusing Modality-Specific Models for Omni-Modal Embedding",
   "summary": "arXiv:2606.09331v2 Announce Type: replace-cross Abstract: Omni-modal retrieval promises a single embedding space for text, image, video, document, and audio inputs, but building such a unified retr...",
   "description": "arXiv:2606.09331v2 Announce Type: replace-cross Abstract: Omni-modal retrieval promises a single embedding space for text, image, video, document, and audio inputs, but building such a unified retriever is difficult since these modalities differ in data distribution, architecture, and optimization dynamics. In this work, we present Conan-embedding-v3, a decouple--fuse--recover framework for omn...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

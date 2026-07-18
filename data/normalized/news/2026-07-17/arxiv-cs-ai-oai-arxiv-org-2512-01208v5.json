@@ -4,10 +4,7 @@
   "name": "Language as a Wave Phenomenon: Semantic Phase Locking and Interference in Neural Networks",
   "summary": "arXiv:2512.01208v5 Announce Type: replace-cross Abstract: In standard Transformer architectures, semantic importance is often conflated with activation magnitude, obscuring the geometric structure...",
   "description": "arXiv:2512.01208v5 Announce Type: replace-cross Abstract: In standard Transformer architectures, semantic importance is often conflated with activation magnitude, obscuring the geometric structure of latent representations. To disentangle these factors, we introduce PRISM, a complex-valued architecture designed to isolate the computational role of phase. By enforcing a strict unit-norm constrai...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

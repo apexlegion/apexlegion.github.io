@@ -4,10 +4,7 @@
   "name": "Project Kaleidoscope: Contextual, Human-Aligned Evaluation for Real-World AI Applications",
   "summary": "arXiv:2607.14673v1 Announce Type: new Abstract: Evaluations (Evals) are a deployment bottleneck for real-world AI applications: public benchmarks rarely match a team's users, context, or policies,...",
   "description": "arXiv:2607.14673v1 Announce Type: new Abstract: Evaluations (Evals) are a deployment bottleneck for real-world AI applications: public benchmarks rarely match a team's users, context, or policies, and human review is often tedious to scale. Motivated by our work with AI applications in the public sector, this project addresses recurring evaluation challenges encountered when applications must s...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Plover: Steering GUI Agents through Plan-Centric Interaction",
   "summary": "arXiv:2607.15193v1 Announce Type: new Abstract: Graphical user interface (GUI) automation remains challenging in real-world environments, where dynamic layouts, unexpected dialogs, and evolving int...",
   "description": "arXiv:2607.15193v1 Announce Type: new Abstract: Graphical user interface (GUI) automation remains challenging in real-world environments, where dynamic layouts, unexpected dialogs, and evolving interface states can cause autonomous agents to drift from user intent. Recent vision-based multimodal agents improve flexibility by operating directly over screenshots and natural language instructions,...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

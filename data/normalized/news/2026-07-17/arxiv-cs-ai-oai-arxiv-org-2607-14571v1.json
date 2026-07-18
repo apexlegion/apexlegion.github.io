@@ -4,10 +4,7 @@
   "name": "Gate-Zero Growth: A Geometric Framework for Function-Preserving Continual Learning",
   "summary": "arXiv:2607.14571v1 Announce Type: cross Abstract: We introduce \\emph{gate-zero growth}, a function-preserving (FP) operator for continual learning that adds new residual blocks through a zero-initi...",
   "description": "arXiv:2607.14571v1 Announce Type: cross Abstract: We introduce \\emph{gate-zero growth}, a function-preserving (FP) operator for continual learning that adds new residual blocks through a zero-initialised gate. Under a transversality condition, gate-zero growth induces \\emph{rank separation} in the functional Jacobian: old directions are unchanged, new-weight directions are exactly flat at the g...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

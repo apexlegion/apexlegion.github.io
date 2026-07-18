@@ -4,10 +4,7 @@
   "name": "Contextualized Early Detection of Online Firestorms: A Sequential LLM-Based Approach",
   "summary": "arXiv:2607.14957v1 Announce Type: new Abstract: Online firestorms are rapid collective escalations of highly negative user-generated content and may cause substantial reputational and economic dama...",
   "description": "arXiv:2607.14957v1 Announce Type: new Abstract: Online firestorms are rapid collective escalations of highly negative user-generated content and may cause substantial reputational and economic damage. Existing detectors usually work with volume signals, sentiment scores, or predefined linguistic features. Such signals are useful, but they capture contextual meaning shifts in evolving discussion...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

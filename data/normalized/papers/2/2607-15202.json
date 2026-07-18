@@ -4,10 +4,7 @@
   "name": "Self-Evolving Human-Centered Framework for Explainable Depression Symptom Annotation",
   "summary": "Annotation quality is a major bottleneck in building reliable and explainable artificial intelligence (XAI) systems for mental health research. In depression-related datasets, labels are often assi...",
   "description": "Annotation quality is a major bottleneck in building reliable and explainable artificial intelligence (XAI) systems for mental health research. In depression-related datasets, labels are often assigned without structured evidence, symptom-level justification, or traceable alignment with the criteria of the Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR), limiting both transparency and downstream model interpretability. We propose a self-evolving, expert-in-the-loop annotation framework for Major Depressive Disorder (MDD) that combines large lan...",
-  "tags": [
-    "arxiv",
-    "cs.AI"
-  ],
+  "tags": ["arxiv", "cs.AI"],
   "externalLinks": [
     {
       "label": "arXiv abstract",

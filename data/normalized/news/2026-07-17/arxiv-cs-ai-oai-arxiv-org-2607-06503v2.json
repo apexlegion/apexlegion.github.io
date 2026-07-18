@@ -4,10 +4,7 @@
   "name": "Doomed from the Start: Early Abort of LLM Agent Episodes via a Recall-Controlled Probe Cascade",
   "summary": "arXiv:2607.06503v2 Announce Type: replace Abstract: Large language model (LLM) agents often waste inference compute by continuing multi-step trajectories that are already doomed to fail. We study e...",
   "description": "arXiv:2607.06503v2 Announce Type: replace Abstract: Large language model (LLM) agents often waste inference compute by continuing multi-step trajectories that are already doomed to fail. We study early failure prediction and inference-time early stopping for LLM agents using hidden-state probes. Lightweight linear probes on internal activations predict eventual task failure from the first inter...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

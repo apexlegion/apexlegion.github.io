@@ -4,10 +4,7 @@
   "name": "RxBrain: Embodied Cognition Foundation Model with Joint Language-Visual Reasoning and Imagination",
   "summary": "arXiv:2607.14187v1 Announce Type: new Abstract: Embodied cognition requires agents to connect high-level task reasoning with the physical states to be achieved. We introduce Hy-Embodied-RxBrain, an...",
   "description": "arXiv:2607.14187v1 Announce Type: new Abstract: Embodied cognition requires agents to connect high-level task reasoning with the physical states to be achieved. We introduce Hy-Embodied-RxBrain, an embodied cognition foundation model with joint language-visual reasoning and imagination. Unlike vision-language models that emphasize scene understanding and textual decision making, or generative w...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

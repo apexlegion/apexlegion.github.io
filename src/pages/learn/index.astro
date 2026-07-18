@@ -61,9 +61,7 @@ const tracksWithLessons = TRACKS.map((track) => ({
                 </span>
                 <div class="flex flex-col">
                   <span class="text-text text-h3 font-semibold">{track.label}</span>
-                  <span class="text-primary-orange text-sm font-medium">
-                    “{track.audience}”
-                  </span>
+                  <span class="text-primary-orange text-sm font-medium">“{track.audience}”</span>
                 </div>
               </div>
               <p class="text-text-muted text-sm leading-relaxed">{track.blurb}</p>
@@ -109,7 +107,7 @@ const tracksWithLessons = TRACKS.map((track) => ({
                       {i + 1}
                     </span>
                     <span class="flex min-w-0 flex-col">
-                      <span class="text-text font-semibold group-hover:text-primary-orange transition-colors">
+                      <span class="text-text group-hover:text-primary-orange font-semibold transition-colors">
                         {lesson.title}
                       </span>
                       <span class="text-text-muted text-sm">{lesson.tagline}</span>
@@ -130,9 +128,9 @@ const tracksWithLessons = TRACKS.map((track) => ({
       <div class="border-border bg-surface-card flex flex-col gap-2 rounded-2xl border p-6">
         <h2 class="text-text text-h3 font-semibold">Prefer to read the theory?</h2>
         <p class="text-text-muted text-body max-w-prose">
-          Every AI term the lessons mention lives in the concepts library, explained at five
-          levels — from <strong class="text-text-muted">“Explain like I'm 12”</strong> to
-          Researcher. The glossary covers the rest, A–Z.
+          Every AI term the lessons mention lives in the concepts library, explained at five levels
+          — from <strong class="text-text-muted">“Explain like I'm 12”</strong> to Researcher. The glossary
+          covers the rest, A–Z.
         </p>
         <div class="mt-2 flex flex-wrap gap-3">
           <Button as="a" href={withBase('/concepts')} variant="ghost" size="sm">
@@ -149,7 +147,9 @@ const tracksWithLessons = TRACKS.map((track) => ({
       <div class="flex flex-col gap-4">
         <div class="flex items-center justify-between">
           <h2 class="text-text text-h2 font-semibold">Tutorials</h2>
-          <Button as="a" href={withBase('/tutorials')} variant="ghost" size="sm">Browse all tutorials →</Button>
+          <Button as="a" href={withBase('/tutorials')} variant="ghost" size="sm"
+            >Browse all tutorials →</Button
+          >
         </div>
         <Grid cols={{ base: 1, md: 2, lg: 3 }} gap={6}>
           {
@@ -182,7 +182,9 @@ const tracksWithLessons = TRACKS.map((track) => ({
       <div class="flex flex-col gap-4">
         <div class="flex items-center justify-between">
           <h2 class="text-text text-h2 font-semibold">Concepts</h2>
-          <Button as="a" href={withBase('/concepts')} variant="ghost" size="sm">Browse all concepts →</Button>
+          <Button as="a" href={withBase('/concepts')} variant="ghost" size="sm"
+            >Browse all concepts →</Button
+          >
         </div>
         <Grid cols={{ base: 1, md: 2, lg: 3 }} gap={6}>
           {

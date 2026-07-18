@@ -4,10 +4,7 @@
   "name": "Simplicity Paradox: Debunking myths about prompting and datasets for LLM evaluation",
   "summary": "arXiv:2607.14109v1 Announce Type: cross Abstract: Probing the capabilities of Large Language Models (LLMs) and building robust solutions for Multiple-Choice Question Answering (MCQA) remain central...",
   "description": "arXiv:2607.14109v1 Announce Type: cross Abstract: Probing the capabilities of Large Language Models (LLMs) and building robust solutions for Multiple-Choice Question Answering (MCQA) remain central challenges in natural language understanding. Furthermore, the rapid proliferation of LLMs has created the implicit assumption that more sophisticated prompting techniques yield better performance. S...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

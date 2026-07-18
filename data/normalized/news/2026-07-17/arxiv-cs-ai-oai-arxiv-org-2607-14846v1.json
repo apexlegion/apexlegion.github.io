@@ -4,10 +4,7 @@
   "name": "RW-Voice-EQ Bench: A Real World Benchmark for Evaluating Voice AI Systems",
   "summary": "arXiv:2607.14846v1 Announce Type: cross Abstract: Current voice AI benchmarks typically evaluate isolated capabilities such as speech intelligibility, word error rate, or text-based dialogue qualit...",
   "description": "arXiv:2607.14846v1 Announce Type: cross Abstract: Current voice AI benchmarks typically evaluate isolated capabilities such as speech intelligibility, word error rate, or text-based dialogue quality, but they rarely test whether systems harness the acoustic information that distinguishes spoken language from its textual representation. To this end, we introduce the Real World Voice EQ Bench, a...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

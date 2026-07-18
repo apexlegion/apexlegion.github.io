@@ -4,10 +4,7 @@
   "name": "AI Agents Do Not Fail Alone:The Context Fails First",
   "summary": "arXiv:2607.14275v1 Announce Type: new Abstract: Context engineering has become central to building reliable AI agents, yet it remains largely unmeasured. Agents do not fail in isolation: their beha...",
   "description": "arXiv:2607.14275v1 Announce Type: new Abstract: Context engineering has become central to building reliable AI agents, yet it remains largely unmeasured. Agents do not fail in isolation: their behavior is shaped by the instructions, tools, memory, retrieved knowledge, guardrails, and untrusted inputs accumulated in their context. When this context is weak, agents drift, hallucinate, misuse tool...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

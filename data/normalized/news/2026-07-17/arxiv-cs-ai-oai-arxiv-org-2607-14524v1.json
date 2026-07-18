@@ -4,10 +4,7 @@
   "name": "WrAFT: a Modularized Automated Writing Evaluation System for Argumentative Essays",
   "summary": "arXiv:2607.14524v1 Announce Type: new Abstract: This study presents WrAFT, a Writing Assessment and Feedback Tool, that delivers both accurate and reliable scores and effective comprehensive feedba...",
   "description": "arXiv:2607.14524v1 Announce Type: new Abstract: This study presents WrAFT, a Writing Assessment and Feedback Tool, that delivers both accurate and reliable scores and effective comprehensive feedback to argumentative essays. WrAFT adopts a modular design by dividing automated writing evaluation (AWE) tasks into scoring, surface-level feedback, and deep-level feedback. In building the system, va...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

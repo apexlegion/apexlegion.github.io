@@ -225,7 +225,9 @@ function layoutNodes(
   });
 
   const positioned = new Map<string, PositionedNode>();
-  const single = orderedTypes.length <= 1 && (byType.get(orderedTypes[0] ?? ('' as EntityType))?.length ?? 0) <= 1;
+  const single =
+    orderedTypes.length <= 1 &&
+    (byType.get(orderedTypes[0] ?? ('' as EntityType))?.length ?? 0) <= 1;
 
   let radius = 0;
   orderedTypes.forEach((type, ringIdx) => {

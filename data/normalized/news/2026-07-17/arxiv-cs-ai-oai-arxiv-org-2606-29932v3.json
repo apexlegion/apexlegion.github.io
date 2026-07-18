@@ -4,10 +4,7 @@
   "name": "SAGA: Scene-Aware, Goal-Evolving Agents for Long-Horizon Strategy Game Planning",
   "summary": "arXiv:2606.29932v3 Announce Type: replace Abstract: Long-horizon strategic planning in complex strategy games requires coordinating tightly coupled decision domains, including technology, economy,...",
   "description": "arXiv:2606.29932v3 Announce Type: replace Abstract: Long-horizon strategic planning in complex strategy games requires coordinating tightly coupled decision domains, including technology, economy, diplomacy, and military, across hundreds of turns under imperfect information. Existing LLM-based agents face three challenges in this setting. They recover little relational structure, such as distan...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

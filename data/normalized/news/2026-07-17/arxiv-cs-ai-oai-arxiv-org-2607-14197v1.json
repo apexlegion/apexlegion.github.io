@@ -4,10 +4,7 @@
   "name": "How Artificial Intelligence LLM Engines Shape the Global Conflict Information Environment",
   "summary": "arXiv:2607.14197v1 Announce Type: new Abstract: Artificial Intelligence (AI) answer engines now field a growing share of the questions that analysts, scholars, and the public ask about issues of pe...",
   "description": "arXiv:2607.14197v1 Announce Type: new Abstract: Artificial Intelligence (AI) answer engines now field a growing share of the questions that analysts, scholars, and the public ask about issues of peace and conflict. Large Language Models (LLMs) are known to hallucinate under certain conditions, but do these errors have discernible patterns when they are asked about conflicts, and if so what can...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Explainable Geospatial AI for Satellite Ground Station Siting Using LiDAR-Derived Terrain Intelligence",
   "summary": "arXiv:2607.14127v1 Announce Type: cross Abstract: Representative clutter height (RCH) is a key parameter in radio propagation and interference analysis because it captures the dominant height of lo...",
   "description": "arXiv:2607.14127v1 Announce Type: cross Abstract: Representative clutter height (RCH) is a key parameter in radio propagation and interference analysis because it captures the dominant height of local obstructions that drive terminal clutter loss. Current practice often relies on fixed clutter heights assigned to land use classes in Recommendation ITU-R P.452-18, but this misses within class va...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

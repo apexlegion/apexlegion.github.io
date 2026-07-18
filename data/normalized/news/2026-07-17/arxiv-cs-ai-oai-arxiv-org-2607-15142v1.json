@@ -4,10 +4,7 @@
   "name": "Concept-Guided Spatial Regularization for World Models in Atari Pong",
   "summary": "arXiv:2607.15142v1 Announce Type: new Abstract: World models are usually evaluated as components of model-based reinforcement learning (MBRL) systems, while the world models themselves are rarely s...",
   "description": "arXiv:2607.15142v1 Announce Type: new Abstract: World models are usually evaluated as components of model-based reinforcement learning (MBRL) systems, while the world models themselves are rarely studied in isolation. We examine five representative visual world-model agents in Atari Pong: DreamerV3, DIAMOND, TWISTER, Simulus, and STORM. After reproducing their training pipelines and matching th...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

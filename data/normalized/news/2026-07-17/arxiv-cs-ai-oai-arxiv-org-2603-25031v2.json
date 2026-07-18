@@ -4,10 +4,7 @@
   "name": "From Stateless to Situated: Building a Psychological World for LLM-Based Agents",
   "summary": "arXiv:2603.25031v2 Announce Type: replace Abstract: In psychological support and emotional companionship scenarios, the core limitation of large language models (LLMs) lies not merely in response q...",
   "description": "arXiv:2603.25031v2 Announce Type: replace Abstract: In psychological support and emotional companionship scenarios, the core limitation of large language models (LLMs) lies not merely in response quality, but in their reliance on local next-token prediction, which prevents them from maintaining the temporal continuity, stage awareness, and user consent boundaries required for multi-turn interve...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

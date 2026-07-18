@@ -4,10 +4,7 @@
   "name": "ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages",
   "summary": "arXiv:2606.13572v2 Announce Type: replace-cross Abstract: Multimodal Large Language Models (MLLMs) have shown promising reasoning capabilities in general domains, yet their performance remains limi...",
   "description": "arXiv:2606.13572v2 Announce Type: replace-cross Abstract: Multimodal Large Language Models (MLLMs) have shown promising reasoning capabilities in general domains, yet their performance remains limited in specialized settings such as healthcare, especially in multilingual and low-resource scenarios. This gap is critical in regions like rural India, where patients often express complex medical qu...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Integration Matters: Rollout-Based Training for Constrained Diffusion Models",
   "summary": "arXiv:2607.14398v1 Announce Type: cross Abstract: Constrained generative models aim to produce samples that satisfy complex feasibility constraints while remaining faithful to the data distribution...",
   "description": "arXiv:2607.14398v1 Announce Type: cross Abstract: Constrained generative models aim to produce samples that satisfy complex feasibility constraints while remaining faithful to the data distribution. Existing constrained generation methods typically enforce constraints either through training-time optimization or sampling-time correction. Training-time optimization approaches optimize on states...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Dialogue Summarization with Emotion Dynamics Using Topic- and Participant-Centric Decomposition",
   "summary": "arXiv:2607.14769v1 Announce Type: cross Abstract: Existing text summarization research has focused much on monologic information (e.g., newspaper articles, reports) without accounting for the inter...",
   "description": "arXiv:2607.14769v1 Announce Type: cross Abstract: Existing text summarization research has focused much on monologic information (e.g., newspaper articles, reports) without accounting for the interaction between speakers or authors. In contrast, dialogues are a rich communication channel where multiple participants conduct back and forth exchanges to construct meaning. We propose a dialogue sum...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

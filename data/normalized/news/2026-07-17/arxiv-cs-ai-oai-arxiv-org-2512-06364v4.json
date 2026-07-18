@@ -4,10 +4,7 @@
   "name": "JEEVHITAA -- An HCAI Ecosystem to Support Collective Care",
   "summary": "arXiv:2512.06364v4 Announce Type: replace-cross Abstract: Current mobile health platforms are predominantly individual-centric and lack the support for coordinated, auditable multi-actor workflows....",
   "description": "arXiv:2512.06364v4 Announce Type: replace-cross Abstract: Current mobile health platforms are predominantly individual-centric and lack the support for coordinated, auditable multi-actor workflows. However, in many settings worldwide, health decisions are enacted through multi-actor coordination rather than individual users. We present JEEVHITAA, a cross-platform mobile system enabling role-awa...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "\"Trust Junk\" Leads to Unjustified Support for Highly Discriminatory Predictive Models",
   "summary": "arXiv:2607.14152v1 Announce Type: cross Abstract: The persuasive power of data visualizations can go awry: for instance, in an explainable AI (XAI) context, visualizations can produce over-trust of...",
   "description": "arXiv:2607.14152v1 Announce Type: cross Abstract: The persuasive power of data visualizations can go awry: for instance, in an explainable AI (XAI) context, visualizations can produce over-trust of predictive models. In this paper, we use a crowdsourced study to show that providing accurate (but superfluous or irrelevant) data in a model explanation can, in fact, result in unjustified trust and...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

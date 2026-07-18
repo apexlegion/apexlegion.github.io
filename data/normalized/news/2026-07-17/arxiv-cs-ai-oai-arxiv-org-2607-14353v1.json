@@ -4,10 +4,7 @@
   "name": "Unsafe at any AUC: Unlearned Lessons from Sociotechnical Disasters for Responsible AI",
   "summary": "arXiv:2607.14353v1 Announce Type: cross Abstract: As automated decision-making and data-driven technologies pervade society and are used to manage consequential outcomes, understanding the technolo...",
   "description": "arXiv:2607.14353v1 Announce Type: cross Abstract: As automated decision-making and data-driven technologies pervade society and are used to manage consequential outcomes, understanding the technology's capabilities, limitations, and attendant risks in context requires analysis of full sociotechnical systems. Sociotechnical analysis of risks in highly complex systems provides clear lessons for t...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

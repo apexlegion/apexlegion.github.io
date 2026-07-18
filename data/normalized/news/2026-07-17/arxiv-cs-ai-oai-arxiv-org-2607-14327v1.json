@@ -4,10 +4,7 @@
   "name": "PReM: Learning What to Preserve and When to Refresh for Context Compression",
   "summary": "arXiv:2607.14327v1 Announce Type: cross Abstract: Efficient long-context inference is not only about reducing memory cost, but also about keeping useful contextual evidence accessible as generation...",
   "description": "arXiv:2607.14327v1 Announce Type: cross Abstract: Efficient long-context inference is not only about reducing memory cost, but also about keeping useful contextual evidence accessible as generation proceeds. However, existing compression-oriented approaches, such as key-value (KV) cache compression and context compression, often either make an early decision about which contextual information t...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

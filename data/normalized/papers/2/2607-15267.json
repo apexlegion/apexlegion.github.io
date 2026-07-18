@@ -4,10 +4,7 @@
   "name": "Pretraining Data Can Be Poisoned through Computational Propaganda",
   "summary": "Poisoning pretraining data can introduce harmful behaviors to LMs that are difficult to detect and mitigate. Prior work on poisoning pretraining data has largely exploited established data sources...",
   "description": "Poisoning pretraining data can introduce harmful behaviors to LMs that are difficult to detect and mitigate. Prior work on poisoning pretraining data has largely exploited established data sources such as Wikipedia, which do not represent the large scale and heterogeneity typical of pretraining corpora, and has ignored the interaction between poisoned data and data curation pipelines. We demonstrate that poisoning attacks on pretraining data are feasible beyond this limited setting through an existing web-scale content injection mechanism: public discussion interfaces. Additionally, to meas...",
-  "tags": [
-    "arxiv",
-    "cs.AI"
-  ],
+  "tags": ["arxiv", "cs.AI"],
   "externalLinks": [
     {
       "label": "arXiv abstract",

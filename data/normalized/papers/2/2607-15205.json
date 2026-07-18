@@ -4,10 +4,7 @@
   "name": "MM-IssueLoc: A Controlled Benchmark for Evaluating Visual Evidence in Multimodal Repository-Level Issue Localization",
   "summary": "Real repository issues routinely include visual evidence such as screenshots, error dialogs, rendered UI states, and logs, yet repository-level issue localization is evaluated mostly as a text-only...",
   "description": "Real repository issues routinely include visual evidence such as screenshots, error dialogs, rendered UI states, and logs, yet repository-level issue localization is evaluated mostly as a text-only task. Existing multimodal SE benchmarks evaluate end-to-end repair, entangling localization with patch synthesis and obscuring whether visual input helped, hurt, or was ignored. We introduce \\textbf{MM-IssueLoc}, a controlled benchmark and evaluation protocol for repository-level localization with visual evidence. MM-IssueLoc contains 652 issue-PR instances across 23 languages, with annotations f...",
-  "tags": [
-    "arxiv",
-    "cs.SE"
-  ],
+  "tags": ["arxiv", "cs.SE"],
   "externalLinks": [
     {
       "label": "arXiv abstract",

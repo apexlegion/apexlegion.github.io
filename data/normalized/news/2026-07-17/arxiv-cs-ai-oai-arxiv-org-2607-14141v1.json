@@ -4,10 +4,7 @@
   "name": "Human AI Construction of Bayesian Networks for Operational Decision Support -- A Virtual Survey Approach",
   "summary": "arXiv:2607.14141v1 Announce Type: new Abstract: Bayesian Belief Networks (BBNs) are powerful tools for decision-making under uncertainty. However, building their structures and estimating parameter...",
   "description": "arXiv:2607.14141v1 Announce Type: new Abstract: Bayesian Belief Networks (BBNs) are powerful tools for decision-making under uncertainty. However, building their structures and estimating parameters are difficult. Currently, researchers must choose between relying on expert judgement or using large datasets to learn the structure and parameters of the network. We propose a new methodology using...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Run a vLLM Server on HF Jobs in One Command",
   "summary": "Run a vLLM Server on HF Jobs in One Command",
   "description": "Run a vLLM Server on HF Jobs in One Command",
-  "tags": [
-    "news",
-    "huggingface-blog"
-  ],
+  "tags": ["news", "huggingface-blog"],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

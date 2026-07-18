@@ -4,10 +4,7 @@
   "name": "Instant NuRec: Feed-Forward 3D Gaussian Reconstruction for Driving Scene Simulation",
   "summary": "arXiv:2607.14203v1 Announce Type: cross Abstract: 3D simulation platforms are critical for autonomous driving because they enable end-to-end policy evaluation, thereby reducing development costs an...",
   "description": "arXiv:2607.14203v1 Announce Type: cross Abstract: 3D simulation platforms are critical for autonomous driving because they enable end-to-end policy evaluation, thereby reducing development costs and improving safety. In recent years, neural simulation has become predominant, with methods such as NuRec playing a central role; however, these methods remain relatively slow and typically require pe...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

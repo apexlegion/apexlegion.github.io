@@ -4,10 +4,7 @@
   "name": "A better way to turn 2D designs into 3D models for rapid prototyping",
   "summary": "Researchers developed an automated framework that helps AI models generate CAD programs more accurately and efficiently.",
   "description": "Researchers developed an automated framework that helps AI models generate CAD programs more accurately and efficiently.",
-  "tags": [
-    "news",
-    "mit-news-ai"
-  ],
+  "tags": ["news", "mit-news-ai"],
   "externalLinks": [
     {
       "label": "MIT News",

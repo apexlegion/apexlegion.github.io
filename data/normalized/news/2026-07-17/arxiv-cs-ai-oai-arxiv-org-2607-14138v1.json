@@ -4,10 +4,7 @@
   "name": "Volition Elicitation: Operational Semantics for People and Their Machines",
   "summary": "arXiv:2607.14138v1 Announce Type: cross Abstract: The most prevalent distributed systems today include people and their personal machines (smartphones). In such systems, computations are driven by...",
   "description": "arXiv:2607.14138v1 Announce Type: cross Abstract: The most prevalent distributed systems today include people and their personal machines (smartphones). In such systems, computations are driven by people's volitions: a payment when a person wishes to pay someone, befriending when two people wish to become friends, etc. Volition-Guarded Multiagent Atomic Transactions were proposed as an abstract...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

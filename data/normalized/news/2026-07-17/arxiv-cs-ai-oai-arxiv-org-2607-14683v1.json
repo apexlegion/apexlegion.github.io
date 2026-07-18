@@ -4,10 +4,7 @@
   "name": "InCarEmo: A Multimodal Dataset for In-Cabin Emotion Recognition and Driver State Monitoring",
   "summary": "arXiv:2607.14683v1 Announce Type: new Abstract: Understanding driver emotion and state is critical for the next generation of intelligent in-cabin systems that ensure safety and enhance human-vehic...",
   "description": "arXiv:2607.14683v1 Announce Type: new Abstract: Understanding driver emotion and state is critical for the next generation of intelligent in-cabin systems that ensure safety and enhance human-vehicle interaction. However, existing public datasets for in-cabin affective computing are largely limited to visual modalities and rarely include conversational information, making it difficult to captur...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

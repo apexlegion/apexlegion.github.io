@@ -4,10 +4,7 @@
   "name": "AgenticData: An Agentic Data Analytics System for Heterogeneous Data",
   "summary": "arXiv:2508.05002v2 Announce Type: replace-cross Abstract: Existing unstructured data analytics systems rely on experts to write code and manage complex analysis workflows, making them both expensiv...",
   "description": "arXiv:2508.05002v2 Announce Type: replace-cross Abstract: Existing unstructured data analytics systems rely on experts to write code and manage complex analysis workflows, making them both expensive and time-consuming. To address these challenges, we introduce AgenticData, an innovative agentic data analytics system that allows users to simply pose natural language (NL) questions while autonomo...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,9 +4,7 @@
   "name": "MiniCPM",
   "summary": "MiniCPM5-1B: A SOTA 1B on-device LLM, small yet powerful.",
   "description": "MiniCPM5-1B: A SOTA 1B on-device LLM, small yet powerful.",
-  "tags": [
-    "jupyter notebook"
-  ],
+  "tags": ["jupyter notebook"],
   "externalLinks": [
     {
       "label": "GitHub repository",

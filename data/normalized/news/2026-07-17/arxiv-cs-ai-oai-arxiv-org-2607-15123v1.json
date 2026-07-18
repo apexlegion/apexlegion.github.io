@@ -4,10 +4,7 @@
   "name": "NIFA: Nonlinear IMC enhanced FPGA for efficient ML inference",
   "summary": "arXiv:2607.15123v1 Announce Type: cross Abstract: Recent FPGAs have improved deep learning (DL) inference efficiency through dedicated tensor blocks and in-BRAM computation. ReRAM-based analog in-m...",
   "description": "arXiv:2607.15123v1 Announce Type: cross Abstract: Recent FPGAs have improved deep learning (DL) inference efficiency through dedicated tensor blocks and in-BRAM computation. ReRAM-based analog in-memory computing (IMC) pushes efficiency further, offering an order-of-magnitude improvement in compute density and energy efficiency over conventional digital logic by performing vector-matrix multipl...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

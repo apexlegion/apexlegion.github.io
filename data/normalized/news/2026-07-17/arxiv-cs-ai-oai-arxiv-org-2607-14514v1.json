@@ -4,10 +4,7 @@
   "name": "VTM-Nav: Hierarchical Visual-Topological Memory for Cross-Episode Object-Goal Navigation",
   "summary": "arXiv:2607.14514v1 Announce Type: cross Abstract: Object-goal navigation requires an embodied agent to locate and reach an instance of a specified object category in an indoor environment. Recent t...",
   "description": "arXiv:2607.14514v1 Announce Type: cross Abstract: Object-goal navigation requires an embodied agent to locate and reach an instance of a specified object category in an indoor environment. Recent training-free approaches leverage vision-language models (VLMs) for open-vocabulary semantic reasoning, but are typically evaluated under an episodic protocol that resets all scene-specific state after...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

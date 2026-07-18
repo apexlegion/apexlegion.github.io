@@ -4,10 +4,7 @@
   "name": "What Models Express, Suppress, and Resist: Auditing Open-Weight LLMs with Persona Vectors",
   "summary": "arXiv:2607.13162v2 Announce Type: replace-cross Abstract: What a language model will and will not do is largely set during post-training, but which behaviors it expresses, hides, or resists is not...",
   "description": "arXiv:2607.13162v2 Announce Type: replace-cross Abstract: What a language model will and will not do is largely set during post-training, but which behaviors it expresses, hides, or resists is not revealed by prompting alone. Persona vectors, behavioral directions in activation space, can probe this organization, but prior work covers only a handful of traits. We present the first systematic ap...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

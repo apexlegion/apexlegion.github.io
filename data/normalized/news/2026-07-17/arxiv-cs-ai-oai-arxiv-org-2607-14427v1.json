@@ -4,10 +4,7 @@
   "name": "Per-Token Fixed-Point Convergence in Depth-Recurrent Transformers",
   "summary": "arXiv:2607.14427v1 Announce Type: new Abstract: A depth-recurrent transformer applies a weight-tied core a variable number of times, and prior work has shown that training with a randomized recursi...",
   "description": "arXiv:2607.14427v1 Announce Type: new Abstract: A depth-recurrent transformer applies a weight-tied core a variable number of times, and prior work has shown that training with a randomized recursion count yields one checkpoint usable across a range of inference depths. We ask what such a model actually computes per token, and measure it directly. On a 135M-class model trained on FineWeb-Edu, t...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

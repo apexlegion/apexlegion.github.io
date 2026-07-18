@@ -4,10 +4,7 @@
   "name": "RAD: Retrieval High-quality Demonstrations to Enhance Decision-making",
   "summary": "arXiv:2507.15356v2 Announce Type: replace Abstract: Offline reinforcement learning (RL) learns policies from fixed datasets, thereby avoiding costly or unsafe environment interactions. However, its...",
   "description": "arXiv:2507.15356v2 Announce Type: replace Abstract: Offline reinforcement learning (RL) learns policies from fixed datasets, thereby avoiding costly or unsafe environment interactions. However, its reliance on finite static datasets inherently restricts the ability to generalize beyond the training distribution. Prior solutions based on synthetic data augmentation often fail to generalize to un...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

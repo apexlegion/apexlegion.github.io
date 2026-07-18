@@ -4,10 +4,7 @@
   "name": "FlashDecoder: Real-Time Latent-to-Pixel Streaming Decoder with Transformers",
   "summary": "arXiv:2607.14898v1 Announce Type: cross Abstract: Real-time video generation demands fast decoding as much as fast denoising, yet current latent video diffusion models rely on 3D convolutional deco...",
   "description": "arXiv:2607.14898v1 Announce Type: cross Abstract: Real-time video generation demands fast decoding as much as fast denoising, yet current latent video diffusion models rely on 3D convolutional decoders that are slow and memory-intensive at high resolutions or for long video. We introduce FlashDecoder, a fast, memory-efficient pure-Transformer video decoder that decodes latents to pixels frame b...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

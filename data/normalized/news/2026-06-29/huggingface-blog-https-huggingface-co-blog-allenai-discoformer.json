@@ -4,10 +4,7 @@
   "name": "DiScoFormer: One transformer for density and score, across distributions",
   "summary": "DiScoFormer: One transformer for density and score, across distributions",
   "description": "DiScoFormer: One transformer for density and score, across distributions",
-  "tags": [
-    "news",
-    "huggingface-blog"
-  ],
+  "tags": ["news", "huggingface-blog"],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

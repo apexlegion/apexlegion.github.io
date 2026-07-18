@@ -4,10 +4,7 @@
   "name": "LBA: Textual Hard-Label Adversarial Attack under Low Query Budgets",
   "summary": "arXiv:2607.14101v1 Announce Type: cross Abstract: Generating high-quality adversarial texts with low query budgets remains a challenging problem in the hard-label scenario. Most existing approaches...",
   "description": "arXiv:2607.14101v1 Announce Type: cross Abstract: Generating high-quality adversarial texts with low query budgets remains a challenging problem in the hard-label scenario. Most existing approaches rely on greedy algorithms, where one position in the text is selected for substitution, followed by the substitutions of other positions. This local search approach may fail to discover high-quality...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

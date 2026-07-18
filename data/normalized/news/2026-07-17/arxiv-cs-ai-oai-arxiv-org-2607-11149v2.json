@@ -4,10 +4,7 @@
   "name": "The Hidden Footprint: Making Storage a First-Class Metric for LLM Agent Evaluation",
   "summary": "arXiv:2607.11149v2 Announce Type: replace Abstract: LLM agent benchmarks measure task completion, reliability, and inference cost, but not the persistent data an agent run leaves on disk, including...",
   "description": "arXiv:2607.11149v2 Announce Type: replace Abstract: LLM agent benchmarks measure task completion, reliability, and inference cost, but not the persistent data an agent run leaves on disk, including logs, context snapshots, checkpoints, and debug traces. We introduce AgentFootprint, a cross-framework benchmark of post-run agent storage footprint. Its serialization-aware metric suite measures tot...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

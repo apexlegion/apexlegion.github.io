@@ -4,10 +4,7 @@
   "name": "SMC-ES: Automated synthesis of formally verified control policies",
   "summary": "arXiv:2607.15003v1 Announce Type: new Abstract: The deployment of autonomous cyber-physical systems in safety-critical environments requires closed-loop control strategies (i.e., policies) that are...",
   "description": "arXiv:2607.15003v1 Announce Type: new Abstract: The deployment of autonomous cyber-physical systems in safety-critical environments requires closed-loop control strategies (i.e., policies) that are not only performant but also provably safe and robust. While learning-based methodologies such as Reinforcement Learning offer flexible and scalable approaches to automatically synthesize such contro...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

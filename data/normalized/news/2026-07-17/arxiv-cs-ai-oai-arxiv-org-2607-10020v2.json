@@ -4,10 +4,7 @@
   "name": "FindMyText: Robust, Scalable Detection of Text Containment in Large Web-Crawled Corpora",
   "summary": "arXiv:2607.10020v2 Announce Type: replace-cross Abstract: We present FindMyText, an open-source Python package designed to efficiently assess whether a given text appears, in part or in full, withi...",
   "description": "arXiv:2607.10020v2 Announce Type: replace-cross Abstract: We present FindMyText, an open-source Python package designed to efficiently assess whether a given text appears, in part or in full, within a text corpus. The tool builds on prior techniques for document fingerprinting, but extends them with a novel mechanism to explicitly capture sequences of matching fingerprints. By identifying such...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "VOiLA: Vectorized Online Planning with Learned Diffusion Models for POMDP Agents",
   "summary": "arXiv:2606.19729v2 Announce Type: replace-cross Abstract: Planning under uncertainty is an essential capability for autonomous robots. The Partially Observable Markov Decision Process (POMDP) provi...",
   "description": "arXiv:2606.19729v2 Announce Type: replace-cross Abstract: Planning under uncertainty is an essential capability for autonomous robots. The Partially Observable Markov Decision Process (POMDP) provides a powerful framework for such a capability. Although POMDP-based planning has advanced significantly, its application to real-world problems is often limited by the difficulty of obtaining faithfu...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

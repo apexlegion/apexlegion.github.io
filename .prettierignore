@@ -8,3 +8,7 @@ playwright-report/
 test-results/
 pnpm-lock.yaml
 .kimchi/docs/
+# Generated artifacts — written by the scrape pipeline / validators, never
+# hand-edited. Checking them makes every nightly bot commit fail CI.
+data/raw/
+data/reports/

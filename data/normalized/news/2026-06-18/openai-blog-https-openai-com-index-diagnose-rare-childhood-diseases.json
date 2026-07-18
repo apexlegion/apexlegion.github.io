@@ -4,10 +4,7 @@
   "name": "Using AI to help physicians diagnose rare genetic diseases affecting children",
   "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
   "description": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
-  "tags": [
-    "news",
-    "openai-blog"
-  ],
+  "tags": ["news", "openai-blog"],
   "externalLinks": [
     {
       "label": "OpenAI Blog",

@@ -4,10 +4,7 @@
   "name": "MedRealMM: A Real-World Multimodal Benchmark for Chinese Online Medical Consultation",
   "summary": "arXiv:2607.09142v3 Announce Type: replace Abstract: Large language models (LLMs) are increasingly deployed in online medical consultation, yet existing benchmarks remain poorly aligned with real cl...",
   "description": "arXiv:2607.09142v3 Announce Type: replace Abstract: Large language models (LLMs) are increasingly deployed in online medical consultation, yet existing benchmarks remain poorly aligned with real clinical practice. Many rely on synthetic conversations or patient simulators, omit patient-uploaded medical images, or evaluate open-ended clinical responses using multiple-choice or lexical-overlap me...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

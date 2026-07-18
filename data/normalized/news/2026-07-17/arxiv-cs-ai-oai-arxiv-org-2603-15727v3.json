@@ -4,10 +4,7 @@
   "name": "AgentWorm: Self-Propagating Attacks Across LLM Agent Ecosystems",
   "summary": "arXiv:2603.15727v3 Announce Type: replace-cross Abstract: Autonomous LLM-based agents increasingly operate as long-running processes forming densely interconnected multi-agent ecosystems, whose sec...",
   "description": "arXiv:2603.15727v3 Announce Type: replace-cross Abstract: Autonomous LLM-based agents increasingly operate as long-running processes forming densely interconnected multi-agent ecosystems, whose security properties remain largely unexplored. Systems such as OpenClaw, an open-source platform with over 40{,}000 active instances, persistent configurations, tool-execution privileges, and cross-platf...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

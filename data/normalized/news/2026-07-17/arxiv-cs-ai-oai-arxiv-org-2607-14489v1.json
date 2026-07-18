@@ -4,10 +4,7 @@
   "name": "EdgeFaaS: A Function-based Framework for Edge Computing",
   "summary": "arXiv:2607.14489v1 Announce Type: cross Abstract: Edge computing brings unique challenges as the resources on the edge are highly diverse in capabilities and capacities, and highly distributed acro...",
   "description": "arXiv:2607.14489v1 Announce Type: cross Abstract: Edge computing brings unique challenges as the resources on the edge are highly diverse in capabilities and capacities, and highly distributed across many users and the physical world. Existing distributed computing frameworks cannot adequately handle this level of heterogeneity and distribution. This paper proposes EdgeFaaS, a novel function-ba...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

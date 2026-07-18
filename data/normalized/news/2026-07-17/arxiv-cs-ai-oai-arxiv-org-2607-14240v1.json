@@ -4,10 +4,7 @@
   "name": "Align AI to Dynamic Human-AI Workflows",
   "summary": "arXiv:2607.14240v1 Announce Type: new Abstract: Current alignment approaches typically focus on emulating human behavior using static representations of human preferences, failing to capture the dy...",
   "description": "arXiv:2607.14240v1 Announce Type: new Abstract: Current alignment approaches typically focus on emulating human behavior using static representations of human preferences, failing to capture the dynamic, context-dependent nature of real-world human-AI interactions. In this paper, we argue for a shift from static and emulative to interactive and complementary alignment, where preferences emerge...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

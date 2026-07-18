@@ -4,10 +4,7 @@
   "name": "Position: Explainability Research Must Prioritize Foundations over Ad-hoc Methods",
   "summary": "arXiv:2607.14123v1 Announce Type: cross Abstract: Despite the proliferation of Explainable AI (XAI) techniques -- from feature attributions to sparse autoencoders -- explanations rarely influence r...",
   "description": "arXiv:2607.14123v1 Announce Type: cross Abstract: Despite the proliferation of Explainable AI (XAI) techniques -- from feature attributions to sparse autoencoders -- explanations rarely influence real-world workflows. In practice, they are often generated and discarded without guiding meaningful action. This gap reflects foundational shortcomings: research has not yet established methodologies...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

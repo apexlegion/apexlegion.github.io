@@ -4,10 +4,7 @@
   "name": "When a Verified World Model Still Loses: Play-Adequacy vs Prediction-Accuracy in LLM-Synthesized Code World Models",
   "summary": "arXiv:2607.14169v1 Announce Type: new Abstract: Large language models can synthesize a game's rules as executable code - a Code World Model (CWM) - which a classical planner then searches over. Suc...",
   "description": "arXiv:2607.14169v1 Announce Type: new Abstract: Large language models can synthesize a game's rules as executable code - a Code World Model (CWM) - which a classical planner then searches over. Such models are typically accepted when they reach high transition accuracy on sampled trajectories. We argue this is the wrong notion of adequacy for planning. We show four things. (1) An LLM-synthesize...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

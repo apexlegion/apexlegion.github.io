@@ -4,10 +4,7 @@
   "name": "DialogueVPR: Towards Conversational Visual Place Recognition",
   "summary": "arXiv:2607.14115v1 Announce Type: new Abstract: Inspired by how humans communicate spatial information, language-guided geo-localization has gained significant traction for its intuitive and practi...",
   "description": "arXiv:2607.14115v1 Announce Type: new Abstract: Inspired by how humans communicate spatial information, language-guided geo-localization has gained significant traction for its intuitive and practical value. Despite this progress, most methods still rely on a static, one-shot retrieval paradigm, which fails to handle the ambiguity and incompleteness inherent in real-world natural language descr...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

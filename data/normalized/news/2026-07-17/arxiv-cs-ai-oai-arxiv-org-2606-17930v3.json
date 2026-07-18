@@ -4,10 +4,7 @@
   "name": "How Inference Compute Shapes Frontier LLM Evaluation",
   "summary": "arXiv:2606.17930v3 Announce Type: replace Abstract: AI evaluations are shifting toward harder tasks that benefit from longer trajectories involving tool use and iterative problem solving. As a resu...",
   "description": "arXiv:2606.17930v3 Announce Type: replace Abstract: AI evaluations are shifting toward harder tasks that benefit from longer trajectories involving tool use and iterative problem solving. As a result, performance is increasingly sensitive to the amount and allocation of compute available at test time (\"inference compute\"). Yet many evaluations still report performance at a single restrictive bu...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

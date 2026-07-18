@@ -4,10 +4,7 @@
   "name": "Fully Offline Reinforcement Learning",
   "summary": "arXiv:2505.22442v3 Announce Type: replace-cross Abstract: Offline RL (ORL) promises safe and sample-efficient deployment but existing methods rely on undocumented online interactions for hyperparam...",
   "description": "arXiv:2505.22442v3 Announce Type: replace-cross Abstract: Offline RL (ORL) promises safe and sample-efficient deployment but existing methods rely on undocumented online interactions for hyperparameter tuning and lack reliable fully offline estimates of initial online performance. We introduce SOReL, a fully offline Bayesian model-based RL method that learns a posterior over dynamics, estimates...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

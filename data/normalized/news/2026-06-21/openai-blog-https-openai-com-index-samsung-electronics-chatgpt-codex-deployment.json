@@ -4,10 +4,7 @@
   "name": "Samsung Electronics brings ChatGPT and Codex to employees",
   "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
   "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
-  "tags": [
-    "news",
-    "openai-blog"
-  ],
+  "tags": ["news", "openai-blog"],
   "externalLinks": [
     {
       "label": "OpenAI Blog",

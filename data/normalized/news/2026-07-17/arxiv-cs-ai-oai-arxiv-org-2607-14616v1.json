@@ -4,10 +4,7 @@
   "name": "SportD: Can VLMs Physically Strategize?",
   "summary": "arXiv:2607.14616v1 Announce Type: new Abstract: Vision--language models have become increasingly capable of interpreting visual scenes, but it remains unclear whether they can use information to ma...",
   "description": "arXiv:2607.14616v1 Announce Type: new Abstract: Vision--language models have become increasingly capable of interpreting visual scenes, but it remains unclear whether they can use information to make strategically effective decisions. We investigate this question in soccer, where models observe the seconds preceding an on-ball decision and must choose whether to shoot or pass to a specific team...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

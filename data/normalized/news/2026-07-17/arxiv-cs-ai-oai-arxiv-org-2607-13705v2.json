@@ -4,10 +4,7 @@
   "name": "AgentCompass: A Unified Evaluation Infrastructure for Agent Capabilities",
   "summary": "arXiv:2607.13705v2 Announce Type: replace Abstract: As Large Language Models (LLMs) evolve into autonomous agents, the need for unified evaluation infrastructure becomes critical. However, current...",
   "description": "arXiv:2607.13705v2 Announce Type: replace Abstract: As Large Language Models (LLMs) evolve into autonomous agents, the need for unified evaluation infrastructure becomes critical. However, current evaluation pipelines remain highly fragmented and tightly coupled, hindering reproducibility and causing redundant engineering. To address this, we introduce AgentCompass, an open-source, lightweight,...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

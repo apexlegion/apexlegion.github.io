@@ -4,10 +4,7 @@
   "name": "Fast-Fading Channel and Power Optimization of the Magnetic Inductive Cellular Network",
   "summary": "arXiv:2406.04737v2 Announce Type: cross Abstract: The cellular network of magnetic Induction (MI) communication holds promise in long-distance underground environments. In the traditional MI commun...",
   "description": "arXiv:2406.04737v2 Announce Type: cross Abstract: The cellular network of magnetic Induction (MI) communication holds promise in long-distance underground environments. In the traditional MI communication, there is no fast-fading channel since the MI channel is treated as a quasi-static channel. However, for the vehicle (mobile) MI (VMI) communication, the unpredictable antenna vibration brings...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Man, Machine, and Masterpiece: Artistic Ownership in the AI Era",
   "summary": "arXiv:2607.15027v1 Announce Type: new Abstract: The integration of AI-driven systems in creative work has sparked debates among artists and legal communities about notions of ownership. Yet there r...",
   "description": "arXiv:2607.15027v1 Announce Type: new Abstract: The integration of AI-driven systems in creative work has sparked debates among artists and legal communities about notions of ownership. Yet there remains little consensus on how ownership should be defined and attributed when human and AI contributions are intertwined. To provoke critical reflection on these tensions, we designed ArtSplit, a pro...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

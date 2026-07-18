@@ -4,10 +4,7 @@
   "name": "Towards a Bridge Layer Between Bibliographic and Formalized Mathematical Knowledge",
   "summary": "arXiv:2606.11430v2 Announce Type: replace-cross Abstract: Mathematical knowledge is split between bibliographic databases (e.g., MathSciNet, zbMATH Open) and formal proof libraries (e.g., Lean math...",
   "description": "arXiv:2606.11430v2 Announce Type: replace-cross Abstract: Mathematical knowledge is split between bibliographic databases (e.g., MathSciNet, zbMATH Open) and formal proof libraries (e.g., Lean mathlib), preventing unified access between published results and their formalizations. We propose a relational bridge-database that aligns publication metadata with formal artifacts, providing an interop...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Function-Aware Fill-in-the-Middle as Mid-Training for Coding Agent Foundation Models",
   "summary": "arXiv:2607.12463v2 Announce Type: replace Abstract: Coding agents must integrate external tool returns into ongoing reasoning - a capability that standard left-to-right pretraining on code exposes...",
   "description": "arXiv:2607.12463v2 Announce Type: replace Abstract: Coding agents must integrate external tool returns into ongoing reasoning - a capability that standard left-to-right pretraining on code exposes only in its forward direction. We observe that the action-observation-continuation loop of a coding agent is structurally isomorphic to a function call site, where a caller binds arguments, a callee r...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

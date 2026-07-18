@@ -4,10 +4,7 @@
   "name": "Are Performance-Optimization Benchmarks Reliably Measuring Coding Agents?",
   "summary": "arXiv:2607.01211v2 Announce Type: replace-cross Abstract: Repository-level performance-optimization benchmarks such as GSO, SWE-Perf and SWE-fficiency evaluate coding agents by applying patches to...",
   "description": "arXiv:2607.01211v2 Announce Type: replace-cross Abstract: Repository-level performance-optimization benchmarks such as GSO, SWE-Perf and SWE-fficiency evaluate coding agents by applying patches to real repositories and comparing runtime against unoptimized baselines and official reference patches. Their leaderboard scores are increasingly used as evidence of coding-agent progress, but those sco...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

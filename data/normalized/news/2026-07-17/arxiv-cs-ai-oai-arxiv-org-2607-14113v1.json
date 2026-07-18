@@ -4,10 +4,7 @@
   "name": "T5-CSBoost: Adversarial Perturbation Resistant LLM Fingerprinting",
   "summary": "arXiv:2607.14113v1 Announce Type: cross Abstract: While many AI-generated text (AIGT) detectors achieve strong performance on clean inputs, their accuracy degrades significantly under light paraphr...",
   "description": "arXiv:2607.14113v1 Announce Type: cross Abstract: While many AI-generated text (AIGT) detectors achieve strong performance on clean inputs, their accuracy degrades significantly under light paraphrasing, word substitutions, character edits, and distribution shifts. We present T5 Contrastive Style Boosted Classifier (T5-CSBoost), an extension to the T5-Sentinel framework that keeps the original...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "An Intelligent-Cloud Edge Multimodal Interaction System for Robots",
   "summary": "arXiv:2607.14675v1 Announce Type: cross Abstract: Robust human-robot interaction in complex environments requires accurate gesture perception, semantic scene understanding, and reliable task planni...",
   "description": "arXiv:2607.14675v1 Announce Type: cross Abstract: Robust human-robot interaction in complex environments requires accurate gesture perception, semantic scene understanding, and reliable task planning under limited onboard computing resources. This paper presents a cloud-edge multimodal interaction framework that integrates an enhanced YOLO-based gesture detector with coordinated large language...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

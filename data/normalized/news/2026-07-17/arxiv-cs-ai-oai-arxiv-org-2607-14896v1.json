@@ -4,10 +4,7 @@
   "name": "StructureClaw: Traceable LLM Agents and an Executable Benchmark for Structural Engineering Workflows",
   "summary": "arXiv:2607.14896v1 Announce Type: cross Abstract: Addressing a structural-engineering request requires more than a single answer; it requires a chain of interdependent artifacts: interpreted requir...",
   "description": "arXiv:2607.14896v1 Announce Type: cross Abstract: Addressing a structural-engineering request requires more than a single answer; it requires a chain of interdependent artifacts: interpreted requirements, a computable model, validation records, solver outputs, code-check records, and a final report. Evaluations centered on question answering or script generation rarely verify this complete evid...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

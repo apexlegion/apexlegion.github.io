@@ -4,10 +4,7 @@
   "name": "Random Logit Scaling: Defending Deep Neural Networks Against Black-Box Score-Based Adversarial Example Attacks",
   "summary": "arXiv:2607.14921v1 Announce Type: cross Abstract: Machine learning models are increasingly adapted in various domains. However, adversarial examples pose a significant threat to the reliable deploy...",
   "description": "arXiv:2607.14921v1 Announce Type: cross Abstract: Machine learning models are increasingly adapted in various domains. However, adversarial examples pose a significant threat to the reliable deployment of these models. In recent years, some powerful adversarial example attacks have been proposed for the fast and query-efficient generation of adversarial examples, even in black-box scenarios, hi...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

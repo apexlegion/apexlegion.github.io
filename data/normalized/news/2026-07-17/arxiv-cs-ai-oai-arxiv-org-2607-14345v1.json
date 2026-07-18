@@ -4,10 +4,7 @@
   "name": "Value Leakage: An LLM's Answers Are Silently Shaped by Its Own Values",
   "summary": "arXiv:2607.14345v1 Announce Type: cross Abstract: People use language models for practical questions whose answers are difficult to verify. We show that models exhibit covert value leakage: the inf...",
   "description": "arXiv:2607.14345v1 Announce Type: cross Abstract: People use language models for practical questions whose answers are difficult to verify. We show that models exhibit covert value leakage: the information they provide is influenced by their own values, without this influence being disclosed to the user. In one of our evaluations, the user is considering investing in an AI company and wants to...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

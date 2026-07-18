@@ -4,10 +4,7 @@
   "name": "Evaluating Epistemic Uncertainty: Beyond OOD Detection and Active Learning",
   "summary": "arXiv:2607.14817v1 Announce Type: cross Abstract: Current evaluation of epistemic uncertainty relies on tasks such as out-ofdistribution detection and active learning. However, the Bayes-optimal de...",
   "description": "arXiv:2607.14817v1 Announce Type: cross Abstract: Current evaluation of epistemic uncertainty relies on tasks such as out-ofdistribution detection and active learning. However, the Bayes-optimal decision strategies for these tasks do not coincide with the scores commonly used to quantify epistemic uncertainty. Building on the epistemic reject-option framework, we evaluate epistemic uncertainty...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

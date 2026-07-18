@@ -4,10 +4,7 @@
   "name": "Towards an Intention Abstraction Layer for Autonomous Industrial Systems",
   "summary": "arXiv:2607.14553v1 Announce Type: new Abstract: Modern industrial environments increasingly run many autonomous subsystems at once - schedulers, energy managers, vehicle fleets - each pursuing its...",
   "description": "arXiv:2607.14553v1 Announce Type: new Abstract: Modern industrial environments increasingly run many autonomous subsystems at once - schedulers, energy managers, vehicle fleets - each pursuing its own goals while sharing the same physical resources. Because high-level human intentions are translated into low-level control logic and then discarded, no running component can tell whether it is sti...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Can We Trust Item Response Theory for AI Evaluation?",
   "summary": "arXiv:2607.15190v1 Announce Type: new Abstract: AI benchmarks increasingly leverage item-level statistical models, particularly item response theory (IRT), to estimate model capabilities, rank syst...",
   "description": "arXiv:2607.15190v1 Announce Type: new Abstract: AI benchmarks increasingly leverage item-level statistical models, particularly item response theory (IRT), to estimate model capabilities, rank systems, select informative examples, and diagnose benchmark quality. However, AI benchmark data often departs from the data regime of human testing, for which standard IRT estimation tools were originall...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

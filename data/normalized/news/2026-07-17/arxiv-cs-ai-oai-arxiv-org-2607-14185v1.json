@@ -4,10 +4,7 @@
   "name": "Closed-Loop Knowledge Dynamics: An Operational Framework for Saturation and Escape",
   "summary": "arXiv:2607.14185v1 Announce Type: cross Abstract: Feedback-driven loops support iterative improvement in large language models, reinforcement learning, and autonomous discovery, yet their gains oft...",
   "description": "arXiv:2607.14185v1 Announce Type: cross Abstract: Feedback-driven loops support iterative improvement in large language models, reinforcement learning, and autonomous discovery, yet their gains often diminish under repeated internal feedback. We study why closed-loop knowledge systems saturate and what external information can move them beyond their current attractors. We introduce a three-leve...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "llama.cpp",
   "summary": "LLM inference in C/C++",
   "description": "LLM inference in C/C++",
-  "tags": [
-    "ggml",
-    "c++"
-  ],
+  "tags": ["ggml", "c++"],
   "externalLinks": [
     {
       "label": "GitHub repository",

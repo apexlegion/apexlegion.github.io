@@ -4,10 +4,7 @@
   "name": "Towards Hierarchical Structure Understanding of Newspaper Images",
   "summary": "arXiv:2607.15082v1 Announce Type: cross Abstract: Understanding newspaper images remains a challenging task due to their complex, nested hierarchical structures and dense, heterogeneous layouts. In...",
   "description": "arXiv:2607.15082v1 Announce Type: cross Abstract: Understanding newspaper images remains a challenging task due to their complex, nested hierarchical structures and dense, heterogeneous layouts. In this paper, we explore two complementary approaches for newspaper structure understanding. First, we present a modular bottom-up pipeline that combines state-of-the-art open-source models: YOLO for l...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

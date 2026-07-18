@@ -4,10 +4,7 @@
   "name": "ShopX: A Foundation Model for Intent-to-Item Fulfillment in Agentic Shopping",
   "summary": "arXiv:2606.31693v2 Announce Type: replace-cross Abstract: The wave of AI-native applications is moving shopping beyond page- and feed-based browsing toward intent-driven experiences orchestrated by...",
   "description": "arXiv:2606.31693v2 Announce Type: replace-cross Abstract: The wave of AI-native applications is moving shopping beyond page- and feed-based browsing toward intent-driven experiences orchestrated by LLM agents. A common design wraps an LLM around existing search and recommendation pipelines, forcing complex intents through low-bandwidth retrieval or ranking interfaces and leaving a gap between l...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

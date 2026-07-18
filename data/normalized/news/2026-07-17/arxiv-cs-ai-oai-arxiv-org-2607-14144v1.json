@@ -4,10 +4,7 @@
   "name": "Capability from Access Structure, Not Scale: Lower Bounds and Pre-Registered Tests for Hybrid Sequence Models",
   "summary": "arXiv:2607.14144v1 Announce Type: new Abstract: The Platonic Representation Hypothesis (PRH) holds that as models scale, representations of heterogeneous networks converge toward a shared model of...",
   "description": "arXiv:2607.14144v1 Announce Type: new Abstract: The Platonic Representation Hypothesis (PRH) holds that as models scale, representations of heterogeneous networks converge toward a shared model of reality. We propose its sequel and boundary, the Capability Convergence Hypothesis (CCH): under a fixed per-token inference budget, representational convergence does not entail capability convergence....",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

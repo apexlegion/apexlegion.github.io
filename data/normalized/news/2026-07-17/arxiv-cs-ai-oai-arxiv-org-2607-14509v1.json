@@ -4,10 +4,7 @@
   "name": "Multi-Scale ViT Inference with Habitat-Fit Priors and kNN Retrieval for Multi-Species Plant Identification",
   "summary": "arXiv:2607.14509v1 Announce Type: cross Abstract: This paper describes DS@GT ARC's third-place solution to the PlantCLEF 2026 challenge on multi-species plant identification in vegetation quadrat i...",
   "description": "arXiv:2607.14509v1 Announce Type: cross Abstract: This paper describes DS@GT ARC's third-place solution to the PlantCLEF 2026 challenge on multi-species plant identification in vegetation quadrat images, where systems must predict every species present in high-resolution (~3000 x 3000 pixel) plot photographs while training only on single-label images of individual plants. The pipeline is built...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

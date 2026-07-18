@@ -4,10 +4,7 @@
   "name": "Information-Theoretic Limits of Reliability and Scaling in Language Models",
   "summary": "arXiv:2607.14112v1 Announce Type: cross Abstract: Large language models (LLMs) are evaluated as though perfect reliability is achievable for any task given sufficient scale. We show this assumption...",
   "description": "arXiv:2607.14112v1 Announce Type: cross Abstract: Large language models (LLMs) are evaluated as though perfect reliability is achievable for any task given sufficient scale. We show this assumption is information-theoretically unjustified. Every generative task has a reliability ceiling that no model can exceed, determined by how much output uncertainty is resolvable from observable context. Th...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

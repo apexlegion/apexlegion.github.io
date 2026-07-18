@@ -4,10 +4,7 @@
   "name": "The Cost and Network Limits of Space-Based AI Compute",
   "summary": "arXiv:2607.14172v1 Announce Type: cross Abstract: This paper evaluates whether large-scale AI data centers deployed in low-Earth orbit (LEO) could become a cost-effective alternative to terrestrial...",
   "description": "arXiv:2607.14172v1 Announce Type: cross Abstract: This paper evaluates whether large-scale AI data centers deployed in low-Earth orbit (LEO) could become a cost-effective alternative to terrestrial facilities. The analysis compares orbital and ground-based systems across launch cost, power generation, cooling, radiation exposure, and atmospheric reentry, as well as compute-network performance....",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

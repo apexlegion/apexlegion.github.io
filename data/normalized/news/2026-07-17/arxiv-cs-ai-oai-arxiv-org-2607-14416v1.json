@@ -4,10 +4,7 @@
   "name": "CausalGraphX: A Counterfactual Graph Neural Network Framework for Explainable Systemic Risk Assessment",
   "summary": "arXiv:2607.14416v1 Announce Type: new Abstract: The interconnected nature of global financial systems makes them vulnerable to systemic risks, where the failure of a few institutions can trigger ca...",
   "description": "arXiv:2607.14416v1 Announce Type: new Abstract: The interconnected nature of global financial systems makes them vulnerable to systemic risks, where the failure of a few institutions can trigger catastrophic cascading defaults. Traditional risk models often fail to capture the complex, non-linear dynamics of these networks. While Graph Neural Networks (GNNs) have shown promise in modeling relat...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

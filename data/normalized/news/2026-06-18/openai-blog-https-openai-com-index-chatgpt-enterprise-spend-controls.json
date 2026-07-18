@@ -4,10 +4,7 @@
   "name": "New usage analytics and updated spend controls for enterprises",
   "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
   "description": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
-  "tags": [
-    "news",
-    "openai-blog"
-  ],
+  "tags": ["news", "openai-blog"],
   "externalLinks": [
     {
       "label": "OpenAI Blog",

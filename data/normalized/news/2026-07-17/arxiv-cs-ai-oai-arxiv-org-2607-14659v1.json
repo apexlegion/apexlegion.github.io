@@ -4,10 +4,7 @@
   "name": "LLM-Driven Approach to Modeling Tool Interoperability in Automotive Domain",
   "summary": "arXiv:2607.14659v1 Announce Type: cross Abstract: Interoperability between heterogeneous modeling tools remains a significant challenge in Model-Driven Engineering (MDE), particularly in the automo...",
   "description": "arXiv:2607.14659v1 Announce Type: cross Abstract: Interoperability between heterogeneous modeling tools remains a significant challenge in Model-Driven Engineering (MDE), particularly in the automotive domain where multiple modeling languages, as well as defacto standard proprietary and open-source tools coexist. This paper presents an LLM-driven approach for automated model interoperability by...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Workload-Driven Optimization for On-Device Real-Time Subtitle Translation",
   "summary": "arXiv:2607.09957v2 Announce Type: replace-cross Abstract: This report studies on-device English-to-Traditional-Chinese subtitle translation for Taiwan under short inputs, short outputs, batch-size-...",
   "description": "arXiv:2607.09957v2 Announce Type: replace-cross Abstract: This report studies on-device English-to-Traditional-Chinese subtitle translation for Taiwan under short inputs, short outputs, batch-size-one inference, low latency, and privacy constraints. These conditions limit the value of optimizations designed for long-context or high-throughput language-model serving. Starting from LMT-60-0.6B, p...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

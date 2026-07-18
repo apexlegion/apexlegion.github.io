@@ -4,10 +4,7 @@
   "name": "Automatically Evolving Prompt Guidelines for Task-Specific Optimization",
   "summary": "arXiv:2607.14105v1 Announce Type: cross Abstract: For Large Language Models to reliably answer user queries, users must clearly specify requirements, context, and constraints. In practice, however,...",
   "description": "arXiv:2607.14105v1 Announce Type: cross Abstract: For Large Language Models to reliably answer user queries, users must clearly specify requirements, context, and constraints. In practice, however, user queries are often underspecified, forcing models to infer unstated assumptions that may misalign with the actual user intent. Existing prompt engineering guidelines aim to mitigate this issue, t...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Codex-maxxing for long-running work",
   "summary": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
   "description": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
-  "tags": [
-    "news",
-    "openai-blog"
-  ],
+  "tags": ["news", "openai-blog"],
   "externalLinks": [
     {
       "label": "OpenAI Blog",

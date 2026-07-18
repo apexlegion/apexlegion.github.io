@@ -4,10 +4,7 @@
   "name": "Reward-Free Evolving Agents via Pairwise Validator",
   "summary": "arXiv:2607.14408v1 Announce Type: new Abstract: A self-evolving agentic loop repeatedly proposes a tweaked version of an agent (its prompt template or program) and accepts or rejects the change bas...",
   "description": "arXiv:2607.14408v1 Announce Type: new Abstract: A self-evolving agentic loop repeatedly proposes a tweaked version of an agent (its prompt template or program) and accepts or rejects the change based on a per-iteration quality signal. Designing that signal is often the costly part of the project: a reliable scalar reward requires domain expertise and labeled examples that are themselves as expe...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

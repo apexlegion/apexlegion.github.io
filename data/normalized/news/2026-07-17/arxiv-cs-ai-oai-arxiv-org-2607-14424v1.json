@@ -4,10 +4,7 @@
   "name": "ConFlow: Constraints-Guided Learning with Flow Matching for Motion Generation",
   "summary": "arXiv:2607.14424v1 Announce Type: cross Abstract: In recent years Flow Matching has become a prominent method for generative modeling robot motion generation. In its generic form Flow Matching is a...",
   "description": "arXiv:2607.14424v1 Announce Type: cross Abstract: In recent years Flow Matching has become a prominent method for generative modeling robot motion generation. In its generic form Flow Matching is an ODE-based neural sampler that is trained by regressing empirical flow fields associated with motion samples as data. However, in robot motion generation we often have additional constraints that mig...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

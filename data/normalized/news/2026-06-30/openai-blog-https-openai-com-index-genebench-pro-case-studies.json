@@ -4,10 +4,7 @@
   "name": "Inside Genebench-Pro",
   "summary": "Inside Genebench-Pro",
   "description": "Inside Genebench-Pro",
-  "tags": [
-    "news",
-    "openai-blog"
-  ],
+  "tags": ["news", "openai-blog"],
   "externalLinks": [
     {
       "label": "OpenAI Blog",

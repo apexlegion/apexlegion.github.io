@@ -4,10 +4,7 @@
   "name": "Beyond Generalist LLMs: Specialist Agentic Systems for Structured Code Workflow Execution",
   "summary": "arXiv:2607.14456v1 Announce Type: cross Abstract: Large Language Models (LLMs) have accelerated the adoption of software development agents, now widely available as Integrated Development Environme...",
   "description": "arXiv:2607.14456v1 Announce Type: cross Abstract: Large Language Models (LLMs) have accelerated the adoption of software development agents, now widely available as Integrated Development Environment (IDE) extensions and standalone applications. While these agents are typically general-purpose, it remains unclear whether specialist agents justify their additional development effort. We investig...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

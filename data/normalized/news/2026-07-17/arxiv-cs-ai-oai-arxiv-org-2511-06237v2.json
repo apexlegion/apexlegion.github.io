@@ -4,10 +4,7 @@
   "name": "Mixtures of SubExperts for Large Language Continual Learning",
   "summary": "arXiv:2511.06237v2 Announce Type: replace-cross Abstract: Enabling lifelong learning in LLMs demands resolving the stability-plasticity dilemma (i.e., models must incorporate new knowledge without...",
   "description": "arXiv:2511.06237v2 Announce Type: replace-cross Abstract: Enabling lifelong learning in LLMs demands resolving the stability-plasticity dilemma (i.e., models must incorporate new knowledge without overwriting prior representations) while maintaining scalability under bounded parameter growth. Existing PEFT methods fail to satisfy this triad; shared-parameter approaches suffer from catastrophic...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

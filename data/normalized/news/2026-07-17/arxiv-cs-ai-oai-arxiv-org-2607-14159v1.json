@@ -4,10 +4,7 @@
   "name": "MemoHarness: Agent Harnesses That Learn from Experience",
   "summary": "arXiv:2607.14159v1 Announce Type: new Abstract: An agent harness is the external control layer that turns a base LLM into an executable agent by managing context, tools, orchestration, memory, deco...",
   "description": "arXiv:2607.14159v1 Announce Type: new Abstract: An agent harness is the external control layer that turns a base LLM into an executable agent by managing context, tools, orchestration, memory, decoding, and output handling. While harness design strongly affects agent behavior, most automatic improvement methods optimize narrower artifacts such as prompts, pipelines, or workflows, and deployed a...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Connect more of your apps to Search",
   "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ConnectedAppshero.max-600x600.format-webp.webp\"&gt;You’ll be able to securely link and interact with your go-to services...",
   "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ConnectedAppshero.max-600x600.format-webp.webp\"&gt;You’ll be able to securely link and interact with your go-to services directly in AI Mode.",
-  "tags": [
-    "news",
-    "google-ai-blog"
-  ],
+  "tags": ["news", "google-ai-blog"],
   "externalLinks": [
     {
       "label": "Google AI Blog",

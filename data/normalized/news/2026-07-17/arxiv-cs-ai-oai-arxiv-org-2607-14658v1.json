@@ -4,10 +4,7 @@
   "name": "TopoAgent: A Self-Evolving Topological Agent for Multimodal Scientific Reasoning",
   "summary": "arXiv:2607.14658v1 Announce Type: new Abstract: While Multimodal Large Language Models (MLLMs) excel in general tasks, rigorous scientific reasoning remains challenging due to the limitations of mo...",
   "description": "arXiv:2607.14658v1 Announce Type: new Abstract: While Multimodal Large Language Models (MLLMs) excel in general tasks, rigorous scientific reasoning remains challenging due to the limitations of monolithic, linear planning. Such sequential designs often suffer from visual-semantic misalignment, long-context hallucinations, and brittle execution under fixed task granularity. We propose TopoAgent...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Verbalized Sampling: How to Mitigate Mode Collapse and Unlock LLM Diversity",
   "summary": "arXiv:2510.01171v4 Announce Type: replace-cross Abstract: Post-training alignment often reduces LLM diversity, leading to a phenomenon known as mode collapse. Unlike prior work that attributes this...",
   "description": "arXiv:2510.01171v4 Announce Type: replace-cross Abstract: Post-training alignment often reduces LLM diversity, leading to a phenomenon known as mode collapse. Unlike prior work that attributes this effect to algorithmic limitations, we identify a fundamental, pervasive data-level driver: typicality bias in preference data, whereby annotators systematically favor familiar text as a result of wel...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

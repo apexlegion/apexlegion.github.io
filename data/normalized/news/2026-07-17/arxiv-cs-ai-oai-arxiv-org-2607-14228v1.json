@@ -4,10 +4,7 @@
   "name": "SeeSE3: Emergence of 3D Space in Vision Features",
   "summary": "arXiv:2607.14228v1 Announce Type: cross Abstract: In this paper, we ask whether vision foundation models construct representations that reflect the intrinsic properties of 3D Euclidean space. Unlik...",
   "description": "arXiv:2607.14228v1 Announce Type: cross Abstract: In this paper, we ask whether vision foundation models construct representations that reflect the intrinsic properties of 3D Euclidean space. Unlike previous works that probe 3D awareness of vision features by regressing image-centric quantities such as depth or normals, we investigate the relation between the structure of the space of visual fe...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

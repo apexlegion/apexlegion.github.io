@@ -4,10 +4,7 @@
   "name": "MathCoPilot: An Interactive System for Human-AI Symbiotic Paradigm of Mathematical Research",
   "summary": "arXiv:2607.14582v1 Announce Type: new Abstract: Existing LLM-based theorem provers have achieved impressive results on formal mathematics benchmarks, yet they remain confined to acting as autonomou...",
   "description": "arXiv:2607.14582v1 Announce Type: new Abstract: Existing LLM-based theorem provers have achieved impressive results on formal mathematics benchmarks, yet they remain confined to acting as autonomous agents that prove a stated proposition. In this paper, we propose MathCoPilot, a human-in-the-loop system that embodies a new human--AI symbiotic paradigm for mathematical research, in which the mat...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

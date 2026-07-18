@@ -4,10 +4,7 @@
   "name": "Large Language Models for Code Generation from Multilingual Prompts: A Curated Benchmark and a Study on Code Quality",
   "summary": "arXiv:2607.14816v1 Announce Type: cross Abstract: Large Language Models (LLMs) perform differently on identical programming tasks when prompted in different natural languages, a phenomenon known as...",
   "description": "arXiv:2607.14816v1 Announce Type: cross Abstract: Large Language Models (LLMs) perform differently on identical programming tasks when prompted in different natural languages, a phenomenon known as language bias. While this behavior has been widely studied for general text generation, its impact on code generation quality and programming conventions remains largely unexplored. We investigate ho...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

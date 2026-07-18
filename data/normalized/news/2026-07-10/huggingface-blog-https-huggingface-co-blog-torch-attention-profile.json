@@ -4,10 +4,7 @@
   "name": "Profiling in PyTorch (Part 3): Attention is all you profile",
   "summary": "Profiling in PyTorch (Part 3): Attention is all you profile",
   "description": "Profiling in PyTorch (Part 3): Attention is all you profile",
-  "tags": [
-    "news",
-    "huggingface-blog"
-  ],
+  "tags": ["news", "huggingface-blog"],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

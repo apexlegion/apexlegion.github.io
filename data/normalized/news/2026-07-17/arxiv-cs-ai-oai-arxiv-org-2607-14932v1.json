@@ -4,10 +4,7 @@
   "name": "Benchmarking Face Recognition without Real Faces",
   "summary": "arXiv:2607.14932v1 Announce Type: cross Abstract: Synthetic face datasets have become effective enough to train face recognition models with accuracy rivaling that of models trained on real photogr...",
   "description": "arXiv:2607.14932v1 Announce Type: cross Abstract: Synthetic face datasets have become effective enough to train face recognition models with accuracy rivaling that of models trained on real photographs. This progress sidesteps the ethical and legal burdens of collecting real biometric data, yet evaluation has not kept pace. Even studies that train entirely on synthetic images still rely on real...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

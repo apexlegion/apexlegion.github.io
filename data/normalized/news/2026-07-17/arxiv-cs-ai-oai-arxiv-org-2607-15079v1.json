@@ -4,10 +4,7 @@
   "name": "BrainPilot: Automating Brain Discovery with Agentic Research",
   "summary": "arXiv:2607.15079v1 Announce Type: new Abstract: Understanding the brain increasingly depends on integrating evidence across scales, modalities, and disciplines. Addressing a single research questio...",
   "description": "arXiv:2607.15079v1 Announce Type: new Abstract: Understanding the brain increasingly depends on integrating evidence across scales, modalities, and disciplines. Addressing a single research question therefore requires a coordinated sequence of operations, from surveying prior work to executing analyses and interpreting results in light of domain knowledge. AI agents promise to accelerate this p...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

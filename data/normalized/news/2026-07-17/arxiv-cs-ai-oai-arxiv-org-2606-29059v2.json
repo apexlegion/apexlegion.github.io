@@ -4,10 +4,7 @@
   "name": "Flow Matching in Feature Space for Stochastic World Modeling",
   "summary": "arXiv:2606.29059v2 Announce Type: replace-cross Abstract: World modeling requires forecasting uncertain futures while preserving information useful for downstream perception. Existing visual world...",
   "description": "arXiv:2606.29059v2 Announce Type: replace-cross Abstract: World modeling requires forecasting uncertain futures while preserving information useful for downstream perception. Existing visual world models often struggle to satisfy both goals: VAE-based stochastic models operate in low-dimensional reconstruction latents, which can limit perception performance, while deterministic predictors using...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

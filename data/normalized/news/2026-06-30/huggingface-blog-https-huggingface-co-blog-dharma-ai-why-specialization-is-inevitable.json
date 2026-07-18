@@ -4,10 +4,7 @@
   "name": "Why Specialization Is Inevitable",
   "summary": "Why Specialization Is Inevitable",
   "description": "Why Specialization Is Inevitable",
-  "tags": [
-    "news",
-    "huggingface-blog"
-  ],
+  "tags": ["news", "huggingface-blog"],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

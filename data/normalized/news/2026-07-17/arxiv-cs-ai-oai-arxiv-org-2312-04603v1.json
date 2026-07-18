@@ -4,10 +4,7 @@
   "name": "All Polarized but Still Different: a Multi-factorial Metric to Discriminate between Polarization Behaviors on Social Media",
   "summary": "arXiv:2312.04603v1 Announce Type: cross Abstract: Online polarization has attracted the attention of researchers for many years. Its effects on society are a cause for concern, and the design of pe...",
   "description": "arXiv:2312.04603v1 Announce Type: cross Abstract: Online polarization has attracted the attention of researchers for many years. Its effects on society are a cause for concern, and the design of personalized depolarization strategies appears to be a key solution. Such strategies should rely on a fine and accurate measurement, and a clear understanding of polarization behaviors. However, the lit...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

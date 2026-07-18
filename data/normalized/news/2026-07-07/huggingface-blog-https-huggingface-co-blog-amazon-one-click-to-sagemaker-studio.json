@@ -4,10 +4,7 @@
   "name": "From Hugging Face to Amazon SageMaker Studio in one click",
   "summary": "From Hugging Face to Amazon SageMaker Studio in one click",
   "description": "From Hugging Face to Amazon SageMaker Studio in one click",
-  "tags": [
-    "news",
-    "huggingface-blog"
-  ],
+  "tags": ["news", "huggingface-blog"],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

@@ -4,10 +4,7 @@
   "name": "Beyond Visual Grasping: Benchmarking Complex Grasping from Detection to Execution",
   "summary": "arXiv:2607.14341v1 Announce Type: cross Abstract: Robust robotic grasping remains a fundamental challenge for complex real-world applications. Recent advances in large-scale models demonstrate prom...",
   "description": "arXiv:2607.14341v1 Announce Type: cross Abstract: Robust robotic grasping remains a fundamental challenge for complex real-world applications. Recent advances in large-scale models demonstrate promising capabilities for reasoning in robotic tasks. However, existing benchmarks for grasping primarily focus on isolated, visual-based grasp pose detection, failing to capture the complexity of graspi...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

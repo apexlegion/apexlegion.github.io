@@ -4,10 +4,7 @@
   "name": "RESOURCE2SKILL: Distilling Executable Agent Skills from Human-Created Multimodal Resources",
   "summary": "arXiv:2606.29538v3 Announce Type: replace-cross Abstract: Skills are a useful abstraction for software agents, turning human and agent experience into reusable procedural knowledge. Yet existing sk...",
   "description": "arXiv:2606.29538v3 Announce Type: replace-cross Abstract: Skills are a useful abstraction for software agents, turning human and agent experience into reusable procedural knowledge. Yet existing skill libraries are mostly hand-written, text-centric, or derived from agent traces, leaving tutorial videos and other multimodal human resources largely underused. We present RESOURCE2SKILL, a framewor...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

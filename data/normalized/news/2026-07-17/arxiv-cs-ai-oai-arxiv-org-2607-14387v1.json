@@ -4,10 +4,7 @@
   "name": "Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving",
   "summary": "arXiv:2607.14387v1 Announce Type: new Abstract: Validating autonomous driving systems requires diverse, regulation-compliant test scenarios. In simulation-based testing, scenarios are defined as ex...",
   "description": "arXiv:2607.14387v1 Announce Type: new Abstract: Validating autonomous driving systems requires diverse, regulation-compliant test scenarios. In simulation-based testing, scenarios are defined as executable scripts. Yet automatically generating such scripts from regulatory descriptions remains an open challenge, and existing approaches face fundamental trade-offs. Retrieval-assemble methods achi...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

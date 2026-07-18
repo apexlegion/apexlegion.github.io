@@ -4,10 +4,7 @@
   "name": "MemPoison: Uncovering Persistent Memory Threats and Structural Blind Spots in LLM Agents",
   "summary": "arXiv:2607.14651v1 Announce Type: cross Abstract: Persistent external memory enhances agent continuity but introduces persistent security vulnerabilities: adversarial content can be injected via st...",
   "description": "arXiv:2607.14651v1 Announce Type: cross Abstract: Persistent external memory enhances agent continuity but introduces persistent security vulnerabilities: adversarial content can be injected via standard interaction channels, retained across turns, and later distort downstream behavior. To address this challenge, we propose MemPoison, a comprehensive benchmark and analysis framework featuring 1...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

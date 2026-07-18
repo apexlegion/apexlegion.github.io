@@ -4,10 +4,7 @@
   "name": "Is it agentic enough? Benchmarking open models on your own tooling",
   "summary": "Is it agentic enough? Benchmarking open models on your own tooling",
   "description": "Is it agentic enough? Benchmarking open models on your own tooling",
-  "tags": [
-    "news",
-    "huggingface-blog"
-  ],
+  "tags": ["news", "huggingface-blog"],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

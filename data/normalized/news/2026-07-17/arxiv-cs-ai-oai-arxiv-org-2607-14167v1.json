@@ -4,10 +4,7 @@
   "name": "Structured Feedback Improves Repair in an LLM Agent Loop",
   "summary": "arXiv:2607.14167v1 Announce Type: cross Abstract: LLM agents often retry after external validation rejects a candidate, but the interface between validation and the next model call remains underspe...",
   "description": "arXiv:2607.14167v1 Announce Type: cross Abstract: LLM agents often retry after external validation rejects a candidate, but the interface between validation and the next model call remains underspecified. We introduce VeriHarness, a code-controlled agent loop in which models generate candidates while external validators control acceptance, budgets, and traces. We use it to compare raw diagnosti...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

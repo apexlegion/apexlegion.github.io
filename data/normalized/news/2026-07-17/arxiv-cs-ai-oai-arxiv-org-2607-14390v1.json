@@ -4,10 +4,7 @@
   "name": "Why Git Is the Memory Solution for the Agentic Development Lifecycle",
   "summary": "arXiv:2607.14390v1 Announce Type: cross Abstract: Coding agents now produce a growing share of a team's code, while the reasoning behind each change -- the alternatives weighed, the constraints dis...",
   "description": "arXiv:2607.14390v1 Announce Type: cross Abstract: Coding agents now produce a growing share of a team's code, while the reasoning behind each change -- the alternatives weighed, the constraints discovered, the approaches rejected -- is trapped in assistant transcripts that vanish with the session. Memory for this setting, the agentic development lifecycle (ADLC), is usually posed as one retriev...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

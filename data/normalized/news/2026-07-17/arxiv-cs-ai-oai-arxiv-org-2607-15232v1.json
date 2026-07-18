@@ -4,10 +4,7 @@
   "name": "In-Place Tokenizer Expansion for Pre-trained LLMs",
   "summary": "arXiv:2607.15232v1 Announce Type: cross Abstract: A tokenizer fixed at the start of pre-training allocates vocabulary in proportion to the pre-training corpus, reflecting the deployment priorities...",
   "description": "arXiv:2607.15232v1 Announce Type: cross Abstract: A tokenizer fixed at the start of pre-training allocates vocabulary in proportion to the pre-training corpus, reflecting the deployment priorities at that time. When those priorities shift, languages added later are split into many more tokens per word, which can raise latency, compute, and energy consumption for users of those languages. Cloud...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

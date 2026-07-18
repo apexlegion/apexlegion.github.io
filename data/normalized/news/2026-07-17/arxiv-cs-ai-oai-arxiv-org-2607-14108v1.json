@@ -4,10 +4,7 @@
   "name": "Eta Given Delta: Defining LLM Tool Efficiency With Marginal Tool Utility",
   "summary": "arXiv:2607.14108v1 Announce Type: cross Abstract: This paper introduces tool efficiency, a new quantitative metric to evaluate the rate of useful tool calls in an LLM agent trajectory. To ensure th...",
   "description": "arXiv:2607.14108v1 Announce Type: cross Abstract: This paper introduces tool efficiency, a new quantitative metric to evaluate the rate of useful tool calls in an LLM agent trajectory. To ensure that tool efficiency is well-defined, we also introduce marginal tool utility, a new quantitative metric defined per tool call indicating whether a tool is useful or whether it can be safely removed fro...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

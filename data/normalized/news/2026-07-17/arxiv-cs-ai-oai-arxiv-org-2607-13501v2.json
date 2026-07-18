@@ -4,10 +4,7 @@
   "name": "LOTAPO: Leave-One-Turn Attribution for Self-Generated Process Rewards in Multi-Turn Search Reasoning",
   "summary": "arXiv:2607.13501v2 Announce Type: replace Abstract: Reinforcement learning for multi-turn search reasoning typically relies on terminal outcome rewards, which cannot distinguish useful, redundant,...",
   "description": "arXiv:2607.13501v2 Announce Type: replace Abstract: Reinforcement learning for multi-turn search reasoning typically relies on terminal outcome rewards, which cannot distinguish useful, redundant, and harmful intermediate interactions. We propose LOTAPO , a self-generated process-supervision method based on backward leave-one-turn attribution. For each search turn, LOTAPO replaces the turn and...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

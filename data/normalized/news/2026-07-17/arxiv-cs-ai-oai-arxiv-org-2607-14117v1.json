@@ -4,10 +4,7 @@
   "name": "Heterogeneous Element-Aware Cross-Version Differencing of Scientific Documents via Layout-Aware Alignment and Structure-Aware Reasoning",
   "summary": "arXiv:2607.14117v1 Announce Type: cross Abstract: Cross-version differencing of scientific documents is essential in scholarly publishing and technical documentation, but remains challenging becaus...",
   "description": "arXiv:2607.14117v1 Announce Type: cross Abstract: Cross-version differencing of scientific documents is essential in scholarly publishing and technical documentation, but remains challenging because scientific documents are page-structured artifacts containing heterogeneous elements such as text, tables, formulas, figures, and layout cues. Existing text-sequence-based methods often lose layout...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

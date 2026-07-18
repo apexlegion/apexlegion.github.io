@@ -4,10 +4,7 @@
   "name": "AI agents create virtual playgrounds to help robots get crucial training data",
   "summary": "“SceneSmith” system uses collaborative AI agents to create realistic 3D environments of places like kitchens, hotels, and living rooms, where robots can simulate everyday chores.",
   "description": "“SceneSmith” system uses collaborative AI agents to create realistic 3D environments of places like kitchens, hotels, and living rooms, where robots can simulate everyday chores.",
-  "tags": [
-    "news",
-    "mit-news-ai"
-  ],
+  "tags": ["news", "mit-news-ai"],
   "externalLinks": [
     {
       "label": "MIT News",

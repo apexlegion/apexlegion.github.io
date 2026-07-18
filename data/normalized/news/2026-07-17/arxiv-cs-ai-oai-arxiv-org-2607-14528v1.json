@@ -4,10 +4,7 @@
   "name": "Controlled Reformulation Testing for Logical Consistency in Large Language Models",
   "summary": "arXiv:2607.14528v1 Announce Type: cross Abstract: Large language models (LLMs) frequently contradict themselves when the surface form of a logically equivalent question changes. We present a benchm...",
   "description": "arXiv:2607.14528v1 Announce Type: cross Abstract: Large language models (LLMs) frequently contradict themselves when the surface form of a logically equivalent question changes. We present a benchmark of 350 question families (1,750 total questions) for Controlled Reformulation Testing (CRTBench) to evaluate logical invariance. In this benchmark, we investigate LLMs' ability to maintain consist...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Auditing Fairness-Privacy Trade-offs: Subpopulation-Level Effects of Fairness-Enhancing Algorithms",
   "summary": "arXiv:2607.14607v1 Announce Type: cross Abstract: Machine learning (ML) models deployed in sensitive domains such as healthcare, law enforcement, and finance must satisfy not only utility requireme...",
   "description": "arXiv:2607.14607v1 Announce Type: cross Abstract: Machine learning (ML) models deployed in sensitive domains such as healthcare, law enforcement, and finance must satisfy not only utility requirements but also fairness and privacy guarantees. While prior work has largely examined how privacy-preserving techniques affect fairness, the inverse question-how fairness-enhancing algorithms influence...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

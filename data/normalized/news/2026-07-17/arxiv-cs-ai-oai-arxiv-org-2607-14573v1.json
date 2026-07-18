@@ -4,10 +4,7 @@
   "name": "Alipay-PIBench: A Realistic Payment Integration Benchmark for Coding Agents",
   "summary": "arXiv:2607.14573v1 Announce Type: new Abstract: Payment integration is a demanding repository-level software task: agents must select a suitable product, implement coordinated client-server flows,...",
   "description": "arXiv:2607.14573v1 Announce Type: new Abstract: Payment integration is a demanding repository-level software task: agents must select a suitable product, implement coordinated client-server flows, verify payment outcomes, and preserve consistency between transaction and business states. We introduce Alipay-PIBench, a benchmark for evaluating coding agents on realistic Alipay payment integration...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

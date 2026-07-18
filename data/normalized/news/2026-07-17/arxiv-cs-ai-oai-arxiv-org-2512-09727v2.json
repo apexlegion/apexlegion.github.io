@@ -4,10 +4,7 @@
   "name": "Gaussian Process Aggregation for Root-Parallel Monte Carlo Tree Search with Continuous Actions",
   "summary": "arXiv:2512.09727v2 Announce Type: replace Abstract: Monte Carlo Tree Search is a cornerstone algorithm for online planning, and its root-parallel variant is widely used when wall clock time is limi...",
   "description": "arXiv:2512.09727v2 Announce Type: replace Abstract: Monte Carlo Tree Search is a cornerstone algorithm for online planning, and its root-parallel variant is widely used when wall clock time is limited but best performance is desired. In environments with continuous action spaces, how to best aggregate statistics from different threads is an important yet underexplored question. In this work, we...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

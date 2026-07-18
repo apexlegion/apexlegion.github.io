@@ -4,10 +4,7 @@
   "name": "LIGO-PINN: Learned Initialization via Gated Optimization to Alleviate Convergence Failures in Physics Informed Neural Networks",
   "summary": "arXiv:2607.14233v1 Announce Type: cross Abstract: Physics-informed neural networks (PINNs) have had a broad research impact in modeling domains governed by partial differential equations (PDE). How...",
   "description": "arXiv:2607.14233v1 Announce Type: cross Abstract: Physics-informed neural networks (PINNs) have had a broad research impact in modeling domains governed by partial differential equations (PDE). However, PINNs have been shown to perform poorly, sometimes even converging to trivial solutions, in challenging PDE domains, or when generalizing to unseen but related PDE domains. Previously proposed s...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

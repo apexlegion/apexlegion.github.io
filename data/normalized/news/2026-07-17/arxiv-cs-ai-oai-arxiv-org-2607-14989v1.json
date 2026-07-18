@@ -4,10 +4,7 @@
   "name": "OmniaBench: Benchmarking General AI Agents Across Diverse Scenarios",
   "summary": "arXiv:2607.14989v1 Announce Type: cross Abstract: Large language models are increasingly evolving from text generators into general agents capable of understanding user requests, invoking external...",
   "description": "arXiv:2607.14989v1 Announce Type: cross Abstract: Large language models are increasingly evolving from text generators into general agents capable of understanding user requests, invoking external tools, and completing complex tasks through interaction. However, existing agent benchmarks often focus on limited scenarios, tool ecosystems, or interaction formats, making it difficult to systematic...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

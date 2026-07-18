@@ -4,10 +4,7 @@
   "name": "CoEvoT: Co-Evolving Chain-of-Thought Prompting for Graph-LLM Reasoning",
   "summary": "arXiv:2607.14114v1 Announce Type: cross Abstract: Graph learning under distribution shift presents a persistent challenge, where models adapt to new graphs with limited or even no supervision. Rece...",
   "description": "arXiv:2607.14114v1 Announce Type: cross Abstract: Graph learning under distribution shift presents a persistent challenge, where models adapt to new graphs with limited or even no supervision. Recent graph--LLM approaches move toward label-efficient prediction by linearizing graphs into prompts and using large language models (LLMs) as predictors, and can adopt Chain-of-Thought (CoT) prompting...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

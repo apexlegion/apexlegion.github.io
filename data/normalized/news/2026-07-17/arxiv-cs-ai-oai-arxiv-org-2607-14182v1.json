@@ -4,10 +4,7 @@
   "name": "Semantic Audio-driven Understanding for Dynamic Humanoid Whole Body Control",
   "summary": "arXiv:2607.14182v1 Announce Type: cross Abstract: Recent advances in humanoid robotics and reinforcement learning have enabled the acquisition of highly expressive whole-body motion policies. Howev...",
   "description": "arXiv:2607.14182v1 Announce Type: cross Abstract: Recent advances in humanoid robotics and reinforcement learning have enabled the acquisition of highly expressive whole-body motion policies. However, most robotic performances remain based on pre-scripted sequences or externally triggered behaviors, limiting autonomy and responsiveness to dynamic environments. In this work, we introduce a novel...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

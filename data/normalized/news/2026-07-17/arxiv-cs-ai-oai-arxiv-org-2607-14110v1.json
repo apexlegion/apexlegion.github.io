@@ -4,10 +4,7 @@
   "name": "MAPS: Modeling Co-Existing Subjective Perspectives and Shared Meaning in Multi-Agent Cognitive Dialogue",
   "summary": "arXiv:2607.14110v1 Announce Type: cross Abstract: Human dialogue involves more than exchanging information; it also expresses beliefs, emotions, and subjective cognitive styles. Yet current AI dial...",
   "description": "arXiv:2607.14110v1 Announce Type: cross Abstract: Human dialogue involves more than exchanging information; it also expresses beliefs, emotions, and subjective cognitive styles. Yet current AI dialogue systems often enforce semantic uniformity, sacrificing diversity and interpretability. We present MAPS (Multi-Agent Perspective Spaces), a novel framework that models dialogue between cognitively...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

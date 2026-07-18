@@ -4,10 +4,7 @@
   "name": "Multi-LLM Collaborative MRI Report Generation for Visual Instruction Tuning in Brain Oncology",
   "summary": "arXiv:2607.14581v1 Announce Type: new Abstract: Recent advances in large language models (LLMs) and their extension to vision-language models (VLMs) have made it easier to combine text and images f...",
   "description": "arXiv:2607.14581v1 Announce Type: new Abstract: Recent advances in large language models (LLMs) and their extension to vision-language models (VLMs) have made it easier to combine text and images for tasks such as report generation. Existing VLMs in medicine typically focus on 2D images (chest X-rays), and their extension to 3D imaging has been difficult because of the lack of paired 3D imaging...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

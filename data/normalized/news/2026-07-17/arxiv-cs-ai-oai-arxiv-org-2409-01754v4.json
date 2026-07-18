@@ -4,10 +4,7 @@
   "name": "Empirical evidence of Large Language Model's influence on human spoken communication",
   "summary": "arXiv:2409.01754v4 Announce Type: replace-cross Abstract: From the printing press to social media, innovations in communication technology have repeatedly reshaped how ideas spread through human cu...",
   "description": "arXiv:2409.01754v4 Announce Type: replace-cross Abstract: From the printing press to social media, innovations in communication technology have repeatedly reshaped how ideas spread through human culture. Chatbots powered by generative artificial intelligence constitute a new medium, encoding cultural patterns in their neural representations and disseminating them in conversations with hundreds...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

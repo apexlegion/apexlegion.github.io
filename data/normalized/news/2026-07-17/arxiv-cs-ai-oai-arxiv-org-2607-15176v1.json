@@ -4,10 +4,7 @@
   "name": "Benchmarking Multimodal Large Language Models for Scientific Visualization Literacy",
   "summary": "arXiv:2607.15176v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) are increasingly used to interpret visualizations, yet current evaluations remain largely chart-centric and...",
   "description": "arXiv:2607.15176v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) are increasingly used to interpret visualizations, yet current evaluations remain largely chart-centric and provide limited evidence of understanding of scientific visualization (SciVis). We benchmark six MLLMs on the scientific visualization literacy assessment test, a standardized SciVis literacy assessme...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

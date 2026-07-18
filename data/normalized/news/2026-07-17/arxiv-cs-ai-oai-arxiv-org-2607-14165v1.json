@@ -4,10 +4,7 @@
   "name": "Towards Reliable AI-Assisted Analog Design: Template-Constrained LLM Agents for SAR ADC Generation",
   "summary": "arXiv:2607.14165v1 Announce Type: cross Abstract: While Large Language Models (LLMs) have demonstrated significant capability in software code generation, their application to analog Electronic Des...",
   "description": "arXiv:2607.14165v1 Announce Type: cross Abstract: While Large Language Models (LLMs) have demonstrated significant capability in software code generation, their application to analog Electronic Design Automation (EDA) is bottlenecked. Owing to limited circuit topology understanding and data, directly prompting LLMs and multimodal models leads to hallucinations and failure to produce schematics...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

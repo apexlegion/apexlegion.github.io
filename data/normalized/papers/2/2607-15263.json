@@ -4,10 +4,7 @@
   "name": "Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents",
   "summary": "Security-agent evaluations commonly measure peak offensive capability under generous inference budgets, emphasizing vulnerability discovery, exploit development, penetration testing, and CTF comple...",
   "description": "Security-agent evaluations commonly measure peak offensive capability under generous inference budgets, emphasizing vulnerability discovery, exploit development, penetration testing, and CTF completion. Such measurements are useful but incomplete: in operational security, every reasoning step, tool call, telemetry query, and enrichment request consumes budget. We evaluate language-model security agents through this cost-success lens on offensive Cybench challenges and defensive Splunk BOTS v1 investigation challenges. Instead of reporting only best-case success, we compare models at fixed c...",
-  "tags": [
-    "arxiv",
-    "cs.CR"
-  ],
+  "tags": ["arxiv", "cs.CR"],
   "externalLinks": [
     {
       "label": "arXiv abstract",
@@ -23,11 +20,7 @@
       "href": "https://arxiv.org/abs/2607.15263v1"
     }
   ],
-  "authors": [
-    "Paul Kassianik",
-    "Blaine Nelson",
-    "Yaron Singer"
-  ],
+  "authors": ["Paul Kassianik", "Blaine Nelson", "Yaron Singer"],
   "paperId": "2607.15263",
   "category": "cs.CR",
   "publishedAt": "2026-07-16",

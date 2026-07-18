@@ -4,10 +4,7 @@
   "name": "CFM-Bench: A Unified Multi-Domain, Multi-Task Benchmark for Channel Foundation Models",
   "summary": "arXiv:2607.14975v1 Announce Type: new Abstract: Channel foundation models (CFMs) are developing rapidly, with recent studies reporting benefits from pretraining across downstream wireless tasks. Ye...",
   "description": "arXiv:2607.14975v1 Announce Type: new Abstract: Channel foundation models (CFMs) are developing rapidly, with recent studies reporting benefits from pretraining across downstream wireless tasks. Yet CFMs are commonly evaluated in model-specific pipelines with different data, radio configurations, partitions, adaptation procedures, task definitions, and metrics. Reported comparisons therefore te...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

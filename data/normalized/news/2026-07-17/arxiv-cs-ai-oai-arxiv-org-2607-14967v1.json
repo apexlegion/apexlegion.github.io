@@ -4,10 +4,7 @@
   "name": "Latent Trajectory Discrimination for AI-Generated Text Detection",
   "summary": "arXiv:2607.14967v1 Announce Type: cross Abstract: Most existing approaches to AI-Generated Text Detection (AIGTD) treat documents as static objects and base their decisions on aggregate statistics...",
   "description": "arXiv:2607.14967v1 Announce Type: cross Abstract: Most existing approaches to AI-Generated Text Detection (AIGTD) treat documents as static objects and base their decisions on aggregate statistics or globally compressed embeddings. However, this perspective overlooks the inherently dynamic nature of autoregressive generation, where content evolves progressively through the latent space. In this...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

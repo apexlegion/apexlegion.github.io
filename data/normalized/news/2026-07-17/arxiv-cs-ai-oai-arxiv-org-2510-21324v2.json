@@ -4,10 +4,7 @@
   "name": "CXRAgent: Director-Orchestrated Multi-Stage Reasoning for Chest X-Ray Interpretation",
   "summary": "arXiv:2510.21324v2 Announce Type: replace Abstract: Chest X-ray (CXR) plays a pivotal role in clinical diagnosis, and a variety of task-specific and foundation models have been developed for automa...",
   "description": "arXiv:2510.21324v2 Announce Type: replace Abstract: Chest X-ray (CXR) plays a pivotal role in clinical diagnosis, and a variety of task-specific and foundation models have been developed for automatic CXR interpretation. However, these models often struggle to adapt to new diagnostic tasks and complex reasoning scenarios. Recently, LLM-based agent models have emerged as a promising paradigm for...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

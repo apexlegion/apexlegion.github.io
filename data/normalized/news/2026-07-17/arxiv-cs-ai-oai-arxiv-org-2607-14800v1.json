@@ -4,10 +4,7 @@
   "name": "CrimeNER Demo: Named-Entity Recognition in the Crime Domain",
   "summary": "arXiv:2607.14800v1 Announce Type: new Abstract: We present CrimeNER Demo, an AI-powered platform that enables us to extract general crime-related information from documents and classify them into e...",
   "description": "arXiv:2607.14800v1 Announce Type: new Abstract: We present CrimeNER Demo, an AI-powered platform that enables us to extract general crime-related information from documents and classify them into entity types with two levels of granularity. We provide pretrained NER models on the CrimeNER database, and we give the possibility to users to provide their own annotated data to train models for thei...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

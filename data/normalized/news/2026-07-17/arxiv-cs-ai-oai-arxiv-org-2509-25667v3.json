@@ -4,10 +4,7 @@
   "name": "EEG-based AI-BCI Wheelchair Advancement: Transformer-Based Learning with Motor Imagery for Brain Computer Interface",
   "summary": "arXiv:2509.25667v3 Announce Type: replace-cross Abstract: This paper presents an Artificial Intelligence (AI) integrated approach to Brain-Computer Interface (BCI)-based wheelchair development, uti...",
   "description": "arXiv:2509.25667v3 Announce Type: replace-cross Abstract: This paper presents an Artificial Intelligence (AI) integrated approach to Brain-Computer Interface (BCI)-based wheelchair development, utilizing a motor imagery right-left-hand movement mechanism for control. The system is designed to simulate wheelchair navigation based on motor imagery right and left-hand movements using electroenceph...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

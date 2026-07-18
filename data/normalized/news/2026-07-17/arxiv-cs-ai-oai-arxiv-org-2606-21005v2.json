@@ -4,10 +4,7 @@
   "name": "Building Agent Harnesses for Scientific Curation from Multimodal Sources",
   "summary": "arXiv:2606.21005v2 Announce Type: replace Abstract: Scientific discovery workflows often depend on structured curation from the literature. This is difficult for current agents because the key evid...",
   "description": "arXiv:2606.21005v2 Announce Type: replace Abstract: Scientific discovery workflows often depend on structured curation from the literature. This is difficult for current agents because the key evidence is scattered across long text, dense tables, and figures, and the final records often require reasoning across multiple evidence fragments rather than copying a single span. We study scientific c...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

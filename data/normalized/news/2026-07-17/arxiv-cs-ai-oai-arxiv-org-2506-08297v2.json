@@ -4,10 +4,7 @@
   "name": "SEMA: a Scalable and Efficient Mamba like Attention via Token Localization and Averaging",
   "summary": "arXiv:2506.08297v2 Announce Type: replace-cross Abstract: Attention is the critical component of a transformer. Yet the quadratic computational complexity of vanilla full attention in the input siz...",
   "description": "arXiv:2506.08297v2 Announce Type: replace-cross Abstract: Attention is the critical component of a transformer. Yet the quadratic computational complexity of vanilla full attention in the input size and the inability of its linear attention variant to focus have been challenges for computer vision tasks. We provide a mathematical definition of generalized attention and formulate both vanilla so...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

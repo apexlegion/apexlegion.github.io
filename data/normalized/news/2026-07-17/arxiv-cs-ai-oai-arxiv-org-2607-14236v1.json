@@ -4,10 +4,7 @@
   "name": "Never Too Late for Force: Accelerating VLA Post-Training with Reactive Force Injection",
   "summary": "arXiv:2607.14236v1 Announce Type: cross Abstract: Pretrained vision-language-action (VLA) policies provide strong language-conditioned manipulation knowledge, but they remain largely vision-driven...",
   "description": "arXiv:2607.14236v1 Announce Type: cross Abstract: Pretrained vision-language-action (VLA) policies provide strong language-conditioned manipulation knowledge, but they remain largely vision-driven and can struggle once manipulation enters contact states where the scene is occluded, depth is ambiguous, or small force errors push execution off the offline demonstration distribution. We present LI...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

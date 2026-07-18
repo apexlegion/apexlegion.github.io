@@ -4,10 +4,7 @@
   "name": "Moral Attitudes of Sentient ASI towards Humanity and Implications for AGI Development",
   "summary": "arXiv:2607.14998v1 Announce Type: new Abstract: This paper suggests the adoption of a novel inversion in AI ethics: instead of asking how humans should treat artificial superintelligence (ASI), it...",
   "description": "arXiv:2607.14998v1 Announce Type: new Abstract: This paper suggests the adoption of a novel inversion in AI ethics: instead of asking how humans should treat artificial superintelligence (ASI), it examines how future sentient ASI may morally consider and evaluate humanity. We are not only designing intelligent systems but also shaping the initial conditions under which those systems form judgme...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

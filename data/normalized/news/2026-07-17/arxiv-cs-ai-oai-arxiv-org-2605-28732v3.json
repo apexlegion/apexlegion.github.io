@@ -4,10 +4,7 @@
   "name": "MemTrace: Tracing and Attributing Errors in Large Language Model Memory Systems",
   "summary": "arXiv:2605.28732v3 Announce Type: replace-cross Abstract: Memory is essential for enabling large language models to support long-horizon reasoning, yet existing memory systems remain unreliable and...",
   "description": "arXiv:2605.28732v3 Announce Type: replace-cross Abstract: Memory is essential for enabling large language models to support long-horizon reasoning, yet existing memory systems remain unreliable and difficult to debug. Tracing memory's dynamic evolution is crucial to understand how information is synthesized, propagated, or corrupted over time. In this work, we study the new problem of error tra...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

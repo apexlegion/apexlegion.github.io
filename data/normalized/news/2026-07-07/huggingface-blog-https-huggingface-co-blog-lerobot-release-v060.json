@@ -4,10 +4,7 @@
   "name": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
   "summary": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
   "description": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
-  "tags": [
-    "news",
-    "huggingface-blog"
-  ],
+  "tags": ["news", "huggingface-blog"],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

@@ -4,10 +4,7 @@
   "name": "An offline approach to fNIRS-guided reinforcement learning for robot behavior",
   "summary": "arXiv:2607.14393v1 Announce Type: cross Abstract: Human-in-the-loop Reinforcement Learning has become a popular approach to training, finetuning, and aligning robot behavior with user preferences....",
   "description": "arXiv:2607.14393v1 Announce Type: cross Abstract: Human-in-the-loop Reinforcement Learning has become a popular approach to training, finetuning, and aligning robot behavior with user preferences. Our paper explores the feasibility of using brain signals via functional near-infrared spectroscopy (fNIRS) to modulate robot learning in simulation. We compare agents trained on passive (observationa...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

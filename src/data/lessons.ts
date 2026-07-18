@@ -148,7 +148,12 @@ const beginner: Lesson[] = [
         plain: 'The engine behind chat AIs — a model trained on huge amounts of text.',
       },
     ],
-    deeper: [{ label: 'What is AI? — plain-words concept page', href: '/concepts/artificial-intelligence' }],
+    deeper: [
+      {
+        label: 'What is AI? — plain-words concept page',
+        href: '/concepts/artificial-intelligence',
+      },
+    ],
   },
   {
     slug: 'write-any-email',
@@ -191,7 +196,8 @@ const beginner: Lesson[] = [
       {
         term: 'Iterating',
         href: '/concepts/prompt-engineering',
-        plain: 'Asking follow-ups to refine the answer instead of starting over. The #1 beginner habit.',
+        plain:
+          'Asking follow-ups to refine the answer instead of starting over. The #1 beginner habit.',
       },
     ],
     deeper: [{ label: 'Prompt engineering — the concept', href: '/concepts/prompt-engineering' }],
@@ -236,7 +242,8 @@ const beginner: Lesson[] = [
       {
         term: 'Context window',
         href: '/concepts/context-window',
-        plain: 'How much text an AI can "hold in its head" at once. Very long documents may need splitting.',
+        plain:
+          'How much text an AI can "hold in its head" at once. Very long documents may need splitting.',
       },
     ],
     deeper: [{ label: 'Context window — the concept', href: '/concepts/context-window' }],
@@ -280,7 +287,8 @@ const beginner: Lesson[] = [
       {
         term: 'Hallucination',
         href: '/concepts/hallucination',
-        plain: 'When AI states something false with full confidence. Why you double-check important things.',
+        plain:
+          'When AI states something false with full confidence. Why you double-check important things.',
       },
       {
         term: 'Multimodal',
@@ -362,7 +370,7 @@ const beginner: Lesson[] = [
     tweaks: [
       'Name a style: "photo-realistic", "cartoon", "oil painting", "3D render".',
       'Say what you DON\'T want: "no text, no people".',
-      'Faces and hands can look odd — regenerate or crop; it\'s a known AI quirk.',
+      "Faces and hands can look odd — regenerate or crop; it's a known AI quirk.",
     ],
     vocab: [
       {
@@ -407,7 +415,7 @@ const beginner: Lesson[] = [
     result:
       'A structured day-by-day itinerary with costs and local tips — a solid draft to refine, not a final booking.',
     tweaks: [
-      'Prices and opening hours change — double-check anything you\'ll pay for.',
+      "Prices and opening hours change — double-check anything you'll pay for.",
       '"Make a packing list for this trip" is a great follow-up.',
       'Works for weekend plans and staycations too.',
     ],
@@ -433,7 +441,7 @@ const beginner: Lesson[] = [
       note: 'Open-source tutor, same recipe.',
     },
     steps: [
-      'Pick the thing you\'re studying (a chapter, a topic, even a photo of your textbook page).',
+      "Pick the thing you're studying (a chapter, a topic, even a photo of your textbook page).",
       'Paste the tutor prompt below.',
       'Answer its quiz questions — it corrects you gently and explains what you missed.',
     ],
@@ -454,10 +462,13 @@ const beginner: Lesson[] = [
       {
         term: 'Zero-shot',
         href: '/concepts/zero-shot-learning',
-        plain: 'AI doing a task it was never specifically trained for — like tutoring your exact syllabus.',
+        plain:
+          'AI doing a task it was never specifically trained for — like tutoring your exact syllabus.',
       },
     ],
-    deeper: [{ label: 'Concepts library — every AI term explained at your level', href: '/concepts' }],
+    deeper: [
+      { label: 'Concepts library — every AI term explained at your level', href: '/concepts' },
+    ],
   },
   {
     slug: 'fix-my-writing',
@@ -466,7 +477,7 @@ const beginner: Lesson[] = [
     title: 'Fix and polish your writing',
     tagline: 'Grammar, tone, clarity — without changing your voice.',
     minutes: 4,
-    goal: 'Make anything you wrote sound clear and professional — especially useful if English isn\'t your first language.',
+    goal: "Make anything you wrote sound clear and professional — especially useful if English isn't your first language.",
     tool: {
       name: 'ChatGPT (free)',
       url: 'https://chatgpt.com',
@@ -484,7 +495,7 @@ const beginner: Lesson[] = [
     prompts: [
       {
         label: 'The polish recipe',
-        text: 'Improve my writing below. Fix grammar and spelling, make it clearer and more natural, but KEEP my voice and meaning — don\'t make it sound robotic or fancy.\nThen list the 3 most important changes you made, so I learn.\n\nMy text:\n[PASTE YOUR TEXT]',
+        text: "Improve my writing below. Fix grammar and spelling, make it clearer and more natural, but KEEP my voice and meaning — don't make it sound robotic or fancy.\nThen list the 3 most important changes you made, so I learn.\n\nMy text:\n[PASTE YOUR TEXT]",
       },
     ],
     result:
@@ -501,8 +512,8 @@ const beginner: Lesson[] = [
     slug: 'cook-with-what-you-have',
     track: 'beginner',
     order: 9,
-    title: 'Cook with what\'s in your kitchen',
-    tagline: 'Tell it your ingredients, get tonight\'s dinner.',
+    title: "Cook with what's in your kitchen",
+    tagline: "Tell it your ingredients, get tonight's dinner.",
     minutes: 4,
     goal: 'Stop staring at the fridge — get real recipes from the ingredients you already have.',
     tool: {
@@ -555,7 +566,7 @@ const beginner: Lesson[] = [
     },
     steps: [
       'Paste the job description (or just the job title) into the prompt below.',
-      'Answer each question as if it\'s real — speaking aloud is best.',
+      "Answer each question as if it's real — speaking aloud is best.",
       'Get scored, get model answers, repeat the weak ones.',
     ],
     prompts: [
@@ -572,7 +583,9 @@ const beginner: Lesson[] = [
       'Do this 3 days in a row; the difference is dramatic.',
     ],
     vocab: [],
-    deeper: [{ label: 'Next: write the CV that gets the interview', href: '/learn/write-a-cv-that-works' }],
+    deeper: [
+      { label: 'Next: write the CV that gets the interview', href: '/learn/write-a-cv-that-works' },
+    ],
   },
   {
     slug: 'write-a-cv-that-works',
@@ -594,17 +607,17 @@ const beginner: Lesson[] = [
     },
     steps: [
       'In plain words, type out your work history, education, and skills — messy is fine.',
-      'Paste the prompt below, with the job you\'re applying for.',
+      "Paste the prompt below, with the job you're applying for.",
       'Paste the result into a clean template and adjust honestly — never let it invent experience.',
     ],
     prompts: [
       {
         label: 'The CV recipe',
-        text: 'Turn my background into a professional CV for this job: [JOB TITLE / PASTE JOB AD].\n\nMy background (messy notes are fine):\n[TYPE YOUR HISTORY — jobs, years, what you actually did, education, skills]\n\nRules: use strong action verbs, quantify results where I gave numbers, keep it to one page, DO NOT invent anything I didn\'t say. Then write a short tailored cover letter (under 150 words) for the same job.',
+        text: "Turn my background into a professional CV for this job: [JOB TITLE / PASTE JOB AD].\n\nMy background (messy notes are fine):\n[TYPE YOUR HISTORY — jobs, years, what you actually did, education, skills]\n\nRules: use strong action verbs, quantify results where I gave numbers, keep it to one page, DO NOT invent anything I didn't say. Then write a short tailored cover letter (under 150 words) for the same job.",
       },
     ],
     result:
-      'A structured one-page CV that mirrors the job ad\'s language, plus a matching cover letter — the pair recruiters actually respond to.',
+      "A structured one-page CV that mirrors the job ad's language, plus a matching cover letter — the pair recruiters actually respond to.",
     tweaks: [
       '"Rewrite my CV for THIS other job" — tailoring per job takes 30 seconds now.',
       'Ask "what\'s missing from my CV for this job?" — honest gap analysis.',
@@ -645,7 +658,7 @@ const beginner: Lesson[] = [
       'Three ready-to-post options with hooks and hashtags — pick, personalize one detail, post.',
     tweaks: [
       'For a business: "make a week of posts about [product]" — content calendar in one go.',
-      'Add one real personal detail to whichever you pick — that\'s what makes it feel human.',
+      "Add one real personal detail to whichever you pick — that's what makes it feel human.",
       'Generate a matching image with the lesson-6 recipe.',
     ],
     vocab: [],
@@ -658,7 +671,7 @@ const beginner: Lesson[] = [
     title: 'Understand bills and budgets',
     tagline: 'Decode charges, build a simple budget, ask "is this normal?"',
     minutes: 7,
-    goal: 'Use AI to explain confusing charges, compare costs, and set up a monthly budget you\'ll actually follow.',
+    goal: "Use AI to explain confusing charges, compare costs, and set up a monthly budget you'll actually follow.",
     tool: {
       name: 'ChatGPT (free)',
       url: 'https://chatgpt.com',
@@ -687,7 +700,7 @@ const beginner: Lesson[] = [
     result:
       'A budget that fits your real numbers, and bills translated into plain language with a ready-made "please explain this charge" message.',
     tweaks: [
-      'AI is great for understanding money — but it\'s not a licensed financial advisor. Big decisions (loans, investments) deserve a professional.',
+      "AI is great for understanding money — but it's not a licensed financial advisor. Big decisions (loans, investments) deserve a professional.",
       '"Track this with me: here\'s what I spent this week" — it remembers within the conversation.',
     ],
     vocab: [],
@@ -712,7 +725,7 @@ const beginner: Lesson[] = [
       note: 'Open-source models with a web-search toggle.',
     },
     steps: [
-      'Name the 2–3 options you\'re considering (or ask it to suggest options at your budget).',
+      "Name the 2–3 options you're considering (or ask it to suggest options at your budget).",
       'Paste the compare prompt below.',
       'Click the sources it cites to verify prices before paying.',
     ],
@@ -729,7 +742,7 @@ const beginner: Lesson[] = [
       'Works for insurance plans, courses, gyms — any "which one?" decision.',
     ],
     vocab: [],
-    deeper: [{ label: 'The site\'s own tool-comparison engine', href: '/compare' }],
+    deeper: [{ label: "The site's own tool-comparison engine", href: '/compare' }],
   },
   {
     slug: 'get-a-refund-politely',
@@ -750,7 +763,7 @@ const beginner: Lesson[] = [
       note: 'Open-source, same recipe.',
     },
     steps: [
-      'Describe what happened, what you\'ve tried, and what you want.',
+      "Describe what happened, what you've tried, and what you want.",
       'Paste the complaint recipe below.',
       'Send version 1; if ignored, ask for the escalation version.',
     ],
@@ -783,7 +796,7 @@ const intermediate: Lesson[] = [
     title: 'The anatomy of a great prompt',
     tagline: 'Role + context + task + format — the 4 parts that change everything.',
     minutes: 8,
-    goal: 'Learn the one structure that upgrades every prompt you\'ll ever write.',
+    goal: "Learn the one structure that upgrades every prompt you'll ever write.",
     tool: {
       name: 'Any chat AI',
       url: 'https://chatgpt.com',
@@ -806,7 +819,7 @@ const intermediate: Lesson[] = [
       },
       {
         label: 'Strong (role + context + task + format)',
-        text: 'You are a marketing consultant for tiny local businesses with zero ad budget.\n\nMy situation: I run a home bakery in Pune. Customers come from Instagram and WhatsApp. Orders are steady on weekends, dead on weekdays.\n\nTask: give me 5 ideas to get weekday orders, using only free channels I already have.\n\nFormat: a table — idea, effort (low/med/high), what to post/send, expected result. Then tell me which ONE you\'d start with and why.',
+        text: "You are a marketing consultant for tiny local businesses with zero ad budget.\n\nMy situation: I run a home bakery in Pune. Customers come from Instagram and WhatsApp. Orders are steady on weekends, dead on weekdays.\n\nTask: give me 5 ideas to get weekday orders, using only free channels I already have.\n\nFormat: a table — idea, effort (low/med/high), what to post/send, expected result. Then tell me which ONE you'd start with and why.",
       },
     ],
     result:
@@ -831,7 +844,7 @@ const intermediate: Lesson[] = [
     slug: 'show-dont-tell',
     track: 'intermediate',
     order: 1,
-    title: 'Show, don\'t tell (examples beat descriptions)',
+    title: "Show, don't tell (examples beat descriptions)",
     tagline: 'One good example outperforms three paragraphs of instructions.',
     minutes: 6,
     goal: 'Get AI to match YOUR style by showing it a sample instead of describing what you want.',
@@ -868,7 +881,9 @@ const intermediate: Lesson[] = [
         plain: 'Teaching AI by showing a few examples inside your prompt — no training needed.',
       },
     ],
-    deeper: [{ label: 'Zero-shot vs few-shot — the concept', href: '/concepts/zero-shot-learning' }],
+    deeper: [
+      { label: 'Zero-shot vs few-shot — the concept', href: '/concepts/zero-shot-learning' },
+    ],
   },
   {
     slug: 'iterate-like-a-pro',
@@ -889,7 +904,7 @@ const intermediate: Lesson[] = [
       note: 'Open-source, same loop.',
     },
     steps: [
-      'Message 1: ask for the draft (use lesson 1\'s structure).',
+      "Message 1: ask for the draft (use lesson 1's structure).",
       'Message 2: paste the critique prompt below — make the AI attack its own work.',
       'Message 3: "Now rewrite it fixing all of that." The third version is the keeper.',
     ],
@@ -943,10 +958,10 @@ const intermediate: Lesson[] = [
     prompts: [
       {
         label: 'The role + honesty recipe',
-        text: 'You are an experienced [ROLE, e.g. "salary negotiation coach"].\nBe direct and honest — if my plan has problems, say so clearly. Do not flatter me.\n\nMy situation: [DESCRIBE]\nWhat I\'m planning: [DESCRIBE]\n\nGive me your honest assessment, the biggest risk I\'m not seeing, and what you\'d do instead.',
+        text: "You are an experienced [ROLE, e.g. \"salary negotiation coach\"].\nBe direct and honest — if my plan has problems, say so clearly. Do not flatter me.\n\nMy situation: [DESCRIBE]\nWhat I'm planning: [DESCRIBE]\n\nGive me your honest assessment, the biggest risk I'm not seeing, and what you'd do instead.",
       },
       {
-        label: 'The devil\'s advocate',
+        label: "The devil's advocate",
         text: 'Now argue AGAINST your own advice as a skeptical [OTHER ROLE, e.g. "HR manager on the other side of the table"]. What will they push back on? How should I respond?',
       },
     ],
@@ -954,7 +969,7 @@ const intermediate: Lesson[] = [
       'Sharper, more specialized answers — and with the honesty clause, an advisor instead of a cheerleader.',
     tweaks: [
       '"Do not flatter me" genuinely changes the output — AIs default to agreeable.',
-      'Interview both sides: the coach AND the opponent. You\'ll be ready for the real conversation.',
+      "Interview both sides: the coach AND the opponent. You'll be ready for the real conversation.",
     ],
     vocab: [],
     deeper: [],
@@ -966,7 +981,7 @@ const intermediate: Lesson[] = [
     title: 'Get answers in any format',
     tagline: 'Tables, checklists, templates, spreadsheet-ready data.',
     minutes: 6,
-    goal: 'Stop reformatting AI answers by hand — ask for the exact structure you\'ll use.',
+    goal: "Stop reformatting AI answers by hand — ask for the exact structure you'll use.",
     tool: {
       name: 'Any chat AI',
       url: 'https://chatgpt.com',
@@ -1036,18 +1051,18 @@ const intermediate: Lesson[] = [
       },
       {
         label: 'For a photo of handwriting/notes',
-        text: 'Transcribe this handwriting into clean text, preserving the structure. Mark anything you couldn\'t read as [unclear].',
+        text: "Transcribe this handwriting into clean text, preserving the structure. Mark anything you couldn't read as [unclear].",
       },
       {
         label: 'For an error screenshot',
-        text: 'This is an error I\'m seeing. Explain what\'s wrong in simple words and give me the most likely fix, step by step.',
+        text: "This is an error I'm seeing. Explain what's wrong in simple words and give me the most likely fix, step by step.",
       },
     ],
     result:
       'Your camera becomes a scanner, your PDFs become conversations, and error messages become fixable.',
     tweaks: [
       'Photograph whiteboards after meetings → "turn this into action items".',
-      'Privacy: don\'t upload documents with sensitive IDs/passwords to any cloud AI — the advanced track shows the fully-private local way.',
+      "Privacy: don't upload documents with sensitive IDs/passwords to any cloud AI — the advanced track shows the fully-private local way.",
     ],
     vocab: [
       {
@@ -1058,7 +1073,10 @@ const intermediate: Lesson[] = [
     ],
     deeper: [
       { label: 'Multimodal — the concept', href: '/concepts/multimodal' },
-      { label: 'Go fully private with local AI (advanced)', href: '/learn/run-ai-on-your-computer' },
+      {
+        label: 'Go fully private with local AI (advanced)',
+        href: '/learn/run-ai-on-your-computer',
+      },
     ],
   },
   {
@@ -1095,7 +1113,7 @@ const intermediate: Lesson[] = [
       },
     ],
     result:
-      'You\'ll know WHERE an answer is shaky before you rely on it — the difference between using AI and being used by it.',
+      "You'll know WHERE an answer is shaky before you rely on it — the difference between using AI and being used by it.",
     tweaks: [
       'Danger zones for hallucination: specific numbers, citations, laws, recent events, niche topics.',
       'Rule of thumb: the more a wrong answer would cost you, the more you verify.',
@@ -1136,7 +1154,7 @@ const intermediate: Lesson[] = [
       note: 'Open-source equivalent: system prompts you fully control.',
     },
     steps: [
-      'Open your AI\'s settings and find Custom Instructions / Personalization.',
+      "Open your AI's settings and find Custom Instructions / Personalization.",
       'Fill the two boxes using the template below.',
       'Start a new chat and feel the difference — it already knows your world.',
     ],
@@ -1147,11 +1165,11 @@ const intermediate: Lesson[] = [
       },
       {
         label: 'Box 2 — how to answer (template)',
-        text: 'Be direct and practical. Use simple words, short answers first with detail available if I ask. Give steps I can act on today with free tools. If I\'m about to make a mistake, tell me straight — don\'t flatter me. Use examples relevant to my context.',
+        text: "Be direct and practical. Use simple words, short answers first with detail available if I ask. Give steps I can act on today with free tools. If I'm about to make a mistake, tell me straight — don't flatter me. Use examples relevant to my context.",
       },
     ],
     result:
-      'Every new chat starts pre-loaded with your situation and your standards — like a colleague who\'s worked with you for months.',
+      "Every new chat starts pre-loaded with your situation and your standards — like a colleague who's worked with you for months.",
     tweaks: [
       'Revisit monthly — your instructions should evolve as you do.',
       'The honesty line ("don\'t flatter me") is the single highest-value sentence in there.',
@@ -1160,7 +1178,8 @@ const intermediate: Lesson[] = [
       {
         term: 'Fine-tuning',
         href: '/concepts/fine-tuning',
-        plain: 'Actually retraining a model on your data — custom instructions are the no-training shortcut.',
+        plain:
+          'Actually retraining a model on your data — custom instructions are the no-training shortcut.',
       },
     ],
     deeper: [{ label: 'Fine-tuning vs prompting — the concept', href: '/concepts/fine-tuning' }],
@@ -1181,7 +1200,7 @@ const intermediate: Lesson[] = [
     oss: {
       name: 'The open-source toolbox',
       url: 'https://huggingface.co/chat',
-      note: 'Every category below has an open-source option — see the site\'s Tools page.',
+      note: "Every category below has an open-source option — see the site's Tools page.",
     },
     steps: [
       'Learn the map: WRITING/THINKING → chat AI (ChatGPT, HuggingChat). FACTS/CURRENT EVENTS → search AI with sources (Perplexity). IMAGES → image AI (Bing Create, FLUX). MEETINGS/AUDIO → transcription (Whisper). PRIVATE/SENSITIVE → local AI (advanced track).',
@@ -1191,20 +1210,21 @@ const intermediate: Lesson[] = [
     prompts: [
       {
         label: 'The which-tool prompt',
-        text: 'Task: [DESCRIBE WHAT YOU\'RE TRYING TO DO].\nWhich KIND of AI tool is right for this — a chat AI, a source-citing search AI, an image generator, a transcription tool, or a local/private AI? Name one free option and one open-source option, and say why in one line each.',
+        text: "Task: [DESCRIBE WHAT YOU'RE TRYING TO DO].\nWhich KIND of AI tool is right for this — a chat AI, a source-citing search AI, an image generator, a transcription tool, or a local/private AI? Name one free option and one open-source option, and say why in one line each.",
       },
     ],
     result:
       'No more using a chat AI for live prices or a search AI for creative writing — right tool, first try.',
     tweaks: [
-      'The site\'s Decision guides do this interactively for developer tools.',
+      "The site's Decision guides do this interactively for developer tools.",
       'Rule: anything involving sensitive personal data → local AI (next track).',
     ],
     vocab: [
       {
         term: 'Benchmark',
         href: '/concepts/benchmark',
-        plain: 'Standardized tests that compare model abilities — how "which is best" gets measured.',
+        plain:
+          'Standardized tests that compare model abilities — how "which is best" gets measured.',
       },
     ],
     deeper: [
@@ -1231,7 +1251,7 @@ const intermediate: Lesson[] = [
       note: 'The open model that powers most AI speech-to-text — try it in the browser.',
     },
     steps: [
-      'Install your chat AI\'s mobile app and tap the voice icon.',
+      "Install your chat AI's mobile app and tap the voice icon.",
       'Try the brainstorm starter below — out loud, while walking.',
       'For language practice: "Let\'s have a simple conversation in [language]. Correct my mistakes gently as we go."',
     ],
@@ -1277,15 +1297,15 @@ const advanced: Lesson[] = [
     },
     steps: [
       'Download Ollama from the link above and install it (Windows/Mac/Linux).',
-      'Open a terminal (don\'t worry — one command only) and type: ollama run llama3.2',
+      "Open a terminal (don't worry — one command only) and type: ollama run llama3.2",
       'It downloads a ~2GB open model, then gives you a chat prompt right there. Talk to it.',
-      'Prefer no terminal at all? Install GPT4All instead — it\'s all buttons and menus.',
+      "Prefer no terminal at all? Install GPT4All instead — it's all buttons and menus.",
       'Everything you learned in the earlier tracks — prompts, roles, examples — works identically here.',
     ],
     prompts: [
       {
-        label: 'First local prompt (prove it\'s private)',
-        text: 'You are running entirely on my computer with no internet. Explain in simple words what that means for my privacy compared to a cloud AI, and what you can and can\'t do offline.',
+        label: "First local prompt (prove it's private)",
+        text: "You are running entirely on my computer with no internet. Explain in simple words what that means for my privacy compared to a cloud AI, and what you can and can't do offline.",
       },
     ],
     result:
@@ -1308,7 +1328,10 @@ const advanced: Lesson[] = [
       },
     ],
     deeper: [
-      { label: 'Full tutorial: run your first LLM locally', href: '/tutorials/run-your-first-llm-locally' },
+      {
+        label: 'Full tutorial: run your first LLM locally',
+        href: '/tutorials/run-your-first-llm-locally',
+      },
       { label: 'Which open model fits your hardware?', href: '/decisions' },
       { label: 'Ollama in the toolbox', href: '/tools' },
     ],
@@ -1334,7 +1357,7 @@ const advanced: Lesson[] = [
     steps: [
       'Have Ollama running (previous lesson).',
       'Easiest route: install Docker Desktop, then run the one-line command from the Open WebUI README.',
-      'Open http://localhost:3000 in your browser — that\'s YOUR ChatGPT now.',
+      "Open http://localhost:3000 in your browser — that's YOUR ChatGPT now.",
       'Upload documents in a chat to ask questions about them (private RAG — next-next lesson explains the magic).',
       'Want it simpler? Jan gives you 80% of this as a normal desktop app, no Docker.',
     ],
@@ -1402,7 +1425,7 @@ const advanced: Lesson[] = [
       {
         term: 'Diffusion model',
         href: '/concepts/diffusion-model',
-        plain: 'The image-from-noise technique you\'re now running yourself.',
+        plain: "The image-from-noise technique you're now running yourself.",
       },
     ],
     deeper: [
@@ -1430,7 +1453,7 @@ const advanced: Lesson[] = [
     },
     steps: [
       'In GPT4All: Settings → LocalDocs → add a folder of PDFs/notes. In Open WebUI: upload files into a chat or knowledge collection.',
-      'Wait for indexing (it\'s building embeddings — see vocab).',
+      "Wait for indexing (it's building embeddings — see vocab).",
       'Ask questions using the grounded prompt below.',
       'Watch it cite which document each answer came from.',
     ],
@@ -1489,7 +1512,7 @@ const advanced: Lesson[] = [
     },
     steps: [
       'Quick win: upload a voice note to the browser demo and watch it transcribe.',
-      'Local setup: follow whisper.cpp\'s README (clone → make → download a model → one command per file).',
+      "Local setup: follow whisper.cpp's README (clone → make → download a model → one command per file).",
       'Feed the transcript to your local LLM with the meeting-notes prompt below — a fully-offline meeting pipeline.',
     ],
     prompts: [
@@ -1531,9 +1554,9 @@ const advanced: Lesson[] = [
     },
     steps: [
       'Run the manual-agent prompt below — you\'ll play the "tools" while the AI plays the "brain". This teaches the loop: plan → act → observe → repeat.',
-      'Notice how it breaks the goal into steps and asks for information before acting — that\'s the agent pattern.',
+      "Notice how it breaks the goal into steps and asks for information before acting — that's the agent pattern.",
       'Explore the agent workflow simulator on this site to see the loop visualized.',
-      'When ready for real ones: LangChain (code) — or watch this site\'s news; the agent space moves monthly.',
+      "When ready for real ones: LangChain (code) — or watch this site's news; the agent space moves monthly.",
     ],
     prompts: [
       {
@@ -1574,7 +1597,7 @@ const advanced: Lesson[] = [
     minutes: 12,
     goal: 'Stop collecting tools; assemble a deliberate personal stack matched to your hardware and needs.',
     tool: {
-      name: 'This site\'s decision guides',
+      name: "This site's decision guides",
       url: 'https://chatgpt.com',
       note: 'The Decisions section below walks each choice interactively.',
     },
@@ -1600,7 +1623,7 @@ const advanced: Lesson[] = [
       'A deliberate, hardware-matched stack — and the vocabulary (quantization, GGUF, VRAM) to upgrade it intelligently as models improve.',
     tweaks: [
       'Re-audit quarterly: open models improve fast; your ceiling rises with them.',
-      'The site\'s Dashboard and News track exactly these shifts daily.',
+      "The site's Dashboard and News track exactly these shifts daily.",
     ],
     vocab: [
       {
@@ -1616,7 +1639,8 @@ const advanced: Lesson[] = [
       {
         term: 'Mixture of Experts',
         href: '/concepts/mixture-of-experts',
-        plain: 'Big-brain models that only "wake up" parts of themselves — big quality, less compute.',
+        plain:
+          'Big-brain models that only "wake up" parts of themselves — big quality, less compute.',
       },
     ],
     deeper: [
@@ -1632,7 +1656,7 @@ const advanced: Lesson[] = [
     title: 'Stay current without drowning',
     tagline: 'A 20-minute weekly routine on top of a self-updating atlas.',
     minutes: 10,
-    goal: 'Build a sustainable routine for keeping up with AI — using this site\'s daily-refreshing data instead of doomscrolling.',
+    goal: "Build a sustainable routine for keeping up with AI — using this site's daily-refreshing data instead of doomscrolling.",
     tool: {
       name: 'AI Atlas (this site)',
       url: 'https://apexlegion.github.io/aiatlas/',
@@ -1644,7 +1668,7 @@ const advanced: Lesson[] = [
       note: 'The raw feed of what the open-source community is excited about.',
     },
     steps: [
-      'Weekly (20 min): open this site\'s Dashboard for the pulse, News for what happened, and Models for anything new that fits your hardware.',
+      "Weekly (20 min): open this site's Dashboard for the pulse, News for what happened, and Models for anything new that fits your hardware.",
       'Monthly: re-run the stack-audit from the previous lesson — swap ONE component if something clearly better exists.',
       'Use the filter prompt below on any breathless AI headline before you care about it.',
       'Explore the Knowledge Graph when something new appears — seeing what it connects to tells you if it matters.',
@@ -1652,20 +1676,20 @@ const advanced: Lesson[] = [
     prompts: [
       {
         label: 'The hype filter',
-        text: 'Here\'s an AI announcement: [PASTE HEADLINE/SUMMARY].\nAnswer bluntly: 1) Is this available now, open-source, and runnable on consumer hardware — or a demo/promise? 2) Does it change anything for someone with my stack: [YOUR STACK]? 3) Check back in a month, or act now?',
+        text: "Here's an AI announcement: [PASTE HEADLINE/SUMMARY].\nAnswer bluntly: 1) Is this available now, open-source, and runnable on consumer hardware — or a demo/promise? 2) Does it change anything for someone with my stack: [YOUR STACK]? 3) Check back in a month, or act now?",
       },
     ],
     result:
       'You stay genuinely current in 20 minutes a week while others drown in hype — because your atlas updates itself and your filter is ruthless.',
     tweaks: [
       'One in twenty announcements matters for your actual stack. The filter finds it.',
-      'You\'ve completed the Academy. The rest of the site — graph, playgrounds, compare, jobs — is now your reference shelf. Go build something.',
+      "You've completed the Academy. The rest of the site — graph, playgrounds, compare, jobs — is now your reference shelf. Go build something.",
     ],
     vocab: [
       {
         term: 'Benchmark',
         href: '/concepts/benchmark',
-        plain: 'How new models prove they\'re actually better — read these, not headlines.',
+        plain: "How new models prove they're actually better — read these, not headlines.",
       },
     ],
     deeper: [

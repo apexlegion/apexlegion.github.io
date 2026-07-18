@@ -42,9 +42,9 @@
   relations authored in `relations.json`), not a rendering bug.
 
 **Why the rename is needed at all:** the current repo is named
-`apexlegion.github.io`, which GitHub treats as the account's *root* user page
+`apexlegion.github.io`, which GitHub treats as the account's _root_ user page
 (served at the bare domain). Renaming it to `aiatlas` makes GitHub serve it as a
-*project page* at `apexlegion.github.io/aiatlas/`. "aiatlas" as a standalone
+_project page_ at `apexlegion.github.io/aiatlas/`. "aiatlas" as a standalone
 username/org (`aiatlas.github.io`) was **not available** — both `github.com/aiatlas`
 and `github.com/ai-atlas` are already taken by unrelated accounts — so the
 project-page subpath is the free way to get "aiatlas" into the URL.
@@ -198,8 +198,8 @@ external.
 
 ## 3.5. The Learn Academy (2026-07-17)
 
-**Why:** the site taught *about* AI (concepts/glossary) but a total beginner
-could read for an hour and never actually *use* an AI. Product decision
+**Why:** the site taught _about_ AI (concepts/glossary) but a total beginner
+could read for an hour and never actually _use_ an AI. Product decision
 (Kunal): the site must take someone who knows nothing and get them doing real
 work with AI, at whatever level they're at.
 
@@ -317,7 +317,7 @@ to assert the intended post-migration behavior (`/aiatlas/` manifest paths;
 
 | Layer               | Choice                                                                 |
 | ------------------- | ---------------------------------------------------------------------- |
-| Framework           | Astro 5 (static site generation), `base: '/aiatlas'`                    |
+| Framework           | Astro 5 (static site generation), `base: '/aiatlas'`                   |
 | Interactive islands | React 19 (`client:load` / `client:visible`)                            |
 | Styling             | Tailwind CSS v4 (theme tokens via `@theme` in `src/styles/global.css`) |
 | Search              | Pagefind (static index built from `dist/`) + Fuse.js dev fallback      |
@@ -370,13 +370,13 @@ Data pipeline commands (unchanged): `corepack pnpm run scrape:all`,
 All times UTC (IST = UTC + 5:30). Every workflow also has a manual "Run
 workflow" button in the Actions tab.
 
-| Time (UTC)  | IST      | Workflow                 | What it does                                             |
-| ----------- | -------- | ------------------------ | ------------------------------------------------------- |
-| 02:00 daily | 07:30    | `daily-data-update.yml`  | Scrape GitHub / HF / arXiv / Papers With Code / RSS -> commit new data |
-| 04:00 daily | 09:30    | `daily-news-expiry.yml`  | Remove news older than 30 days -> commit                |
-| 05:00 daily | 10:30    | `deploy.yml`             | Rebuild with latest data -> publish to Pages (subpath-aware) |
-| Mon 03:00   | Mon 08:30| `weekly-health-check.yml`| Re-validate data + dead-link scan (report only)         |
-| on push     | —        | `deploy.yml` + `on-push.yml` | Redeploy + CI whenever a human pushes               |
+| Time (UTC)  | IST       | Workflow                     | What it does                                                           |
+| ----------- | --------- | ---------------------------- | ---------------------------------------------------------------------- |
+| 02:00 daily | 07:30     | `daily-data-update.yml`      | Scrape GitHub / HF / arXiv / Papers With Code / RSS -> commit new data |
+| 04:00 daily | 09:30     | `daily-news-expiry.yml`      | Remove news older than 30 days -> commit                               |
+| 05:00 daily | 10:30     | `deploy.yml`                 | Rebuild with latest data -> publish to Pages (subpath-aware)           |
+| Mon 03:00   | Mon 08:30 | `weekly-health-check.yml`    | Re-validate data + dead-link scan (report only)                        |
+| on push     | —         | `deploy.yml` + `on-push.yml` | Redeploy + CI whenever a human pushes                                  |
 
 `deploy.yml` reads the live origin **and base path** from
 `actions/configure-pages` at build time, so canonical URLs, sitemap.xml,

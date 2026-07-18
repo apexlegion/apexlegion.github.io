@@ -156,8 +156,11 @@ const beginnerSteps = [
         </button>
       </div>
       <div class="flex flex-wrap items-center justify-center gap-3">
-        <Button as="a" href={withBase('/learn')} size="lg" iconRight="→">Start learning free</Button>
-        <Button as="a" href={withBase('/projects')} size="lg" variant="secondary">Browse the tools</Button>
+        <Button as="a" href={withBase('/learn')} size="lg" iconRight="→">Start learning free</Button
+        >
+        <Button as="a" href={withBase('/projects')} size="lg" variant="secondary"
+          >Browse the tools</Button
+        >
       </div>
 
       <!-- Stat row -->
@@ -238,7 +241,11 @@ const beginnerSteps = [
     <Grid cols={{ base: 1, md: 3 }} gap={6}>
       {
         featuredProjects.map((p) => (
-          <Card variant="interactive" href={withBase(`/projects/${p!.slug}`)} className="group h-full">
+          <Card
+            variant="interactive"
+            href={withBase(`/projects/${p!.slug}`)}
+            className="group h-full"
+          >
             <CardHeader>
               <Tag>{(p as { category?: string }).category ?? 'Project'}</Tag>
               <h3 class="text-text group-hover:text-primary-orange text-h3 mt-2 font-semibold transition-colors">
@@ -268,7 +275,11 @@ const beginnerSteps = [
     <Grid cols={{ base: 1, md: 3 }} gap={6}>
       {
         featuredModels.map((m) => (
-          <Card variant="interactive" href={withBase(`/models/${m!.slug}`)} className="group h-full">
+          <Card
+            variant="interactive"
+            href={withBase(`/models/${m!.slug}`)}
+            className="group h-full"
+          >
             <CardHeader>
               <Tag>{(m as { modality?: string }).modality ?? 'Model'}</Tag>
               <h3 class="text-text group-hover:text-primary-orange text-h3 mt-2 font-semibold transition-colors">

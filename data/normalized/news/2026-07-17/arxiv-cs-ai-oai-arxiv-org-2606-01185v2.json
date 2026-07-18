@@ -4,10 +4,7 @@
   "name": "\"Skill Issues'': Data-Centric Optimization of Lakehouse Agents",
   "summary": "arXiv:2606.01185v2 Announce Type: replace Abstract: Coding agents are becoming users of data infrastructure, but their success depends not only on model quality: it also depends on the skills and e...",
   "description": "arXiv:2606.01185v2 Announce Type: replace Abstract: Coding agents are becoming users of data infrastructure, but their success depends not only on model quality: it also depends on the skills and environment files that teach agents how to use a system. We study how to optimize these artifacts for agents operating on a branching lakehouse, Bauplan. In our setting, headless APIs and Git-like data...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "New method aims to keep kids safe from illegal AI-generated content",
   "summary": "Researchers developed an auditing technique to test generative AI models for malicious capabilities, without prompting them for illegal outputs.",
   "description": "Researchers developed an auditing technique to test generative AI models for malicious capabilities, without prompting them for illegal outputs.",
-  "tags": [
-    "news",
-    "mit-news-ai"
-  ],
+  "tags": ["news", "mit-news-ai"],
   "externalLinks": [
     {
       "label": "MIT News",

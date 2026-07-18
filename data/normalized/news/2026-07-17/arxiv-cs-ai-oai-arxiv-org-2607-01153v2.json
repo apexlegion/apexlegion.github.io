@@ -4,10 +4,7 @@
   "name": "Adversarial Pragmatics for AI Safety Evaluation: A Benchmark for Instruction Conflict, Embedded Commands, and Policy Ambiguity",
   "summary": "arXiv:2607.01153v2 Announce Type: replace-cross Abstract: Safety evaluations for language models increasingly depend on judgments about ambiguous natural-language behaviour: whether a model has fol...",
   "description": "arXiv:2607.01153v2 Announce Type: replace-cross Abstract: Safety evaluations for language models increasingly depend on judgments about ambiguous natural-language behaviour: whether a model has followed an instruction, refused appropriately, complied with a policy, resisted an embedded command, or misreported progress in an agentic task. Existing benchmarks often compress these distinctions int...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Multi-Axis Max@K Reinforcement Learning for Representative Diversity in Text-to-Image Generation",
   "summary": "arXiv:2607.14962v1 Announce Type: cross Abstract: Text-to-image (T2I) models can synthesize realistic, prompt-aligned images, yet samples generated for the same prompt often cover only a small subs...",
   "description": "arXiv:2607.14962v1 Announce Type: cross Abstract: Text-to-image (T2I) models can synthesize realistic, prompt-aligned images, yet samples generated for the same prompt often cover only a small subset of visually distinct modes. This limits the diversity of images, and for person-centric prompts, can reflect or amplify demographic skew. We formalize this problem as coverage of a predefined set o...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

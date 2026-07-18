@@ -4,10 +4,7 @@
   "name": "NORACL: Neurogenesis for Oracle-free Resource-Adaptive Continual Learning",
   "summary": "arXiv:2604.27031v2 Announce Type: replace-cross Abstract: In a continual learning setting, we require a model to be plastic enough to learn a new task and stable enough to not disturb previously le...",
   "description": "arXiv:2604.27031v2 Announce Type: replace-cross Abstract: In a continual learning setting, we require a model to be plastic enough to learn a new task and stable enough to not disturb previously learned capabilities. We argue that this dilemma has an architectural root. A finite network has limited representational and plastic resources, yet the required capacity depends on properties of the fu...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

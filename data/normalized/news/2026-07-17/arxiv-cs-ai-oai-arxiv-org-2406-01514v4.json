@@ -4,10 +4,7 @@
   "name": "Decoupled Alignment for Robust Plug-and-Play Adaptation",
   "summary": "arXiv:2406.01514v4 Announce Type: replace-cross Abstract: We introduce a training-free safety enhancement method for aligning large language models (LLMs) without the need for supervised fine-tunin...",
   "description": "arXiv:2406.01514v4 Announce Type: replace-cross Abstract: We introduce a training-free safety enhancement method for aligning large language models (LLMs) without the need for supervised fine-tuning or reinforcement learning from human feedback. Our main idea is to provide a robust plug-and-play approach to prevent shadow alignment when models are adapted to downstream tasks. Specifically, we l...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

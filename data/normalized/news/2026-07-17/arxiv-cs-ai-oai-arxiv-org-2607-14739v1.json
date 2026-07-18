@@ -4,10 +4,7 @@
   "name": "FoMoVLA: Bridging Visual Foresight and Motion Guidance for Vision-Language-Action Models",
   "summary": "arXiv:2607.14739v1 Announce Type: cross Abstract: Vision-Language-Action (VLA) models have achieved impressive results in visuomotor policy learning, yet remain fundamentally reactive, mapping curr...",
   "description": "arXiv:2607.14739v1 Announce Type: cross Abstract: Vision-Language-Action (VLA) models have achieved impressive results in visuomotor policy learning, yet remain fundamentally reactive, mapping current observations and language to actions without explicit forward prediction of world dynamics. Existing visual foresight methods predict future visual states but lack explicit motion guidance: they s...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

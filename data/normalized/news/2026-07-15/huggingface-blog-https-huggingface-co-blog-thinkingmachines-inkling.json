@@ -4,10 +4,7 @@
   "name": "Welcome Inkling by Thinking Machines",
   "summary": "Welcome Inkling by Thinking Machines",
   "description": "Welcome Inkling by Thinking Machines",
-  "tags": [
-    "news",
-    "huggingface-blog"
-  ],
+  "tags": ["news", "huggingface-blog"],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

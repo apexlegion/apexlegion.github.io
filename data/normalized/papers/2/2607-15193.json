@@ -4,10 +4,7 @@
   "name": "Plover: Steering GUI Agents through Plan-Centric Interaction",
   "summary": "Graphical user interface (GUI) automation remains challenging in real-world environments, where dynamic layouts, unexpected dialogs, and evolving interface states can cause autonomous agents to dri...",
   "description": "Graphical user interface (GUI) automation remains challenging in real-world environments, where dynamic layouts, unexpected dialogs, and evolving interface states can cause autonomous agents to drift from user intent. Recent vision-based multimodal agents improve flexibility by operating directly over screenshots and natural language instructions, but planning and adaptation often remain internal, limiting users' ability to inspect, supervise, or correct system behavior. We present Plover, a plan-centric vision-based GUI automation system that externalizes task plans and replanning as persi...",
-  "tags": [
-    "arxiv",
-    "cs.AI"
-  ],
+  "tags": ["arxiv", "cs.AI"],
   "externalLinks": [
     {
       "label": "arXiv abstract",

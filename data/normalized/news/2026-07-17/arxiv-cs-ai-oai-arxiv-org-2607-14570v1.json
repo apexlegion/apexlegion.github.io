@@ -4,10 +4,7 @@
   "name": "Democratizing Agent Deployment Safety: A Structural Monitoring Approach",
   "summary": "arXiv:2607.14570v1 Announce Type: new Abstract: AI software development agents are increasingly capable of modifying infrastructure and security critical systems, creating risks where an agent comp...",
   "description": "arXiv:2607.14570v1 Announce Type: new Abstract: AI software development agents are increasingly capable of modifying infrastructure and security critical systems, creating risks where an agent completes its assigned task while covertly weakening safeguards through actions such as broadening permissions, degrading logging, or introducing persistence mechanisms. While frontier laboratories may de...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

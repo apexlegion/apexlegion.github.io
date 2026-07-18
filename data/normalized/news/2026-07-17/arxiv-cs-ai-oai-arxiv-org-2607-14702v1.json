@@ -4,10 +4,7 @@
   "name": "Team RAS in 11th ABAW Competition: Multimodal Ambivalence Recognition Approach",
   "summary": "arXiv:2607.14702v1 Announce Type: cross Abstract: Automatic recognition of ambivalence and hesitancy is challenging because these states may be expressed through inconsistent linguistic, acoustic,...",
   "description": "arXiv:2607.14702v1 Announce Type: cross Abstract: Automatic recognition of ambivalence and hesitancy is challenging because these states may be expressed through inconsistent linguistic, acoustic, facial, and contextual patterns, while top-performing systems often rely on computationally expensive ensembles. We present a single text-centered multimodal approach for video-level ambivalence and h...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Non-vacuous Generalization Bounds for Reinforcement Learning with Verifiable Rewards",
   "summary": "arXiv:2607.14506v1 Announce Type: cross Abstract: While reinforcement learning with verifiable rewards (RLVR) is widely used to improve the reasoning capabilities of large language models (LLMs), t...",
   "description": "arXiv:2607.14506v1 Announce Type: cross Abstract: While reinforcement learning with verifiable rewards (RLVR) is widely used to improve the reasoning capabilities of large language models (LLMs), the generalizability of the resulting models remains poorly understood. In this work, we establish the first non-vacuous generalization bounds for parameter-efficient RLVR fine-tuning at the billion-pa...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

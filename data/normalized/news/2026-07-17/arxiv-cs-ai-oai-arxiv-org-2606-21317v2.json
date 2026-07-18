@@ -4,10 +4,7 @@
   "name": "Warning labels shift perceptions of sycophantic AI, but not its influence",
   "summary": "arXiv:2606.21317v2 Announce Type: replace-cross Abstract: Recent work has raised concerns about the influence of sycophantic AI on user judgment and relationships. One proposed mitigation, which ha...",
   "description": "arXiv:2606.21317v2 Announce Type: replace-cross Abstract: Recent work has raised concerns about the influence of sycophantic AI on user judgment and relationships. One proposed mitigation, which has received regulatory attention, is to warn users about potentially harmful AI behaviors such as sycophancy. In a preregistered experiment in which participants (N = 2,610) discussed real interpersona...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

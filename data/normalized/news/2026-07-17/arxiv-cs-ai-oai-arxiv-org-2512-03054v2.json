@@ -4,10 +4,7 @@
   "name": "Energy-Efficient Federated Learning via Adaptive Encoder Freezing for MRI-to-CT Conversion: A Green AI-Guided Research",
   "summary": "arXiv:2512.03054v2 Announce Type: replace-cross Abstract: Federated Learning (FL) holds the potential to advance equality in health by enabling diverse institutions to collaboratively train deep le...",
   "description": "arXiv:2512.03054v2 Announce Type: replace-cross Abstract: Federated Learning (FL) holds the potential to advance equality in health by enabling diverse institutions to collaboratively train deep learning (DL) models, even with limited data. However, the significant resource requirements of FL often exclude centres with limited computational infrastructure, further widening existing healthcare d...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

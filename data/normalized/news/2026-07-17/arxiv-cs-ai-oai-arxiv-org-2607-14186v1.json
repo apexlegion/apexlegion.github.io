@@ -4,10 +4,7 @@
   "name": "NexForge: Scaling Executable Agent Tasks via Requirement-First Synthesis",
   "summary": "arXiv:2607.14186v1 Announce Type: cross Abstract: Scaling executable agent training data is bottlenecked by substrate-first methods that tie task generation to predefined tools, repositories, or sk...",
   "description": "arXiv:2607.14186v1 Announce Type: cross Abstract: Scaling executable agent training data is bottlenecked by substrate-first methods that tie task generation to predefined tools, repositories, or skill graphs: expanding coverage requires manual expansion of the substrate, each new domain demands a bespoke pipeline, and the resulting task distributions often reflect substrate convenience rather t...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

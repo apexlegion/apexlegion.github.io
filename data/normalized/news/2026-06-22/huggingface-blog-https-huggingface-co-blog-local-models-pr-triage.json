@@ -4,10 +4,7 @@
   "name": "We got local models to triage the OpenClaw repo for FREE!*",
   "summary": "We got local models to triage the OpenClaw repo for FREE!*",
   "description": "We got local models to triage the OpenClaw repo for FREE!*",
-  "tags": [
-    "news",
-    "huggingface-blog"
-  ],
+  "tags": ["news", "huggingface-blog"],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

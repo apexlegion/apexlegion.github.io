@@ -4,10 +4,7 @@
   "name": "A framework for single and multi-agent human-AI curiosity ecosystems",
   "summary": "arXiv:2607.06214v2 Announce Type: replace Abstract: This paper offers a framework for considering curiosity as an ecosystem. First, it suggests that a single agent's inquiry policy (how, when, and...",
   "description": "arXiv:2607.06214v2 Announce Type: replace Abstract: This paper offers a framework for considering curiosity as an ecosystem. First, it suggests that a single agent's inquiry policy (how, when, and why an agent asks a question) depends on how the agent values immediate uncertainty reduction, costs, delayed return, and the value of keeping the question open. A key concept in the framework is that...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

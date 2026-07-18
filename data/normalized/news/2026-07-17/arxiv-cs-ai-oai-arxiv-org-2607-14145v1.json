@@ -4,10 +4,7 @@
   "name": "ToolAnchor: Anchoring Counterfactual Context to Boost Agentic Tool-use Capability",
   "summary": "arXiv:2607.14145v1 Announce Type: new Abstract: Tool-augmented large language model agents excel at long-horizon tasks, yet they are typically post-trained on fixed toolsets. When tasks demand new...",
   "description": "arXiv:2607.14145v1 Announce Type: new Abstract: Tool-augmented large language model agents excel at long-horizon tasks, yet they are typically post-trained on fixed toolsets. When tasks demand new tools, these agents struggle to incorporate them effectively, and retraining from scratch is often impractical. We identify the core obstacle in such toolset expansion problem as behavioral inertia: t...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

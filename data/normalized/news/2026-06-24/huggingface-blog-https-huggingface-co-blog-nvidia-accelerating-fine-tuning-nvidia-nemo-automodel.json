@@ -4,10 +4,7 @@
   "name": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
   "summary": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
   "description": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
-  "tags": [
-    "news",
-    "huggingface-blog"
-  ],
+  "tags": ["news", "huggingface-blog"],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

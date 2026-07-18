@@ -4,10 +4,7 @@
   "name": "Beyond scalar losses: calibrating segmentation models via gradient vector field surgery",
   "summary": "arXiv:2607.14338v1 Announce Type: cross Abstract: Region-based loss functions, such as the Dice loss, have established themselves as the de facto standard for highly class- and region-imbalanced se...",
   "description": "arXiv:2607.14338v1 Announce Type: cross Abstract: Region-based loss functions, such as the Dice loss, have established themselves as the de facto standard for highly class- and region-imbalanced segmentation tasks. However, models trained using region-based loss functions are notoriously miscalibrated and typically yield over-confident predictions. In medical imaging applications, such as defin...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

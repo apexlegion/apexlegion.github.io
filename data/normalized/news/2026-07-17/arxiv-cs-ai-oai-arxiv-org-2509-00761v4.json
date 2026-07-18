@@ -4,10 +4,7 @@
   "name": "L-MARS: Legal Multi-Agent System with Agentic Search and Citation-Faithfulness Audit",
   "summary": "arXiv:2509.00761v4 Announce Type: replace Abstract: Large language models are increasingly deployed for legal question answering, where evaluations typically focus on multiple-choice accuracy. This...",
   "description": "arXiv:2509.00761v4 Announce Type: replace Abstract: Large language models are increasingly deployed for legal question answering, where evaluations typically focus on multiple-choice accuracy. This measure overlooks a common failure: whether the citation source attached to an answer exists and supports the rule the system attributes to it. We present L-MARS, an open multi-agent legal QA system...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

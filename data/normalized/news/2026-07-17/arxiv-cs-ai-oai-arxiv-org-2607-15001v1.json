@@ -4,10 +4,7 @@
   "name": "LQCDMaster: Agentic Scientific Computing for Lattice Quantum Chromodynamics Research",
   "summary": "arXiv:2607.15001v1 Announce Type: cross Abstract: Lattice quantum chromodynamics (LQCD) provides a first-principles framework for computing hadronic observables, but its practical use remains limit...",
   "description": "arXiv:2607.15001v1 Announce Type: cross Abstract: Lattice quantum chromodynamics (LQCD) provides a first-principles framework for computing hadronic observables, but its practical use remains limited by the substantial expertise required to turn research motivation into reliable computing workflows. Here we present \\textsc{LQCDMaster}, a tool-augmented, skill-guided and domain-specialized scien...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "VideoSEMA: a scalable and efficient Mamba-like attention for video understanding",
   "summary": "arXiv:2607.14711v1 Announce Type: cross Abstract: We present for video understanding (classification) a split space-time attention model, VideoSEMA, consisting of a scalable and efficient Mamba-lik...",
   "description": "arXiv:2607.14711v1 Announce Type: cross Abstract: We present for video understanding (classification) a split space-time attention model, VideoSEMA, consisting of a scalable and efficient Mamba-like attention (SEMA) block in space and a softmax temporal attention in time. In each frame, SEMA attention applies a local window attention in parallel with a global averaging in a Mamba macro-architec...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

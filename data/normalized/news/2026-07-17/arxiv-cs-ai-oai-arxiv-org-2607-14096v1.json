@@ -4,10 +4,7 @@
   "name": "IMEX Interaction-Based Model Explanation",
   "summary": "arXiv:2607.14096v1 Announce Type: new Abstract: In predictive modeling, the ability to explain why a model produces a given target prediction has become increasingly important [5, 10]. Black-box mo...",
   "description": "arXiv:2607.14096v1 Announce Type: new Abstract: In predictive modeling, the ability to explain why a model produces a given target prediction has become increasingly important [5, 10]. Black-box models do not provide a transparent description of the internal mechanisms that generate the prediction, making even accurate predictions difficult to interpret and validate. In critical contexts, predi...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

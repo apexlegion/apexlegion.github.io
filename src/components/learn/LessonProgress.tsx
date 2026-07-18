@@ -43,9 +43,7 @@ export function LessonDone({ slug }: { slug: string }) {
 
   const toggle = () => {
     const current = readDone();
-    const next = current.includes(slug)
-      ? current.filter((s) => s !== slug)
-      : [...current, slug];
+    const next = current.includes(slug) ? current.filter((s) => s !== slug) : [...current, slug];
     writeDone(next);
     setDone(next.includes(slug));
   };

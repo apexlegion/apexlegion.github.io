@@ -4,10 +4,7 @@
   "name": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
   "summary": "Recent advances in Tool-Integrated Large Language Models have made web search a core capability of information-seeking agents. However, as interaction histories grow, agents increasingly struggle t...",
   "description": "Recent advances in Tool-Integrated Large Language Models have made web search a core capability of information-seeking agents. However, as interaction histories grow, agents increasingly struggle to track task progress. When search attempts fail to yield useful evidence, current single- and multi-agent systems can become trapped in repetitive loops, wasting search budgets and ultimately compromising the quality and completeness of the final output. We introduce SearchOS, a system-level multi-agent framework that turns fragile, implicit search progress into explicit, persistent, and shared s...",
-  "tags": [
-    "arxiv",
-    "cs.AI"
-  ],
+  "tags": ["arxiv", "cs.AI"],
   "externalLinks": [
     {
       "label": "arXiv abstract",

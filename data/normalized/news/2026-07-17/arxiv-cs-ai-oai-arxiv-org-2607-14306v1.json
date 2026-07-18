@@ -4,10 +4,7 @@
   "name": "Tracing LLM Behavior to the Training Data with Empirical Next-Token Distributions",
   "summary": "arXiv:2607.14306v1 Announce Type: new Abstract: In this paper, we study the connection between an LLM's output distribution and the data used to train it. Specifically, we study the degree to which...",
   "description": "arXiv:2607.14306v1 Announce Type: new Abstract: In this paper, we study the connection between an LLM's output distribution and the data used to train it. Specifically, we study the degree to which an LLM's next-token distribution agrees with the empirical next-token distribution (ENTD) given the context in the training data. The ENTD is an appealing target because it is the unrestricted global...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

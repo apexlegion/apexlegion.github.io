@@ -4,10 +4,7 @@
   "name": "AutoSynthesis: An agentic system for automated meta-analysis",
   "summary": "arXiv:2607.15247v1 Announce Type: new Abstract: Evidence synthesis is crucial for turning primary research into reliable knowledge for science, medicine, education, and policy. Yet, quantitative ev...",
   "description": "arXiv:2607.15247v1 Announce Type: new Abstract: Evidence synthesis is crucial for turning primary research into reliable knowledge for science, medicine, education, and policy. Yet, quantitative evidence synthesis remains largely manual and difficult to scale. Here, we introduce AutoSynthesis, an end-to-end multi-agent system for automated meta-analysis. Given a research question in natural lan...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

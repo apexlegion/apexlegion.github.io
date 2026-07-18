@@ -4,10 +4,7 @@
   "name": "SmartRAG: Native Graph-Based RAG for Mobile Device",
   "summary": "arXiv:2607.14661v1 Announce Type: new Abstract: Deploying large language models (LLMs) as personal assistants on mobile devices demands privacy, low latency, and offline availability, yet the compu...",
   "description": "arXiv:2607.14661v1 Announce Type: new Abstract: Deploying large language models (LLMs) as personal assistants on mobile devices demands privacy, low latency, and offline availability, yet the computational cost of giant models clashes with strict edge-hardware budgets. We argue that this tension cannot be resolved by model compression alone; it requires decomposing on-device intelligence into c...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

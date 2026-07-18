@@ -4,10 +4,7 @@
   "name": "A Comparative Analysis of Machine Learning Models for Long and Short-Term Forecasting of the Egyptian Stock Market: A Focus on EGX30",
   "summary": "arXiv:2607.14391v1 Announce Type: new Abstract: This study concentrates on predicting stock prices in the Egyptian market, focusing on the EGX30, an influential financial hub in the Middle East. Wh...",
   "description": "arXiv:2607.14391v1 Announce Type: new Abstract: This study concentrates on predicting stock prices in the Egyptian market, focusing on the EGX30, an influential financial hub in the Middle East. While most research focuses on global stocks, there's a growing need to understand stock trends in developing countries like Egypt. The study compares different machine learning models for forecasting E...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

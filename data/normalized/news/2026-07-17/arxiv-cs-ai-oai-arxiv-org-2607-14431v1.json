@@ -4,10 +4,7 @@
   "name": "Smarter and Cheaper at Once: Byte-Exact KV-Cache Grafting Turns a Frozen Small Model into a Verified-Knowledge Flywheel",
   "summary": "arXiv:2607.14431v1 Announce Type: cross Abstract: We report a way to make a frozen small language model both more capable and dramatically cheaper at once, without changing any weights. Verified kn...",
   "description": "arXiv:2607.14431v1 Announce Type: cross Abstract: We report a way to make a frozen small language model both more capable and dramatically cheaper at once, without changing any weights. Verified knowledge is deposited once as a byte-exact key-value (KV) state artifact and later restored, by graft, into a fresh inference context. The restore is bit-exact: under a pinned deterministic configurati...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

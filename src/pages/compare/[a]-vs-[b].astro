@@ -107,7 +107,9 @@ const description = `Side-by-side comparison of ${entityA.name} and ${entityB.na
         >
           View {entityB.name} →
         </Button>
-        <Button as="a" href={withBase('/compare')} variant="muted" size="sm"> Pick a different pair </Button>
+        <Button as="a" href={withBase('/compare')} variant="muted" size="sm">
+          Pick a different pair
+        </Button>
       </div>
       <p class="text-text-subtle text-tiny font-mono">/compare/{canonicalSlug}</p>
     </header>

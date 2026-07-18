@@ -4,10 +4,7 @@
   "name": "Scaling Behavior Foundation Model for Humanoid Robots",
   "summary": "arXiv:2607.15163v1 Announce Type: cross Abstract: Humanoid control requires natural whole-body coordination, precise real-time responses to control signals, and robust generalization across diverse...",
   "description": "arXiv:2607.15163v1 Announce Type: cross Abstract: Humanoid control requires natural whole-body coordination, precise real-time responses to control signals, and robust generalization across diverse environmental contexts, making it a cornerstone for generalist embodied agents. Behavior Foundation Models (BFMs) have recently emerged as a promising solution to address these challenges by leveragi...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

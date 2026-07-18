@@ -4,10 +4,7 @@
   "name": "CluCERT: Certifying LLM Robustness via Clustering-Guided Denoising Smoothing",
   "summary": "arXiv:2512.08967v2 Announce Type: replace-cross Abstract: Recent advancements in Large Language Models (LLMs) have led to their widespread adoption in daily applications. Despite their impressive c...",
   "description": "arXiv:2512.08967v2 Announce Type: replace-cross Abstract: Recent advancements in Large Language Models (LLMs) have led to their widespread adoption in daily applications. Despite their impressive capabilities, they remain vulnerable to adversarial attacks, as even minor meaning-preserving changes such as synonym substitutions can lead to incorrect predictions. As a result, certifying the robust...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

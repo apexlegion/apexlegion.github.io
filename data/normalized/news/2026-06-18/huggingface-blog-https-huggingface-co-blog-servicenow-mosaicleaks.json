@@ -4,10 +4,7 @@
   "name": "MosaicLeaks: Can your research agent keep a secret?",
   "summary": "MosaicLeaks: Can your research agent keep a secret?",
   "description": "MosaicLeaks: Can your research agent keep a secret?",
-  "tags": [
-    "news",
-    "huggingface-blog"
-  ],
+  "tags": ["news", "huggingface-blog"],
   "externalLinks": [
     {
       "label": "Hugging Face Blog",

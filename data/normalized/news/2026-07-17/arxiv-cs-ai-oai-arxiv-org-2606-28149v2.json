@@ -4,10 +4,7 @@
   "name": "Toward Robust In-Context Segmentation via Concept Guidance",
   "summary": "arXiv:2606.28149v2 Announce Type: replace-cross Abstract: In-context segmentation (ICS) requires a model to segment target regions in a query image using only a few reference images and their corre...",
   "description": "arXiv:2606.28149v2 Announce Type: replace-cross Abstract: In-context segmentation (ICS) requires a model to segment target regions in a query image using only a few reference images and their corresponding masks, without updating any parameters. Despite recent progress, prior ICS studies have largely overlooked a critical aspect: system robustness, ie, whether the model can produce stable segme...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

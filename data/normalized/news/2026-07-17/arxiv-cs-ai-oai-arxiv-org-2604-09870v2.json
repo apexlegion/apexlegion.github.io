@@ -4,10 +4,7 @@
   "name": "Relational Preference Encoding in Looped Transformer Internal States",
   "summary": "arXiv:2604.09870v2 Announce Type: replace-cross Abstract: We investigate how looped transformers encode human preference, training lightweight evaluator heads on frozen Ouro-2.6B loop-iteration sta...",
   "description": "arXiv:2604.09870v2 Announce Type: replace-cross Abstract: We investigate how looped transformers encode human preference, training lightweight evaluator heads on frozen Ouro-2.6B loop-iteration states on Anthropic HH-RLHF. v2: an erratum is prepended; the original manuscript is unchanged. A post-publication audit found the three headline results inflated by two independent evaluation errors. Th...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

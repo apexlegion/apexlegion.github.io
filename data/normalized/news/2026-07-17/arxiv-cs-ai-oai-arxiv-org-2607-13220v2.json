@@ -4,10 +4,7 @@
   "name": "Networked Intelligence: Active Shared Context Graphs for Human-AI Team Science",
   "summary": "arXiv:2607.13220v2 Announce Type: replace Abstract: Most AI-for-science systems focus on scaling a single reasoning process by using better models, larger context windows, long-horizon agentic exec...",
   "description": "arXiv:2607.13220v2 Announce Type: replace Abstract: Most AI-for-science systems focus on scaling a single reasoning process by using better models, larger context windows, long-horizon agentic execution, or digital co-scientists working with one principal user. However, challenging scientific problems are rarely solved by one reasoner alone. They are solved by teams whose members carry differen...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

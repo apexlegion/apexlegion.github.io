@@ -4,10 +4,7 @@
   "name": "Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems",
   "summary": "arXiv:2607.14611v1 Announce Type: cross Abstract: A growing class of agentic systems maintain persistent state across sessions through memory files, behavioral preferences, and knowledge bases. Whi...",
   "description": "arXiv:2607.14611v1 Announce Type: cross Abstract: A growing class of agentic systems maintain persistent state across sessions through memory files, behavioral preferences, and knowledge bases. While this makes agents more useful and self-improving, it also creates a new attack surface for prompt injections in which malicious instructions can be embedded within persistent files and influence fu...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

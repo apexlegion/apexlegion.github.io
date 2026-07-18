@@ -4,10 +4,7 @@
   "name": "Falsifiable Release Gates for Self-Improving Systems",
   "summary": "arXiv:2607.13070v1 Announce Type: cross Abstract: Safety claims on self-improving agent runtimes are almost always self-graded: a policy file, a guardrail, or a README commitment. We describe falsi...",
   "description": "arXiv:2607.13070v1 Announce Type: cross Abstract: Safety claims on self-improving agent runtimes are almost always self-graded: a policy file, a guardrail, or a README commitment. We describe falsifiable release gates, and a methodology to build and validate such systems, such that every new capability must pass a pre-specified, machine-verifiable acceptance suite before it ships, and a fixed s...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

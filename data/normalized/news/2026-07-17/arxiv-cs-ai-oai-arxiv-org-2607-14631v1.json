@@ -4,10 +4,7 @@
   "name": "Knowing You at First Glance: Inferring Apparent Personality from Faces",
   "summary": "arXiv:2607.14631v1 Announce Type: cross Abstract: Inferring apparent personality from facial images is important in social scenarios for embodied agents in human-robot interaction. Unlike inferring...",
   "description": "arXiv:2607.14631v1 Announce Type: cross Abstract: Inferring apparent personality from facial images is important in social scenarios for embodied agents in human-robot interaction. Unlike inferring intrinsic personality traits via conversation, this task models first-impression personality perception based solely on facial appearance before interaction begins. Existing studies mainly focus on t...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

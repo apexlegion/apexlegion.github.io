@@ -4,10 +4,7 @@
   "name": "Instrument Effects in Language-Model Honesty Evaluation: An Auditable Single-System Demonstration",
   "summary": "arXiv:2607.14399v1 Announce Type: new Abstract: Evaluations of language-model honesty read the model's verdicts as evidence about the model. We test the instrument instead. We built a text-adventur...",
   "description": "arXiv:2607.14399v1 Announce Type: new Abstract: Evaluations of language-model honesty read the model's verdicts as evidence about the model. We test the instrument instead. We built a text-adventure world where the game engine, not any model, knows whether the quest can be completed. A language model plays under a budget and must eventually declare its quest complete, unreachable, or not yet de...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Traccia: An OpenTelemetry-Based Governance Platform for AI Systems",
   "summary": "arXiv:2607.14309v1 Announce Type: new Abstract: The rapid development of Large Language Models (LLMs) and Artificial Intelligent (AI) powered autonomous agents has fundamentally changed the existin...",
   "description": "arXiv:2607.14309v1 Announce Type: new Abstract: The rapid development of Large Language Models (LLMs) and Artificial Intelligent (AI) powered autonomous agents has fundamentally changed the existing forms of software governance. In spite of the rigorous standards of transparency and account ability required according to the international frameworks such as the European Union's AI Act, there is...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

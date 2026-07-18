@@ -4,10 +4,7 @@
   "name": "Seeing Through Uncertainty: Free-Energy-Inspired Real-Time Adaptation for Robust Visual Navigation",
   "summary": "arXiv:2403.01977v5 Announce Type: replace-cross Abstract: Navigation in the natural world is a feat of adaptive inference, where biological organisms maintain goal-directed behaviour despite noisy...",
   "description": "arXiv:2403.01977v5 Announce Type: replace-cross Abstract: Navigation in the natural world is a feat of adaptive inference, where biological organisms maintain goal-directed behaviour despite noisy and incomplete sensory streams. Central to this ability is the Free Energy Principle (FEP), which posits that perception is a generative process where the brain minimises Variational Free Energy (VFE)...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

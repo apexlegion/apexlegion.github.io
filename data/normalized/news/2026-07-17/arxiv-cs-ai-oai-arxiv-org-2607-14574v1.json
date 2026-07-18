@@ -4,10 +4,7 @@
   "name": "Collaborative Spatial Learning with Multi-LLM Agents in Networked Social Experiments",
   "summary": "arXiv:2607.14574v1 Announce Type: new Abstract: Collective problem solving often requires that group members consider the tradeoff between exploitation of known solutions and exploration for new on...",
   "description": "arXiv:2607.14574v1 Announce Type: new Abstract: Collective problem solving often requires that group members consider the tradeoff between exploitation of known solutions and exploration for new ones, where information of known solutions can be disseminated among individual members through communication networks. The Mason--Watts experiment (PNAS 2012) showed that human groups in shorter-path n...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

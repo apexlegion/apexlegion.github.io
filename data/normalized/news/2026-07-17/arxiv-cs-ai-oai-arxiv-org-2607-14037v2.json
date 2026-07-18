@@ -4,10 +4,7 @@
   "name": "Early Adoption of Agentic Coding Tools by GitHub Projects",
   "summary": "arXiv:2607.14037v2 Announce Type: replace-cross Abstract: Agentic coding tools are increasingly capable of generating and submitting pull requests (PRs) to software projects, introducing new forms...",
   "description": "arXiv:2607.14037v2 Announce Type: replace-cross Abstract: Agentic coding tools are increasingly capable of generating and submitting pull requests (PRs) to software projects, introducing new forms of human-agent collaboration in software development. While prior studies have examined PR-level outcomes of agent-generated contributions, less is known about how agentic coding tools are adopted and...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Pipette: An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics",
   "summary": "arXiv:2606.12936v3 Announce Type: replace-cross Abstract: Wet-lab robots can improve the reproducibility, throughput, and safety of biomedical experiments, but scaling their learning requires custo...",
   "description": "arXiv:2606.12936v3 Announce Type: replace-cross Abstract: Wet-lab robots can improve the reproducibility, throughput, and safety of biomedical experiments, but scaling their learning requires customizable simulators for safe and reproducible task generation, open editable laboratory assets, and efficient pipelines that turn limited demonstrations into usable training data. We present Pipette, a...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

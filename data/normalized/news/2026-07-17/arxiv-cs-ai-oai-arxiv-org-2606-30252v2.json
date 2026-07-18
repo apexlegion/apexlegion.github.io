@@ -4,10 +4,7 @@
   "name": "Inoculation Adapters: Improved Selective Generalization of Capabilities with Fewer Surprising Backdoors",
   "summary": "arXiv:2606.30252v2 Announce Type: replace Abstract: Inoculation prompting is a selective-generalization technique used against Emergent Misalignment. We introduce inoculation adapters (IA), a famil...",
   "description": "arXiv:2606.30252v2 Announce Type: replace Abstract: Inoculation prompting is a selective-generalization technique used against Emergent Misalignment. We introduce inoculation adapters (IA), a family of methods that similarly reduce the optimization pressure to learn undesired traits by strengthening those traits during training. Inoculation adapters are LoRAs that are trained and used in three...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

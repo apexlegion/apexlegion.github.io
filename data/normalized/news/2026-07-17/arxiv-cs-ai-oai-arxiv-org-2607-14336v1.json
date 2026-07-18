@@ -4,10 +4,7 @@
   "name": "Copy-on-Write Scoring: Application-Specific Agent Evaluations",
   "summary": "arXiv:2607.14336v1 Announce Type: cross Abstract: Trustworthy deployment of LLM-based agents in software systems requires evaluating how they perform on application-specific workflows, with enough...",
   "description": "arXiv:2607.14336v1 Announce Type: cross Abstract: Trustworthy deployment of LLM-based agents in software systems requires evaluating how they perform on application-specific workflows, with enough granularity to localize where they succeed and fail. Yet existing agent evaluation mechanisms are limited: benchmarks have low construct validity for application-specific workflows and environments, a...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Innocuous-Seeming Data, Latent Ideology: Ideological Generalisation in Finetuned LLMs",
   "summary": "arXiv:2607.14888v1 Announce Type: cross Abstract: Finetuning language models on small, curated datasets is standard practice for adapting them to specific policies or domains. We show that finetuni...",
   "description": "arXiv:2607.14888v1 Announce Type: cross Abstract: Finetuning language models on small, curated datasets is standard practice for adapting them to specific policies or domains. We show that finetuning on narrow, factually-defensible, moderation-passing data can cause broad ideological shifts across unrelated domains, while preserving general capabilities. Training GPT-4.1 on right- or left-leani...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

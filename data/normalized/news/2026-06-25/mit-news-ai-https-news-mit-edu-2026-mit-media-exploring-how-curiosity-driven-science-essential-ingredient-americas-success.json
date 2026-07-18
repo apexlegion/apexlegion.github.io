@@ -4,10 +4,7 @@
   "name": "MIT in the media: Exploring how curiosity-driven science is an essential ingredient in America’s success",
   "summary": "“Scientific American” showcases the history and future of America’s scientific engine, highlighting promising young scientists and icons at MIT and beyond.",
   "description": "“Scientific American” showcases the history and future of America’s scientific engine, highlighting promising young scientists and icons at MIT and beyond.",
-  "tags": [
-    "news",
-    "mit-news-ai"
-  ],
+  "tags": ["news", "mit-news-ai"],
   "externalLinks": [
     {
       "label": "MIT News",

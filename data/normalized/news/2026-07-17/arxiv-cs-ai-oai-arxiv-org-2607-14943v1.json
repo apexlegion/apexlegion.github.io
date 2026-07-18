@@ -4,10 +4,7 @@
   "name": "Steering Robustness into World Action Models via Mechanistic Interpretability and Optimal Control",
   "summary": "arXiv:2607.14943v1 Announce Type: cross Abstract: World Action Models (WAMs) enable semantically- and physically-informed control but are brittle under distribution shift. In this work, we use mech...",
   "description": "arXiv:2607.14943v1 Announce Type: cross Abstract: World Action Models (WAMs) enable semantically- and physically-informed control but are brittle under distribution shift. In this work, we use mechanistic interpretability to study how robustness-relevant perturbations are represented in WAM activation space. Comparing activations across successful and unsuccessful rollouts, we find some WAM arc...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Neuro-Symbolic Strong-AI Robots with Closed Knowledge Assumption: Learning and Deductions",
   "summary": "arXiv:2604.09567v2 Announce Type: replace-cross Abstract: Knowledge representation formalisms are aimed to represent general conceptual information and are typically used in the construction of the...",
   "description": "arXiv:2604.09567v2 Announce Type: replace-cross Abstract: Knowledge representation formalisms are aimed to represent general conceptual information and are typically used in the construction of the knowledge base of reasoning agent. A knowledge base can be thought of as representing the beliefs of such an agent. Like a child, a strong-AI (AGI) robot would have to learn through input and experie...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

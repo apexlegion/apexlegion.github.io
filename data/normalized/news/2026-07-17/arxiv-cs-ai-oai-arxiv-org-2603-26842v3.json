@@ -4,10 +4,7 @@
   "name": "VAN-AD: Visual Masked Autoencoder with Normalizing Flow For Time Series Anomaly Detection",
   "summary": "arXiv:2603.26842v3 Announce Type: replace-cross Abstract: Time series anomaly detection (TSAD) is essential for maintaining the reliability and security of IoT-enabled service systems. Existing met...",
   "description": "arXiv:2603.26842v3 Announce Type: replace-cross Abstract: Time series anomaly detection (TSAD) is essential for maintaining the reliability and security of IoT-enabled service systems. Existing methods require training one specific model for each dataset, which exhibits limited generalization capability across different target datasets, hindering anomaly detection performance in various scenari...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

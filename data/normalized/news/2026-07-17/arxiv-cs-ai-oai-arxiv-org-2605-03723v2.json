@@ -4,10 +4,7 @@
   "name": "Segmenting Human-LLM Co-authored Text via Change Point Detection",
   "summary": "arXiv:2605.03723v2 Announce Type: replace-cross Abstract: The rise of large language models (LLMs) has created an urgent need to distinguish between human-written and LLM-generated text to ensure a...",
   "description": "arXiv:2605.03723v2 Announce Type: replace-cross Abstract: The rise of large language models (LLMs) has created an urgent need to distinguish between human-written and LLM-generated text to ensure authenticity and societal trust. Existing detectors typically provide a binary classification for an entire passage; however, this is insufficient for human--LLM co-authored text, where the objective i...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

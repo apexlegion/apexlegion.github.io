@@ -4,10 +4,7 @@
   "name": "TSHA: A Benchmark for Visual Language Models in Trustworthy Safety Hazard Assessment Scenarios",
   "summary": "arXiv:2603.29759v3 Announce Type: replace-cross Abstract: Recent advances in vision-language models (VLMs) have accelerated their application to indoor safety hazards assessment. However, existing...",
   "description": "arXiv:2603.29759v3 Announce Type: replace-cross Abstract: Recent advances in vision-language models (VLMs) have accelerated their application to indoor safety hazards assessment. However, existing benchmarks suffer from three fundamental limitations: (1) heavy reliance on synthetic datasets constructed via simulation software, creating a significant domain gap with real-world environments; (2)...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

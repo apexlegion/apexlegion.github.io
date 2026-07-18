@@ -4,10 +4,7 @@
   "name": "T^2MLR: Transformer with Temporal Middle-Layer Recurrence",
   "summary": "arXiv:2607.15178v1 Announce Type: cross Abstract: Transformer reasoning is limited by autoregressive decoding, which repeat edly compresses rich hidden computation through token space and makes it...",
   "description": "arXiv:2607.15178v1 Announce Type: cross Abstract: Transformer reasoning is limited by autoregressive decoding, which repeat edly compresses rich hidden computation through token space and makes it difficult for intermediate reasoning states to persist across time. We in troduce Transformers with Temporal Middle-Layer Recurrence (T2MLR), a transformers-based latent reasoning architecture that fu...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

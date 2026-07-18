@@ -4,10 +4,7 @@
   "name": "Just Keep Prompting: Evaluating Repetitive Socratic Prompting in VLMs",
   "summary": "arXiv:2607.14099v1 Announce Type: cross Abstract: Deploying Vision-Language Models (VLMs) in real-world settings requires not only strong visual reasoning but also stability under sustained convers...",
   "description": "arXiv:2607.14099v1 Announce Type: cross Abstract: Deploying Vision-Language Models (VLMs) in real-world settings requires not only strong visual reasoning but also stability under sustained conversational pressure. We introduce Just Keep Prompting (JKP), a multi-turn evaluation framework that measures VLM epistemic stability when users repeatedly challenge, question, or contradict a model's ans...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "SceneBind: Binding What and Where Across Vision, Audio and Language",
   "summary": "arXiv:2607.15265v1 Announce Type: cross Abstract: We present SceneBind, an omni-modal representation of realistic scenes with joint semantic and 3D spatial understanding across vision, audio and la...",
   "description": "arXiv:2607.15265v1 Announce Type: cross Abstract: We present SceneBind, an omni-modal representation of realistic scenes with joint semantic and 3D spatial understanding across vision, audio and language. Existing omni-modal encoders excel at instance-level semantics (i.e., what is present), but often lack explicit spatial structure (i.e., where it is). SceneBind addresses this gap by represent...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Automatic Hard Example Synthesis with Multi-Level Agentic Data Curation",
   "summary": "arXiv:2607.14256v1 Announce Type: new Abstract: Multimodal Large Language Models (MLLMs) are increasingly deployed for nuanced content safety and moderation tasks, yet they remain vulnerable to adv...",
   "description": "arXiv:2607.14256v1 Announce Type: new Abstract: Multimodal Large Language Models (MLLMs) are increasingly deployed for nuanced content safety and moderation tasks, yet they remain vulnerable to adversarial attacks and out-of-distribution edge cases. Traditional active learning and manual annotation fail to scale against the complexity and volume of novel multimodal threats. In this paper, we pr...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

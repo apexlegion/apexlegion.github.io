@@ -4,10 +4,7 @@
   "name": "Using AI-based Learning Assistants in Higher Education: A Large-Scale Descriptive Analysis",
   "summary": "arXiv:2607.08748v2 Announce Type: replace Abstract: In this study, we present a large-scale descriptive analysis of the use of an AI-based learning assistant (Syntea) in higher education. Based on...",
   "description": "arXiv:2607.08748v2 Announce Type: replace Abstract: In this study, we present a large-scale descriptive analysis of the use of an AI-based learning assistant (Syntea) in higher education. Based on objective log data from 77,543 students enrolled in distance studies, we examine usage patterns across gender, age group, study cluster, degree, and study mode. To date, existing research on education...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

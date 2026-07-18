@@ -4,10 +4,7 @@
   "name": "Introspection Fine-Tuning (IFT): Training Small LLMs to Introspect",
   "summary": "arXiv:2607.14111v1 Announce Type: cross Abstract: Can small language models detect and report on perturbations their own internal activations? We investigate this question through the lens of activ...",
   "description": "arXiv:2607.14111v1 Announce Type: cross Abstract: Can small language models detect and report on perturbations their own internal activations? We investigate this question through the lens of activation steering: injecting concept vectors into a model's residual stream and measuring whether the model can accurately report on the perturbation. We first show that the binary detection paradigm use...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

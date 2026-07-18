@@ -139,7 +139,9 @@ function entityToNode(entity: Entity): GraphNode {
     type: entity.type,
     name: entity.name,
     slug: entity.slug,
-    href: withBase(`/${entity.type === 'tutorial' ? 'tutorials' : `${entity.type}s`}/${entity.slug}`),
+    href: withBase(
+      `/${entity.type === 'tutorial' ? 'tutorials' : `${entity.type}s`}/${entity.slug}`,
+    ),
     summary: entity.summary,
   };
 }

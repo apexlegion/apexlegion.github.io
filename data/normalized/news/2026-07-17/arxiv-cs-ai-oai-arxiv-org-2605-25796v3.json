@@ -4,10 +4,7 @@
   "name": "SAMark: A Self-Anchored Text Watermarking with Paragraph-Level Paraphrase Robustness",
   "summary": "arXiv:2605.25796v3 Announce Type: replace-cross Abstract: Semantic-level watermarking (SWM) improves robustness against text modifications by treating sentences as the basic unit. However, robustne...",
   "description": "arXiv:2605.25796v3 Announce Type: replace-cross Abstract: Semantic-level watermarking (SWM) improves robustness against text modifications by treating sentences as the basic unit. However, robustness to paragraph-level paraphrasing remains difficult because such attacks globally disrupt watermark signals by changing sentence order. In this work, we propose SAMark, a self-anchored watermarking f...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

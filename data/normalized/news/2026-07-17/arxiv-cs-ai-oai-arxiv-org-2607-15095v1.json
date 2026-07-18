@@ -4,10 +4,7 @@
   "name": "Digital Pantheon: Simulating and Auditing Coalition Formation with LLM Agents",
   "summary": "arXiv:2607.15095v1 Announce Type: cross Abstract: The formation of political coalitions is a complex negotiation driven by both concrete policy objectives and deep-seated ideological convictions. W...",
   "description": "arXiv:2607.15095v1 Announce Type: cross Abstract: The formation of political coalitions is a complex negotiation driven by both concrete policy objectives and deep-seated ideological convictions. While Large Language Models (LLMs) open new avenues for computational political science, the neutrality and helpfulness biases instilled by Reinforcement Learning from Human Feedback (RLHF) prevent the...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

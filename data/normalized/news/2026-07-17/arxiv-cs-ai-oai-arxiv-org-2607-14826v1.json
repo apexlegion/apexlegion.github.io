@@ -4,10 +4,7 @@
   "name": "Interventional Causal Circuits for Safe Robot Action Testing and Failure Recovery",
   "summary": "arXiv:2607.14826v1 Announce Type: cross Abstract: Safe physical AI for robot actions are required not only likely to succeed but tested to be safe before execution. In practice, however, formal tes...",
   "description": "arXiv:2607.14826v1 Announce Type: cross Abstract: Safe physical AI for robot actions are required not only likely to succeed but tested to be safe before execution. In practice, however, formal testing of motion parameters is computationally expensive, and the cost scales poorly with the dimensionality of the action space. When a proposed action is rejected by a tester, the naive response is to...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

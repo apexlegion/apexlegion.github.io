@@ -4,7 +4,7 @@
 
 AI Atlas must serve people who don't know AI at all — not just define terms.
 Rebuild `/learn` as a 3-track, task-first academy where visitors pick their
-level and *do* things with free AI tools, learning terminology in context.
+level and _do_ things with free AI tools, learning terminology in context.
 
 ## Tracks
 

@@ -4,10 +4,7 @@
   "name": "Can We Steer the Black-Box? Towards Controllability-Centric Evaluation of Recommender Systems with Collaborative Agents",
   "summary": "arXiv:2607.13418v2 Announce Type: replace-cross Abstract: Recommender systems operate as Black-Boxes, leaving users and regulators unable to steer their outputs toward specific intentions or audit...",
   "description": "arXiv:2607.13418v2 Announce Type: replace-cross Abstract: Recommender systems operate as Black-Boxes, leaving users and regulators unable to steer their outputs toward specific intentions or audit their behavior. This lack of controllability, defined as the system's ability to respond to explicit guidance, remains an unaddressed dimension in existing evaluation paradigms. To fill this gap, we p...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",

@@ -4,10 +4,7 @@
   "name": "Beyond Entropy: Correctness-Aware Advantage Shaping via Contrastive Policy Optimization",
   "summary": "arXiv:2607.14614v1 Announce Type: cross Abstract: Reinforcement learning with verifiable rewards (RLVR) commonly uses entropy for advantage shaping. However, entropy cannot distinguish useful uncer...",
   "description": "arXiv:2607.14614v1 Announce Type: cross Abstract: Reinforcement learning with verifiable rewards (RLVR) commonly uses entropy for advantage shaping. However, entropy cannot distinguish useful uncertainty from detrimental confusion, limiting its effectiveness as a correctness signal. We propose Contrastive Policy Optimization (CPO), which uses token-level contrastive disagreement between referen...",
-  "tags": [
-    "news",
-    "arxiv-cs-ai"
-  ],
+  "tags": ["news", "arxiv-cs-ai"],
   "externalLinks": [
     {
       "label": "arXiv cs.AI",
