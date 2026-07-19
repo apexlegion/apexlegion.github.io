@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/graphcore",
-  "fetchedAt": "2026-07-18T04:54:45.381Z",
+  "fetchedAt": "2026-07-19T05:30:09.545Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/graphcore",
     "title": "Hugging Face and Graphcore partner for IPU-optimized Transformers",

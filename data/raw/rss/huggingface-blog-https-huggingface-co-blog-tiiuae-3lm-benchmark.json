@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/tiiuae/3lm-benchmark",
-  "fetchedAt": "2026-07-18T04:54:45.378Z",
+  "fetchedAt": "2026-07-19T05:30:09.545Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/tiiuae/3lm-benchmark",
     "title": "📚 3LM: A Benchmark for Arabic LLMs in STEM and Code",

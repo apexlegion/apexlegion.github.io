@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/sql-console",
-  "fetchedAt": "2026-07-18T04:54:45.378Z",
+  "fetchedAt": "2026-07-19T05:30:09.545Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/sql-console",
     "title": "Introducing the SQL Console on Datasets",

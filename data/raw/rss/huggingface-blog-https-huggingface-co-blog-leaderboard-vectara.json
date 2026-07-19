@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/leaderboard-vectara",
-  "fetchedAt": "2026-07-18T04:54:45.378Z",
+  "fetchedAt": "2026-07-19T05:30:09.545Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/leaderboard-vectara",
     "title": "A guide to setting up your own Hugging Face leaderboard: an end-to-end example with Vectara&apos;s hallucination leaderboard",

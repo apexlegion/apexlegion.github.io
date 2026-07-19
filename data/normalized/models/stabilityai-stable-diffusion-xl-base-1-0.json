@@ -41,6 +41,7 @@
     }
   ],
   "modality": "Image",
+  "parameters": "2.6B",
   "publishedBy": "Stabilityai",
   "license": "openrail++"
 }

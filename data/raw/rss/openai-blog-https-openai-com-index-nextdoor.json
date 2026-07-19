@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "openai-blog:https://openai.com/index/nextdoor",
-  "fetchedAt": "2026-07-18T04:54:45.252Z",
+  "fetchedAt": "2026-07-19T05:30:09.476Z",
   "data": {
     "guid": "openai-blog:https://openai.com/index/nextdoor",
     "title": "How engineers at Nextdoor use Codex to build without limits",

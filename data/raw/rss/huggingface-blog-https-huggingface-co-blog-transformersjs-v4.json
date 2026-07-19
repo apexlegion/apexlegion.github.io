@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/transformersjs-v4",
-  "fetchedAt": "2026-07-18T04:54:45.377Z",
+  "fetchedAt": "2026-07-19T05:30:09.545Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/transformersjs-v4",
     "title": "Transformers.js v4: Now Available on NPM!",

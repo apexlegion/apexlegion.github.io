@@ -1,7 +1,7 @@
 {
   "source": "huggingface",
   "sourceId": "openai/whisper-large-v3",
-  "fetchedAt": "2026-07-18T04:54:42.959Z",
+  "fetchedAt": "2026-07-19T05:30:05.692Z",
   "data": {
     "_id": "654a84cadff2f49007ce6c37",
     "id": "openai/whisper-large-v3",
@@ -123,8 +123,8 @@
       "deploy:azure",
       "region:us"
     ],
-    "downloads": 5939035,
-    "likes": 5954,
+    "downloads": 5926854,
+    "likes": 5959,
     "modelId": "openai/whisper-large-v3",
     "author": "openai",
     "sha": "06f233fe06e710322aca913c1bc4249a0d71fce1",
@@ -351,8 +351,8 @@
       "BSC-LT/CATALAN-ASR-ARENA",
       "treble-technologies/ffasr",
       "Quran-Lab/quranic-asr-leaderboard",
-      "Yash030/claude-code-proxy",
       "aliyaasif/Audio-Video-To-Text",
+      "AEUPH/apex-herd-launchpad",
       "hf-audio/whisper-large-v3",
       "artificialguybr/Video-Transcription-Smart-Summary",
       "artificialguybr/video-dubbing",
@@ -434,6 +434,7 @@
       "ganga4364/stt-tibetan",
       "ghourmetto/openai-whisper-large-v3",
       "Speedofmastery/orynxml-backend",
+      "Yash030/claude-code-proxy",
       "TogetherAI/whisper-large-v3",
       "reponislam/openai-whisper-large-v3",
       "Taranosaurus/Tokenizaminer",
@@ -443,8 +444,7 @@
       "haoxiong693/openai-whisper-large-v3",
       "SahilJ2/VQA_Model",
       "maroonvillager/openai-whisper-large-v3",
-      "Upgradojha/whisper",
-      "newbietk/openai-whisper-large-v3"
+      "Upgradojha/whisper"
     ],
     "createdAt": "2023-11-07T18:41:14.000Z",
     "safetensors": {

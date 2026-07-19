@@ -1,7 +1,7 @@
 {
   "source": "huggingface",
   "sourceId": "stabilityai/stable-diffusion-xl-base-1.0",
-  "fetchedAt": "2026-07-18T04:54:42.706Z",
+  "fetchedAt": "2026-07-19T05:30:05.481Z",
   "data": {
     "_id": "64bfcd5ff462a99a04fd1ec8",
     "id": "stabilityai/stable-diffusion-xl-base-1.0",
@@ -24,8 +24,8 @@
       "deploy:azure",
       "region:us"
     ],
-    "downloads": 1425161,
-    "likes": 7949,
+    "downloads": 1410428,
+    "likes": 7954,
     "modelId": "stabilityai/stable-diffusion-xl-base-1.0",
     "author": "stabilityai",
     "sha": "462165984030d82259a11f4367a4eed129e94a7b",
@@ -222,18 +222,17 @@
       "shootstuff/flux-img2img-uncensored",
       "RioShiina/ImageGen",
       "BoobyBoobs/Flux_Lustly_AI_Uncensored_NSFW_V1",
+      "yisol/IDM-VTON",
       "tencent/Hunyuan3D-2mv",
       "r3gm/DiffuseCraft",
       "samikshachavan/ai-virtual-tryon",
       "Tinchote/ImageGen",
-      "InstantX/InstantID",
-      "yisol/IDM-VTON",
+      "yanze/PuLID",
       "InstantX/InstantStyle",
       "fffiloni/InstantIR",
       "jallenjia/Change-Clothes-AI",
       "frogleo/Image-to-3D",
       "John6666/DiffuseCraftMod",
-      "VAST-AI/MV-Adapter-Img2Texture",
       "frogleo/AI-Clothes-Changer",
       "ccchenzc/AttentionDistillation",
       "Mayara3167/NewNSFWSpaceMultiModelGen",
@@ -241,15 +240,16 @@
       "frogleo/Image-to-3D-2",
       "mediasynthesismuseum/stable-diffusion-xl-base-1.0",
       "Moebius-pizza/Serverless-ImgGen-Hub",
+      "primerz/face-to-pixel-art-4K",
       "sanetium/img_test",
       "hugging-apps/lip-forcing",
+      "InstantX/InstantID",
       "yanze/PuLID-FLUX",
       "VAST-AI/TripoSG",
       "lllyasviel/Omost",
       "radames/Real-Time-Latent-Consistency-Model",
       "YupengZhou/StoryDiffusion",
       "radames/Real-Time-Text-to-Image-SDXL-Lightning",
-      "yanze/PuLID",
       "diffusers/stable-diffusion-xl-inpainting",
       "AP123/SDXL-Lightning",
       "okaris/omni-zero",
@@ -292,6 +292,7 @@
       "ymzhang319/FoleyCrafter",
       "turboedit/turbo_edit",
       "xingpng/CSGO",
+      "VAST-AI/MV-Adapter-Img2Texture",
       "multimodalart/perturbed-attention-guidance-sdxl",
       "exx8/differential-diffusion",
       "multimodalart/lora-roulette",
@@ -317,10 +318,15 @@
       "linoyts/scribble-sdxl",
       "multimodalart/Boogu-Image",
       "TIGER-Lab/AnyV2V",
-      "tight-inversion/tight-inversion",
-      "clinteroni/outpainting-with-differential-diffusion-demo"
+      "tight-inversion/tight-inversion"
     ],
     "createdAt": "2023-07-25T13:25:51.000Z",
+    "safetensors": {
+      "parameters": {
+        "F32": 2567463684
+      },
+      "total": 2567463684
+    },
     "inference": "warm",
     "usedStorage": 77369456618
   }

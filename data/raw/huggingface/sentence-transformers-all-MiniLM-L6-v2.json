@@ -1,7 +1,7 @@
 {
   "source": "huggingface",
   "sourceId": "sentence-transformers/all-MiniLM-L6-v2",
-  "fetchedAt": "2026-07-18T04:54:43.208Z",
+  "fetchedAt": "2026-07-19T05:30:05.939Z",
   "data": {
     "_id": "621ffdc136468d709f180294",
     "id": "sentence-transformers/all-MiniLM-L6-v2",
@@ -56,8 +56,8 @@
       "deploy:azure",
       "region:us"
     ],
-    "downloads": 253221637,
-    "likes": 5079,
+    "downloads": 253402320,
+    "likes": 5087,
     "modelId": "sentence-transformers/all-MiniLM-L6-v2",
     "author": "sentence-transformers",
     "sha": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
@@ -227,11 +227,12 @@
     "spaces": [
       "mteb/leaderboard",
       "hakari-bench/leaderboard",
+      "bench-labs/BenchLabs-Leaderboard",
       "krishna-cc/health_doc",
       "Ahmed167/research_assistant",
       "grateful790/rai-chatbot",
+      "Poorv01/career_conversations2",
       "hapda12/GAIA",
-      "GopalJee2745/email-security-ai",
       "ahmedgaiter303/ai-rag-chatbot-backend",
       "hcs0/career_conversation",
       "UmairLari/ai-financial-advisor-backend",
@@ -239,6 +240,7 @@
       "Fatih342/Find-Your-Perfume",
       "devaanand/ccr-platform",
       "malaika871/NexusAI",
+      "hugging-apps/shelld-text-to-image",
       "cvachet/pdf-chatbot",
       "marcosv/InstructIR",
       "JournalistsonHF/ai-scraper",
@@ -322,9 +324,7 @@
       "OuroborosM/STLA-BABY",
       "KrishnaKumar23/documentQABot",
       "CyranoB/search_agent",
-      "Gololias/MetroCuadrado",
-      "ABBNikit/Nikit_PDF_Chatbot",
-      "captain-awesome/Docuverse-zephyr-beta"
+      "Gololias/MetroCuadrado"
     ],
     "createdAt": "2022-03-02T23:29:05.000Z",
     "safetensors": {

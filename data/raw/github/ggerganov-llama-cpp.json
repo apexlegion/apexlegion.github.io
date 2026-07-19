@@ -1,7 +1,7 @@
 {
   "source": "github",
   "sourceId": "ggerganov/llama.cpp",
-  "fetchedAt": "2026-07-18T04:54:39.770Z",
+  "fetchedAt": "2026-07-19T05:30:02.437Z",
   "data": {
     "id": 612354784,
     "node_id": "R_kgDOJH_K4A",
@@ -70,16 +70,16 @@
     "releases_url": "https://api.github.com/repos/ggml-org/llama.cpp/releases{/id}",
     "deployments_url": "https://api.github.com/repos/ggml-org/llama.cpp/deployments",
     "created_at": "2023-03-10T18:58:00Z",
-    "updated_at": "2026-07-18T04:30:12Z",
-    "pushed_at": "2026-07-17T23:13:35Z",
+    "updated_at": "2026-07-19T05:16:58Z",
+    "pushed_at": "2026-07-18T13:36:42Z",
     "git_url": "git://github.com/ggml-org/llama.cpp.git",
     "ssh_url": "git@github.com:ggml-org/llama.cpp.git",
     "clone_url": "https://github.com/ggml-org/llama.cpp.git",
     "svn_url": "https://github.com/ggml-org/llama.cpp",
     "homepage": "https://llama.app",
-    "size": 420234,
-    "stargazers_count": 120757,
-    "watchers_count": 120757,
+    "size": 420078,
+    "stargazers_count": 120873,
+    "watchers_count": 120873,
     "language": "C++",
     "has_issues": true,
     "has_projects": true,
@@ -87,11 +87,11 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 20714,
+    "forks_count": 20752,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 1882,
+    "open_issues_count": 1891,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -108,9 +108,9 @@
       "ggml"
     ],
     "visibility": "public",
-    "forks": 20714,
-    "open_issues": 1882,
-    "watchers": 120757,
+    "forks": 20752,
+    "open_issues": 1891,
+    "watchers": 120873,
     "default_branch": "master",
     "permissions": {
       "admin": false,
@@ -142,7 +142,7 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "network_count": 20714,
-    "subscribers_count": 783
+    "network_count": 20752,
+    "subscribers_count": 784
   }
 }

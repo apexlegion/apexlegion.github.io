@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/deepseek-r1-aws",
-  "fetchedAt": "2026-07-18T04:54:45.378Z",
+  "fetchedAt": "2026-07-19T05:30:09.545Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/deepseek-r1-aws",
     "title": "How to deploy and fine-tune DeepSeek models on AWS",

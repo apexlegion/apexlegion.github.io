@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/sagemaker-distributed-training-seq2seq",
-  "fetchedAt": "2026-07-18T04:54:45.381Z",
+  "fetchedAt": "2026-07-19T05:30:09.545Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/sagemaker-distributed-training-seq2seq",
     "title": "Distributed Training: Train BART/T5 for Summarization using 🤗 Transformers and Amazon SageMaker",
