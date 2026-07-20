@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/train-optimize-sd-intel",
-  "fetchedAt": "2026-07-19T05:30:09.545Z",
+  "fetchedAt": "2026-07-20T05:47:03.303Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/train-optimize-sd-intel",
     "title": "Optimizing Stable Diffusion for Intel CPUs with NNCF and 🤗 Optimum",

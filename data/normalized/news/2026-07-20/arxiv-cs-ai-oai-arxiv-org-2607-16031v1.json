@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16031v1",
+  "name": "Revisiting data-driven dynamic security assessment with a tabular foundation model",
+  "summary": "arXiv:2607.16031v1 Announce Type: cross Abstract: Data-driven pre-fault dynamic security assessment (DSA) rapidly evaluates the dynamic risk of credible contingencies on a power system using machin...",
+  "description": "arXiv:2607.16031v1 Announce Type: cross Abstract: Data-driven pre-fault dynamic security assessment (DSA) rapidly evaluates the dynamic risk of credible contingencies on a power system using machine learning. Existing approaches face two limitations. First, they require a large labelled database for training, with a separate model trained, tuned, and maintained for each contingency in a potenti...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16031"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16031"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Olayiwola Arowolo, Maosheng Yang, Jochen Cremer"
+}

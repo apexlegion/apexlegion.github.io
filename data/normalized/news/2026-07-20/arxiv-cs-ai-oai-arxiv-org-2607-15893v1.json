@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-15893v1",
+  "name": "Induction in Both Directions: A Mechanistic Analysis of In-Context Learning in Masked Diffusion Language Models",
+  "summary": "arXiv:2607.15893v1 Announce Type: cross Abstract: While the internal mechanisms of autoregressive (AR) transformers have been studied extensively, much less is known about diffusion language models...",
+  "description": "arXiv:2607.15893v1 Announce Type: cross Abstract: While the internal mechanisms of autoregressive (AR) transformers have been studied extensively, much less is known about diffusion language models (DLMs), an emerging alternative that generates text by iterative denoising. In this work, we study how DLMs implement induction, a mechanism behind in-context learning in which the model finds a repe...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.15893"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.15893"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Andy Catruna, Emilian Radoi"
+}

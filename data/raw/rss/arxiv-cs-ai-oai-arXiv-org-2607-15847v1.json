@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.15847v1",
+  "fetchedAt": "2026-07-20T05:47:03.324Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.15847v1",
+    "title": "CAMMAR: Culture-Aware Matryoshka for Metaphorical Arabic Representations",
+    "link": "https://arxiv.org/abs/2607.15847",
+    "description": "arXiv:2607.15847v1 Announce Type: cross Abstract: Metaphor in Arabic is a culturally grounded mechanism for constructing meaning, encoding cultural knowledge that shapes interpretation. Yet current Arabic language models typically collapse lexical, cultural, and metaphorical information into a single representational space, a phenomenon we term \"semantic smearing\". We introduce CAMMAR (Culture-Aware Matryoshka for Metaphorical Arabic Representations), a representation learning framework that organizes meaning into nested lexical, cultural, and metaphorical embedding subspaces through a staged semantic curriculum. The design implements compositional principles of Al-Jurjani's theory of nazum, modeling figurative meaning as compositionally grounded in prior semantic relations, and yields a training-free geometric measure of metaphoricity based on the distance between lexical and metaphorical representations. Evaluated on a new span-annotated Arabic metaphor set as word-matched figurative/literal pairs, the geometric readout detects metaphor well above chance when the inter-layer geometry is shaped by paired supervision (AUC up to 0.84; figurative outscores its literal counterpart for the same word in 82.6\\% of pairs), but sits at chance under an unsupervised domain contrast alone, a clean separation between a legible-under-supervision regime and a non-emergent one. A controlled ablation shows that grounding the lexical layer in morphological roots gives a small but consistent gain, an effect absent from direct probing that reflects the layer's quality as a measurement anchor. We will release the datasets, cultural concept inventory, and code upon acceptance.",
+    "publishedAt": "2026-07-20",
+    "author": "Suzan Awinat, Alfonso Ortega del Puente",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

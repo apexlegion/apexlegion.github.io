@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/OpenMed/training-mrna-models-25-species",
-  "fetchedAt": "2026-07-19T05:30:09.544Z",
+  "fetchedAt": "2026-07-20T05:47:03.301Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/OpenMed/training-mrna-models-25-species",
     "title": "Training mRNA Language Models Across 25 Species for $165",

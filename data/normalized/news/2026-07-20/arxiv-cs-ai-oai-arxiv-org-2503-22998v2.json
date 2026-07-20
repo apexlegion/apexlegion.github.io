@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2503-22998v2",
+  "name": "AuditVotes: Elevating Provable Defense for GNNs with Efficient Augmentation and Conditional Smoothing",
+  "summary": "arXiv:2503.22998v2 Announce Type: replace-cross Abstract: Despite advancements in Graph Neural Networks (GNNs), adaptive attacks continue to challenge their robustness. Certified robustness via ran...",
+  "description": "arXiv:2503.22998v2 Announce Type: replace-cross Abstract: Despite advancements in Graph Neural Networks (GNNs), adaptive attacks continue to challenge their robustness. Certified robustness via randomized smoothing offers provable guarantees but suffers from a severe accuracy-robustness trade-off, limiting its practical use. To bridge this gap, we introduce AuditVotes, the first framework that...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2503.22998"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2503.22998"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Yuni Lai, Yulin Zhu, Yixuan Sun, Yulun Wu, Bin Xiao, Gaolei Li, Jianhua Li, Qi Xie, Kai Zhou"
+}

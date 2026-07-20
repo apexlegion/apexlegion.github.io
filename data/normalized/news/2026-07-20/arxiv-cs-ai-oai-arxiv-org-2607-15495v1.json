@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-15495v1",
+  "name": "Verbalizable Representations Form a Global Workspace in Language Models",
+  "summary": "arXiv:2607.15495v1 Announce Type: cross Abstract: Out of everything the human brain processes, only a small fraction is consciously accessible, in the sense of being available for verbal report, de...",
+  "description": "arXiv:2607.15495v1 Announce Type: cross Abstract: Out of everything the human brain processes, only a small fraction is consciously accessible, in the sense of being available for verbal report, deliberate control, and flexible reasoning. In this paper, we present evidence that an analogous functional distinction has emerged in large language models. Using a new interpretability technique, the...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.15495"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.15495"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Wes Gurnee, Nicholas Sofroniew, Adam Pearce, Mateusz Piotrowski, Isaac Kauvar, Runjin Chen, Anna Soligo, Paul Bogdan, Euan Ong, Rowan Wang, Ben Thompson, David Abrahams, Subhash Kantamneni, Emmanuel Ameisen, Joshua Batson, Jack Lindsey"
+}

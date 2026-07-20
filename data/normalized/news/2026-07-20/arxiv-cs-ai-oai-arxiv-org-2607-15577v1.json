@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-15577v1",
+  "name": "Information-Directed Sampling for Causal Bandits",
+  "summary": "arXiv:2607.15577v1 Announce Type: cross Abstract: Causal bandits exploit structural relationships among variables to share information across interventions and accelerate the identification of high...",
+  "description": "arXiv:2607.15577v1 Announce Type: cross Abstract: Causal bandits exploit structural relationships among variables to share information across interventions and accelerate the identification of high-reward decisions. In many applications, however, some variables cannot be directly manipulated, even though they influence the reward and provide useful information about the underlying causal system...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.15577"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.15577"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Muhammad Qasim Elahi, Murat Kocaoglu, Mahsa Ghasemi"
+}

@@ -1,0 +1,36 @@
+{
+  "type": "paper",
+  "slug": "2607-16090",
+  "name": "DADiff: Diffusion-Driven Cross-Domain Policy Adaptation for Reinforcement Learning",
+  "summary": "Transferring policies across domains poses a vital challenge in reinforcement learning, due to the dynamics mismatch between the source and target domains. In this paper, we consider the setting of...",
+  "description": "Transferring policies across domains poses a vital challenge in reinforcement learning, due to the dynamics mismatch between the source and target domains. In this paper, we consider the setting of online dynamics adaptation, where policies are trained in the source domain with sufficient data, while only limited interactions with the target domain are allowed. There are a few existing works that address the dynamics mismatch by employing domain classifiers, value-guided data filtering, or representation learning. Instead, we study the domain adaptation problem from a generative modeling pe...",
+  "tags": [
+    "arxiv",
+    "cs.LG"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.16090v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-17",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.LG.",
+      "href": "https://arxiv.org/abs/2607.16090v1"
+    }
+  ],
+  "authors": [
+    "Hanyang Chen",
+    "Anirudh Satheesh",
+    "Longchao Da",
+    "Hua Wei"
+  ],
+  "paperId": "2607.16090",
+  "category": "cs.LG",
+  "publishedAt": "2026-07-17",
+  "abstract": "Transferring policies across domains poses a vital challenge in reinforcement learning, due to the dynamics mismatch between the source and target domains. In this paper, we consider the setting of online dynamics adaptation, where policies are trained in the source domain with sufficient data, while only limited interactions with the target domain are allowed. There are a few existing works that address the dynamics mismatch by employing domain classifiers, value-guided data filtering, or representation learning. Instead, we study the domain adaptation problem from a generative modeling pe..."
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-15590v1",
+  "name": "Field-Aware RankMixer with Dual-Stream Bilinear Fusion for the Tencent UNI-REC Challenge",
+  "summary": "arXiv:2607.15590v1 Announce Type: cross Abstract: This paper presents our solution to the KDD Cup 2026 Tencent UNIREC Challenge. The task requires joint modeling of multi-domain user behavior seque...",
+  "description": "arXiv:2607.15590v1 Announce Type: cross Abstract: This paper presents our solution to the KDD Cup 2026 Tencent UNIREC Challenge. The task requires joint modeling of multi-domain user behavior sequences and non-sequential multi-field features for target-ad pCVR prediction. We develop a Field-Aware RankMixer (FA-RankMixer) with dual-stream bilinear fusion. The model first applies target-aware DIN...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.15590"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.15590"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Yufeng Zhang, Zhengqi Xu, Jiajun Cui"
+}

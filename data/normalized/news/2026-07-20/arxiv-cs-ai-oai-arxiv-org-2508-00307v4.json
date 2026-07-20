@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2508-00307v4",
+  "name": "Acoustic Imaging for UAV Detection: Dense Beamformed Energy Maps and U-Net SELD",
+  "summary": "arXiv:2508.00307v4 Announce Type: replace-cross Abstract: We introduce a U-net model for 360{\\deg} acoustic source localization formulated as a spherical semantic segmentation task. Rather than reg...",
+  "description": "arXiv:2508.00307v4 Announce Type: replace-cross Abstract: We introduce a U-net model for 360{\\deg} acoustic source localization formulated as a spherical semantic segmentation task. Rather than regressing discrete direction-of-arrival (DoA) angles, our model segments beamformed audio maps (azimuth &amp; elevation) into regions of active sound presence. Using delay-and-sum (DAS) beamforming on a...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2508.00307"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2508.00307"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Belman Jahir Rodriguez, Sergio F. Chevtchenko, Marcelo Herrera Martinez, Yeshwanth Bethi, Saeed Afshar"
+}

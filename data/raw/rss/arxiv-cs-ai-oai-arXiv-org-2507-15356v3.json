@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2507.15356v3",
+  "fetchedAt": "2026-07-20T05:47:03.324Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2507.15356v3",
+    "title": "RAD: Retrieval High-quality Demonstrations to Enhance Decision-making",
+    "link": "https://arxiv.org/abs/2507.15356",
+    "description": "arXiv:2507.15356v3 Announce Type: replace Abstract: Offline reinforcement learning (RL) learns policies from fixed datasets, thereby avoiding costly or unsafe environment interactions. However, its reliance on finite static datasets inherently restricts the ability to generalize beyond the training distribution. Prior solutions based on synthetic data augmentation often fail to generalize to unseen scenarios in the (augmented) dataset. To address these challenges, we propose Retrieval High-quAlity Demonstrations (RAD) for decision-making, which innovatively introduces a retrieval mechanism into offline RL. Specifically, RAD retrieves high-return and reachable states from the offline dataset as target states, and leverages a generative model to generate sub-trajectories conditioned on these targets for planning. Since the targets are high-return states, once the agent reaches such a target, it can continue to obtain high returns by following the associated high-return actions, thereby improving policy generalization. Extensive experiments confirm that RAD achieves competitive or superior performance compared to baselines across diverse benchmarks, validating its effectiveness. Our code is available at https://github.com/LeahGL/RAD.",
+    "publishedAt": "2026-07-20",
+    "author": "Lu Guo, Yixiang Shan, Zhengbang Zhu, Qifan Liang, Lichang Song, Ting Long, Weinan Zhang, Yi Chang",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

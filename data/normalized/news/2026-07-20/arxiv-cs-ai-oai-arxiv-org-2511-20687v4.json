@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2511-20687v4",
+  "name": "Hybrid coupling with operator inference and the overlapping Schwarz alternating method",
+  "summary": "arXiv:2511.20687v4 Announce Type: replace-cross Abstract: This paper presents a novel hybrid approach for coupling subdomain-local non-intrusive Operator Inference (OpInf) reduced order models (ROM...",
+  "description": "arXiv:2511.20687v4 Announce Type: replace-cross Abstract: This paper presents a novel hybrid approach for coupling subdomain-local non-intrusive Operator Inference (OpInf) reduced order models (ROMs) with each other and with subdomain-local high-fidelity full order models (FOMs) with using the overlapping Schwarz alternating method (O-SAM). The proposed methodology addresses significant challen...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2511.20687"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2511.20687"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Irina Tezaur, Eric Parish, Anthony Gruber, Ian Moore, Christopher Wentland, Alejandro Mota"
+}

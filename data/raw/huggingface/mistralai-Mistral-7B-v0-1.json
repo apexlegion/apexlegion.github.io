@@ -1,7 +1,7 @@
 {
   "source": "huggingface",
   "sourceId": "mistralai/Mistral-7B-v0.1",
-  "fetchedAt": "2026-07-19T05:30:05.187Z",
+  "fetchedAt": "2026-07-20T05:47:01.302Z",
   "data": {
     "_id": "650aedb6238a644cb93a52c3",
     "id": "mistralai/Mistral-7B-v0.1",
@@ -23,7 +23,7 @@
       "text-generation-inference",
       "region:us"
     ],
-    "downloads": 650826,
+    "downloads": 612892,
     "likes": 4128,
     "modelId": "mistralai/Mistral-7B-v0.1",
     "author": "mistralai",
@@ -123,15 +123,14 @@
     ],
     "spaces": [
       "overhead520/LLM-Settings-Guide",
-      "logikon/open_cot_leaderboard",
       "CATIE-AQ/Guide_Evaluation_LLM",
       "AwaisAdilKhokhar/modelDNA",
-      "CiLprototype/CurvOpt-SmarterModels",
       "Vokturz/can-it-run-llm",
       "eduagarcia/open_pt_llm_leaderboard",
       "3DTopia/3DGen-Arena",
       "ehristoforu/mistral-7b-chat",
       "speakleash/open_pl_llm_leaderboard",
+      "logikon/open_cot_leaderboard",
       "KBaba7/Quant",
       "Vision-CAIR-Admin/MiniGPT4-video",
       "EvanTHU/MotionLLM",
@@ -221,7 +220,8 @@
       "LeroyDyer/LCARS_BASIC_CHAT",
       "JingyiZhou/anlp",
       "afeng/tokenizers",
-      "swordfish7412/Bandila-v2"
+      "swordfish7412/Bandila-v2",
+      "Enaoudir/mistral-niger-chat"
     ],
     "createdAt": "2023-09-20T13:03:50.000Z",
     "safetensors": {

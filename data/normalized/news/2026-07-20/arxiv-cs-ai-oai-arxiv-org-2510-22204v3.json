@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2510-22204v3",
+  "name": "Human-Inspired Neuro-Symbolic World Modeling and Logic Reasoning for Interpretable Safe UAV Landing Site Assessment",
+  "summary": "arXiv:2510.22204v3 Announce Type: replace-cross Abstract: Reliable assessment of safe landing sites in unstructured environments is essential for deploying Unmanned Aerial Vehicles (UAVs) in real-w...",
+  "description": "arXiv:2510.22204v3 Announce Type: replace-cross Abstract: Reliable assessment of safe landing sites in unstructured environments is essential for deploying Unmanned Aerial Vehicles (UAVs) in real-world applications such as delivery, inspection, and surveillance. Existing learning-based approaches often degrade under covariate shift and offer limited transparency, making their decisions difficul...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2510.22204"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2510.22204"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Weixian Qian, Tianyi Yang, Sebastian Schroder, Yao Deng, Jiaohong Yao, Xiao Cheng, Richard Han, Xi Zheng"
+}

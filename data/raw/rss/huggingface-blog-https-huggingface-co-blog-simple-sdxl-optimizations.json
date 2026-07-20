@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/simple_sdxl_optimizations",
-  "fetchedAt": "2026-07-19T05:30:09.545Z",
+  "fetchedAt": "2026-07-20T05:47:03.303Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/simple_sdxl_optimizations",
     "title": "Exploring simple optimizations for SDXL",

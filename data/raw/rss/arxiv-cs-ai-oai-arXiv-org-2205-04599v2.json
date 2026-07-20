@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2205.04599v2",
+  "fetchedAt": "2026-07-20T05:47:03.324Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2205.04599v2",
+    "title": "Perception-Aligned AI Outputs: End-to-End Visual Prediction for Uncertainty Communication in Clinical Decision-Making",
+    "link": "https://arxiv.org/abs/2205.04599",
+    "description": "arXiv:2205.04599v2 Announce Type: replace-cross Abstract: Explainable Artificial Intelligence (XAI) is essential for trustworthy AI in healthcare, yet many existing methods rely on technical explanations that are difficult for clinicians and patients to interpret. We introduce Visualized Learning for Machine Learning (VL4ML), a human-centered explainability framework that communicates model predictions and uncertainty through intuitive visual representations rather than numerical or post-hoc explanations. By encoding diagnostic information in colors, patterns, and spatial structures, VL4ML enables users to interpret predictions without requiring knowledge of model internals or statistical expertise. We demonstrate the framework across multiple clinical tasks, including classification, regression, longitudinal prediction, and multimodal analysis. Its effectiveness was evaluated through a human-centered study involving 158 participants (39.2% clinical professionals) and an expert interpretability assessment. More than 79% of participants positively rated the visual explanations across evaluation dimensions, 84.0% found them more memorable than numeric outputs, and 76.9% reported faster decision-making. Over 82% successfully perceived uncertainty embedded in the visual representations without prior statistical training. No significant differences were observed between clinicians and non-clinicians or between male and female participants, indicating broad accessibility. These results suggest that VL4ML complements existing XAI and uncertainty quantification methods by providing intuitive, universally interpretable visual explanations that support transparent and trustworthy clinical decision-making.",
+    "publishedAt": "2026-07-20",
+    "author": "Mohammad Eslami, Solale Tabarestani, Saber Kazeminasab, Ehsan Adeli, Glyn Elwyn, Tobias Elze, Mengyu Wang, Nazlee Zebardast, Lucia Sobrin, Nassir Navab, Daniel Shu Wei Ting, Malek Adjouadi",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

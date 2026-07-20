@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/zero-deepspeed-fairscale",
-  "fetchedAt": "2026-07-19T05:30:09.545Z",
+  "fetchedAt": "2026-07-20T05:47:03.304Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/zero-deepspeed-fairscale",
     "title": "Fit More and Train Faster With ZeRO via DeepSpeed and FairScale",

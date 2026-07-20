@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/huggingface-hub-release-ci",
-  "fetchedAt": "2026-07-19T05:30:09.544Z",
+  "fetchedAt": "2026-07-20T05:47:03.301Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/huggingface-hub-release-ci",
     "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",

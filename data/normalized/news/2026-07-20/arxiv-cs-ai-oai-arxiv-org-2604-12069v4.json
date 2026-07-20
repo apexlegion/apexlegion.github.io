@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2604-12069v4",
+  "name": "Robust Explanations for User Trust in Enterprise NLP Systems",
+  "summary": "arXiv:2604.12069v4 Announce Type: replace-cross Abstract: Robust explanations are increasingly required for user trust in enterprise NLP, yet pre-deployment validation is difficult in the common ca...",
+  "description": "arXiv:2604.12069v4 Announce Type: replace-cross Abstract: Robust explanations are increasingly required for user trust in enterprise NLP, yet pre-deployment validation is difficult in the common case of black-box deployment (API-only access) where representation-based explainers are infeasible and existing studies provide limited guidance on whether explanations remain stable under real user no...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2604.12069"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2604.12069"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Guilin Zhang, Kai Zhao, Jeffrey Friedman, Xu Chu, Amine Anoun, Jerry Ting"
+}

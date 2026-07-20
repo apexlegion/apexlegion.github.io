@@ -1,0 +1,38 @@
+{
+  "type": "paper",
+  "slug": "2607-16057",
+  "name": "Frontier AI performance across the business disciplines: a case-grounded benchmark of knowledge work and analytical reasoning",
+  "summary": "Large language models (LLMs) are improving rapidly as reflected in benchmark scores, yet these AI benchmarks largely test capabilities such as factual recall, narrow question answering, mathematica...",
+  "description": "Large language models (LLMs) are improving rapidly as reflected in benchmark scores, yet these AI benchmarks largely test capabilities such as factual recall, narrow question answering, mathematical problem-solving, and coding and agentic tool-use. What remains poorly measured is AI progress on the analytical knowledge work white-collar professionals perform daily, including synthesizing complex information, exercising judgment under uncertainty and incomplete information, applying strategic and adversarial thinking in multi-stakeholder settings, weighing trade-offs, and producing defensibl...",
+  "tags": [
+    "arxiv",
+    "cs.CL"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.16057v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-17",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.CL.",
+      "href": "https://arxiv.org/abs/2607.16057v1"
+    }
+  ],
+  "authors": [
+    "Ajay Patel",
+    "Kartik Hosanagar",
+    "Ramayya Krishnan",
+    "Chris Callison-Burch",
+    "Karim Lakhani",
+    "Mitch Weiss"
+  ],
+  "paperId": "2607.16057",
+  "category": "cs.CL",
+  "publishedAt": "2026-07-17",
+  "abstract": "Large language models (LLMs) are improving rapidly as reflected in benchmark scores, yet these AI benchmarks largely test capabilities such as factual recall, narrow question answering, mathematical problem-solving, and coding and agentic tool-use. What remains poorly measured is AI progress on the analytical knowledge work white-collar professionals perform daily, including synthesizing complex information, exercising judgment under uncertainty and incomplete information, applying strategic and adversarial thinking in multi-stakeholder settings, weighing trade-offs, and producing defensibl..."
+}

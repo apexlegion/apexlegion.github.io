@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-15480v1",
+  "name": "A Critical Analysis of Trustworthy AI Tools, Mark Frameworks, and the Implementation Chasms",
+  "summary": "arXiv:2607.15480v1 Announce Type: new Abstract: As artificial intelligence (AI) systems increasingly impact society, ensuring their ethical and trustworthy deployment has become a global priority....",
+  "description": "arXiv:2607.15480v1 Announce Type: new Abstract: As artificial intelligence (AI) systems increasingly impact society, ensuring their ethical and trustworthy deployment has become a global priority. While a myriad of high-level ethical guidelines have emerged, criticism persists that these frameworks remain abstract and lack concrete mechanisms for implementation. This paper conducts a critical a...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.15480"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.15480"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Michael Papademas, Xenia Ziouvelou, Kostas Karpouzis, Vangelis Karkaletsis"
+}

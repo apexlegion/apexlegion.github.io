@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2508-05321v4",
+  "name": "Unsupervised Deep Learning for Inverse Problems in Computed Tomography",
+  "summary": "arXiv:2508.05321v4 Announce Type: replace-cross Abstract: Assume you encounter an inverse problem that shall be solved for a large number of data, but no ground-truth data is available. To emulate...",
+  "description": "arXiv:2508.05321v4 Announce Type: replace-cross Abstract: Assume you encounter an inverse problem that shall be solved for a large number of data, but no ground-truth data is available. To emulate this, in this study we assume it is unknown how to solve the imaging problem of Computed Tomography. We introduce an unsupervised deep learning framework that leverages the inherent similarities betwe...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2508.05321"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2508.05321"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Laura Hellwege, Johann Christopher Engster, Moritz Schaar, Thorsten M. Buzug, Maik Stille"
+}

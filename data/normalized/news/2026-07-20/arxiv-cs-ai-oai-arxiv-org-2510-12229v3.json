@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2510-12229v3",
+  "name": "Analysing Moral Bias in Finetuned LLMs through Mechanistic Interpretability",
+  "summary": "arXiv:2510.12229v3 Announce Type: replace-cross Abstract: Large language models (LLMs) have been shown to internalize human-like biases during finetuning, yet the mechanisms by which these biases m...",
+  "description": "arXiv:2510.12229v3 Announce Type: replace-cross Abstract: Large language models (LLMs) have been shown to internalize human-like biases during finetuning, yet the mechanisms by which these biases manifest remain unclear. In this work, we investigated whether the well-known Knobe effect, a moral bias in intentionality judgements, emerges in finetuned LLMs and whether it can be traced back to spe...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2510.12229"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2510.12229"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Bianca Raimondi, Daniela Dalbagno, Maurizio Gabbrielli"
+}

@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/flux-qlora",
-  "fetchedAt": "2026-07-19T05:30:09.545Z",
+  "fetchedAt": "2026-07-20T05:47:03.303Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/flux-qlora",
     "title": "(LoRA) Fine-Tuning FLUX.1-dev on Consumer Hardware",

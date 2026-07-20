@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/wav2vec2-with-ngram",
-  "fetchedAt": "2026-07-19T05:30:09.545Z",
+  "fetchedAt": "2026-07-20T05:47:03.304Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/wav2vec2-with-ngram",
     "title": "Boosting Wav2Vec2 with n-grams in 🤗 Transformers",

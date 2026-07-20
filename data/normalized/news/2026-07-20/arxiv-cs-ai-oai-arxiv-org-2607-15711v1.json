@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-15711v1",
+  "name": "Efficient Difficulty-Aware Dynamic Routing for Diffusion-Based Real-World Image Super-Resolution",
+  "summary": "arXiv:2607.15711v1 Announce Type: cross Abstract: Diffusion-based methods have achieved impressive performance in real-world image super-resolution (Real-ISR) by leveraging large pre-trained stable...",
+  "description": "arXiv:2607.15711v1 Announce Type: cross Abstract: Diffusion-based methods have achieved impressive performance in real-world image super-resolution (Real-ISR) by leveraging large pre-trained stable diffusion (SD) models as powerful generative priors. However, these methods still face two key limitations. First, existing SD-based one-step and multi-step Real-ISR approaches adopt a unified proces...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.15711"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.15711"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Xue Wu, Kang Zhao, Kafeng Wang, Jianfei Chen, Jingwei Xin, Nannan Wang, Xinbo Gao"
+}

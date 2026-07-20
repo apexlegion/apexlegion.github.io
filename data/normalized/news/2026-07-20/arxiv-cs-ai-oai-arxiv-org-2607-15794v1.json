@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-15794v1",
+  "name": "On the Geometry of Learned Representations in Event-Based Multi-Modal Egomotion Estimation",
+  "summary": "arXiv:2607.15794v1 Announce Type: cross Abstract: Classical approaches to event-based egomotion estimation, including those adopted by the top-performing teams of the ELOPE challenge, rely on geome...",
+  "description": "arXiv:2607.15794v1 Announce Type: cross Abstract: Classical approaches to event-based egomotion estimation, including those adopted by the top-performing teams of the ELOPE challenge, rely on geometric optimization frameworks such as contrast maximization, homography estimation, or dense optical flow combined with analytic motion inversion. This work investigates the geometric structure that em...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.15794"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.15794"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Stefano Silvestrini, Michele Ceresoli"
+}

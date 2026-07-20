@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2605-20982v2",
+  "name": "Diagnosing Overhead in Dispatch Operations: Cross-architecture Observatory",
+  "summary": "arXiv:2605.20982v2 Announce Type: replace-cross Abstract: AlltoAll dispatch is the dominant bottleneck of MoE expert parallelism, and the interconnect community has responded with four families of...",
+  "description": "arXiv:2605.20982v2 Announce Type: replace-cross Abstract: AlltoAll dispatch is the dominant bottleneck of MoE expert parallelism, and the interconnect community has responded with four families of mitigations: predictive sample placement, adaptive expert relayout, hierarchical collectives, and EP-aware topology. All four rest on two assumptions about the workload: that routing imbalance is corr...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2605.20982"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2605.20982"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Bole Ma, Jan Eitzinger, Harald Koestler, Gerhard Wellein"
+}

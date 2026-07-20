@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16030v1",
+  "name": "Rethinking Quantum Continual Learning with Quantum Fisher Information",
+  "summary": "arXiv:2607.16030v1 Announce Type: cross Abstract: Quantum continual learning aims to train quantum models on sequential tasks without losing previously learned knowledge. However, variational quant...",
+  "description": "arXiv:2607.16030v1 Announce Type: cross Abstract: Quantum continual learning aims to train quantum models on sequential tasks without losing previously learned knowledge. However, variational quantum classifiers (VQCs) are prone to catastrophic forgetting under nonstationary task distributions. We propose quantum elastic weight consolidation (QEWC), a quantum Fisher information (QFI)-informed r...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16030"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16030"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Yu-Chao Hsu, Yu-Cheng Lin, Tai-Yue Li, Nan-Yow Chen, En-Jui Kuo"
+}

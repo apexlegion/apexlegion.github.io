@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "openai-blog:https://openai.com/index/learning-sparse-neural-networks-through-l0-regularization",
-  "fetchedAt": "2026-07-19T05:30:09.477Z",
+  "fetchedAt": "2026-07-20T05:47:03.259Z",
   "data": {
     "guid": "openai-blog:https://openai.com/index/learning-sparse-neural-networks-through-l0-regularization",
     "title": "Learning sparse neural networks through L₀ regularization",

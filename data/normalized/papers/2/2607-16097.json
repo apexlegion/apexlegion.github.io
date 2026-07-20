@@ -1,0 +1,39 @@
+{
+  "type": "paper",
+  "slug": "2607-16097",
+  "name": "Understanding Reasoning from Pretraining to Post-Training",
+  "summary": "Reinforcement learning (RL) has become central to improving large language models (LLMs) on complex reasoning tasks, yet RL post-training is largely studied in isolation from the pretraining that p...",
+  "description": "Reinforcement learning (RL) has become central to improving large language models (LLMs) on complex reasoning tasks, yet RL post-training is largely studied in isolation from the pretraining that precedes it. As a result, two basic questions remain open: (1) how do pretraining choices (model size, data) shape the returns to RL compute, and (2) what does RL actually do to the model? These questions are difficult to study in the standard LLM setting: pretraining corpora are vast and uncontrolled, making it hard to attribute behaviors to pretraining versus RL, and systematic compute sweeps acr...",
+  "tags": [
+    "arxiv",
+    "cs.LG"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.16097v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-17",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.LG.",
+      "href": "https://arxiv.org/abs/2607.16097v1"
+    }
+  ],
+  "authors": [
+    "Jingyan Shen",
+    "Ang Li",
+    "Salman Rahman",
+    "Yifan Sun",
+    "Micah Goldblum",
+    "Matus Telgarsky",
+    "Pavel Izmailov"
+  ],
+  "paperId": "2607.16097",
+  "category": "cs.LG",
+  "publishedAt": "2026-07-17",
+  "abstract": "Reinforcement learning (RL) has become central to improving large language models (LLMs) on complex reasoning tasks, yet RL post-training is largely studied in isolation from the pretraining that precedes it. As a result, two basic questions remain open: (1) how do pretraining choices (model size, data) shape the returns to RL compute, and (2) what does RL actually do to the model? These questions are difficult to study in the standard LLM setting: pretraining corpora are vast and uncontrolled, making it hard to attribute behaviors to pretraining versus RL, and systematic compute sweeps acr..."
+}

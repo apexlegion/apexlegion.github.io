@@ -1,0 +1,39 @@
+{
+  "type": "paper",
+  "slug": "2607-16051",
+  "name": "Loop the Loopies!",
+  "summary": "We present Loopie, the most powerful looped Transformer to date. The Loopie series consists of two Mixture-of-Experts (MoE) models: a 20B-parameter model with 2B active parameters and a 6Bparameter...",
+  "description": "We present Loopie, the most powerful looped Transformer to date. The Loopie series consists of two Mixture-of-Experts (MoE) models: a 20B-parameter model with 2B active parameters and a 6Bparameter model with 0.6B active parameters. Looped Transformers have long faced a challenge: given an N-fold increase in pre-training compute, increasing the parameter count by a factor of N usually outperforms looping a model N times. Loopie addresses this challenge. Extensive ablation studies, including comparisons with a vanilla 30B-A3B model, show that Loopie substantially outperforms vanilla Transfor...",
+  "tags": [
+    "arxiv",
+    "cs.CL"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.16051v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-17",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.CL.",
+      "href": "https://arxiv.org/abs/2607.16051v1"
+    }
+  ],
+  "authors": [
+    "Zitian Gao",
+    "Yilong Chen",
+    "Yihao Xiao",
+    "Xinyu Yang",
+    "Ran Tao",
+    "Joey Zhou",
+    "Bryan Dai"
+  ],
+  "paperId": "2607.16051",
+  "category": "cs.CL",
+  "publishedAt": "2026-07-17",
+  "abstract": "We present Loopie, the most powerful looped Transformer to date. The Loopie series consists of two Mixture-of-Experts (MoE) models: a 20B-parameter model with 2B active parameters and a 6Bparameter model with 0.6B active parameters. Looped Transformers have long faced a challenge: given an N-fold increase in pre-training compute, increasing the parameter count by a factor of N usually outperforms looping a model N times. Loopie addresses this challenge. Extensive ablation studies, including comparisons with a vanilla 30B-A3B model, show that Loopie substantially outperforms vanilla Transfor..."
+}

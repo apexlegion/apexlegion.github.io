@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2507.21873v2",
+  "fetchedAt": "2026-07-20T05:47:03.324Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2507.21873v2",
+    "title": "A Neuro-Symbolic Approach for Probabilistic Reasoning on Graph Data",
+    "link": "https://arxiv.org/abs/2507.21873",
+    "description": "arXiv:2507.21873v2 Announce Type: replace Abstract: Graph neural networks (GNNs) excel at predictive tasks on graph-structured data but often lack the ability to incorporate symbolic domain knowledge and perform general reasoning. Relational Bayesian Networks (RBNs), in contrast, enable fully generative probabilistic modeling over graph-like structures and support rich symbolic knowledge and probabilistic inference. This paper presents a neuro-symbolic framework that seamlessly integrates GNNs into RBNs, combining the learning strength of GNNs with the flexible reasoning capabilities of RBNs. We develop two implementations of this integration: one compiles GNNs directly into the native RBN language, while the other maintains the GNN as an external component. Both approaches preserve the semantics and computational properties of GNNs while fully aligning with the RBN modeling paradigm. We also propose a maximum a posteriori (MAP) inference method for these neuro-symbolic models. To demonstrate the framework's versatility, we apply it to two distinct problems. First, we transform a GNN for node classification into a collective classification model that explicitly models homo- and heterophilic label patterns, substantially improving accuracy on both synthetic and real-world datasets. Second, we introduce a multi-objective network optimization problem in environmental planning, where MAP inference and continuous numeric relaxation support a complex decision-making task. Both applications include new publicly available benchmark datasets. This work introduces a powerful and coherent neuro-symbolic approach to graph data, bridging learning and reasoning in ways that enable novel applications and improved performance across diverse tasks.",
+    "publishedAt": "2026-07-20",
+    "author": "Raffaele Pojer, Andrea Passerini, Kim G. Larsen, Manfred Jaeger",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

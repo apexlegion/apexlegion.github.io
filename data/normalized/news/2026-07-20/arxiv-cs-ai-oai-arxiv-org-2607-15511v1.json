@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-15511v1",
+  "name": "An Auto-Scaling Approach for Serverless Environments Based on a Multi-Expert Consensus Mechanism",
+  "summary": "arXiv:2607.15511v1 Announce Type: cross Abstract: Serverless computing provides automatic resource management and pay-per-use execution, but effective autoscaling remains challenging because of dyn...",
+  "description": "arXiv:2607.15511v1 Announce Type: cross Abstract: Serverless computing provides automatic resource management and pay-per-use execution, but effective autoscaling remains challenging because of dynamic workloads, cold-start latency, and dependencies among functions. We present a dependency-aware autoscaling framework that integrates graph-based bottleneck identification, short-term workload for...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.15511"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.15511"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Mobina Kashaniyan, Mehrdad Ashtiani, Amirhossein Ghassemi"
+}

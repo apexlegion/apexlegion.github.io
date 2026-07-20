@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.14186v2",
+  "fetchedAt": "2026-07-20T05:47:03.324Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.14186v2",
+    "title": "NexForge: Scaling Agent Capabilities through Requirement-Driven Task Synthesis for LLMs",
+    "link": "https://arxiv.org/abs/2607.14186",
+    "description": "arXiv:2607.14186v2 Announce Type: replace-cross Abstract: Synthesizing training data to scale agent capabilities in LLM post-training is bottlenecked by substrate-bound task synthesis: tasks are generated from fixed tools, repositories, or skill graphs, so expanding coverage requires manual substrate engineering, transferring to a new domain demands bespoke infrastructure, and the resulting distributions inherit substrate biases rather than reflecting real-world demand. We introduce NexForge, a requirement-driven framework that synthesizes diverse, executable agent tasks and expert trajectories for SFT from high-level capability requirements. NexForge first profiles real-world demand into representative scenarios and task profiles, then samples task forms per scenario. It then performs distribution-aware compilation, automatically retrieving or constructing files, repositories, dependencies, and runtime configurations to instantiate each task, followed by synthesizing expert rollouts and distilling trajectories. The same pipeline generates 3,600 terminal tasks and 2,000 office tasks without any domain-specific infrastructure, improving Qwen3.5-35B-A3B Base from 22.5\\% to 52.0\\% on Terminal-Bench 2.0 and from 813 to 1338 Elo on GDPval. Scaling to 43.2K terminal tasks further improves performance to 58.4\\%, surpassing Claude Opus 4.6. At scale, NexForge-synthesized trajectories supervise SFT of Nex-N2, a family of open agent models that advance Qwen3.5-35B-A3B to 75.3\\% on Terminal-Bench 2.1 and 1585 Elo on GDPval -- achieving state-of-the-art open-source performance and surpassing several frontier proprietary systems. Nex-N2 models are available at https://nex.sii.edu.cn/.",
+    "publishedAt": "2026-07-20",
+    "author": "Jiarong Zhao, Zhikai Lei, Zhiheng Xi, Rui Zheng, Hang Yan, Jie Zhou, Qin Chen, Liang He",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

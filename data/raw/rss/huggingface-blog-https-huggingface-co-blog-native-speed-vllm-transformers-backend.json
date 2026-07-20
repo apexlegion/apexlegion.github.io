@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-  "fetchedAt": "2026-07-19T05:30:09.544Z",
+  "fetchedAt": "2026-07-20T05:47:03.301Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/native-speed-vllm-transformers-backend",
     "title": "Native-speed vLLM transformers modeling backend",

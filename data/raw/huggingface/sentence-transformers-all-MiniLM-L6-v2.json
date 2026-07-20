@@ -1,7 +1,7 @@
 {
   "source": "huggingface",
   "sourceId": "sentence-transformers/all-MiniLM-L6-v2",
-  "fetchedAt": "2026-07-19T05:30:05.939Z",
+  "fetchedAt": "2026-07-20T05:47:02.054Z",
   "data": {
     "_id": "621ffdc136468d709f180294",
     "id": "sentence-transformers/all-MiniLM-L6-v2",
@@ -56,8 +56,8 @@
       "deploy:azure",
       "region:us"
     ],
-    "downloads": 253402320,
-    "likes": 5087,
+    "downloads": 248516777,
+    "likes": 5092,
     "modelId": "sentence-transformers/all-MiniLM-L6-v2",
     "author": "sentence-transformers",
     "sha": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
@@ -229,7 +229,6 @@
       "hakari-bench/leaderboard",
       "bench-labs/BenchLabs-Leaderboard",
       "krishna-cc/health_doc",
-      "Ahmed167/research_assistant",
       "grateful790/rai-chatbot",
       "Poorv01/career_conversations2",
       "hapda12/GAIA",
@@ -241,6 +240,7 @@
       "devaanand/ccr-platform",
       "malaika871/NexusAI",
       "hugging-apps/shelld-text-to-image",
+      "drizzymedia/V8",
       "cvachet/pdf-chatbot",
       "marcosv/InstructIR",
       "JournalistsonHF/ai-scraper",

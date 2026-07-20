@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-15298v1",
+  "name": "Data-driven Video Codec with Implicit Neural Representations",
+  "summary": "arXiv:2607.15298v1 Announce Type: cross Abstract: A conventional codec stores a video as compressed pixel data. We instead store the video, together with its audio track, as the weights of a single...",
+  "description": "arXiv:2607.15298v1 Announce Type: cross Abstract: A conventional codec stores a video as compressed pixel data. We instead store the video, together with its audio track, as the weights of a single sinusoidal representation network (SIREN) that maps space-time coordinates to RGB values and audio amplitudes. The network uses separate audio and video initialization layers, a stack of shared fully...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.15298"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.15298"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Nishan Khanal, Saugat Neupane, Abhinav Chalise, Nimesh Gopal Pradhan, Dinesh Baniya Kshatri"
+}

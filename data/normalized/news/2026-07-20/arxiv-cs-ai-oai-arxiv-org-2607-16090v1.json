@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16090v1",
+  "name": "DADiff: Diffusion-Driven Cross-Domain Policy Adaptation for Reinforcement Learning",
+  "summary": "arXiv:2607.16090v1 Announce Type: cross Abstract: Transferring policies across domains poses a vital challenge in reinforcement learning, due to the dynamics mismatch between the source and target...",
+  "description": "arXiv:2607.16090v1 Announce Type: cross Abstract: Transferring policies across domains poses a vital challenge in reinforcement learning, due to the dynamics mismatch between the source and target domains. In this paper, we consider the setting of online dynamics adaptation, where policies are trained in the source domain with sufficient data, while only limited interactions with the target dom...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16090"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16090"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Hanyang Chen, Anirudh Satheesh, Longchao Da, Hua Wei"
+}

@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2502.11068v3",
+  "fetchedAt": "2026-07-20T05:47:03.324Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2502.11068v3",
+    "title": "MAnchors: Memorization-Based Acceleration of Anchors via Rule Reuse and Transformation",
+    "link": "https://arxiv.org/abs/2502.11068",
+    "description": "arXiv:2502.11068v3 Announce Type: replace-cross Abstract: Anchors is a popular local model-agnostic explanation technique whose applicability is limited by its computational inefficiency. To address this limitation, we propose a memorization-based framework that accelerates Anchors while preserving explanation fidelity and interpretability. Our approach leverages the iterative nature of Anchors' algorithm which gradually refines an explanation until it is precise enough for a given input by storing and reusing intermediate results obtained during prior explanations. Specifically, we maintain a memory of low-precision, high-coverage rules and introduce a rule transformation framework to adapt them to new inputs: the horizontal transformation adapts a pre-trained explanation to the current input by replacing features, and the vertical transformation refines the general explanation until it is precise enough for the input. We evaluate our method across tabular, text, and image datasets, demonstrating that it significantly reduces explanation generation time while maintaining fidelity and interpretability, thereby enabling the practical adoption of Anchors in time-sensitive applications.",
+    "publishedAt": "2026-07-20",
+    "author": "Haonan Yu, Junhao Liu, Xin Zhang",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

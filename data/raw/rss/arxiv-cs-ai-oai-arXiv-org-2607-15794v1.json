@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.15794v1",
+  "fetchedAt": "2026-07-20T05:47:03.324Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.15794v1",
+    "title": "On the Geometry of Learned Representations in Event-Based Multi-Modal Egomotion Estimation",
+    "link": "https://arxiv.org/abs/2607.15794",
+    "description": "arXiv:2607.15794v1 Announce Type: cross Abstract: Classical approaches to event-based egomotion estimation, including those adopted by the top-performing teams of the ELOPE challenge, rely on geometric optimization frameworks such as contrast maximization, homography estimation, or dense optical flow combined with analytic motion inversion. This work investigates the geometric structure that emerges inside a multi-modal network for egomotion estimation. Event tensors, inertial measurements, and range signals are fused through a cross-modal attention architecture and trained in a batch setting. We analyze the latent space geometry and attention dynamics, showing that (i) embeddings lie on low-dimensional manifolds aligned with motion variables, (ii) attention weights adapt with angular excitation and visual reliability, and (iii) the fused representation recovers classical observability cues. These results bridge analytical estimation theory and modern data-driven fusion.",
+    "publishedAt": "2026-07-20",
+    "author": "Stefano Silvestrini, Michele Ceresoli",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

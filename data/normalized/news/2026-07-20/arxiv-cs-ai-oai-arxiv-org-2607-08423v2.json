@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-08423v2",
+  "name": "OmniFood-Bench: Evaluating VLMs for Nutrient Reasoning and Personalized Health Advice",
+  "summary": "arXiv:2607.08423v2 Announce Type: replace Abstract: The rapid integration of Large Vision-Language Models (VLMs) into critical infrastructure promises to revolutionize personalized healthcare and d...",
+  "description": "arXiv:2607.08423v2 Announce Type: replace Abstract: The rapid integration of Large Vision-Language Models (VLMs) into critical infrastructure promises to revolutionize personalized healthcare and dietary management. However, in the domain of food systems, autonomous agents face a unique and persistent challenge: the \"Systemic Information Asymmetry\" between visual appearance and intrinsic nutrit...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.08423"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.08423"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Qian Jiang, Zhecheng Shi, Jingpu Yang, Zirui Song, Miao Fang"
+}

@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.15552v1",
+  "fetchedAt": "2026-07-20T05:47:03.324Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.15552v1",
+    "title": "From Feasibility to Desirability: Plan, Learn, Adapt (PLA) Framework for Personalized On-Device Itinerary Generation",
+    "link": "https://arxiv.org/abs/2607.15552",
+    "description": "arXiv:2607.15552v1 Announce Type: cross Abstract: Generating personalized trip itineraries is a complex planning task and involves a tension between hard combinatorial feasibility and soft latent desirability. Classical optimization enforces constraints but fails to capture subjective traveler preferences. While learning-based approaches model preferences, they cannot guarantee feasibility. Mobile deployment imposes additional resource constraints on both. To address this, we propose Plan, Learn, Adapt (PLA), a three-stage framework for personalized on-device itinerary generation. The Plan stage builds a heterogeneous ensemble of lightweight planners that produces structurally diverse feasible candidates. From pairwise itinerary comparisons, Learn fits a compact Bradley-Terry reward model that captures emergent schedule properties such as pacing, geographic coherence, and day balance, which per-POI signals miss. Finally, Adapt applies feasibility-preserving local refinement within a device-aware compute budget; every intermediate state is feasible by construction. On 2,519 pairwise human comparisons across more than 100 U.S. cities, the reward-guided ensemble achieves a 67.8% win rate, 11.2 percentage points above the best single planner, with 100% feasibility. Three frontier LLMs, GPT-5, Claude Opus 4.5, and Gemini 3 Pro, achieve 0% feasibility under the same constraints. The reward model generalizes across held-out cities, with a 67.6% mean leave-one-city-out accuracy. In production deployment within FlyEnJoy, PLA increased itinerary completion rates by 91%, with 109.9 ms average on-device latency.",
+    "publishedAt": "2026-07-20",
+    "author": "Himel Dev, Tanmoy Sen, Madhusudan Basak, Bashima Islam",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

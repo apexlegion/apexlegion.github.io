@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "openai-blog:https://openai.com/index/scaling-laws-for-reward-model-overoptimization",
-  "fetchedAt": "2026-07-19T05:30:09.477Z",
+  "fetchedAt": "2026-07-20T05:47:03.259Z",
   "data": {
     "guid": "openai-blog:https://openai.com/index/scaling-laws-for-reward-model-overoptimization",
     "title": "Scaling laws for reward model overoptimization",

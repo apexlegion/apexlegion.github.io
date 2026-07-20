@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/ml-for-games-2",
-  "fetchedAt": "2026-07-19T05:30:09.545Z",
+  "fetchedAt": "2026-07-20T05:47:03.304Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/ml-for-games-2",
     "title": "AI for Game Development: Creating a Farming Game in 5 Days. Part 2",

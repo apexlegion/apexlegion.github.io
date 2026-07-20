@@ -1,0 +1,33 @@
+{
+  "type": "paper",
+  "slug": "2607-16062",
+  "name": "When Model Merging Rivals Joint Multi-Task Reinforcement Learning: A Task-Vector Geometry Analysis",
+  "summary": "Model merging is promoted as a substitute for joint multi-task training, yet in the reinforcement-learning setting this substitution is essentially never tested against the baseline it claims to re...",
+  "description": "Model merging is promoted as a substitute for joint multi-task training, yet in the reinforcement-learning setting this substitution is essentially never tested against the baseline it claims to replace: methods merge independently released agents precisely because a joint model is unavailable. We build the missing comparison. Training difficulty-1 and difficulty-2 Qwen3-8B specialists on the AppWorld agent benchmark with LOOP, we merge them (TIES, RAM+) and pit the result against a jointly trained model on the same data. On task-goal completion, merging matches joint RL -- and every merge...",
+  "tags": [
+    "arxiv",
+    "cs.LG"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.16062v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-17",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.LG.",
+      "href": "https://arxiv.org/abs/2607.16062v1"
+    }
+  ],
+  "authors": [
+    "S. Aaron McClendon"
+  ],
+  "paperId": "2607.16062",
+  "category": "cs.LG",
+  "publishedAt": "2026-07-17",
+  "abstract": "Model merging is promoted as a substitute for joint multi-task training, yet in the reinforcement-learning setting this substitution is essentially never tested against the baseline it claims to replace: methods merge independently released agents precisely because a joint model is unavailable. We build the missing comparison. Training difficulty-1 and difficulty-2 Qwen3-8B specialists on the AppWorld agent benchmark with LOOP, we merge them (TIES, RAM+) and pit the result against a jointly trained model on the same data. On task-goal completion, merging matches joint RL -- and every merge..."
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16062v1",
+  "name": "When Model Merging Rivals Joint Multi-Task Reinforcement Learning: A Task-Vector Geometry Analysis",
+  "summary": "arXiv:2607.16062v1 Announce Type: cross Abstract: Model merging is promoted as a substitute for joint multi-task training, yet in the reinforcement-learning setting this substitution is essentially...",
+  "description": "arXiv:2607.16062v1 Announce Type: cross Abstract: Model merging is promoted as a substitute for joint multi-task training, yet in the reinforcement-learning setting this substitution is essentially never tested against the baseline it claims to replace: methods merge independently released agents precisely because a joint model is unavailable. We build the missing comparison. Training difficult...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16062"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16062"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "S. Aaron McClendon"
+}

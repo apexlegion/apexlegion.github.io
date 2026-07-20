@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2606-16624v2",
+  "name": "GA-VINO: A Geometry-Aware Variational Physics-informed Neural Operator for Mindlin-Reissner Plates",
+  "summary": "arXiv:2606.16624v2 Announce Type: replace Abstract: Plate and shell structures are widely used in engineering fields. Rapid response prediction for such structures under complex geometries, heterog...",
+  "description": "arXiv:2606.16624v2 Announce Type: replace Abstract: Plate and shell structures are widely used in engineering fields. Rapid response prediction for such structures under complex geometries, heterogeneous materials, and varying loads is important for engineering design, but conventional numerical methods usually require repeated modeling and solution when the physical configuration changes. To a...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2606.16624"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2606.16624"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Siqi Wang, Daobo Sun, Yizheng Wang, Yilong Zhang, Yabin Jin, Xiaoying Zhuang, Timon Rabczuk"
+}

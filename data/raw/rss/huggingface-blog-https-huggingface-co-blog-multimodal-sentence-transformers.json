@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/multimodal-sentence-transformers",
-  "fetchedAt": "2026-07-19T05:30:09.544Z",
+  "fetchedAt": "2026-07-20T05:47:03.301Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/multimodal-sentence-transformers",
     "title": "Multimodal Embedding &amp; Reranker Models with Sentence Transformers",

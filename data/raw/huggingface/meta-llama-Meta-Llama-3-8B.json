@@ -1,7 +1,7 @@
 {
   "source": "huggingface",
   "sourceId": "meta-llama/Meta-Llama-3-8B",
-  "fetchedAt": "2026-07-19T05:30:05.005Z",
+  "fetchedAt": "2026-07-20T05:47:01.152Z",
   "data": {
     "_id": "661f97d48e7f3438386f755d",
     "id": "meta-llama/Meta-Llama-3-8B",
@@ -24,8 +24,8 @@
       "endpoints_compatible",
       "region:us"
     ],
-    "downloads": 1350974,
-    "likes": 6606,
+    "downloads": 1333961,
+    "likes": 6609,
     "modelId": "meta-llama/Meta-Llama-3-8B",
     "author": "meta-llama",
     "sha": "8cde5ca8380496c9a6cc7ef3a8b46a0372a1d920",
@@ -144,10 +144,10 @@
     ],
     "spaces": [
       "hugging-apps/ardy",
-      "logikon/open_cot_leaderboard",
       "featherless-ai/try-this-model",
       "eduagarcia/open_pt_llm_leaderboard",
       "mlabonne/AutoMerger",
+      "logikon/open_cot_leaderboard",
       "KBaba7/Quant",
       "Omnibus/Chatbot-Compare",
       "AIM-Harvard/rabbits-leaderboard",

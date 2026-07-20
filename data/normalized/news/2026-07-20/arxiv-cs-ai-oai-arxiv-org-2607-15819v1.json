@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-15819v1",
+  "name": "In-context learning of closed form solution to simple linear regression task using transformer with linear self-attention",
+  "summary": "arXiv:2607.15819v1 Announce Type: cross Abstract: In-context learning is a remarkable property of transformers and has recently received a lot of interest. In many studies of in-context learning, i...",
+  "description": "arXiv:2607.15819v1 Announce Type: cross Abstract: In-context learning is a remarkable property of transformers and has recently received a lot of interest. In many studies of in-context learning, it has been shown that transformers are capable of implementing solver for linear and non-linear regression problems, in which the most of them implement gradient descent algorithm. However, it is stil...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.15819"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.15819"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Katsuyuki Hagiwara"
+}

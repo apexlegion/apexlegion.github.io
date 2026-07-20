@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-15263v2",
+  "name": "Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents",
+  "summary": "arXiv:2607.15263v2 Announce Type: replace-cross Abstract: Security-agent evaluations commonly measure peak offensive capability under generous inference budgets, emphasizing vulnerability discovery...",
+  "description": "arXiv:2607.15263v2 Announce Type: replace-cross Abstract: Security-agent evaluations commonly measure peak offensive capability under generous inference budgets, emphasizing vulnerability discovery, exploit development, penetration testing, and CTF completion. Such measurements are useful but incomplete: in operational security, every reasoning step, tool call, telemetry query, and enrichment r...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.15263"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.15263"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Paul Kassianik, Blaine Nelson, Yaron Singer"
+}

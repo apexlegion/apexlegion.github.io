@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2604-13780v2",
+  "name": "Soft $Q(\\lambda)$: A multi-step off-policy method for entropy regularised reinforcement learning using eligibility traces",
+  "summary": "arXiv:2604.13780v2 Announce Type: replace-cross Abstract: Soft Q-learning has emerged as a versatile model-free method for entropy-regularised reinforcement learning, optimising for returns augment...",
+  "description": "arXiv:2604.13780v2 Announce Type: replace-cross Abstract: Soft Q-learning has emerged as a versatile model-free method for entropy-regularised reinforcement learning, optimising for returns augmented with a penalty on the divergence from a reference policy. Despite its success, the multi-step extensions of soft Q-learning remain relatively unexplored and limited to on-policy action sampling und...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2604.13780"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2604.13780"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Pranav Mahajan, Ben Seymour"
+}

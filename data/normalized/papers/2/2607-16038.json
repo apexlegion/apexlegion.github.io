@@ -1,0 +1,45 @@
+{
+  "type": "paper",
+  "slug": "2607-16038",
+  "name": "SciForge: An AI-Native, Multimodal Workbench for Scientific Discovery",
+  "summary": "Scientific work increasingly spans heterogeneous artifacts -- papers, code, datasets, scientific file formats, model outputs, figures, manuscripts, and team decisions -- yet general-purpose AI assi...",
+  "description": "Scientific work increasingly spans heterogeneous artifacts -- papers, code, datasets, scientific file formats, model outputs, figures, manuscripts, and team decisions -- yet general-purpose AI assistants rarely preserve these objects as a coherent, auditable research state. We present SciForge, a multimodal research-native AI workbench that reserves the graphical interface for human judgment while search, parsing, model routing, workflow execution, plotting, writing, and presentation generation run as modular agent-accessible services. SciForge is built around five pillars: (i) \\emph{goal-s...",
+  "tags": [
+    "arxiv",
+    "cs.AI"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.16038v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-17",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16038v1"
+    }
+  ],
+  "authors": [
+    "SciForge Team",
+    "Zhangyang Gao",
+    "Minghao Fang",
+    "Yifei Liu",
+    "Hanhui Yang",
+    "Xinyu Gu",
+    "Shixiang Tang",
+    "Siqi Sun",
+    "Lei Bai",
+    "Cheng Tan",
+    "Mengdi Liu",
+    "Hao Wu",
+    "Shuizhou Chen"
+  ],
+  "paperId": "2607.16038",
+  "category": "cs.AI",
+  "publishedAt": "2026-07-17",
+  "abstract": "Scientific work increasingly spans heterogeneous artifacts -- papers, code, datasets, scientific file formats, model outputs, figures, manuscripts, and team decisions -- yet general-purpose AI assistants rarely preserve these objects as a coherent, auditable research state. We present SciForge, a multimodal research-native AI workbench that reserves the graphical interface for human judgment while search, parsing, model routing, workflow execution, plotting, writing, and presentation generation run as modular agent-accessible services. SciForge is built around five pillars: (i) \\emph{goal-s..."
+}

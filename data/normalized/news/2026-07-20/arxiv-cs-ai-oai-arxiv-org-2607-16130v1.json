@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16130v1",
+  "name": "A Methodology for Auditable Trustworthiness Levels in AI Lifecycle Governance",
+  "summary": "arXiv:2607.16130v1 Announce Type: cross Abstract: AI governance increasingly requires judgments about whether an AI system remains adequately trustworthy over time, whether observed changes are tol...",
+  "description": "arXiv:2607.16130v1 Announce Type: cross Abstract: AI governance increasingly requires judgments about whether an AI system remains adequately trustworthy over time, whether observed changes are tolerable, and how such judgments should be documented in a transparent and contestable way. Yet existing work on AI trustworthiness remains either too high-level to support lifecycle monitoring and reas...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16130"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16130"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Andrea Ferrario"
+}

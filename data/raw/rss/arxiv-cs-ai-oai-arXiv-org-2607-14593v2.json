@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.14593v2",
+  "fetchedAt": "2026-07-20T05:47:03.324Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.14593v2",
+    "title": "Memory-Driven Self-Disclosure and Relational Turning Points: A Longitudinal Multimodal Study of Human-AI Interaction",
+    "link": "https://arxiv.org/abs/2607.14593",
+    "description": "arXiv:2607.14593v2 Announce Type: replace-cross Abstract: As conversational AI systems are designed for repeated use, a central question is how a series of interactions becomes a relationship. We present a longitudinal multimodal study of a memory-augmented conversational agent (24 participants x 10 sessions), in which participants rated five relational constructs -- familiarity, self-disclosure, perceived memory, conversational quality, and enjoyment -- after each session. Two complementary dynamics emerge. First, conversational quality strongly shapes how enjoyable a session feels in the moment but does not carry forward across sessions, whereas perceived memory is relationally conditioned -- predicted by prior relational state rather than reflecting system capability alone -- and it shapes later enjoyment indirectly, via subsequent self-disclosure. Second, relationships are punctuated by discrete turning points -- crashes and surges -- that are partially traceable in multimodal behavior and open different intervention windows: surges are more behaviorally detectable in the moment, enjoyment surges persist more reliably than enjoyment crashes recover, and some crashes are better forecast from person-specific behavioral drift than detected after they have already occurred. Together, the findings suggest that longitudinal human-AI relationships are built through both slow accumulation and abrupt turning points.",
+    "publishedAt": "2026-07-20",
+    "author": "Ryuichi Sumida, Mao Saeki, Masaki Eguchi, Sadahiro Yoshikawa, Koji Inoue, Tatsuya Kawahara, Yoichi Matsuyama",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

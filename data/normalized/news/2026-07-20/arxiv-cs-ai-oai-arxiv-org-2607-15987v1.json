@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-15987v1",
+  "name": "A Formally Grounded ODRL Evaluator: Implementation and Comparison",
+  "summary": "arXiv:2607.15987v1 Announce Type: new Abstract: The ODRL policy language is emerging as the de-facto standard for policy modelling data access and usage preferences, AI governance policies and data...",
+  "description": "arXiv:2607.15987v1 Announce Type: new Abstract: The ODRL policy language is emerging as the de-facto standard for policy modelling data access and usage preferences, AI governance policies and data workflows in European dataspaces. The current standard has no mathematical formal semantics to describe how a system should implement policy evaluation. This has resulted in a variety of systems and...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.15987"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.15987"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Jaime Osvaldo Salas, Paolo Pareti, Adeel Aslam, Christopher Maidens, George Konstantinidis"
+}

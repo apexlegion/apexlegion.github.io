@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2511-15927v4",
+  "name": "DiffuMamba: High-Throughput Diffusion LMs with Mamba Backbone",
+  "summary": "arXiv:2511.15927v4 Announce Type: replace-cross Abstract: Diffusion language models (DLMs) have emerged as a promising alternative to autoregressive (AR) generation, yet their reliance on Transform...",
+  "description": "arXiv:2511.15927v4 Announce Type: replace-cross Abstract: Diffusion language models (DLMs) have emerged as a promising alternative to autoregressive (AR) generation, yet their reliance on Transformer backbones limits inference efficiency due to quadratic attention or KV-cache overhead. We introduce DiffuMamba, a masked diffusion language model built on a bidirectional Mamba backbone that combin...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2511.15927"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2511.15927"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Vaibhav Singh, Oleksiy Ostapenko, Pierre-Andr\\'e No\\\"el, Eugene Belilovsky, Torsten Scholak"
+}

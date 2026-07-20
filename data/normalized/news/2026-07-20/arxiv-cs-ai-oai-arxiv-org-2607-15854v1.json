@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-15854v1",
+  "name": "Agentic Synthesis against Counterexample-Supplemented Sketches",
+  "summary": "arXiv:2607.15854v1 Announce Type: cross Abstract: Coding agents can fix a failing example without preserving the domain rule that made it fail, so later generations can repeat the same plausible mi...",
+  "description": "arXiv:2607.15854v1 Announce Type: cross Abstract: Coding agents can fix a failing example without preserving the domain rule that made it fail, so later generations can repeat the same plausible mistake. We present agentic synthesis against counterexample-supplemented sketches, a repository-native method for systems whose governing policy is discovered during implementation. A human starts with...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.15854"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.15854"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Muness Castle, Eric Rubeck"
+}

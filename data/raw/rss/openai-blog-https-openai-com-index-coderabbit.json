@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "openai-blog:https://openai.com/index/coderabbit",
-  "fetchedAt": "2026-07-19T05:30:09.476Z",
+  "fetchedAt": "2026-07-20T05:47:03.259Z",
   "data": {
     "guid": "openai-blog:https://openai.com/index/coderabbit",
     "title": "Shipping code faster with o3, o4-mini, and GPT-4.1",

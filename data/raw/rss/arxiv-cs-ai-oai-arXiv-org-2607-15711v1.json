@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.15711v1",
+  "fetchedAt": "2026-07-20T05:47:03.324Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.15711v1",
+    "title": "Efficient Difficulty-Aware Dynamic Routing for Diffusion-Based Real-World Image Super-Resolution",
+    "link": "https://arxiv.org/abs/2607.15711",
+    "description": "arXiv:2607.15711v1 Announce Type: cross Abstract: Diffusion-based methods have achieved impressive performance in real-world image super-resolution (Real-ISR) by leveraging large pre-trained stable diffusion (SD) models as powerful generative priors. However, these methods still face two key limitations. First, existing SD-based one-step and multi-step Real-ISR approaches adopt a unified processing paradigm for all input samples, ignoring the varying restoration difficulty across images. Second, the aggressive resolution reduction of the VAE in SD models (e.g., 8x downsampling) leads to irreversible loss of fine-scale details, which cannot be recovered by the subsequent diffusion process. To address these limitations, we propose a Difficulty-aware Dynamic Routing (DDR) strategy that overcomes the rigid, one-size-fits-all processing paradigm. Specifically, we first design a difficulty estimator to predict the restoration cost of each input image, enabling automatic assignment to a network of appropriate capacity. Then, we construct a set of Real-ISR networks with varying model capacities by modulating the spatial downsampling ratio of the VAE in the SD backbone, thereby preserving more high-frequency information for challenging cases while maintaining efficiency for simpler inputs. Extensive experiments have demonstrated the superior efficiency and effectiveness of the proposed model compared to recent state-of-the-art methods.",
+    "publishedAt": "2026-07-20",
+    "author": "Xue Wu, Kang Zhao, Kafeng Wang, Jianfei Chen, Jingwei Xin, Nannan Wang, Xinbo Gao",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

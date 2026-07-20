@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.15590v1",
+  "fetchedAt": "2026-07-20T05:47:03.324Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.15590v1",
+    "title": "Field-Aware RankMixer with Dual-Stream Bilinear Fusion for the Tencent UNI-REC Challenge",
+    "link": "https://arxiv.org/abs/2607.15590",
+    "description": "arXiv:2607.15590v1 Announce Type: cross Abstract: This paper presents our solution to the KDD Cup 2026 Tencent UNIREC Challenge. The task requires joint modeling of multi-domain user behavior sequences and non-sequential multi-field features for target-ad pCVR prediction. We develop a Field-Aware RankMixer (FA-RankMixer) with dual-stream bilinear fusion. The model first applies target-aware DIN modules to extract user interests from multiple behavior domains. It also models recent and earlier interests separately for the longest behavior sequence. The model then forms semantic tokens based on feature fields and behavior domains and uses RankMixer blocks for cross-token interaction. A shallow MLP stream complements the deep RankMixer stream, and a group-wise bilinear module fuses their representations. Our final solution ranks ninth on the official leaderboard. Our code is available at https://github.com/PixelCookie-zyf/TAAC-2026-SeRankMixer.",
+    "publishedAt": "2026-07-20",
+    "author": "Yufeng Zhang, Zhengqi Xu, Jiajun Cui",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

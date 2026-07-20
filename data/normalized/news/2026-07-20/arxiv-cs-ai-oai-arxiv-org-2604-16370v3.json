@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2604-16370v3",
+  "name": "Brain-CLIPLM: Semantic Compression for EEG-to-Text Decoding",
+  "summary": "arXiv:2604.16370v3 Announce Type: replace-cross Abstract: Decoding natural language from non-invasive electroencephalography (EEG) remains constrained by low signal-to-noise ratio and limited infor...",
+  "description": "arXiv:2604.16370v3 Announce Type: replace-cross Abstract: Decoding natural language from non-invasive electroencephalography (EEG) remains constrained by low signal-to-noise ratio and limited information bandwidth. This raises a central question: can sentence-level language be reliably recovered from such signals? Under realistic information constraints, this direct-recovery assumption may be t...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2604.16370"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2604.16370"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z",
+  "author": "Xiaoli Yang, Huiyuan Tian, Yurui Li, Jianyu Zhang, Shijian Li, Gang Pan"
+}

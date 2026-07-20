@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2604.13780v2",
+  "fetchedAt": "2026-07-20T05:47:03.324Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2604.13780v2",
+    "title": "Soft $Q(\\lambda)$: A multi-step off-policy method for entropy regularised reinforcement learning using eligibility traces",
+    "link": "https://arxiv.org/abs/2604.13780",
+    "description": "arXiv:2604.13780v2 Announce Type: replace-cross Abstract: Soft Q-learning has emerged as a versatile model-free method for entropy-regularised reinforcement learning, optimising for returns augmented with a penalty on the divergence from a reference policy. Despite its success, the multi-step extensions of soft Q-learning remain relatively unexplored and limited to on-policy action sampling under the Boltzmann policy. In this brief research note, we first present a formal $n$-step formulation for soft Q-learning and then extend this framework to the fully off-policy case by introducing a novel Soft Tree Backup operator. Finally, we unify these developments into Soft $Q(\\lambda)$, an elegant online, off-policy, eligibility trace framework that allows for efficient credit assignment under arbitrary behaviour policies. Our derivations propose a model-free method for learning entropy-regularised value functions that can be utilised in future empirical experiments.",
+    "publishedAt": "2026-07-20",
+    "author": "Pranav Mahajan, Ben Seymour",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

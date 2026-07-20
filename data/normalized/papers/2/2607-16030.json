@@ -1,0 +1,37 @@
+{
+  "type": "paper",
+  "slug": "2607-16030",
+  "name": "Rethinking Quantum Continual Learning with Quantum Fisher Information",
+  "summary": "Quantum continual learning aims to train quantum models on sequential tasks without losing previously learned knowledge. However, variational quantum classifiers (VQCs) are prone to catastrophic fo...",
+  "description": "Quantum continual learning aims to train quantum models on sequential tasks without losing previously learned knowledge. However, variational quantum classifiers (VQCs) are prone to catastrophic forgetting under nonstationary task distributions. We propose quantum elastic weight consolidation (QEWC), a quantum Fisher information (QFI)-informed regularization method for mitigating forgetting. Unlike conventional elastic weight consolidation based on classical Fisher information (CFI), which measures parameter importance through measurement-dependent output statistics, QEWC uses QFI to quanti...",
+  "tags": [
+    "arxiv",
+    "quant-ph"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.16030v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-17",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category quant-ph.",
+      "href": "https://arxiv.org/abs/2607.16030v1"
+    }
+  ],
+  "authors": [
+    "Yu-Chao Hsu",
+    "Yu-Cheng Lin",
+    "Tai-Yue Li",
+    "Nan-Yow Chen",
+    "En-Jui Kuo"
+  ],
+  "paperId": "2607.16030",
+  "category": "quant-ph",
+  "publishedAt": "2026-07-17",
+  "abstract": "Quantum continual learning aims to train quantum models on sequential tasks without losing previously learned knowledge. However, variational quantum classifiers (VQCs) are prone to catastrophic forgetting under nonstationary task distributions. We propose quantum elastic weight consolidation (QEWC), a quantum Fisher information (QFI)-informed regularization method for mitigating forgetting. Unlike conventional elastic weight consolidation based on classical Fisher information (CFI), which measures parameter importance through measurement-dependent output statistics, QEWC uses QFI to quanti..."
+}
