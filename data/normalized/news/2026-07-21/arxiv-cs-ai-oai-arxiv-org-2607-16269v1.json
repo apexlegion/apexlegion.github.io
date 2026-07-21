@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16269v1",
+  "name": "From Intent to Infrastructure: LLM-Driven Agent Compilers for ISAC Networks",
+  "summary": "arXiv:2607.16269v1 Announce Type: cross Abstract: Integrated sensing and communications (ISAC) is moving from proof-of-concept demonstrations to system-level deployment in sixth-generation (6G) net...",
+  "description": "arXiv:2607.16269v1 Announce Type: cross Abstract: Integrated sensing and communications (ISAC) is moving from proof-of-concept demonstrations to system-level deployment in sixth-generation (6G) networks. Because sensing and communication share hardware, spectrum, and waveform resources, ISAC design now involves many tightly coupled choices, including waveform selection, sensing algorithm setup,...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16269"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16269"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Lijie Zheng, Xudong Zhong, Baoquan Ren, Xiangwu Gong, Xinghui Zhu, Ji He"
+}

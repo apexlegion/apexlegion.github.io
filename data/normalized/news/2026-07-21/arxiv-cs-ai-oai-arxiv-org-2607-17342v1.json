@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-17342v1",
+  "name": "STAR: Skeletal Token Alignment and Rearrangement for Interaction Recognition",
+  "summary": "arXiv:2607.17342v1 Announce Type: cross Abstract: Understanding physical human-robot and human-human interactions is a challenging yet emerging topic in 3D vision. While most existing methods rely...",
+  "description": "arXiv:2607.17342v1 Announce Type: cross Abstract: Understanding physical human-robot and human-human interactions is a challenging yet emerging topic in 3D vision. While most existing methods rely on skeleton sequences--effective in low-light and privacy-sensitive environment--they face two major challenges: 1) learning and effectively exploiting interaction cues from skeletal data, and 2) comp...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.17342"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.17342"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Yuhang Wen, Mengyuan Liu, Zixuan Tang, Junsong Yuan, Sirui Li, Beichen Ding"
+}

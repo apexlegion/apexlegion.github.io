@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16317v1",
+  "name": "Monte Carlo Dropout Uncertainty and Entropy-Thresholded Selective Prediction for Architecture-Agnostic Brain Tumor MRI Triage",
+  "summary": "arXiv:2607.16317v1 Announce Type: cross Abstract: Deep networks now subtype brain tumors on MRI about as well as specialist readers, yet accuracy is not what keeps them out of the clinic. What matt...",
+  "description": "arXiv:2607.16317v1 Announce Type: cross Abstract: Deep networks now subtype brain tumors on MRI about as well as specialist readers, yet accuracy is not what keeps them out of the clinic. What matters at the point of care is whether a model's confidence can be trusted to flag the cases it is likely to misclassify and defer them to a human. Deterministic estimates cannot: an auxiliary confidence...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16317"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16317"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Medhansh Sharma"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16203v1",
+  "name": "DocOCR-Eval: A Correction-Based Framework for OCR Tool Selection Without Ground Truth",
+  "summary": "arXiv:2607.16203v1 Announce Type: cross Abstract: Document parsing is a foundational step for document understanding tasks such as visual question answering and key information extraction, as it tr...",
+  "description": "arXiv:2607.16203v1 Announce Type: cross Abstract: Document parsing is a foundational step for document understanding tasks such as visual question answering and key information extraction, as it transforms unstructured scanned images into structured representations by extracting textual, visual, and layout information. While numerous Optical Character Recognition (OCR) engines and multimodal la...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16203"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16203"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Zihan Xu, Puzhen Wu, Lawrence Chun Man Lau, Wei Liu, Sirui Li, Yifan Peng, Yihao Ding"
+}

@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/local-reachy-mini-conversation",
-  "fetchedAt": "2026-07-20T05:47:03.301Z",
+  "fetchedAt": "2026-07-21T05:28:09.364Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/local-reachy-mini-conversation",
     "title": "Reachy Mini goes fully local",

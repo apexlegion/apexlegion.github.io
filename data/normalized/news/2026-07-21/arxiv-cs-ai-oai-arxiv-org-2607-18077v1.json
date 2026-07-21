@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-18077v1",
+  "name": "Generalised Bellman recurrence and three dualities in sequential decision-making",
+  "summary": "arXiv:2607.18077v1 Announce Type: cross Abstract: What gives the Bellman equation its form? We show that the recursive properties of optimal value functions follow from three conditions: that the d...",
+  "description": "arXiv:2607.18077v1 Announce Type: cross Abstract: What gives the Bellman equation its form? We show that the recursive properties of optimal value functions follow from three conditions: that the dynamics decomposes through sufficient statistics, that the return decomposes recursively, and that the aggregation of uncertainty is compatible with both. When all three conditions hold on a common st...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.18077"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.18077"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Fernando E. Rosas, David Hyland, Daniel Polani"
+}

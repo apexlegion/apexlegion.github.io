@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.16597v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.16597v1",
+    "title": "FST.ai 2.5: Explainable and Uncertainty-Aware AI for Olympic and Para-Taekwondo Decision Support, Athlete Digital Twins, and Federation-Scale Analytics",
+    "link": "https://arxiv.org/abs/2607.16597",
+    "description": "arXiv:2607.16597v1 Announce Type: new Abstract: The rapid digitalisation of elite sport has created new opportunities for integrating artificial intelligence (AI), performance analytics, and decision-support systems into athlete development and competition management. However, existing solutions remain fragmented, typically addressing isolated tasks such as performance analysis, athlete monitoring, or referee support. This paper presents \\textbf{FST$\\cdot$ai~2.5}, an explainable, uncertainty-aware, and secure AI framework for Olympic and Para-Taekwondo. \\textbf{FST$\\cdot$ai~2.5} introduces a unified digital ecosystem integrating athlete intelligence, competition analytics, federation-scale data management, AI-assisted decision support, athlete and event digital twins, explainable performance indicators, and adaptive training recommendations. The framework supports World Taekwondo (WT), Member National Associations (MNAs), coaches, referees, analysts, and athletes through transparent, secure, and federation-aware governance. By combining multi-source competition data, athlete-performance information, and contextual evidence, \\textbf{FST$\\cdot$ai~2.5} provides tactical diagnostics, longitudinal athlete monitoring, performance forecasting, personalised development planning, and federation-wide benchmarking using explainable and uncertainty-aware AI. Prototype deployments demonstrate the feasibility of the proposed framework. Although developed for Olympic and Para-Taekwondo, the methodology is broadly applicable to explainable AI, digital twins, and trustworthy decision support in combat sports and other high-performance sporting environments.",
+    "publishedAt": "2026-07-21",
+    "author": "Keivan Shariatmadar, Ahmad Osman, Ramin Rey",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

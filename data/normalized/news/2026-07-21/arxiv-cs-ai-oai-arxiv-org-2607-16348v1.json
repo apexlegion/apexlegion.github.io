@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16348v1",
+  "name": "Boundary-Seeking GAN-Augmented TabTransformer for Adversarially Robust Intrusion Detection",
+  "summary": "arXiv:2607.16348v1 Announce Type: cross Abstract: Machine learning-based intrusion detection systems (IDSs) often suffer from class imbalance and vulnerability to adversarial attacks, leading to de...",
+  "description": "arXiv:2607.16348v1 Announce Type: cross Abstract: Machine learning-based intrusion detection systems (IDSs) often suffer from class imbalance and vulnerability to adversarial attacks, leading to degraded detection performance and reduced robustness. This study proposes a TabTransformer framework augmented by the Boundary-Seeking Generative Adversarial Network (BGAN) for flow-based intrusion det...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16348"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16348"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Raihan Sultan Pasha Basuki, Aliyah Kurniasih"
+}

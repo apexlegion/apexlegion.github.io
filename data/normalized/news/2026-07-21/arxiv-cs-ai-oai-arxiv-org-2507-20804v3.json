@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2507-20804v3",
+  "name": "MMGraphRAG: Bridging Vision and Language with Interpretable Multimodal Knowledge Graphs",
+  "summary": "arXiv:2507.20804v3 Announce Type: replace Abstract: Large Language Models (LLMs) suffer from hallucinations due to their static parametric knowledge. Retrieval-Augmented Generation (RAG) and GraphR...",
+  "description": "arXiv:2507.20804v3 Announce Type: replace Abstract: Large Language Models (LLMs) suffer from hallucinations due to their static parametric knowledge. Retrieval-Augmented Generation (RAG) and GraphRAG mitigate this issue by incorporating external knowledge and structured reasoning over knowledge graphs (KGs). However, existing approaches remain largely text-centric, as constructing fine-grained...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2507.20804"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2507.20804"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Xueyao Wan, Hang Yu"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16295v1",
+  "name": "Emergent Hierarchical Monosemantic Neurons from the Group-Contrastive Forward-Forward Algorithm",
+  "summary": "arXiv:2607.16295v1 Announce Type: cross Abstract: Mechanistic interpretability has made significant strides in understanding neural network representations, with sparse dictionary learning (SDL) me...",
+  "description": "arXiv:2607.16295v1 Announce Type: cross Abstract: Mechanistic interpretability has made significant strides in understanding neural network representations, with sparse dictionary learning (SDL) methods, most prominently sparse autoencoders, as a central paradigm. However, recent work has reported several limitations of this paradigm: SDL objectives are non-identifiable; SDL methods rely heavil...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16295"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16295"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Yiming Tang, Qinglin Qi, Zhaoqian Yao, Harshvardhan Saini, Dianbo Liu"
+}

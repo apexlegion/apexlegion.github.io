@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2507-05515v3",
+  "name": "LEGO Co-builder: Exploring Fine-Grained Vision-Language Modeling for Multimodal LEGO Assembly Assistants",
+  "summary": "arXiv:2507.05515v3 Announce Type: replace Abstract: Vision-language models (VLMs) are facing the challenges of understanding and following multimodal assembly instructions, particularly when fine-g...",
+  "description": "arXiv:2507.05515v3 Announce Type: replace Abstract: Vision-language models (VLMs) are facing the challenges of understanding and following multimodal assembly instructions, particularly when fine-grained spatial reasoning and precise object state detection are required. In this work, we explore LEGO Co-builder, a hybrid benchmark combining real-world LEGO assembly logic with programmatically ge...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2507.05515"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2507.05515"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Haochen Huang, Yue Su, Xin Sun, Moonisa Ahsan, Mohammad Aliannejadi, Irene Viola, Zhaochun Ren, Chuang Yu, Aneta Lisowska, Artem Belopolsky, Koen Hindriks, Pablo Cesar, Junxiao Wang, Jiahuan Pei"
+}

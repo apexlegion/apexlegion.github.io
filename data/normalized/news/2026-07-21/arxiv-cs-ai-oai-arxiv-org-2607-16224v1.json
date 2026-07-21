@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16224v1",
+  "name": "International Agreements to Limit Frontier AI: Objectives and Exit",
+  "summary": "arXiv:2607.16224v1 Announce Type: cross Abstract: An international agreement to limit AI development could be crucial to mitigate risks from AI. However, it remains unclear which conditions should...",
+  "description": "arXiv:2607.16224v1 Announce Type: cross Abstract: An international agreement to limit AI development could be crucial to mitigate risks from AI. However, it remains unclear which conditions should determine when the limiting measures are relaxed. We survey existing international agreements, outline what properties appropriate conditions should satisfy, list possible conditions, and finally give...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16224"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16224"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Lennart Finke"
+}

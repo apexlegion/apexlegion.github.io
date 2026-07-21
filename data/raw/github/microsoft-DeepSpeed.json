@@ -1,7 +1,7 @@
 {
   "source": "github",
   "sourceId": "microsoft/DeepSpeed",
-  "fetchedAt": "2026-07-20T05:47:00.055Z",
+  "fetchedAt": "2026-07-21T05:28:05.408Z",
   "data": {
     "id": 235860204,
     "node_id": "MDEwOlJlcG9zaXRvcnkyMzU4NjAyMDQ=",
@@ -70,16 +70,16 @@
     "releases_url": "https://api.github.com/repos/deepspeedai/DeepSpeed/releases{/id}",
     "deployments_url": "https://api.github.com/repos/deepspeedai/DeepSpeed/deployments",
     "created_at": "2020-01-23T18:35:18Z",
-    "updated_at": "2026-07-20T03:07:11Z",
-    "pushed_at": "2026-07-19T18:07:41Z",
+    "updated_at": "2026-07-21T03:07:06Z",
+    "pushed_at": "2026-07-21T00:46:40Z",
     "git_url": "git://github.com/deepspeedai/DeepSpeed.git",
     "ssh_url": "git@github.com:deepspeedai/DeepSpeed.git",
     "clone_url": "https://github.com/deepspeedai/DeepSpeed.git",
     "svn_url": "https://github.com/deepspeedai/DeepSpeed",
     "homepage": "https://www.deepspeed.ai/",
-    "size": 247062,
-    "stargazers_count": 42750,
-    "watchers_count": 42750,
+    "size": 247163,
+    "stargazers_count": 42749,
+    "watchers_count": 42749,
     "language": "Python",
     "has_issues": true,
     "has_projects": true,
@@ -87,11 +87,11 @@
     "has_wiki": false,
     "has_pages": true,
     "has_discussions": true,
-    "forks_count": 4894,
+    "forks_count": 4898,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 1303,
+    "open_issues_count": 1299,
     "license": {
       "key": "apache-2.0",
       "name": "Apache License 2.0",
@@ -120,9 +120,9 @@
       "zero"
     ],
     "visibility": "public",
-    "forks": 4894,
-    "open_issues": 1303,
-    "watchers": 42750,
+    "forks": 4898,
+    "open_issues": 1299,
+    "watchers": 42749,
     "default_branch": "master",
     "permissions": {
       "admin": false,
@@ -154,7 +154,7 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "network_count": 4894,
+    "network_count": 4898,
     "subscribers_count": 360
   }
 }

@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2606.11275v2",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2606.11275v2",
+    "title": "RoVE: Rotary Value Embeddings Attention for Relative Position-dependent Value Pathways",
+    "link": "https://arxiv.org/abs/2606.11275",
+    "description": "arXiv:2606.11275v2 Announce Type: replace-cross Abstract: Rotary Position Embeddings (RoPE) make attention scores position-relative but leave the value pathway position-blind: the message sent by a value token is the same regardless of its distance from the query. We propose RoVE, a parameter-free modification that makes values position-sensitive by rotating them simultaneously with keys, and show that it turns RoPE attention into attentive convolution. This new perspective unifies several independent formulations of the same operation across computer vision, robotics, and modern LLM architectures. Trained 124M and 354M GPT-2 models show consistent empirical gains over RoPE on few-shot in-context learning, out-of-distribution perplexity, and long-context retrieval, with the clearest improvements on tasks that require long-range aggregation.",
+    "publishedAt": "2026-07-21",
+    "author": "Alejandro Garc\\'ia-Castellanos, Maurice Weiler, Erik J Bekkers",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

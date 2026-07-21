@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16476v1",
+  "name": "When to Use Which? Benchmarking Optimisers for Configurable Systems under Varying Budgets",
+  "summary": "arXiv:2607.16476v1 Announce Type: cross Abstract: Software configuration tuning is crucial for optimising system performance, and various optimisers have emerged over the last decade. Yet, the time...",
+  "description": "arXiv:2607.16476v1 Announce Type: cross Abstract: Software configuration tuning is crucial for optimising system performance, and various optimisers have emerged over the last decade. Yet, the time required during the tuning process may vary across systems. In some systems (e.g., PostgreSQL), it may take a few minutes to measure a configuration, whereas in some others (e.g., MariaDB), it can ta...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16476"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16476"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Chao Jiang, Yulong Ye, Tao Chen, Miqing Li"
+}

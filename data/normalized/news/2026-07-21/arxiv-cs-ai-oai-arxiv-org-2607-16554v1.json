@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16554v1",
+  "name": "Capacity and Redundancy Trade-offs in Multi-Task Learning",
+  "summary": "arXiv:2607.16554v1 Announce Type: cross Abstract: In multi-task learning (MTL) negative transfer is often considered as an optimization artifact, but it can also be viewed as a consequence of limit...",
+  "description": "arXiv:2607.16554v1 Announce Type: cross Abstract: In multi-task learning (MTL) negative transfer is often considered as an optimization artifact, but it can also be viewed as a consequence of limited shared capacity and weak task redundancy. We investigate this effect through a Capacity--Redundancy (CR) identity that decomposes the sum of per-task predictive informations into joint predictive i...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16554"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16554"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Asif Khan"
+}

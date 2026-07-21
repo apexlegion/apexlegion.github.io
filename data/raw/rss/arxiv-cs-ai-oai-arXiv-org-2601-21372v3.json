@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2601.21372v3",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2601.21372v3",
+    "title": "NEMO: Execution-Aware Optimization Modeling via Autonomous Coding Agents",
+    "link": "https://arxiv.org/abs/2601.21372",
+    "description": "arXiv:2601.21372v3 Announce Type: replace Abstract: We present NEMO, a system that translates Natural-language descriptions of decision problems into formal Executable Mathematical Optimization implementations using autonomous coding agents (ACAs). Existing approaches rely on specialized large language models (LLMs) or bespoke task-specific agents that are often brittle and frequently generate syntactically invalid or non-executable code. NEMO instead treats ACAs as a first-class abstraction analogous to API-based interaction with LLMs; their sandboxed execution guarantees code is executable by construction and supports automated validation and repair. We introduce novel coordination patterns including asymmetric validation loops between independently generated optimizer and simulator implementations, external memory for experience reuse, and robustness enhancements via minimum Bayes risk (MBR) decoding and self-consistency. Across nine established optimization benchmarks, NEMO achieves state-of-the-art performance on the majority of tasks with substantial margins on several datasets, demonstrating the power of execution-aware agentic architectures for automated optimization modeling.",
+    "publishedAt": "2026-07-21",
+    "author": "Yang Song, Anoushka Vyas, Zirui Wei, Sina Khoshfetrat Pakazad, Henrik Ohlsson, Graham Neubig",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

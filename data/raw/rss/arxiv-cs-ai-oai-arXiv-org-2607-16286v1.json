@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.16286v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.16286v1",
+    "title": "Depth Estimators Are Implicit Neural Fields for 3D Scene Geometry Inpainting and Reconstruction",
+    "link": "https://arxiv.org/abs/2607.16286",
+    "description": "arXiv:2607.16286v1 Announce Type: cross Abstract: The 3D geometry of real-world scene data is often incomplete. Mainstream methods use depth estimators to inpaint missing structure. However, their prediction results can be inconsistent with observed geometry, or unreliable on out-of-distribution data. To solve these problems, we propose Neural Depth Field (NDF). Our key insight is that a depth estimator can also be a scene-level implicit field. As an estimator, it adapts to the target domain by learning observed depth data. As an implicit field, it fits the existing geometry to maintain consistency. Under this view, NDF addresses both problems through a single test-time optimization. Experiments show that NDF produces high-fidelity and globally consistent geometry across diverse scene data, ranging from indoor scans to satellite imagery. It reduces cross-view inconsistency by 63.3\\% and improves inpainting accuracy by 23.1\\%, achieving state-of-the-art performance in 3D scene geometry inpainting. The code is available at: https://github.com/Shadow-Dream/Neural-Depth-Field.",
+    "publishedAt": "2026-07-21",
+    "author": "Yingzhao Jian, Zihao Lin, Hehe Fan",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

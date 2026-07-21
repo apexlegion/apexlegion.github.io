@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2606.10135v3",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2606.10135v3",
+    "title": "BiWM: Advancing Open-Source Interactive Video World Models with Bidirectional Autoregression",
+    "link": "https://arxiv.org/abs/2606.10135",
+    "description": "arXiv:2606.10135v3 Announce Type: replace-cross Abstract: Interactive video world models commonly convert bidirectional video generators into causal autoregressive systems through control fine-tuning, autoregressive training, causal initialization, and few-step distillation. This pipeline is costly, while frozen causal histories accumulate errors that degrade long-horizon fidelity and controllability. We present BiWM, the first open-source full-stack training framework for bidirectional autoregressive video world models. BiWM retains full attention within each generated chunk and requires only two stages: camera/action-control fine-tuning and few-step Distribution Matching Distillation (DMD). Both stages converge within a few hundred optimizer steps on 8 H200 GPUs. The framework supports Wan2.1-T2V-1.3B, Wan2.2-TI2V-5B, HunyuanVideo-1.5-TI2V-8B, and LTX-2.3-22B, together with real-world camera control, pluggable long-history compression, and optional low-bit deployment. Supervised and forward-KL anchors mitigate DMD mode collapse and preserve scene dynamics. BiWM provides a compact, reproducible path from pretrained bidirectional video models to interactive, controllable, and efficient world models.",
+    "publishedAt": "2026-07-21",
+    "author": "Shaohao Rui, Xiaofeng Mao, Zhanyu Zhang, Peijia Lin, Yansong Zhu, Yibo Zhang, Haibin Wan, Zhangrui Zhao, Weijie Ma",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

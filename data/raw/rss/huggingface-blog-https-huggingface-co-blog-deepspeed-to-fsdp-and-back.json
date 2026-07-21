@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/deepspeed-to-fsdp-and-back",
-  "fetchedAt": "2026-07-20T05:47:03.303Z",
+  "fetchedAt": "2026-07-21T05:28:09.365Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/deepspeed-to-fsdp-and-back",
     "title": "From DeepSpeed to FSDP and Back Again with Hugging Face Accelerate",

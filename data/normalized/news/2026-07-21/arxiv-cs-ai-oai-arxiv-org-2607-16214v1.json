@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16214v1",
+  "name": "What Makes Linguistic Representations Good Models of High-Level Visual Perception in the Human Brain?",
+  "summary": "arXiv:2607.16214v1 Announce Type: cross Abstract: Image descriptions represented with language models (LMs) predict human brain responses to naturalistic images in high-level visual regions, but th...",
+  "description": "arXiv:2607.16214v1 Announce Type: cross Abstract: Image descriptions represented with language models (LMs) predict human brain responses to naturalistic images in high-level visual regions, but the factors driving this predictivity remain unclear. To investigate this, we systematically studied how images are described and which language models are used to embed those descriptions. For a common...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16214"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16214"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Anna Bavaresco, Ina Klari\\'c, Raquel Fern\\'andez, Marie-Francine Moens"
+}

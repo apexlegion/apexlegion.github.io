@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16350v1",
+  "name": "Joint-Embedding Predictive Architecture for Sensor-based Activity Recognition",
+  "summary": "arXiv:2607.16350v1 Announce Type: cross Abstract: Sensor-based human activity recognition (HAR) has achieved significant progressed in fully supervised learning settings. However, these supervised...",
+  "description": "arXiv:2607.16350v1 Announce Type: cross Abstract: Sensor-based human activity recognition (HAR) has achieved significant progressed in fully supervised learning settings. However, these supervised learning models rely on large amount of labeled data, which require labor-intensive collection and meticulous annotation. To address these challenges, this paper proposes a Joint Embedding Predictive...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16350"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16350"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Mohd Halim Mohd Noor, Abdulrahman M. A. Baraka"
+}

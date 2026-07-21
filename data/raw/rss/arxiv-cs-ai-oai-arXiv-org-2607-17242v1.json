@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.17242v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.17242v1",
+    "title": "A Large-Scale Measurement of AI Bill of Materials Completeness in Hugging Face Models",
+    "link": "https://arxiv.org/abs/2607.17242",
+    "description": "arXiv:2607.17242v1 Announce Type: cross Abstract: Pretrained machine learning (ML) models help developers build ML-intensive software systems without training models from scratch. However, model repositories often provide incomplete machine-readable documentation about model provenance, licenses, datasets, limitations, and external references, creating transparency and governance gaps across the AI supply chain. Artificial Intelligence Bills of Materials (AIBOMs) address these gaps by documenting AI artifacts, including models, metadata, licenses, datasets, model-card information, and external references. Taking public Hugging Face (HF) model repositories as a case study, this paper empirically investigates AIBOM completeness, defined as the extent to which repositories provide AIBOM-relevant information for machine-readable AI supply-chain documentation. We examine approximately 97.5K AIBOM artifacts to assess the extent to which generated AIBOMs: (i) contain required structural and metadata fields, (ii) represent model identity, license, and external-reference information, (iii) capture model-card documentation such as datasets, limitations, safety-risk assessment, and environmental information, and (iv) vary in documentation coverage across repository and artifact characteristics such as task, license availability, dataset declaration, model family, and paper reference. Results indicate that generated AIBOMs provide complete coverage of required AIBOM structure but limited AI-specific documentation completeness. Required fields are fully represented, but model-card, metadata, responsible-use, environmental, limitation, and meaningful-description fields remain weakly represented or missing across generated artifacts. Our findings motivate improved model-card practices, repository-level traceability, and automated AIBOM validation to advance the generation and adoption of more complete AIBOMs.",
+    "publishedAt": "2026-07-21",
+    "author": "Md Erfan, Ahmed Ryan, Md Rayhanur Rahman",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

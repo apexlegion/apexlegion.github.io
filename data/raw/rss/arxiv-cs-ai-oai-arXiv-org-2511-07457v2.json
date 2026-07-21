@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2511.07457v2",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2511.07457v2",
+    "title": "GRIP: In-Parameter Graph Reasoning through Fine-Tuning Large Language Models",
+    "link": "https://arxiv.org/abs/2511.07457",
+    "description": "arXiv:2511.07457v2 Announce Type: replace-cross Abstract: Large Language Models (LLMs) have demonstrated remarkable capabilities in modeling sequential textual data and generalizing across diverse tasks. However, effectively adapting LLMs to structural data, such as knowledge graphs or web graphs, remains a fundamental challenge. Some approaches adopt complex strategies to convert graphs into text sequences, resulting in significant token overhead and rendering them impractical for large-scale graphs. Others introduce additional modules to encode graphs into fixed-size token representations for LLMs. However, these methods typically require large-scale post-training on graph-text corpus and complex alignment procedures, yet often yield sub-optimal results due to poor modality alignment. In this work, we propose GRIP. Instead of relying on heavy graph serialization or specialized graph encoding modules, GRIP directly internalizes complex relational knowledge from graphs into the parameters of LLM through carefully designed fine-tuning tasks. The acquired structural knowledge is compactly stored in lightweight LoRA modules, enabling the fine-tuned LLM to perform a wide range of tasks over the internalized graph without requiring access to the original graph as context at inference time. Extensive experiments validate our approach. For graphs that cannot fit within the LLMs context window, GRIP consistently outperforms LLM baselines by leveraging internalized graph knowledge, while for small-scale graphs, it achieves comparable performance with substantially lower inference cost.",
+    "publishedAt": "2026-07-21",
+    "author": "Jiarui Feng, Donghong Cai, Yixin Chen, Muhan Zhang",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

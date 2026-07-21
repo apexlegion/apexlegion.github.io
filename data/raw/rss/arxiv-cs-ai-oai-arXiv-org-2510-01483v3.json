@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2510.01483v3",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2510.01483v3",
+    "title": "Spatiotemporal Knowledge Graphs as Persistent Scene Memory for Embodied Question Answering",
+    "link": "https://arxiv.org/abs/2510.01483",
+    "description": "arXiv:2510.01483v3 Announce Type: replace-cross Abstract: Vision-language models (VLMs) demonstrate strong image-level scene understanding, but reasoning over long egocentric video remains costly: because VLMs maintain no persistent memory or explicit spatial representation, all sampled frames must be re-processed for every new query. We present VL-KnG, a training-free framework that constructs spatiotemporal knowledge graphs from monocular egocentric video, bridging fine-grained scene graphs and global topological graphs without 3D reconstruction. VL-KnG processes video in chunks, maintains persistent object identities via large language model (LLM)-based Spatiotemporal Object Association (STOA), and answers questions through Graph-Enhanced Retrieval (GER), which combines subgraph retrieval with visual grounding. Once constructed, the knowledge graph removes the need to revisit raw video at query time, decoupling query latency from video length. Across three embodied question answering benchmarks -- OpenEQA, NaVQA, and our newly introduced WalkieKnowledge -- VL-KnG achieves accuracy competitive with frontier VLMs while answering queries at substantially lower latency and with explainable, graph-grounded reasoning; it further surpasses prior persistent-representation baselines and open-weight VLMs in several settings. Deployment on a real robot demonstrates practical applicability, with query latency remaining stable as observation history grows. As a persistent, queryable scene memory, VL-KnG provides a concrete substrate for memory maintenance and knowledge updating in embodied AI agents.",
+    "publishedAt": "2026-07-21",
+    "author": "Mohamad Al Mdfaa, Svetlana Lukina, Timur Akhtyamov, Arthur Nigmatzyanov, Dmitrii Nalberskii, Sergey Zagoruyko, Gonzalo Ferrer",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

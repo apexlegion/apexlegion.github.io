@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.16322v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.16322v1",
+    "title": "GMoT: Gated Motion-Aware Tokenization for Fine-Grained Micro-Gesture Video Reasoning with Multimodal LLMs",
+    "link": "https://arxiv.org/abs/2607.16322",
+    "description": "arXiv:2607.16322v1 Announce Type: cross Abstract: Micro-gesture recognition demands the detection of fleeting, spatially localized movements that are frequently overwhelmed by dominant static appearances and background noise. While Multimodal Large Language Models (MLLMs) excel at general video understanding, they inherently struggle with subtle kinematics and often rely on static posture priors. To this end, we propose GMoT, a Gated Motion-Aware Tokenization module that explicitly distills sparse kinematic evidence into a compact sequence prior to temporal modeling. GMoT dynamically spotlights action-relevant regions via spatially weighted pooling, extracts adjacent-frame temporal differencing to capture precise motion energy, and adaptively fuses these cues into the visual stream using a conservatively initialized semantic gate. To transition from simple classification to evidence-grounded reasoning, we further introduce a progressive reward-guided policy refinement paradigm, supported by a semi-supervised annotation pipeline that generates anatomically focused captions. Beyond achieving the best Top-1 accuracy among the compared methods on iMiGUE (67.32\\%) and SMG (73.11\\%), improving the Qwen3-VL-8B baseline by +6.80 and +3.11 points, our framework introduces Body-Region Grounding (BRG) Recall as an anatomical-grounding proxy conditioned on correct predictions, together with an overlapping-label cross-domain transfer protocol between iMiGUE and SMG. Extensive evaluations demonstrate that our GMoT-augmented model improves in-domain accuracy, retains clear gains under label-preserving corruptions, and improves accuracy-oriented cross-domain transfer under explicit small-split caveats while maintaining high anatomical grounding in its generated rationales.",
+    "publishedAt": "2026-07-21",
+    "author": "Taorui Wang, Wei Xia, Hui Ma, Zijia Song, Jiayu Zhang, Zeheng Wang, Yong Xu, Zitong Yu",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

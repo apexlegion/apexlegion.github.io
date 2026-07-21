@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2606.00680v3",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2606.00680v3",
+    "title": "Regularized Offline Policy Optimization with Posterior Hybrid Bayesian Belief",
+    "link": "https://arxiv.org/abs/2606.00680",
+    "description": "arXiv:2606.00680v3 Announce Type: replace Abstract: Offline reinforcement learning (RL) aims to optimize policies from pre-collected datasets. A bottleneck of this paradigm is managing epistemic uncertainty, which arises from limited data coverage (sample-level) and the ambiguity in identifying transition dynamics from finite data (model-level). To provide a unified quantification of these uncertainties, Bayesian RL has been proposed by treating the dynamics model as a random variable and maintaining a corresponding belief. Despite its theoretical appeal, policy optimization in Bayesian RL remains computationally challenging as it requires solving composite objectives with expectations. Prior methods either employ search-based techniques with poor computational scalability or impose restrictive posterior assumptions that sacrifice the adaptability of Bayesian RL. To address these limitations, we propose Posterior Hybrid Bayesian Belief (PhyB), which reformulates the expectation as a convex combination over a subset of dynamics models. Theoretical analysis demonstrates that the objective discrepancy induced by this approximation remains bounded. Based on PhyB, we develop an iterative regularized policy optimization algorithm that provides metric-agnostic guarantees for monotonic improvement until convergence. Empirical results demonstrate that PhyB achieves state-of-the-art performance on various benchmarks.",
+    "publishedAt": "2026-07-21",
+    "author": "Hongqiang Lin, Pengfei Wang, Nenggan Zheng",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

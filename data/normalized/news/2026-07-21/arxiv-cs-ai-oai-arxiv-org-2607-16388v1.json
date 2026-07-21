@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16388v1",
+  "name": "Automated Hardware Validation Test Plan Generation for Large Scale AI Datacenter Platforms Using a Generative AI Multi-Agents Architecture",
+  "summary": "arXiv:2607.16388v1 Announce Type: cross Abstract: Large-scale AI datacenter platforms comprise thousands of heterogeneous hardware components whose validation requires comprehensive fault injection...",
+  "description": "arXiv:2607.16388v1 Announce Type: cross Abstract: Large-scale AI datacenter platforms comprise thousands of heterogeneous hardware components whose validation requires comprehensive fault injection test plans. Today these plans are authored manually: engineers review hardware self-healing validation documents and bills of materials, enumerate failure modes per field-replaceable unit, and produc...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16388"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16388"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Mohammed-Khalil Ghali, Saurabh Kulkarni, Prathamesh Kulkarni, Rohan Kulkarni, Sangwon Yoon, Daehan Won"
+}

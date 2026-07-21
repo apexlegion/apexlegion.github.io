@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.04438v2",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.04438v2",
+    "title": "ResearchStudio-Reel: Automate the Last Mile of Research from Paper to Poster, Video, and Blog",
+    "link": "https://arxiv.org/abs/2607.04438",
+    "description": "arXiv:2607.04438v2 Announce Type: replace-cross Abstract: Despite growing automation, turning a paper into a coherent poster, talk video, and blog piece often remains a labor-intensive last mile. Recent systems increasingly generate multiple dissemination formats, but a practical workflow must also keep the outputs editable in native tools and bound into one navigable deliverable for revision and reuse. We present ResearchStudio-Reel, a native-editable dissemination workspace that binds its three artifacts into one interactive deliverable at the experience level, implemented as five skills executable in Claude Code and Codex: one shared extractor, three editable artifact generators, and one interactive convergence layer. A shared asset bundle feeds a PowerPoint poster and video deck, plus a bilingual Word blog; rather than re-rendering the paper into a fourth format, Paper2Reel converges these already-produced artifacts at the experience level, binding poster regions, video segments, and blog passages into one interactive viewer. Artifact-specific release checks make this delivery contract testable, and Paper2Poster additionally uses a measured-fill loop. On the Paper2Poster benchmark, our Claude Code configuration achieves the best scores among automated systems on all three aesthetic sub-criteria and the best or tied-best scores on two of three information sub-criteria. Under two VLMjudges, it exceeds the authors' posters in average aesthetics (3.56 vs. 3.03) and wins on overall quality on 74 and 95 of the 100 papers under the two judges. The full pipeline additionally packages the native-editable source artifacts and their aligned viewer. Project is available at https://aka.ms/ResearchStudio",
+    "publishedAt": "2026-07-21",
+    "author": "Lingao Xiao, Yalun Dai, Yangyu Huang, Qihao Zhao, Wenshan Wu, Hugo He, Ruishuo Chen, Jin Jiang, Qianli Ma, Jiahuan Zhang, Xin Zhang, Ying Xin, Yang Ou, Yan Xia, Scarlett Li, Longbo Huang, Zhipeng Zhang, Yang He, Yap Kim Hui, Yan Lu",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

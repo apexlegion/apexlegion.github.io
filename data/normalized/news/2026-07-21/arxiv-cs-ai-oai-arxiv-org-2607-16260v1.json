@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16260v1",
+  "name": "AdaSurvMamba: Dynamic Fusion and Semantic Scanning for Multimodal Survival Analysis",
+  "summary": "arXiv:2607.16260v1 Announce Type: cross Abstract: Multimodal survival analysis utilizing whole slide images (WSIs) and genomic profiles is fundamental for cancer prognosis. Recently, state-space mo...",
+  "description": "arXiv:2607.16260v1 Announce Type: cross Abstract: Multimodal survival analysis utilizing whole slide images (WSIs) and genomic profiles is fundamental for cancer prognosis. Recently, state-space models like Mamba have emerged as powerful tools for sequence modeling. However, translating this success to complex multimodal tasks is hindered by two critical limitations. First, conventional fusion...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16260"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16260"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Jialong Zhong, Tingwei Liu, Baokun Yue, Jingjing Li, Yongri Piao, Miao Zhang, Leiye Liu, Jiahong Jiang, Wei Ji, Huchuan Lu"
+}

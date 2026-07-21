@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16568v1",
+  "name": "Exact Network Surgery: Functional Invariance and Gradient Plasticity in Reactive Computational Graphs",
+  "summary": "arXiv:2607.16568v1 Announce Type: new Abstract: Function-preserving network growth techniques such as Net2Net and progressive stacking expand a model's capacity without destroying its learned funct...",
+  "description": "arXiv:2607.16568v1 Announce Type: new Abstract: Function-preserving network growth techniques such as Net2Net and progressive stacking expand a model's capacity without destroying its learned function, but existing formulations either tolerate numerical perturbations or require a full rebuild of the training program. We formalize Exact Network Surgery: the in-place insertion of a residual block...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16568"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16568"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Abdallah Khemais (ISITCOM, University of Sousse)"
+}

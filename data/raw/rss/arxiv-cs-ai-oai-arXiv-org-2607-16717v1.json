@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.16717v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.16717v1",
+    "title": "A Causal Markov Condition for Value",
+    "link": "https://arxiv.org/abs/2607.16717",
+    "description": "arXiv:2607.16717v1 Announce Type: cross Abstract: This paper proposes a causal independence principle for value -- the value Causal Markov Condition (v-CMC) -- and develops the conceptual and mathematical foundations of a \"causal value theory\" linking causality and utility. After motivating a local formulation of the v-CMC, we introduce a probability-value duality that translates standard causal-inference results into the value setting. In particular, we formulate local, global, and decomposition versions of the v-CMC and prove their equivalence. We also define v-separation and show that it is sound and complete for conditional value independence. Furthermore, we derive a Bellman-type recursion as a special case of the v-CMC, thereby generalizing standard Bellman recursion from linear chains to causal DAGs. Finally, we show how the v-CMC supports modular transfer and updating of utility information across causal contexts and develop algorithms for causally structured utility elicitation and canonical influence-diagram construction.",
+    "publishedAt": "2026-07-21",
+    "author": "Olav Benjamin Vassend",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

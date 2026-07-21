@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.16253v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.16253v1",
+    "title": "Comprehensive Evaluation of Machine Learning for Type 2 Diabetes Risk Prediction: Large-Scale External Validation and Fairness Analysis",
+    "link": "https://arxiv.org/abs/2607.16253",
+    "description": "arXiv:2607.16253v1 Announce Type: cross Abstract: Machine learning-based Type 2 diabetes risk prediction models obtain good internal validation results but lose effectiveness in real-world applications due to deficient external testing and fairness assessment. We developed a multi-dimensional framework evaluating discrimination, calibration, interpretability, and algorithmic fairness on nationally representative populations. An XGBoost model was trained on NHANES 2015-2020 (n=15,685) using eight non-laboratory predictors: age, sex, race/ethnicity, BMI, smoking status, physical activity, history of heart attack, and history of stroke. External validation was performed on BRFSS 2020-2022 (n=1,285,783) under realistic distribution shift. Internal validation showed good discrimination (AUC=0.794, 95% CI 0.788-0.800), with performance loss on external validation (AUC=0.717, relative decrease: -9.7%, p&lt;0.001). Fairness analysis revealed severe bias: elderly adults (&gt;=60) showed AUC=0.607 vs 0.742 for young adults (difference=0.135, p&lt;0.001); obese individuals showed AUC=0.698 vs 0.735 for normal weight (difference=0.037, p&lt;0.001). Gender showed comparable performance (male=0.723 vs female=0.712, p=0.142). Calibration revealed risk overestimation (Brier score=0.123). SHAP analysis identified age, BMI, and physical activity as primary risk drivers. Populations with highest diabetes risk receive the worst algorithmic performance, underscoring the need for fairness-aware, age-stratified deployment strategies before clinical use.",
+    "publishedAt": "2026-07-21",
+    "author": "Rajveer Singh Pall, Sameer Yadav, Siddharth Bhalerao, Sourabh Sahu, Ritu Ahluwalia, Bhaskar Awadhiya",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

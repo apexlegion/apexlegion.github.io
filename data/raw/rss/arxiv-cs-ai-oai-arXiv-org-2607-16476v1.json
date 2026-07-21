@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.16476v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.16476v1",
+    "title": "When to Use Which? Benchmarking Optimisers for Configurable Systems under Varying Budgets",
+    "link": "https://arxiv.org/abs/2607.16476",
+    "description": "arXiv:2607.16476v1 Announce Type: cross Abstract: Software configuration tuning is crucial for optimising system performance, and various optimisers have emerged over the last decade. Yet, the time required during the tuning process may vary across systems. In some systems (e.g., PostgreSQL), it may take a few minutes to measure a configuration, whereas in some others (e.g., MariaDB), it can take several hours. Moreover, even within the same system, users may have varying budgets and preferred settings. This naturally raises a question -- Given a budget level, which optimiser is the best choice for SE practitioners? This matters because optimisers usually have their own ``comfort zone'' and may perform very differently under distinct budgets. In this paper, we aim to answer this question. We systematically evaluate eight well-established optimisers across 22 configurable systems under varying budget levels. We find that, unsurprisingly, model-based optimisers (e.g., SMAC) are well-suited under tight budgets, and model-free optimisers (e.g., GAs) become superior with more generous budgets. However, interestingly, there is one optimiser, FLASH, that performs consistently well on most systems regardless of budgets. We lastly investigate the reasons behind this phenomenon and find that many systems possess good local optima (with large basins of attraction), allowing greedy optimisers (e.g., FLASH) to achieve strong performance. Source code, data, and supplementary materials of this work are available at https://anonymous.4open.science/r/Config-W2W-98B2.",
+    "publishedAt": "2026-07-21",
+    "author": "Chao Jiang, Yulong Ye, Tao Chen, Miqing Li",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-17673v1",
+  "name": "Beyond Objective Expressivity: Geometry Preservation in Multimodal Contrastive Learning",
+  "summary": "arXiv:2607.17673v1 Announce Type: cross Abstract: Contrastive learning is increasingly moving toward settings with three or more modalities instead of image-text pairs. Yet, extending models from p...",
+  "description": "arXiv:2607.17673v1 Announce Type: cross Abstract: Contrastive learning is increasingly moving toward settings with three or more modalities instead of image-text pairs. Yet, extending models from pairwise to higher-order multimodal alignment can introduce optimization and representation challenges. We identify encoder Jacobian conditioning as a key factor in trimodal contrastive learning: poorl...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.17673"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.17673"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Tillmann Rheude, Roland Eils, Benjamin Wild"
+}

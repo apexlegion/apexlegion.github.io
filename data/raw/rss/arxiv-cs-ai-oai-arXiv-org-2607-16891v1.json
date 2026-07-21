@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.16891v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.16891v1",
+    "title": "Certified-Gap Dual-Price Policies for Real-Time Truckload Bid Acceptance with Relocating, Clock-Constrained Resources",
+    "link": "https://arxiv.org/abs/2607.16891",
+    "description": "arXiv:2607.16891v1 Announce Type: cross Abstract: A truckload carrier must accept or reject each load tender within seconds. The decision depends on fleet state, hours-of-service (HOS) clocks, and appointment windows. We model this as a weakly coupled dynamic program in which the resources relocate and carry clocks: serving a request moves the truck to a new market and depletes its clocks, and whether a truck can serve a request depends on its state. Occupancy-based reusable-resource models do not cover this setting. We build a real-time dual-price policy from the same Lagrangian relaxation that gives the problem's upper bound. Policy and bound come from one object, so every run reports a certified optimality gap. We prove three things. First, the certificate is valid for any duals, any discretization, and any surrogate quality. Second, the policy's same-time spatial-gradient rule is exactly fluid complementary slackness, and the policy is asymptotically optimal in the subcritical fluid regime; the fitted prices are also portable across sample paths, by linear-programming basis stability. Third, certificates have limits: per-resource Lagrangian slack can stay bounded away from zero at every fleet size. We exhibit a three-truck kernel with an exact rational certificate and a replication lemma. On a public closed-loop benchmark with thirty paired seeds, the policy -- which needs no rollout labels, only one offline dual solve -- beats a rollout-trained surrogate on two of three scenarios (tight: +2.0 pp, 95% CI [+0.5, +3.6], Wilcoxon p = 0.023; mild: +3.5 pp, CI [+2.4, +4.5]) and ties the third. It decides in 0.04-0.09 ms, three orders of magnitude faster than the Monte Carlo rollout teacher. Its certificates are stable across ten bounded instances per scenario, at 57-64% of optimal, within 3-6 points of what the 1000x-slower teacher certifies.",
+    "publishedAt": "2026-07-21",
+    "author": "Aswin Chandrasekaran",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

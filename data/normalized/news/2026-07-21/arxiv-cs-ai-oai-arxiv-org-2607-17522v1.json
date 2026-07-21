@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-17522v1",
+  "name": "One-step lowest-variance selection in a Gaussian random-field model motivated by masked diffusion: Total correlation and a square root collision threshold",
+  "summary": "arXiv:2607.17522v1 Announce Type: cross Abstract: Motivated by confidence-guided parallel unmasking in masked discrete diffusion, we study a single selection step in a stylized Gaussian random-fiel...",
+  "description": "arXiv:2607.17522v1 Announce Type: cross Abstract: Motivated by confidence-guided parallel unmasking in masked discrete diffusion, we study a single selection step in a stylized Gaussian random-field model. A locally dependent nonnegative score field represents position wise uncertainty, and the scheduler selects the K positions with the smallest scores. Dependence among the selected positions i...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.17522"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.17522"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Linjun Li"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2507-07247v2",
+  "name": "Attentions Under the Microscope: A Comparative Study of Resource Utilization for Variants of Self-Attention",
+  "summary": "arXiv:2507.07247v2 Announce Type: replace-cross Abstract: As large language models (LLMs) and visual language models (VLMs) grow in scale and application, attention mechanisms have become a central...",
+  "description": "arXiv:2507.07247v2 Announce Type: replace-cross Abstract: As large language models (LLMs) and visual language models (VLMs) grow in scale and application, attention mechanisms have become a central computational bottleneck due to their high memory and time complexity. While many efficient attention variants have been proposed, there remains a lack of rigorous evaluation on their actual energy u...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2507.07247"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2507.07247"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Zhengyu Tian, Anantha Padmanaban Krishna Kumar, Hemant Krishnakumar, Reza Rawassizadeh"
+}

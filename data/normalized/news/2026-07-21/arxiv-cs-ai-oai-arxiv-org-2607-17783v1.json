@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-17783v1",
+  "name": "Feature Attribution-Based Explainability Analysis of Deep Learning Models in Predictive Process Monitoring",
+  "summary": "arXiv:2607.17783v1 Announce Type: cross Abstract: Predictive process monitoring supports the optimization and control of operational business processes by forecasting the future state or outcome of...",
+  "description": "arXiv:2607.17783v1 Announce Type: cross Abstract: Predictive process monitoring supports the optimization and control of operational business processes by forecasting the future state or outcome of ongoing cases. While deep neural networks have achieved strong performance for these tasks by modeling sequential dependencies in event logs, their black-box nature limits trust and practical adoptio...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.17783"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.17783"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Kseniya Sahatova, Rafael Seidi Oyamada, Xuefei Lu, Johannes De Smedt"
+}

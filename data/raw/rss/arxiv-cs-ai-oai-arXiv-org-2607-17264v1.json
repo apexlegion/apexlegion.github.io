@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.17264v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.17264v1",
+    "title": "Coordinated Disentanglement with Iterative Mode Discovery Under Hidden Correlations",
+    "link": "https://arxiv.org/abs/2607.17264",
+    "description": "arXiv:2607.17264v1 Announce Type: new Abstract: Disentangled representation learning is a powerful paradigm for robust attribute prediction. While recent methods address attribute correlations, hidden correlations remain underexplored, where data under the value of a certain attribute exhibit underlying modes correlated with other attributes. To preserve mode information and achieve disentanglement, we jointly discover modes and enforce mode-based conditional independence. Yet, the interdependency between these two modules may lead to error amplification under naive iterations. We propose Coordinated Disentanglement with Iterative mode Discovery (CoDID), an end-to-end framework featuring a dynamic architecture that adapts to evolving number of modes, and a coordination mechanism that mitigates error amplification via meta-optimization. Empirical results demonstrate the state-of-the-art performance on diverse tasks.",
+    "publishedAt": "2026-07-21",
+    "author": "Rong Hu, Ling Chen",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

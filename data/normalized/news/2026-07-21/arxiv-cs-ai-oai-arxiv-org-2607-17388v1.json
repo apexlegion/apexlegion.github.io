@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-17388v1",
+  "name": "Mathematical Discovery in the Wild: AI-Guided Proofs in Banach Space Theory",
+  "summary": "arXiv:2607.17388v1 Announce Type: cross Abstract: We investigate the capacity of current language models to contribute to mathematical research. In Banach space theory, AI systems generated key ide...",
+  "description": "arXiv:2607.17388v1 Announce Type: cross Abstract: We investigate the capacity of current language models to contribute to mathematical research. In Banach space theory, AI systems generated key ideas and proofs for five new results, which were then verified and refined by humans. We also developed an automated system that searches the literature for open problems and attempts solutions at scale...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.17388"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.17388"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Antonio Acuaviva, Pablo Acuaviva"
+}

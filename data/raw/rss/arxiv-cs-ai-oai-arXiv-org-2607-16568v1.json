@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.16568v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.16568v1",
+    "title": "Exact Network Surgery: Functional Invariance and Gradient Plasticity in Reactive Computational Graphs",
+    "link": "https://arxiv.org/abs/2607.16568",
+    "description": "arXiv:2607.16568v1 Announce Type: new Abstract: Function-preserving network growth techniques such as Net2Net and progressive stacking expand a model's capacity without destroying its learned function, but existing formulations either tolerate numerical perturbations or require a full rebuild of the training program. We formalize Exact Network Surgery: the in-place insertion of a residual block into a live computational graph such that (i) the network function is preserved -- bit-exactly under explicit floating-point hypotheses -- and (ii) inserted parameters remain trainable immediately after insertion. We prove an identity-morphism theorem for gated residual blocks, a structural-locality theorem showing that a reactive invalidation engine recomputes exactly the downstream cone of the insertion point, leaving every other node's value and optimizer state untouched, and an escape-from-initialization proposition showing that the Gradient Shadowing gate alpha, initialized at zero over a randomly initialized branch, receives a generically non-zero gradient at insertion time. We identify a degenerate configuration -- zero-initialized output projections combined with a zero gate -- that is an exact saddle point gradient descent cannot escape. Every claim is validated on the reference implementation in NeuroDSL, a reactive graph engine in Julia: grafting is bit-exact on every logit tested (0 mismatches out of 1600); the gate escapes zero at the first optimizer step and unlocks branch gradients at the second, exactly as predicted; the degenerate configuration exhibits gradients identically zero for the entire 600-step run; surgery cost tracks downstream cone size with r = 0.9992 while graft-plus-invalidation bookkeeping is constant (about 0.75 ms) across insertion depths; and training resumes bit-identically across a real process restart. A flagged preliminary appendix reports first single-seed observations on post-insertion gate dynamics.",
+    "publishedAt": "2026-07-21",
+    "author": "Abdallah Khemais (ISITCOM, University of Sousse)",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

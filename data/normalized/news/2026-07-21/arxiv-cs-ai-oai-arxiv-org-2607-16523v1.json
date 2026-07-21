@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16523v1",
+  "name": "SEER: Supervised Learning to Control Energetic Reasoning",
+  "summary": "arXiv:2607.16523v1 Announce Type: new Abstract: One of the main strengths of Constraint Programming is the ability to reduce the search space via propagation. However, propagation is a double-edged...",
+  "description": "arXiv:2607.16523v1 Announce Type: new Abstract: One of the main strengths of Constraint Programming is the ability to reduce the search space via propagation. However, propagation is a double-edged sword, with more pruning power coming at the price of larger computation time. For each problem constraint, the best propagator depends on the specific instance and may change at search time. In the...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16523"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16523"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Sascha Van Cauwelaert, Michele Lombardi, Pierre Schaus"
+}

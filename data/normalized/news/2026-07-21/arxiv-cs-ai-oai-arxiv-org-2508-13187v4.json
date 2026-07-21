@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2508-13187v4",
+  "name": "\"Not in My Backyard\": LLMs Uncover Online and Offline Social Biases Against Homelessness",
+  "summary": "arXiv:2508.13187v4 Announce Type: replace-cross Abstract: Homelessness is a persistent social challenge, impacting millions worldwide. Over 876,000 people experiencing homelessness (PEH) were recor...",
+  "description": "arXiv:2508.13187v4 Announce Type: replace-cross Abstract: Homelessness is a persistent social challenge, impacting millions worldwide. Over 876,000 people experiencing homelessness (PEH) were recorded in the U.S. in 2025. Social bias is a significant barrier to alleviating homelessness, shaping public perception and influencing policymaking. Because online textual media and offline city council...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2508.13187"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2508.13187"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Jonathan A. Karr Jr., Benjamin F. Herbst, Matthew L. Sisk, Xueyun Li, Ting Hua, Matthew Hauenstein, Georgina Curto, Nitesh V. Chawla"
+}

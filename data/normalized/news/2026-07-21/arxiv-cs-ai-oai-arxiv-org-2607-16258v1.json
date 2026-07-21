@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16258v1",
+  "name": "Neural Controlled Differential Equations for EMT-Level Surrogate Modeling of Grid-Forming Inverters",
+  "summary": "arXiv:2607.16258v1 Announce Type: cross Abstract: The application of artificial intelligence methods in power electronic converter modeling is becoming increasingly widespread, but existing applica...",
+  "description": "arXiv:2607.16258v1 Announce Type: cross Abstract: The application of artificial intelligence methods in power electronic converter modeling is becoming increasingly widespread, but existing applications still face many challenges, such as difficulties in multi-time-scale hybrid analysis and the lack of physics-aware evaluation criteria and constraints, resulting in poor performance. This paper...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16258"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16258"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Jiagang Qu, Yong Tao, Dan Wang, Enyi Li, Jingjing Qi, Ding Wang"
+}

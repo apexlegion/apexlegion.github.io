@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.16276v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.16276v1",
+    "title": "Intelligence-Guided Adaptive Purification for DDoS-Resilient Quantum Networks: A CUDA-Q based Study",
+    "link": "https://arxiv.org/abs/2607.16276",
+    "description": "arXiv:2607.16276v1 Announce Type: cross Abstract: Quantum-repeater networks require adaptive control policies that balance entanglement generation rate, end-to-end fidelity, purification overhead, and memory-induced latency. This tradeoff becomes more complex when the classical control plane is degraded by cyber anomalies or denial-of-service traffic. We develop a CUDA-Q/SeQUeNCe co-simulation workflow for studying adaptive entanglement purification in heterogeneous linear repeater chains. CUDA-Q noisy quantum kernels are used to estimate primitive entanglement purification and swapping behavior, while SeQUeNCe provides an event-layer model for stochastic link generation, waiting-time-dependent memory decay, purification failure, and end-to-end swapping. Under stationary conditions, we compare no purification, local threshold purification, mean-field predictive purification, fixed purification, and a resource-penalized risk-aware predictive policy. In an 8-node chain, the resource-penalized risk-aware controller increases above-target delivery probability relative to fixed purification while reducing latency and purification overhead. We then couple the quantum-network controller to anomaly scores derived from the CSE-CIC-IDS2018 benign-to-SSDP intrusion-detection trace. During the attack period, the attack-unaware controller maintains high raw delivery, but its above-target entanglement delivery falls to 0.098+/-0.007; the IDS-aware resource-adaptive controller switches to more purification-heavy masks and increases above-target delivery to 0.344+/-0.011, closely matching the oracle-aware value of approximately 0.335. These results demonstrate that cyber-state awareness can improve useful quantum-network outcomes by trading raw throughput for fidelity-qualified entanglement delivery.",
+    "publishedAt": "2026-07-21",
+    "author": "Santanu Ganguly",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2604-23724v3",
+  "name": "Zoom In, Reason Out: Efficient Far-field Anomaly Detection in Expressway Surveillance Videos via Focused VLM Reasoning Guided by Bayesian Inference",
+  "summary": "arXiv:2604.23724v3 Announce Type: replace-cross Abstract: Expressway video anomaly detection is essential for safety management. However, identifying anomalies across diverse scenes remains challen...",
+  "description": "arXiv:2604.23724v3 Announce Type: replace-cross Abstract: Expressway video anomaly detection is essential for safety management. However, identifying anomalies across diverse scenes remains challenging, particularly for far-field targets exhibiting subtle abnormal vehicle motions. While Vision-Language Models (VLMs) demonstrate strong semantic reasoning capabilities, processing global frames ca...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2604.23724"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2604.23724"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Xiaowei Mao, Bowen Sui, Weijie Zhang, Yawen Yang, Shengnan Guo, Shilong Zhao, Jiaqi Lin, Tingrui Wu, Youfang Lin, Huaiyu Wan"
+}

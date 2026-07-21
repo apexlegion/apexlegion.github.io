@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.17559v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.17559v1",
+    "title": "COLIP-2: Olfaction-Vision-Language Embeddings",
+    "link": "https://arxiv.org/abs/2607.17559",
+    "description": "arXiv:2607.17559v1 Announce Type: cross Abstract: The Contrastive Olfaction-Language-Image Pre-training 2 (COLIP-2) model is a multimodal embeddings space that places olfaction as a first-class citizen among vision and language. Molecular structure, gas-sensor readings, odor-descriptor language, and images are all trained into a single shared representation space, so that a robot can localize a detected aroma to objects in a scene probabilistically. No ImageNet-scale datasets of paired image-scent examples exists which warrants the need for their collection. Our intent with the release of COLIP-2 is to demonstrate the limit of what can be built for robotics with open-sourced olfactory data in order to ground the argument for why new methodologies and datasets are necessary in order to enable advanced olfactory-oriented perception capabilities. We enumerate results from internal testing of the COLIP-2 architecture and make necessary optimizations to run the model at the edge for real-time robotics applications. While developed with robotics in mind, the design of COLIP-2 has been influenced by experts across many disciplines of science in academia and industry, and we hope that the model can be useful in any multimodal domain requiring olfactory intelligence.",
+    "publishedAt": "2026-07-21",
+    "author": "Kordel Kade France",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-18004v1",
+  "name": "PAMD: Structured Adaptive Distances for Bisimulation Representations in Visual Reinforcement Learning",
+  "summary": "arXiv:2607.18004v1 Announce Type: new Abstract: Many visual reinforcement learning (RL) algorithms learn representations by matching latent distances to a behavioral distance induced by reward and...",
+  "description": "arXiv:2607.18004v1 Announce Type: new Abstract: Many visual reinforcement learning (RL) algorithms learn representations by matching latent distances to a behavioral distance induced by reward and transition similarity. In practice, the choice of the latent distance can strongly affect performance: using a fixed, pre-specified global norms (e.g., $\\ell_p$ norms or other hand-designed metrics) m...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.18004"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.18004"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Daegyeong Roh, Juho Bae, Han-Lim Choi"
+}

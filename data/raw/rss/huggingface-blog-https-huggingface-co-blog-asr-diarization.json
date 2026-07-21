@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/asr-diarization",
-  "fetchedAt": "2026-07-20T05:47:03.303Z",
+  "fetchedAt": "2026-07-21T05:28:09.365Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/asr-diarization",
     "title": "Powerful ASR + diarization + speculative decoding with Hugging Face Inference Endpoints",

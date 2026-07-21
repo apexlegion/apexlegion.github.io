@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/phi2-intel-meteor-lake",
-  "fetchedAt": "2026-07-20T05:47:03.303Z",
+  "fetchedAt": "2026-07-21T05:28:09.365Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/phi2-intel-meteor-lake",
     "title": "A Chatbot on your Laptop: Phi-2 on Intel Meteor Lake",

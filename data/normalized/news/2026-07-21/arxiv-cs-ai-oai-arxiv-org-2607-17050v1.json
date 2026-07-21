@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-17050v1",
+  "name": "EvoGUI: An Evolution-Aware Benchmark for GUI State-Transition Understanding",
+  "summary": "arXiv:2607.17050v1 Announce Type: cross Abstract: GUI agents must reason about how actions transform interface states, but end-to-end success rates entangle this ability with perception, grounding,...",
+  "description": "arXiv:2607.17050v1 Announce Type: cross Abstract: GUI agents must reason about how actions transform interface states, but end-to-end success rates entangle this ability with perception, grounding, planning, and recovery. We introduce EvoGUI, a diagnostic framework that converts normalized GUI trajectories into three complementary visual question answering probes: temporal ordering, inverse act...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.17050"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.17050"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Yaohan Yang, Minglei Shi, Borui Zhang, Jie Zhou, Jiwen Lu"
+}

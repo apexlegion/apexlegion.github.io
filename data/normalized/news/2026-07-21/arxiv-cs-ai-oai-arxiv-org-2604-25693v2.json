@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2604-25693v2",
+  "name": "RADD: Retrieval-Augmented Discrete Diffusion for Multi-Modal Knowledge Graph Completion",
+  "summary": "arXiv:2604.25693v2 Announce Type: replace Abstract: Most multi-modal knowledge graph completion (MMKGC) models use one embedding scorer to conduct both retrieval over the full entity set and final...",
+  "description": "arXiv:2604.25693v2 Announce Type: replace Abstract: Most multi-modal knowledge graph completion (MMKGC) models use one embedding scorer to conduct both retrieval over the full entity set and final link prediction. We argue that this coupling is a core bottleneck: global high-recall search and local fine-grained disambiguation require different inductive biases. Therefore, we propose a Retrieval...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2604.25693"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2604.25693"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Guanglin Niu, Bo Li"
+}

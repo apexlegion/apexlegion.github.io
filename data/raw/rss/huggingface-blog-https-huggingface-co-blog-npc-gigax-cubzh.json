@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/npc-gigax-cubzh",
-  "fetchedAt": "2026-07-20T05:47:03.303Z",
+  "fetchedAt": "2026-07-21T05:28:09.365Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/npc-gigax-cubzh",
     "title": "Introducing NPC-Playground, a 3D playground to interact with LLM-powered NPCs",

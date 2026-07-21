@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.17432v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.17432v1",
+    "title": "Intermittent Control Is Not Diluted Control: A Switching Effect in Artificial Agency",
+    "link": "https://arxiv.org/abs/2607.17432",
+    "description": "arXiv:2607.17432v1 Announce Type: new Abstract: Adaptive agents do not always regulate under the same timing conditions. Sometimes stabilization can begin before a disturbance has fully entered the internal state; at other times the agent can only recover after disruption has taken hold. A simple expectation is that an agent moving between these conditions should behave like a weighted average of the two fixed cases: the more time spent in reactive recovery, the greater the regulatory burden. This paper shows that expectation can fail. In a simulated adaptive agent with retained state history, at an operating point where sustained reactive control is more costly than sustained anticipatory control, intermittent access to anticipatory control reduces the mean regulatory burden below the value predicted by a fixed-mode mixture. The effect appears under both periodic and stochastic switching schedules: losing anticipatory access does not simply dilute its benefit, and restoring it intermittently can reorganize the later regulatory burden. High-statistics runs (N = 1000 matched replicates per schedule) resolve a negative nonlinear switching penalty across every tested schedule. The effect is small but consistent: about half a percent of the mean gain, with 63-68% of replicates falling below zero. Late-window diagnostics reveal no unresolved upward accumulation of regulatory burden. The result identifies a design-relevant timing principle. In history-dependent adaptive systems, the burden of remaining organized is not set only by how much time an agent spends in each mode; the order in which disturbance and recovery enter the state can change the subsequent burden. Intermittent anticipatory control may therefore act less like a partial failure of regulation than like a mechanism for reducing the long-term burden of recovery.",
+    "publishedAt": "2026-07-21",
+    "author": "Veronique Ziegler",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

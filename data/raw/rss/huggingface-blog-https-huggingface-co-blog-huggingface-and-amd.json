@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/huggingface-and-amd",
-  "fetchedAt": "2026-07-20T05:47:03.303Z",
+  "fetchedAt": "2026-07-21T05:28:09.365Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/huggingface-and-amd",
     "title": "Hugging Face and AMD partner on accelerating state-of-the-art models for CPU and GPU platforms",

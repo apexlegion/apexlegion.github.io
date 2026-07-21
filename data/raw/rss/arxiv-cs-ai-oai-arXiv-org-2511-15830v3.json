@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2511.15830v3",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2511.15830v3",
+    "title": "Mini Amusement Parks (MAPs): A Testbed for Modelling Business Decisions",
+    "link": "https://arxiv.org/abs/2511.15830",
+    "description": "arXiv:2511.15830v3 Announce Type: replace Abstract: Despite rapid progress in artificial intelligence, current systems struggle with the interconnected challenges that define real-world decision making. Practical domains such as business management require open-ended optimization, actively learning environment dynamics from sparse experience, planning over long horizons in stochastic settings, and reasoning over spatial information. Yet no existing human--AI benchmarks assess how well agents integrate these challenges in a grounded decision-making context. To this end, we introduce Mini Amusement Parks (MAPs), an amusement-park simulator designed to evaluate an agent's ability to model its environment, anticipate long-term consequences under uncertainty, and strategically operate a complex business. We provide expert human performance and a comprehensive evaluation of state-of-the-art agents, finding experts outperform these systems by 11.4x on easy mode and 15.3x on medium mode. Our analysis reveals persistent weaknesses in long-horizon planning, sample-efficient learning, spatial reasoning, and modelling uncertainty. By unifying these challenges within a single environment, MAPs offers a new foundation for benchmarking agents capable of adaptable decision making. Code: https://github.com/Skyfall-Research/MAPs",
+    "publishedAt": "2026-07-21",
+    "author": "St\\'ephane Aroca-Ouellette, Ian Berlot-Attwell, Panagiotis Lymperopoulos, Abhiramon Rajasekharan, Tongqi Zhu, Herin Kang, Kaheer Suleman, Sam Pasupalak",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2506-00452v5",
+  "name": "Learning MMSE Filters for OFDM Channel Estimation: Attention Transformer Gains at Linear Inference",
+  "summary": "arXiv:2506.00452v5 Announce Type: replace-cross Abstract: In orthogonal frequency division multiplexing (OFDM), accurate channel estimation is crucial. Classical signal processing-based approaches,...",
+  "description": "arXiv:2506.00452v5 Announce Type: replace-cross Abstract: In orthogonal frequency division multiplexing (OFDM), accurate channel estimation is crucial. Classical signal processing-based approaches, such as linear minimum mean-squared error (LMMSE) estimation, often require second-order statistics that are difficult to obtain in practice. Recent deep neural network (DNN)-based methods have been...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2506.00452"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2506.00452"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "TaeJun Ha, Chaehyun Jung, Hyeonuk Kim, Jeongwoo Park, Jeonghun Park"
+}

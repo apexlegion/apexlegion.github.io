@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.16311v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.16311v1",
+    "title": "Seeing What Is Actually There: PriVE-Bench and PriVE-Tools for Counterfactual Evaluation of Agentic Visual Evidence in VLMs",
+    "link": "https://arxiv.org/abs/2607.16311",
+    "description": "arXiv:2607.16311v1 Announce Type: cross Abstract: Vision-language models (VLMs) often answer visual questions using learned language and category priors rather than grounding their predictions in the image itself. Counterfactual images provide a natural diagnostic setting for this failure mode: when visible evidence contradicts what is usually true, a grounded model should answer from the pixels, while a prior-following model will produce a canonical but visually incorrect response. However, existing counterfactual benchmarks mainly ask whether such prior-following behavior exists. In this paper, we ask a further question motivated by the rise of tool-augmented and agentic vision systems: can additional visual evidence views help VLMs reason against their priors? We introduce PriVE-Bench, a Prior-vs-Visual Evidence Benchmark that uses paired original and counterfactual images to distinguish visually grounded answers from prior-consistent errors. We further introduce PriVE-Tools, a controlled agentic-vision-inspired extension that evaluates whether tool-derived visual evidence -- including bounding boxes, crops, zoom panels, and contours -- improves grounding under the same counterfactual conflicts. Across open- and closed-source VLMs, we compare raw, paired-image, and tool-conditioned inputs using accuracy, prior-following error rate, and other-response rate. Our results show that visual evidence tools can help in some settings, especially when models can use localized evidence effectively, but they are not a universal remedy: several models continue to follow language and category priors even when relevant visual evidence is explicitly provided.",
+    "publishedAt": "2026-07-21",
+    "author": "Jingyu Sun, Jiachen Tu, Yuyang Xue, Yaoxin Jiang, Guoyi Xu, Zhengtao Yao, Rui Qian, Yizheng Sun, Hongpeng Zhou, Jingyuan Sun, Yan Lin",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

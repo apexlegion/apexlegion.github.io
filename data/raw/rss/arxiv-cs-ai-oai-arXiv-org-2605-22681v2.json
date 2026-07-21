@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2605.22681v2",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2605.22681v2",
+    "title": "Scientific reasoning does not reliably translate into scientific forecasting in frontier AI",
+    "link": "https://arxiv.org/abs/2605.22681",
+    "description": "arXiv:2605.22681v2 Announce Type: replace Abstract: AI systems are increasingly used to support forward-looking scientific judgment, but it remains unclear whether they can form reliable expectations about future scientific advances. Here we show that strong scientific reasoning does not reliably translate into accurate forecasting of future scientific advances. To study this question, we introduce CUSP, a temporally grounded evaluation suite for event-level scientific forecasting across eight scientific disciplines. Across six frontier AI models, we observe a striking asymmetry in forecasting performance together with systematic error patterns. Models often identify plausible mechanisms underlying future scientific advances, yet perform near chance on feasibility assessment, generate solution strategies that only weakly align with realized advances, and systematically predict scientific advances later than they become publicly observable. Providing additional pre-cutoff scientific knowledge improves performance but does not eliminate these forecasting limitations. These findings suggest that current AI systems possess substantial retrospective scientific competence but limited forward-looking predictive capability. Scientific forecasting should therefore be evaluated as a complementary dimension of AI scientific capability when deploying AI systems for research prioritization and scientific decision-making.",
+    "publishedAt": "2026-07-21",
+    "author": "Sean Wu, Pan Lu, Yupeng Chen, Jonathan Bragg, Yutaro Yamada, Peter Clark, David Clifton, Philip Torr, James Zou, Junchi Yu",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

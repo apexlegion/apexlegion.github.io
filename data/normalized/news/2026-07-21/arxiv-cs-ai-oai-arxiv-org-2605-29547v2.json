@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2605-29547v2",
+  "name": "Singularity-aware Optimization via Randomized Geometric Probing: Towards Stable Non-smooth Optimization",
+  "summary": "arXiv:2605.29547v2 Announce Type: replace-cross Abstract: Deep learning optimization relies heavily on the assumption of smooth loss landscapes, a condition systematically violated by modern archit...",
+  "description": "arXiv:2605.29547v2 Announce Type: replace-cross Abstract: Deep learning optimization relies heavily on the assumption of smooth loss landscapes, a condition systematically violated by modern architectures due to non-smooth components such as ReLU activations and quantization operators. In such non-smooth regimes, adaptive optimizers such as Adam suffer from gradient chattering, violent oscillat...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2605.29547"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2605.29547"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Ruoran Xu, Borong She, Xiaobo Jin, Qiufeng Wang"
+}

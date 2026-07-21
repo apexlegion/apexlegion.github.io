@@ -1,0 +1,41 @@
+{
+  "type": "paper",
+  "slug": "2607-18080",
+  "name": "Sparse Evidence Can Suffice: Agentic Evidence Seeking for Multimodal Video Misinformation Detection",
+  "summary": "Multimodal video misinformation detection is commonly formulated as a holistic video-understanding task, where the entire video and its associated content are processed and judged in a single pass....",
+  "description": "Multimodal video misinformation detection is commonly formulated as a holistic video-understanding task, where the entire video and its associated content are processed and judged in a single pass. However, real-world misinformation often exhibits a sparse and compositional evidence structure: a reliable decision may depend on only a few coupled clues, while most video content contributes limited additional information. Exhaustive multimodal reasoning may therefore introduce substantial redundancy and obscure decisive evidence. This motivates decoupling evidence acquisition from verificatio...",
+  "tags": [
+    "arxiv",
+    "cs.CV"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.18080v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.CV.",
+      "href": "https://arxiv.org/abs/2607.18080v1"
+    }
+  ],
+  "authors": [
+    "Haochen Zhao",
+    "Yongxiu Xu",
+    "Xinkui Lin",
+    "Dong Xie",
+    "Jiarui Lu",
+    "Yuqi Qian",
+    "Yubin Wang",
+    "Hongbo Xu",
+    "Gaopeng Gou"
+  ],
+  "paperId": "2607.18080",
+  "category": "cs.CV",
+  "publishedAt": "2026-07-20",
+  "abstract": "Multimodal video misinformation detection is commonly formulated as a holistic video-understanding task, where the entire video and its associated content are processed and judged in a single pass. However, real-world misinformation often exhibits a sparse and compositional evidence structure: a reliable decision may depend on only a few coupled clues, while most video content contributes limited additional information. Exhaustive multimodal reasoning may therefore introduce substantial redundancy and obscure decisive evidence. This motivates decoupling evidence acquisition from verificatio..."
+}

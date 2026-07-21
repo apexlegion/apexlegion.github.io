@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-17632v1",
+  "name": "TypiCore: A Hybrid Active Query Strategy for Class-Incremental Learning on Time Series",
+  "summary": "arXiv:2607.17632v1 Announce Type: cross Abstract: Time series data play a pivotal role across numerous domains, including healthcare and manufacturing. In real-world environments, models must cope...",
+  "description": "arXiv:2607.17632v1 Announce Type: cross Abstract: Time series data play a pivotal role across numerous domains, including healthcare and manufacturing. In real-world environments, models must cope with distribution shifts over time, a challenge commonly addressed through Continual Learning (CL) techniques. However, existing CL methods face a critical limitation: real-world data streams are rare...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.17632"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.17632"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Gabor Szucs, Samuel Jacsev, Marcell Nemeth, Davide Dalle Pezze, Gian Antonio Susto"
+}

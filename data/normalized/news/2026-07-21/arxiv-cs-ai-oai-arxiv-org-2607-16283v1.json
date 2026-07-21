@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16283v1",
+  "name": "GenSyn10: A Multi-Generative AI Dataset For Benchmarking Image Classification",
+  "summary": "arXiv:2607.16283v1 Announce Type: cross Abstract: The rapid advancement of generative AI has outpaced our ability to reliably detect its outputs, particularly when detectors encounter generators th...",
+  "description": "arXiv:2607.16283v1 Announce Type: cross Abstract: The rapid advancement of generative AI has outpaced our ability to reliably detect its outputs, particularly when detectors encounter generators they have not seen before. We introduce GenSyn10, a CIFAR-10-aligned synthetic image dataset of 60,000 images (10 classes, 32$\\times$32, 50k/10k split) generated using three architecturally diverse stat...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16283"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16283"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Md Faraz Kabir Khan, Saeed Anwar, Ghulam Mubashar Hassan"
+}

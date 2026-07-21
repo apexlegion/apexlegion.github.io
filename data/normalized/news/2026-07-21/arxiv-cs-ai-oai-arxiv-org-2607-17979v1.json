@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-17979v1",
+  "name": "Harness Engineering for LLM-Driven GPU Kernel Generation",
+  "summary": "arXiv:2607.17979v1 Announce Type: cross Abstract: Large language models (LLMs) can assist GPU kernel generation, but their practical effectiveness depends on whether generated code can be reliably...",
+  "description": "arXiv:2607.17979v1 Announce Type: cross Abstract: Large language models (LLMs) can assist GPU kernel generation, but their practical effectiveness depends on whether generated code can be reliably constrained, validated, profiled, and selected. This paper presents a harness-centered system for LLM-driven GPU kernel optimization in the MLSys 2026 FlashInfer AI Kernel Generation Contest on NVIDIA...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.17979"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.17979"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Yue Shui, Chenyu Ma, Hangfei Xu, Shengzhao Wen, Yanpeng Wang"
+}

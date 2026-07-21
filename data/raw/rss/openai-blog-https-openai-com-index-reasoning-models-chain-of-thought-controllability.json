@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "openai-blog:https://openai.com/index/reasoning-models-chain-of-thought-controllability",
-  "fetchedAt": "2026-07-20T05:47:03.258Z",
+  "fetchedAt": "2026-07-21T05:28:09.251Z",
   "data": {
     "guid": "openai-blog:https://openai.com/index/reasoning-models-chain-of-thought-controllability",
     "title": "Reasoning models struggle to control their chains of thought, and that’s good",

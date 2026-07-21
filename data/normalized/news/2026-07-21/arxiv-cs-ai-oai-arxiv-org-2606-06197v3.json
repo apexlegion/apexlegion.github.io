@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2606-06197v3",
+  "name": "Improving Answer Extraction in Context-based Question Answering Systems Using LLMs",
+  "summary": "arXiv:2606.06197v3 Announce Type: replace-cross Abstract: Question answering (QA) systems have achieved notable progress with the advent of large language models (LLMs). However, they still face ch...",
+  "description": "arXiv:2606.06197v3 Announce Type: replace-cross Abstract: Question answering (QA) systems have achieved notable progress with the advent of large language models (LLMs). However, they still face challenges in accurately extracting and generating precise answers from given contexts, particularly when dealing with complex or ambiguous queries. Existing approaches often struggle with contextual un...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2606.06197"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2606.06197"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Hafez Abdelghaffar, Ahmed Alansary, Ali Hamdi"
+}

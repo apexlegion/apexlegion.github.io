@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16555v1",
+  "name": "Mitigating Compiler Fusion-Induced Power Bursts in Mobile NPU Inference as the Battery Depletes",
+  "summary": "arXiv:2607.16555v1 Announce Type: cross Abstract: Mobile devices increasingly rely on real-time NPU inference for camera and perception workloads. Under low-voltage conditions, however, a single in...",
+  "description": "arXiv:2607.16555v1 Announce Type: cross Abstract: Mobile devices increasingly rely on real-time NPU inference for camera and perception workloads. Under low-voltage conditions, however, a single inference can induce an instantaneous voltage droop in the power-delivery network, causing the power management integrated circuit to invoke dynamic voltage and frequency scaling (DVFS) and increase lat...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16555"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16555"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Ryoga Yuzawa, Masayoshi Tomizuka"
+}

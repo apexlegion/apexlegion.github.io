@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.16224v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.16224v1",
+    "title": "International Agreements to Limit Frontier AI: Objectives and Exit",
+    "link": "https://arxiv.org/abs/2607.16224",
+    "description": "arXiv:2607.16224v1 Announce Type: cross Abstract: An international agreement to limit AI development could be crucial to mitigate risks from AI. However, it remains unclear which conditions should determine when the limiting measures are relaxed. We survey existing international agreements, outline what properties appropriate conditions should satisfy, list possible conditions, and finally give a recommendation in an example scenario. We recommend a fixed time period after which a new organization established at the start of the period specifies conditions that address when AI development can be safely conducted, with a possibility of withdrawal in extraordinary circumstances. We hope to illustrate the considerations that would likely go into an international agreement to limit AI.",
+    "publishedAt": "2026-07-21",
+    "author": "Lennart Finke",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

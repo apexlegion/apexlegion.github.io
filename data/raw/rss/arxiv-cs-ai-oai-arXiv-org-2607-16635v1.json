@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.16635v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.16635v1",
+    "title": "TellTale: Blending Multi-Instance LoRA Text Encoders and a Zero-Shot LLM Judge for Ambivalence/Hesitancy Recognition in Videos",
+    "link": "https://arxiv.org/abs/2607.16635",
+    "description": "arXiv:2607.16635v1 Announce Type: cross Abstract: We present TellTale, a text-only approach to ambivalence/hesitancy (A/H) recognition in interview videos, evaluated on the BAH dataset as part of the 3rd A/H Video Recognition Challenge (11th ABAW Workshop, ECCV 2026). Although the dataset provides video, audio, facial crops, and transcripts, TellTale relies on the transcript alone and combines three probability streams. Two text encoders, multilingual-e5-large and mDeBERTa-v3-base, are fine-tuned with parameter-efficient LoRA adapters under a multiple-instance learning (MIL) objective, in which transcript chunks are scored individually and pooled with a smooth maximum so that only the video-level label is needed for supervision. The third stream requires no training: a quantized 14B instruction LLM is prompted, zero-shot, to rate each transcript for A/H. The three probabilities are combined by a weighted average and a single decision threshold, both selected on participant-grouped cross-validated predictions. On the organizer-scored private test set of 152 videos from unseen participants, TellTale achieves a Macro-F1 of 0.7364 and an average precision of 0.7940, compared with 0.2827 Macro-F1 for the official vision-based baseline.",
+    "publishedAt": "2026-07-21",
+    "author": "Abdel-Karim Al-Tamimi, Ali Rodan",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

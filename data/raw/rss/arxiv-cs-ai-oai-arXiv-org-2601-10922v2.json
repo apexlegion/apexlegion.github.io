@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2601.10922v2",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2601.10922v2",
+    "title": "Data-Efficient Curation for Multimodal Reasoning under Fixed Training Protocols",
+    "link": "https://arxiv.org/abs/2601.10922",
+    "description": "arXiv:2601.10922v2 Announce Type: replace Abstract: We study data curation for multimodal reasoning in a fixed-protocol fine-tuning regime, where the base model, optimizer, training schedule, and evaluation pipeline are held constant and the main degree of freedom is the training data. Using the NeurIPS 2025 Data Curation for Vision--Language Reasoning (DCVLR) challenge as a controlled testbed, we analyze how source-dataset alignment, model-relative difficulty, dataset size, diversity heuristics, and rewritten synthetic mixtures affect downstream reasoning accuracy. Among the tested interventions, difficulty filtering on an aligned source corpus provides the strongest gains at matched scale. The effect is not explained only by LiveXivTQA weighting: a per-benchmark decomposition shows that much of the improvement over random sampling comes from OlympiadBench, the largest non-LiveXivTQA benchmark. Qwen-derived difficulty scores also transfer to some additional model families, though the benefit is architecture-dependent. In contrast, increasing dataset size beyond roughly 1k aligned examples mainly reduces run-to-run variance under the fixed recipe, while the diversity and rewritten CoSyn mixtures we tested do not improve over the difficulty-filtered baseline. These results provide a scoped empirical recipe for data-constrained multimodal reasoning fine-tuning, rather than a universal claim about data selection across all training regimes.",
+    "publishedAt": "2026-07-21",
+    "author": "Yosub Shin, Michael Buriek, Boris Sobolev, Pavel Bushuyeu, Vikas Kumar, Haoyang Xu, Samuel Watson, Igor Molybog",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

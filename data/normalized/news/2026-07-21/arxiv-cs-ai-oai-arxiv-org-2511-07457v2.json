@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2511-07457v2",
+  "name": "GRIP: In-Parameter Graph Reasoning through Fine-Tuning Large Language Models",
+  "summary": "arXiv:2511.07457v2 Announce Type: replace-cross Abstract: Large Language Models (LLMs) have demonstrated remarkable capabilities in modeling sequential textual data and generalizing across diverse...",
+  "description": "arXiv:2511.07457v2 Announce Type: replace-cross Abstract: Large Language Models (LLMs) have demonstrated remarkable capabilities in modeling sequential textual data and generalizing across diverse tasks. However, effectively adapting LLMs to structural data, such as knowledge graphs or web graphs, remains a fundamental challenge. Some approaches adopt complex strategies to convert graphs into t...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2511.07457"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2511.07457"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Jiarui Feng, Donghong Cai, Yixin Chen, Muhan Zhang"
+}

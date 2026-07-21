@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.16246v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.16246v1",
+    "title": "Let the Data Decide: Supervision Analysis, Capability Trade-offs, and Adaptive Objective Routing in Continued Pre-Training via Off-Policy Distillation",
+    "link": "https://arxiv.org/abs/2607.16246",
+    "description": "arXiv:2607.16246v1 Announce Type: cross Abstract: Off-policy distillation is now central to large language model pre-training, yet how training data, objective parameterization, and model capabilities interact remains poorly characterized. We studies top-$k$-truncated, temperature-scaled off-policy distillation by decomposing this problem into two questions: an \\emph{objective-to-capability} analysis of how the training objective shapes token-level supervision and downstream performance, and a \\emph{data-to-objective} analysis of how data heterogeneity should inform objective routing. We first show that the language-modeling objective ($L_{\\mathrm{LM}}$) and the knowledge-distillation objective ($L_{\\mathrm{KD}}$) induce systematically different capability profiles, and trace this divergence to a gradient-level tension between \\emph{direct observed-token reinforcement} and \\emph{teacher-supported alternative supervision}. To quantify this tension, we introduce diagnostic metrics -- support coverage, observed-token probability mass, and teacher-distribution concentration -- and show via controlled sweeps that the support size $k$ governs a coverage-sharpness trade-off, while distillation temperature controls within-support probability allocation. We then examine adaptive objective routing: a domain-level policy that applies $L_{\\mathrm{LM}}$ to math and code and $L_{\\mathrm{KD}}$ to general-domain data yields consistent gains over both single-objective baselines, whereas token-level routing based on observed-token probability mass or teacher entropy fails to consistently match the single-objective baseline. These results suggest that effective objective routing depends less on routing granularity than on the quality of the routing signal, reframing continued pre-training via off-policy distillation as a structured, data-conditional supervision-design problem rather than a global hyperparameter choice.",
+    "publishedAt": "2026-07-21",
+    "author": "Jiangan Yuan, Zhixuan Li, Han Xu",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

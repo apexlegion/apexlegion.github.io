@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2509.25624v3",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2509.25624v3",
+    "title": "STAC: When Innocent Tools Form Dangerous Chains for LLM Agents",
+    "link": "https://arxiv.org/abs/2509.25624",
+    "description": "arXiv:2509.25624v3 Announce Type: replace-cross Abstract: As LLMs advance into autonomous agents with tool-use capabilities, they introduce security challenges that extend beyond traditional content-based LLM safety concerns. This paper introduces Sequential Tool Attack Chaining (\\STAC), a novel multi-turn attack framework that exploits agent tool use. \\STAC chains together tool calls that each appear harmless in isolation but, when combined, collectively enable harmful operations that only become apparent at the final execution step. At the core of \\STAC is an automated, closed-loop pipeline that synthesizes executable multi-step tool chains, validates them through in-environment execution, and reverse-engineers stealthy multi-turn prompts that reliably induce agents to execute the verified malicious sequence. Using this framework, we generate and systematically evaluate 483 \\STAC cases, featuring 1,352 sets of user-agent-environment interactions and spanning diverse domains, tasks, agent types, and 10 failure modes. Our evaluations show that state-of-the-art LLM agents are highly vulnerable to \\STAC, with an average final attack success rate (ASR) of 91.2\\% -- exceeding 90\\% for all but one of the eight agents evaluated. We further perform defense analysis and find that existing prompt-based defenses provide limited protection. To address this gap, we propose a new reasoning-driven defense prompt that achieves the strongest initial-turn protection, cutting ASR by up to 28.8\\%; however, this advantage erodes sharply under adaptive attacks, and an experience-based defense (ToolShield) proves more durable over sustained multi-turn interactions. These results highlight a crucial gap: defending tool-enabled agents requires reasoning over entire action sequences and their cumulative effects, rather than evaluating isolated prompts or responses.",
+    "publishedAt": "2026-07-21",
+    "author": "Jing-Jing Li, Jianfeng He, Chao Shang, Devang Kulshreshtha, Xun Xian, Yi Zhang, Hang Su, Sandesh Swamy, Yanjun Qi",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.16738v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.16738v1",
+    "title": "Supporting Autonomous Process Execution within a Multi-Perspective Constraint Frame via Numeric Planning",
+    "link": "https://arxiv.org/abs/2607.16738",
+    "description": "arXiv:2607.16738v1 Announce Type: new Abstract: AI-Augmented Business Process Management Systems (ABPMS) enhance traditional BPMS by leveraging advanced AI techniques to define, execute, and monitor complex process structures. Within this landscape, Framed Autonomy denotes the capability of a system to autonomously advance the execution of a Business Process (BP) instance while strictly adhering to a predefined frame, i.e., a set of constraints that may span multiple perspectives. Existing research on framed autonomy has predominantly focused on control-flow constraints, either declarative or procedural, and typically relies on their transformation into automata-based representations. In this study, we extend this line of work by introducing a novel tool for what-if analysis that augments the process frame with multi-perspective constraints, including data-aware and temporal conditions. Given a partial process execution, the proposed approach exploits this enriched frame to recommend optimal continuations in compliance with the underlying process specifications. We additionally report an empirical evaluation demonstrating the scalability and effectiveness of the technique, thereby highlighting its potential for supporting autonomous and constraint-aware decision making in ABPMS.",
+    "publishedAt": "2026-07-21",
+    "author": "Paul Wittlinger, Giacomo Acitelli, Anti Alman, Fabrizio Maria Maggi, Andrea Marrella",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

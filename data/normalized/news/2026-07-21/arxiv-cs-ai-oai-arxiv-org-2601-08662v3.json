@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2601-08662v3",
+  "name": "From Classical to Quantum Reinforcement Learning and Its Applications in Quantum Control: A Beginner's Tutorial",
+  "summary": "arXiv:2601.08662v3 Announce Type: replace Abstract: This tutorial is designed to make reinforcement learning (RL) more accessible to undergraduate students by offering clear, example-driven explana...",
+  "description": "arXiv:2601.08662v3 Announce Type: replace Abstract: This tutorial is designed to make reinforcement learning (RL) more accessible to undergraduate students by offering clear, example-driven explanations. It focuses on bridging the gap between RL theory and practical coding applications, addressing common challenges that students face when transitioning from conceptual understanding to implement...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2601.08662"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2601.08662"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Abhijit Sen, Sonali Panda, Mahima Arya, Subhajit Patra, Zizhan Zheng, Denys I. Bondar"
+}

@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.17822v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.17822v1",
+    "title": "Phasor Attention: Mean Root Square Normalization for Phase Manifold Preservation",
+    "link": "https://arxiv.org/abs/2607.17822",
+    "description": "arXiv:2607.17822v1 Announce Type: cross Abstract: While Root Mean Square Normalization has become the de facto standard for accelerating modern sequence models, its reliance on the quadratic accumulation of independent scalars ($\\sum x^2$) inherently triggers outlier-induced numerical instability, gradient starvation, and anisotropic phase distortion. We introduce Mean Root Square Normalization (MRSNorm). By structurally pairing channels into 2D phasors, MRSNorm mathematically inverts the traditional scaling paradigm: it computes the localized $L_2$ magnitudes (Root Square) before aggregating them via a global $L_1$ average (Mean). This operational inversion strictly constrains activations to a phasor manifold, preserving conformal invariance. By sharing a single affine weight across phasor components, MRSNorm halves the total number of learnable parameters, proving that unconstrained spatial scaling in standard norms is a harmful redundancy. We analytically demonstrate that this geometric constraint yields a built-in, trigonometric gradient clipper governed by the Pythagorean identity, unconditionally equalizing the local gradient norm to ensure Gradient Homogeneity. Empirical evaluations on a ResNet with CIFAR-100 show that despite halved parameters, MRSNorm provides critical structural stability under rigorous stress tests. Under extreme hyperparameter settings where standard normalizations suffer from gradient divergence, MRSNorm successfully prevents numerical explosion and secures stable optimization trajectories. Our findings propose a fundamental paradigm shift toward phasor-based deep representation learning. The implementation of MRSNorm is available at Appendix C.",
+    "publishedAt": "2026-07-21",
+    "author": "Sungwoo Goo, Hwi-yeol Yun, Sangkeun Jung",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

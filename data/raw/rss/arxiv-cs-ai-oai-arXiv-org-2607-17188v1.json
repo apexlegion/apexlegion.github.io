@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.17188v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.17188v1",
+    "title": "Is Your Model Thinking or Just Stagnating? PUMA: Diagnosing Reasoning Pathology via Phase-Momentum Alignment",
+    "link": "https://arxiv.org/abs/2607.17188",
+    "description": "arXiv:2607.17188v1 Announce Type: new Abstract: Test-time scaling empowers Large Reasoning Models (LRMs) to tackle complex tasks via extensive Chain-of-Thought (CoT). However, this often induces the \"overthinking\" paradox, where redundant reasoning increases computational overhead without guaranteeing accuracy. Existing test-time efficiency optimization methods primarily fall into two categories: information-theoretic approaches, which are prone to \"deceptive convergence\" where low uncertainty masks hallucinations, and latent representation analyses, which are often post-hoc, lacking the real-time sensitivity for dynamic reasoning. To bridge this gap, we first posit the Phase-Momentum Alignment Hypothesis, asserting that reasoning correctness hinges on the temporal synchronization between geometric momentum and uncertainty resolution. We then theoretically formulate the Cognitive-Energy Model to characterize these dynamics through two orthogonal dimensions: Geometric Cognitive Effort, quantified by latent velocity and tortuosity, and Entropic Cognitive Uncertainty. To operationalize this, we introduce PUMA (Phase-Uncertainty Momentum Alignment), a training-free framework employing a tiered diagnostic architecture. By coupling lightweight phase monitoring with event-triggered geometric analysis, PUMA effectively distinguishes active exploration from passive stagnation, enabling precise interventions through adaptive truncation or corrective measures. Extensive experiments on LRMs spanning 1.5B to 32B demonstrate that PUMA consistently outperforms state-of-the-art baselines across diverse benchmarks, achieving a superior accuracy-efficiency trade-off and robust cross-domain generalization.",
+    "publishedAt": "2026-07-21",
+    "author": "Cheng Yan, Guangyang Ye, Wuyang Zhang, Fan Xu, Zhijun Fan, Xiang Xia, Yanyong Zhang",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-17963v1",
+  "name": "OntoExtend: A Framework for Requirement-driven and Scalable Ontology Extension with LLMs",
+  "summary": "arXiv:2607.17963v1 Announce Type: new Abstract: Ontology extension refers to the process of enriching an existing ontology in response to emerging requirements, making it more complete. This task i...",
+  "description": "arXiv:2607.17963v1 Announce Type: new Abstract: Ontology extension refers to the process of enriching an existing ontology in response to emerging requirements, making it more complete. This task is a resource-intensive and error-prone process. Large Language Models (LLMs) have shown promising performance on generating ontologies from scratch, but current approaches rarely tie ontology extensio...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.17963"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.17963"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Anna Sofia Lippolis, Mohammad Javad Saeedizade, Stefan Schmid, Simon Blattner, Robin Keskis\\\"arkk\\\"a, Aldo Gangemi, Eva Blomqvist, Andrea Giovanni Nuzzolese"
+}

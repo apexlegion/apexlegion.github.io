@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.02201v2",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.02201v2",
+    "title": "The Eticas AI Risk Taxonomy: Open Infrastructure for Operationalizing AI Audits",
+    "link": "https://arxiv.org/abs/2607.02201",
+    "description": "arXiv:2607.02201v2 Announce Type: replace-cross Abstract: The rapid deployment of AI systems across high-stakes domains has created urgent demand for standardized evaluation, yet the field remains fragmented across competing risk taxonomies that catalog risks without showing how an audit is executed. At least 74 AI risk taxonomies exist, and almost all stop at the catalog. The hard part of auditing is not naming a risk but operationalizing it: turning it into a test run against a real system, a measured value, a calibrated severity, and a defensible grade. This paper leads with that bridge. We present the operationalization layer Eticas has built and run, shown end to end on a single risk (PII leakage) against a public benchmark, and then the open taxonomy that makes the method scale. On GPT-4-0314, a disclosure risk that seven external frameworks require be controlled is measured at 0%, 51%, and 84% disclosure as adversarial conditioning increases, mapping through calibrated severity bands to a subcategory grade of E with a SYSTEMIC pattern. Around this example, the Eticas AI Risk Taxonomy v2.0.0 organizes 76 active subcategories across 10 categories and 20 sub-groups, with mappings to 18 external frameworks across compliance, reference, and academic tiers. Its category and sub-group layer is published under CC BY 4.0 as open semantic infrastructure with stable URIs and SKOS/JSON-LD distributions, and a worked subcategory example shows the operational layer down to its severity thresholds. The contribution is the demonstrated bridge from concept to graded finding, anchored by a clean separation of risks from the mechanisms by which they surface, and framed by an open-core model in which the conceptual scaffold is open and the methodology calibration is the practitioner layer. This is the infrastructure the AI auditing field needs: shared, open, and demonstrably operable.",
+    "publishedAt": "2026-07-21",
+    "author": "Gemma Galdon Clavell, Pablo Accuosto, Usman Gohar",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

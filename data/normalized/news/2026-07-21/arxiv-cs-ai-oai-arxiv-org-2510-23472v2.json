@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2510-23472v2",
+  "name": "BBOPlace-Bench: Benchmarking Black-Box Optimization for Chip Placement",
+  "summary": "arXiv:2510.23472v2 Announce Type: replace-cross Abstract: Chip placement is a vital stage in modern chip design, and black-box optimization (BBO) has been applied to it for decades. Early BBO effor...",
+  "description": "arXiv:2510.23472v2 Announce Type: replace-cross Abstract: Chip placement is a vital stage in modern chip design, and black-box optimization (BBO) has been applied to it for decades. Early BBO efforts, however, were limited by immature problem formulations and inefficient algorithm designs, leading to worse efficiency, quality, and scalability than mainstream analytical methods. Recent advances...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2510.23472"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2510.23472"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Ke Xue, Ruo-Tong Chen, Rong-Xi Tan, Xi Lin, Yunqi Shi, Siyuan Xu, Mingxuan Yuan, Chao Qian"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-17290v1",
+  "name": "Lookahead Branching for Neural Network Verification",
+  "summary": "arXiv:2607.17290v1 Announce Type: cross Abstract: In this work, we investigate the effect of lookahead branching strategies in neural network verification. We present a general recipe to integrate...",
+  "description": "arXiv:2607.17290v1 Announce Type: cross Abstract: In this work, we investigate the effect of lookahead branching strategies in neural network verification. We present a general recipe to integrate lookahead into any branch-and-bound verifier and demonstrate how one of the current state-of-the-art branching heuristics, FSB, can be viewed as a special instantiation of the lookahead branching stra...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.17290"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.17290"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Liam Davis, Duo Zhou, Huan Zhang, Guy Katz, Clark Barrett, Haoze Wu"
+}

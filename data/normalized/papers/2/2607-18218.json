@@ -1,0 +1,59 @@
+{
+  "type": "paper",
+  "slug": "2607-18218",
+  "name": "GigaPath-Flash and GigaTIME-Flash: Efficient Pathology Foundation Models for Whole-Slide and Tumor Microenvironment Analysis",
+  "summary": "Foundation models have emerged as a driving force in computational pathology, with the potential to transform cancer diagnosis, prognosis, and treatment selection by learning transferable represent...",
+  "description": "Foundation models have emerged as a driving force in computational pathology, with the potential to transform cancer diagnosis, prognosis, and treatment selection by learning transferable representations from large-scale histopathology data. A growing landscape of pathology foundation models now spans diverse data sources, architectures, and downstream applications. However, most pretrained models operate only at the image-tile level, use restrictive licenses, and remain computationally expensive, limiting large-scale slide-level clinical and research use. Here, we introduce GigaPath-Flash...",
+  "tags": [
+    "arxiv",
+    "cs.CV"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.18218v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.CV.",
+      "href": "https://arxiv.org/abs/2607.18218v1"
+    }
+  ],
+  "authors": [
+    "Naoto Usuyama",
+    "Jeya Maria Jose Valanarasu",
+    "Sicong Yao",
+    "Hanwen Xu",
+    "Jaspreet Bagga",
+    "Guanghui Qin",
+    "Robert E. Kramer",
+    "Cliff Wong",
+    "Soohee Lee",
+    "Hao Qiu",
+    "Theodore Zhengde Zhao",
+    "Racheli Ben Shimol",
+    "Angela Crabtree",
+    "Kevin Matlock",
+    "Eduardo Alejandro Lozano Garcia",
+    "Naiteek Sangani",
+    "Alberto Santamaria-Pang",
+    "Jason Entenmann",
+    "Alexandra Q. Bartlett",
+    "Bill J. Wright",
+    "Bernard A. Fox",
+    "Brian Piening",
+    "Sheng Zhang",
+    "Sheng Wang",
+    "Tristan Naumann",
+    "Carlo Bifulco",
+    "Hoifung Poon"
+  ],
+  "paperId": "2607.18218",
+  "category": "cs.CV",
+  "publishedAt": "2026-07-20",
+  "abstract": "Foundation models have emerged as a driving force in computational pathology, with the potential to transform cancer diagnosis, prognosis, and treatment selection by learning transferable representations from large-scale histopathology data. A growing landscape of pathology foundation models now spans diverse data sources, architectures, and downstream applications. However, most pretrained models operate only at the image-tile level, use restrictive licenses, and remain computationally expensive, limiting large-scale slide-level clinical and research use. Here, we introduce GigaPath-Flash..."
+}

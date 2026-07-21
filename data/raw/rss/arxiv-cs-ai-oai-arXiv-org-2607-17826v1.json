@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.17826v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.17826v1",
+    "title": "I wanted it to feel more personal: Customization of social AI as AI individualism in practice",
+    "link": "https://arxiv.org/abs/2607.17826",
+    "description": "arXiv:2607.17826v1 Announce Type: cross Abstract: Despite the growing availability of customizable social artificial intelligence (AI), such as ChatGPT, Grok, and Character.ai, we know little about how users actively shape social AI to reflect their personal preferences. This study examines why and how users (N = 169) customize social AI through the lens of the newly developed concept of AI individualism. Through reflexive thematic analysis of open-ended responses, we identified several motivations for customization, including (1) enhanced pragmatic support, (2) emotional support or companionship, (3) trust and reliability, (4) pushback, (5) a tailored degree of human likeness, (6) creativity or playfulness, and (7) having the AI function as an extension of the self. In line with the concept of AI individualism, our findings show that, for many users, customization is a co-creative process between the human and the AI that is perceived as strengthening support, autonomy, ownership, and engagement, potentially contributing to a closer and more personal relationship. Through customization users may come to view social AI as a personalized social resource that increases their sense of individualism, freedom, and control. We discuss how these perceptions may foster pseudo-autonomy, whereby customization creates an illusion of individual control over powerful social AI systems.",
+    "publishedAt": "2026-07-21",
+    "author": "Marita Skjuve, Anna Gr{\\o}ndal Larsen, Asbj{\\o}rn F{\\o}lstad, Nena van As, Petter Bae Brandtzaeg",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

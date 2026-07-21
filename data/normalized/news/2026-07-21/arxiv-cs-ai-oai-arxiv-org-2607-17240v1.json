@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-17240v1",
+  "name": "Constrained Path Reasoning: Measuring When Committed Stages Earn Their Cost",
+  "summary": "arXiv:2607.17240v1 Announce Type: new Abstract: When does a committed intermediate stage in an LLM reasoning pipeline earn its cost? Constrained Path Reasoning (CPR) pairs a source-aware path hypot...",
+  "description": "arXiv:2607.17240v1 Announce Type: new Abstract: When does a committed intermediate stage in an LLM reasoning pipeline earn its cost? Constrained Path Reasoning (CPR) pairs a source-aware path hypothesis with stage-level accounting. Search generates provisional states; trusted or validated invariants can constrain hard, while other proposals remain soft and revisable. CPR predicts that task-comp...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.17240"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.17240"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Honglin Li (ShanghaiTech University)"
+}

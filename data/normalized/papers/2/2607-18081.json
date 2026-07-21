@@ -1,0 +1,36 @@
+{
+  "type": "paper",
+  "slug": "2607-18081",
+  "name": "SelectInfer: Selective Neuron Loading and Computation for On-Device LLMs",
+  "summary": "Large Language Models (LLMs) have demonstrated remarkable capabilities across a range of Natural Language Processing (NLP) tasks, but their high computational and memory demands pose significant ch...",
+  "description": "Large Language Models (LLMs) have demonstrated remarkable capabilities across a range of Natural Language Processing (NLP) tasks, but their high computational and memory demands pose significant challenges for deployment on resource-constrained edge devices. Existing approaches to model compression and optimization often rely on coarse-grained pruning or quantization, which can compromise accuracy or require re-training and fine-tuning. In this work, we introduce SelectInfer, a neuron-level optimization framework that enables efficient LLM inference on edge devices through selective neuron...",
+  "tags": [
+    "arxiv",
+    "cs.LG"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.18081v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.LG.",
+      "href": "https://arxiv.org/abs/2607.18081v1"
+    }
+  ],
+  "authors": [
+    "Huzaifa Shaaban Kabakibo",
+    "Eric Schniedermeyer",
+    "Artem Burchanow",
+    "Lin Wang"
+  ],
+  "paperId": "2607.18081",
+  "category": "cs.LG",
+  "publishedAt": "2026-07-20",
+  "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities across a range of Natural Language Processing (NLP) tasks, but their high computational and memory demands pose significant challenges for deployment on resource-constrained edge devices. Existing approaches to model compression and optimization often rely on coarse-grained pruning or quantization, which can compromise accuracy or require re-training and fine-tuning. In this work, we introduce SelectInfer, a neuron-level optimization framework that enables efficient LLM inference on edge devices through selective neuron..."
+}

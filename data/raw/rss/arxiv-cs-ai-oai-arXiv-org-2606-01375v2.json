@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2606.01375v2",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2606.01375v2",
+    "title": "Beyond Access: Guided LLM Scaffolding for Independent Learning in Undergraduate Statistics",
+    "link": "https://arxiv.org/abs/2606.01375",
+    "description": "arXiv:2606.01375v2 Announce Type: replace-cross Abstract: Large language models (LLMs) are increasingly entering students' learning practices, but their educational value depends on whether they support reasoning or enable task completion without engagement. This study examines guided LLM use in an undergraduate Probability and Statistics course, focusing on the gap between assigned access and actual interaction quality. In a four-week quasi-experimental summer program, students were organized into three balanced conditions: no LLM access, unrestricted LLM access, and guided LLM access. The guided condition used the same LLM platform as the unrestricted condition, but students received explicit training and rules promoting reasoning-focused help-seeking, stepwise hints, verification, and ethical use. All quizzes and the delayed final exam were completed without LLM or external assistance, allowing us to distinguish AI-supported practice performance from independent learning. Results show that guided use was associated with clearer learning-oriented interaction patterns than unrestricted access, especially in prioritizing reasoning over final answers and requesting stepwise support. Guided-LLM students showed stronger no-help quiz performance during the intervention phase, whereas unrestricted access appeared more useful for assisted practice completion than for consistently improving independent performance. Available time measures did not support a simple duration-based explanation, and self-assessment calibration suggested better alignment between perceived and demonstrated understanding in the Guided-LLM condition. Overall, LLM access alone appears to be an incomplete educational intervention. For Artificial Intelligence in Education (AIED), the central design challenge is to scaffold how students use LLMs so that these systems function as partners in reasoning rather than answer-getting tools.",
+    "publishedAt": "2026-07-21",
+    "author": "Mohammad Amanlou, Yasaman Amou-Jafari, Mehrad Livian, Fatemeh Boloukazari, Fereshte Bagheri, Elahe Khodaverdi Nadrabadi, Shahab Sherafat, Behnam Bahrak",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

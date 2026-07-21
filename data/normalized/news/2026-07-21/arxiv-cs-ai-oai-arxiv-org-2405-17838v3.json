@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2405-17838v3",
+  "name": "Posts of Peril: Detecting Information About Hazards in Text",
+  "summary": "arXiv:2405.17838v3 Announce Type: replace-cross Abstract: Socio-linguistic indicators of affectively-relevant phenomena, such as emotion or sentiment, are often extracted from text to better unders...",
+  "description": "arXiv:2405.17838v3 Announce Type: replace-cross Abstract: Socio-linguistic indicators of affectively-relevant phenomena, such as emotion or sentiment, are often extracted from text to better understand features of human-computer interactions, including on social media. However, an indicator that is often overlooked is the presence or absence of information concerning harms or hazards. Detecting...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2405.17838"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2405.17838"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Keith Burghardt, Daniel M. T. Fessler, Chyna Tang, Anne Pisor, Kristina Lerman"
+}

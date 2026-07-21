@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-17548v1",
+  "name": "Human-in-the-Loop User Feedback Affects Perceived Accuracy and Trust, but Task Subjectivity Matters",
+  "summary": "arXiv:2607.17548v1 Announce Type: cross Abstract: While ML can produce complex models beyond those that a human could produce manually, incorporating human input can often improve performance beyon...",
+  "description": "arXiv:2607.17548v1 Announce Type: cross Abstract: While ML can produce complex models beyond those that a human could produce manually, incorporating human input can often improve performance beyond purely data-driven models. While this feedback could come from system designers or domain experts, in many cases, the end users who regularly use the system will naturally develop an understanding o...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.17548"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.17548"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Donald R. Honeycutt, Mahsan Nourani, Eric D. Ragan"
+}

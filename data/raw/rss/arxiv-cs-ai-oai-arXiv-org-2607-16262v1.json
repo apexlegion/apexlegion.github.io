@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.16262v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.16262v1",
+    "title": "Autonomous mechanistic discovery of colorectal cancer vulnerabilities via multi-scale AI swarms",
+    "link": "https://arxiv.org/abs/2607.16262",
+    "description": "arXiv:2607.16262v1 Announce Type: cross Abstract: The acceleration of automated scientific discovery has been fundamentally bottlenecked by the epistemic gap between the semantic reasoning of large language models (LLMs) and the deterministic physics of mammalian biology. While recent multi-agent frameworks have achieved autonomous hypothesis generation and in vitro experimental analysis, they lack the mathematically grounded, causal constraints required for multi-scale clinical translation. Furthermore, while algorithmic clinical digital twins successfully forecast biological states, they rely on black-box latent spaces, sacrificing mechanistic interpretability for predictive accuracy. Here, we introduce the Multi-Scale Autonomous Discovery Engine (Octopus), a neuro-symbolic architecture that unites zero-leakage, local LLM swarms with strict algorithmic physics engines. Rather than stopping at isolated cellular assays, the system autonomously generated therapeutic hypotheses against in vitro CRISPR dependency data (CCLE), traced dynamic causal cascades using mechanistic interpretability (XGBoost SHAP vectors), and orthogonally translated the emergent vulnerabilities in silico to predict in vivo mammalian tumor trajectory (PDX) and human overall survival (Marisa). In a fully unsupervised sweep of colorectal cancer transcriptomes, the pipeline autonomously identified Insulin-like Growth Factor 2 (IGF2) as a strictly bounded vulnerability to 5-Fluorouracil resistance. The discovery maintained significance after rigorous Benjamini-Hochberg false discovery rate correction (q=0.0292, Log-Rank p=0.0007 ) and successfully predicted significant in vivo tumor volume shrinkage in an independent mouse cohort (Mann-Whitney p=0.0373). By bridging the chasm between multi-agent reasoning and mathematically bounded clinical survival, this framework establishes a verifiable, zero-leakage paradigm for automated, end-to-end biomedical discovery.",
+    "publishedAt": "2026-07-21",
+    "author": "Christopher Baker, Tianyu Ren, Karen Rafferty, Hui Wang, Simon McDade",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

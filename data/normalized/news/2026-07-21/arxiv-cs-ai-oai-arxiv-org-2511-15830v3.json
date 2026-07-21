@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2511-15830v3",
+  "name": "Mini Amusement Parks (MAPs): A Testbed for Modelling Business Decisions",
+  "summary": "arXiv:2511.15830v3 Announce Type: replace Abstract: Despite rapid progress in artificial intelligence, current systems struggle with the interconnected challenges that define real-world decision ma...",
+  "description": "arXiv:2511.15830v3 Announce Type: replace Abstract: Despite rapid progress in artificial intelligence, current systems struggle with the interconnected challenges that define real-world decision making. Practical domains such as business management require open-ended optimization, actively learning environment dynamics from sparse experience, planning over long horizons in stochastic settings,...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2511.15830"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2511.15830"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "St\\'ephane Aroca-Ouellette, Ian Berlot-Attwell, Panagiotis Lymperopoulos, Abhiramon Rajasekharan, Tongqi Zhu, Herin Kang, Kaheer Suleman, Sam Pasupalak"
+}

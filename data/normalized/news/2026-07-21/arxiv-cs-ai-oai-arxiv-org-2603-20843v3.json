@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2603-20843v3",
+  "name": "HiCI: Hierarchical Construction-Integration for Long-Context Attention",
+  "summary": "arXiv:2603.20843v3 Announce Type: replace-cross Abstract: Long-context language modeling is commonly framed as a scalability challenge of token-level attention, yet local-to-global information stru...",
+  "description": "arXiv:2603.20843v3 Announce Type: replace-cross Abstract: Long-context language modeling is commonly framed as a scalability challenge of token-level attention, yet local-to-global information structuring remains largely implicit in existing approaches. Drawing on cognitive theories of discourse comprehension, we propose HiCI (Hierarchical Construction--Integration), a hierarchical attention mo...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2603.20843"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2603.20843"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Xiangyu Zeng, Qi Xu, Yunke Wang, Chang Xu"
+}

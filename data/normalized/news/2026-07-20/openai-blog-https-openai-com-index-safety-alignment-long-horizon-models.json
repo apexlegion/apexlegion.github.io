@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "openai-blog-https-openai-com-index-safety-alignment-long-horizon-models",
+  "name": "Safety and alignment in an era of long-horizon models",
+  "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+  "description": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+  "tags": [
+    "news",
+    "openai-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "OpenAI Blog",
+      "href": "https://openai.com/index/safety-alignment-long-horizon-models"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-20",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by OpenAI Blog.",
+      "href": "https://openai.com/index/safety-alignment-long-horizon-models"
+    }
+  ],
+  "source": "OpenAI Blog",
+  "publishedAt": "2026-07-20",
+  "expiryAt": "2026-08-19T00:00:00.000Z"
+}

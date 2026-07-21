@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2606-15841v2",
+  "name": "Heteroskedastic Signals in Budgeted LLM Verification: Structural Heterogeneity Limits Optimization Gains",
+  "summary": "arXiv:2606.15841v2 Announce Type: replace Abstract: Selective-compute LLM systems decide which outputs merit verification, additional reasoning, tool execution, or human audit under a limited budge...",
+  "description": "arXiv:2606.15841v2 Announce Type: replace Abstract: Selective-compute LLM systems decide which outputs merit verification, additional reasoning, tool execution, or human audit under a limited budget. It is natural to expect that stronger online optimization over a shared uncertainty or reward signal should improve these decisions. We take a critical look at this assumption and ask: when does op...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2606.15841"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2606.15841"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Jinlong Yang"
+}

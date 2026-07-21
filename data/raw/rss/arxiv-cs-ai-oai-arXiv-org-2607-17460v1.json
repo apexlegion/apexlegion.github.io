@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.17460v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.17460v1",
+    "title": "AEC-DS: Adaptive Erasure Coding with PDP-Triggered Reputation and QoS-Aware Migration for Decentralized Storage",
+    "link": "https://arxiv.org/abs/2607.17460",
+    "description": "arXiv:2607.17460v1 Announce Type: new Abstract: In decentralized storage systems, audit results are often not used directly to guide later redundancy and shard-placement decisions, which can lead to inefficient resource allocation and delayed recovery. We propose AEC-DS, a closed-loop adaptive erasure coding mechanism driven by Provable Data Possession (PDP) feedback. PDP audits continuously update node reputation, while a QoS-aware migration policy adjusts shard placement according to node reliability and data priority. The policy moves high-priority shards from unstable nodes to more reliable nodes in the cold tier and penalizes unstable nodes in subsequent placement decisions. Simulations with 800 nodes and 500 files show that AEC-DS maintains 100% data durability under the evaluated fault model with a redundancy factor of 1.25x. Compared with Static-EC, Dynamic-EC, and DRD-EC, AEC-DS reduces cumulative recovery operations by 66.8%-75.2%. Ablation results further show that class migration plays a major role in preventing data loss, improving the measured loss-prevention capability by 176.8%. These results indicate that PDP feedback can connect integrity auditing with redundancy and placement adaptation, providing a practical path toward self-healing decentralized storage while accounting for the additional cost of migration.",
+    "publishedAt": "2026-07-21",
+    "author": "Shuaiwen Li, Weihang Yu, Ke Wang, Meng Han",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

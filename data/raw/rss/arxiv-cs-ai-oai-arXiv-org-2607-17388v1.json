@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.17388v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.17388v1",
+    "title": "Mathematical Discovery in the Wild: AI-Guided Proofs in Banach Space Theory",
+    "link": "https://arxiv.org/abs/2607.17388",
+    "description": "arXiv:2607.17388v1 Announce Type: cross Abstract: We investigate the capacity of current language models to contribute to mathematical research. In Banach space theory, AI systems generated key ideas and proofs for five new results, which were then verified and refined by humans. We also developed an automated system that searches the literature for open problems and attempts solutions at scale. Our results show both the potential of language models for mathematical discovery and the continuing importance of expert verification.",
+    "publishedAt": "2026-07-21",
+    "author": "Antonio Acuaviva, Pablo Acuaviva",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

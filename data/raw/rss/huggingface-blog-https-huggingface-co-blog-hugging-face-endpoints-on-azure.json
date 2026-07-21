@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/hugging-face-endpoints-on-azure",
-  "fetchedAt": "2026-07-20T05:47:03.303Z",
+  "fetchedAt": "2026-07-21T05:28:09.365Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/hugging-face-endpoints-on-azure",
     "title": "Hugging Face Collaborates with Microsoft to launch Hugging Face Model Catalog on Azure",

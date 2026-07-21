@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16354v1",
+  "name": "A Predict-then-Correct Loop Based on Few-Shot Continuous Contextual Bandit for Demand Forecasting",
+  "summary": "arXiv:2607.16354v1 Announce Type: cross Abstract: Retail demand forecasting remains difficult when demand shifts faster than static forecasting models can be retrained, especially in early demand c...",
+  "description": "arXiv:2607.16354v1 Announce Type: cross Abstract: Retail demand forecasting remains difficult when demand shifts faster than static forecasting models can be retrained, especially in early demand cycles where newly observed labels are sparse. To address this, this study aims to improve adaptive retail forecasting by proposing a predict-then-correct (PtC) framework that retains a first-stage mac...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16354"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16354"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Zhiwei Lei, Benedict Jun Ma, Ilya Jackson"
+}

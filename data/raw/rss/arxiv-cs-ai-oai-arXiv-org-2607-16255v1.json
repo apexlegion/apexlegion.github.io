@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.16255v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.16255v1",
+    "title": "Feature Generation Using LLMs: An Evolutionary Algorithm Approach",
+    "link": "https://arxiv.org/abs/2607.16255",
+    "description": "arXiv:2607.16255v1 Announce Type: cross Abstract: A crucial step in machine learning pipelines is to present each entity with features or attributes that are representative of the characteristics of the processed entities. Feature engineering is an important step in finding a relation among attributes that otherwise may not be processed by the ML algorithms. Meanwhile, Large Language Models have shown promising abilities in coding, mathematical reasoning, and processing world knowledge. In this work, we utilize an LLM for the problem of feature generation from tabular data based on the previously given features. We have created a pipeline that takes a set of attributes and a prompt to generate new features. Then, our selection algorithm selects the best-performing sets of attributes. We apply our method to eight datasets from different domains and data types. Our results show that, in most cases, the language model can produce new features based on mathematical and logical operators that are useful for the given tasks and can improve classification results.",
+    "publishedAt": "2026-07-21",
+    "author": "Aria Nourbakhsh, Beno\\^it Alcaraz, Christoph Schommer",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

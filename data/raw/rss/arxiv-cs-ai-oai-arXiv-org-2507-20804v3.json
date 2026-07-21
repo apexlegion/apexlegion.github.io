@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2507.20804v3",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2507.20804v3",
+    "title": "MMGraphRAG: Bridging Vision and Language with Interpretable Multimodal Knowledge Graphs",
+    "link": "https://arxiv.org/abs/2507.20804",
+    "description": "arXiv:2507.20804v3 Announce Type: replace Abstract: Large Language Models (LLMs) suffer from hallucinations due to their static parametric knowledge. Retrieval-Augmented Generation (RAG) and GraphRAG mitigate this issue by incorporating external knowledge and structured reasoning over knowledge graphs (KGs). However, existing approaches remain largely text-centric, as constructing fine-grained multimodal knowledge graphs (MMKGs) with explicit cross-modal semantics remains challenging. In this paper, we propose MMGraphRAG, a framework for building interpretable MMKGs that unify textual and visual knowledge. Our approach represents visual content as structured scene graphs and integrates them with textual KGs through a novel cross-modal entity linking method, SpecLink, which leverages spectral clustering to jointly model semantic similarity and graph structure. This design preserves explicit entities, relations, and reasoning paths across modalities, enabling structure-aware retrieval and generation. To support evaluation, we introduce the CMEL dataset, a benchmark for fine-grained cross-modal entity alignment. Experimental results on CMEL demonstrate improved entity linking accuracy, while evaluations on DocBench and MMLongBench show that MMGraphRAG achieves superior performance and stronger robustness, particularly in complex multimodal reasoning scenarios.",
+    "publishedAt": "2026-07-21",
+    "author": "Xueyao Wan, Hang Yu",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

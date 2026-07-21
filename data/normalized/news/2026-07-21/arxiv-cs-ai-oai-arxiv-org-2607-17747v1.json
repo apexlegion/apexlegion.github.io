@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-17747v1",
+  "name": "Mobile Network Control with a World Model",
+  "summary": "arXiv:2607.17747v1 Announce Type: cross Abstract: The increasing complexity of mobile networks necessitates intelligent and dynamic control strategies for efficient, energy-conserving management. W...",
+  "description": "arXiv:2607.17747v1 Announce Type: cross Abstract: The increasing complexity of mobile networks necessitates intelligent and dynamic control strategies for efficient, energy-conserving management. We propose a world model-based approach for network control that enables adaptive configuration of crucial parameters. The world model is trained from historical data and predicts the impact of its act...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.17747"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.17747"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Maxime Bouton, Ioanna Mitsioni, Simon Lindst{\\aa}hl, Jaeseong Jeong"
+}

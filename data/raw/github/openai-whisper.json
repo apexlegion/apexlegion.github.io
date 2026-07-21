@@ -1,7 +1,7 @@
 {
   "source": "github",
   "sourceId": "openai/whisper",
-  "fetchedAt": "2026-07-20T05:47:00.716Z",
+  "fetchedAt": "2026-07-21T05:28:06.523Z",
   "data": {
     "id": 537603333,
     "node_id": "R_kgDOIAstBQ",
@@ -70,7 +70,7 @@
     "releases_url": "https://api.github.com/repos/openai/whisper/releases{/id}",
     "deployments_url": "https://api.github.com/repos/openai/whisper/deployments",
     "created_at": "2022-09-16T20:02:54Z",
-    "updated_at": "2026-07-20T05:31:42Z",
+    "updated_at": "2026-07-21T05:27:55Z",
     "pushed_at": "2026-04-15T16:32:15Z",
     "git_url": "git://github.com/openai/whisper.git",
     "ssh_url": "org-14957082@github.com:openai/whisper.git",
@@ -78,8 +78,8 @@
     "svn_url": "https://github.com/openai/whisper",
     "homepage": "",
     "size": 4132,
-    "stargazers_count": 105267,
-    "watchers_count": 105267,
+    "stargazers_count": 105311,
+    "watchers_count": 105311,
     "language": "Python",
     "has_issues": false,
     "has_projects": false,
@@ -87,7 +87,7 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 12799,
+    "forks_count": 12802,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -106,9 +106,9 @@
     "pull_request_creation_policy": "all",
     "topics": [],
     "visibility": "public",
-    "forks": 12799,
+    "forks": 12802,
     "open_issues": 134,
-    "watchers": 105267,
+    "watchers": 105311,
     "default_branch": "main",
     "permissions": {
       "admin": false,
@@ -140,7 +140,7 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "network_count": 12799,
+    "network_count": 12802,
     "subscribers_count": 752
   }
 }

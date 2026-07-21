@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2602.23409v3",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2602.23409v3",
+    "title": "Long Range Frequency Tuning for QML",
+    "link": "https://arxiv.org/abs/2602.23409",
+    "description": "arXiv:2602.23409v3 Announce Type: replace-cross Abstract: Angle-encoded variational quantum circuits admit a truncated Fourier series representation of their output, but approximating functions with maximum frequency $\\omega_{\\max}$ using fixed unary encoding requires $\\mathcal{O}(\\omega_{\\max})$ encoding gates. Trainable-frequency (TF) circuits promise a reduction by learning the data-encoding prefactors alongside the ansatz parameters, adapting the accessible frequency spectrum to the target during training. We identify a practical barrier that prevents this promise from being realized: the prefactor gradient is suppressed by the spectral gap between the circuit's accessible frequencies and the target spectrum, independently of the ansatz parameters, confining gradient-driven prefactor movement to a narrow neighborhood of initialization. We propose \\emph{ternary grid initialization} -- setting prefactors to $\\{1, 3, 9, \\ldots, 3^{k-1}\\}$ -- which ensures every target frequency within $[-\\omega_{\\max}, \\omega_{\\max}]$ lies within $\\tfrac{1}{2}$ unit of the accessible spectrum at initialization, so that the spectral-gap bound no longer constrains the target-driven gradient to be small. This is a necessary condition for reliable convergence, whose sufficiency we establish empirically. On a synthetic benchmark with target frequencies shifted well beyond the standard initialization range, ternary initialization achieves median $R^2 = 0.997$ versus $0.18$ for unary initialization, with $100\\%$ of runs achieving $R^2 &gt; 0.95$ against $0\\%$. CMA-ES with $20\\times$ the evaluation budget reaches only $25\\%$ success, confirming the limitation is a property of the optimization landscape rather than of gradient-based optimization specifically. Real-world validation on two benchmark datasets demonstrates consistent advantages over both fixed and trainable unary baselines.",
+    "publishedAt": "2026-07-21",
+    "author": "Michael Poppel, Markus Baumann, Sebastian W\\\"olckert, Claudia Linnhoff-Popien, Jonas Stein",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

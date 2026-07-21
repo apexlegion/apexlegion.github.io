@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2508.13213v4",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2508.13213v4",
+    "title": "AI sustains higher strategic tension than humans in chess",
+    "link": "https://arxiv.org/abs/2508.13213",
+    "description": "arXiv:2508.13213v4 Announce Type: replace Abstract: Strategic decision-making requires balancing immediate opportunities against long-term objectives: a tension fundamental to competitive environments. We investigate this trade-off in chess by analyzing the dynamics of human and AI gameplay through a network-based metric that quantifies piece-to-piece interactions. Our analysis reveals that elite AI players sustain substantially higher levels of strategic tension for longer durations than top human grandmasters. We find that cumulative tension scales with algorithmic complexity in AI systems and increases linearly with skill level (Elo rating) in human play. Longer time controls are associated with higher tension in human games, reflecting the additional strategic complexity players can manage with more thinking time. The temporal profiles reveal contrasting approaches: highly competitive AI systems tolerate densely interconnected positions that balance offensive and defensive tactics over extended periods, while human players systematically limit tension and game complexity. These differences have broader implications for understanding how artificial and biological systems navigate complex strategic environments and for the deployment of AI in high-stakes competitive scenarios.",
+    "publishedAt": "2026-07-21",
+    "author": "Adamo Cerioli, Edward D. Lee, Vito D. P. Servedio",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

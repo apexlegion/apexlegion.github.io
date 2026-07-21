@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16273v1",
+  "name": "ForensicNet: Lightweight Attention-Enhanced MobileNetV2 for Automated Face Identification",
+  "summary": "arXiv:2607.16273v1 Announce Type: cross Abstract: In forensic environments, automated identification of perpetrators is difficult due to pose changes, changes in light, occlusion, and lack of label...",
+  "description": "arXiv:2607.16273v1 Announce Type: cross Abstract: In forensic environments, automated identification of perpetrators is difficult due to pose changes, changes in light, occlusion, and lack of labeled data. This paper presents ForensicNet, a lightweight deep learning framework for forensic face recognition that enhances attention. The suggested model combines the MobileNetV2 backbone with Convol...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16273"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16273"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Savitha N J, Lata B T"
+}

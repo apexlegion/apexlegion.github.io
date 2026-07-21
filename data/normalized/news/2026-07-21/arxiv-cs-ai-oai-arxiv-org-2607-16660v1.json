@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16660v1",
+  "name": "How Do You Choose Your AI Component? An Interview Study of Secure AI Integration in Practice",
+  "summary": "arXiv:2607.16660v1 Announce Type: cross Abstract: The increasing adoption of Large Language Models (LLMs) as AI components in modern software systems introduces distinct security risks to the softw...",
+  "description": "arXiv:2607.16660v1 Announce Type: cross Abstract: The increasing adoption of Large Language Models (LLMs) as AI components in modern software systems introduces distinct security risks to the software supply chain. While many considerations and safety mechanisms are in place for components of the traditional software supply chain, the recent rapid adoption of AI components and platforms has ove...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16660"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16660"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Mahzabin Tamanna, Elizabeth Lin, Sparsha Gowda, Laurie Williams, Dominik Wermke"
+}

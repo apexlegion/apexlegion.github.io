@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.17290v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.17290v1",
+    "title": "Lookahead Branching for Neural Network Verification",
+    "link": "https://arxiv.org/abs/2607.17290",
+    "description": "arXiv:2607.17290v1 Announce Type: cross Abstract: In this work, we investigate the effect of lookahead branching strategies in neural network verification. We present a general recipe to integrate lookahead into any branch-and-bound verifier and demonstrate how one of the current state-of-the-art branching heuristics, FSB, can be viewed as a special instantiation of the lookahead branching strategy. We also describe how, in addition to improving the quality of branching decisions, lookahead can generate additional lemmas that accelerate verification. We instantiate the method in two representative branch-and-bound-based verifiers (Marabou and $\\alpha$-$\\beta$-CROWN), and demonstrate that lookahead leads to consistent speedups in verification time and up to $57\\%$ more solved instances. Code is available at https://github.com/ai-ar-research/lookahead-branching.",
+    "publishedAt": "2026-07-21",
+    "author": "Liam Davis, Duo Zhou, Huan Zhang, Guy Katz, Clark Barrett, Haoze Wu",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

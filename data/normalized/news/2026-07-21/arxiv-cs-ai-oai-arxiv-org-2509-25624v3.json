@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2509-25624v3",
+  "name": "STAC: When Innocent Tools Form Dangerous Chains for LLM Agents",
+  "summary": "arXiv:2509.25624v3 Announce Type: replace-cross Abstract: As LLMs advance into autonomous agents with tool-use capabilities, they introduce security challenges that extend beyond traditional conten...",
+  "description": "arXiv:2509.25624v3 Announce Type: replace-cross Abstract: As LLMs advance into autonomous agents with tool-use capabilities, they introduce security challenges that extend beyond traditional content-based LLM safety concerns. This paper introduces Sequential Tool Attack Chaining (\\STAC), a novel multi-turn attack framework that exploits agent tool use. \\STAC chains together tool calls that each...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2509.25624"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2509.25624"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Jing-Jing Li, Jianfeng He, Chao Shang, Devang Kulshreshtha, Xun Xian, Yi Zhang, Hang Su, Sandesh Swamy, Yanjun Qi"
+}

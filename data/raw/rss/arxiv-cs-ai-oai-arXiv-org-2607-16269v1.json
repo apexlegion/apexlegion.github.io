@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.16269v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.16269v1",
+    "title": "From Intent to Infrastructure: LLM-Driven Agent Compilers for ISAC Networks",
+    "link": "https://arxiv.org/abs/2607.16269",
+    "description": "arXiv:2607.16269v1 Announce Type: cross Abstract: Integrated sensing and communications (ISAC) is moving from proof-of-concept demonstrations to system-level deployment in sixth-generation (6G) networks. Because sensing and communication share hardware, spectrum, and waveform resources, ISAC design now involves many tightly coupled choices, including waveform selection, sensing algorithm setup, resource scheduling, and deployment planning. This design space is already too large to manage well through manual tuning or isolated optimizers. This article introduces the \\textit{Agent Compiler}, a large language model (LLM)-enabled compilation layer that translates high-level engineering intent into complete and executable ISAC system configurations. The Agent Compiler works in four stages: intent parsing, task decomposition, policy graph synthesis, and infrastructure mapping. It produces a verifiable intermediate representation called the ISAC Policy Graph (IPG). A runtime engine then deploys the compiled configuration and supports closed-loop adaptation at three levels: fast parameter updates, partial recompilation of affected subgraphs, and full workflow recompilation. The core design principle is strict time-scale separation: the LLM handles slow-loop strategic decisions, while proven algorithms retain real-time control in the fast loop. A UAV-assisted disaster rescue example illustrates the full compilation process. We also discuss open issues, including compilation latency, output reliability, constraint verification, and pipeline security, to guide future research.",
+    "publishedAt": "2026-07-21",
+    "author": "Lijie Zheng, Xudong Zhong, Baoquan Ren, Xiangwu Gong, Xinghui Zhu, Ji He",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

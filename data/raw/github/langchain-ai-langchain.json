@@ -1,7 +1,7 @@
 {
   "source": "github",
   "sourceId": "langchain-ai/langchain",
-  "fetchedAt": "2026-07-20T05:46:59.730Z",
+  "fetchedAt": "2026-07-21T05:28:04.867Z",
   "data": {
     "id": 552661142,
     "node_id": "R_kgDOIPDwlg",
@@ -70,16 +70,16 @@
     "releases_url": "https://api.github.com/repos/langchain-ai/langchain/releases{/id}",
     "deployments_url": "https://api.github.com/repos/langchain-ai/langchain/deployments",
     "created_at": "2022-10-17T02:58:36Z",
-    "updated_at": "2026-07-20T05:35:39Z",
-    "pushed_at": "2026-07-19T08:47:28Z",
+    "updated_at": "2026-07-21T05:03:09Z",
+    "pushed_at": "2026-07-21T03:37:38Z",
     "git_url": "git://github.com/langchain-ai/langchain.git",
     "ssh_url": "git@github.com:langchain-ai/langchain.git",
     "clone_url": "https://github.com/langchain-ai/langchain.git",
     "svn_url": "https://github.com/langchain-ai/langchain",
     "homepage": "https://docs.langchain.com/langchain/",
-    "size": 584190,
-    "stargazers_count": 142127,
-    "watchers_count": 142127,
+    "size": 584645,
+    "stargazers_count": 142212,
+    "watchers_count": 142212,
     "language": "Python",
     "has_issues": true,
     "has_projects": false,
@@ -87,11 +87,11 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 23640,
+    "forks_count": 23652,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 437,
+    "open_issues_count": 442,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -127,9 +127,9 @@
       "typescript"
     ],
     "visibility": "public",
-    "forks": 23640,
-    "open_issues": 437,
-    "watchers": 142127,
+    "forks": 23652,
+    "open_issues": 442,
+    "watchers": 142212,
     "default_branch": "master",
     "permissions": {
       "admin": false,
@@ -161,7 +161,7 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "network_count": 23640,
-    "subscribers_count": 898
+    "network_count": 23652,
+    "subscribers_count": 897
   }
 }

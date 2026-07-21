@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2508.12745v2",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2508.12745v2",
+    "title": "DCSCR: A Class-Specific Collaborative Representation based Network for Image Set Classification",
+    "link": "https://arxiv.org/abs/2508.12745",
+    "description": "arXiv:2508.12745v2 Announce Type: replace-cross Abstract: Image set classification (ISC), which can be viewed as a task of comparing similarities between sets consisting of unordered heterogeneous images with variable quantities and qualities, has attracted growing research attention in recent years. How to learn effective feature representations and how to explore the similarities between different image sets are two key yet challenging issues in this field. However, existing traditional ISC methods classify image sets based on raw pixel features, ignoring the importance of feature learning. Existing deep ISC methods can learn deep features, but they fail to adaptively adjust the features when measuring set distances, resulting in limited performance in few-shot ISC. To address the above issues, this paper combines traditional ISC methods with deep models and proposes a novel few-shot ISC approach called Deep Class-specific Collaborative Representation (DCSCR) network to simultaneously learn the frame- and concept-level feature representations of each image set and the distance similarities between different sets. Specifically, DCSCR consists of a fully convolutional deep feature extractor module, a global feature learning module, and a class-specific collaborative representation-based metric learning module. The deep feature extractor and global feature learning modules are used to learn (local and global) frame-level feature representations, while the class-specific collaborative representation-based metric learning module is exploit to adaptively learn the concept-level feature representation of each image set and thus obtain the distance similarities between different sets by developing a new CSCR-based contrastive loss function. Extensive experiments on several well-known few-shot ISC datasets demonstrate the effectiveness of the proposed method compared with some state-of-the-art image set classification algorithms.",
+    "publishedAt": "2026-07-21",
+    "author": "Xizhan Gao, Wei Hu",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

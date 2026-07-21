@@ -1,7 +1,7 @@
 {
   "source": "huggingface",
   "sourceId": "sentence-transformers/all-MiniLM-L6-v2",
-  "fetchedAt": "2026-07-20T05:47:02.054Z",
+  "fetchedAt": "2026-07-21T05:28:08.081Z",
   "data": {
     "_id": "621ffdc136468d709f180294",
     "id": "sentence-transformers/all-MiniLM-L6-v2",
@@ -56,8 +56,8 @@
       "deploy:azure",
       "region:us"
     ],
-    "downloads": 248516777,
-    "likes": 5092,
+    "downloads": 240643472,
+    "likes": 5102,
     "modelId": "sentence-transformers/all-MiniLM-L6-v2",
     "author": "sentence-transformers",
     "sha": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
@@ -226,15 +226,15 @@
     ],
     "spaces": [
       "mteb/leaderboard",
-      "hakari-bench/leaderboard",
       "bench-labs/BenchLabs-Leaderboard",
+      "hakari-bench/leaderboard",
       "krishna-cc/health_doc",
       "grateful790/rai-chatbot",
       "Poorv01/career_conversations2",
-      "hapda12/GAIA",
       "ahmedgaiter303/ai-rag-chatbot-backend",
       "hcs0/career_conversation",
       "UmairLari/ai-financial-advisor-backend",
+      "ayush150152/ziro",
       "caio007/tati-ai-backend",
       "Fatih342/Find-Your-Perfume",
       "devaanand/ccr-platform",

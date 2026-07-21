@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2604.23716v3",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2604.23716v3",
+    "title": "Information-Theoretic Measures in AI: A Practical Decision Framework",
+    "link": "https://arxiv.org/abs/2604.23716",
+    "description": "arXiv:2604.23716v3 Announce Type: replace Abstract: Information-theoretic (IT) measures are ubiquitous in artificial intelligence: entropy drives decision-tree splits and uncertainty quantification, cross-entropy is the default classification loss, mutual information underpins representation learning and feature selection, and transfer entropy reveals directed influence in dynamical systems. Despite wide adoption, measure selection is often decoupled from estimator assumptions, failure modes, and safe inferential claims. This survey provides a practical decision framework for four foundational measures - Entropy, KL divergence/cross-entropy, Mutual Information, and Transfer Entropy - organized around three prescriptive questions for each: (i) what question does the measure answer and in which AI context; (ii) which estimator is appropriate for the data type and dimensionality; and (iii) what is the most dangerous misuse. The framework is operationalized in two complementary artifacts: a measure-selection flowchart and a master decision table. We cover both AI/ML and decision-making agent application domains per measure, with standardized Bridge notes linking IT quantities to cognitive and neuroscientific constructs. Two worked examples illustrate the framework on concrete practitioner scenarios spanning representation learning and temporal influence analysis, and a reproducible multi-agent case study across three learning architectures validates the transfer-entropy surrogate-testing guardrail against a null control.",
+    "publishedAt": "2026-07-21",
+    "author": "Nikolaos Al. Papadopoulos, Konstantinos E. Psannis",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

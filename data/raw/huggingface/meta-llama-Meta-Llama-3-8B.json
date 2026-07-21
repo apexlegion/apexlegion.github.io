@@ -1,7 +1,7 @@
 {
   "source": "huggingface",
   "sourceId": "meta-llama/Meta-Llama-3-8B",
-  "fetchedAt": "2026-07-20T05:47:01.152Z",
+  "fetchedAt": "2026-07-21T05:28:07.103Z",
   "data": {
     "_id": "661f97d48e7f3438386f755d",
     "id": "meta-llama/Meta-Llama-3-8B",
@@ -24,8 +24,8 @@
       "endpoints_compatible",
       "region:us"
     ],
-    "downloads": 1333961,
-    "likes": 6609,
+    "downloads": 1310375,
+    "likes": 6613,
     "modelId": "meta-llama/Meta-Llama-3-8B",
     "author": "meta-llama",
     "sha": "8cde5ca8380496c9a6cc7ef3a8b46a0372a1d920",
@@ -239,8 +239,8 @@
       "afrenkai/meta-llama-Meta-Llama-3-8B",
       "andrewchristen/meta-llama-Meta-Llama-3-8B",
       "nabu098/meta-llama-Meta-Llama-3-8B",
-      "rudyTzhan/meta-llama-Meta-Llama-3-8B",
       "VaderKai/meta-llama-Meta-Llama-3-8B",
+      "rudyTzhan/meta-llama-Meta-Llama-3-8B",
       "yuping322/meta-llama-Meta-Llama-3-8B",
       "mfernandes3/meta-llama-Meta-Llama-3-8B"
     ],

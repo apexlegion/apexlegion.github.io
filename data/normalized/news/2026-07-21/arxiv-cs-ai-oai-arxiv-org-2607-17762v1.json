@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-17762v1",
+  "name": "Autonomous Discovery of Wireless Communications Algorithms",
+  "summary": "arXiv:2607.17762v1 Announce Type: cross Abstract: Large language model (LLM)-driven evolutionary search is an emerging algorithm-discovery paradigm that has already produced novel results in severa...",
+  "description": "arXiv:2607.17762v1 Announce Type: cross Abstract: Large language model (LLM)-driven evolutionary search is an emerging algorithm-discovery paradigm that has already produced novel results in several scientific fields. Yet its application to wireless communications remains largely unexplored. To bridge this gap, we introduce The AI Telco Engineer (AITE), a framework to autonomously design algori...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.17762"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.17762"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Fay\\c{c}al A\\\"it Aoudia, Jakob Hoydis, Sebastian Cammerer, Gian Marti, Merlin Nimier-David, Nicolas Roussel, Alexander Keller"
+}

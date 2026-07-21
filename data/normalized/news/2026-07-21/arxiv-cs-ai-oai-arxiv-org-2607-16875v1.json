@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16875v1",
+  "name": "A Deep Reinforcement Learning Algorithm for the Vehicle Routing Problem with Stochastic Demands and Outsourcing",
+  "summary": "arXiv:2607.16875v1 Announce Type: cross Abstract: We introduce the vehicle routing problem with stochastic demands and outsourcing options (VRP-SDO), in which a logistics service provider partition...",
+  "description": "arXiv:2607.16875v1 Announce Type: cross Abstract: We introduce the vehicle routing problem with stochastic demands and outsourcing options (VRP-SDO), in which a logistics service provider partitions customer requests into customers outsourced to a common carrier and customers committed to its fixed fleet. The latter induces a vehicle routing problem with stochastic demands (VRP-SD), solved dyna...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16875"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16875"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Mohsen Dastpak, Fausto Errico, Ola Jabali"
+}

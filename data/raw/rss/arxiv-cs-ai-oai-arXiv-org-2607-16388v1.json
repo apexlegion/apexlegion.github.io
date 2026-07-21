@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.16388v1",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.16388v1",
+    "title": "Automated Hardware Validation Test Plan Generation for Large Scale AI Datacenter Platforms Using a Generative AI Multi-Agents Architecture",
+    "link": "https://arxiv.org/abs/2607.16388",
+    "description": "arXiv:2607.16388v1 Announce Type: cross Abstract: Large-scale AI datacenter platforms comprise thousands of heterogeneous hardware components whose validation requires comprehensive fault injection test plans. Today these plans are authored manually: engineers review hardware self-healing validation documents and bills of materials, enumerate failure modes per field-replaceable unit, and produce flat lists of single-layer test cases. This process is labor-intensive, error-prone, and dependent on institutional knowledge; coverage gaps surface late, traceability to source specifications is implicit, and the effort is largely repeated per platform. This paper presents a generative AI multi-agent architecture that automates the generation of structured hardware validation test plans from two canonical inputs: self-healing validation documents, which enumerate known failure modes and their detection and remediation behaviors per field-replaceable unit, and component Bills of Material. An ingestion agent normalizes heterogeneous inputs into a canonical representation; a classification agent maps components to functional domains via contextual reasoning over part descriptions and sub-category hierarchies; and a generation agent synthesizes test cases by combining normalized failure modes with domain-classified data, filling gaps and producing edge cases. The output conforms to a standardized schema for direct import into internal validation software. Evaluated on two production platforms against manual baselines, the framework achieves coverage expansions of 74.2% and 51.4%, cutting authoring from days to hours. It yields fully traceable mappings from each test case to its source specification, and its multi-agent decomposition is portable across platform generations. Automated and expert evaluations confirm 100% extraction fidelity and high acceptance of new scenarios, validating the framework as a robust human-in-the-loop force multiplier.",
+    "publishedAt": "2026-07-21",
+    "author": "Mohammed-Khalil Ghali, Saurabh Kulkarni, Prathamesh Kulkarni, Rohan Kulkarni, Sangwon Yoon, Daehan Won",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

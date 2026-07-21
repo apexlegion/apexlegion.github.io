@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2201-05000v3",
+  "name": "Automated Reinforcement Learning: An Overview",
+  "summary": "arXiv:2201.05000v3 Announce Type: replace-cross Abstract: Reinforcement Learning and, recently, Deep Reinforcement Learning are popular methods for solving sequential decision-making problems model...",
+  "description": "arXiv:2201.05000v3 Announce Type: replace-cross Abstract: Reinforcement Learning and, recently, Deep Reinforcement Learning are popular methods for solving sequential decision-making problems modeled as Markov Decision Processes. RL modeling of a problem and selecting algorithms and hyper-parameters require careful consideration, as different configurations may entail completely different perfo...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2201.05000"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2201.05000"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Reza Refaei Afshar, Joaquin Vanschoren, Uzay Kaymak, Rui Zhang, Yaoxin Wu, Wen Song, Yingqian Zhang"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2601-21372v3",
+  "name": "NEMO: Execution-Aware Optimization Modeling via Autonomous Coding Agents",
+  "summary": "arXiv:2601.21372v3 Announce Type: replace Abstract: We present NEMO, a system that translates Natural-language descriptions of decision problems into formal Executable Mathematical Optimization imp...",
+  "description": "arXiv:2601.21372v3 Announce Type: replace Abstract: We present NEMO, a system that translates Natural-language descriptions of decision problems into formal Executable Mathematical Optimization implementations using autonomous coding agents (ACAs). Existing approaches rely on specialized large language models (LLMs) or bespoke task-specific agents that are often brittle and frequently generate...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2601.21372"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2601.21372"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Yang Song, Anoushka Vyas, Zirui Wei, Sina Khoshfetrat Pakazad, Henrik Ohlsson, Graham Neubig"
+}

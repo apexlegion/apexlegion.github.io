@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2508-13213v4",
+  "name": "AI sustains higher strategic tension than humans in chess",
+  "summary": "arXiv:2508.13213v4 Announce Type: replace Abstract: Strategic decision-making requires balancing immediate opportunities against long-term objectives: a tension fundamental to competitive environme...",
+  "description": "arXiv:2508.13213v4 Announce Type: replace Abstract: Strategic decision-making requires balancing immediate opportunities against long-term objectives: a tension fundamental to competitive environments. We investigate this trade-off in chess by analyzing the dynamics of human and AI gameplay through a network-based metric that quantifies piece-to-piece interactions. Our analysis reveals that eli...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2508.13213"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2508.13213"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Adamo Cerioli, Edward D. Lee, Vito D. P. Servedio"
+}

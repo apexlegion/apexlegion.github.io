@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2602.01131v2",
+  "fetchedAt": "2026-07-21T05:28:09.406Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2602.01131v2",
+    "title": "Lyapunov Stability-Aware Stackelberg Game for Low-Altitude Economy: A Control-Oriented Pruning-Based DRL Approach",
+    "link": "https://arxiv.org/abs/2602.01131",
+    "description": "arXiv:2602.01131v2 Announce Type: replace Abstract: With the rapid expansion of the low-altitude economy, Unmanned Aerial Vehicles (UAVs) serve as pivotal aerial base stations supporting diverse services from users, ranging from latency-sensitive critical missions to bandwidth-intensive data streaming. However, the efficacy of such heterogeneous networks is often compromised by the conflict between limited onboard resources and stringent stability requirements. Moving beyond traditional throughput-centric designs, we propose a Sensing-Communication-Computing-Control closed-loop framework that explicitly models the impact of communication latency on physical control stability. To guarantee mission reliability, we leverage the Lyapunov stability theory to derive an intrinsic mapping between the state evolution of the control system and communication constraints, transforming abstract stability requirements into quantifiable resource boundaries. Then, we formulate the resource allocation problem as a Stackelberg game, where UAVs (as leaders) dynamically price resources to balance load and ensure stability, while users (as followers) optimize requests based on service urgency. Furthermore, addressing the prohibitive computational overhead of standard Deep Reinforcement Learning (DRL) on energy-constrained edge platforms, we propose a novel and lightweight pruning-based Proximal Policy Optimization (PPO) algorithm. By integrating a dynamic structured pruning mechanism, the proposed algorithm significantly compresses the neural network scale during training, enabling the UAV to rapidly approximate the game equilibrium with minimal inference latency. Simulation results demonstrate that the proposed scheme effectively secures control loop stability while maximizing system utility in dynamic low-altitude environments.",
+    "publishedAt": "2026-07-21",
+    "author": "Yue Zhong, Jiawen Kang, Yongju Tong, Hong-Ning Dai, Dong In Kim, Abbas Jamalipour, Shengli Xie",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

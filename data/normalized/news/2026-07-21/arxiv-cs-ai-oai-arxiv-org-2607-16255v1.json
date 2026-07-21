@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16255v1",
+  "name": "Feature Generation Using LLMs: An Evolutionary Algorithm Approach",
+  "summary": "arXiv:2607.16255v1 Announce Type: cross Abstract: A crucial step in machine learning pipelines is to present each entity with features or attributes that are representative of the characteristics o...",
+  "description": "arXiv:2607.16255v1 Announce Type: cross Abstract: A crucial step in machine learning pipelines is to present each entity with features or attributes that are representative of the characteristics of the processed entities. Feature engineering is an important step in finding a relation among attributes that otherwise may not be processed by the ML algorithms. Meanwhile, Large Language Models hav...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16255"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16255"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z",
+  "author": "Aria Nourbakhsh, Beno\\^it Alcaraz, Christoph Schommer"
+}
