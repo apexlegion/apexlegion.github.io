@@ -1,0 +1,43 @@
+{
+  "type": "paper",
+  "slug": "2607-19331",
+  "name": "ISO: An RLVR-Native Optimization Stack",
+  "summary": "Reinforcement learning with verifiable rewards (RLVR) is rapidly advancing the reasoning capabilities of language models, yet the optimization layer that converts reward feedback into weight-space...",
+  "description": "Reinforcement learning with verifiable rewards (RLVR) is rapidly advancing the reasoning capabilities of language models, yet the optimization layer that converts reward feedback into weight-space updates remains poorly understood. Building on our prior analysis (Zhu et al., 2025), we study this missing layer through the singular structure of model weights and identify spectral inheritance: RLVR can reuse the base model's weight spectra while acquiring new behavior through changes in the associated input and output singular frames. We operationalize spectral inheritance as Isospectral Optim...",
+  "tags": [
+    "arxiv",
+    "cs.LG"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.19331v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.LG.",
+      "href": "https://arxiv.org/abs/2607.19331v1"
+    }
+  ],
+  "authors": [
+    "Hanqing Zhu",
+    "Wenyan Cong",
+    "Zhizhou Sha",
+    "Sagnik Mukherjee",
+    "Xinyuan Song",
+    "David González-Martínez",
+    "Xiaoxia Wu",
+    "Yuandong Tian",
+    "Shiwei Liu",
+    "David Z. Pan",
+    "Zhangyang \"Atlas\" Wang"
+  ],
+  "paperId": "2607.19331",
+  "category": "cs.LG",
+  "publishedAt": "2026-07-21",
+  "abstract": "Reinforcement learning with verifiable rewards (RLVR) is rapidly advancing the reasoning capabilities of language models, yet the optimization layer that converts reward feedback into weight-space updates remains poorly understood. Building on our prior analysis (Zhu et al., 2025), we study this missing layer through the singular structure of model weights and identify spectral inheritance: RLVR can reuse the base model's weight spectra while acquiring new behavior through changes in the associated input and output singular frames. We operationalize spectral inheritance as Isospectral Optim..."
+}

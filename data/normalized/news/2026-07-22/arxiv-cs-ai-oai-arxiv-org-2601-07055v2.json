@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2601-07055v2",
+  "name": "Dr. Zero: Self-Evolving Search Agents without Training Data",
+  "summary": "arXiv:2601.07055v2 Announce Type: replace Abstract: As high-quality data becomes increasingly difficult to obtain, self-evolution without curated training data has emerged as a promising paradigm....",
+  "description": "arXiv:2601.07055v2 Announce Type: replace Abstract: As high-quality data becomes increasingly difficult to obtain, self-evolution without curated training data has emerged as a promising paradigm. This approach allows large language models (LLMs) to autonomously generate and solve complex problems, thereby improving their reasoning capabilities. However, multi-turn search agents struggle in thi...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2601.07055"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2601.07055"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Zhenrui Yue, Kartikeya Upasani, Xianjun Yang, Suyu Ge, Shaoliang Nie, Yuning Mao, Zhe Liu, Dong Wang"
+}

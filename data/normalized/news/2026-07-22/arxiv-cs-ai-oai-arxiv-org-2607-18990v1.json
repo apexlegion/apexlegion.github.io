@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-18990v1",
+  "name": "SWITi: Quantifying and Reducing Tiling Artifacts with Sliding Window Inner Tiling",
+  "summary": "arXiv:2607.18990v1 Announce Type: cross Abstract: SWITi is a test-time method for reducing artifacts in tiled predictions, particularly for neural networks that learn posterior distributions from w...",
+  "description": "arXiv:2607.18990v1 Announce Type: cross Abstract: SWITi is a test-time method for reducing artifacts in tiled predictions, particularly for neural networks that learn posterior distributions from which solutions are sampled at inference time. Tiled predictions are unavoidable for large image data, and artifacts arise whenever tiles are smaller than a network's receptive field and when tiles are...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.18990"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.18990"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Federico Carrara, Aman Kukde, Melisande Croft, Joran Deschamps, Florian Jug"
+}

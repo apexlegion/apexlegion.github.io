@@ -1,0 +1,35 @@
+{
+  "type": "paper",
+  "slug": "2607-19300",
+  "name": "LLM Detection as an Intervention: Downstream Impact under Strategic User Behavior",
+  "summary": "As LLM adoption becomes more widespread, there is a growing interest in detecting LLM-generated content, for example through LLM detection tools and through heuristics based on language patterns. D...",
+  "description": "As LLM adoption becomes more widespread, there is a growing interest in detecting LLM-generated content, for example through LLM detection tools and through heuristics based on language patterns. Detectors operate as an intervention that steers not only the detected attribute itself, but also downstream metrics such as LLM usage and output quality. In this work, we demonstrate how imperfect LLM detectors lead to counterintuitive impacts on these downstream metrics, by distorting how users are incentivized to use LLMs in their workflow. We develop a stylized model which captures how users st...",
+  "tags": [
+    "arxiv",
+    "cs.AI"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.19300v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.AI.",
+      "href": "https://arxiv.org/abs/2607.19300v1"
+    }
+  ],
+  "authors": [
+    "Meena Jagadeesan",
+    "Tatsunori Hashimoto",
+    "Jon Kleinberg"
+  ],
+  "paperId": "2607.19300",
+  "category": "cs.AI",
+  "publishedAt": "2026-07-21",
+  "abstract": "As LLM adoption becomes more widespread, there is a growing interest in detecting LLM-generated content, for example through LLM detection tools and through heuristics based on language patterns. Detectors operate as an intervention that steers not only the detected attribute itself, but also downstream metrics such as LLM usage and output quality. In this work, we demonstrate how imperfect LLM detectors lead to counterintuitive impacts on these downstream metrics, by distorting how users are incentivized to use LLMs in their workflow. We develop a stylized model which captures how users st..."
+}

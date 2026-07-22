@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-18354v1",
+  "name": "Multi-layer MIMO Relay as Deep Physical Neural Networks: Power Amplifiers as Activation Functions",
+  "summary": "arXiv:2607.18354v1 Announce Type: cross Abstract: Wireless physical neural networks (WPNNs) embed neural computation directly into analog hardware, offering lower energy consumption and latency tha...",
+  "description": "arXiv:2607.18354v1 Announce Type: cross Abstract: Wireless physical neural networks (WPNNs) embed neural computation directly into analog hardware, offering lower energy consumption and latency than conventional digital implementations. In this paper, we propose a deep WPNN in which nonlinear activations are realized by a multi-hop multiple-input multiple-output (MIMO) relay network, in which e...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.18354"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.18354"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Meng Hua, Itsik Bergel, Deniz G\\\"und\\\"uz"
+}

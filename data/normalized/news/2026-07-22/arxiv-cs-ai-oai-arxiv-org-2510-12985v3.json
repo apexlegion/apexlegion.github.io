@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2510-12985v3",
+  "name": "SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of Foundation Model-based Embodied Agents",
+  "summary": "arXiv:2510.12985v3 Announce Type: replace Abstract: We present SENTINEL, a framework for formally evaluating the physical safety of foundation model (FM)-based embodied agents. SENTINEL is the firs...",
+  "description": "arXiv:2510.12985v3 Announce Type: replace Abstract: We present SENTINEL, a framework for formally evaluating the physical safety of foundation model (FM)-based embodied agents. SENTINEL is the first to provide multi-level safety evaluation across semantic interpretation, plan generation, and physical execution within a unified formal framework. Unlike prior methods that rely on heuristic rules...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2510.12985"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2510.12985"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Simon Sinong Zhan, Philip Wang, Yao Liu, Yiyan Peng, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Zhenyang Ni, Kangrui Wang, Ruohan Zhang, Huajie Shao, Manling Li, Qi Zhu"
+}

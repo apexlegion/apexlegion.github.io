@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-19259v1",
+  "name": "Benchmarking Generalization in Financial Statement Fraud Detection: robust evaluation and novel tasks",
+  "summary": "arXiv:2607.19259v1 Announce Type: cross Abstract: Financial statement fraud detection (FSFD) is crucial for market integrity but faces challenges from increasingly sophisticated schemes and under-u...",
+  "description": "arXiv:2607.19259v1 Announce Type: cross Abstract: Financial statement fraud detection (FSFD) is crucial for market integrity but faces challenges from increasingly sophisticated schemes and under-utilized textual data in financial reports. Existing methods often rely on random data splits, leading to overoptimistic performance estimates that do not reflect real-world generalization to new compa...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.19259"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.19259"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Guy Stephane Waffo Dzuyo (Forvis Mazars, LORIA CNRS Universit\\'e de Lorraine), Ga\\\"el Guibon (LORIA CNRS Universit\\'e de Lorraine, LIPN CNRS Universit\\'e Sorbonne Paris Nord), Christophe Cerisara (LORIA CNRS Universit\\'e de Lorraine), Luis Belmar-Letelier (Forvis Mazars)"
+}

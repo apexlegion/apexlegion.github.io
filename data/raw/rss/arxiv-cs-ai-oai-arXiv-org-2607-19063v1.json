@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.19063v1",
+  "fetchedAt": "2026-07-22T05:26:59.767Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.19063v1",
+    "title": "Quality Action Assurance: Multimodal Verification of Examiner Claims in VR OSCEs",
+    "link": "https://arxiv.org/abs/2607.19063",
+    "description": "arXiv:2607.19063v1 Announce Type: new Abstract: Objective Structured Clinical Examinations (OSCEs) are the gold standard for assessing clinical competence, yet scoring remains vulnerable to examiner subjectivity, fatigue, and cognitive bias. Standard examiner validation via inter-rater statistics lacks explanatory power regarding the source of errors, as it neither analyzes examiner reasoning nor verifies examiner claims against actual events. Thus, we introduce Quality Action Assurance (QAA), a multimodal framework that verifies examiner claims in Virtual Reality (VR) pediatric OSCEs by comparing actions claimed by examiners against the true sequence of events, constructed from video, VR logs, and actor data. QAA combines a constrained temporal action alignment model, which performs action localization and actor source attribution, with a large language model that extracts examiner claims and checks them against the record. Across a 5-fold cross-validation, QAA achieves 99.2% $\\pm$ 0.7% Actor F1 and 93.4% $\\pm$ 1.9% W@16 for temporal alignment. Overall, QAA detects examiner errors with 70.0% precision and 76.7% recall, improving factual correctness from 39.2% to 79.2%, enabling fairer OSCE assessment.",
+    "publishedAt": "2026-07-22",
+    "author": "Harry Rogers, Sally Shiels, Ashley Tomlinson, James Thomas, James Aylward, Nathan Gauge, Helen Higham, Alison Noble",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

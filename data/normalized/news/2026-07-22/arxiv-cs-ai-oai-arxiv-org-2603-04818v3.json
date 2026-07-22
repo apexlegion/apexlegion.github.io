@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2603-04818v3",
+  "name": "LLM-Grounded Explainable AI for Supply Chain Risk Early Warning via Temporal Graph Attention Networks",
+  "summary": "arXiv:2603.04818v3 Announce Type: replace Abstract: Disruptions at critical logistics nodes pose severe risks to global supply chains, yet existing risk prediction systems typically prioritize fore...",
+  "description": "arXiv:2603.04818v3 Announce Type: replace Abstract: Disruptions at critical logistics nodes pose severe risks to global supply chains, yet existing risk prediction systems typically prioritize forecasting accuracy without providing operationally interpretable early warnings. This paper proposes an evidence-grounded framework that jointly performs supply chain bottleneck prediction and faithful...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2603.04818"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2603.04818"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Zhiming Xue, Yujue Wang, Menghao Huo"
+}

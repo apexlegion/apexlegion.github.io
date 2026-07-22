@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "openai-blog:https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-  "fetchedAt": "2026-07-21T05:28:09.251Z",
+  "fetchedAt": "2026-07-22T05:26:59.669Z",
   "data": {
     "guid": "openai-blog:https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
     "title": "Core dump epidemiology: fixing an 18-year-old bug",

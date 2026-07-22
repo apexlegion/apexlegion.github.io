@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2409-07314v3",
+  "name": "MEDIC: Comprehensive Evaluation of Leading Indicators for LLM Safety and Utility in Clinical Applications",
+  "summary": "arXiv:2409.07314v3 Announce Type: replace-cross Abstract: While Large Language Models (LLMs) achieve superhuman performance on standardized medical licensing exams, these static benchmarks have bec...",
+  "description": "arXiv:2409.07314v3 Announce Type: replace-cross Abstract: While Large Language Models (LLMs) achieve superhuman performance on standardized medical licensing exams, these static benchmarks have become saturated and increasingly disconnected from the functional requirements of clinical workflows. To bridge the gap between theoretical capability and verified utility, we introduce MEDIC, a compreh...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2409.07314"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2409.07314"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Praveenkumar Kanithi, Cl\\'ement Christophe, Marco AF Pimentel, Tathagata Raha, Prateek Munjal, Nada Saadi, Hamza A Javed, Svetlana Maslenkova, Nasir Hayat, Ronnie Rajan, Shadab Khan"
+}

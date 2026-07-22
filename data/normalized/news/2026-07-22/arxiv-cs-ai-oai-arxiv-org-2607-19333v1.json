@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-19333v1",
+  "name": "Provable diffusion-based posterior sampling for linear inverse problems via DDIM",
+  "summary": "arXiv:2607.19333v1 Announce Type: cross Abstract: Diffusion-based methods have achieved remarkable empirical success in solving inverse problems. However, many existing posterior samplers either la...",
+  "description": "arXiv:2607.19333v1 Announce Type: cross Abstract: Diffusion-based methods have achieved remarkable empirical success in solving inverse problems. However, many existing posterior samplers either lack rigorous theoretical guarantees or incur substantial computational overhead. We propose a simple and efficient algorithm, called \\pddim, for solving linear inverse problems with diffusion priors vi...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.19333"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.19333"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Yuchen Jiao, Na Li, Changxiao Cai, Yuxin Chen, Gen Li"
+}

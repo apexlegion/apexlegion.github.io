@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-18342v1",
+  "name": "PRISM: Sensitivity-Aware PolynoMial PRuning for EffIcient Neural Network Encryption",
+  "summary": "arXiv:2607.18342v1 Announce Type: cross Abstract: Structured pruning is essential for making neural network inference feasible under homomorphic encryption (HE), yet its impact on model reliability...",
+  "description": "arXiv:2607.18342v1 Announce Type: cross Abstract: Structured pruning is essential for making neural network inference feasible under homomorphic encryption (HE), yet its impact on model reliability has remained unexplored. This paper presents a systematic reliability characterization of pruned CKKS-encrypted neural networks and introduces Polynomial-Sensitivity-Aware Pruning (PSAP), a structure...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.18342"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.18342"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Sahaj Majavdia, Mahdi Taheri"
+}

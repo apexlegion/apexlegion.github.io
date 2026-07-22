@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.19042v1",
+  "fetchedAt": "2026-07-22T05:26:59.767Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.19042v1",
+    "title": "Spectral Higher-Order Neural Networks Have Sharp Expressivity Bounds",
+    "link": "https://arxiv.org/abs/2607.19042",
+    "description": "arXiv:2607.19042v1 Announce Type: cross Abstract: Neural hypergraphs are a natural generalization of neural networks, the reference models in modern machine learning. Yet, their deployment has proven demanding: the number of weighted hyperedges required leads to an intractable parameter explosion. However, a novel parametrization that leverages spectral attributes for neural hypergraphs has been recently proposed, that enables to recycle parameters via a weight sharing scheme and consequently yields a significant reduction of the associated computational cost. Preliminary tests carried out on spectral higher-order architectures pointed to meaningful improvements in both performance and interpretability. Building on these results, we advance the benchmarking efforts by evaluating the spectral higher order framework on N-bit parity tasks, a well-established testbed known to be particularly challenging. As we will convincingly argue, Spectral Higher-Order Neural Networks (SHONNs) possess a versatile and highly tunable hypothesis space.",
+    "publishedAt": "2026-07-22",
+    "author": "Gianluca Peri, Diego Febbe, Duccio Fanelli",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

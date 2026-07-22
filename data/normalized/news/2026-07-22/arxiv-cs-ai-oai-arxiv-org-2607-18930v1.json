@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-18930v1",
+  "name": "Functional Equivalence and Geometric Diversity in Neural Network Approximations: An Empirical Characterization",
+  "summary": "arXiv:2607.18930v1 Announce Type: cross Abstract: The Universal Approximation Theorem states that a neural network with a single hidden layer is sufficient to approximate any continuous univariate...",
+  "description": "arXiv:2607.18930v1 Announce Type: cross Abstract: The Universal Approximation Theorem states that a neural network with a single hidden layer is sufficient to approximate any continuous univariate function on a compact domain to arbitrary error. However, the uniqueness of such neural network representations is not guaranteed, raising questions about practical identifiability. In this work, we a...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.18930"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.18930"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Anuragine S A, Prem Jagadeesan"
+}

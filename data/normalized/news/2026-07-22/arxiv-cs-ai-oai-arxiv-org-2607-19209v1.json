@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-19209v1",
+  "name": "Assessment in Team Problem-Solving Exercises in Computing Education",
+  "summary": "arXiv:2607.19209v1 Announce Type: cross Abstract: This full paper in the research-to-practice track presents methods for assessing student teams in tabletop exercises (TTXs). TTXs enable learner te...",
+  "description": "arXiv:2607.19209v1 Announce Type: cross Abstract: This full paper in the research-to-practice track presents methods for assessing student teams in tabletop exercises (TTXs). TTXs enable learner teams to prepare for workplace tasks and practice crisis responses, such as resolving cybersecurity incidents. While assessment is essential for determining how well teams achieve learning objectives, t...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.19209"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.19209"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Valdemar \\v{S}v\\'abensk\\'y, Jan Vykopal, Sukrit Leelaluk, Pavel \\v{C}eleda, Fumiya Okubo, Atsushi Shimada"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-19042v1",
+  "name": "Spectral Higher-Order Neural Networks Have Sharp Expressivity Bounds",
+  "summary": "arXiv:2607.19042v1 Announce Type: cross Abstract: Neural hypergraphs are a natural generalization of neural networks, the reference models in modern machine learning. Yet, their deployment has prov...",
+  "description": "arXiv:2607.19042v1 Announce Type: cross Abstract: Neural hypergraphs are a natural generalization of neural networks, the reference models in modern machine learning. Yet, their deployment has proven demanding: the number of weighted hyperedges required leads to an intractable parameter explosion. However, a novel parametrization that leverages spectral attributes for neural hypergraphs has bee...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.19042"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.19042"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Gianluca Peri, Diego Febbe, Duccio Fanelli"
+}

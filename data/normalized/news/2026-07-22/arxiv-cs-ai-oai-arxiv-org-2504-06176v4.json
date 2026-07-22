@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2504-06176v4",
+  "name": "A Self-Supervised Framework for Space Object Behaviour Characterisation",
+  "summary": "arXiv:2504.06176v4 Announce Type: replace-cross Abstract: Foundation Models, which leverage large neural networks pre-trained on unlabelled data before fine-tuning for specific tasks, are increasin...",
+  "description": "arXiv:2504.06176v4 Announce Type: replace-cross Abstract: Foundation Models, which leverage large neural networks pre-trained on unlabelled data before fine-tuning for specific tasks, are increasingly being applied to specialised domains. Recent examples include ClimaX for climate and Clay for satellite Earth observation, but a Foundation Model for Space Object Behavioural Analysis has not yet...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2504.06176"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2504.06176"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Ian Groves, Andrew Campbell, James Fernandes, Diego Ram\\'irez Rodr\\'iguez, Paul Murray, Massimiliano Vasile, Victoria Nockles"
+}

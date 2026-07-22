@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2604-26182v2",
+  "name": "Lifting Embodied World Models for Planning and Control",
+  "summary": "arXiv:2604.26182v2 Announce Type: replace-cross Abstract: World models of embodied agents predict future observations conditioned on an action taken by the agent. For complex embodiments, action sp...",
+  "description": "arXiv:2604.26182v2 Announce Type: replace-cross Abstract: World models of embodied agents predict future observations conditioned on an action taken by the agent. For complex embodiments, action spaces are high-dimensional and difficult to specify: for example, precisely controlling a human agent requires specifying the motion of each joint. This makes the world model hard to control and expens...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2604.26182"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2604.26182"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Alex N. Wang, Trevor Darrell, Pavel Izmailov, Yutong Bai, Amir Bar"
+}

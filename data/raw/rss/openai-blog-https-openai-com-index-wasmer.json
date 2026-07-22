@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "openai-blog:https://openai.com/index/wasmer",
-  "fetchedAt": "2026-07-21T05:28:09.251Z",
+  "fetchedAt": "2026-07-22T05:26:59.669Z",
   "data": {
     "guid": "openai-blog:https://openai.com/index/wasmer",
     "title": "How Wasmer used Codex to build a Node.js runtime for the edge",

@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "huggingface-blog-https-huggingface-co-blog-nvidia-state-of-simulation-for-physical-ai",
+  "name": "The State of Simulation for Physical AI: An Overview",
+  "summary": "The State of Simulation for Physical AI: An Overview",
+  "description": "The State of Simulation for Physical AI: An Overview",
+  "tags": [
+    "news",
+    "huggingface-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Hugging Face Blog",
+      "href": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Hugging Face Blog.",
+      "href": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai"
+    }
+  ],
+  "source": "Hugging Face Blog",
+  "publishedAt": "2026-07-21",
+  "expiryAt": "2026-08-20T00:00:00.000Z"
+}

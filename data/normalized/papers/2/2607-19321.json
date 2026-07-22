@@ -1,0 +1,40 @@
+{
+  "type": "paper",
+  "slug": "2607-19321",
+  "name": "ResearchArena: Evaluating Sabotage and Monitoring in Automated AI R&amp;D",
+  "summary": "As AI agents begin to automate AI R&amp;D, we need ways to assess whether their outputs are safe to deploy, even when the agents themselves may be untrusted. AI control offers one such approach: ra...",
+  "description": "As AI agents begin to automate AI R&amp;D, we need ways to assess whether their outputs are safe to deploy, even when the agents themselves may be untrusted. AI control offers one such approach: rather than trusting the agent, it treats it as a potential adversary and uses a monitor to detect covert sabotage before deployment. We evaluate AI control for automated AI R&amp;D with ResearchArena, a framework spanning four long-horizon tasks: safety post-training, capabilities post-training, CUDA-kernel optimization, and inference-server optimization. Because the deliverable in AI R&amp;D is an...",
+  "tags": [
+    "arxiv",
+    "cs.AI"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.19321v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.AI.",
+      "href": "https://arxiv.org/abs/2607.19321v1"
+    }
+  ],
+  "authors": [
+    "Lena Libon",
+    "Ben Rank",
+    "Jehyeok Yeon",
+    "David Schmotz",
+    "Jeremy Qin",
+    "Daniel Donnelly",
+    "Derck Prinzhorn",
+    "Maksym Andriushchenko"
+  ],
+  "paperId": "2607.19321",
+  "category": "cs.AI",
+  "publishedAt": "2026-07-21",
+  "abstract": "As AI agents begin to automate AI R&amp;D, we need ways to assess whether their outputs are safe to deploy, even when the agents themselves may be untrusted. AI control offers one such approach: rather than trusting the agent, it treats it as a potential adversary and uses a monitor to detect covert sabotage before deployment. We evaluate AI control for automated AI R&amp;D with ResearchArena, a framework spanning four long-horizon tasks: safety post-training, capabilities post-training, CUDA-kernel optimization, and inference-server optimization. Because the deliverable in AI R&amp;D is an..."
+}

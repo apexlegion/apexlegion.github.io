@@ -1,0 +1,41 @@
+{
+  "type": "paper",
+  "slug": "2607-19261",
+  "name": "PathAgentBench: Benchmarking Evidence-Seeking Vision-Language Models on Whole-Slide Pathology Image",
+  "summary": "Whole-slide image (WSI) diagnosis requires identifying diagnostically relevant regions, examining them across magnifications, and integrating multi-scale evidence. However, most existing pathology...",
+  "description": "Whole-slide image (WSI) diagnosis requires identifying diagnostically relevant regions, examining them across magnifications, and integrating multi-scale evidence. However, most existing pathology benchmarks evaluate models on pre-cropped patches or pre-extracted slide features, leaving their ability to acquire evidence directly from gigapixel WSIs largely untested. We introduce PathAgentBench, a benchmark for evaluating evidence-seeking vision-language models (VLMs) across four complementary capabilities: image-to-text matching for evidence interpretation, text-to-image retrieval for evide...",
+  "tags": [
+    "arxiv",
+    "cs.CV"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.19261v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.CV.",
+      "href": "https://arxiv.org/abs/2607.19261v1"
+    }
+  ],
+  "authors": [
+    "Dankai Liao",
+    "Tianyi Zhang",
+    "Yufeng Wu",
+    "Xinyue Zhang",
+    "Qiaochu Xue",
+    "Zeyu Liu",
+    "Dachun Zhao",
+    "Linghan Cai",
+    "Yueming Jin"
+  ],
+  "paperId": "2607.19261",
+  "category": "cs.CV",
+  "publishedAt": "2026-07-21",
+  "abstract": "Whole-slide image (WSI) diagnosis requires identifying diagnostically relevant regions, examining them across magnifications, and integrating multi-scale evidence. However, most existing pathology benchmarks evaluate models on pre-cropped patches or pre-extracted slide features, leaving their ability to acquire evidence directly from gigapixel WSIs largely untested. We introduce PathAgentBench, a benchmark for evaluating evidence-seeking vision-language models (VLMs) across four complementary capabilities: image-to-text matching for evidence interpretation, text-to-image retrieval for evide..."
+}

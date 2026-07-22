@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2504-13822v3",
+  "name": "Parameter-Efficient Continual Fine-Tuning: A Survey",
+  "summary": "arXiv:2504.13822v3 Announce Type: replace-cross Abstract: The emergence of large pre-trained networks has revolutionized the AI field, unlocking new possibilities and achieving unprecedented perfor...",
+  "description": "arXiv:2504.13822v3 Announce Type: replace-cross Abstract: The emergence of large pre-trained networks has revolutionized the AI field, unlocking new possibilities and achieving unprecedented performance. However, these models inherit a fundamental limitation from traditional Machine Learning approaches: their strong dependence on the \\textit{i.i.d.} assumption hinders their adaptability to dyna...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2504.13822"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2504.13822"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Eric Nuertey Coleman, Luigi Quarantiello, Ziyue Liu, Qinwen Yang, Samrat Mukherjee, Julio Hurtado, Vincenzo Lomonaco"
+}

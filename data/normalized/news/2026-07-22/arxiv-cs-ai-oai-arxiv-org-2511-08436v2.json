@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2511-08436v2",
+  "name": "Active Electrosensing and Communication in MARL-trained Weakly Electric Fish Collectives",
+  "summary": "arXiv:2511.08436v2 Announce Type: replace-cross Abstract: How complex collective behavior emerges from individual interactions is a fundamental scientific question, but experimental cost and diffic...",
+  "description": "arXiv:2511.08436v2 Announce Type: replace-cross Abstract: How complex collective behavior emerges from individual interactions is a fundamental scientific question, but experimental cost and difficulty of simultaneous multi-brain recordings limit direct study in animals. Here we introduce a novel computational framework modeling weakly electric fish-like agents with biophysically inspired elect...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2511.08436"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2511.08436"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Satpreet H. Singh, Sonja Johnson-Yu, Zhouyang Lu, Aaron Walsman, Federico Pedraja, Denis Turcu, Pratyusha Sharma, Naomi Saphra, Nathaniel B. Sawtell, Kanaka Rajan"
+}

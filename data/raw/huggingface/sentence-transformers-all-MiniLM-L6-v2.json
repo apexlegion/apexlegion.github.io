@@ -1,7 +1,7 @@
 {
   "source": "huggingface",
   "sourceId": "sentence-transformers/all-MiniLM-L6-v2",
-  "fetchedAt": "2026-07-21T05:28:08.081Z",
+  "fetchedAt": "2026-07-22T05:26:58.518Z",
   "data": {
     "_id": "621ffdc136468d709f180294",
     "id": "sentence-transformers/all-MiniLM-L6-v2",
@@ -56,8 +56,8 @@
       "deploy:azure",
       "region:us"
     ],
-    "downloads": 240643472,
-    "likes": 5102,
+    "downloads": 241315604,
+    "likes": 5107,
     "modelId": "sentence-transformers/all-MiniLM-L6-v2",
     "author": "sentence-transformers",
     "sha": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
@@ -228,7 +228,9 @@
       "mteb/leaderboard",
       "bench-labs/BenchLabs-Leaderboard",
       "hakari-bench/leaderboard",
+      "eduagarcia/multilingual-tokenizer-leaderboard",
       "krishna-cc/health_doc",
+      "piAshuSingh/Emerging_Stars",
       "grateful790/rai-chatbot",
       "Poorv01/career_conversations2",
       "ahmedgaiter303/ai-rag-chatbot-backend",
@@ -304,7 +306,6 @@
       "Shreyas094/GPT-Researcher",
       "Vartex39/vizsum-pro",
       "UII-AI/MedVidBench-Leaderboard",
-      "eduagarcia/multilingual-tokenizer-leaderboard",
       "build-small-hackathon/multi-agent-lab",
       "somosnlp-hackathon-2022/AbstractGen_ES",
       "jspr/autodrummer",
@@ -323,8 +324,7 @@
       "vjain/Trading-Chatbot",
       "OuroborosM/STLA-BABY",
       "KrishnaKumar23/documentQABot",
-      "CyranoB/search_agent",
-      "Gololias/MetroCuadrado"
+      "CyranoB/search_agent"
     ],
     "createdAt": "2022-03-02T23:29:05.000Z",
     "safetensors": {

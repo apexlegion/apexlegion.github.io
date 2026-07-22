@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-18966v1",
+  "name": "Measuring Reward-Seeking via Contrastive Belief Updates",
+  "summary": "arXiv:2607.18966v1 Announce Type: new Abstract: Language models trained with reinforcement learning may learn to optimize the grader's judgment rather than the intended objective. This \"reward-seek...",
+  "description": "arXiv:2607.18966v1 Announce Type: new Abstract: Language models trained with reinforcement learning may learn to optimize the grader's judgment rather than the intended objective. This \"reward-seeking\" is difficult to measure because a model that pursues the grader's judgment and one that pursues the intended objective behave identically whenever the grader rewards the intended behavior. We mea...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.18966"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.18966"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Axel H{\\o}jmark, J\\'er\\'emy Scheurer, Evgenia Nitishinskaya, Felix Hofst\\\"atter, Jason Wolfe, Theodore Ehrenborg, Bronson Schoen, Alexander Meinke"
+}

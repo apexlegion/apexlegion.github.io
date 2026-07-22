@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-16989v2",
+  "name": "Real-World Evaluation of an AI Agent Drafting Translational Impact Summaries",
+  "summary": "arXiv:2607.16989v2 Announce Type: replace-cross Abstract: Introduction. Clinical and Translational Science Award (CTSA) programs must document their scholars' research impact, but assembling each s...",
+  "description": "arXiv:2607.16989v2 Announce Type: replace-cross Abstract: Introduction. Clinical and Translational Science Award (CTSA) programs must document their scholars' research impact, but assembling each scholar's record by hand takes staff an estimated 15 hours and does not scale to a full cohort. An artificial intelligence (AI) agent could serve as a tool to gather scholar data across platforms and d...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.16989"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.16989"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Mohammad Arvan, Amber E. Osterholt, Bailee Rue, Yuvaneswaren R. Sureshbabu, Krishna R. Patel, Rebecca T. Feinstein, Bethany C. Bray, Niranjan S. Karnik"
+}

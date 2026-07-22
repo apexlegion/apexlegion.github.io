@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-19344v1",
+  "name": "Appearance Pointers -- Multimodal Region Control of Diffusion Transformers",
+  "summary": "arXiv:2607.19344v1 Announce Type: cross Abstract: Controllable image generation remains challenging for creative professionals, who often require precise regional control over materials, object ide...",
+  "description": "arXiv:2607.19344v1 Announce Type: cross Abstract: Controllable image generation remains challenging for creative professionals, who often require precise regional control over materials, object identities, and spatial arrangements that cannot be reliably achieved through text prompting alone. Diffusion Transformers (DiTs) can natively ingest heterogeneous tokens stemming from texts and images,...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.19344"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.19344"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Rahul Sajnani, Yulia Gryaditskaya, Radom\\'ir M\\v{e}ch, Srinath Sridhar, Matheus Gadelha"
+}

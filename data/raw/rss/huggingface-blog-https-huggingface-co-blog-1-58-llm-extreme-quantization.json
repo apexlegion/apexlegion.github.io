@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/1_58_llm_extreme_quantization",
-  "fetchedAt": "2026-07-21T05:28:09.365Z",
+  "fetchedAt": "2026-07-22T05:26:59.737Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/1_58_llm_extreme_quantization",
     "title": "Fine-tuning LLMs to 1.58bit: extreme quantization made easy",

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-04572v2",
+  "name": "Context-Masked Truncated Reasoning Audits for Answer-Key Dependence in LLM Tutors",
+  "summary": "arXiv:2607.04572v2 Announce Type: replace Abstract: Large language model (LLM) tutors may have access to teacher notes, answer keys, rubrics, or retrieved solutions while producing student-facing e...",
+  "description": "arXiv:2607.04572v2 Announce Type: replace Abstract: Large language model (LLM) tutors may have access to teacher notes, answer keys, rubrics, or retrieved solutions while producing student-facing explanations. We study whether truncated reasoning probes can distinguish direct access to such private context from answer information carried by the written explanation. Using Truncated Reasoning AUC...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.04572"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.04572"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Bonan Shen, Dingyan Shang, Youting Wang, Tao Ning, Bowen Liu"
+}

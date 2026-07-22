@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/falcon2-11b",
-  "fetchedAt": "2026-07-21T05:28:09.365Z",
+  "fetchedAt": "2026-07-22T05:26:59.738Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/falcon2-11b",
     "title": "Falcon 2: An 11B parameter pretrained language model and VLM, trained on over 5000B tokens and 11 languages",

@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/nvidia/nvidia-isaac-for-healthcare",
-  "fetchedAt": "2026-07-21T05:28:09.365Z",
+  "fetchedAt": "2026-07-22T05:26:59.735Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/nvidia/nvidia-isaac-for-healthcare",
     "title": "How to Build a Healthcare Robot from Simulation to Deployment with NVIDIA Isaac for Healthcare",

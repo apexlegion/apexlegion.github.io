@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-18483v1",
+  "name": "Governing Well in the Algorithmic Age: The Foundations of Digital Statecraft",
+  "summary": "arXiv:2607.18483v1 Announce Type: cross Abstract: The digital substrate of states -- data, algorithms, infrastructure, platforms, applications -- is being governed without adequate conceptual found...",
+  "description": "arXiv:2607.18483v1 Announce Type: cross Abstract: The digital substrate of states -- data, algorithms, infrastructure, platforms, applications -- is being governed without adequate conceptual foundations. The ability and legitimacy required to govern this substrate, and to govern with it, are simultaneously misaligned, contested, and structurally absent. We introduce digital statecraft as the o...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.18483"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.18483"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Zeynep Engin, Tim Gordon, Viviana Bastidas, Tom Crick, Jon Crowcroft, Jean-Martin Denis, David J. Hand, Lauren Maffeo, Jakob M\\\"okander, Irene Ng, Anastasija Nikiforova, Giulio Quaggiotto, David Uriel Socol de la Osa, Rhonda Syler, Philip Treleaven, Stefaan Verhulst"
+}

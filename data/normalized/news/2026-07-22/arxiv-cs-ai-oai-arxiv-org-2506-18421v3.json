@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2506-18421v3",
+  "name": "TReB: A Comprehensive Benchmark for Evaluating Table Reasoning Capabilities of Large Language Models",
+  "summary": "arXiv:2506.18421v3 Announce Type: replace-cross Abstract: The majority of data in businesses and industries is stored in tables, databases, and data warehouses. Reasoning with table-structured data...",
+  "description": "arXiv:2506.18421v3 Announce Type: replace-cross Abstract: The majority of data in businesses and industries is stored in tables, databases, and data warehouses. Reasoning with table-structured data poses significant challenges for large language models (LLMs) due to its hidden semantics, inherent complexity, and structured nature. One of these challenges is lacking an effective evaluation bench...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2506.18421"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2506.18421"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Ce Li, Xiaofan Liu, Zhiyan Song, Ce Chi, Boshen Shi, Chen Zhao, Guanguang Chang, Zhendong Wang, Kexin Yang, Xing Wang, Chao Deng, Junlan Feng"
+}

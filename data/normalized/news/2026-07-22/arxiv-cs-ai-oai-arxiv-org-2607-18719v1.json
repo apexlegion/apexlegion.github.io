@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-18719v1",
+  "name": "Strategy-Following Multi-Agent Deep Reinforcement Learning Considering Control Strategies Provided to Other Agents",
+  "summary": "arXiv:2607.18719v1 Announce Type: cross Abstract: This study proposes a learning method for multi-agent systems that allows agents to be controlled through human manager instructions after learning...",
+  "description": "arXiv:2607.18719v1 Announce Type: cross Abstract: This study proposes a learning method for multi-agent systems that allows agents to be controlled through human manager instructions after learning and enables uninstructed agents to implicitly complement the overall work based on the actions of other agents. Multi-agent applications using deep learning have shown potential; thus, to achieve ext...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.18719"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.18719"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Yamato Takahagi, Gentoku Nakasone, Yoshinari Motokawa, Toshiharu Sugawara"
+}

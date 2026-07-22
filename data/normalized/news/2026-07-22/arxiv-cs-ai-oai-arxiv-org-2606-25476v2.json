@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2606-25476v2",
+  "name": "A Red Teaming Framework for Large Language Models: A Case Study on Faithfulness Evaluation",
+  "summary": "arXiv:2606.25476v2 Announce Type: replace-cross Abstract: Large language models (LLMs) have demonstrated remarkable performance across natural language processing tasks, yet their deployment in hig...",
+  "description": "arXiv:2606.25476v2 Announce Type: replace-cross Abstract: Large language models (LLMs) have demonstrated remarkable performance across natural language processing tasks, yet their deployment in high-stakes applications raises critical concerns regarding reliability, safety, and trustworthiness. In this paper, we present a red teaming framework that systematically uncovers vulnerabilities in LLM...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2606.25476"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2606.25476"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Abrar Alotaibi, Raed Mughus, Moataz Ahmed"
+}

@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/ibm-research/itbenchandmast",
-  "fetchedAt": "2026-07-21T05:28:09.364Z",
+  "fetchedAt": "2026-07-22T05:26:59.735Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/ibm-research/itbenchandmast",
     "title": "IBM and UC Berkeley Diagnose Why Enterprise Agents Fail Using IT-Bench and MAST",

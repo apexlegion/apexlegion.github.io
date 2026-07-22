@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-18460v1",
+  "name": "Competitive and Complementary Tools",
+  "summary": "arXiv:2607.18460v1 Announce Type: cross Abstract: Humans have always externalized thought onto tools, from the tally and the abacus to the map and, now, large language models. I model the agent, th...",
+  "description": "arXiv:2607.18460v1 Announce Type: cross Abstract: Humans have always externalized thought onto tools, from the tally and the abacus to the map and, now, large language models. I model the agent, the tool, and the task as one dynamical system in which competence (what the user retains) and reliance (what the user outsources) co-evolve, and find that the outcome is bistable. Above a critical tool...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.18460"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.18460"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "David C. Krakauer"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-19036v1",
+  "name": "CoGoal3D: Collaborative 3D Object Detection with 3D-Aware Fusion and Refinement",
+  "summary": "arXiv:2607.19036v1 Announce Type: cross Abstract: V2X collaborative object detection features overcoming the limitations of single-vehicle systems by aggregating environmental features from multipl...",
+  "description": "arXiv:2607.19036v1 Announce Type: cross Abstract: V2X collaborative object detection features overcoming the limitations of single-vehicle systems by aggregating environmental features from multiple collaborative agents. However, existing mainstream V2X perception methods mainly focus on 2D BEV object detection. When 3D detection task is concerned, inferior results are obtained because they ign...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.19036"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.19036"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Zhihao Yang, Zhiyu Xiang, Peng Xu, Tianyu Pu, Kai Wang, Eryun Liu, Dongping Zhang, Yong Ding"
+}

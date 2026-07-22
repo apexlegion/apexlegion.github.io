@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
-  "fetchedAt": "2026-07-21T05:28:09.364Z",
+  "fetchedAt": "2026-07-22T05:26:59.735Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
     "title": "QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard",

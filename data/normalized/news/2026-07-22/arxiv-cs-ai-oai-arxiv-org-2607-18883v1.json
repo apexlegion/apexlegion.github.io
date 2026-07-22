@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-18883v1",
+  "name": "RAMP: Recognition parametrisation by Amortised Message Passing",
+  "summary": "arXiv:2607.18883v1 Announce Type: cross Abstract: A central aim of unsupervised learning is to uncover latent factors that explain dependencies among observations. Probabilistic models typically ac...",
+  "description": "arXiv:2607.18883v1 Announce Type: cross Abstract: A central aim of unsupervised learning is to uncover latent factors that explain dependencies among observations. Probabilistic models typically achieve this by introducing multiple latent variables linked through a graph of conditional relationships, with distributional parameters and their dependence learnt from data. Learning relies either on...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.18883"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.18883"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Lior Fox, Kai Biegun, James Heald, Samo Hromadka, Arielle Rosinski, Maneesh Sahani"
+}

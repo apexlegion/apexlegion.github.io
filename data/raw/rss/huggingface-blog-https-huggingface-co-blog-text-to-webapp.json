@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/text-to-webapp",
-  "fetchedAt": "2026-07-21T05:28:09.365Z",
+  "fetchedAt": "2026-07-22T05:26:59.738Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/text-to-webapp",
     "title": "Making a web app generator with open ML models",

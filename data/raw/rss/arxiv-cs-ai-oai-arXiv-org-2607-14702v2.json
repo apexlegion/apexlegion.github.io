@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.14702v2",
+  "fetchedAt": "2026-07-22T05:26:59.767Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.14702v2",
+    "title": "Team RAS in 11th ABAW Competition: Multimodal Ambivalence Recognition Approach",
+    "link": "https://arxiv.org/abs/2607.14702",
+    "description": "arXiv:2607.14702v2 Announce Type: replace-cross Abstract: Automatic recognition of ambivalence and hesitancy is challenging because these states may be expressed through inconsistent linguistic, acoustic, facial, and contextual patterns, while top-performing systems often rely on computationally expensive ensembles. We present a single text-centered multimodal approach for video-level ambivalence and hesitancy recognition for the 11th Affective &amp; Behavior Analysis in-the-Wild (ABAW) Challenge. The proposed approach combines linguistic, acoustic, facial, and scene features using text-centered multimodal fusion model. Text Residual Fusion treats text as the anchor modality and applies gated residual adjustments based on the other modalities. Experiments on the Behavioural Ambivalence/Hesitancy (BAH) corpus confirm that text is the strongest unimodal modality. The Text Residual Fusion model achieves an average Macro F1-score (MF1) of 75.14% across the Development and Public Test subsets. On the Private Test subset, it reaches an MF1 of 78.24%, outperforming the text model by 4.03%. These results demonstrate that complementary multimodal information can improve recognition performance without requiring a large model ensemble.",
+    "publishedAt": "2026-07-22",
+    "author": "Elena Ryumina, Maxim Markitantov, Alexandr Axyonov, Fedor Shchetinin, Timur Abdulkadirov, Dmitry Ryumin, Alexey Karpov",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

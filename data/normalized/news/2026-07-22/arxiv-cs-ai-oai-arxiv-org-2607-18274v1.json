@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-18274v1",
+  "name": "Domain Design for the Cops and Robbers Problem",
+  "summary": "arXiv:2607.18274v1 Announce Type: cross Abstract: Cops and Robbers is a well-studied problem in graph theory. The setting consists of a robber and one or more cops placed on an undirected graph. Ta...",
+  "description": "arXiv:2607.18274v1 Announce Type: cross Abstract: Cops and Robbers is a well-studied problem in graph theory. The setting consists of a robber and one or more cops placed on an undirected graph. Taking turns moving throughout the graph, the cops try to capture the robber. The property of interest is whether $k$ cops suffice to ensure at least one cop occupies the same vertex as the robber, afte...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.18274"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.18274"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Connor Little, Meagan Mann, Erin Meger, Christian Muise"
+}

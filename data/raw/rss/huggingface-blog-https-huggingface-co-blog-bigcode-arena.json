@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/bigcode/arena",
-  "fetchedAt": "2026-07-21T05:28:09.365Z",
+  "fetchedAt": "2026-07-22T05:26:59.735Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/bigcode/arena",
     "title": "BigCodeArena: Judging code generations end to end with code executions",

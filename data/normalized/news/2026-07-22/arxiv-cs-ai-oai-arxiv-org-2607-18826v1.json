@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-18826v1",
+  "name": "Cross-Agent Campaign Attribution: Linking Asynchronous Attacks Across LLM Agents",
+  "summary": "arXiv:2607.18826v1 Announce Type: cross Abstract: LLM-agent defenses are typically evaluated one session at a time. In deployment, however, attacks can be distributed across independent agents, tea...",
+  "description": "arXiv:2607.18826v1 Announce Type: cross Abstract: LLM-agent defenses are typically evaluated one session at a time. In deployment, however, attacks can be distributed across independent agents, teams, and runtimes, leaving each local guardrail with only a sparse fragment. We formalize cross-agent asynchronous campaign attribution: linking sessions from the same latent adversarial campaign witho...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.18826"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.18826"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "SangJin Park, Myungsub Choi, Jineok Kim, Minseung Kang"
+}

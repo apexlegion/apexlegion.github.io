@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2411-16073v4",
+  "name": "Soft-TransFormers for Continual Learning",
+  "summary": "arXiv:2411.16073v4 Announce Type: replace-cross Abstract: Inspired by the Well-initialized Lottery Ticket Hypothesis (WLTH), we introduce Soft-TransFormers (Soft-TF), a continual learning framework...",
+  "description": "arXiv:2411.16073v4 Announce Type: replace-cross Abstract: Inspired by the Well-initialized Lottery Ticket Hypothesis (WLTH), we introduce Soft-TransFormers (Soft-TF), a continual learning framework that adapts a frozen pre-trained Transformer through task-specific soft subnetworks: real-valued multiplicative masks over the query, key, value, and output projections of selected self-attention lay...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2411.16073"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2411.16073"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Haeyong Kang, Chang D. Yoo"
+}

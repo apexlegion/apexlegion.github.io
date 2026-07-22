@@ -1,0 +1,43 @@
+{
+  "type": "paper",
+  "slug": "2607-19338",
+  "name": "CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents",
+  "summary": "Coding agents increasingly operate in executable environments where a failed attempt produces actionable feedback rather than merely an incorrect answer. Existing cost-aware systems typically treat...",
+  "description": "Coding agents increasingly operate in executable environments where a failed attempt produces actionable feedback rather than merely an incorrect answer. Existing cost-aware systems typically treat such failures as cascade decisions: try a cheap model first, then escalate hard cases to a stronger and more expensive model. In coding, however, execution feedback can also make further cheap-model recovery worthwhile, raising a budgeted deployment question: when should an agent spend more cheap compute, and when should it escalate? We formulate this post-failure decision as recovery routing ove...",
+  "tags": [
+    "arxiv",
+    "cs.AI"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.19338v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-21",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.AI.",
+      "href": "https://arxiv.org/abs/2607.19338v1"
+    }
+  ],
+  "authors": [
+    "Qijia He",
+    "Jiayi Cheng",
+    "Chenqian Le",
+    "Rui Wang",
+    "Xunmei Liu",
+    "Yixian Chen",
+    "Jie Mei",
+    "Zhihao Wang",
+    "Xupeng Chen",
+    "Yuhuan Chen",
+    "Tao Wang"
+  ],
+  "paperId": "2607.19338",
+  "category": "cs.AI",
+  "publishedAt": "2026-07-21",
+  "abstract": "Coding agents increasingly operate in executable environments where a failed attempt produces actionable feedback rather than merely an incorrect answer. Existing cost-aware systems typically treat such failures as cascade decisions: try a cheap model first, then escalate hard cases to a stronger and more expensive model. In coding, however, execution feedback can also make further cheap-model recovery worthwhile, raising a budgeted deployment question: when should an agent spend more cheap compute, and when should it escalate? We formulate this post-failure decision as recovery routing ove..."
+}

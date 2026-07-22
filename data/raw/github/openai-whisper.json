@@ -1,7 +1,7 @@
 {
   "source": "github",
   "sourceId": "openai/whisper",
-  "fetchedAt": "2026-07-21T05:28:06.523Z",
+  "fetchedAt": "2026-07-22T05:26:57.143Z",
   "data": {
     "id": 537603333,
     "node_id": "R_kgDOIAstBQ",
@@ -70,7 +70,7 @@
     "releases_url": "https://api.github.com/repos/openai/whisper/releases{/id}",
     "deployments_url": "https://api.github.com/repos/openai/whisper/deployments",
     "created_at": "2022-09-16T20:02:54Z",
-    "updated_at": "2026-07-21T05:27:55Z",
+    "updated_at": "2026-07-22T05:23:11Z",
     "pushed_at": "2026-04-15T16:32:15Z",
     "git_url": "git://github.com/openai/whisper.git",
     "ssh_url": "org-14957082@github.com:openai/whisper.git",
@@ -78,20 +78,20 @@
     "svn_url": "https://github.com/openai/whisper",
     "homepage": "",
     "size": 4132,
-    "stargazers_count": 105311,
-    "watchers_count": 105311,
+    "stargazers_count": 105385,
+    "watchers_count": 105385,
     "language": "Python",
     "has_issues": false,
     "has_projects": false,
-    "has_downloads": true,
+    "has_downloads": false,
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 12802,
+    "forks_count": 12804,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 134,
+    "open_issues_count": 133,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -106,9 +106,9 @@
     "pull_request_creation_policy": "all",
     "topics": [],
     "visibility": "public",
-    "forks": 12802,
-    "open_issues": 134,
-    "watchers": 105311,
+    "forks": 12804,
+    "open_issues": 133,
+    "watchers": 105385,
     "default_branch": "main",
     "permissions": {
       "admin": false,
@@ -140,7 +140,7 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "network_count": 12802,
-    "subscribers_count": 752
+    "network_count": 12804,
+    "subscribers_count": 755
   }
 }

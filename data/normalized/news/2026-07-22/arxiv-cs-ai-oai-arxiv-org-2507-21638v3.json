@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2507-21638v3",
+  "name": "Assistax: A Multi-Agent Hardware-Accelerated Reinforcement Learning Benchmark for Assistive Robotics",
+  "summary": "arXiv:2507.21638v3 Announce Type: replace Abstract: As embodied autonomous systems capable of assisting humans in daily activities remain a major goal for robotics, efficient and appropriate reinfo...",
+  "description": "arXiv:2507.21638v3 Announce Type: replace Abstract: As embodied autonomous systems capable of assisting humans in daily activities remain a major goal for robotics, efficient and appropriate reinforcement learning (RL) simulation testbeds are increasingly important. Many common RL environments are too simple to provide insight into complex robotics domains, and many robotics simulations have th...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2507.21638"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2507.21638"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Leonard Hinckeldey, Elliot Fosong, Rimvydas Rubavicius, Elle Miller, Trevor McInroe, Fan Zhang, Patricia Wollstadt, Stefano V. Albrecht, Subramanian Ramamoorthy"
+}

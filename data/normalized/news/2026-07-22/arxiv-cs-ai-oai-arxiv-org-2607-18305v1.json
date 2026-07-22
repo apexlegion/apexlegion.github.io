@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-18305v1",
+  "name": "The Information Shadow: Measuring Structural Limits on What Language Models Can Learn",
+  "summary": "arXiv:2607.18305v1 Announce Type: cross Abstract: Some limits on what language models know are not gaps in data coverage but structural properties of learning from text. We introduce the informatio...",
+  "description": "arXiv:2607.18305v1 Announce Type: cross Abstract: Some limits on what language models know are not gaps in data coverage but structural properties of learning from text. We introduce the information shadow: the region of phenomena that a text-trained learner cannot acquire regardless of scale, comprising (I) structures language cannot express, (II) functions that are statistically non-identifia...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.18305"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.18305"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Priyansh Srivastava, Romit Chatterjee"
+}

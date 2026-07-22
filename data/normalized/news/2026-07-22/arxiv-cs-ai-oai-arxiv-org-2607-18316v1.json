@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-18316v1",
+  "name": "Binding Drift in Multi-Step Tool-Augmented Agents",
+  "summary": "arXiv:2607.18316v1 Announce Type: cross Abstract: Tool-augmented language-model agents execute multi-step workflows over external systems, resolving an entity once and then acting on it across subs...",
+  "description": "arXiv:2607.18316v1 Announce Type: cross Abstract: Tool-augmented language-model agents execute multi-step workflows over external systems, resolving an entity once and then acting on it across subsequent steps. Prior work shows that in single-step actions, agents select the correct tool but bind it to the wrong entity 24-26% of the time. We study what happens to entity bindings over time: do th...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.18316"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.18316"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Rahul Suresh Babu, Shashank Indukuri"
+}
