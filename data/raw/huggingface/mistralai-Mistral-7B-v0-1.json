@@ -1,7 +1,7 @@
 {
   "source": "huggingface",
   "sourceId": "mistralai/Mistral-7B-v0.1",
-  "fetchedAt": "2026-07-22T05:26:57.764Z",
+  "fetchedAt": "2026-07-23T05:32:33.782Z",
   "data": {
     "_id": "650aedb6238a644cb93a52c3",
     "id": "mistralai/Mistral-7B-v0.1",
@@ -23,7 +23,7 @@
       "text-generation-inference",
       "region:us"
     ],
-    "downloads": 545769,
+    "downloads": 551830,
     "likes": 4131,
     "modelId": "mistralai/Mistral-7B-v0.1",
     "author": "mistralai",
@@ -123,7 +123,6 @@
     ],
     "spaces": [
       "overhead520/LLM-Settings-Guide",
-      "AwaisAdilKhokhar/modelDNA",
       "Vokturz/can-it-run-llm",
       "eduagarcia/open_pt_llm_leaderboard",
       "3DTopia/3DGen-Arena",
@@ -186,6 +185,7 @@
       "pseudolab/medical-chatbot",
       "Guy24/inner_lexicon",
       "Livengood/Instance-VRAM-Calculator",
+      "AwaisAdilKhokhar/modelDNA",
       "tonic-ai/NeuralChat",
       "PrarthanaTS/tsai-gpt-from-scratch",
       "MadhurGarg/TSAIGPTRedPajama",

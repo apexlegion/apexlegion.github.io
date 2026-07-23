@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2602.12851v4",
+  "fetchedAt": "2026-07-23T05:32:35.890Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2602.12851v4",
+    "title": "Chimera: Neuro-Symbolic Attention Primitives for Trustworthy Dataplane Intelligence",
+    "link": "https://arxiv.org/abs/2602.12851",
+    "description": "arXiv:2602.12851v4 Announce Type: replace-cross Abstract: Deploying expressive learning models directly on programmable dataplanes promises line-rate, low-latency traffic analysis but remains hindered by strict hardware constraints and the need for predictable, auditable behavior. Chimera introduces a principled framework that maps attention-oriented neural computations and symbolic constraints onto dataplane primitives, enabling trustworthy inference within the match-action pipeline. Chimera combines a kernelized, linearized attention approximation with a two-layer key-selection hierarchy and a cascade fusion mechanism that enforces hard symbolic guarantees while preserving neural expressivity. The design includes a hardware-aware mapping protocol and a two-timescale update scheme that together permit stable, line-rate operation under realistic dataplane budgets. The paper presents the Chimera architecture, a hardware mapping strategy, and empirical evidence showing that neuro-symbolic attention primitives can achieve high-fidelity inference within the resource envelope of commodity programmable switches.",
+    "publishedAt": "2026-07-23",
+    "author": "Rong Fu, Xiaowen Ma, Kun Liu, Wangyu Wu, Ziyu Kong, Jia Yee Tan, Tailong Luo, Xianda Li, Yongtai Liu, Youjin Wang, Simon Fong",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2509-15908v4",
+  "name": "Interpretable Nanoporous Materials Design with Symmetry-Aware Networks",
+  "summary": "arXiv:2509.15908v4 Announce Type: replace-cross Abstract: Reticular frameworks hold promise for diverse sustainable applications, yet their immense chemical space limits efficient and systematic de...",
+  "description": "arXiv:2509.15908v4 Announce Type: replace-cross Abstract: Reticular frameworks hold promise for diverse sustainable applications, yet their immense chemical space limits efficient and systematic design. While machine learning provides a compelling pathway to accelerate exploration, existing approaches often lack either interpretability or fidelity in linking crystal geometry to emergent propert...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2509.15908"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-23",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2509.15908"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-23",
+  "expiryAt": "2026-08-22T00:00:00.000Z",
+  "author": "Zhenhao Zhou, Salman Bin Kashif, Jin-Hu Dou, Chris Wolverton, Kaihang Shi, Tao Deng, Zhenpeng Yao"
+}

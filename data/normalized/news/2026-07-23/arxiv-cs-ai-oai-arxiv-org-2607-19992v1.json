@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-19992v1",
+  "name": "TINY_SCHILLER: A Drop-In German Drama Corpus for Small Language Models",
+  "summary": "arXiv:2607.19992v1 Announce Type: cross Abstract: tiny_schiller closes the small-language-model prototyping, fine-tuning, education, and research gap for German literary text, providing a single-fi...",
+  "description": "arXiv:2607.19992v1 Announce Type: cross Abstract: tiny_schiller closes the small-language-model prototyping, fine-tuning, education, and research gap for German literary text, providing a single-file, drop-in counterpart to Karpathy's tiny_shakespeare. The available German literary corpora are larger and richer, but require parser engineering before a single line of training or fine-tuning code...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.19992"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-23",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.19992"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-23",
+  "expiryAt": "2026-08-22T00:00:00.000Z",
+  "author": "Mark Schutera"
+}

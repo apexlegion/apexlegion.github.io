@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-19479v1",
+  "name": "ModPack: An Extensible Teleoperation Interface for Bimanual Mobile Manipulation",
+  "summary": "arXiv:2607.19479v1 Announce Type: cross Abstract: Existing teleoperation systems are often tailored to specific robot hardware and task domains, limiting their scalability and adaptability. We pres...",
+  "description": "arXiv:2607.19479v1 Announce Type: cross Abstract: Existing teleoperation systems are often tailored to specific robot hardware and task domains, limiting their scalability and adaptability. We present ModPack, a modular and extensible teleoperation system designed to support diverse robot embodiments and task requirements within a unified framework. At the core of ModPack is a self-contained we...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.19479"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-23",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.19479"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-23",
+  "expiryAt": "2026-08-22T00:00:00.000Z",
+  "author": "Joshua Citron, Renee Zbizika, Zeyi Liu, Shuran Song"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20166v1",
+  "name": "Audio-Zero: Label-Free Self-Evolution for Fine-Grained Audio Reasoning",
+  "summary": "arXiv:2607.20166v1 Announce Type: cross Abstract: Large Audio Language models (LALMs) have made rapid progress on acoustic understanding, yet they still struggle with fine-grained audio reasoning (...",
+  "description": "arXiv:2607.20166v1 Announce Type: cross Abstract: Large Audio Language models (LALMs) have made rapid progress on acoustic understanding, yet they still struggle with fine-grained audio reasoning (e.g., recognizing event order, repetitions and duration). Existing post-training methods heavily rely on expensive external labels or provide only coarse semantic signals. To bridge this gap, we intro...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20166"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-23",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20166"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-23",
+  "expiryAt": "2026-08-22T00:00:00.000Z",
+  "author": "Siqian Tong, Xuan Li, Chaozhuo Li, Baolong Bi, Yiwei Wang, Yujun Cai, Shenghua Liu, Chengpeng Hao"
+}

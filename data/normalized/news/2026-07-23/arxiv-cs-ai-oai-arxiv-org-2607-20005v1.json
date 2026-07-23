@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20005v1",
+  "name": "Safe Remediation as Risk-Constrained Intervention Decision in Microservice Systems",
+  "summary": "arXiv:2607.20005v1 Announce Type: new Abstract: In modern IT operations (IT-Ops), the cost of an incorrect repair often exceeds the cost of no action at all. Yet existing automated remediation syst...",
+  "description": "arXiv:2607.20005v1 Announce Type: new Abstract: In modern IT operations (IT-Ops), the cost of an incorrect repair often exceeds the cost of no action at all. Yet existing automated remediation systems are designed to generate actions rather than to decide whether intervention is warranted, leaving safety as an afterthought enforced by manual approval. This paper makes three contributions to clo...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20005"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-23",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20005"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-23",
+  "expiryAt": "2026-08-22T00:00:00.000Z",
+  "author": "Chengxiao Dai, Zhaokun Yan, Chenjun Lei, Qiao Li, Luyan Zhang"
+}

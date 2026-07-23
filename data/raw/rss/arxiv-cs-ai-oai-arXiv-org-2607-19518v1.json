@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.19518v1",
+  "fetchedAt": "2026-07-23T05:32:35.890Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.19518v1",
+    "title": "Sophisticated Policies from Epistemic Priors",
+    "link": "https://arxiv.org/abs/2607.19518",
+    "description": "arXiv:2607.19518v1 Announce Type: new Abstract: Sophisticated Inference is a variant of active inference often associated with recursive belief modeling and tree search. We argue that its central computational role is simpler: within a planning horizon, it makes active inference closed-loop by allowing future actions to depend on future states and observations. This closed-loop structure can be represented in the epistemic-prior variational free energy framework. Epistemic priors supply the active-inference objective, while a joint posterior over future states and actions supplies the state-contingent control structure. We evaluate this decomposition in the Reactivity Maze, a stochastic benchmark designed to separate epistemic incentive from inner-horizon closed-loop control. The comparison includes three variational objectives with the same state-action posterior family, an action-state factorized active inference objective, Sophisticated Inference, and standard Expected Free Energy planning. The results show that neither ingredient is sufficient on its own. Methods without an epistemic component do not seek information, while methods that prevent future actions from depending on future states cannot turn information into reliable goal-reaching. By contrast, both Sophisticated Inference and full-joint epistemic-prior active inference solve the environment by combining epistemic drive with closed-loop inference. These results show that the advantage associated with Sophisticated Inference need not be specific to tree search itself. It arises from the closed-loop form of active inference, and this form can be represented in epistemic-prior variational inference when the posterior keeps future actions dependent on future states.",
+    "publishedAt": "2026-07-23",
+    "author": "Wouter W. L. Nuijten, Bert de Vries",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

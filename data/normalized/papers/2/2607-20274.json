@@ -1,0 +1,39 @@
+{
+  "type": "paper",
+  "slug": "2607-20274",
+  "name": "Self-supervision drives representational convergence in medical foundation models more than clinical supervision",
+  "summary": "Medical image encoders from different groups are increasingly treated as interchangeable, on the assumption that scale and clinical supervision concentrate their representations onto a shared struc...",
+  "description": "Medical image encoders from different groups are increasingly treated as interchangeable, on the assumption that scale and clinical supervision concentrate their representations onto a shared structure. Whether this convergence is real, what produces it, and whether it is clinically usable are untested, and the similarity measures behind such claims are fragile. We present a controlled dissection across 18 image and 7 text encoders, all open-weight and run locally, spanning 7M to 27B parameters and five imaging modalities, including 650,982 chest radiographs from six datasets. To isolate ca...",
+  "tags": [
+    "arxiv",
+    "cs.CV"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.20274v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.CV.",
+      "href": "https://arxiv.org/abs/2607.20274v1"
+    }
+  ],
+  "authors": [
+    "Soroosh Tayebi Arasteh",
+    "Sebastian Ziegelmayer",
+    "Mahshad Lotfinia",
+    "Lisa Adams",
+    "Sven Nebelung",
+    "Jakob Nikolas Kather",
+    "Daniel Truhn"
+  ],
+  "paperId": "2607.20274",
+  "category": "cs.CV",
+  "publishedAt": "2026-07-22",
+  "abstract": "Medical image encoders from different groups are increasingly treated as interchangeable, on the assumption that scale and clinical supervision concentrate their representations onto a shared structure. Whether this convergence is real, what produces it, and whether it is clinically usable are untested, and the similarity measures behind such claims are fragile. We present a controlled dissection across 18 image and 7 text encoders, all open-weight and run locally, spanning 7M to 27B parameters and five imaging modalities, including 650,982 chest radiographs from six datasets. To isolate ca..."
+}

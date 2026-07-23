@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.19635v1",
+  "fetchedAt": "2026-07-23T05:32:35.890Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.19635v1",
+    "title": "Anatomy of a Sound Neural Reasoner: One-Shot Amortization, First-Pass Poisoning, and Search Inertness in Clue-Rich Completion",
+    "link": "https://arxiv.org/abs/2607.19635",
+    "description": "arXiv:2607.19635v1 Announce Type: cross Abstract: Neural solvers are built to deduce, branch, and revise intermediate states. The Lattice Deduction Transformer (LDT) appears to do exactly that. In clue-rich Sudoku, it does not: one forward pass commits essentially the entire grid (every blank cell on standard 6x6, 94-96% on augmented 9x9), turning the iterative solver into a one-shot predictor wrapped in an exact verifier. All hard-slice failures are decided before search begins, when the first pass confidently deletes a value required by the true solution. We call this first-pass poisoning. Adding learned branching, MRV, backtracking, value exclusion, and shared nogoods (CoLT) does not change which Sudoku instances are solved; it cuts repeated invalid derivations 1,497-fold. At the frozen training budget, constraint-graph attention alone matches full-CoLT accuracy, while positional tables recover only under substantially longer training, indicating an optimization and sample-efficiency advantage rather than an absolute capacity difference. The diagnosis predicts two effective interventions. Digit-permutation augmentation raises 9x9 accuracy from below 1% to 96.5 +/- 0.3 across three training seeds on a symmetry-disjoint split. Test-time union over symmetry-transformed passes raises all three hard-slice checkpoints from 72.8-78.9% to 100% without retraining. On from-scratch graph coloring, one-shot behavior disappears and search changes accuracy. In clue-rich completion, LDT-like systems are one-shot amortized predictors rather than learned search procedures: accuracy is determined by calibration and symmetry, while search primarily removes computational waste.",
+    "publishedAt": "2026-07-23",
+    "author": "Aleksey Komissarov",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

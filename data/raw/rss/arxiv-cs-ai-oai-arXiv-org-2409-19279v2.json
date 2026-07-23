@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2409.19279v2",
+  "fetchedAt": "2026-07-23T05:32:35.890Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2409.19279v2",
+    "title": "Distributed Optimization via Energy Conservation Laws in Dilated Coordinates",
+    "link": "https://arxiv.org/abs/2409.19279",
+    "description": "arXiv:2409.19279v2 Announce Type: replace-cross Abstract: Continuous-time models can reveal accelerated structures in distributed optimization, but their rates need not survive direct discretization. We introduce a second-order primal--dual flow for smooth convex distributed optimization and construct an exactly conserved energy that yields an $\\mathcal O(t^{-2})$ rate for both the aggregate objective gap and the squared consensus error. We then prove a horizon-wise $\\Omega(k^{-1})$ lower bound for a broad class of single-loop finite-memory primal--dual discretizations, ruling out a $\\mathcal O(k^{-2})$ aggregate-objective guarantee within this class. Motivated by this barrier, we develop a double-loop method that combines finite-step polynomial consensus with an accelerated outer update. It uses one gradient evaluation and at most $m-1$ communication rounds per outer iteration, $m$ being the number of agents, maintains exact consensus and achieves an $\\mathcal O(k^{-2})$ aggregate-objective rate. Numerical comparisons with representative distributed methods support the theory and quantify the communication cost of acceleration.",
+    "publishedAt": "2026-07-23",
+    "author": "Kushal Chakrabarti, Mayank Baranwal",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

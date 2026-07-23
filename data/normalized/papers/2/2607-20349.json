@@ -1,0 +1,36 @@
+{
+  "type": "paper",
+  "slug": "2607-20349",
+  "name": "Generative AI floods and dilutes the market for books",
+  "summary": "Generative AI can produce book-length works of fiction at near-zero cost. These books are often dismissed as low-quality ``slop'' that buyers will ignore, and are assumed to carry little commercial...",
+  "description": "Generative AI can produce book-length works of fiction at near-zero cost. These books are often dismissed as low-quality ``slop'' that buyers will ignore, and are assumed to carry little commercial weight. We test that assumption with full-text AI detection across 14,419 self-published genre-fiction books sold on Amazon from 2023 to 2026, matched to daily sales records through June 2026. None of these books disclose whether or not they contain AI-produced content. We find that books for which we detected substantial AI text ($&gt;$ 25\\%) make up a large share of the catalog but a smaller sh...",
+  "tags": [
+    "arxiv",
+    "cs.CL"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.20349v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.CL.",
+      "href": "https://arxiv.org/abs/2607.20349v1"
+    }
+  ],
+  "authors": [
+    "Tuhin Chakrabarty",
+    "Xinyue Liu",
+    "Jane C. Ginsburg",
+    "Paramveer Dhillon"
+  ],
+  "paperId": "2607.20349",
+  "category": "cs.CL",
+  "publishedAt": "2026-07-22",
+  "abstract": "Generative AI can produce book-length works of fiction at near-zero cost. These books are often dismissed as low-quality ``slop'' that buyers will ignore, and are assumed to carry little commercial weight. We test that assumption with full-text AI detection across 14,419 self-published genre-fiction books sold on Amazon from 2023 to 2026, matched to daily sales records through June 2026. None of these books disclose whether or not they contain AI-produced content. We find that books for which we detected substantial AI text ($&gt;$ 25\\%) make up a large share of the catalog but a smaller sh..."
+}

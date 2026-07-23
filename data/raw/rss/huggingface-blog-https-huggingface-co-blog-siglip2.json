@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/siglip2",
-  "fetchedAt": "2026-07-22T05:26:59.737Z",
+  "fetchedAt": "2026-07-23T05:32:35.843Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/siglip2",
     "title": "SigLIP 2: A better multilingual vision language encoder",

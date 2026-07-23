@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2604.14575v3",
+  "fetchedAt": "2026-07-23T05:32:35.890Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2604.14575v3",
+    "title": "Generative Augmented Inference of LLM-generated Data for Market Research: Theory and Empirical Evidence",
+    "link": "https://arxiv.org/abs/2604.14575",
+    "description": "arXiv:2604.14575v3 Announce Type: replace-cross Abstract: Marketing research often relies on parameters estimated from costly human-generated data, such as conjoint survey responses, purchase decisions, and field experiment outcomes. Recent advances in large language models (LLMs) and other AI systems offer inexpensive auxiliary data, but introduce a new challenge: AI outputs are not direct observations of the target outcomes, but could involve high-dimensional representations with complex and unknown relationships to human labels. Conventional methods leverage AI predictions as direct proxies for true labels, which can be inefficient or unreliable when this relationship is weak or misspecified. We propose Generative Augmented Inference (GAI), a general framework that incorporates AI-generated outputs as informative features for estimating models of human-labeled outcomes. GAI uses an orthogonal moment construction that enables consistent estimation and valid inference with a flexible, nonparametric relationship between LLM-generated outputs and human labels. We establish asymptotic normality and a key dominance result: under random labeling, GAI is optimal within a unified class of debiased estimators-including human-data-only estimators and state-of-the-art debiasing methods-and delivers strict improvements under a mild informativeness condition. Even when the labeled sample is not representative of the target population, an extended variant of GAI still dominates the weighted human-data-only estimator. Empirically, GAI outperforms benchmarks across diverse marketing research settings. In a conjoint analysis, it halves estimation error and reduces human labeling requirements by over 75%. In a pricing study, it consistently outperforms alternative estimators when all methods receive identical auxiliary inputs. In a health insurance study, it saves over 90% of labels while preserving decision accuracy.",
+    "publishedAt": "2026-07-23",
+    "author": "Cheng Lu, Mengxin Wang, Dennis J. Zhang, Heng Zhang",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

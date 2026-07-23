@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20214v1",
+  "name": "ELSAA: Efficient Low-Rank and Sparse Attention Approximation for Training Transformers",
+  "summary": "arXiv:2607.20214v1 Announce Type: cross Abstract: The quadratic $N\\times N$ attention score matrix remains a central obstacle to extending Transformers to longer input lengths. Existing efficient a...",
+  "description": "arXiv:2607.20214v1 Announce Type: cross Abstract: The quadratic $N\\times N$ attention score matrix remains a central obstacle to extending Transformers to longer input lengths. Existing efficient attention methods usually reduce this bottleneck by either imposing sparsity, so that each query attends to only a small subset of keys, or by using low-rank/kernel sketches, so that global interaction...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20214"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-23",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20214"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-23",
+  "expiryAt": "2026-08-22T00:00:00.000Z",
+  "author": "Mahdi Heidari, Mohammad Mahdi Rahimi, Jaekyun Moon"
+}

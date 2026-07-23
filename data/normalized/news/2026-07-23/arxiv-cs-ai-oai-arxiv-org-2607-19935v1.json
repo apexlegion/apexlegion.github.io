@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-19935v1",
+  "name": "MOF-Sleuth: Tool-Grounded Reward Alignment for Explainable Fine-Grained MOF CIF Auditing",
+  "summary": "arXiv:2607.19935v1 Announce Type: new Abstract: Large metal-organic framework (MOF) databases support simulation, screening, and machine learning through crystallographic information files (CIFs)....",
+  "description": "arXiv:2607.19935v1 Announce Type: new Abstract: Large metal-organic framework (MOF) databases support simulation, screening, and machine learning through crystallographic information files (CIFs). Subtle chemical and structural errors in these inputs can compromise downstream results and hinder manual inspection. LLM advances in computational chemistry offer paths beyond predictive screening to...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.19935"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-23",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.19935"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-23",
+  "expiryAt": "2026-08-22T00:00:00.000Z",
+  "author": "Yu Liu, Zhiwei Yang, Diandian Guo, Kun Peng, Fangfang Yuan, Cong Cao, Chaozhuo Li, Zhiyuan Ma, Yanbing Liu, Guobin Zhao"
+}

@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/accelerated-inference",
-  "fetchedAt": "2026-07-22T05:26:59.738Z",
+  "fetchedAt": "2026-07-23T05:32:35.844Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/accelerated-inference",
     "title": "How we sped up transformer inference 100x for 🤗 API customers",

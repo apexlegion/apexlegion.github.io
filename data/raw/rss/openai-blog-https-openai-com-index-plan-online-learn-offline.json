@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "openai-blog:https://openai.com/index/plan-online-learn-offline",
-  "fetchedAt": "2026-07-22T05:26:59.669Z",
+  "fetchedAt": "2026-07-23T05:32:35.800Z",
   "data": {
     "guid": "openai-blog:https://openai.com/index/plan-online-learn-offline",
     "title": "Plan online, learn offline: Efficient learning and exploration via model-based control",

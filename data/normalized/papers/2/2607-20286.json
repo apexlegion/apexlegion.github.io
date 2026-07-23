@@ -1,0 +1,36 @@
+{
+  "type": "paper",
+  "slug": "2607-20286",
+  "name": "Sound Probabilistic Safety Bounds for Large Language Models",
+  "summary": "We propose a novel framework for computing rigorous bounds on the probability that a large language model (LLM) generates harmful output to a given prompt. We study a new application of the Clopper...",
+  "description": "We propose a novel framework for computing rigorous bounds on the probability that a large language model (LLM) generates harmful output to a given prompt. We study a new application of the Clopper-Pearson confidence intervals to obtain probably approximately correct (PAC) bounds for this problem. As our main technical contribution, we propose an algorithm that leverages features in the latent space to prioritize exploring branches in the auto-regressive generation tree that are more likely to produce harmful outputs. Our approach in particular enables the efficient computation of useful lo...",
+  "tags": [
+    "arxiv",
+    "cs.CL"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.20286v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.CL.",
+      "href": "https://arxiv.org/abs/2607.20286v1"
+    }
+  ],
+  "authors": [
+    "Mahdi Nazeri",
+    "Anne-Kathrin Schmuck",
+    "Sadegh Soudjani",
+    "Alessandro Abate"
+  ],
+  "paperId": "2607.20286",
+  "category": "cs.CL",
+  "publishedAt": "2026-07-22",
+  "abstract": "We propose a novel framework for computing rigorous bounds on the probability that a large language model (LLM) generates harmful output to a given prompt. We study a new application of the Clopper-Pearson confidence intervals to obtain probably approximately correct (PAC) bounds for this problem. As our main technical contribution, we propose an algorithm that leverages features in the latent space to prioritize exploring branches in the auto-regressive generation tree that are more likely to produce harmful outputs. Our approach in particular enables the efficient computation of useful lo..."
+}

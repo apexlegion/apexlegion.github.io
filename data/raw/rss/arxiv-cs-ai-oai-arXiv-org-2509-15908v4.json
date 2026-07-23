@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2509.15908v4",
+  "fetchedAt": "2026-07-23T05:32:35.890Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2509.15908v4",
+    "title": "Interpretable Nanoporous Materials Design with Symmetry-Aware Networks",
+    "link": "https://arxiv.org/abs/2509.15908",
+    "description": "arXiv:2509.15908v4 Announce Type: replace-cross Abstract: Reticular frameworks hold promise for diverse sustainable applications, yet their immense chemical space limits efficient and systematic design. While machine learning provides a compelling pathway to accelerate exploration, existing approaches often lack either interpretability or fidelity in linking crystal geometry to emergent properties. Here, we introduce a site-resolved equivariant learning framework based on three-dimensional periodic space sampling, which decomposes reticular structures into local geometric environments for simultaneous property prediction and site-wise contribution analysis. Trained on a combination of constructed and retrieved datasets, the model achieves state-of-the-art accuracy and data efficiency across gas storage, gas separation, and electronic-property prediction tasks. Importantly, the framework reveals interpretable local structure-property relationships by identifying transferable high-contribution sites across diverse frameworks. Leveraging these learned motifs, we further demonstrate inverse design of new metal-organic frameworks exhibiting record-high N2 storage, strong CO2/N2 separation performance, and near-zero electronic band gaps, validated by physics-based simulations.",
+    "publishedAt": "2026-07-23",
+    "author": "Zhenhao Zhou, Salman Bin Kashif, Jin-Hu Dou, Chris Wolverton, Kaihang Shi, Tao Deng, Zhenpeng Yao",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

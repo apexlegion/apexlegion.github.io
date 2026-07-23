@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "google-ai-blog-https-blog-google-products-and-platforms-platforms-android-galaxy-unpacked-2026",
+  "name": "3 Google updates from Galaxy Unpacked 2026",
+  "summary": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp\"&gt;We shared how Samsung users can boost productivity and get time back on n...",
+  "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp\"&gt;We shared how Samsung users can boost productivity and get time back on new foldables, watches, and glasses coming soon.",
+  "tags": [
+    "news",
+    "google-ai-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "Google AI Blog",
+      "href": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by Google AI Blog.",
+      "href": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/"
+    }
+  ],
+  "source": "Google AI Blog",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "<name>Menaka Shroff</name><title>VP of Android Ecosystem Marketing</title><department/><company/>"
+}

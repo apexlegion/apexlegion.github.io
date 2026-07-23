@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "openai-blog:https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
-  "fetchedAt": "2026-07-22T05:26:59.669Z",
+  "fetchedAt": "2026-07-23T05:32:35.800Z",
   "data": {
     "guid": "openai-blog:https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
     "title": "Speeding up agentic workflows with WebSockets in the Responses API",

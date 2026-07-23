@@ -1,7 +1,7 @@
 {
   "source": "huggingface",
   "sourceId": "meta-llama/Meta-Llama-3-8B",
-  "fetchedAt": "2026-07-22T05:26:57.537Z",
+  "fetchedAt": "2026-07-23T05:32:33.560Z",
   "data": {
     "_id": "661f97d48e7f3438386f755d",
     "id": "meta-llama/Meta-Llama-3-8B",
@@ -22,10 +22,11 @@
       "eval-results",
       "text-generation-inference",
       "endpoints_compatible",
+      "deploy:sagemaker",
       "region:us"
     ],
-    "downloads": 1343782,
-    "likes": 6612,
+    "downloads": 1471063,
+    "likes": 6613,
     "modelId": "meta-llama/Meta-Llama-3-8B",
     "author": "meta-llama",
     "sha": "8cde5ca8380496c9a6cc7ef3a8b46a0372a1d920",

@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/Arm/executorch-0-dot-7",
-  "fetchedAt": "2026-07-22T05:26:59.737Z",
+  "fetchedAt": "2026-07-23T05:32:35.843Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/Arm/executorch-0-dot-7",
     "title": "Arm &amp; ExecuTorch 0.7: Bringing Generative AI to the masses",

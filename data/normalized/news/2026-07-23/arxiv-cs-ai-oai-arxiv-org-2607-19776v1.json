@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-19776v1",
+  "name": "RPPNet: Perceptually-Grouped Rhythm-Pitch Primitives for Long-Term Structure Melody Generation via Boundary-Aware Modeling",
+  "summary": "arXiv:2607.19776v1 Announce Type: cross Abstract: Existing symbolic music generation models typically use bars as the basic structural unit. However, human perception of musical phrases often does...",
+  "description": "arXiv:2607.19776v1 Announce Type: cross Abstract: Existing symbolic music generation models typically use bars as the basic structural unit. However, human perception of musical phrases often does not align with notated bar lines, leading to long-term structural fragmentation. This paper proposes RPPNet-a two-stage deep learning architecture with variable structural boundaries. It first generat...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.19776"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-23",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.19776"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-23",
+  "expiryAt": "2026-08-22T00:00:00.000Z",
+  "author": "Tieyao Zhang, Yuke Liu, Jiaxing Yu, Xinda Wu, Kejun Zhang, Genfang Chen"
+}

@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2606.28445v2",
+  "fetchedAt": "2026-07-23T05:32:35.890Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2606.28445v2",
+    "title": "LoRA-Tuned Large Language Models for Dementia Detection via Multi-View Speech-Derived Features",
+    "link": "https://arxiv.org/abs/2606.28445",
+    "description": "arXiv:2606.28445v2 Announce Type: replace-cross Abstract: Early detection of dementia enables timely intervention, and reflecting cognitive impairment, spontaneous speech offers a non-invasive screening modality. Conventional approaches often focus on a single representational dimension -- such as acoustic descriptors, pause modeling, automatic speech recognition (ASR) transcripts, or multimodal fusion -- limiting integrative reasoning across heterogeneous cognitive symptoms. We propose a low-rank adaptation (LoRA)-tuned large language model (LLM) that performs structured multi-view reasoning over four complementary speech-derived signals: ASR transcripts with pause markers, discourse-level topic cues, temporal fluency statistics, and phonological sequences. These cues are encoded within a unified prompt, enabling a single LLM to learn a coherent decision function without modality-specific encoders or late-stage fusion. On ADReSSo, our best model achieves an F1-score of 90.14%, and ablation confirms the complementary contribution of each view.",
+    "publishedAt": "2026-07-23",
+    "author": "Jonghyeon Park, Olivier Jiyoun Jung, Myungwoo Oh",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

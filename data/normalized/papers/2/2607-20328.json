@@ -1,0 +1,34 @@
+{
+  "type": "paper",
+  "slug": "2607-20328",
+  "name": "Understanding Generative AI-mediated User Engagement with Academic Library Resources",
+  "summary": "This study empirically analyzed generative AI as an emerging discovery pathway to academic library resources. Utilizing web analytics from August 2023 to October 2025, the research identifies a sig...",
+  "description": "This study empirically analyzed generative AI as an emerging discovery pathway to academic library resources. Utilizing web analytics from August 2023 to October 2025, the research identifies a significant increase in AI-mediated traffic, particularly following the integration of linked citation features. Referral analysis identified ChatGPT, Perplexity, and Gemini as the primary platforms driving this traffic. A substantial portion of users reached the institutional repository, primarily accessing electronic theses and dissertations. This pattern suggests that AI retrieval mechanisms effec...",
+  "tags": [
+    "arxiv",
+    "cs.DL"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.20328v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.DL.",
+      "href": "https://arxiv.org/abs/2607.20328v1"
+    }
+  ],
+  "authors": [
+    "Hae Min Kim",
+    "Stacy Stanislaw"
+  ],
+  "paperId": "2607.20328",
+  "category": "cs.DL",
+  "publishedAt": "2026-07-22",
+  "abstract": "This study empirically analyzed generative AI as an emerging discovery pathway to academic library resources. Utilizing web analytics from August 2023 to October 2025, the research identifies a significant increase in AI-mediated traffic, particularly following the integration of linked citation features. Referral analysis identified ChatGPT, Perplexity, and Gemini as the primary platforms driving this traffic. A substantial portion of users reached the institutional repository, primarily accessing electronic theses and dissertations. This pattern suggests that AI retrieval mechanisms effec..."
+}

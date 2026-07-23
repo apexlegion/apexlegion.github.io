@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.19895v1",
+  "fetchedAt": "2026-07-23T05:32:35.890Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.19895v1",
+    "title": "OSVE: One Step Video Editing with One Step Diffusion Models",
+    "link": "https://arxiv.org/abs/2607.19895",
+    "description": "arXiv:2607.19895v1 Announce Type: cross Abstract: Text-guided video editing with diffusion models is impractically slow, hindered by costly multi-step sampling and inversion. We present OSVE, the first framework to successfully adapt one-step Text-to-Image (T2I) models for high-quality video editing, addressing the core challenges of inversion, editability, and temporal consistency. To bypass slow iterative inversion, we train a learnable encoder that predicts the initial noise for each frame in a single forward pass. This encoder is trained with a novel Structure-Aware Editing (SAE) loss on a curated dataset of structurally-aligned image pairs, teaching it to preserve the source video's geometry during edits. For temporal coherence, we introduce Unified-Frame Editing (UFE), a technique that concatenates frame latents to facilitate cross-frame attention in a single generation step. Furthermore, for long videos, a sliding-window strategy with an anchor frame maintains global consistency. Our extensive experiments demonstrate that OSVE achieves editing quality comparable or superior to state-of-the-art multi-step methods, while operating approximately 155--171 times faster. This breakthrough paves the way for practical, real-time video editing applications. Code is available at https://github.com/KU-VGI/OSVE.",
+    "publishedAt": "2026-07-23",
+    "author": "Habin Lim, Gyeong-Moon Park",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

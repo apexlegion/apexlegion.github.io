@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "mit-news-ai-https-news-mit-edu-2026-dimitri-bertsekas-influential-computer-scientist-prolific-author-dies-0722",
+  "name": "Professor Emeritus Dimitri Bertsekas, influential computer scientist and prolific author, dies at 83",
+  "summary": "Known for his clear and elegant writing style, Bertsekas shaped fields from control and optimization to large-scale computation and artificial intelligence.",
+  "description": "Known for his clear and elegant writing style, Bertsekas shaped fields from control and optimization to large-scale computation and artificial intelligence.",
+  "tags": [
+    "news",
+    "mit-news-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "MIT News",
+      "href": "https://news.mit.edu/2026/dimitri-bertsekas-influential-computer-scientist-prolific-author-dies-0722"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by MIT News.",
+      "href": "https://news.mit.edu/2026/dimitri-bertsekas-influential-computer-scientist-prolific-author-dies-0722"
+    }
+  ],
+  "source": "MIT News",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z",
+  "author": "Jane Halpern | Department of Electrical Engineering and Computer Science"
+}

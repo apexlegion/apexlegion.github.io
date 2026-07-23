@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/unity-asr",
-  "fetchedAt": "2026-07-22T05:26:59.738Z",
+  "fetchedAt": "2026-07-23T05:32:35.844Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/unity-asr",
     "title": "AI Speech Recognition in Unity",

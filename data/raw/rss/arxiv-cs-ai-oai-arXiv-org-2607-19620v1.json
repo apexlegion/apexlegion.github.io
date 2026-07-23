@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.19620v1",
+  "fetchedAt": "2026-07-23T05:32:35.890Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.19620v1",
+    "title": "SCPP: A Unified Python Library for Soft Clustering",
+    "link": "https://arxiv.org/abs/2607.19620",
+    "description": "arXiv:2607.19620v1 Announce Type: cross Abstract: In this paper, we present SCPP (Soft Clustering Python Package), an open-source Python framework for soft clustering. SCPP establishes a canonical, scikit-learn-compatible estimator interface that standardizes model training, prediction, membership representation, evaluation, and benchmarking across heterogeneous soft clustering methods, including fuzzy, probabilistic, graph-based, matrix factorization, and deep learning methods. The framework currently integrates 40 representative algorithms together with a comprehensive benchmarking comprising datasets, clustering quality metrics, and standardized runtime, memory, and scalability evaluation. SCPP further provides extensive documentation, practical examples, automated testing, and seamless integration with the scientific Python ecosystem, enabling reproducible experimentation and straightforward extension with new algorithms. The source code is publicly available at https://github.com/soft-clustering/soft-clustering.",
+    "publishedAt": "2026-07-23",
+    "author": "Kiyan Rezaee, Morteza Ziabakhsh, Artin Bahrampour, Seyed Mohammad Ghoreishi, Asal Khaje, Ali Sajedifar, Manny Chalak, Ava Zerafatangiz, Sadegh Eskandari",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

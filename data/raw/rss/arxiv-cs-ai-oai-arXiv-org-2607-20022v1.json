@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.20022v1",
+  "fetchedAt": "2026-07-23T05:32:35.890Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.20022v1",
+    "title": "Global Difference Constraint Propagation for Constraint Programming",
+    "link": "https://arxiv.org/abs/2607.20022",
+    "description": "arXiv:2607.20022v1 Announce Type: new Abstract: Difference constraints of the form $x - y \\leq d$ are well studied, with efficient algorithms for satisfaction and implication, because of their connection to shortest paths. Finite domain propagation algorithms, however, typically do not make use of these algorithms, and treat each difference constraint as a separate propagator. Propagation does guarantee completeness of solving, but can be needlessly slow. In this paper we describe how to build a (bounds consistent) global propagator for difference constraints that treats them all simultaneously. SAT modulo theory solvers have included theory solvers for difference constraints for some time. While a theory solver for difference constraints gives the basis of a global difference constraint propagator, we show how the requirements on the propagator are quite different. Crucially, we show how to explain propagations by a global difference constraint propagator, in order to use it within a lazy clause generation solver. We give experiments showing that treating difference constraints globally can substantially improve on the standard propagation approach.",
+    "publishedAt": "2026-07-23",
+    "author": "Lucas Kletzander, Jip J. Dekker, Andreas Schutt, Peter J. Stuckey",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "google-ai-blog:https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
+  "fetchedAt": "2026-07-23T05:32:35.257Z",
+  "data": {
+    "guid": "google-ai-blog:https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
+    "title": "3 Google updates from Galaxy Unpacked 2026",
+    "link": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
+    "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp\"&gt;We shared how Samsung users can boost productivity and get time back on new foldables, watches, and glasses coming soon.",
+    "publishedAt": "2026-07-22",
+    "author": "<name>Menaka Shroff</name><title>VP of Android Ecosystem Marketing</title><department/><company/>",
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  },
+  "extra": {
+    "feedId": "google-ai-blog",
+    "source": "Google AI Blog"
+  }
+}

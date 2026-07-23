@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/upskill",
-  "fetchedAt": "2026-07-22T05:26:59.735Z",
+  "fetchedAt": "2026-07-23T05:32:35.843Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/upskill",
     "title": "We Got Claude to Build CUDA Kernels and teach open models!",

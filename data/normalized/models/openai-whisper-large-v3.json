@@ -117,6 +117,7 @@
     "eval-results",
     "endpoints_compatible",
     "deploy:azure",
+    "deploy:sagemaker",
     "region:us"
   ],
   "externalLinks": [

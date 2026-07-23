@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2510-16834v3",
+  "name": "Schr\\\"odinger Bridge Mamba for One-Step Speech Enhancement",
+  "summary": "arXiv:2510.16834v3 Announce Type: replace-cross Abstract: We present Schr\\\"odinger Bridge Mamba (SBM), a novel model for efficient speech enhancement by integrating the Schr\\\"odinger Bridge (SB) tr...",
+  "description": "arXiv:2510.16834v3 Announce Type: replace-cross Abstract: We present Schr\\\"odinger Bridge Mamba (SBM), a novel model for efficient speech enhancement by integrating the Schr\\\"odinger Bridge (SB) training paradigm and the Mamba architecture. Experiments of joint denoising and dereverberation tasks demonstrate SBM outperforms strong generative and discriminative methods on multiple metrics with o...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2510.16834"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-23",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2510.16834"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-23",
+  "expiryAt": "2026-08-22T00:00:00.000Z",
+  "author": "Jing Yang, Sirui Wang, Chao Wu, Lei Guo, Fan Fan"
+}

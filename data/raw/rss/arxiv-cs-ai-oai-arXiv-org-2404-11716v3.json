@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2404.11716v3",
+  "fetchedAt": "2026-07-23T05:32:35.890Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2404.11716v3",
+    "title": "A Survey on Semantic Modeling for Building Energy Management",
+    "link": "https://arxiv.org/abs/2404.11716",
+    "description": "arXiv:2404.11716v3 Announce Type: replace Abstract: Building Energy Management (BEM) is central to reducing energy use and CO2 emissions in the building sector. Although IoT technologies now provide extensive operational data, heterogeneous data models, device descriptions, and contextual representations continue to limit semantic interoperability, limiting the development of generalisable, autonomous, context-aware BEM applications. Ontologies address this challenge by providing structured, machine-interpretable representations of building data, systems, and operational context. This survey examines semantic modelling for BEM during the building operational phase. It reviews 60 semantic models and analyses more than 20 ontology-based BEM use cases. It further quantifies Ontology Instantiation Rates (OIR) and missing concepts across those use cases. To support evidence-based assessment of ontology use, we introduce the notion of Ontology Evidence Completeness (OEC), a measure of whether studies explicitly map operational concepts to the ontology classes used to represent them. Findings show that current semantic models more consistently represent physical building structure, technical systems, sensing devices, and observable operational data than abstract and dynamic operational concepts. Concepts such as key performance indicators, assessments, services, control logic, optimisation tasks, and computational workflows remain less consistently covered. Applied BEM studies therefore frequently depend on ontology reuse, integration, specialisation, external inheritance, or application-specific extension to address coverage and interoperability gaps across BEM. By synthesising these patterns, this survey clarifies the capabilities of existing semantic models and identifies directions for more interoperable, generalisable, and context-aware BEM systems.",
+    "publishedAt": "2026-07-23",
+    "author": "Miracle Aniakor, Vinicius V. Cogo, Pedro M. Ferreira",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

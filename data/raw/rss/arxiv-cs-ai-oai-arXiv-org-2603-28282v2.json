@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2603.28282v2",
+  "fetchedAt": "2026-07-23T05:32:35.890Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2603.28282v2",
+    "title": "Pre-Deployment Complexity Estimation for Federated Perception Systems",
+    "link": "https://arxiv.org/abs/2603.28282",
+    "description": "arXiv:2603.28282v2 Announce Type: replace-cross Abstract: Edge AI systems increasingly rely on federated learning to train perception models in distributed, privacy-preserving, and resource-constrained environments. Before training, however, practitioners often lack practical tools for estimating task difficulty in terms of expected accuracy and communication effort. We present a classifier-agnostic, pre-deployment framework that combines intrinsic data properties such as dimensionality, sparsity, and heterogeneity, with client-distribution composition to estimate learning complexity in federated perception systems. Using federated learning as a representative distributed training setting, we examine how learning difficulty varies across different federated configurations. Experiments on three MNIST variants show strong negative correlations between the combined complexity metric and maximum and average federated accuracy, while the intrinsic and distributed components exhibit consistent relationships with communication effort. These findings suggest that complexity estimation can serve as a practical diagnostic tool for resource planning, dataset assessment, and feasibility evaluation in edge-deployed perception systems.",
+    "publishedAt": "2026-07-23",
+    "author": "KMA Solaiman, Shafkat Islam, Ruy de Oliveira, Bharat Bhargava",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

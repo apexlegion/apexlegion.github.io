@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2404-11716v3",
+  "name": "A Survey on Semantic Modeling for Building Energy Management",
+  "summary": "arXiv:2404.11716v3 Announce Type: replace Abstract: Building Energy Management (BEM) is central to reducing energy use and CO2 emissions in the building sector. Although IoT technologies now provid...",
+  "description": "arXiv:2404.11716v3 Announce Type: replace Abstract: Building Energy Management (BEM) is central to reducing energy use and CO2 emissions in the building sector. Although IoT technologies now provide extensive operational data, heterogeneous data models, device descriptions, and contextual representations continue to limit semantic interoperability, limiting the development of generalisable, aut...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2404.11716"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-23",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2404.11716"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-23",
+  "expiryAt": "2026-08-22T00:00:00.000Z",
+  "author": "Miracle Aniakor, Vinicius V. Cogo, Pedro M. Ferreira"
+}

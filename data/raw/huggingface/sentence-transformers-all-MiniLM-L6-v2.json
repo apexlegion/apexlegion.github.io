@@ -1,7 +1,7 @@
 {
   "source": "huggingface",
   "sourceId": "sentence-transformers/all-MiniLM-L6-v2",
-  "fetchedAt": "2026-07-22T05:26:58.518Z",
+  "fetchedAt": "2026-07-23T05:32:34.477Z",
   "data": {
     "_id": "621ffdc136468d709f180294",
     "id": "sentence-transformers/all-MiniLM-L6-v2",
@@ -54,10 +54,11 @@
       "text-embeddings-inference",
       "endpoints_compatible",
       "deploy:azure",
+      "deploy:sagemaker",
       "region:us"
     ],
-    "downloads": 241315604,
-    "likes": 5107,
+    "downloads": 254613640,
+    "likes": 5111,
     "modelId": "sentence-transformers/all-MiniLM-L6-v2",
     "author": "sentence-transformers",
     "sha": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
@@ -227,8 +228,8 @@
     "spaces": [
       "mteb/leaderboard",
       "bench-labs/BenchLabs-Leaderboard",
-      "hakari-bench/leaderboard",
       "eduagarcia/multilingual-tokenizer-leaderboard",
+      "hakari-bench/leaderboard",
       "krishna-cc/health_doc",
       "piAshuSingh/Emerging_Stars",
       "grateful790/rai-chatbot",
@@ -237,8 +238,8 @@
       "hcs0/career_conversation",
       "UmairLari/ai-financial-advisor-backend",
       "ayush150152/ziro",
+      "Kefayatullahkhan/pakistan-taxmate-ai",
       "caio007/tati-ai-backend",
-      "Fatih342/Find-Your-Perfume",
       "devaanand/ccr-platform",
       "malaika871/NexusAI",
       "hugging-apps/shelld-text-to-image",

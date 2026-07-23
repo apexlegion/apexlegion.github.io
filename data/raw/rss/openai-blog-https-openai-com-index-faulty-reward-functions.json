@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "openai-blog:https://openai.com/index/faulty-reward-functions",
-  "fetchedAt": "2026-07-22T05:26:59.670Z",
+  "fetchedAt": "2026-07-23T05:32:35.800Z",
   "data": {
     "guid": "openai-blog:https://openai.com/index/faulty-reward-functions",
     "title": "Faulty reward functions in the wild",

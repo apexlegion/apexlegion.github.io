@@ -1,0 +1,29 @@
+{
+  "type": "news",
+  "slug": "openai-blog-https-openai-com-index-introducing-openai-presence",
+  "name": "Introducing OpenAI Presence",
+  "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+  "description": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+  "tags": [
+    "news",
+    "openai-blog"
+  ],
+  "externalLinks": [
+    {
+      "label": "OpenAI Blog",
+      "href": "https://openai.com/index/introducing-openai-presence"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-22",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by OpenAI Blog.",
+      "href": "https://openai.com/index/introducing-openai-presence"
+    }
+  ],
+  "source": "OpenAI Blog",
+  "publishedAt": "2026-07-22",
+  "expiryAt": "2026-08-21T00:00:00.000Z"
+}

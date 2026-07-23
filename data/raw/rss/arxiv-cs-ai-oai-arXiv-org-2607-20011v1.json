@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.20011v1",
+  "fetchedAt": "2026-07-23T05:32:35.890Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.20011v1",
+    "title": "Drift-Aware RL-based Wavelet Denoising for Network-Traffic Anomaly Detection",
+    "link": "https://arxiv.org/abs/2607.20011",
+    "description": "arXiv:2607.20011v1 Announce Type: cross Abstract: Traffic-utilisation measurements for network monitoring are corrupted by additive noise and statistical drift: time-dependent change in the signal's mean, variance, distributional shape, or tail behaviour. Static wavelet denoising, calibrated under stationary independent and identically distributed (i.i.d.) Gaussian assumptions, becomes mismatched under drift and, at moderate-to-high signal-to-noise ratio (SNR), over-suppresses useful structure and degrades monitoring decisions. We propose a drift-aware framework treating adaptive wavelet denoising as a preprocessing layer optimised for two tasks: anomaly detection, recovering the multi-scale transient load bursts that noise and drift obscure, and capacity estimation, recovering the operational required capacity $C_{95}$ (95th percentile of utilisation). Because localised bursts are multi-scale structure a wavelet preserves but a low-pass filter removes, detection discriminates denoiser families. A four-detector gate (Page-Hinkley, variance-ratio, Jensen-Shannon, Anderson-Darling) determines when to invoke a learned policy, and a Proximal Policy Optimization agent selects a per-window wavelet configuration over a mixed discrete-continuous action space. Unlike prior work, the reward is downstream task utility, not reconstruction fidelity. The denoiser is benchmarked, per drift type and input SNR, against a low-pass moving-average filter, VisuShrink, SureShrink, BayesShrink, and a Wiener filter. Defining the anomaly target on the clean signal and the drift gate on the corruption keeps both stages non-circular.",
+    "publishedAt": "2026-07-23",
+    "author": "Priyalakshmi Sheela, Indrakshi Dey",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

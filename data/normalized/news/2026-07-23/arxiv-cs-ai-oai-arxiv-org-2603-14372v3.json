@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2603-14372v3",
+  "name": "Content Creation with Spillovers: An Incentive Design Approach",
+  "summary": "arXiv:2603.14372v3 Announce Type: replace Abstract: The rise of AI amplifies the economic phenomenon of \\emph{positive spillovers}: when creators contribute content that can be reused and adapted b...",
+  "description": "arXiv:2603.14372v3 Announce Type: replace Abstract: The rise of AI amplifies the economic phenomenon of \\emph{positive spillovers}: when creators contribute content that can be reused and adapted by LLMs, one creator's effort may improve the content quality of others through recombination. While such spillovers can improve content quality, they also reshape incentives, as creators may reduce ef...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2603.14372"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-23",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2603.14372"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-23",
+  "expiryAt": "2026-08-22T00:00:00.000Z",
+  "author": "Sagi Ohayon, Boaz Taitler, Omer Ben-Porat"
+}
