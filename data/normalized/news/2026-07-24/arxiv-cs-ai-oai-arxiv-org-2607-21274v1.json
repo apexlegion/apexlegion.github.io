@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21274v1",
+  "name": "A Comparative Evaluation of Embeddings and LLMs in a Greek Book Publisher Setting - The CUP Dataset",
+  "summary": "arXiv:2607.21274v1 Announce Type: cross Abstract: We present CUP, a Greek book retrieval benchmark consisting of 868 catalog records and 104 expert-annotated queries with graded relevance judgments...",
+  "description": "arXiv:2607.21274v1 Announce Type: cross Abstract: We present CUP, a Greek book retrieval benchmark consisting of 868 catalog records and 104 expert-annotated queries with graded relevance judgments. We evaluate sparse (BM25), dense (sentence-transformers), hybrid, and LLM-assisted retrieval methods in this book-search setting. Multilingual embeddings outperform Greek-specific models, while hybr...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21274"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21274"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Katerina Papantoniou, Panagiotis Papadakos, Theodore Patkos, Dimitris Garefalakis, Nikos Vardakis, Dimitris Plexousakis"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20583v1",
+  "name": "Foundation-model-guided radiogenomic discovery linking cancer genomes to cancer scans",
+  "summary": "arXiv:2607.20583v1 Announce Type: cross Abstract: The function of many genes is still unknown, and conventional driver-discovery methods, which rely on how frequently a gene is mutated, cannot asse...",
+  "description": "arXiv:2607.20583v1 Announce Type: cross Abstract: The function of many genes is still unknown, and conventional driver-discovery methods, which rely on how frequently a gene is mutated, cannot assess genes that are only rarely affected. Here we pair Evo~2-based genome analysis with routine clinical imaging to identify gene--phenotype associations at genome-wide scale. For every somatic mutation...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20583"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20583"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Frederik Hauke, Jeremias Krause, Patrick Wienholt, Christiane Kuhl, Ingo Kurth, Sikander Hayat, Jakob Nikolas Kather, Sven Nebelung, Daniel Truhn"
+}

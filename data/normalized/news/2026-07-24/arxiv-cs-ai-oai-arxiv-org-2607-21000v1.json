@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21000v1",
+  "name": "Naju: A Native Discrete State-Space Model with Independent Retention and Writing for Long-Sequence Memory",
+  "summary": "arXiv:2607.21000v1 Announce Type: new Abstract: Long-sequence memory tracking places two opposing demands on a recurrent state: near-lossless retention of stored bindings over long horizons, and ac...",
+  "description": "arXiv:2607.21000v1 Announce Type: new Abstract: Long-sequence memory tracking places two opposing demands on a recurrent state: near-lossless retention of stored bindings over long horizons, and active overwriting of stale ones. In our diagnostic suite, the strongest efficient baselines tend to solve only one side well. Continuous-time-parameterized state-space models (SSMs) such as Mamba obtai...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21000"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21000"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Hyuk Lim, Seunghyun Yoon"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20827v1",
+  "name": "Auditing Provenance Sensitivity in LLM Agent Action Selection",
+  "summary": "arXiv:2607.20827v1 Announce Type: new Abstract: LLM agents choose tools and arguments from context that mixes user requests, tool outputs, retrieved records, memory, and untrusted text. Evidence ca...",
+  "description": "arXiv:2607.20827v1 Announce Type: new Abstract: LLM agents choose tools and arguments from context that mixes user requests, tool outputs, retrieved records, memory, and untrusted text. Evidence can be relevant without being authorized to determine a decision, so a correct action need not be grounded only in permitted evidence. We introduce a target-specific authorization audit that labels cont...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20827"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20827"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Junchi Liao"
+}

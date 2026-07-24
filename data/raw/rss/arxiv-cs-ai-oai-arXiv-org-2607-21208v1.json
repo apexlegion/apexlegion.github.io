@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.21208v1",
+  "fetchedAt": "2026-07-24T05:27:42.655Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.21208v1",
+    "title": "How Rules Represent Causal Knowledge: Causal Modeling with Probabilistic Logic Programming",
+    "link": "https://arxiv.org/abs/2607.21208",
+    "description": "arXiv:2607.21208v1 Announce Type: new Abstract: Pearl famously argues that causal knowledge enables the prediction of intervention effects. By contrast, purely descriptive knowledge supports only conclusions drawn from observations. His theory of causality, however, is developed exclusively within Bayesian networks and causal models. Consequently, it is largely restricted to acyclic causal relationships, and transferring its ideas to other formalisms risks misinterpretation or inconsistency. This paper brings Pearl's approach to causality into probabilistic logic programming (PLP). To this end, such programs are aligned with philosophical foundations established in prior work that do not rely on temporal notions; that is, all relevant events are assumed to occur simultaneously. A formal causal semantics for these programs, together with a notion of intervention and an implementation, is proposed. It is shown that this semantics coincides with the P-log semantics for stratified ProbLog programs, while the two may differ in the non-stratified case and for other PLP formalisms.",
+    "publishedAt": "2026-07-24",
+    "author": "Kilian Rueckschloss (Eberhard Karls Universitaet Tuebingen), Felix Weitkaemper (German University of Digital Science)",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20435v1",
+  "name": "Making Open-Source Text LLM Watermarks Durable Against Merging",
+  "summary": "arXiv:2607.20435v1 Announce Type: cross Abstract: Open-source LLMs (OSMs)arereaching near state-of-the-art performance, prompting prior works to trace the text they generate by embedding text water...",
+  "description": "arXiv:2607.20435v1 Announce Type: cross Abstract: Open-source LLMs (OSMs)arereaching near state-of-the-art performance, prompting prior works to trace the text they generate by embedding text watermarking algorithms directly into their weights. Yet, OSMs are subject to post-training modifications, which has been shown to remove the watermark. Model merging in particular, a prominent method used...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20435"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20435"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Luisa Scharff, Thibaud Gloaguen, Robin Staab, Martin Vechev"
+}

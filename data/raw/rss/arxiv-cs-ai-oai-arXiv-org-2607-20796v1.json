@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.20796v1",
+  "fetchedAt": "2026-07-24T05:27:42.655Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.20796v1",
+    "title": "Can an AI System Be Creative? A Critical Perspective from Art and Engineering",
+    "link": "https://arxiv.org/abs/2607.20796",
+    "description": "arXiv:2607.20796v1 Announce Type: new Abstract: This paper examines the question of whether artificial intelligence (AI) systems can be creative, approached from the dual perspective of a researcher trained in electrical engineering, pattern recognition, machine learning, and neural networks, who has also spent most of his life engaged in the arts as actor, stage and film director, writer, composer, and visual artist, and in philosophy. Drawing on Margaret Boden's foundational framework, both her three properties of creativity (novelty, surprise, and value) and her three types of creative processes (combinatorial, exploratory, and transformational), the paper argues that AI systems are structurally incapable of creativity in its strongest sense. While they exhibit genuine capability in the domain of combinatorial creativity, they are significantly bounded in exploratory creativity, and fundamentally incapable of transformational creativity. The paper further argues that the most important limitation of current AI systems is not the absence of novelty per se, but the absence of any mechanism for serendipity, accident, or the unexpected, all of which play a central role in the phenomenology of creativity, and the absence of any subject position from which to recognize and welcome such chance events. The paper concludes by proposing a model of human, AI creative collaboration that is both realistic and generative, illustrated by several concrete experiments. The paper is itself a demonstration of the thesis it advances: it was composed through a deliberate human AI collaborative process, which is described in the methodological note that opens it.",
+    "publishedAt": "2026-07-24",
+    "author": "Ivan Magrin-Chagnolleau",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

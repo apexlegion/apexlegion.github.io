@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20537v1",
+  "name": "ReliableTableQA:How Much Supervision Does Reliability Annotation Need?",
+  "summary": "arXiv:2607.20537v1 Announce Type: cross Abstract: We introduce ReliableTableQA, a framework for training an LLM to annotate the statistical reliability of tabular QA results, not whether the query...",
+  "description": "arXiv:2607.20537v1 Announce Type: cross Abstract: We introduce ReliableTableQA, a framework for training an LLM to annotate the statistical reliability of tabular QA results, not whether the query is answerable, but whether the computed answer is statistically meaningful. In real enterprise analytics, a syntactically correct SQL query can return a value that is based on too small a sample, has...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20537"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20537"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Huei-Chung Hu, Hsin-Tai Wu, Koyo Kobayashi"
+}

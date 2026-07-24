@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20759v1",
+  "name": "IssueTrojanBench: Benchmarking AI Coding Agents Against Malicious Issue Requests",
+  "summary": "arXiv:2607.20759v1 Announce Type: cross Abstract: AI coding agents powered by LLMs are increasingly integrated into real-world software development, where they generate, edit, and execute code with...",
+  "description": "arXiv:2607.20759v1 Announce Type: cross Abstract: AI coding agents powered by LLMs are increasingly integrated into real-world software development, where they generate, edit, and execute code with autonomous access to local files and tools. Coding agents inherit security risks from both the LLM backbone, where adversarial prompts, poisoned training data, and backdoor triggers can cause models...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20759"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20759"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Ankur Singh, Jinqiu Yang, Tse-Hsun Chen"
+}

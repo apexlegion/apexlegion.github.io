@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20558v1",
+  "name": "StabilityBench: Benchmarking Instability in LLMs",
+  "summary": "arXiv:2607.20558v1 Announce Type: cross Abstract: AI Assistants are increasingly deployed in high-stakes settings, such as healthcare or government services. Yet their real-world behavior remains p...",
+  "description": "arXiv:2607.20558v1 Announce Type: cross Abstract: AI Assistants are increasingly deployed in high-stakes settings, such as healthcare or government services. Yet their real-world behavior remains poorly understood due to strong context dependence. Current evaluation protocols follow a defense-in-depth paradigm with compounding layers of safeguards, ranging from traditional benchmarks to live or...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20558"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20558"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Emma Kondrup, Zachary Yang, Anne Imouza, Reihaneh Rabbany"
+}

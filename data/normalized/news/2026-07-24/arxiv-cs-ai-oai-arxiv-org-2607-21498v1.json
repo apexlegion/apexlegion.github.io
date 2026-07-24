@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21498v1",
+  "name": "Artificial Epanorthosis: Why large language models overuse a classical rhetorical figure, and how to mitigate it",
+  "summary": "arXiv:2607.21498v1 Announce Type: cross Abstract: A rhetorical figure that Cicero and Quintilian catalogued two thousand years ago reappears, systematically, in the text of large language models: e...",
+  "description": "arXiv:2607.21498v1 Announce Type: cross Abstract: A rhetorical figure that Cicero and Quintilian catalogued two thousand years ago reappears, systematically, in the text of large language models: epanorthosis, the self-correction of the specimen {\\guillemotleft}This is not a course. It is a journey of transformation{\\guillemotright}. This essay argues that the overuse is a trained disposition,...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21498"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21498"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Federico Boggia"
+}

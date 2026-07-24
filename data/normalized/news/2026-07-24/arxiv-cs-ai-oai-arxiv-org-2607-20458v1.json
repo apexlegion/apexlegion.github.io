@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20458v1",
+  "name": "CAMeR: Keyword-Gated Hybrid Activation for Adaptive Memory Retention in LLM Agents",
+  "summary": "arXiv:2607.20458v1 Announce Type: cross Abstract: Large language model (LLM) agents operating over extended dialogues accumulate vast amounts of information, yet existing memory systems either reta...",
+  "description": "arXiv:2607.20458v1 Announce Type: cross Abstract: Large language model (LLM) agents operating over extended dialogues accumulate vast amounts of information, yet existing memory systems either retain everything indiscriminately or apply uniform forgetting heuristics that fail to distinguish relevant from irrelevant knowledge. We present CAMeR (Context-Activated Memory Reinforcement), a memory r...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20458"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20458"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Haowen Lai"
+}

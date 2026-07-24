@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20526v1",
+  "name": "ConfidenceBench: Evaluating Confidence Calibration in Large Language Models",
+  "summary": "arXiv:2607.20526v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed in settings where fluent but incorrect answers can be costly. In these settings, accuracy alon...",
+  "description": "arXiv:2607.20526v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed in settings where fluent but incorrect answers can be costly. In these settings, accuracy alone is insufficient: models must also know when they are likely to be wrong. We present ConfidenceBench, a calibration benchmark that evaluates verbalized confidence estimates in 15 frontier LLMs using...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20526"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20526"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Matthew ffrench-Constant, Daniel Yang, Xinmeng Huang, Sanyam Kapoor"
+}

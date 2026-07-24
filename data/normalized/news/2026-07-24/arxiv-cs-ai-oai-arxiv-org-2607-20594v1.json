@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20594v1",
+  "name": "When Does Recurrence Become an Algorithm? Convergence Selection in Weight-Tied Looped Transformers",
+  "summary": "arXiv:2607.20594v1 Announce Type: cross Abstract: When does a weight-tied looped transformer -- one block applied T times -- implement an actual algorithm? We answer with four findings from control...",
+  "description": "arXiv:2607.20594v1 Announce Type: cross Abstract: When does a weight-tied looped transformer -- one block applied T times -- implement an actual algorithm? We answer with four findings from controlled populations on group word problems. (1) The budget law: free training installs a linear computation frontier, a mechanism that solves v positions per loop, whose speed is priced by the training co...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20594"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20594"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Tong Zhang, Junhao Hu, Yun Peng, Tao Xie"
+}

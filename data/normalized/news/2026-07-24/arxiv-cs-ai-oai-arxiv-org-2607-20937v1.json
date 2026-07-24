@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20937v1",
+  "name": "Clustered Edge Intelligence: Beyond Just Convergence of Edge Computing and AI",
+  "summary": "arXiv:2607.20937v1 Announce Type: new Abstract: We are moving from an information age to the age of intelligence. A decade, or possibly less than that, data will not be the gold anymore rather the...",
+  "description": "arXiv:2607.20937v1 Announce Type: new Abstract: We are moving from an information age to the age of intelligence. A decade, or possibly less than that, data will not be the gold anymore rather the derived intelligence out of the data and the information we posses from the edge of the network. Existing Edge Intelligence research focuses mainly on two directions: using AI for edge resource manage...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20937"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20937"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Chinmaya Kumar Dehury, Boris Sedlak, Alaa Saleh, Ilir Murturi, Lauri Loven, Satish Narayana Srirama, Praveen Kumar Donta"
+}

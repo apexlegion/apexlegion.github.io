@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20993v1",
+  "name": "Sparse Concept Channels in Frozen 3D CT Vision Encoders",
+  "summary": "arXiv:2607.20993v1 Announce Type: cross Abstract: Large vision-language models are becoming increasingly dominant in 3D medical image interpretation, but we rarely know &lt;i&gt;which&lt;/i&gt; int...",
+  "description": "arXiv:2607.20993v1 Announce Type: cross Abstract: Large vision-language models are becoming increasingly dominant in 3D medical image interpretation, but we rarely know &lt;i&gt;which&lt;/i&gt; internal units encode clinical findings or &lt;i&gt;where&lt;/i&gt; that information lives in the representation. We first study this on a 3D chest vision-language model (Pillar-0) by probing its frozen...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20993"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20993"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Farhad Nooralahzadeh, Lea Bogensperger, Christian Bluethgen, Michael Krauthammer"
+}

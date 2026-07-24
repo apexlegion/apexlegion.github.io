@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2602-20220v2",
+  "name": "What Matters for Simulation to Online Reinforcement Learning on Real Robots",
+  "summary": "arXiv:2602.20220v2 Announce Type: replace-cross Abstract: We investigate what specific design choices enable successful online reinforcement learning (RL) on physical robots. Across 100 real-world...",
+  "description": "arXiv:2602.20220v2 Announce Type: replace-cross Abstract: We investigate what specific design choices enable successful online reinforcement learning (RL) on physical robots. Across 100 real-world training runs on three distinct robotic platforms, we systematically ablate algorithmic, systems, and experimental decisions that are typically left implicit in prior work. We find that some widely us...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2602.20220"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2602.20220"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Yarden As, Dhruva Tirumala, Ren\\'e Zurbr\\\"ugg, Chenhao Li, Stelian Coros, Andreas Krause, Markus Wulfmeier"
+}

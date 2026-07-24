@@ -1,0 +1,39 @@
+{
+  "type": "paper",
+  "slug": "2607-21556",
+  "name": "Visual Contrastive Self-Distillation",
+  "summary": "On-policy self-distillation (OPSD) is promising as it removes the external teacher required by on-policy distillation (OPD), yet it still needs asymmetric information between teacher and student to...",
+  "description": "On-policy self-distillation (OPSD) is promising as it removes the external teacher required by on-policy distillation (OPD), yet it still needs asymmetric information between teacher and student to ensure that the self-teacher provides a stronger learning signal than the student. Existing methods create this asymmetry either through privileged answers or visual evidence. We ask whether both can be removed, yielding a simpler form of OPSD driven purely by input conditioning. For this purpose, we propose Visual Contrastive Self-Distillation, namely VCSD, which converts image-content removal i...",
+  "tags": [
+    "arxiv",
+    "cs.CV"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.21556v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-23",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.CV.",
+      "href": "https://arxiv.org/abs/2607.21556v1"
+    }
+  ],
+  "authors": [
+    "Yijun Liang",
+    "Yunjie Tian",
+    "Yijiang Li",
+    "Yuqi Jia",
+    "Furong Huang",
+    "Tianyi Zhou",
+    "Di Fu"
+  ],
+  "paperId": "2607.21556",
+  "category": "cs.CV",
+  "publishedAt": "2026-07-23",
+  "abstract": "On-policy self-distillation (OPSD) is promising as it removes the external teacher required by on-policy distillation (OPD), yet it still needs asymmetric information between teacher and student to ensure that the self-teacher provides a stronger learning signal than the student. Existing methods create this asymmetry either through privileged answers or visual evidence. We ask whether both can be removed, yielding a simpler form of OPSD driven purely by input conditioning. For this purpose, we propose Visual Contrastive Self-Distillation, namely VCSD, which converts image-content removal i..."
+}

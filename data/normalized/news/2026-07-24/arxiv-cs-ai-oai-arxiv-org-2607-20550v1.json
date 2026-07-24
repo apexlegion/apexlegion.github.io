@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20550v1",
+  "name": "Beyond SBDD: Geometric Deep Learning in Polypharmacology and Multi-target Drug Design",
+  "summary": "arXiv:2607.20550v1 Announce Type: cross Abstract: The traditional \"one drug, one target\" paradigm of structure-based drug design (SBDD) frequently proves inadequate for treating multifactorial dise...",
+  "description": "arXiv:2607.20550v1 Announce Type: cross Abstract: The traditional \"one drug, one target\" paradigm of structure-based drug design (SBDD) frequently proves inadequate for treating multifactorial diseases such as cancer and neurodegenerative disorders, owing to compensatory signaling pathways and the emergence of drug resistance. While polypharmacology offers a synergistic therapeutic strategy, th...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20550"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20550"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Tianming Han, Zhijie Pan, Wenchi Ge, Qi Zhao"
+}

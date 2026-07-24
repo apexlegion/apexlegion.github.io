@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.21197v1",
+  "fetchedAt": "2026-07-24T05:27:42.655Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.21197v1",
+    "title": "Declarative Problem Solving in UAM Strategic Deconfliction",
+    "link": "https://arxiv.org/abs/2607.21197",
+    "description": "arXiv:2607.21197v1 Announce Type: cross Abstract: The growing demand for Urban Air Mobility (UAM) introduces significant challenges in airspace management, particularly within densely populated metropolitan regions. As the number of aerial vehicles-such as drones, air taxis, and helicopters-continues to rise, so does the risk of mid-air collisions and conflicts with existing air traffic and obstacles. Ensuring safe and efficient UAM operations requires robust strategic deconfliction mechanisms. We propose an Answer Set Programming (ASP) based approach for strategic deconfliction, focusing on time synchronization and route optimization for conflict-free flight plans. The solution is benchmarked against Constraint Programming (CP), emphasizing scalability and resource use. Results show that ASP offers faster execution and better scalability for small to medium cases, while CP maintains stable memory but degrades with complexity.",
+    "publishedAt": "2026-07-24",
+    "author": "Gioacchino Sterlicchio (DMMM, Polytechnic University of Bari, Bari, Italy), Angelo Oddi (ISTC-CNR, Rome, Italy), Riccardo Rasconi (ISTC-CNR, Rome, Italy), Francesca Alessandra Lisi (DIB,CILA, University of Bari Aldo Moro, Bari, Italy)",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

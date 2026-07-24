@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20440v1",
+  "name": "Answer-then-Edit: Reasoning Skeleton Editing for Anti-Distillation with Preserved Utility",
+  "summary": "arXiv:2607.20440v1 Announce Type: cross Abstract: Proprietary large language models (LLMs) entail substantial intellectual and financial investment, making them valuable intellectual property (IP)....",
+  "description": "arXiv:2607.20440v1 Announce Type: cross Abstract: Proprietary large language models (LLMs) entail substantial intellectual and financial investment, making them valuable intellectual property (IP). However, even when deployed via black-box APIs, these models remain vulnerable to unauthorized knowledge distillation, which allows adversaries to cheaply extract and replicate model capabilities. To...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20440"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20440"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Fan Li, Mengting Pan, Sijia Xu, Xiaoyang Wang, Chen Chen, Wenjie Zhang"
+}

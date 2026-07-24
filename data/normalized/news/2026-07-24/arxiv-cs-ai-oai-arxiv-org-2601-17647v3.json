@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2601-17647v3",
+  "name": "Knowledge-Guided Time-Varying Causal Inference for Arctic Sea Ice Dynamics",
+  "summary": "arXiv:2601.17647v3 Announce Type: replace-cross Abstract: Quantifying the causal relationship between sea ice thickness and sea surface height (SSH) is essential for understanding the mechanisms dr...",
+  "description": "arXiv:2601.17647v3 Announce Type: replace-cross Abstract: Quantifying the causal relationship between sea ice thickness and sea surface height (SSH) is essential for understanding the mechanisms driving polar climate dynamics. Conventional deep learning models often struggle with treatment effect estimation in climate settings due to time-varying confounding and the lack of physical constraints...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2601.17647"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2601.17647"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Akila Sampath, Vandana Janeja, Jianwu Wang"
+}

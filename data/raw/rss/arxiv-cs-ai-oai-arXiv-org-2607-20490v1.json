@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.20490v1",
+  "fetchedAt": "2026-07-24T05:27:42.655Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.20490v1",
+    "title": "CRAWO: Custom Resources for Adaptive Workload Orchestration",
+    "link": "https://arxiv.org/abs/2607.20490",
+    "description": "arXiv:2607.20490v1 Announce Type: new Abstract: Edge Intelligence has emerged as a key paradigm for enabling real-time applications in smart cities by shifting computation from centralized cloud data centers to the network edge, thereby reducing latency and bandwidth consumption. However, deploying Artificial Intelligence (AI) pipelines across heterogeneous edge infrastructures remains challenging due to the wide range of device capabilities, from low-power microcontrollers to accelerator-equipped systems. Existing edge orchestration platforms primarily focus on deployment automation and infrastructure management, but these approaches are often inefficient and limit the ability to adaptively allocate resources under dynamic conditions. To tackle these issues, this paper introduces CRAWO (Custom Resources for Adaptive Workload Orchestration), an architectural framework for coordinating AI pipelines across distributed edge environments. CRAWO follows a control-loop-based model that separates allocation intelligence from execution by managing placement decisions, state management, and inter-stage data flows while instantiating services on edge nodes. The framework incorporates a hardware-aware allocator with a pluggable multi-criteria decision layer that leverages real-time infrastructure metrics to enable adaptive workload placement. The reference implementation adopts a microservices architecture deployed on a lightweight Kubernetes distribution (K3s), using Custom Resource Definitions (CRDs) for domain modeling and a dedicated operator for state reconciliation. Evaluation in a vehicle surveillance scenario using license plate recognition demonstrates improved workload distribution and reduced reliance on centralized cloud processing in latency-sensitive environments.",
+    "publishedAt": "2026-07-24",
+    "author": "Eug\\^enio Santos, Daniel Maia, Stefano Loss, Jos\\'e Manoel Silva, Aluizio Rocha Neto, Thais Batista, Everton Cavalcante, N\\'elio Cacho, Eduardo Nogueira, Daniel Ara\\'ujo, Frederico Lopes",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/ibm-granite/granite-4-vision",
-  "fetchedAt": "2026-07-23T05:32:35.843Z",
+  "fetchedAt": "2026-07-24T05:27:42.624Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/ibm-granite/granite-4-vision",
     "title": "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",

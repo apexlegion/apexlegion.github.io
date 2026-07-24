@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.21188v1",
+  "fetchedAt": "2026-07-24T05:27:42.655Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.21188v1",
+    "title": "Identifying Good Rules for Efficient SAT Encodings of Single-Constant Multiplication Using Machine Learning",
+    "link": "https://arxiv.org/abs/2607.21188",
+    "description": "arXiv:2607.21188v1 Announce Type: new Abstract: The Single Constant Multiplication problem is a fundamental NP-hard optimization task in hardware design, which seeks to decompose a fixed constant using only additions, subtractions, and bit-shifts. Although dynamic programming methods can produce near-optimal SAT encodings for SCM, their encoding cost remains high for large constants. We propose a neuro-symbolic framework that accelerates SCM SAT encoding by identifying good rules for guiding operator selection during decomposition. Our approach employs a graph neural network model to predict promising operator types from constant decompositions, and exploits the resulting confidence scores to prune no-good choices in the symbolic search. Experimental results on unseen 17-32 bit constants demonstrate one to two orders of magnitude reductions in encoding time, over 97% reduction in memory usage, and an order-of-magnitude decrease in branching, while preserving near-optimal encoding quality in terms of additions. These results show that learning-guided symbolic strategies can significantly improve the scalability and efficiency of SCM encoding. Our code and data are publicly available at: https://github.com/Chufeng-Jiang/SCM_MLDP",
+    "publishedAt": "2026-07-24",
+    "author": "Chufeng Jiang (Graduate Center, The City University of New York), Neng-Fa Zhou (Graduate Center, The City University of New York)",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

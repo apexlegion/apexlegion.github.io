@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20902v1",
+  "name": "Anti-Goal Reasoning: Rethinking the Theory of Goal Reasoning in Non-Axiomatic Logic",
+  "summary": "arXiv:2607.20902v1 Announce Type: cross Abstract: Goal reasoning in Non-Axiomatic Logic (NAL) explains how an adaptive system derives means for realizing desired events under insufficient knowledge...",
+  "description": "arXiv:2607.20902v1 Announce Type: cross Abstract: Goal reasoning in Non-Axiomatic Logic (NAL) explains how an adaptive system derives means for realizing desired events under insufficient knowledge and resources. However, the representation of avoidance is less clear. A common convention is to express ``avoid $G$'' as the goal sentence ``$\\neg G!$'', but this notation conflates two different re...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20902"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20902"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Bowen Xu"
+}

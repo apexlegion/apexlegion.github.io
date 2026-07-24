@@ -1,7 +1,7 @@
 {
   "source": "huggingface",
   "sourceId": "mistralai/Mistral-7B-v0.1",
-  "fetchedAt": "2026-07-23T05:32:33.782Z",
+  "fetchedAt": "2026-07-24T05:27:40.591Z",
   "data": {
     "_id": "650aedb6238a644cb93a52c3",
     "id": "mistralai/Mistral-7B-v0.1",
@@ -23,7 +23,7 @@
       "text-generation-inference",
       "region:us"
     ],
-    "downloads": 551830,
+    "downloads": 542715,
     "likes": 4131,
     "modelId": "mistralai/Mistral-7B-v0.1",
     "author": "mistralai",
@@ -122,12 +122,12 @@
       }
     ],
     "spaces": [
+      "speakleash/open_pl_llm_leaderboard",
       "overhead520/LLM-Settings-Guide",
       "Vokturz/can-it-run-llm",
       "eduagarcia/open_pt_llm_leaderboard",
       "3DTopia/3DGen-Arena",
       "ehristoforu/mistral-7b-chat",
-      "speakleash/open_pl_llm_leaderboard",
       "logikon/open_cot_leaderboard",
       "KBaba7/Quant",
       "Vision-CAIR-Admin/MiniGPT4-video",

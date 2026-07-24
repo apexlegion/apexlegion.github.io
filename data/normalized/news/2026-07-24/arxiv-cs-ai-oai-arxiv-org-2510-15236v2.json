@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2510-15236v2",
+  "name": "From Checklists to Clusters: A Homeostatic Account of AGI Evaluation",
+  "summary": "arXiv:2510.15236v2 Announce Type: replace Abstract: Contemporary AGI evaluations report multidomain capability profiles, yet they typically assign symmetric weights and rely on snapshot scores. Thi...",
+  "description": "arXiv:2510.15236v2 Announce Type: replace Abstract: Contemporary AGI evaluations report multidomain capability profiles, yet they typically assign symmetric weights and rely on snapshot scores. This creates two problems: (i) equal weighting treats all domains as equally important when human intelligence research suggests otherwise, and (ii) snapshot testing can't distinguish durable capabilitie...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2510.15236"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2510.15236"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Brett Reynolds"
+}

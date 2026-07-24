@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20507v1",
+  "name": "MiniCache: Reusable Program Caching with Small Model Interfaces for Efficient LLM Inference",
+  "summary": "arXiv:2607.20507v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used for program-aided reasoning, agentic decision making, and structured task execution, but these app...",
+  "description": "arXiv:2607.20507v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used for program-aided reasoning, agentic decision making, and structured task execution, but these applications often incur high inference cost. We present MiniCache, a reusable program caching framework that transforms Program-of-Thought (PoT) programs into parameterized cache objects, enabling reusa...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20507"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20507"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Jingquan Chen, Jinghua Piao, Jie Feng, Shaogang Hu, Yong Li"
+}

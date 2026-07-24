@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21184v1",
+  "name": "Explaining Weather Bulletins via ILP",
+  "summary": "arXiv:2607.21184v1 Announce Type: new Abstract: Inductive Logic Programming (ILP) originated within the Logic Programming community in the Nineties as a framework for combining symbolic learning wi...",
+  "description": "arXiv:2607.21184v1 Announce Type: new Abstract: Inductive Logic Programming (ILP) originated within the Logic Programming community in the Nineties as a framework for combining symbolic learning with declarative knowledge representation. Nowadays, mature ILP frameworks exist and they are capable of learning complex, non-monotonic hypotheses, thus broadening both the modeling capabilities and th...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21184"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21184"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Enrico Santi (University of Udine, DMIF), Alessandro Dal Pal\\`u (University of Parma, SMFI), Agostino Dovier (University of Udine, DMIF), Talissa Dreossi (University of Udine, DMIF), Andrea Formisano (University of Udine, DMIF)"
+}

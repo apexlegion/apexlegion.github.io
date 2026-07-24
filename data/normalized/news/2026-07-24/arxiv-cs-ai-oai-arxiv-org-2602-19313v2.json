@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2602-19313v2",
+  "name": "TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics",
+  "summary": "arXiv:2602.19313v2 Announce Type: replace-cross Abstract: General-purpose robot learning requires dense, instruction-conditioned feedback that can distinguish meaningful task progress from stalled,...",
+  "description": "arXiv:2602.19313v2 Announce Type: replace-cross Abstract: General-purpose robot learning requires dense, instruction-conditioned feedback that can distinguish meaningful task progress from stalled, failed, or partially completed behavior. Yet obtaining such feedback at scale remains difficult, since existing approaches often rely on manual progress annotations, task-specific demonstrations, or...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2602.19313"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2602.19313"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Shirui Chen, Cole Harrison, Ying-Chun Lee, Angela Jin Yang, Zhongzheng Ren, Lillian J. Ratliff, Jiafei Duan, Dieter Fox, Ranjay Krishna"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20582v1",
+  "name": "Bayesian uncertainty estimation improves clinical decision making in medical AI agents",
+  "summary": "arXiv:2607.20582v1 Announce Type: cross Abstract: Machine learning models for medical image analysis typically lack a reliable measure of confidence, limiting their use in ambiguous or atypical cas...",
+  "description": "arXiv:2607.20582v1 Announce Type: cross Abstract: Machine learning models for medical image analysis typically lack a reliable measure of confidence, limiting their use in ambiguous or atypical cases. Here we show that Monte Carlo dropout, applied to a multi-task chest-radiograph classifier (eight thoracic findings, 137,593 training images), provides an epistemic uncertainty signal that tracks...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20582"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20582"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Frederik Hauke, Patrick Wienholt, Christiane Kuhl, Dyke Ferber, Jakob Nikolas Kather, Sven Nebelung, Daniel Truhn"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21185v1",
+  "name": "Differentiable Logic Programming to Mitigate Reasoning Shortcuts in Neurosymbolic Systems",
+  "summary": "arXiv:2607.21185v1 Announce Type: new Abstract: Neurosymbolic (NeSy) systems integrate neural networks with logical reasoning to achieve both generalization and interpretability, but recent work ha...",
+  "description": "arXiv:2607.21185v1 Announce Type: new Abstract: Neurosymbolic (NeSy) systems integrate neural networks with logical reasoning to achieve both generalization and interpretability, but recent work has shown they are susceptible to shortcut reasoning behaviors. We propose a novel method using matrix-based differentiable logic programming to mitigate reasoning shortcuts in two phenomena: constraint...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21185"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21185"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Akihiro Takemura (National Institute of Informatics, Tokyo, Japan), Katsumi Inoue (National Institute of Informatics, Tokyo, Japan)"
+}

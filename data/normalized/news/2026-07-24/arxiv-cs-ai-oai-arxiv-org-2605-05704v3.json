@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2605-05704v3",
+  "name": "SafeHarbor: Defining Precise Decision Boundaries via Hierarchical Memory-Augmented Guardrail for LLM Agent Safety",
+  "summary": "arXiv:2605.05704v3 Announce Type: replace-cross Abstract: Recent advances in foundation models have transformed LLMs from passive conversational systems into autonomous agents capable of reasoning...",
+  "description": "arXiv:2605.05704v3 Announce Type: replace-cross Abstract: Recent advances in foundation models have transformed LLMs from passive conversational systems into autonomous agents capable of reasoning and tool execution. While these capabilities unlock substantial practical value, they also introduce new security risks, as adversaries can manipulate agents into performing harmful actions in real-wo...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2605.05704"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2605.05704"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Zhe Liu, Zonghao Ying, Wenxin Zhang, Quanchen Zou, Deyue Zhang, Dongdong Yang, Xiangzheng Zhang, Hao Peng"
+}

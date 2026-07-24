@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20700v1",
+  "name": "A Framework for Reputation Aware Uninorm-driven Consensus Algorithms for Blockchain Networks",
+  "summary": "arXiv:2607.20700v1 Announce Type: cross Abstract: The operation of blockchain is governed by consensus algorithms (CA). Several consensus mechanisms require significant computational power, while o...",
+  "description": "arXiv:2607.20700v1 Announce Type: cross Abstract: The operation of blockchain is governed by consensus algorithms (CA). Several consensus mechanisms require significant computational power, while others necessitate high amounts of stakes to select the participant to validate and verify the transactions in the block, leading to centralisation of power and participant exclusion. This paper propos...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20700"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20700"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Bruno Ramos-Cruz, Javier Andreu-Perez, David Richerby, Luis Mart\\'inez"
+}

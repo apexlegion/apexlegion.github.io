@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21577v1",
+  "name": "Synthetic data generation framework for quality control automation in gravure printing",
+  "summary": "arXiv:2607.21577v1 Announce Type: cross Abstract: Quality control in printing, particularly in rotogravure printing, still depends on slow, costly, and subjective manual inspection. Automated surfa...",
+  "description": "arXiv:2607.21577v1 Announce Type: cross Abstract: Quality control in printing, particularly in rotogravure printing, still depends on slow, costly, and subjective manual inspection. Automated surface defect detection is critical for maintaining high-quality standards in rotogravure printing. Deep learning models give prospects for automation. However, training robust deep learning models, such...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21577"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21577"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Korota Ars\\`ene Coulibaly, Mohamed Hamlich, Khalid Hmali, Andrea Trombin"
+}

@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2509.14257v3",
+  "fetchedAt": "2026-07-24T05:27:42.655Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2509.14257v3",
+    "title": "Student-Centered Distillation Narrows the Agentic Gap Between Small and Large LLMs",
+    "link": "https://arxiv.org/abs/2509.14257",
+    "description": "arXiv:2509.14257v3 Announce Type: replace-cross Abstract: Large Language Model agents achieve strong performance on multi-step reasoning and tool-use tasks, but their impressive capabilities typically rely on extremely large backbones. Existing distillation approaches train smaller students to imitate full teacher trajectories, yet reasoning and knowledge gaps between the teacher and student can cause compounding errors. We propose SCoRe, a student-centered framework in which the student generates training trajectories and the teacher corrects only the earliest error, producing training data matched to the student's abilities and exposing specific weaknesses. The student is first fine-tuned on corrected trajectories. Subsequently, short-horizon reinforcement learning starts from the verified prefix preceding the earliest error, with target rewards assigned at that step. This design enables the student to solve problems through unconstrained RL exploration rather than teacher imitation, while the short-horizon setup improves training stability. On 12 challenging benchmarks, a 7B-parameter student distilled with SCoRe closes the agentic performance gap with a 72B-parameter teacher.",
+    "publishedAt": "2026-07-24",
+    "author": "Yuanjie Lyu, Chengyu Wang, Jun Huang, Tong Xu",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21197v1",
+  "name": "Declarative Problem Solving in UAM Strategic Deconfliction",
+  "summary": "arXiv:2607.21197v1 Announce Type: cross Abstract: The growing demand for Urban Air Mobility (UAM) introduces significant challenges in airspace management, particularly within densely populated met...",
+  "description": "arXiv:2607.21197v1 Announce Type: cross Abstract: The growing demand for Urban Air Mobility (UAM) introduces significant challenges in airspace management, particularly within densely populated metropolitan regions. As the number of aerial vehicles-such as drones, air taxis, and helicopters-continues to rise, so does the risk of mid-air collisions and conflicts with existing air traffic and obs...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21197"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21197"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Gioacchino Sterlicchio (DMMM, Polytechnic University of Bari, Bari, Italy), Angelo Oddi (ISTC-CNR, Rome, Italy), Riccardo Rasconi (ISTC-CNR, Rome, Italy), Francesca Alessandra Lisi (DIB,CILA, University of Bari Aldo Moro, Bari, Italy)"
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/health-in-chatgpt",
+  "fetchedAt": "2026-07-24T05:27:42.582Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/health-in-chatgpt",
+    "title": "Launching Health in ChatGPT",
+    "link": "https://openai.com/index/health-in-chatgpt",
+    "description": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+    "publishedAt": "2026-07-23",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

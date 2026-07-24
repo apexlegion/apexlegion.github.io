@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2603.01437v2",
+  "fetchedAt": "2026-07-24T05:27:42.655Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2603.01437v2",
+    "title": "Post-Hoc Reasoning in Chain of Thought: Decoding and Steering Pre-Committed Answers",
+    "link": "https://arxiv.org/abs/2603.01437",
+    "description": "arXiv:2603.01437v2 Announce Type: replace Abstract: As chain of thought (CoT) has become central to scaling reasoning capabilities in large language models (LLMs), it has also emerged as a promising tool for interpretability, suggesting the opportunity to understand model decisions through verbalized reasoning. However, the utility of CoT toward interpretability depends upon its faithfulness---whether the model's stated reasoning reflects the underlying decision process. We provide mechanistic evidence that instruction-tuned models often determine their answer before generating CoT. Training linear probes on residual stream activations at the last token before CoT, we can predict the model's final answer with &gt;0.9 AUC on most tasks. We find that these directions are not only predictive, but also causal: steering activations along the probe direction often flips model answers, with flip rates substantially exceeding norm-matched orthogonal baselines across most model-dataset pairs. When steering induces incorrect answers, we observe two distinct failure modes: confabulation (fabricating false premises) and non-entailment (stating correct premises but drawing unsupported conclusions). While post-hoc reasoning may be instrumentally useful when the model has a correct pre-CoT belief, these failure modes suggest it can result in undesirable behaviors when reasoning from a false belief.",
+    "publishedAt": "2026-07-24",
+    "author": "Kyle Cox, Darius Kianersi, Adri\\`a Garriga-Alonso",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

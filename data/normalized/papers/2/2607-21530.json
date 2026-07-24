@@ -1,0 +1,34 @@
+{
+  "type": "paper",
+  "slug": "2607-21530",
+  "name": "From Resource Flow to Executable Tests: Petri-Net-Guided LLM Test Generation for Concurrent Stateful Rust APIs",
+  "summary": "Concurrent stateful library APIs expose behavior through evolving resource ownership, lifecycle states, and competing interleavings. Large language models can synthesize executable Rust tests, but...",
+  "description": "Concurrent stateful library APIs expose behavior through evolving resource ownership, lifecycle states, and competing interleavings. Large language models can synthesize executable Rust tests, but their outputs often violate API preconditions, remain shallow, or reduce concurrency to accidental sequential traces. Conversely, model-based and systematic testing techniques provide semantic control but commonly require substantial handwritten code to turn abstract scenarios into executable tests. This paper addresses the gap between formal scenario design and low-cost test concretization. We pr...",
+  "tags": [
+    "arxiv",
+    "cs.SE"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.21530v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-23",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.SE.",
+      "href": "https://arxiv.org/abs/2607.21530v1"
+    }
+  ],
+  "authors": [
+    "Kaiwen Zhang",
+    "Guanjun Liu"
+  ],
+  "paperId": "2607.21530",
+  "category": "cs.SE",
+  "publishedAt": "2026-07-23",
+  "abstract": "Concurrent stateful library APIs expose behavior through evolving resource ownership, lifecycle states, and competing interleavings. Large language models can synthesize executable Rust tests, but their outputs often violate API preconditions, remain shallow, or reduce concurrency to accidental sequential traces. Conversely, model-based and systematic testing techniques provide semantic control but commonly require substantial handwritten code to turn abstract scenarios into executable tests. This paper addresses the gap between formal scenario design and low-cost test concretization. We pr..."
+}

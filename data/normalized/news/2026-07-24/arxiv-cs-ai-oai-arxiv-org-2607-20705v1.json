@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20705v1",
+  "name": "U-CFR: Uncertainty-Guided Cascade Forward Refinement for Interactive Segmentation",
+  "summary": "arXiv:2607.20705v1 Announce Type: cross Abstract: Interactive image segmentation is critical for efficient image annotation; however, existing methods often require many corrective clicks or rely o...",
+  "description": "arXiv:2607.20705v1 Announce Type: cross Abstract: Interactive image segmentation is critical for efficient image annotation; however, existing methods often require many corrective clicks or rely on passive refinement schemes that converge slowly. We propose Uncertainty-Guided Cascade Forward Refinement (U-CFR), a novel inference-time framework that enables models to autonomously self-correct a...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20705"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20705"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Elijah Danquah Darko, Min Xian, Terence Soule, Tiankai Yao, Matthew William Anderson"
+}

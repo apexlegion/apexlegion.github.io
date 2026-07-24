@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/benczechmark",
-  "fetchedAt": "2026-07-23T05:32:35.843Z",
+  "fetchedAt": "2026-07-24T05:27:42.625Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/benczechmark",
     "title": "🇨🇿 BenCzechMark - Can your LLM Understand Czech?",

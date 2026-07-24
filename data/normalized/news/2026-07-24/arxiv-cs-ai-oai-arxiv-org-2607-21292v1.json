@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21292v1",
+  "name": "An LLM-Driven Workflow for Automated Process Control Strategy Generation and Tuning from Dynamic Process Models",
+  "summary": "arXiv:2607.21292v1 Announce Type: new Abstract: We present a structured large-language-model-driven workflow for automated multi-variable control design from dynamic process models. The workflow de...",
+  "description": "arXiv:2607.21292v1 Announce Type: new Abstract: We present a structured large-language-model-driven workflow for automated multi-variable control design from dynamic process models. The workflow decomposes the design task into constrained code-generation steps: plant-interface construction, normalization, manipulated-variable controlled-variable (MV-CV) pairing, controller specification, closed...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21292"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21292"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Ari Luna Rueda, Eike Cramer, Klaus Hellgardt, Mehmet Mercang\\\"oz"
+}

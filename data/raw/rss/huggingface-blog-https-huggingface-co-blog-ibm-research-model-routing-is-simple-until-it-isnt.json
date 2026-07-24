@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
-  "fetchedAt": "2026-07-23T05:32:35.843Z",
+  "fetchedAt": "2026-07-24T05:27:42.624Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
     "title": "Model Routing Is Simple. Until It Isn’t.",

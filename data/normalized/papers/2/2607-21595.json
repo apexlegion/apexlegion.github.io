@@ -1,0 +1,39 @@
+{
+  "type": "paper",
+  "slug": "2607-21595",
+  "name": "3D-Aware VLMs with Implicit and Explicit Geometries",
+  "summary": "Despite rapid progress, most existing vision-language models (VLMs) built from 2D visual inputs often struggle when handling various 3D tasks that require fine-grained spatial understanding and rea...",
+  "description": "Despite rapid progress, most existing vision-language models (VLMs) built from 2D visual inputs often struggle when handling various 3D tasks that require fine-grained spatial understanding and reasoning. To bridge this gap, we present VLM-IE3D, a unified framework that enhances the 3D spatial awareness of VLMs by equipping them with both implicit and explicit 3D geometries learned from RGB videos. Our VLM-IE3D introduces Implicit Geometry Tokens (IGTs) that capture high-level geometric priors from input videos, as well as complementary Explicit Geometry Tokens (EGTs) that encode detailed g...",
+  "tags": [
+    "arxiv",
+    "cs.CV"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.21595v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-23",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.CV.",
+      "href": "https://arxiv.org/abs/2607.21595v1"
+    }
+  ],
+  "authors": [
+    "Wenhao Li",
+    "Xueying Jiang",
+    "Quanhao Qian",
+    "Deli Zhao",
+    "Ran Xu",
+    "Shijian Lu",
+    "Gongjie Zhang"
+  ],
+  "paperId": "2607.21595",
+  "category": "cs.CV",
+  "publishedAt": "2026-07-23",
+  "abstract": "Despite rapid progress, most existing vision-language models (VLMs) built from 2D visual inputs often struggle when handling various 3D tasks that require fine-grained spatial understanding and reasoning. To bridge this gap, we present VLM-IE3D, a unified framework that enhances the 3D spatial awareness of VLMs by equipping them with both implicit and explicit 3D geometries learned from RGB videos. Our VLM-IE3D introduces Implicit Geometry Tokens (IGTs) that capture high-level geometric priors from input videos, as well as complementary Explicit Geometry Tokens (EGTs) that encode detailed g..."
+}

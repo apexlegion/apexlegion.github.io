@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2603-01437v2",
+  "name": "Post-Hoc Reasoning in Chain of Thought: Decoding and Steering Pre-Committed Answers",
+  "summary": "arXiv:2603.01437v2 Announce Type: replace Abstract: As chain of thought (CoT) has become central to scaling reasoning capabilities in large language models (LLMs), it has also emerged as a promisin...",
+  "description": "arXiv:2603.01437v2 Announce Type: replace Abstract: As chain of thought (CoT) has become central to scaling reasoning capabilities in large language models (LLMs), it has also emerged as a promising tool for interpretability, suggesting the opportunity to understand model decisions through verbalized reasoning. However, the utility of CoT toward interpretability depends upon its faithfulness---...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2603.01437"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2603.01437"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Kyle Cox, Darius Kianersi, Adri\\`a Garriga-Alonso"
+}

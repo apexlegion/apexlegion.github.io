@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/keras-hub-integration",
-  "fetchedAt": "2026-07-23T05:32:35.843Z",
+  "fetchedAt": "2026-07-24T05:27:42.625Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/keras-hub-integration",
     "title": "Announcing New Hugging Face and KerasHub integration",

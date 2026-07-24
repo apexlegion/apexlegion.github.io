@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2508-16947v2",
+  "name": "Drive As You Like: Multi-Head Diffusion with Reinforcement Learning for Personalized Driving",
+  "summary": "arXiv:2508.16947v2 Announce Type: replace-cross Abstract: Despite significant progress, imitation learning-based autonomous driving planners remain largely restricted to reproducing high-frequency...",
+  "description": "arXiv:2508.16947v2 Announce Type: replace-cross Abstract: Despite significant progress, imitation learning-based autonomous driving planners remain largely restricted to reproducing high-frequency biased behaviors, overlooking the inherent behavioral diversity of human driving. Moreover, existing systems struggle to understand user intent from human interactions and environmental contexts. In r...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2508.16947"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2508.16947"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Fan Ding, Xuewen Luo, Fucai Ke, Hwa Hui Tew, Susilawati Susilawati, Vishnu Monn Baskaran, Junn Yong Loo"
+}

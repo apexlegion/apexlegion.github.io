@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2604.01363v3",
+  "fetchedAt": "2026-07-24T05:27:42.655Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2604.01363v3",
+    "title": "Crashing Waves vs. Rising Tides: Findings on AI Automation from Thousands of Worker Evaluations of Labor Market Tasks",
+    "link": "https://arxiv.org/abs/2604.01363",
+    "description": "arXiv:2604.01363v3 Announce Type: replace Abstract: We characterize AI automation as a continuum between crashing waves, in which capabilities jump abruptly across narrow task sets, and rising tides, in which capabilities improve continuously and broadly. Using evidence from more than 6,000 text-based, LLM-addressable tasks derived from the U.S. Department of Labor's O*NET taxonomy and over 60,000 evaluations by experienced workers, we find little evidence of crashing waves (contrary to existing views). Instead, rising tides are the primary form of AI progress. AI performance is high and improving rapidly across many tasks. In 2024-Q2, models completed text-based tasks that take humans about 1.5 hours to complete with roughly 60% success, rising above 70% by 2025-Q3. If recent trends in AI capability growth persist, frontier LLMs will be able to complete most text-based tasks at minimally sufficient quality with 88%-97% success by 2030.",
+    "publishedAt": "2026-07-24",
+    "author": "Matthias Mertens, Adam Kuzee, Brittany S. Harris, Harry Lyu, Wensu Li, Jonathan Rosenfeld, Meiri Anto, Martin Fleming, Neil Thompson",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

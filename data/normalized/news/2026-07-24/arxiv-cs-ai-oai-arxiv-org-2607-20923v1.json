@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20923v1",
+  "name": "Scientific exploration, collaboration and labor division in the large language model era",
+  "summary": "arXiv:2607.20923v1 Announce Type: cross Abstract: Large language models (LLMs) have rapidly and significantly entered scientific workflows, but it remains unclear how their diffusion is associated...",
+  "description": "arXiv:2607.20923v1 Announce Type: cross Abstract: Large language models (LLMs) have rapidly and significantly entered scientific workflows, but it remains unclear how their diffusion is associated with changes in scientists' strategies in research directions and team building. We link PubMed Central full text with OpenAlex publication and collaboration histories for 775,323 scientists and analy...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20923"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20923"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Xiang Zheng, Xi Hong, Jialin Liu, Chaoqun Ni"
+}

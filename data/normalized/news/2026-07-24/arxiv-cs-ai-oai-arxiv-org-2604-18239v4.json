@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2604-18239v4",
+  "name": "Towards Disentangled Preference Optimization Dynamics: Suppress the Loser, Preserve the Winner",
+  "summary": "arXiv:2604.18239v4 Announce Type: replace-cross Abstract: Preference optimization is widely used to align large language models (LLMs) with human preferences. However, many margin-based methods als...",
+  "description": "arXiv:2604.18239v4 Announce Type: replace-cross Abstract: Preference optimization is widely used to align large language models (LLMs) with human preferences. However, many margin-based methods also suppress the chosen response when they try to suppress the rejected one, and there is no general way to prevent this across different objectives. We address this issue with a unified incentive-score...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2604.18239"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2604.18239"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Wei Chen, Yubing Wu, Junmei Yang, Delu Zeng, Qibin Zhao, John Paisley, Min Chen, Zhou Wang"
+}

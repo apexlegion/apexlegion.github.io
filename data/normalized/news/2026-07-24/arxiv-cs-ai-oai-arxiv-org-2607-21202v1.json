@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21202v1",
+  "name": "Hybrid MKNF with Classical Negation in the Rule Component",
+  "summary": "arXiv:2607.21202v1 Announce Type: cross Abstract: Hybrid MKNF knowledge bases under the well-founded semantics integrate Description Logics with Logic Programming. However, they do not support clas...",
+  "description": "arXiv:2607.21202v1 Announce Type: cross Abstract: Hybrid MKNF knowledge bases under the well-founded semantics integrate Description Logics with Logic Programming. However, they do not support classical negation in the rule component, limiting their ability to represent explicit negative knowledge. This limitation is particularly significant in safety-critical applications, where reasoning ofte...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21202"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21202"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Arun Raveendran Nair Sheela (Universit\\'e Clermont Auvergne, LIMOS Laboratory, Thales), Christophe Rey (Universit\\'e Clermont Auvergne, LIMOS, CNRS, France), Florence De Grancey (Thales)"
+}

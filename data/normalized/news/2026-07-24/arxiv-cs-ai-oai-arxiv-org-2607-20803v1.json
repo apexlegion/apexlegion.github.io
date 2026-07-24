@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20803v1",
+  "name": "The Geometry of Personality: Activation Steering with Jungian Cognitive Functions",
+  "summary": "arXiv:2607.20803v1 Announce Type: cross Abstract: Activation steering enables control and interpretation of LLMs, yet existing work primarily models personality through static trait frameworks such...",
+  "description": "arXiv:2607.20803v1 Announce Type: cross Abstract: Activation steering enables control and interpretation of LLMs, yet existing work primarily models personality through static trait frameworks such as the Big Five. We investigate whether personality can instead be represented and controlled as a set of cognitive processes using the eight Jungian Cognitive Functions. To this end, we introduce a...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20803"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20803"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Liu Zai (University of Glasgow), Yumeng Wang (Leiden University), Junchen Fu (University of Glasgow), Joemon M. Jose (University of Glasgow)"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21345v1",
+  "name": "Regulating autonomous and agentic AI",
+  "summary": "arXiv:2607.21345v1 Announce Type: new Abstract: Regulating activities where regulatees use autonomous and agentic AI is challenging. Regulatory assumptions about regulatee knowledge and control no...",
+  "description": "arXiv:2607.21345v1 Announce Type: new Abstract: Regulating activities where regulatees use autonomous and agentic AI is challenging. Regulatory assumptions about regulatee knowledge and control no longer hold true; much of that lies elsewhere in the AI supply chain which thus needs to be brought within the scope of regulation. Governance systems for autonomous AI cannot replicate existing gover...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21345"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21345"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Chris Reed, Alex Austria, Anmol Bharuka, Pragnitha Mandava, Khushiya Mujawar, Luka Shakhkulashvili"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2602-13792v3",
+  "name": "StackingNet: Collective Inference Across Independent AI Foundation Models",
+  "summary": "arXiv:2602.13792v3 Announce Type: replace Abstract: Artificial intelligence built on large foundation models has transformed language understanding, computer vision, and reasoning, yet these system...",
+  "description": "arXiv:2602.13792v3 Announce Type: replace Abstract: Artificial intelligence built on large foundation models has transformed language understanding, computer vision, and reasoning, yet these systems remain isolated and cannot readily share their capabilities. Coordinating the complementary strengths of independently developed, black-box foundation models is essential for trustworthy intelligent...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2602.13792"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2602.13792"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Siyang Li, Chenhao Liu, Dongrui Wu, Zhigang Zeng, Lieyun Ding"
+}

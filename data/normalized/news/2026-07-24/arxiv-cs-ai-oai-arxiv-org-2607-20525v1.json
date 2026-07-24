@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20525v1",
+  "name": "Autonomous disproofs of the sum-product conjecture over $\\mathbb R$ with GPT-5.5 Pro",
+  "summary": "arXiv:2607.20525v1 Announce Type: new Abstract: OpenAI's recent disproof of the Erd\\H{o}s unit distance conjecture marked a milestone for AI in mathematics. It also inspired another breakthrough: a...",
+  "description": "arXiv:2607.20525v1 Announce Type: new Abstract: OpenAI's recent disproof of the Erd\\H{o}s unit distance conjecture marked a milestone for AI in mathematics. It also inspired another breakthrough: a human disproof of the Erd\\H{o}s--Szemer\\'edi sum-product conjecture over $\\mathbb R$. In this paper, we present a simple agent built on GPT-5.5 Pro. Using a problem-agnostic, three-stage prompting pi...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20525"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20525"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Yichen Huang"
+}

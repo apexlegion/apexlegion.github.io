@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2606-08532v5",
+  "name": "DN-Hypo-Pipeline: An AI-Driven Workflow for Generating Hypotheses using Large Language Models and Scientific Explanations",
+  "summary": "arXiv:2606.08532v5 Announce Type: replace Abstract: Modern artificial intelligence excels at prediction but cannot explain. From large language models to AI-for-science systems, today's machines an...",
+  "description": "arXiv:2606.08532v5 Announce Type: replace Abstract: Modern artificial intelligence excels at prediction but cannot explain. From large language models to AI-for-science systems, today's machines answer what by recombining patterns already present in the human literature, yet they cannot reason out why a phenomenon must arise from underlying principles even though explanation, not prediction, li...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2606.08532"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2606.08532"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Lei Lin, Xinlong Pan, Ronghao Wang, Chunbao Zhou, Jue Wang, Yangang Wang, Ivana Rasovska"
+}

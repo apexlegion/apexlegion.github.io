@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21381v1",
+  "name": "Towards Faithful Graph Explanations with Synergistic Edge Effects via Granular Balls",
+  "summary": "arXiv:2607.21381v1 Announce Type: new Abstract: Instance-level explanations aim to reveal the rationale behind a model's decisions for a specific graph. Previous methods explain graph neural networ...",
+  "description": "arXiv:2607.21381v1 Announce Type: new Abstract: Instance-level explanations aim to reveal the rationale behind a model's decisions for a specific graph. Previous methods explain graph neural networks (GNNs) by selecting important edges to induce subgraphs, where edge importance is assessed by perturbing each edge and observing changes in the model predictions. However, they often neglect the sy...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21381"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21381"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Jiancu Chen, Shuyin Xia, Guan Wang, Degang Chen, Fan Chen"
+}

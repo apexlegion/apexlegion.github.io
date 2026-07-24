@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20796v1",
+  "name": "Can an AI System Be Creative? A Critical Perspective from Art and Engineering",
+  "summary": "arXiv:2607.20796v1 Announce Type: new Abstract: This paper examines the question of whether artificial intelligence (AI) systems can be creative, approached from the dual perspective of a researche...",
+  "description": "arXiv:2607.20796v1 Announce Type: new Abstract: This paper examines the question of whether artificial intelligence (AI) systems can be creative, approached from the dual perspective of a researcher trained in electrical engineering, pattern recognition, machine learning, and neural networks, who has also spent most of his life engaged in the arts as actor, stage and film director, writer, comp...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20796"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20796"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Ivan Magrin-Chagnolleau"
+}

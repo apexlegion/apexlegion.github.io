@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2510-04019v3",
+  "name": "Simple Policy Gradients for Reasoning with Diffusion Language Models",
+  "summary": "arXiv:2510.04019v3 Announce Type: replace-cross Abstract: Diffusion large language models (dLLMs) represent a promising alternative to autoregressive LLMs; however, the lack of effective post-train...",
+  "description": "arXiv:2510.04019v3 Announce Type: replace-cross Abstract: Diffusion large language models (dLLMs) represent a promising alternative to autoregressive LLMs; however, the lack of effective post-training techniques, including reinforcement learning (RL), remains a key challenge for dLLMs, especially for downstream applications. Existing approaches often rely on a sequence-level view that requires...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2510.04019"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2510.04019"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Anthony Zhan"
+}

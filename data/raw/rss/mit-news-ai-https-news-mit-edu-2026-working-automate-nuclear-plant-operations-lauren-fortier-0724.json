@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/working-automate-nuclear-plant-operations-lauren-fortier-0724",
+  "fetchedAt": "2026-07-24T05:27:41.960Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/working-automate-nuclear-plant-operations-lauren-fortier-0724",
+    "title": "Working to automate nuclear plant operations",
+    "link": "https://news.mit.edu/2026/working-automate-nuclear-plant-operations-lauren-fortier-0724",
+    "description": "PhD student Lauren Fortier is building on the experience she gained operating a nuclear plant for the Navy to solve a critical hurdle in the wider adoption of the energy source.",
+    "publishedAt": "2026-07-24",
+    "author": "Poornima Apte | Department of Nuclear Science and Engineering",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

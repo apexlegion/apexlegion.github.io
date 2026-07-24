@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.21202v1",
+  "fetchedAt": "2026-07-24T05:27:42.655Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.21202v1",
+    "title": "Hybrid MKNF with Classical Negation in the Rule Component",
+    "link": "https://arxiv.org/abs/2607.21202",
+    "description": "arXiv:2607.21202v1 Announce Type: cross Abstract: Hybrid MKNF knowledge bases under the well-founded semantics integrate Description Logics with Logic Programming. However, they do not support classical negation in the rule component, limiting their ability to represent explicit negative knowledge. This limitation is particularly significant in safety-critical applications, where reasoning often requires explicit negative information rather than interpreting the absence of information as evidence of absence. To address this issue, we introduce an extension of Hybrid MKNF that supports classical negation in the rule component. We formally define the syntax and semantics of the extended language and present a general procedure for computing its well-founded model.",
+    "publishedAt": "2026-07-24",
+    "author": "Arun Raveendran Nair Sheela (Universit\\'e Clermont Auvergne, LIMOS Laboratory, Thales), Christophe Rey (Universit\\'e Clermont Auvergne, LIMOS, CNRS, France), Florence De Grancey (Thales)",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

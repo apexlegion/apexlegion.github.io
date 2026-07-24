@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20557v1",
+  "name": "Monkey King Bang: A Unified Scientific Multimodal Foundation Model",
+  "summary": "arXiv:2607.20557v1 Announce Type: cross Abstract: Scientific discovery is increasingly shifting from isolated disciplines to multi-domain reasoning, and AI for science faces a similar transition. E...",
+  "description": "arXiv:2607.20557v1 Announce Type: cross Abstract: Scientific discovery is increasingly shifting from isolated disciplines to multi-domain reasoning, and AI for science faces a similar transition. Existing systems are either specialised for individual domains or unify scientific data mainly through text tokenisation and prompt-based interfaces, limiting their ability to handle diverse scientific...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20557"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20557"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Hesen Chen, Xinyu Su, Xiaomeng Yang, Yuetan Lin, Zixiong Yang, Junyi An, Fenglei Cao, Yifeng Jiao, Yunqi Zhang, Yuan Cheng, Zhiyu Tan, Hao Li, Libo Wu, Yuan Qi"
+}

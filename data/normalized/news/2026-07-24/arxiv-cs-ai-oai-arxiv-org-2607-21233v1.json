@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21233v1",
+  "name": "Logic Programming Semantics for Causal Processes",
+  "summary": "arXiv:2607.21233v1 Announce Type: new Abstract: Motivated by challenging modelling issues in the life sciences, we investigate the relationship between logic programming semantics and the eventual...",
+  "description": "arXiv:2607.21233v1 Announce Type: new Abstract: Motivated by challenging modelling issues in the life sciences, we investigate the relationship between logic programming semantics and the eventual states of causal processes compatible with those logic programs. More precisely, we show that while stable models of positive logic programs correspond to the eventual states of processes commencing f...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21233"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21233"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Felix Weitk\\\"amper"
+}

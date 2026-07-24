@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21209v1",
+  "name": "Explainability Framework for Policy-Aware Autonomous Agents",
+  "summary": "arXiv:2607.21209v1 Announce Type: cross Abstract: In the field of Artificial Intelligence, an agent is a system which is able to autonomously make decisions in order to reach a desired goal. As the...",
+  "description": "arXiv:2607.21209v1 Announce Type: cross Abstract: In the field of Artificial Intelligence, an agent is a system which is able to autonomously make decisions in order to reach a desired goal. As these systems grow more prevalent in our day-to-day lives, there has been an increased need to add explainability features which can provide an account for an agent's behavior. We therefore propose a fra...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21209"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21209"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Heather Merhout (Miami University), Daniela Inclezan (Miami University)"
+}

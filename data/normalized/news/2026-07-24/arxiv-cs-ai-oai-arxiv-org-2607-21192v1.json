@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21192v1",
+  "name": "Animation, Verification and Visualisation of Prolog Transition Systems with ProB",
+  "summary": "arXiv:2607.21192v1 Announce Type: cross Abstract: ProB is a Prolog-based model checker, animator and constraint solver for high-level formal specifications. One can also use ProB to animate transit...",
+  "description": "arXiv:2607.21192v1 Announce Type: cross Abstract: ProB is a Prolog-based model checker, animator and constraint solver for high-level formal specifications. One can also use ProB to animate transition systems defined by Prolog predicates, allowing the application of its various validation techniques. In this work, we present the existing features of ProB's Prolog animation mode and its recent e...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21192"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21192"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Jan Gruteser (Heinrich Heine University D\\\"usseldorf), Michael Leuschel (Heinrich Heine University D\\\"usseldorf), Katharina Engels (Heinrich Heine University D\\\"usseldorf), Fabian Vu (Heinrich Heine University D\\\"usseldorf)"
+}

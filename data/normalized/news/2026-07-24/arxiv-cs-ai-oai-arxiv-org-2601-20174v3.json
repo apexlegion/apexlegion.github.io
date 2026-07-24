@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2601-20174v3",
+  "name": "NeuraLSP: A Neural Spectral Preconditioner for Accelerating PDE Solvers",
+  "summary": "arXiv:2601.20174v3 Announce Type: replace-cross Abstract: Solving large-scale sparse linear systems originating from partial differential equations (PDEs) is a fundamental topic in high-performance...",
+  "description": "arXiv:2601.20174v3 Announce Type: replace-cross Abstract: Solving large-scale sparse linear systems originating from partial differential equations (PDEs) is a fundamental topic in high-performance scientific computing, where preconditioners are crucial. Multigrid methods are among the most effective preconditioners, yet their performance is dictated by the accurate construction of grid transfe...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2601.20174"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2601.20174"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Alexander Benanti, Xi Han, Hong Qin"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21255v1",
+  "name": "slang.gr as a Large-Scale Crowdsourced Resource for Non-Standard Greek",
+  "summary": "arXiv:2607.21255v1 Announce Type: cross Abstract: Slang is a central component of everyday language, reflecting linguistic creativity, social identity, and cultural change, yet its dy- namic and no...",
+  "description": "arXiv:2607.21255v1 Announce Type: cross Abstract: Slang is a central component of everyday language, reflecting linguistic creativity, social identity, and cultural change, yet its dy- namic and non-standard nature makes it difficult to model computationally. We present the first large-scale computational study of slang.gr, a crowdsourced lexicon of Greek non-standard language, combining lexica...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21255"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21255"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Panagiotis Papadakos, Katerina Papantoniou, Dimitris Plexousakis"
+}

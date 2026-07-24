@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20474v1",
+  "name": "VeriSimpl: Robust Optimization Modeling from Natural Language using Simplification-based Verification",
+  "summary": "arXiv:2607.20474v1 Announce Type: new Abstract: Natural language interfaces can greatly benefit the accessibility and usability of optimization modeling, and recent advances in large language model...",
+  "description": "arXiv:2607.20474v1 Announce Type: new Abstract: Natural language interfaces can greatly benefit the accessibility and usability of optimization modeling, and recent advances in large language models (LLMs) show promise in automatically translating textual problem descriptions into executable solver formulations. However, a key challenge for existing approaches is to ensure that the inferred for...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20474"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20474"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Sumaya Abdul Rahman, Seckhen Ariel Andrade Cuellar, Ghani Raissov, Mohammad Raza"
+}

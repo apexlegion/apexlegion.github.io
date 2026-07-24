@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21203v1",
+  "name": "A New Well-Supported Semantics for Description Logic Programs",
+  "summary": "arXiv:2607.21203v1 Announce Type: new Abstract: Description logic programs are a powerful formalism for combining rules with ontologies. The well-supported semantics for description logic programs...",
+  "description": "arXiv:2607.21203v1 Announce Type: new Abstract: Description logic programs are a powerful formalism for combining rules with ontologies. The well-supported semantics for description logic programs ensures that no answer sets rely on cyclic dependencies. Most popular semantics for logic programming have this property of well-supportedness. We recognize two limitations of the current well-support...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21203"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21203"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Spencer Killen, Jia-Huai You"
+}

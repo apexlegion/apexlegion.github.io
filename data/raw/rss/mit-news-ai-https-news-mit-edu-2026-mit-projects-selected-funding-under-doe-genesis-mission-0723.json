@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "mit-news-ai:https://news.mit.edu/2026/mit-projects-selected-funding-under-doe-genesis-mission-0723",
+  "fetchedAt": "2026-07-24T05:27:41.960Z",
+  "data": {
+    "guid": "mit-news-ai:https://news.mit.edu/2026/mit-projects-selected-funding-under-doe-genesis-mission-0723",
+    "title": "MIT projects selected for funding under US Department of Energy’s Genesis Mission",
+    "link": "https://news.mit.edu/2026/mit-projects-selected-funding-under-doe-genesis-mission-0723",
+    "description": "Initial research projects advance national priorities across natural resources, manufacturing, nuclear physics, and more.",
+    "publishedAt": "2026-07-23",
+    "author": "Office of the Vice President for Research",
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  },
+  "extra": {
+    "feedId": "mit-news-ai",
+    "source": "MIT News"
+  }
+}

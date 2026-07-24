@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21101v1",
+  "name": "Can Generative Recommendation Reach Cold Items? A Temporal Perspective on Semantic-ID Generation",
+  "summary": "arXiv:2607.21101v1 Announce Type: new Abstract: Semantic-ID-based generative recommendation represents items as sequences of shared semantic tokens, enabling token recombination beyond isolated ite...",
+  "description": "arXiv:2607.21101v1 Announce Type: new Abstract: Semantic-ID-based generative recommendation represents items as sequences of shared semantic tokens, enabling token recombination beyond isolated item IDs. However, closed-world recombination does not necessarily imply temporal open-token cold-start induction, where new items enter the item catalog with unseen atomic tokens or weakly supported SID...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21101"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21101"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Jie Peng, Yanping Zheng, Zhewei Zhe, Bin Tong, Guan Wang, Bo Zheng"
+}

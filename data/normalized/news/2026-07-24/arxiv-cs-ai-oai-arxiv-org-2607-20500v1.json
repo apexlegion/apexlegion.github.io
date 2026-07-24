@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20500v1",
+  "name": "FlowEdit: Information-Theoretic Control of LLM Reasoning Flows for Ill-posed Problems Involving Conflicts",
+  "summary": "arXiv:2607.20500v1 Announce Type: new Abstract: Large Language Models (LLMs) perform strongly on well-specified reasoning tasks with a feasible answer. However, problems encountered in the open wor...",
+  "description": "arXiv:2607.20500v1 Announce Type: new Abstract: Large Language Models (LLMs) perform strongly on well-specified reasoning tasks with a feasible answer. However, problems encountered in the open world can become ill-posed due to inconsistent conditions, conflicting statements, or mutually incompatible requirements, admitting no valid responses. We argue that reasoning of such ill-posed problems...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20500"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20500"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Sizhe Tang, Guangyu Jiang, Yu Li, Rongqian Chen, Ioannis G. Kevrekidis, Tian Lan"
+}

@@ -1,0 +1,18 @@
+{
+  "source": "rss",
+  "sourceId": "openai-blog:https://openai.com/index/codex-collaborator-creative-team",
+  "fetchedAt": "2026-07-24T05:27:42.582Z",
+  "data": {
+    "guid": "openai-blog:https://openai.com/index/codex-collaborator-creative-team",
+    "title": "How Codex became a collaborator for OpenAI’s creative team",
+    "link": "https://openai.com/index/codex-collaborator-creative-team",
+    "description": "How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with context-aware AI.",
+    "publishedAt": "2026-07-16",
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  },
+  "extra": {
+    "feedId": "openai-blog",
+    "source": "OpenAI Blog"
+  }
+}

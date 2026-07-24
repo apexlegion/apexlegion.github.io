@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2506-14092v4",
+  "name": "Fragile Preferences: A Deep Dive Into Order Effects in Large Language Models",
+  "summary": "arXiv:2506.14092v4 Announce Type: replace Abstract: Large language models (LLMs) are increasingly deployed in decision-support systems for high-stakes domains such as hiring and university admissio...",
+  "description": "arXiv:2506.14092v4 Announce Type: replace Abstract: Large language models (LLMs) are increasingly deployed in decision-support systems for high-stakes domains such as hiring and university admissions, where choices often involve selecting among competing alternatives. While prior work has noted position biases in LLM-driven comparisons, these biases have not been systematically analyzed or link...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2506.14092"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2506.14092"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Haonan Yin, Shai Vardi, Vidyanand Choudhary"
+}

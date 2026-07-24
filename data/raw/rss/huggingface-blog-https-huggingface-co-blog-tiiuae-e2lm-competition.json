@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/tiiuae/e2lm-competition",
-  "fetchedAt": "2026-07-23T05:32:35.843Z",
+  "fetchedAt": "2026-07-24T05:27:42.624Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/tiiuae/e2lm-competition",
     "title": "Announcing  NeurIPS 2025 E2LM Competition: Early Training Evaluation of Language Models",

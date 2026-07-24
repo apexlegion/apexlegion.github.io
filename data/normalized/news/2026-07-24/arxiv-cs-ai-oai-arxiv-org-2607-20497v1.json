@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20497v1",
+  "name": "From Errors to Rules: Iterative Prompt Optimization for Text Classification",
+  "summary": "arXiv:2607.20497v1 Announce Type: new Abstract: Prompt optimization for text classification spans diverse approaches, from demonstration selection to exploration-based search to error-driven diagno...",
+  "description": "arXiv:2607.20497v1 Announce Type: new Abstract: Prompt optimization for text classification spans diverse approaches, from demonstration selection to exploration-based search to error-driven diagnosis, each with known but incompletely characterized strengths and limitations. We conduct a comprehensive empirical study across diverse classification benchmarks (2 to 150 classes) comparing these pa...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20497"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20497"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Yueying Cui, Renhao Xue, Yi Zhang, Mukul Prasad"
+}

@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms",
-  "fetchedAt": "2026-07-23T05:32:35.843Z",
+  "fetchedAt": "2026-07-24T05:27:42.624Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms",
     "title": "Bringing Robotics AI to Embedded Platforms: Dataset Recording, VLA Fine‑Tuning, and On‑Device Optimizations",

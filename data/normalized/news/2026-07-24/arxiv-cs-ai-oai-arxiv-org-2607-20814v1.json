@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20814v1",
+  "name": "Enhancing Explainable Cardiac Diagnosis with Guide-Grounded Multimodal LLMs",
+  "summary": "arXiv:2607.20814v1 Announce Type: new Abstract: The electrocardiogram (ECG) is a cornerstone of cardiac as- sessment, yet clinical deployment of deep learning models remains con- strained by limite...",
+  "description": "arXiv:2607.20814v1 Announce Type: new Abstract: The electrocardiogram (ECG) is a cornerstone of cardiac as- sessment, yet clinical deployment of deep learning models remains con- strained by limited interpretability and the hallucination risk of large language models (LLMs). Existing CNN+Grad-CAM+multimodal LLM frameworks can generate ECG reports, but their explanations are often only weakly gr...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20814"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20814"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Hai-Nam Duy Vuong, Duy-Anh Bui, Trong-Nghia Nguyen, Kim-Ngan Thi Nguyen, Trang Mai Xuan, Tien-Cuong Nguyen, Van-Dem Pham, Thien Van Luong"
+}

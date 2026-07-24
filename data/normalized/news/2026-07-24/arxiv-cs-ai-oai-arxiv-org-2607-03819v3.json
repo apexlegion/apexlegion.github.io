@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-03819v3",
+  "name": "CGGS: Consistency-Augmented Geometric Gaussian Splatting for Ego-Centric 3D Scene Generation",
+  "summary": "arXiv:2607.03819v3 Announce Type: replace-cross Abstract: Challenges remain in ego-centric 3D scene generation due to limited view overlap and the dominant influence of individual perspectives on s...",
+  "description": "arXiv:2607.03819v3 Announce Type: replace-cross Abstract: Challenges remain in ego-centric 3D scene generation due to limited view overlap and the dominant influence of individual perspectives on scene interpretation. These factors hinder the creation of viewpoint-consistent and semantically aligned visual content, as well as the construction of accurate geometric structures. In this paper, we...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.03819"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.03819"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Zhenyu Sun, Xiaohan Zhang, Qi Liu, Huan Wang"
+}

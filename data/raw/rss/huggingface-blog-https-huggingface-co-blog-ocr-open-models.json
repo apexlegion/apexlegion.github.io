@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/ocr-open-models",
-  "fetchedAt": "2026-07-23T05:32:35.843Z",
+  "fetchedAt": "2026-07-24T05:27:42.624Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/ocr-open-models",
     "title": "Supercharge your OCR Pipelines with Open Models",

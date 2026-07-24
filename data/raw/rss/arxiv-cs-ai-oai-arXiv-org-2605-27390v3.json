@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2605.27390v3",
+  "fetchedAt": "2026-07-24T05:27:42.655Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2605.27390v3",
+    "title": "EvoSpec: Evolving Speculative Decoding via Real-Time Vocabulary and Parameter Adaptation",
+    "link": "https://arxiv.org/abs/2605.27390",
+    "description": "arXiv:2605.27390v3 Announce Type: replace-cross Abstract: Speculative decoding accelerates Large Language Model inference through draft-then-verify generation, yet lightweight draft models face coupled efficiency and quality limitations: large-vocabulary output projection is costly, while limited draft capacity and static parameters reduce acceptance under specialized or shifting inputs. Vocabulary pruning lowers projection cost, but static variants miss locally important long-tail tokens, while dynamic variants remain sensitive to preset selection policies and budgets. Moreover, limited draft capacity can leave the draft distribution misaligned even when the target token is covered. Online alignment improves draft quality, but full-parameter updates introduce substantial memory and latency overhead. We introduce EvoSpec, which jointly adapts the active vocabulary and lightweight draft parameters from verification feedback. EvoSpec asynchronously retrieves semantic and statistical token neighbors and performs curriculum-weighted online LoRA alignment while preserving exact target-model verification. On Qwen3-8B/EAGLE-2, EvoSpec reaches a $2.18\\times$ speedup over vanilla decoding and a $1.20\\times$ gain over EAGLE-2, while improving specialized-domain coverage and using $27\\%$ less auxiliary GPU adaptation memory than full-parameter online adaptation.",
+    "publishedAt": "2026-07-24",
+    "author": "Shuyu Zhang, Lingfeng Pan, Qicheng Wang, Yaqi Shi, Yueyang Tan, Ruyu Yan, Jiaqi Chen, Lixing Du, Lu Wang",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

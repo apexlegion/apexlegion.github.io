@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20480v1",
+  "name": "Enabling Scalable Topology Inference in Distribution Systems via Constrained Multi-Source Inference",
+  "summary": "arXiv:2607.20480v1 Announce Type: new Abstract: Accurate distribution system topology is essential for outage localization, voltage analytics, and operation of distribution grids, yet maintaining r...",
+  "description": "arXiv:2607.20480v1 Announce Type: new Abstract: Accurate distribution system topology is essential for outage localization, voltage analytics, and operation of distribution grids, yet maintaining reliable connectivity records remains challenging in practice due to heterogeneous and imperfect utility data. Existing topology identification methods often rely primarily on electrical similarity or...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20480"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20480"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Haoran Li, Lihao Mai, Muhao Guo, Jiaqi Wu, Yang Weng"
+}

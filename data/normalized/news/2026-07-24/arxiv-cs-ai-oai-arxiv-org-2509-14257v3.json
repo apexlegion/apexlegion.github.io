@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2509-14257v3",
+  "name": "Student-Centered Distillation Narrows the Agentic Gap Between Small and Large LLMs",
+  "summary": "arXiv:2509.14257v3 Announce Type: replace-cross Abstract: Large Language Model agents achieve strong performance on multi-step reasoning and tool-use tasks, but their impressive capabilities typica...",
+  "description": "arXiv:2509.14257v3 Announce Type: replace-cross Abstract: Large Language Model agents achieve strong performance on multi-step reasoning and tool-use tasks, but their impressive capabilities typically rely on extremely large backbones. Existing distillation approaches train smaller students to imitate full teacher trajectories, yet reasoning and knowledge gaps between the teacher and student ca...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2509.14257"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2509.14257"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Yuanjie Lyu, Chengyu Wang, Jun Huang, Tong Xu"
+}

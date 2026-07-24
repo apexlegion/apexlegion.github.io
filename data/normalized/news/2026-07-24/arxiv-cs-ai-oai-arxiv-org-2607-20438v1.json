@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20438v1",
+  "name": "Preference Tuning as Spectral Update Reorganization",
+  "summary": "arXiv:2607.20438v1 Announce Type: cross Abstract: Preference-based post-training is usually understood through endpoint behavior, yet the learned update that produces this behavior remains largely...",
+  "description": "arXiv:2607.20438v1 Announce Type: cross Abstract: Preference-based post-training is usually understood through endpoint behavior, yet the learned update that produces this behavior remains largely opaque. We study RLHF and related preference optimization through the spectral structure of their induced parameter updates. By decomposing effective LoRA updates and reloading their spectral componen...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20438"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20438"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Peiyan Zhang, Haibo Jin, Liying Kang, Haohan Wang"
+}

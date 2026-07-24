@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.20506v1",
+  "fetchedAt": "2026-07-24T05:27:42.655Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.20506v1",
+    "title": "Optimizing Hypergraph-Based RAG: Toward Better Fact Extraction and Chunk Retrieval",
+    "link": "https://arxiv.org/abs/2607.20506",
+    "description": "arXiv:2607.20506v1 Announce Type: new Abstract: GraphRAG enables deeper reasoning by structuring knowledge as graphs but struggles with n-ary facts. HyperGraphRAG uses hypergraphs for richer semantics, improving accuracy, yet relies on error-prone LLM extraction and inefficient standard chunk retrieval. We address this by employing self-consistency prompting to improve the extraction, and Personalized PageRank algorithm over hypergraph to enhance chunk retrieval.",
+    "publishedAt": "2026-07-24",
+    "author": "Houda Khrouf, Pedro Fillastre, Sebastiao Correia",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

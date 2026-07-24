@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20720v1",
+  "name": "Transition-Related Potentials as Markers of Narrative Comprehension in Continuous EEG",
+  "summary": "arXiv:2607.20720v1 Announce Type: cross Abstract: Harnessing the potential of electroencephalography (EEG) for brain research is fundamentally limited by intrinsic noise and the diffuse projection...",
+  "description": "arXiv:2607.20720v1 Announce Type: cross Abstract: Harnessing the potential of electroencephalography (EEG) for brain research is fundamentally limited by intrinsic noise and the diffuse projection of brain-generated activity over the scalp. The standard event-related potential (ERP) paradigm addresses this limitation by relying on repeated independent trials, albeit at the cost of moving away f...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20720"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20720"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "B\\'alint Csan\\'ady, P\\'eter Vedres, Krist\\'of Zsolt Mak\\'o, Orsolya Papp-Zipernovszky, M\\'arta Volosin, D\\'avid Apagyi, Andr\\'as Luk\\'acs, Andr\\'as B\\'alint Kov\\'acs, Zoltan Nadasdy"
+}

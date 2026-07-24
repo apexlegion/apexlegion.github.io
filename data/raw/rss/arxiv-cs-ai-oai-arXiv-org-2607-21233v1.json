@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.21233v1",
+  "fetchedAt": "2026-07-24T05:27:42.655Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.21233v1",
+    "title": "Logic Programming Semantics for Causal Processes",
+    "link": "https://arxiv.org/abs/2607.21233",
+    "description": "arXiv:2607.21233v1 Announce Type: new Abstract: Motivated by challenging modelling issues in the life sciences, we investigate the relationship between logic programming semantics and the eventual states of causal processes compatible with those logic programs. More precisely, we show that while stable models of positive logic programs correspond to the eventual states of processes commencing from a neutral state and continuing undisturbed indefinitely, supported models describe the eventual states reachable from arbitrary starting points. This also contributes to the discussion of the appropriate semantics for logic programming as a causal rule language, adding a temporal perspective to recent interpretations of the stable and supported model semantics from an explanatory viewpoint of causality.",
+    "publishedAt": "2026-07-24",
+    "author": "Felix Weitk\\\"amper",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

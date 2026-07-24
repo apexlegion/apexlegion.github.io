@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20581v1",
+  "name": "Geometric Configurations of Perturbed Jailbreak Prompts",
+  "summary": "arXiv:2607.20581v1 Announce Type: cross Abstract: Perturbation techniques that turn unsuccessful jailbreak prompts into successful ones are continuously evolving, constituting a major security thre...",
+  "description": "arXiv:2607.20581v1 Announce Type: cross Abstract: Perturbation techniques that turn unsuccessful jailbreak prompts into successful ones are continuously evolving, constituting a major security threat to LLM safety. In this paper, we investigate the internal representations of such string-level perturbed jailbreak inputs in the small weight models of the Qwen-2.5-1.5B/-3B/-7B-Instruct and Llama-...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20581"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20581"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Lynn Delcon, Andres Algaba, Vincent Ginis"
+}

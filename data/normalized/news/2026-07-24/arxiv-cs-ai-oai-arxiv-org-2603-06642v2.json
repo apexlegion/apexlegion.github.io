@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2603-06642v2",
+  "name": "SR-TTT Does Not Learn Retrieval: A Correction and Mechanistic Post-Mortem of Surprisal-Aware Residual Test-Time Training",
+  "summary": "arXiv:2603.06642v2 Announce Type: replace-cross Abstract: Test-Time Training (TTT) language models replace the KV-cache with fast weights updated during inference, achieving O(1) memory but sufferi...",
+  "description": "arXiv:2603.06642v2 Announce Type: replace-cross Abstract: Test-Time Training (TTT) language models replace the KV-cache with fast weights updated during inference, achieving O(1) memory but suffering catastrophic failure on exact-recall tasks. Version 1 of this work proposed SR-TTT, which routes high-surprisal tokens to a sparse exact-attention Residual Cache, and reported large Needle-in-a-Hay...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2603.06642"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2603.06642"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Swamynathan V P"
+}

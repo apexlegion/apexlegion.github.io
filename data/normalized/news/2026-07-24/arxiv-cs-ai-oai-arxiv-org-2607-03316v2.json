@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-03316v2",
+  "name": "Is Agentic Code Review Helpful? Mining Developers' Feedback to CodeRabbit Reviews in the Wild",
+  "summary": "arXiv:2607.03316v2 Announce Type: replace-cross Abstract: Agentic code review, where autonomous agents provide code review comments on pull requests, is increasingly integrated into development wor...",
+  "description": "arXiv:2607.03316v2 Announce Type: replace-cross Abstract: Agentic code review, where autonomous agents provide code review comments on pull requests, is increasingly integrated into development workflows, yet there is limited empirical evidence on how developers respond to such comments in practice. In this paper, we present an empirical study of agentic code reviews using CodeRabbit as a case...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.03316"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.03316"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Hong Yi Lin, Mingzhao Liang, Patanamon Thongtanunam, Kla Tantithamthavorn"
+}

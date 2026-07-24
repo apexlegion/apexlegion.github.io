@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20495v1",
+  "name": "Workload-Aware Caching for Multi-Agent Systems",
+  "summary": "arXiv:2607.20495v1 Announce Type: new Abstract: Multi-agent systems decompose complex tasks into directed acyclic graphs (DAGs) of specialized agent executions, creating natural opportunities for c...",
+  "description": "arXiv:2607.20495v1 Announce Type: new Abstract: Multi-agent systems decompose complex tasks into directed acyclic graphs (DAGs) of specialized agent executions, creating natural opportunities for caching intermediate results across queries. However, existing cache eviction policies treat all cached entries uniformly based on access history, ignoring structural and workload signals uniquely avai...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20495"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20495"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Anas Mohamed, Kaizan Haque, Azal Ahmad Khan, Chetan Sharma, Shuwen Ge, Ali Anwar"
+}

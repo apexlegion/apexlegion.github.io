@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20520v1",
+  "name": "Representation Robustness Under Executable Reasoning Constraints in Large Language Models for Mathematical Problem Solving",
+  "summary": "arXiv:2607.20520v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly evaluated on mathematical problem solving, yet prior work often treats representationally equivalent fo...",
+  "description": "arXiv:2607.20520v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly evaluated on mathematical problem solving, yet prior work often treats representationally equivalent formulations as interchangeable and conflates reasoning errors with interface failures. This paper investigates representation robustness in LLM-based mathematical problem solving by systematically vary...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20520"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20520"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Sagnik Nath, Edith Aurora Graf, Liang Zhang, Diego Zapata-Rivera"
+}

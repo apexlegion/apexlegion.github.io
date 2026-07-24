@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2602-08792v2",
+  "name": "Multimodal Learning for Arcing Detection in Pantograph-Catenary Systems",
+  "summary": "arXiv:2602.08792v2 Announce Type: replace-cross Abstract: The pantograph-catenary interface is essential for ensuring uninterrupted and reliable power delivery in electrified rail systems. However,...",
+  "description": "arXiv:2602.08792v2 Announce Type: replace-cross Abstract: The pantograph-catenary interface is essential for ensuring uninterrupted and reliable power delivery in electrified rail systems. However, electrical arcing at this interface poses serious risks, including accelerated wear of contact components, degraded system performance, and potential service disruptions. Detecting arcing events at t...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2602.08792"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2602.08792"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Hao Dong, Eleni Chatzi, Olga Fink"
+}

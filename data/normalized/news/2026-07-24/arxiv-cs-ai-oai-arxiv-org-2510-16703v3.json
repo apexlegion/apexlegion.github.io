@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2510-16703v3",
+  "name": "On the Granularity of Causal Effect Identifiability",
+  "summary": "arXiv:2510.16703v3 Announce Type: replace-cross Abstract: The classical notion of causal effect identifiability is defined in terms of treatment and outcome variables. In this paper, we consider th...",
+  "description": "arXiv:2510.16703v3 Announce Type: replace-cross Abstract: The classical notion of causal effect identifiability is defined in terms of treatment and outcome variables. In this paper, we consider the identifiability of state-based causal effects: how an intervention on a particular state of treatment variables affects a particular state of outcome variables. We demonstrate that state-based causa...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2510.16703"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2510.16703"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Yizuo Chen, Adnan Darwiche"
+}

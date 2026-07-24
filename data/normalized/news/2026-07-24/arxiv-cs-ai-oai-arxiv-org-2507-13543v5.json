@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2507-13543v5",
+  "name": "Loss-Complexity Landscape and Model Structure Functions",
+  "summary": "arXiv:2507.13543v5 Announce Type: replace-cross Abstract: We develop a framework for dualizing the Kolmogorov structure function $h_x(\\alpha)$, which then allows using computable complexity proxies...",
+  "description": "arXiv:2507.13543v5 Announce Type: replace-cross Abstract: We develop a framework for dualizing the Kolmogorov structure function $h_x(\\alpha)$, which then allows using computable complexity proxies. We establish a mathematical analogy between information-theoretic constructs and statistical mechanics, introducing a suitable partition function and free energy functional. We explicitly prove the...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2507.13543"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2507.13543"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Alexander Kolpakov"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20551v1",
+  "name": "SenCos-GEM: SENet-Calibrated and Law-of-Cosines-Constrained Geometry-Enhanced Molecular Representation for Property Prediction",
+  "summary": "arXiv:2607.20551v1 Announce Type: cross Abstract: Effective molecular representation learning is crucial for accurate molecular property prediction. Recently, numerous self-supervised learning (SSL...",
+  "description": "arXiv:2607.20551v1 Announce Type: cross Abstract: Effective molecular representation learning is crucial for accurate molecular property prediction. Recently, numerous self-supervised learning (SSL) approaches leveraging 3D GNNs have been developed to capture comprehensive 3D structural information for drug discovery. However, existing methods lack explicit physical constraints and are highly s...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20551"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20551"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Tianming Han, Li Zhang, Qi Zhao"
+}

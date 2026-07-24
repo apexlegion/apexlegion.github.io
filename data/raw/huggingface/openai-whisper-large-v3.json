@@ -1,7 +1,7 @@
 {
   "source": "huggingface",
   "sourceId": "openai/whisper-large-v3",
-  "fetchedAt": "2026-07-23T05:32:34.224Z",
+  "fetchedAt": "2026-07-24T05:27:41.093Z",
   "data": {
     "_id": "654a84cadff2f49007ce6c37",
     "id": "openai/whisper-large-v3",
@@ -124,8 +124,8 @@
       "deploy:sagemaker",
       "region:us"
     ],
-    "downloads": 6093121,
-    "likes": 5972,
+    "downloads": 6140572,
+    "likes": 5975,
     "modelId": "openai/whisper-large-v3",
     "author": "openai",
     "sha": "06f233fe06e710322aca913c1bc4249a0d71fce1",
@@ -351,9 +351,11 @@
       "BSC-LT/CATALAN-ASR-ARENA",
       "elmresearchcenter/open_universal_arabic_asr_leaderboard",
       "eduagarcia/multilingual-tokenizer-leaderboard",
-      "nari-labs/Dia2-2B",
-      "phinam112/OmniVoice-Studio",
       "Quran-Lab/quranic-asr-leaderboard",
+      "nari-labs/Dia2-2B",
+      "navidved/open_persian_asr_leaderboard",
+      "phinam112/OmniVoice-Studio",
+      "nabil6391/bengali-asr-leaderboard",
       "AEUPH/apex-herd-launchpad",
       "drizzymedia/V8",
       "hf-audio/whisper-large-v3",
@@ -380,7 +382,6 @@
       "ardha27/Youtube-AI-Summarizer",
       "mozilla-ai/transcribe",
       "mrm8488/whisper-large-v3",
-      "navidved/open_persian_asr_leaderboard",
       "mfielding92/insanely-fast-whisper-webui-zero",
       "msalhab96/open_universal_arabic_asr_leaderboard_all",
       "richardzheng/whisper-large-v3",
@@ -444,8 +445,7 @@
       "mortimerme/pyvideotrans",
       "haoxiong693/openai-whisper-large-v3",
       "SahilJ2/VQA_Model",
-      "maroonvillager/openai-whisper-large-v3",
-      "Upgradojha/whisper"
+      "maroonvillager/openai-whisper-large-v3"
     ],
     "createdAt": "2023-11-07T18:41:14.000Z",
     "safetensors": {

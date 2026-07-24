@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20449v1",
+  "name": "The Storyteller in the Model: Narrative Pattern Inheritance, Escalation Dynamics, and Alignment Governance in LLMs",
+  "summary": "arXiv:2607.20449v1 Announce Type: cross Abstract: LLMs are trained predominantly on human-authored text, yet the structural and narrative conventions embedded in that text are rarely examined as a...",
+  "description": "arXiv:2607.20449v1 Announce Type: cross Abstract: LLMs are trained predominantly on human-authored text, yet the structural and narrative conventions embedded in that text are rarely examined as a source of systematic behavioral influence, or as a governance risk in deployed systems. This paper considers whether the storytelling patterns inherent in published human writing, including archetypal...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20449"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20449"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Adam Rigby, Raz Saremi, Azadeh Sohrabinejad, Mehdi Rahimi"
+}

@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2602.13904v2",
+  "fetchedAt": "2026-07-24T05:27:42.655Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2602.13904v2",
+    "title": "Diagnosing Pathological Chain-of-Thought in Reasoning Models",
+    "link": "https://arxiv.org/abs/2602.13904",
+    "description": "arXiv:2602.13904v2 Announce Type: replace Abstract: Chain-of-thought (CoT) reasoning is fundamental to modern LLM architectures and represents a critical intervention point for AI safety. However, CoT reasoning may exhibit failure modes that we note as pathologies, which prevent it from being useful for monitoring. Prior work has identified three distinct pathologies: post-hoc rationalization, where models generate plausible explanations backwards from predetermined answers; encoded reasoning, where intermediate steps conceal information within seemingly interpretable text; and internalized reasoning, where models replace explicit reasoning with meaningless filler tokens while computing internally. To better understand and discriminate between these pathologies, we create a set of concrete metrics that are simple to implement, computationally inexpensive, and task-agnostic. To validate our approach, we develop model organisms deliberately trained to exhibit specific CoT pathologies. Our work provides a practical toolkit for assessing CoT pathologies, with direct implications for training-time monitoring.",
+    "publishedAt": "2026-07-24",
+    "author": "Manqing Liu, David Williams-King, Ida Caspary, Linh Le, Hannes Whittingham, Puria Radmard, Cameron Tice, Edward James Young",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

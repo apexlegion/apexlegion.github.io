@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20848v1",
+  "name": "Auditing Evidence Use in Medical LLM Diagnosis",
+  "summary": "arXiv:2607.20848v1 Announce Type: new Abstract: Medical LLMs are often evaluated by whether they select the correct diagnosis, but diagnostic accuracy alone does not show whether the model used the...",
+  "description": "arXiv:2607.20848v1 Announce Type: new Abstract: Medical LLMs are often evaluated by whether they select the correct diagnosis, but diagnostic accuracy alone does not show whether the model used the case evidence appropriately. We present a behavioral audit of evidence use in medical diagnosis. For each case, we decompose patient information into evidence units, score candidate diagnoses under c...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20848"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20848"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Junchi Liao, Jiawen Deng, Fuji Ren"
+}

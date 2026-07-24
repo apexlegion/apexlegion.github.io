@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20459v1",
+  "name": "THOR: A Theta-Gamma Hierarchical Oscillatory Reasoning Framework for Multi-hop QA",
+  "summary": "arXiv:2607.20459v1 Announce Type: cross Abstract: Multi-hop question answering requires retrieving and integrating evidence from multiple contexts. Despite the rapid progress of current research, m...",
+  "description": "arXiv:2607.20459v1 Announce Type: cross Abstract: Multi-hop question answering requires retrieving and integrating evidence from multiple contexts. Despite the rapid progress of current research, multi-hop reasoning remains constrained by two persistent limitations: attention decay, where the model's focus on main question degrades as the reasoning chain grows, and error accumulation, where mis...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20459"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20459"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Ziyang Ling, Ronald X. Xu, Mingzhai Sun"
+}

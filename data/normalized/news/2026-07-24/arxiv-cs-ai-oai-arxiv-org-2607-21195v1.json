@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21195v1",
+  "name": "Chess\\_db: A framework for working with large chess game datasets",
+  "summary": "arXiv:2607.21195v1 Announce Type: cross Abstract: Chess is a two player strategic game that is embedded in classical AI culture as it was once the frontier for intelligent behaviour. There was the...",
+  "description": "arXiv:2607.21195v1 Announce Type: cross Abstract: Chess is a two player strategic game that is embedded in classical AI culture as it was once the frontier for intelligent behaviour. There was the silent assumption that the advent of computer engines that play better than the best humans will extinguish interest in the game. However, the opposite has come to pass, with a growing following for t...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21195"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21195"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Nicos Angelopoulos (University College,Imperial College, London UK), Jan Wielemaker (SWI-Prolog solutions)"
+}

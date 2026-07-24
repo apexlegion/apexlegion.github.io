@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20530v1",
+  "name": "CLOE: Christoffel Loss Autoencoder for Anomaly Detection",
+  "summary": "arXiv:2607.20530v1 Announce Type: cross Abstract: Semi-supervised anomaly detection plays a key role in diverse fields such as process monitoring, healthcare, and finance. However, lightweight meth...",
+  "description": "arXiv:2607.20530v1 Announce Type: cross Abstract: Semi-supervised anomaly detection plays a key role in diverse fields such as process monitoring, healthcare, and finance. However, lightweight methods often struggle with high-dimensional data and typically require careful tuning of multiple hyperparameters. Among existing approaches, Christoffel Function--based methods are attractive due to the...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20530"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20530"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "L\\'ea Billet (LAAS, INSA Toulouse, ANITI), Louise Trav\\'e-Massuy\\`es (LAAS-DISCO, Comue de Toulouse, ANITI), Elodie Chanthery (LAAS), Alexandre Gaffet"
+}

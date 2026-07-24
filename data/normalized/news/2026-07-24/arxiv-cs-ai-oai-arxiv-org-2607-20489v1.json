@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20489v1",
+  "name": "EvoSQL: Memory-Augmented Critic-Generator Co-Evolution for Text-to-SQL",
+  "summary": "arXiv:2607.20489v1 Announce Type: new Abstract: Text-to-SQL has advanced rapidly with large language models, but complex database queries still require reasoning beyond one-shot generation, includi...",
+  "description": "arXiv:2607.20489v1 Announce Type: new Abstract: Text-to-SQL has advanced rapidly with large language models, but complex database queries still require reasoning beyond one-shot generation, including multi-step decomposition, execution-based diagnosis, and targeted correction. We present EvoSQL, a co-evolution framework that formulates SQL synthesis as an iterative interaction between a generat...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20489"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20489"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Jiawei Zhou, Jianwei Wang, Chenyu Zhou, Chaojian Shi, Ming Dong, Kai Wang"
+}

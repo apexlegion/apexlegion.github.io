@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21573v1",
+  "name": "Beyond Sufficiency: Time Series Explanation with Counterfactual Necessity",
+  "summary": "arXiv:2607.21573v1 Announce Type: cross Abstract: Faithful explanations of time-series classifiers should identify subsequences that are not only sufficient to preserve a black-box model's predicti...",
+  "description": "arXiv:2607.21573v1 Announce Type: cross Abstract: Faithful explanations of time-series classifiers should identify subsequences that are not only sufficient to preserve a black-box model's prediction, but also necessary for maintaining it. However, existing sufficiency-oriented methods can assign high importance to spurious subsequences that support the prediction without being essential to the...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21573"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21573"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Hongnan Ma, Yiwei Shi, Mengyue Yang, Weiru Liu"
+}

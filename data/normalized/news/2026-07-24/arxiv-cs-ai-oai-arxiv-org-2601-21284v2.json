@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2601-21284v2",
+  "name": "PILD: Physics-Informed Learning via Diffusion",
+  "summary": "arXiv:2601.21284v2 Announce Type: replace-cross Abstract: Diffusion models have emerged as powerful generative tools for modeling complex data distributions, yet their purely data-driven nature lim...",
+  "description": "arXiv:2601.21284v2 Announce Type: replace-cross Abstract: Diffusion models have emerged as powerful generative tools for modeling complex data distributions, yet their purely data-driven nature limits applicability in engineering and scientific problems where physical laws must be respected. This paper proposes Physics-Informed Learning via Diffusion (PILD), a framework that unifies diffusion m...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2601.21284"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2601.21284"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Tianyi Zeng, Tianyi Wang, Jiaru Zhang, Zimo Zeng, Feiyang Zhang, Yiming Xu, Sikai Chen, Junfeng Jiao, Christian Claudel, Xinbo Chen"
+}

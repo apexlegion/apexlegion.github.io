@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2604-00004v2",
+  "name": "LinearARD: Linear-Memory Attention Distillation for RoPE Restoration",
+  "summary": "arXiv:2604.00004v2 Announce Type: replace-cross Abstract: The extension of context windows in Large Language Models is typically facilitated by scaling positional encodings followed by lightweight...",
+  "description": "arXiv:2604.00004v2 Announce Type: replace-cross Abstract: The extension of context windows in Large Language Models is typically facilitated by scaling positional encodings followed by lightweight Continual Pre-Training (CPT). While effective for processing long sequences, this paradigm often disrupts original model capabilities, leading to performance degradation on standard short-text benchma...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2604.00004"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2604.00004"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Ning Yang, Hengyu Zhong, Wentao Wang, Baoliang Tian, Haijun Zhang, Jun Wang"
+}

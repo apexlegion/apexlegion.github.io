@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21414v1",
+  "name": "Logical Regression for Planning with Axioms",
+  "summary": "arXiv:2607.21414v1 Announce Type: new Abstract: In automated planning, logical regression is an operation that returns the most general condition necessary for an action to achieve a particular for...",
+  "description": "arXiv:2607.21414v1 Announce Type: new Abstract: In automated planning, logical regression is an operation that returns the most general condition necessary for an action to achieve a particular formula. It has many applications, such as allowing for more robust plan execution and providing compact policies for non-deterministic planning. Although relatively simple to calculate in basic planning...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21414"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21414"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Connor Little, Christian Muise"
+}

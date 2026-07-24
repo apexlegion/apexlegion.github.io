@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20768v1",
+  "name": "Are Diversity Metrics Measuring Diversity? A Capability-Controlled Audit of Majority-Vote Gain in LLM Ensembles",
+  "summary": "arXiv:2607.20768v1 Announce Type: cross Abstract: Majority voting over LLMs is widely assumed to benefit from diversity, and diversity measures are used to choose which models to combine. We ask wh...",
+  "description": "arXiv:2607.20768v1 Announce Type: cross Abstract: Majority voting over LLMs is widely assumed to benefit from diversity, and diversity measures are used to choose which models to combine. We ask whether five such measures track diversity or mainly re-express capability, auditing them as predictors of majority-vote gain over the best member across 31,900 subsets of 30 LLMs on MMLU-Pro (29 on Tru...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20768"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20768"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Donghwan Kim"
+}

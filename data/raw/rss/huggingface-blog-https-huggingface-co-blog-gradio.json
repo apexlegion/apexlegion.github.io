@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/gradio",
-  "fetchedAt": "2026-07-23T05:32:35.844Z",
+  "fetchedAt": "2026-07-24T05:27:42.625Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/gradio",
     "title": "Using &amp; Mixing Hugging Face Models with Gradio 2.0",

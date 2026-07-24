@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20433v1",
+  "name": "Moir: Let the Model Direct Its Own Story for Robust Cross-Domain Knowledge Editing",
+  "summary": "arXiv:2607.20433v1 Announce Type: cross Abstract: While language models remain frozen at their training state, the world evolves continuously. Knowledge editing has emerged as a key alternative to...",
+  "description": "arXiv:2607.20433v1 Announce Type: cross Abstract: While language models remain frozen at their training state, the world evolves continuously. Knowledge editing has emerged as a key alternative to full retraining, but its deployment is bottlenecked by the erosion of core capabilities: mathematical and programmatic reasoning collapse while encyclopedic recall remains intact. We trace this asymme...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20433"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20433"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Jea Kwon, Jiwon Kim, Dong-kyum Kim, Meeyoung Cha"
+}

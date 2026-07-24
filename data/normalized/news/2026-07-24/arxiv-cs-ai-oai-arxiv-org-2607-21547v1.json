@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21547v1",
+  "name": "The Boundaries of Automation: A Theory of Persistent Human Participation",
+  "summary": "arXiv:2607.21547v1 Announce Type: new Abstract: The rapid progress of AI has intensified the long-standing pursuit of automation: replacing human participation with algorithms wherever possible. Im...",
+  "description": "arXiv:2607.21547v1 Announce Type: new Abstract: The rapid progress of AI has intensified the long-standing pursuit of automation: replacing human participation with algorithms wherever possible. Implicit in this pursuit is the assumption that humans remain in the loop only because current AI systems are not yet sufficiently capable. This paper challenges that assumption. Rather than asking how...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21547"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21547"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Fares Fourati, Hinrich Sch\\\"utze, Eyke H\\\"ullermeier, Iryna Gurevych"
+}

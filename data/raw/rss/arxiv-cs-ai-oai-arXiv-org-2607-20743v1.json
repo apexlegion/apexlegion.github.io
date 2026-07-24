@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.20743v1",
+  "fetchedAt": "2026-07-24T05:27:42.655Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.20743v1",
+    "title": "Self-Supervised Bio-Inspired Robotic Trajectory Planning with Obstacle Avoidance",
+    "link": "https://arxiv.org/abs/2607.20743",
+    "description": "arXiv:2607.20743v1 Announce Type: cross Abstract: Trajectory planning is a fundamental problem in robotics, requiring the generation of collision-free and efficient trajectories in a potentially complex environment. While sampling-based planners remain the dominant approach, they are often computationally expensive, particularly in high-dimensional spaces and obstacle-rich environments. Methods based on model learning offer a promising alternative, enabling efficient planning through a bounded number of forward passes through a neural trajectory planner, but commonly suffer from low sample efficiency or limited generalisation due to their reliance on exploration or expert demonstrations. This follow-up work tests our neuro-inspired self-supervised learning framework for trajectory planning that leverages forward and inverse models as the internal supervisory mechanism in an environment that contains an obstacle. Experimental results demonstrate the feasibility of the approach while revealing a tendency of our planner to exploit the learning signal provided by the forward and inverse models. To address this issue, additional training regimes and mitigation strategies are proposed and evaluated.",
+    "publishedAt": "2026-07-24",
+    "author": "Miroslav Krupa, Miroslav Cibula, Krist\\'ina Malinovsk\\'a",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20524v1",
+  "name": "Attention Degradation, Function Token Anchoring, and the Limits of Attention-Based Intervention in Large Language Models",
+  "summary": "arXiv:2607.20524v1 Announce Type: new Abstract: Mean cross-positional attention degradation is widely reported in transformer interpretability, yet whether it causally limits contextual retrieval r...",
+  "description": "arXiv:2607.20524v1 Announce Type: new Abstract: Mean cross-positional attention degradation is widely reported in transformer interpretability, yet whether it causally limits contextual retrieval remains untested. We present six coordinated experiments across GPT-2, LLaMA-3.2-1B/3B, OPT-1.3B, and distilgpt2. We first characterise short-term (5-100 token) attention degradation, finding a univers...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20524"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20524"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Sagar Dangal, Manoj Shakya"
+}

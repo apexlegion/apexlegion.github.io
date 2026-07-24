@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20652v1",
+  "name": "Scaling Interpretable Transformers with Parity Bottleneck Layers",
+  "summary": "arXiv:2607.20652v1 Announce Type: cross Abstract: Language models are thought to exhibit the phenomenon of superposition, representing many more features than dimensions in their residual streams....",
+  "description": "arXiv:2607.20652v1 Announce Type: cross Abstract: Language models are thought to exhibit the phenomenon of superposition, representing many more features than dimensions in their residual streams. Sparse autoencoders (SAEs) are designed to recover such features post-hoc, but training models that are interpretable by construction has remained impractical, as a per-layer over-complete bottleneck...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20652"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20652"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Andrew Mack, Kraig Yuheng Tou, Mark Henry, Zhengxun Wu, Lauren Greenspan"
+}

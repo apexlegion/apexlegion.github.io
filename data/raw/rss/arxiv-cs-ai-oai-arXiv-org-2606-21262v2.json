@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2606.21262v2",
+  "fetchedAt": "2026-07-24T05:27:42.655Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2606.21262v2",
+    "title": "ARCO: Adaptive Rubrics with Co-Evolution for Multi-Step LLM-Based Agents",
+    "link": "https://arxiv.org/abs/2606.21262",
+    "description": "arXiv:2606.21262v2 Announce Type: replace Abstract: Reinforcement learning for multi-step LLM agents often relies on scalar rewards that indicate success but cannot explain why a trajectory is good or bad. Rubric-based rewards improve interpretability through natural-language criteria, but existing methods share two limitations: they score at the trajectory level, offering no guidance for individual steps; and their scorer is closed-source and static, so it cannot adapt as the agent evolves during training. We propose ARCO (Adaptive Rubric CO-evolution), which generates a per-step rubric and predicts a rubric-conditioned step-level reward for each action, and continually updates this rubric model on on-policy rollouts so that its criteria and scores co-evolve with the agent's improving behavior. Across HotpotQA, 2WikiMultiHopQA, and MuSiQue with two open-source backbones, ARCO achieves the highest EM in all settings over outcome-, rubric-, and process-reward baselines, and analyses show its rubrics are step-specific, robust to design choices, and useful for diagnosing agent behavior. Code and data are available at https://github.com/zihangtian/ARCO.",
+    "publishedAt": "2026-07-24",
+    "author": "Zihang Tian, Jingsen Zhang, Rui Li, Xiaohe Bo, Yuanzi Li, Xu Chen",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

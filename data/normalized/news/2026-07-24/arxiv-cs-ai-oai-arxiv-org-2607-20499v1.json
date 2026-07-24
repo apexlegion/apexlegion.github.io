@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20499v1",
+  "name": "ExecuGraph: A Multi-Agent, Execution-Grounded Framework for Reliable Backend Code Synthesis with Large Language Models",
+  "summary": "arXiv:2607.20499v1 Announce Type: new Abstract: Large Language Models generate plausible backend code, but a single-pass paradigm provides no guarantee of correctness or runtime reliability. We pre...",
+  "description": "arXiv:2607.20499v1 Announce Type: new Abstract: Large Language Models generate plausible backend code, but a single-pass paradigm provides no guarantee of correctness or runtime reliability. We present ExecuGraph, a multi-agent framework that places execution-based validation at the center of backend code synthesis. Six specialized agents (Planner, Code Generator, Logical Reviewer, Evaluator, O...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20499"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20499"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Sai Deekshith Lekkala, Jothi Prabha Appadurai, Rohith Reddy Bellibatlu, Manpreet Singh"
+}

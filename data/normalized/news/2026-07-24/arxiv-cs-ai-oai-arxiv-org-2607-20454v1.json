@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20454v1",
+  "name": "Response drift across frontier large language models",
+  "summary": "arXiv:2607.20454v1 Announce Type: cross Abstract: All frontier large language models (LLMs) exhibit response drift -- producing outputs that deviate from expert-validated references -- yet the magn...",
+  "description": "arXiv:2607.20454v1 Announce Type: cross Abstract: All frontier large language models (LLMs) exhibit response drift -- producing outputs that deviate from expert-validated references -- yet the magnitude and structure of this drift remain uncharacterised by systematic human evaluation. Here we report a fully crossed evaluation in which 47 geographically diverse participants each assessed all 62...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20454"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20454"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Mohammed Aledhari, Ali Aledhari, Fatimah Aledhari, Gowtham Venkat Eathamokkala, Mohamed Rahouti"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20535v1",
+  "name": "A Graph Neural Network approach to zero-shot Digital Twins",
+  "summary": "arXiv:2607.20535v1 Announce Type: cross Abstract: Traditional Predictive Digital Twins often remain geometrically rigid, requiring extensive retraining or fine-tuning whenever the underlying physic...",
+  "description": "arXiv:2607.20535v1 Announce Type: cross Abstract: Traditional Predictive Digital Twins often remain geometrically rigid, requiring extensive retraining or fine-tuning whenever the underlying physical domain or boundary conditions change. To overcome this limitation, we present a novel framework for \\textit{Zero-Shot Digital Twins} that seamlessly couples real-time visual perception with a geome...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20535"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20535"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Alicia Tierz, Ic\\'iar Alfaro, David Gonz\\'alez, El\\'ias Cueto"
+}

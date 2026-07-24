@@ -1,0 +1,36 @@
+{
+  "type": "paper",
+  "slug": "2607-21517",
+  "name": "Improved lower bounds for the Shannon capacity of odd cycles",
+  "summary": "The Shannon capacity $Θ(G)$ of a graph $G$ quantifies the maximum rate at which information can be transmitted with zero error over a noisy channel. It is lower bounded by $α(G^d)^{1/d}$ for any $d...",
+  "description": "The Shannon capacity $Θ(G)$ of a graph $G$ quantifies the maximum rate at which information can be transmitted with zero error over a noisy channel. It is lower bounded by $α(G^d)^{1/d}$ for any $d$, where $α(G^d)$ is the independence number of the $d$-th strong power of $G$. We construct independent sets of size $134753$ in $C_7^{10}$, $21909$ in $C_{11}^{6}$, and $62530$ in $C_{13}^{6}$, improving the best known lower bounds for the Shannon capacity of these graphs to $Θ(C_7)\\geq 134753^{1/10}&gt;3.258020$, $Θ(C_{11})\\geq 21909^{1/6}&gt;5.289773$, and $Θ(C_{13})\\geq 62530^{1/6}&gt;6.30010...",
+  "tags": [
+    "arxiv",
+    "cs.IT"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.21517v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-23",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.IT.",
+      "href": "https://arxiv.org/abs/2607.21517v1"
+    }
+  ],
+  "authors": [
+    "Nathaniel Itty",
+    "Christopher D. Rosin",
+    "Chase Carstensen",
+    "Daniel Reichman"
+  ],
+  "paperId": "2607.21517",
+  "category": "cs.IT",
+  "publishedAt": "2026-07-23",
+  "abstract": "The Shannon capacity $Θ(G)$ of a graph $G$ quantifies the maximum rate at which information can be transmitted with zero error over a noisy channel. It is lower bounded by $α(G^d)^{1/d}$ for any $d$, where $α(G^d)$ is the independence number of the $d$-th strong power of $G$. We construct independent sets of size $134753$ in $C_7^{10}$, $21909$ in $C_{11}^{6}$, and $62530$ in $C_{13}^{6}$, improving the best known lower bounds for the Shannon capacity of these graphs to $Θ(C_7)\\geq 134753^{1/10}&gt;3.258020$, $Θ(C_{11})\\geq 21909^{1/6}&gt;5.289773$, and $Θ(C_{13})\\geq 62530^{1/6}&gt;6.30010..."
+}

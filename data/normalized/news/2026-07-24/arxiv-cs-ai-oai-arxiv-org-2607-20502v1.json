@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20502v1",
+  "name": "Inducing Comparability of Factorised Probability Distributions",
+  "summary": "arXiv:2607.20502v1 Announce Type: new Abstract: To allow for principled comparison between two probabilistic graphical models defined over non-identical variable sets, they have to be lifted to a c...",
+  "description": "arXiv:2607.20502v1 Announce Type: new Abstract: To allow for principled comparison between two probabilistic graphical models defined over non-identical variable sets, they have to be lifted to a common measurable space. To this end, we propose an extension scheme for any two given models and establish the formal foundation: Unmatched components are completed using conditionally uniform (Laplac...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20502"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20502"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Jan Speller, Malte Luttermann, Marcel Gehrke, Tanya Braun"
+}

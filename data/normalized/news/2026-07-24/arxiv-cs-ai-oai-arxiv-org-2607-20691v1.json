@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20691v1",
+  "name": "Spatially Grounded Concept Bottleneck Models for Trustworthy Breast Ultrasound Diagnosis",
+  "summary": "arXiv:2607.20691v1 Announce Type: cross Abstract: Concept Bottleneck Models provide interpretable-by-design predictions by mediating diagnosis through human-understandable concepts, but in medical...",
+  "description": "arXiv:2607.20691v1 Announce Type: cross Abstract: Concept Bottleneck Models provide interpretable-by-design predictions by mediating diagnosis through human-understandable concepts, but in medical imaging, their trustworthiness is often limited by the quality and granularity of available supervision. In particular, predicted concept activations can be driven by irrelevant regions, leading to sp...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20691"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20691"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Moshiur Rahman Tonmoy, Dunren Che, Haitham Y. Adarbah, Afzel Noore"
+}

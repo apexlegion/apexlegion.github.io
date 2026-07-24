@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2604-01363v3",
+  "name": "Crashing Waves vs. Rising Tides: Findings on AI Automation from Thousands of Worker Evaluations of Labor Market Tasks",
+  "summary": "arXiv:2604.01363v3 Announce Type: replace Abstract: We characterize AI automation as a continuum between crashing waves, in which capabilities jump abruptly across narrow task sets, and rising tide...",
+  "description": "arXiv:2604.01363v3 Announce Type: replace Abstract: We characterize AI automation as a continuum between crashing waves, in which capabilities jump abruptly across narrow task sets, and rising tides, in which capabilities improve continuously and broadly. Using evidence from more than 6,000 text-based, LLM-addressable tasks derived from the U.S. Department of Labor's O*NET taxonomy and over 60,...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2604.01363"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2604.01363"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Matthias Mertens, Adam Kuzee, Brittany S. Harris, Harry Lyu, Wensu Li, Jonathan Rosenfeld, Meiri Anto, Martin Fleming, Neil Thompson"
+}

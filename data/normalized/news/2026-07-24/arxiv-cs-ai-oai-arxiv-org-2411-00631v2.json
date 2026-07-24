@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2411-00631v2",
+  "name": "Generative AI and Agency in Education: A Critical Scoping Review and Thematic Analysis",
+  "summary": "arXiv:2411.00631v2 Announce Type: replace-cross Abstract: This scoping review examines the relationship between Generative AI (GenAI) and agency in education, analyzing the literature available thr...",
+  "description": "arXiv:2411.00631v2 Announce Type: replace-cross Abstract: This scoping review examines the relationship between Generative AI (GenAI) and agency in education, analyzing the literature available through the lens of Critical Digital Pedagogy. Following PRISMA-ScR guidelines, we collected 10 studies from academic databases focusing on both learner and teacher agency in GenAI-enabled environments....",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2411.00631"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2411.00631"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Jasper Roe (James Cook University Singapore), Mike Perkins (British University Vietnam)"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20493v1",
+  "name": "Attention-based Experience Replay Framework for Continual Learning of Agnostic Time Series Forecasting Models",
+  "summary": "arXiv:2607.20493v1 Announce Type: new Abstract: Deep learning has led to remarkable progress in artificial intelligence, particularly in robotics, imaging and sound processing. However, a major lim...",
+  "description": "arXiv:2607.20493v1 Announce Type: new Abstract: Deep learning has led to remarkable progress in artificial intelligence, particularly in robotics, imaging and sound processing. However, a major limitation of neural networks remains their strong dependence on large and stationary datasets. In many real-world applications, these conditions are rarely met due to evolving and dynamic environments w...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20493"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20493"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Quentin Besnard (RFAI), Nicolas Ragot (RFAI)"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21196v1",
+  "name": "Case study: solving P-99 with LPTP and an LLM",
+  "summary": "arXiv:2607.21196v1 Announce Type: cross Abstract: Ninety-Nine Prolog Problems (P-99) is a famous set of Prolog exercises. We solved the first thirty three just by prompting an LLM (Large Language M...",
+  "description": "arXiv:2607.21196v1 Announce Type: cross Abstract: Ninety-Nine Prolog Problems (P-99) is a famous set of Prolog exercises. We solved the first thirty three just by prompting an LLM (Large Language Model). We used Claude from Anthropic. By solved we mean: generate the Prolog code and a test file, run the tests and check whether they pass, then formally prove types, groundness, termination, unique...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21196"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21196"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Fred Mesnard, Thierry Marianne, \\'Etienne Payet, Wim Vanhoof"
+}

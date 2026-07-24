@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/leaderboard-artificial-analysis",
-  "fetchedAt": "2026-07-23T05:32:35.843Z",
+  "fetchedAt": "2026-07-24T05:27:42.625Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/leaderboard-artificial-analysis",
     "title": "Bringing the Artificial Analysis LLM Performance Leaderboard to Hugging Face",

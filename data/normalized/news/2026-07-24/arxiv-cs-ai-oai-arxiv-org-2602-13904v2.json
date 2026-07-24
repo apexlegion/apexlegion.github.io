@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2602-13904v2",
+  "name": "Diagnosing Pathological Chain-of-Thought in Reasoning Models",
+  "summary": "arXiv:2602.13904v2 Announce Type: replace Abstract: Chain-of-thought (CoT) reasoning is fundamental to modern LLM architectures and represents a critical intervention point for AI safety. However,...",
+  "description": "arXiv:2602.13904v2 Announce Type: replace Abstract: Chain-of-thought (CoT) reasoning is fundamental to modern LLM architectures and represents a critical intervention point for AI safety. However, CoT reasoning may exhibit failure modes that we note as pathologies, which prevent it from being useful for monitoring. Prior work has identified three distinct pathologies: post-hoc rationalization,...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2602.13904"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2602.13904"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Manqing Liu, David Williams-King, Ida Caspary, Linh Le, Hannes Whittingham, Puria Radmard, Cameron Tice, Edward James Young"
+}

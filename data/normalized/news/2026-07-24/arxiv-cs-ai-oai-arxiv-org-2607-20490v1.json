@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20490v1",
+  "name": "CRAWO: Custom Resources for Adaptive Workload Orchestration",
+  "summary": "arXiv:2607.20490v1 Announce Type: new Abstract: Edge Intelligence has emerged as a key paradigm for enabling real-time applications in smart cities by shifting computation from centralized cloud da...",
+  "description": "arXiv:2607.20490v1 Announce Type: new Abstract: Edge Intelligence has emerged as a key paradigm for enabling real-time applications in smart cities by shifting computation from centralized cloud data centers to the network edge, thereby reducing latency and bandwidth consumption. However, deploying Artificial Intelligence (AI) pipelines across heterogeneous edge infrastructures remains challeng...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20490"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20490"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Eug\\^enio Santos, Daniel Maia, Stefano Loss, Jos\\'e Manoel Silva, Aluizio Rocha Neto, Thais Batista, Everton Cavalcante, N\\'elio Cacho, Eduardo Nogueira, Daniel Ara\\'ujo, Frederico Lopes"
+}

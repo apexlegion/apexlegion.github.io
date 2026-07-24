@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2604-05182v3",
+  "name": "LSRM: High-Fidelity Object-Centric Reconstruction via Scaled Context Windows",
+  "summary": "arXiv:2604.05182v3 Announce Type: replace-cross Abstract: We introduce the Large Sparse Reconstruction Model to study how scaling transformer context windows affects feed-forward 3D reconstruction....",
+  "description": "arXiv:2604.05182v3 Announce Type: replace-cross Abstract: We introduce the Large Sparse Reconstruction Model to study how scaling transformer context windows affects feed-forward 3D reconstruction. Although recent object-centric feed-forward methods produce robust, high-quality reconstructions, they still lag behind dense-view optimization in recovering fine-grained texture and appearance. We s...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2604.05182"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2604.05182"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Zhengqin Li, Cheng Zhang, Jakob Engel, Zhao Dong"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21267v1",
+  "name": "BasketEvent: Understanding Who Did What and When in Basketball Videos",
+  "summary": "arXiv:2607.21267v1 Announce Type: new Abstract: Comprehensive basketball video understanding requires resolving not only what event occurs, but also who is responsible and when the key evidence app...",
+  "description": "arXiv:2607.21267v1 Announce Type: new Abstract: Comprehensive basketball video understanding requires resolving not only what event occurs, but also who is responsible and when the key evidence appears. However, exist- ing methods typically treat spatial perception and semantic recognition as isolated tasks, failing to ground events to individual players or pinpoint their temporal boundaries wi...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21267"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21267"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Yu Zhang, Jiayuan Rao, Haoning Wu, Weidi Xie"
+}

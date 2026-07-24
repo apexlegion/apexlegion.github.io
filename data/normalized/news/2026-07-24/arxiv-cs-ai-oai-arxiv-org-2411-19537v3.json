@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2411-19537v3",
+  "name": "Deepfake Media Generation and Detection in the Generative AI Era: A Survey and Outlook",
+  "summary": "arXiv:2411.19537v3 Announce Type: replace-cross Abstract: We survey deepfake generation and detection techniques, covering all deepfake media types: image, video, audio and multimodal content. We i...",
+  "description": "arXiv:2411.19537v3 Announce Type: replace-cross Abstract: We survey deepfake generation and detection techniques, covering all deepfake media types: image, video, audio and multimodal content. We identify various kinds of deepfakes and construct taxonomies of deepfake generation and detection methods, illustrating the important groups of methods. Next, we gather datasets used for deepfake detec...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2411.19537"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2411.19537"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Florinel-Alin Croitoru, Andrei-Iulian Hiji, Vlad Hondru, Nicolae Catalin Ristea, Paul Irofti, Marius Popescu, Cristian Rusu, Radu Tudor Ionescu, Fahad Shahbaz Khan, Mubarak Shah"
+}

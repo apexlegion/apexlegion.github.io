@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20478v1",
+  "name": "Verifier-First Evaluation of Agentic LLMs for Infrastructure-as-Code Generation",
+  "summary": "arXiv:2607.20478v1 Announce Type: cross Abstract: Infrastructure-as-Code (IaC) generation from natural language requires satisfying provider schemas, dependency planning, and organizational policy...",
+  "description": "arXiv:2607.20478v1 Announce Type: cross Abstract: Infrastructure-as-Code (IaC) generation from natural language requires satisfying provider schemas, dependency planning, and organizational policy constraints, not merely producing syntactically plausible configurations. We present a verifier-first empirical study of seven agentic strategies for Terraform generation evaluated on IaC-Eval v2, a m...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20478"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20478"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Mohamed Jouini"
+}

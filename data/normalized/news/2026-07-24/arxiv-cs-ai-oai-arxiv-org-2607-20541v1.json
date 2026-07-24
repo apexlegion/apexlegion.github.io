@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20541v1",
+  "name": "HypNO: A Graph-Based Neural Operator with Physics-Informed Message Passing for Hyperbolic Conservation Laws",
+  "summary": "arXiv:2607.20541v1 Announce Type: cross Abstract: We introduce HypNO, a graph-based neural operator for scalar hyperbolic conservation laws. HypNO operates directly on a space-time graph of finite-...",
+  "description": "arXiv:2607.20541v1 Announce Type: cross Abstract: We introduce HypNO, a graph-based neural operator for scalar hyperbolic conservation laws. HypNO operates directly on a space-time graph of finite-volume cells and uses adjacency-factored, physics-informed message passing to respect upwinding and entropy admissibility near shocks. We benchmark the architecture on the Lighthill-Whitham-Richards (...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20541"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20541"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Dimitrije \\v{Z}drale, Cassie An Jeng, Katie Wang, Sonia Vanier, Alexandre Bayen, Hossein Nick Zinat Matin"
+}

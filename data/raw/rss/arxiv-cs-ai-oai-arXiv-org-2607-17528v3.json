@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.17528v3",
+  "fetchedAt": "2026-07-24T05:27:42.655Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.17528v3",
+    "title": "Can AI Agents Really Complete RTL-to-GDS? Lessons from Benchmarking Tool-Interactive EDA Workflows",
+    "link": "https://arxiv.org/abs/2607.17528",
+    "description": "arXiv:2607.17528v3 Announce Type: replace Abstract: Large language model (LLM) agents are extending electronic design automation (EDA) beyond static RTL generation toward long-horizon, tool-interactive workflows. Yet it remains unclear whether general-purpose coding agents, even with domain-specific EDA skills, can reliably execute an end-to-end RTL-to-GDS flow encompassing synthesis, physical implementation, and engineering change order (ECO) optimization. We evaluate AI agents on a PicoRV32 RTL-to-GDS flow using commercial EDA tools under two timing targets. Their performance is assessed using end-to-end design score, stage completion, and Token ROI, a cost-efficiency metric relating design quality to runtime and cost. Comparing three agent architectures and four foundation models, we derive three practical lessons. First, domain-specific skills improve agents' understanding of individual subtasks but do not ensure reliable completion of a long-horizon EDA flow. Second, agents that achieve similar design progress can still differ by up to 141 times in Token ROI, revealing substantial differences in runtime and cost efficiency. Third, low-level tool-interface mismatches are a major source of physical design failures, particularly when Tcl commands depend on the tool version or execution mode. These results suggest that robust Agentic EDA requires not only stronger models but also structured tool interfaces, persistent design context, controlled execution, and process-level evaluation.",
+    "publishedAt": "2026-07-24",
+    "author": "Jinyuan Deng, Zhengrui Chen, Xufeng Wei, Tianyu Xing, Chenyi Wen, Qi Sun, Cheng Zhuo",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

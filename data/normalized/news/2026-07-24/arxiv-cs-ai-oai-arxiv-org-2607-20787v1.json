@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20787v1",
+  "name": "Synthetic minority data is redundant or invalid: a data-dependent validity theory and a de-biased test",
+  "summary": "arXiv:2607.20787v1 Announce Type: cross Abstract: For two decades, the standard remedy for class-imbalanced learning has been to fabricate synthetic minority examples, and the standard evidence of...",
+  "description": "arXiv:2607.20787v1 Announce Type: cross Abstract: For two decades, the standard remedy for class-imbalanced learning has been to fabricate synthetic minority examples, and the standard evidence of their validity has been a check that cannot fail: synthetic points are scored against the very data that generated them. We de-bias the check. Validity becomes a population quantity -- the probability...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20787"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20787"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Ahmad B. Hassanat, Ahmad S. Tarawneh, Ghada A. Altarawneh"
+}

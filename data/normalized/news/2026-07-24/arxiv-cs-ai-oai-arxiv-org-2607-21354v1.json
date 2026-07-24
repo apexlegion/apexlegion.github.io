@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21354v1",
+  "name": "SPORD: A Simulation-Propose-then-OR-Dispose Approach for Supply Chain Planning",
+  "summary": "arXiv:2607.21354v1 Announce Type: new Abstract: For years, supply chain planning at e-commerce firms has operated as a collection of isolated projects. Each planning task from static network planni...",
+  "description": "arXiv:2607.21354v1 Announce Type: new Abstract: For years, supply chain planning at e-commerce firms has operated as a collection of isolated projects. Each planning task from static network planning to dynamic warehouse assortment planning requires analysts to spend weeks building models from scratch, calibrating and persuading executives to act on outputs they cannot verify. Three barriers dr...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21354"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21354"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Jiayin He, Yutong Pan, Sen Yang, Ningxuan Kang, Yongzhi Qi, Jianshen Zhang, Wei Qi, Zuo-Jun Max Shen"
+}

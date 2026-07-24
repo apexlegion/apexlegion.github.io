@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-18269v2",
+  "name": "Wisdom of LLM Crowds: Aggregation and Contamination in Language Model Ensembles",
+  "summary": "arXiv:2607.18269v2 Announce Type: replace Abstract: The wisdom of crowds -- the finding that aggregating judgments across individuals often outperforms the best individual -- has been extensively s...",
+  "description": "arXiv:2607.18269v2 Announce Type: replace Abstract: The wisdom of crowds -- the finding that aggregating judgments across individuals often outperforms the best individual -- has been extensively studied with human forecasters. Whether the same phenomenon emerges when the ``crowd'' consists of large language models (LLMs) is an open question with both theoretical and practical implications. We...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.18269"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.18269"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Igor Douven"
+}

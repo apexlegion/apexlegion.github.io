@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-23T05:32:37.073Z",
+  "generatedAt": "2026-07-24T05:27:43.835Z",
   "entityCounts": {
     "project": 9,
     "paper": 20,
-    "news": 333,
+    "news": 449,
     "model": 5
   },
   "relationCount": 0,

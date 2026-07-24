@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20743v1",
+  "name": "Self-Supervised Bio-Inspired Robotic Trajectory Planning with Obstacle Avoidance",
+  "summary": "arXiv:2607.20743v1 Announce Type: cross Abstract: Trajectory planning is a fundamental problem in robotics, requiring the generation of collision-free and efficient trajectories in a potentially co...",
+  "description": "arXiv:2607.20743v1 Announce Type: cross Abstract: Trajectory planning is a fundamental problem in robotics, requiring the generation of collision-free and efficient trajectories in a potentially complex environment. While sampling-based planners remain the dominant approach, they are often computationally expensive, particularly in high-dimensional spaces and obstacle-rich environments. Methods...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20743"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20743"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Miroslav Krupa, Miroslav Cibula, Krist\\'ina Malinovsk\\'a"
+}

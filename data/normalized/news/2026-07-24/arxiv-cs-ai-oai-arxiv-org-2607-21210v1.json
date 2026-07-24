@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21210v1",
+  "name": "Explainable Belief Harmonization under Dynamic Epistemic Partitions",
+  "summary": "arXiv:2607.21210v1 Announce Type: cross Abstract: Existing approaches to multi-agent belief combination have established mature foundations for combining uncertain beliefs under common assumptions:...",
+  "description": "arXiv:2607.21210v1 Announce Type: cross Abstract: Existing approaches to multi-agent belief combination have established mature foundations for combining uncertain beliefs under common assumptions: consensus methods use iterative averaging, logic-based methods resolve conflicting knowledge bases, and epistemic logic analyzes agents' information states. Typically, these approaches assume that th...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21210"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21210"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Adam Kostka (Warsaw University of Technology), Jaros{\\l}aw A. Chudziak (Warsaw University of Technology)"
+}

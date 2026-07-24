@@ -1,0 +1,19 @@
+{
+  "source": "rss",
+  "sourceId": "arxiv-cs-ai:oai:arXiv.org:2607.20480v1",
+  "fetchedAt": "2026-07-24T05:27:42.655Z",
+  "data": {
+    "guid": "arxiv-cs-ai:oai:arXiv.org:2607.20480v1",
+    "title": "Enabling Scalable Topology Inference in Distribution Systems via Constrained Multi-Source Inference",
+    "link": "https://arxiv.org/abs/2607.20480",
+    "description": "arXiv:2607.20480v1 Announce Type: new Abstract: Accurate distribution system topology is essential for outage localization, voltage analytics, and operation of distribution grids, yet maintaining reliable connectivity records remains challenging in practice due to heterogeneous and imperfect utility data. Existing topology identification methods often rely primarily on electrical similarity or spatial records alone, which become unreliable in dense feeders and under inconsistent metadata conditions. This paper formulates distribution topology identification as a constrained inference problem that refines a utility-provided base topology using heterogeneous evidence while enforcing spatial feasibility and physical operational constraints. Instead of reconstructing connectivity from scratch, the proposed framework detects inconsistent assignments, performs localized reconnection within constrained neighborhoods to ensure scalability, and iteratively enforces physical feasibility to produce operationally consistent topology estimates. In addition, a falsification-driven reliability metric evaluates how strongly each inferred connection is supported relative to alternative feasible assignments, enabling utilities to prioritize verification efforts while preserving system-wide observability. The framework is validated using operational data from three feeders comprising more than $8{,}000$ AMI meters in collaboration with a large U.S. utility. Results demonstrate over $95\\%$ topology reconstruction accuracy while significantly reducing computational effort compared with global inference approaches. The study further shows that correlation-based methods alone produce ambiguous assignments in dense urban feeders, whereas combining electrical measurements with spatial and operational constraints enables robust and scalable topology recovery under realistic deployment conditions.",
+    "publishedAt": "2026-07-24",
+    "author": "Haoran Li, Lihao Mai, Muhao Guo, Jiaqi Wu, Yang Weng",
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  },
+  "extra": {
+    "feedId": "arxiv-cs-ai",
+    "source": "arXiv cs.AI"
+  }
+}

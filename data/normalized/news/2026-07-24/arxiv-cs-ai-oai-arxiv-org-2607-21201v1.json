@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21201v1",
+  "name": "Bound-Founded Semantics for Answer Set Programming with Difference Constraints: Preliminary Report",
+  "summary": "arXiv:2607.21201v1 Announce Type: new Abstract: While the integration of linear constraints has significantly expanded the reach of Answer Set Programming (ASP), existing hybrid solvers often rely...",
+  "description": "arXiv:2607.21201v1 Announce Type: new Abstract: While the integration of linear constraints has significantly expanded the reach of Answer Set Programming (ASP), existing hybrid solvers often rely on disparate semantic underpinnings that lack a unified logical foundation. We address this gap by introducing a many-sorted variant of the Bound-founded Logic of Here-and-There (HTb), providing a ver...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21201"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21201"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Pedro Cabalar (University of A Corunna, Spain), Jorge Fandinno (University of Nebraska at Omaha, USA), Nicolas R\\\"uhling (University of Potsdam, Germany), Torsten Schaub (University of Potsdam, Germany,Potassco Solutions, Germany), Sebastian Schellhorn (University of Potsdam, Germany), Philipp Wanko (University of Potsdam, Germany,Potassco Solutions, Germany)"
+}

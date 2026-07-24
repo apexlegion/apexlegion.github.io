@@ -1,0 +1,40 @@
+{
+  "type": "paper",
+  "slug": "2607-21580",
+  "name": "GraphVid: Interactive Graph-Controllable Video Generation",
+  "summary": "Controllable video generation remains challenging due to the difficulty of specifying precise multi-object interactions using text prompts or motion-control inputs that primarily constrain pixel mo...",
+  "description": "Controllable video generation remains challenging due to the difficulty of specifying precise multi-object interactions using text prompts or motion-control inputs that primarily constrain pixel movement. In practice, trajectory-based control often requires users to draw accurate tracks for multiple objects, which scales poorly with scene complexity and becomes ambiguous under occlusion or overlap. To enable flexible yet precise multi-subject control, we introduce $\\textbf{GraphVid}$, a graph-conditioned image-to-video generation model that enables interactive control through structured int...",
+  "tags": [
+    "arxiv",
+    "cs.CV"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv abstract",
+      "href": "https://arxiv.org/abs/2607.21580v1"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-23",
+      "type": "paper",
+      "title": "Published on arXiv",
+      "description": "Listed in category cs.CV.",
+      "href": "https://arxiv.org/abs/2607.21580v1"
+    }
+  ],
+  "authors": [
+    "Vedant Shah",
+    "Onkar Susladkar",
+    "Tushar Prakash",
+    "Kiet Nguyen",
+    "Tianjio Yu",
+    "Adheesh Juvekar",
+    "Muntasir Waheed",
+    "Ismini Lourentzou"
+  ],
+  "paperId": "2607.21580",
+  "category": "cs.CV",
+  "publishedAt": "2026-07-23",
+  "abstract": "Controllable video generation remains challenging due to the difficulty of specifying precise multi-object interactions using text prompts or motion-control inputs that primarily constrain pixel movement. In practice, trajectory-based control often requires users to draw accurate tracks for multiple objects, which scales poorly with scene complexity and becomes ambiguous under occlusion or overlap. To enable flexible yet precise multi-subject control, we introduce $\\textbf{GraphVid}$, a graph-conditioned image-to-video generation model that enables interactive control through structured int..."
+}

@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20516v1",
+  "name": "Scaling Closed-Loop Feature Channel Configuration with LLMs",
+  "summary": "arXiv:2607.20516v1 Announce Type: cross Abstract: Promising initial results in closed-loop large-language-model-based channel-configuration search demonstrated that neural-network widths can be opt...",
+  "description": "arXiv:2607.20516v1 Announce Type: cross Abstract: Promising initial results in closed-loop large-language-model-based channel-configuration search demonstrated that neural-network widths can be optimized directly through executable code generation and accuracy feedback. However, those results were obtained from a relatively sparse set of valid evaluations, leaving open whether the observed opti...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20516"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20516"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Tolgay Atinc Uzun, Radu Timofte, Dmitry Ignatov"
+}

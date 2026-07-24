@@ -1,7 +1,7 @@
 {
   "source": "rss",
   "sourceId": "huggingface-blog:https://huggingface.co/blog/habana-gaudi-2-benchmark",
-  "fetchedAt": "2026-07-23T05:32:35.844Z",
+  "fetchedAt": "2026-07-24T05:27:42.625Z",
   "data": {
     "guid": "huggingface-blog:https://huggingface.co/blog/habana-gaudi-2-benchmark",
     "title": "Faster Training and Inference: Habana Gaudi®2 vs Nvidia A100 80GB",

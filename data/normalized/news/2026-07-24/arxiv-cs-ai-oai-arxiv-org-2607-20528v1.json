@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20528v1",
+  "name": "PromptPack: Scaling LLM Annotation Agents for Online Recommendation",
+  "summary": "arXiv:2607.20528v1 Announce Type: new Abstract: Online recommendation platforms increasingly use Large Language Models (LLMs) to extract structured features from ad creatives. While deploying a sin...",
+  "description": "arXiv:2607.20528v1 Announce Type: new Abstract: Online recommendation platforms increasingly use Large Language Models (LLMs) to extract structured features from ad creatives. While deploying a single-call LLM annotation agent yields significant Click-Through Rate (CTR) improvements in our live production environment, per-creative prompting is prohibitively expensive to scale. The redundant sys...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20528"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20528"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Sebastian Koralewski, Merwan Barlier, Yulia Stolin, Bla\\v{z} \\v{S}krlj"
+}

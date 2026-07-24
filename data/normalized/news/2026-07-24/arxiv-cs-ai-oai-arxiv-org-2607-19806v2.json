@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-19806v2",
+  "name": "OPIUM: Mitigating Steering Externalities and Over-Refusal via Dual Objective Latent Optimization",
+  "summary": "arXiv:2607.19806v2 Announce Type: replace-cross Abstract: Activation steering provides a lightweight mechanism for controlling large language models at inference time, but steering vectors can have...",
+  "description": "arXiv:2607.19806v2 Announce Type: replace-cross Abstract: Activation steering provides a lightweight mechanism for controlling large language models at inference time, but steering vectors can have unintended externalities: utility vectors may weaken safety behavior, while refusal vectors may induce over-refusal on benign prompts. We introduce OPIUM (Optimizing Protected Injections via Utility...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.19806"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.19806"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Kavin Aravindan, Arihant Rastogi, Krishak Aneja, Aadi Prasad, Saiyam Jain, Vaishnavi Shivkumar, Ponnurangam Kumaraguru"
+}

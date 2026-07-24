@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20461v1",
+  "name": "Can Valence Reflect Morality in Natural Language? A Preliminary Annotation Study",
+  "summary": "arXiv:2607.20461v1 Announce Type: cross Abstract: Present implementations of artificial intelligence (AI) ethics do not adequately take feelings, or affect, into account. If AI should be aligned wi...",
+  "description": "arXiv:2607.20461v1 Announce Type: cross Abstract: Present implementations of artificial intelligence (AI) ethics do not adequately take feelings, or affect, into account. If AI should be aligned with human ethics, it seems reasonable to thoroughly investigate the possibility of AI behaviour that mirrors virtuous human ethical conduct, where feelings play a role in the actions, judgements or sta...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20461"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20461"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Jonny O'Dwyer, Malika Bendechache, Louise McCormack, Elif Calik, Ramin Ranjbarzadeh, Dost Muhammad, Shokofeh Anari Bozcheloei, Ishita Singh"
+}

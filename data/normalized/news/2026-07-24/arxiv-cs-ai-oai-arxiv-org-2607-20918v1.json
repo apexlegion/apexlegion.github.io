@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-20918v1",
+  "name": "OPOD: On-Policy Omni Distillation",
+  "summary": "arXiv:2607.20918v1 Announce Type: new Abstract: Omni-modal models can handle text, images, and audio in one system, but improving all of these abilities together remains difficult. Training a singl...",
+  "description": "arXiv:2607.20918v1 Announce Type: new Abstract: Omni-modal models can handle text, images, and audio in one system, but improving all of these abilities together remains difficult. Training a single model on pooled multimodal data often fails to match models specialized for individual modalities. On-policy distillation (OPD) offers a way to combine such specialists: the student generates a resp...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.20918"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.20918"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Tong Zhao, Yuyang Hu, Reed Li, Yu Lu, Haibo Shi, Yutao Zhu, Zhicheng Dou"
+}

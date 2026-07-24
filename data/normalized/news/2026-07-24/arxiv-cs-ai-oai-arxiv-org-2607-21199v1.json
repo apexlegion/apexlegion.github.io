@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21199v1",
+  "name": "Towards a Certifying Grounder",
+  "summary": "arXiv:2607.21199v1 Announce Type: cross Abstract: Grounding, the translation of high-level theories into equivalent quantifier-free formulas, is a crucial step in declarative solving, yet it has so...",
+  "description": "arXiv:2607.21199v1 Announce Type: cross Abstract: Grounding, the translation of high-level theories into equivalent quantifier-free formulas, is a crucial step in declarative solving, yet it has so far escaped the proof-logging revolution. When this grounding step is not certifying, there is no way of knowing that the obtained solutions actually correspond to the original problem specification,...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21199"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21199"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Daimy Van Caudenberg, Alexander Ek, Carlos Cantero, Bart Bogaerts"
+}

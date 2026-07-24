@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-01043v3",
+  "name": "DART-VLN: Test-Time Memory Decay and Anti-Loop Regularization for Discrete Vision-Language Navigation",
+  "summary": "arXiv:2607.01043v3 Announce Type: replace-cross Abstract: Memory-based agents for discrete vision-language navigation (VLN) operate under partial observability and can exhibit systematic inference-...",
+  "description": "arXiv:2607.01043v3 Announce Type: replace-cross Abstract: Memory-based agents for discrete vision-language navigation (VLN) operate under partial observability and can exhibit systematic inference-time failures even with strong pretrained backbones. We focus on two recurring problems: stale historical evidence during memory readout and inefficient local backtracking during action selection. We...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.01043"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.01043"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Shaoheng Zhang, Zhichen Li, Jie Mei"
+}

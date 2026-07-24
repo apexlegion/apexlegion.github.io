@@ -1,0 +1,30 @@
+{
+  "type": "news",
+  "slug": "arxiv-cs-ai-oai-arxiv-org-2607-21517v1",
+  "name": "Improved lower bounds for the Shannon capacity of odd cycles",
+  "summary": "arXiv:2607.21517v1 Announce Type: cross Abstract: The Shannon capacity $\\Theta(G)$ of a graph $G$ quantifies the maximum rate at which information can be transmitted with zero error over a noisy ch...",
+  "description": "arXiv:2607.21517v1 Announce Type: cross Abstract: The Shannon capacity $\\Theta(G)$ of a graph $G$ quantifies the maximum rate at which information can be transmitted with zero error over a noisy channel. It is lower bounded by $\\alpha(G^d)^{1/d}$ for any $d$, where $\\alpha(G^d)$ is the independence number of the $d$-th strong power of $G$. We construct independent sets of size $134753$ in $C_7^...",
+  "tags": [
+    "news",
+    "arxiv-cs-ai"
+  ],
+  "externalLinks": [
+    {
+      "label": "arXiv cs.AI",
+      "href": "https://arxiv.org/abs/2607.21517"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-24",
+      "type": "milestone",
+      "title": "Published",
+      "description": "Posted by arXiv cs.AI.",
+      "href": "https://arxiv.org/abs/2607.21517"
+    }
+  ],
+  "source": "arXiv cs.AI",
+  "publishedAt": "2026-07-24",
+  "expiryAt": "2026-08-23T00:00:00.000Z",
+  "author": "Nathaniel Itty, Christopher D. Rosin, Chase Carstensen, Daniel Reichman"
+}
